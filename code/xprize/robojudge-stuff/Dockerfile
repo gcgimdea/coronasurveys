@@ -42,11 +42,17 @@ RUN su - xprize -c "git clone git@github.com:GCGImdea/coronasurveys.git"
 
 RUN su - xprize -c "git clone git@github.com:leaf-ai/covid-xprize-robotasks.git covid-xprize-robotasks-main"
 
+RUN su - xprize -c "git clone git@github.com:leaf-ai/covid-xprize.git"
+
 RUN su - xprize -c "cd ; ln -s  ~/coronasurveys/code/xprize work"
 
 #RUN su - xprize -c "cd coronasurveys/code/xprize;  patch  prescribe.py -i patch-prescribe.patch ; cd"
 
 RUN su - xprize -c "cd coronasurveys/code/xprize; pip3 install -r requirements.txt"
+
+RUN su - xprize -c "cd coronasurveys/code/xprize; pip3 install -e covid-xprize"
+
+
 
 
 # Create the log file to be able to run tail
