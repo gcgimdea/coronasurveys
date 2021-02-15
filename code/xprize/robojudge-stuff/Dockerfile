@@ -50,7 +50,7 @@ RUN su - xprize -c "cd ; ln -s  ~/coronasurveys/code/xprize work"
 
 RUN su - xprize -c "cd coronasurveys/code/xprize; pip3 install -r requirements.txt"
 
-RUN su - xprize -c "cd coronasurveys/code/xprize; pip3 install -e covid-xprize"
+RUN su - xprize -c "cd coronasurveys/code/xprize; pip3 install -e ~/covid-xprize"
 
 
 
