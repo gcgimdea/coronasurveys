@@ -1,33 +1,32 @@
 #/bin/bash
 
-if [ "$#" -ne 1 ]; then
-  echo "illegal number of parameters"
-  exit 1
-fi
+datapath="../data/"
+predictionspath="./predictions/"
+prescriptpath="./prescriptions/"
+outputpath="../../../data/xprize/cs-tasks/"
 
-weightfile=$1
-outfile="out.$$"
+predictorpath="../standard_predictor/"
+rscriptspath="../R-scripts/"
 
-starthistory="2020-11-01" # Date from which the IPS files start
+starthistory="2020-12-01" # Date from which the IPS files start
 startdate="2021-01-01" # Date from which predictions start
 today=`date +%Y-%m-%d` # Date from which prescriptions start
-# enddate="2021-04-30"  # Last date considered
 enddate=`date -v+89d +%Y-%m-%d`  # Last date considered (today plus 89 days)
 
 
-# Run CoronaSurveys prescriptor from today to enddate
+# Run prescriptor from today to enddate
 
 echo --- Running prescriptor $today $enddate
 
 echo --- With weights fixed_equal_costs.csv
 
-python prescribe.py -s $today -e "$enddate" -ip ./data/IPS-latest-full.csv \
-  -c ./data/fixed_equal_costs.csv -o ./prescriptions/fixed_equal_costs.csv
+python prescribe.py -s $today -e "$enddate" -ip ${datapath}IPS-latest-full.csv \
+  -c ${datapath}fixed_equal_costs.csv -o ${prescriptpath}fixed_equal_costs.csv
 
 echo --- With weights uniform_random_costs.csv
 
-python prescribe.py -s $today -e "$enddate" -ip ./data/IPS-latest-full.csv \
-  -c ./data/uniform_random_costs.csv -o ./prescriptions/uniform_random_costs.csv
+python prescribe.py -s $today -e "$enddate" -ip ${datapath}IPS-latest-full.csv \
+  -c ${datapath}uniform_random_costs.csv -o ${prescriptpath}uniform_random_costs.csv
 
 
 # Run the predictions for each prescriptor
@@ -38,50 +37,50 @@ do
 
   echo --- With weights fixed_equal_costs.csv
 
-  Rscript prepare-prediction.R $startdate $today $enddate ./data/IPS-latest-full.csv \
-    ./prescriptions/fixed_equal_costs.csv $i ./prescriptions/fixed_equal_costs-${i}.csv
+  Rscript ${rscriptspath}prepare-prediction.R $startdate $today $enddate ${datapath}IPS-latest-full.csv \
+    ${prescriptpath}fixed_equal_costs.csv $i ${prescriptpath}fixed_equal_costs-${i}.csv
 
 
   echo --- With weights uniform_random_costs.csv
 
-  Rscript prepare-prediction.R $startdate $today $enddate ./data/IPS-latest-full.csv \
-    ./prescriptions/uniform_random_costs.csv $i ./prescriptions/uniform_random_costs-${i}.csv
+  Rscript ${rscriptspath}prepare-prediction.R $startdate $today $enddate ${datapath}IPS-latest-full.csv \
+    ${prescriptpath}uniform_random_costs.csv $i ${prescriptpath}uniform_random_costs-${i}.csv
 
    
   echo --- Running predictor $i from $today to $enddate
 
   echo --- With weights fixed_equal_costs.csv
 
-  python standard_predictor/predict.py -s "$today" -e "$enddate" \
-    -ip ./prescriptions/fixed_equal_costs-${i}.csv -o ./predictions/fixed_equal_costs-${i}.csv
+  python ${predictorpath}predict.py -s "$today" -e "$enddate" \
+    -ip ${prescriptpath}fixed_equal_costs-${i}.csv -o ${predictionspath}fixed_equal_costs-${i}.csv
 
   echo --- With weights uniform_random_costs.csv
 
-  python standard_predictor/predict.py -s "$today" -e "$enddate" \
-    -ip ./prescriptions/uniform_random_costs-${i}.csv -o ./predictions/uniform_random_costs-${i}.csv
+  python ${predictorpath}predict.py -s "$today" -e "$enddate" \
+    -ip ${prescriptpath}uniform_random_costs-${i}.csv -o ${predictionspath}uniform_random_costs-${i}.csv
 
 
   echo -- Adding fatalities, hospital, ICU, Cost
 
   echo --- With weights fixed_equal_costs.csv 
 
-  Rscript add-deaths-hospital-cost.R ./predictions/fixed_equal_costs-${i}.csv ../../data/xprize/cs-tasks/fixed_equal_costs-${i}.csv \
-    $i ./prescriptions/fixed_equal_costs.csv ./data/fixed_equal_costs.csv
+  Rscript ${rscriptspath}add-deaths-hospital-cost.R ${predictionspath}fixed_equal_costs-${i}.csv ${outputpath}fixed_equal_costs-${i}.csv \
+    $i ${prescriptpath}fixed_equal_costs.csv ${datapath}fixed_equal_costs.csv
 
   echo --- With weights uniform_random_costs.csv 
 
-  Rscript add-deaths-hospital-cost.R ./predictions/uniform_random_costs-${i}.csv ../../data/xprize/cs-tasks/uniform_random_costs-${i}.csv \
-    $i ./prescriptions/uniform_random_costs.csv ./data/uniform_random_costs.csv 
+  Rscript ${rscriptspath}add-deaths-hospital-cost.R ${predictionspath}uniform_random_costs-${i}.csv ${outputpath}uniform_random_costs-${i}.csv \
+    $i ${prescriptpath}uniform_random_costs.csv ${datapath}uniform_random_costs.csv 
 
   echo -- Summarizing
   echo --- With weights fixed_equal_costs.csv
 
-  Rscript performance-summary.R ../../data/xprize/cs-tasks/fixed_equal_costs-${i}.csv \
-    ../../data/xprize/cs-tasks/fixed_equal_costs-summary-${i}.csv $i
+  Rscript ${rscriptspath}performance-summary.R ${outputpath}fixed_equal_costs-${i}.csv \
+    ${outputpath}fixed_equal_costs-summary-${i}.csv $i
 
   echo --- With weights uniform_random_costs.csv 
 
-  Rscript performance-summary.R ../../data/xprize/cs-tasks/uniform_random_costs-${i}.csv \
-    ../../data/xprize/cs-tasks/uniform_random_costs-summary-${i}.csv $i
+  Rscript ${rscriptspath}performance-summary.R ${outputpath}uniform_random_costs-${i}.csv \
+    ${outputpath}uniform_random_costs-summary-${i}.csv $i
 done
 

@@ -1,0 +1,144 @@
+2021-02-10 00:20:05 - prescribe5 - INFO - 
+2021-02-10 00:20:05 - prescribe5 - INFO - 
+2021-02-10 00:20:05 - prescribe5 - INFO - =========================================================================
+2021-02-10 00:20:05 - prescribe5 - INFO - Command: Rscript --vanilla prescribe.R 2021-02-10 2021-04-30 /Users/anto/github/coronasurveys/code/xprize/data/IPS-latest-full.csv /Users/anto/github/coronasurveys/code/xprize/data/fixed_equal_costs.csv /Users/anto/github/coronasurveys/code/xprize/prescribe5/prescribe5_output.csv /Users/anto/github/coronasurveys/code/xprize/prescribe5
+2021-02-10 00:20:05 - prescribe5 - INFO - =========================================================================
+2021-02-10 00:20:05 - prescribe5 - INFO - During startup - Warning messages:
+2021-02-10 00:20:05 - prescribe5 - INFO - 1: Setting LC_CTYPE failed, using "C"
+2021-02-10 00:20:05 - prescribe5 - INFO - 2: Setting LC_COLLATE failed, using "C"
+2021-02-10 00:20:05 - prescribe5 - INFO - 3: Setting LC_TIME failed, using "C"
+2021-02-10 00:20:05 - prescribe5 - INFO - 4: Setting LC_MESSAGES failed, using "C"
+2021-02-10 00:20:05 - prescribe5 - INFO - 5: Setting LC_MONETARY failed, using "C"
+2021-02-10 00:20:07 - prescribe5 - INFO - -- Attaching packages --------------------------------------- tidyverse 1.3.0 --
+2021-02-10 00:20:07 - prescribe5 - INFO - v ggplot2 3.3.2     v purrr   0.3.4
+2021-02-10 00:20:07 - prescribe5 - INFO - v tibble  3.0.4     v dplyr   1.0.2
+2021-02-10 00:20:07 - prescribe5 - INFO - v tidyr   1.1.2     v stringr 1.4.0
+2021-02-10 00:20:07 - prescribe5 - INFO - v readr   1.3.1     v forcats 0.5.0
+2021-02-10 00:20:07 - prescribe5 - INFO - -- Conflicts ------------------------------------------ tidyverse_conflicts() --
+2021-02-10 00:20:07 - prescribe5 - INFO - x dplyr::filter() masks stats::filter()
+2021-02-10 00:20:07 - prescribe5 - INFO - x dplyr::lag()    masks stats::lag()
+2021-02-10 00:24:37 - prescribe5 - INFO - Execution time prescribe5:  4.494858
+2021-02-10 00:24:37 - prescribe5 - INFO - Successfully executed /Users/anto/github/coronasurveys/code/xprize/prescribe5/prescribe.py
+2021-02-10 00:24:37 - prescribe5 - INFO - =========================================================================
+2021-02-10 00:24:37 - prescribe5 - INFO - Duration: 0:04:31.828470 seconds
+2021-02-10 00:24:37 - prescribe5 - INFO - =========================================================================
+2021-02-10 00:33:36 - prescribe5 - INFO - 
+2021-02-10 00:33:36 - prescribe5 - INFO - 
+2021-02-10 00:33:36 - prescribe5 - INFO - =========================================================================
+2021-02-10 00:33:36 - prescribe5 - INFO - Command: Rscript --vanilla prescribe.R 2021-02-10 2021-04-30 /Users/anto/github/coronasurveys/code/xprize/data/IPS-latest-full.csv /Users/anto/github/coronasurveys/code/xprize/data/uniform_random_costs.csv /Users/anto/github/coronasurveys/code/xprize/prescribe5/prescribe5_output.csv /Users/anto/github/coronasurveys/code/xprize/prescribe5
+2021-02-10 00:33:36 - prescribe5 - INFO - =========================================================================
+2021-02-10 00:33:37 - prescribe5 - INFO - During startup - Warning messages:
+2021-02-10 00:33:37 - prescribe5 - INFO - 1: Setting LC_CTYPE failed, using "C"
+2021-02-10 00:33:37 - prescribe5 - INFO - 2: Setting LC_COLLATE failed, using "C"
+2021-02-10 00:33:37 - prescribe5 - INFO - 3: Setting LC_TIME failed, using "C"
+2021-02-10 00:33:37 - prescribe5 - INFO - 4: Setting LC_MESSAGES failed, using "C"
+2021-02-10 00:33:37 - prescribe5 - INFO - 5: Setting LC_MONETARY failed, using "C"
+2021-02-10 00:33:38 - prescribe5 - INFO - -- Attaching packages --------------------------------------- tidyverse 1.3.0 --
+2021-02-10 00:33:38 - prescribe5 - INFO - v ggplot2 3.3.2     v purrr   0.3.4
+2021-02-10 00:33:38 - prescribe5 - INFO - v tibble  3.0.4     v dplyr   1.0.2
+2021-02-10 00:33:38 - prescribe5 - INFO - v tidyr   1.1.2     v stringr 1.4.0
+2021-02-10 00:33:38 - prescribe5 - INFO - v readr   1.3.1     v forcats 0.5.0
+2021-02-10 00:33:38 - prescribe5 - INFO - -- Conflicts ------------------------------------------ tidyverse_conflicts() --
+2021-02-10 00:33:38 - prescribe5 - INFO - x dplyr::filter() masks stats::filter()
+2021-02-10 00:33:38 - prescribe5 - INFO - x dplyr::lag()    masks stats::lag()
+2021-02-10 00:38:05 - prescribe5 - INFO - Execution time prescribe5:  4.451631
+2021-02-10 00:38:05 - prescribe5 - INFO - Successfully executed /Users/anto/github/coronasurveys/code/xprize/prescribe5/prescribe.py
+2021-02-10 00:38:05 - prescribe5 - INFO - =========================================================================
+2021-02-10 00:38:05 - prescribe5 - INFO - Duration: 0:04:29.049003 seconds
+2021-02-10 00:38:05 - prescribe5 - INFO - =========================================================================
+2021-02-10 11:49:26 - prescribe5 - INFO - 
+2021-02-10 11:49:26 - prescribe5 - INFO - 
+2021-02-10 11:49:26 - prescribe5 - INFO - =========================================================================
+2021-02-10 11:49:26 - prescribe5 - INFO - Command: Rscript --vanilla prescribe.R 2021-02-10 2021-05-10 /Users/anto/github/coronasurveys/code/xprize/data/IPS-latest-full.csv /Users/anto/github/coronasurveys/code/xprize/data/fixed_equal_costs.csv /Users/anto/github/coronasurveys/code/xprize/prescribe5/prescribe5_output.csv /Users/anto/github/coronasurveys/code/xprize/prescribe5
+2021-02-10 11:49:26 - prescribe5 - INFO - =========================================================================
+2021-02-10 11:49:26 - prescribe5 - INFO - During startup - Warning messages:
+2021-02-10 11:49:26 - prescribe5 - INFO - 1: Setting LC_CTYPE failed, using "C"
+2021-02-10 11:49:26 - prescribe5 - INFO - 2: Setting LC_COLLATE failed, using "C"
+2021-02-10 11:49:26 - prescribe5 - INFO - 3: Setting LC_TIME failed, using "C"
+2021-02-10 11:49:26 - prescribe5 - INFO - 4: Setting LC_MESSAGES failed, using "C"
+2021-02-10 11:49:26 - prescribe5 - INFO - 5: Setting LC_MONETARY failed, using "C"
+2021-02-10 11:49:28 - prescribe5 - INFO - -- Attaching packages --------------------------------------- tidyverse 1.3.0 --
+2021-02-10 11:49:28 - prescribe5 - INFO - v ggplot2 3.3.2     v purrr   0.3.4
+2021-02-10 11:49:28 - prescribe5 - INFO - v tibble  3.0.4     v dplyr   1.0.2
+2021-02-10 11:49:28 - prescribe5 - INFO - v tidyr   1.1.2     v stringr 1.4.0
+2021-02-10 11:49:28 - prescribe5 - INFO - v readr   1.3.1     v forcats 0.5.0
+2021-02-10 11:49:28 - prescribe5 - INFO - -- Conflicts ------------------------------------------ tidyverse_conflicts() --
+2021-02-10 11:49:28 - prescribe5 - INFO - x dplyr::filter() masks stats::filter()
+2021-02-10 11:49:28 - prescribe5 - INFO - x dplyr::lag()    masks stats::lag()
+2021-02-10 11:54:07 - prescribe5 - INFO - Execution time prescribe5:  4.653822
+2021-02-10 11:54:07 - prescribe5 - INFO - Successfully executed /Users/anto/github/coronasurveys/code/xprize/prescribe5/prescribe.py
+2021-02-10 11:54:07 - prescribe5 - INFO - =========================================================================
+2021-02-10 11:54:07 - prescribe5 - INFO - Duration: 0:04:41.406513 seconds
+2021-02-10 11:54:07 - prescribe5 - INFO - =========================================================================
+2021-02-10 12:03:28 - prescribe5 - INFO - 
+2021-02-10 12:03:28 - prescribe5 - INFO - 
+2021-02-10 12:03:28 - prescribe5 - INFO - =========================================================================
+2021-02-10 12:03:28 - prescribe5 - INFO - Command: Rscript --vanilla prescribe.R 2021-02-10 2021-05-10 /Users/anto/github/coronasurveys/code/xprize/data/IPS-latest-full.csv /Users/anto/github/coronasurveys/code/xprize/data/uniform_random_costs.csv /Users/anto/github/coronasurveys/code/xprize/prescribe5/prescribe5_output.csv /Users/anto/github/coronasurveys/code/xprize/prescribe5
+2021-02-10 12:03:28 - prescribe5 - INFO - =========================================================================
+2021-02-10 12:03:28 - prescribe5 - INFO - During startup - Warning messages:
+2021-02-10 12:03:28 - prescribe5 - INFO - 1: Setting LC_CTYPE failed, using "C"
+2021-02-10 12:03:28 - prescribe5 - INFO - 2: Setting LC_COLLATE failed, using "C"
+2021-02-10 12:03:28 - prescribe5 - INFO - 3: Setting LC_TIME failed, using "C"
+2021-02-10 12:03:28 - prescribe5 - INFO - 4: Setting LC_MESSAGES failed, using "C"
+2021-02-10 12:03:28 - prescribe5 - INFO - 5: Setting LC_MONETARY failed, using "C"
+2021-02-10 12:03:30 - prescribe5 - INFO - -- Attaching packages --------------------------------------- tidyverse 1.3.0 --
+2021-02-10 12:03:30 - prescribe5 - INFO - v ggplot2 3.3.2     v purrr   0.3.4
+2021-02-10 12:03:30 - prescribe5 - INFO - v tibble  3.0.4     v dplyr   1.0.2
+2021-02-10 12:03:30 - prescribe5 - INFO - v tidyr   1.1.2     v stringr 1.4.0
+2021-02-10 12:03:30 - prescribe5 - INFO - v readr   1.3.1     v forcats 0.5.0
+2021-02-10 12:03:30 - prescribe5 - INFO - -- Conflicts ------------------------------------------ tidyverse_conflicts() --
+2021-02-10 12:03:30 - prescribe5 - INFO - x dplyr::filter() masks stats::filter()
+2021-02-10 12:03:30 - prescribe5 - INFO - x dplyr::lag()    masks stats::lag()
+2021-02-10 12:08:20 - prescribe5 - INFO - Execution time prescribe5:  4.831613
+2021-02-10 12:08:20 - prescribe5 - INFO - Successfully executed /Users/anto/github/coronasurveys/code/xprize/prescribe5/prescribe.py
+2021-02-10 12:08:20 - prescribe5 - INFO - =========================================================================
+2021-02-10 12:08:20 - prescribe5 - INFO - Duration: 0:04:51.955567 seconds
+2021-02-10 12:08:20 - prescribe5 - INFO - =========================================================================
+2021-02-10 23:32:59 - prescribe5 - INFO - 
+2021-02-10 23:32:59 - prescribe5 - INFO - 
+2021-02-10 23:32:59 - prescribe5 - INFO - =========================================================================
+2021-02-10 23:32:59 - prescribe5 - INFO - Command: Rscript --vanilla prescribe.R 2021-02-10 2021-05-10 /Users/anto/github/coronasurveys/code/xprize/data/IPS-latest-full.csv /Users/anto/github/coronasurveys/code/xprize/data/fixed_equal_costs.csv /Users/anto/github/coronasurveys/code/xprize/prescribe5/prescribe5_output.csv /Users/anto/github/coronasurveys/code/xprize/prescribe5
+2021-02-10 23:32:59 - prescribe5 - INFO - =========================================================================
+2021-02-10 23:32:59 - prescribe5 - INFO - During startup - Warning messages:
+2021-02-10 23:32:59 - prescribe5 - INFO - 1: Setting LC_CTYPE failed, using "C"
+2021-02-10 23:32:59 - prescribe5 - INFO - 2: Setting LC_COLLATE failed, using "C"
+2021-02-10 23:32:59 - prescribe5 - INFO - 3: Setting LC_TIME failed, using "C"
+2021-02-10 23:32:59 - prescribe5 - INFO - 4: Setting LC_MESSAGES failed, using "C"
+2021-02-10 23:32:59 - prescribe5 - INFO - 5: Setting LC_MONETARY failed, using "C"
+2021-02-10 23:33:01 - prescribe5 - INFO - -- Attaching packages --------------------------------------- tidyverse 1.3.0 --
+2021-02-10 23:33:01 - prescribe5 - INFO - v ggplot2 3.3.2     v purrr   0.3.4
+2021-02-10 23:33:01 - prescribe5 - INFO - v tibble  3.0.4     v dplyr   1.0.2
+2021-02-10 23:33:01 - prescribe5 - INFO - v tidyr   1.1.2     v stringr 1.4.0
+2021-02-10 23:33:01 - prescribe5 - INFO - v readr   1.3.1     v forcats 0.5.0
+2021-02-10 23:33:01 - prescribe5 - INFO - -- Conflicts ------------------------------------------ tidyverse_conflicts() --
+2021-02-10 23:33:01 - prescribe5 - INFO - x dplyr::filter() masks stats::filter()
+2021-02-10 23:33:01 - prescribe5 - INFO - x dplyr::lag()    masks stats::lag()
+2021-02-10 23:37:14 - prescribe5 - INFO - Execution time prescribe5:  4.214186
+2021-02-10 23:37:14 - prescribe5 - INFO - Successfully executed /Users/anto/github/coronasurveys/code/xprize/prescribe5/prescribe.py
+2021-02-10 23:37:14 - prescribe5 - INFO - =========================================================================
+2021-02-10 23:37:14 - prescribe5 - INFO - Duration: 0:04:14.837215 seconds
+2021-02-10 23:37:14 - prescribe5 - INFO - =========================================================================
+2021-02-10 23:45:47 - prescribe5 - INFO - 
+2021-02-10 23:45:47 - prescribe5 - INFO - 
+2021-02-10 23:45:47 - prescribe5 - INFO - =========================================================================
+2021-02-10 23:45:47 - prescribe5 - INFO - Command: Rscript --vanilla prescribe.R 2021-02-10 2021-05-10 /Users/anto/github/coronasurveys/code/xprize/data/IPS-latest-full.csv /Users/anto/github/coronasurveys/code/xprize/data/uniform_random_costs.csv /Users/anto/github/coronasurveys/code/xprize/prescribe5/prescribe5_output.csv /Users/anto/github/coronasurveys/code/xprize/prescribe5
+2021-02-10 23:45:47 - prescribe5 - INFO - =========================================================================
+2021-02-10 23:45:48 - prescribe5 - INFO - During startup - Warning messages:
+2021-02-10 23:45:48 - prescribe5 - INFO - 1: Setting LC_CTYPE failed, using "C"
+2021-02-10 23:45:48 - prescribe5 - INFO - 2: Setting LC_COLLATE failed, using "C"
+2021-02-10 23:45:48 - prescribe5 - INFO - 3: Setting LC_TIME failed, using "C"
+2021-02-10 23:45:48 - prescribe5 - INFO - 4: Setting LC_MESSAGES failed, using "C"
+2021-02-10 23:45:48 - prescribe5 - INFO - 5: Setting LC_MONETARY failed, using "C"
+2021-02-10 23:45:49 - prescribe5 - INFO - -- Attaching packages --------------------------------------- tidyverse 1.3.0 --
+2021-02-10 23:45:49 - prescribe5 - INFO - v ggplot2 3.3.2     v purrr   0.3.4
+2021-02-10 23:45:49 - prescribe5 - INFO - v tibble  3.0.4     v dplyr   1.0.2
+2021-02-10 23:45:49 - prescribe5 - INFO - v tidyr   1.1.2     v stringr 1.4.0
+2021-02-10 23:45:49 - prescribe5 - INFO - v readr   1.3.1     v forcats 0.5.0
+2021-02-10 23:45:49 - prescribe5 - INFO - -- Conflicts ------------------------------------------ tidyverse_conflicts() --
+2021-02-10 23:45:49 - prescribe5 - INFO - x dplyr::filter() masks stats::filter()
+2021-02-10 23:45:49 - prescribe5 - INFO - x dplyr::lag()    masks stats::lag()
+2021-02-10 23:50:01 - prescribe5 - INFO - Execution time prescribe5:  4.19904
+2021-02-10 23:50:01 - prescribe5 - INFO - Successfully executed /Users/anto/github/coronasurveys/code/xprize/prescribe5/prescribe.py
+2021-02-10 23:50:01 - prescribe5 - INFO - =========================================================================
+2021-02-10 23:50:01 - prescribe5 - INFO - Duration: 0:04:13.950594 seconds
+2021-02-10 23:50:01 - prescribe5 - INFO - =========================================================================

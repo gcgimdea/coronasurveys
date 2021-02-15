@@ -1,0 +1,396 @@
+2021-02-09 10:18:21 - main - INFO - 
+2021-02-09 10:18:21 - main - INFO - 
+2021-02-09 10:18:21 - main - INFO - #######  EXECUTING CORONASURVEYS MULTI-PRESCRIPTOR RUNNER  #####################################
+2021-02-09 10:18:21 - main - INFO - 
+2021-02-09 10:18:21 - main - INFO - Successfully created the directory ./prescriptions
+2021-02-09 10:18:21 - main - INFO - 
+2021-02-09 10:18:21 - main - INFO - ***************************************************************************************
+2021-02-09 10:18:21 - main - INFO - ********* CORONASURVEYS PRESCRIPTIONS *************************************************
+2021-02-09 10:18:21 - main - INFO - [
+                                "prescribe0/prescribe.py",
+                                "prescribe1/prescribe.py",
+                                "prescribe2/prescribe.py",
+                                "prescribe3/prescribe.py",
+                                "prescribe4/prescribe.py",
+                                "prescribe5/prescribe.py",
+                                "prescribe6/prescribe.py",
+                                "prescribe7/prescribe.py",
+                                "prescribe8/prescribe.py",
+                                "prescribe9/prescribe.py"
+]
+2021-02-09 10:18:21 - main - INFO - ***************************************************************************************
+2021-02-09 10:18:21 - main - INFO - 
+2021-02-09 10:18:21 - main - INFO - Launching prescriptor [prescribe0/prescribe.py] from 2021-02-09 to 2021-02-28
+2021-02-09 10:18:21 - main - INFO - Command: python prescribe.py --start_date 2021-02-09 --end_date 2021-02-28 --interventions_past /Users/anto/github/coronasurveys/code/xprize/data/IPS-latest-full.csv --intervention_costs /Users/anto/github/coronasurveys/code/xprize/data/fixed_equal_costs.csv --output_file /Users/anto/github/coronasurveys/code/xprize/prescribe0/prescribe0_output.csv
+2021-02-09 10:18:21 - main - INFO - Main script - Successfully launched subprocesses.
+2021-02-09 10:18:21 - main - INFO - Launching prescriptor [prescribe1/prescribe.py] from 2021-02-09 to 2021-02-28
+2021-02-09 10:18:22 - main - INFO - Command: python prescribe.py --start_date 2021-02-09 --end_date 2021-02-28 --interventions_past /Users/anto/github/coronasurveys/code/xprize/data/IPS-latest-full.csv --intervention_costs /Users/anto/github/coronasurveys/code/xprize/data/fixed_equal_costs.csv --output_file /Users/anto/github/coronasurveys/code/xprize/prescribe1/prescribe1_output.csv
+2021-02-09 10:18:22 - main - INFO - Main script - Successfully launched subprocesses.
+2021-02-09 10:18:22 - main - INFO - Launching prescriptor [prescribe2/prescribe.py] from 2021-02-09 to 2021-02-28
+2021-02-09 10:18:22 - main - INFO - Command: python prescribe.py --start_date 2021-02-09 --end_date 2021-02-28 --interventions_past /Users/anto/github/coronasurveys/code/xprize/data/IPS-latest-full.csv --intervention_costs /Users/anto/github/coronasurveys/code/xprize/data/fixed_equal_costs.csv --output_file /Users/anto/github/coronasurveys/code/xprize/prescribe2/prescribe2_output.csv
+2021-02-09 10:18:22 - main - INFO - Main script - Successfully launched subprocesses.
+2021-02-09 10:18:22 - main - INFO - Launching prescriptor [prescribe3/prescribe.py] from 2021-02-09 to 2021-02-28
+2021-02-09 10:18:23 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2021-02-09 10:18:23 - main - INFO - Command: python prescribe.py --start_date 2021-02-09 --end_date 2021-02-28 --interventions_past /Users/anto/github/coronasurveys/code/xprize/data/IPS-latest-full.csv --intervention_costs /Users/anto/github/coronasurveys/code/xprize/data/fixed_equal_costs.csv --output_file /Users/anto/github/coronasurveys/code/xprize/prescribe3/prescribe3_output.csv
+2021-02-09 10:18:23 - main - INFO - Main script - Successfully launched subprocesses.
+2021-02-09 10:18:23 - main - INFO - Launching prescriptor [prescribe4/prescribe.py] from 2021-02-09 to 2021-02-28
+2021-02-09 10:18:23 - main - INFO - Command: python prescribe.py --start_date 2021-02-09 --end_date 2021-02-28 --interventions_past /Users/anto/github/coronasurveys/code/xprize/data/IPS-latest-full.csv --intervention_costs /Users/anto/github/coronasurveys/code/xprize/data/fixed_equal_costs.csv --output_file /Users/anto/github/coronasurveys/code/xprize/prescribe4/prescribe4_output.csv
+2021-02-09 10:18:23 - main - INFO - Main script - Successfully launched subprocesses.
+2021-02-09 10:18:23 - main - INFO - Launching prescriptor [prescribe5/prescribe.py] from 2021-02-09 to 2021-02-28
+2021-02-09 10:18:24 - main - INFO - Command: python prescribe.py --start_date 2021-02-09 --end_date 2021-02-28 --interventions_past /Users/anto/github/coronasurveys/code/xprize/data/IPS-latest-full.csv --intervention_costs /Users/anto/github/coronasurveys/code/xprize/data/fixed_equal_costs.csv --output_file /Users/anto/github/coronasurveys/code/xprize/prescribe5/prescribe5_output.csv
+2021-02-09 10:18:24 - main - INFO - Main script - Successfully launched subprocesses.
+2021-02-09 10:18:24 - main - INFO - Launching prescriptor [prescribe6/prescribe.py] from 2021-02-09 to 2021-02-28
+2021-02-09 10:18:25 - main - INFO - Command: python prescribe.py --start_date 2021-02-09 --end_date 2021-02-28 --interventions_past /Users/anto/github/coronasurveys/code/xprize/data/IPS-latest-full.csv --intervention_costs /Users/anto/github/coronasurveys/code/xprize/data/fixed_equal_costs.csv --output_file /Users/anto/github/coronasurveys/code/xprize/prescribe6/prescribe6_output.csv
+2021-02-09 10:18:25 - main - INFO - Main script - Successfully launched subprocesses.
+2021-02-09 10:18:25 - main - INFO - Launching prescriptor [prescribe7/prescribe.py] from 2021-02-09 to 2021-02-28
+2021-02-09 10:18:25 - main - INFO - Command: python prescribe.py --start_date 2021-02-09 --end_date 2021-02-28 --interventions_past /Users/anto/github/coronasurveys/code/xprize/data/IPS-latest-full.csv --intervention_costs /Users/anto/github/coronasurveys/code/xprize/data/fixed_equal_costs.csv --output_file /Users/anto/github/coronasurveys/code/xprize/prescribe7/prescribe7_output.csv
+2021-02-09 10:18:25 - main - INFO - Main script - Successfully launched subprocesses.
+2021-02-09 10:18:25 - main - INFO - Launching prescriptor [prescribe8/prescribe.py] from 2021-02-09 to 2021-02-28
+2021-02-09 10:18:26 - main - INFO - Command: python prescribe.py --start_date 2021-02-09 --end_date 2021-02-28 --interventions_past /Users/anto/github/coronasurveys/code/xprize/data/IPS-latest-full.csv --intervention_costs /Users/anto/github/coronasurveys/code/xprize/data/fixed_equal_costs.csv --output_file /Users/anto/github/coronasurveys/code/xprize/prescribe8/prescribe8_output.csv
+2021-02-09 10:18:26 - main - INFO - Main script - Successfully launched subprocesses.
+2021-02-09 10:18:26 - main - INFO - Launching prescriptor [prescribe9/prescribe.py] from 2021-02-09 to 2021-02-28
+2021-02-09 10:18:27 - main - INFO - Command: python prescribe.py --start_date 2021-02-09 --end_date 2021-02-28 --interventions_past /Users/anto/github/coronasurveys/code/xprize/data/IPS-latest-full.csv --intervention_costs /Users/anto/github/coronasurveys/code/xprize/data/fixed_equal_costs.csv --output_file /Users/anto/github/coronasurveys/code/xprize/prescribe9/prescribe9_output.csv
+2021-02-09 10:18:27 - main - INFO - Main script - Successfully launched subprocesses.
+2021-02-09 10:18:27 - main - INFO - 
+2021-02-09 10:18:27 - main - INFO - ####### Launched CORONASURVEYS MULTI-PRESCRIPTOR RUNNER
+2021-02-09 10:18:27 - main - INFO - 
+2021-02-09 10:18:28 - main - INFO - 
+2021-02-09 10:18:28 - main - INFO - ---------------------------------------------------------------------------------------
+2021-02-09 10:18:28 - main - INFO - Prescriptor: prescribe0/prescribe.py - exitcode: 0
+2021-02-09 10:18:28 - main - INFO - ---------------------------------------------------------------------------------------
+2021-02-09 10:18:28 - main - INFO - 
+2021-02-09 10:18:28 - main - INFO - ---------------------------------------------------------------------------------------
+2021-02-09 10:18:28 - main - INFO - Prescriptor: prescribe4/prescribe.py - exitcode: 0
+2021-02-09 10:18:28 - main - INFO - ---------------------------------------------------------------------------------------
+2021-02-09 10:18:29 - main - INFO - 
+2021-02-09 10:18:29 - main - INFO - ---------------------------------------------------------------------------------------
+2021-02-09 10:18:29 - main - INFO - Prescriptor: prescribe3/prescribe.py - exitcode: 0
+2021-02-09 10:18:29 - main - INFO - ---------------------------------------------------------------------------------------
+2021-02-09 10:19:54 - prescribe2 - INFO - Successfully executed /Users/anto/github/coronasurveys/code/xprize/prescribe2/prescribe.py
+2021-02-09 10:19:54 - prescribe2 - INFO - Duration: 0:01:31.520408 seconds
+2021-02-09 10:19:55 - main - INFO - 
+2021-02-09 10:19:55 - main - INFO - ---------------------------------------------------------------------------------------
+2021-02-09 10:19:55 - main - INFO - Prescriptor: prescribe2/prescribe.py - exitcode: 0
+2021-02-09 10:19:55 - main - INFO - ---------------------------------------------------------------------------------------
+2021-02-09 10:19:58 - main - INFO - 
+2021-02-09 10:19:58 - main - INFO - ---------------------------------------------------------------------------------------
+2021-02-09 10:19:58 - main - INFO - Prescriptor: prescribe7/prescribe.py - exitcode: 0
+2021-02-09 10:19:58 - main - INFO - ---------------------------------------------------------------------------------------
+2021-02-09 10:22:02 - main - INFO - 
+2021-02-09 10:22:02 - main - INFO - ---------------------------------------------------------------------------------------
+2021-02-09 10:22:02 - main - INFO - Prescriptor: prescribe5/prescribe.py - exitcode: 0
+2021-02-09 10:22:02 - main - INFO - ---------------------------------------------------------------------------------------
+2021-02-09 10:22:03 - main - INFO - 
+2021-02-09 10:22:03 - main - INFO - ---------------------------------------------------------------------------------------
+2021-02-09 10:22:03 - main - INFO - Prescriptor: prescribe6/prescribe.py - exitcode: 0
+2021-02-09 10:22:03 - main - INFO - ---------------------------------------------------------------------------------------
+2021-02-09 10:24:35 - main - INFO - 
+2021-02-09 10:24:35 - main - INFO - ---------------------------------------------------------------------------------------
+2021-02-09 10:24:35 - main - INFO - Prescriptor: prescribe1/prescribe.py - exitcode: 0
+2021-02-09 10:24:35 - main - INFO - ---------------------------------------------------------------------------------------
+2021-02-09 10:24:37 - main - INFO - 
+2021-02-09 10:24:37 - main - INFO - ---------------------------------------------------------------------------------------
+2021-02-09 10:24:37 - main - INFO - Prescriptor: prescribe8/prescribe.py - exitcode: 0
+2021-02-09 10:24:37 - main - INFO - ---------------------------------------------------------------------------------------
+2021-02-09 10:24:39 - main - INFO - 
+2021-02-09 10:24:39 - main - INFO - ---------------------------------------------------------------------------------------
+2021-02-09 10:24:39 - main - INFO - Prescriptor: prescribe9/prescribe.py - exitcode: 0
+2021-02-09 10:24:39 - main - INFO - ---------------------------------------------------------------------------------------
+2021-02-09 10:24:39 - main - INFO - #######   COMPLETED CORONASURVEYS MULTI-PRESCRIPTOR RUNNER  #####################################
+2021-02-09 10:24:40 - main - INFO - 
+2021-02-09 10:24:40 - main - INFO - 
+2021-02-09 10:24:40 - main - INFO - #######  EXECUTING CORONASURVEYS MULTI-PRESCRIPTOR RUNNER  #####################################
+2021-02-09 10:24:40 - main - INFO - 
+2021-02-09 10:24:40 - main - INFO - Successfully created the directory ./prescriptions
+2021-02-09 10:24:40 - main - INFO - 
+2021-02-09 10:24:40 - main - INFO - ***************************************************************************************
+2021-02-09 10:24:40 - main - INFO - ********* CORONASURVEYS PRESCRIPTIONS *************************************************
+2021-02-09 10:24:40 - main - INFO - [
+                                "prescribe0/prescribe.py",
+                                "prescribe1/prescribe.py",
+                                "prescribe2/prescribe.py",
+                                "prescribe3/prescribe.py",
+                                "prescribe4/prescribe.py",
+                                "prescribe5/prescribe.py",
+                                "prescribe6/prescribe.py",
+                                "prescribe7/prescribe.py",
+                                "prescribe8/prescribe.py",
+                                "prescribe9/prescribe.py"
+]
+2021-02-09 10:24:40 - main - INFO - ***************************************************************************************
+2021-02-09 10:24:40 - main - INFO - 
+2021-02-09 10:24:40 - main - INFO - Launching prescriptor [prescribe0/prescribe.py] from 2021-02-09 to 2021-02-28
+2021-02-09 10:24:41 - main - INFO - Command: python prescribe.py --start_date 2021-02-09 --end_date 2021-02-28 --interventions_past /Users/anto/github/coronasurveys/code/xprize/data/IPS-latest-full.csv --intervention_costs /Users/anto/github/coronasurveys/code/xprize/data/uniform_random_costs.csv --output_file /Users/anto/github/coronasurveys/code/xprize/prescribe0/prescribe0_output.csv
+2021-02-09 10:24:41 - main - INFO - Main script - Successfully launched subprocesses.
+2021-02-09 10:24:41 - main - INFO - Launching prescriptor [prescribe1/prescribe.py] from 2021-02-09 to 2021-02-28
+2021-02-09 10:24:41 - main - INFO - Command: python prescribe.py --start_date 2021-02-09 --end_date 2021-02-28 --interventions_past /Users/anto/github/coronasurveys/code/xprize/data/IPS-latest-full.csv --intervention_costs /Users/anto/github/coronasurveys/code/xprize/data/uniform_random_costs.csv --output_file /Users/anto/github/coronasurveys/code/xprize/prescribe1/prescribe1_output.csv
+2021-02-09 10:24:41 - main - INFO - Main script - Successfully launched subprocesses.
+2021-02-09 10:24:41 - main - INFO - Launching prescriptor [prescribe2/prescribe.py] from 2021-02-09 to 2021-02-28
+2021-02-09 10:24:41 - main - INFO - Command: python prescribe.py --start_date 2021-02-09 --end_date 2021-02-28 --interventions_past /Users/anto/github/coronasurveys/code/xprize/data/IPS-latest-full.csv --intervention_costs /Users/anto/github/coronasurveys/code/xprize/data/uniform_random_costs.csv --output_file /Users/anto/github/coronasurveys/code/xprize/prescribe2/prescribe2_output.csv
+2021-02-09 10:24:41 - main - INFO - Main script - Successfully launched subprocesses.
+2021-02-09 10:24:41 - main - INFO - Launching prescriptor [prescribe3/prescribe.py] from 2021-02-09 to 2021-02-28
+2021-02-09 10:24:42 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2021-02-09 10:24:42 - main - INFO - Command: python prescribe.py --start_date 2021-02-09 --end_date 2021-02-28 --interventions_past /Users/anto/github/coronasurveys/code/xprize/data/IPS-latest-full.csv --intervention_costs /Users/anto/github/coronasurveys/code/xprize/data/uniform_random_costs.csv --output_file /Users/anto/github/coronasurveys/code/xprize/prescribe3/prescribe3_output.csv
+2021-02-09 10:24:42 - main - INFO - Main script - Successfully launched subprocesses.
+2021-02-09 10:24:42 - main - INFO - Launching prescriptor [prescribe4/prescribe.py] from 2021-02-09 to 2021-02-28
+2021-02-09 10:24:42 - main - INFO - Command: python prescribe.py --start_date 2021-02-09 --end_date 2021-02-28 --interventions_past /Users/anto/github/coronasurveys/code/xprize/data/IPS-latest-full.csv --intervention_costs /Users/anto/github/coronasurveys/code/xprize/data/uniform_random_costs.csv --output_file /Users/anto/github/coronasurveys/code/xprize/prescribe4/prescribe4_output.csv
+2021-02-09 10:24:43 - main - INFO - Main script - Successfully launched subprocesses.
+2021-02-09 10:24:43 - main - INFO - Launching prescriptor [prescribe5/prescribe.py] from 2021-02-09 to 2021-02-28
+2021-02-09 10:24:43 - main - INFO - Command: python prescribe.py --start_date 2021-02-09 --end_date 2021-02-28 --interventions_past /Users/anto/github/coronasurveys/code/xprize/data/IPS-latest-full.csv --intervention_costs /Users/anto/github/coronasurveys/code/xprize/data/uniform_random_costs.csv --output_file /Users/anto/github/coronasurveys/code/xprize/prescribe5/prescribe5_output.csv
+2021-02-09 10:24:43 - main - INFO - Main script - Successfully launched subprocesses.
+2021-02-09 10:24:43 - main - INFO - Launching prescriptor [prescribe6/prescribe.py] from 2021-02-09 to 2021-02-28
+2021-02-09 10:24:44 - main - INFO - Command: python prescribe.py --start_date 2021-02-09 --end_date 2021-02-28 --interventions_past /Users/anto/github/coronasurveys/code/xprize/data/IPS-latest-full.csv --intervention_costs /Users/anto/github/coronasurveys/code/xprize/data/uniform_random_costs.csv --output_file /Users/anto/github/coronasurveys/code/xprize/prescribe6/prescribe6_output.csv
+2021-02-09 10:24:44 - main - INFO - Main script - Successfully launched subprocesses.
+2021-02-09 10:24:44 - main - INFO - Launching prescriptor [prescribe7/prescribe.py] from 2021-02-09 to 2021-02-28
+2021-02-09 10:24:45 - main - INFO - Command: python prescribe.py --start_date 2021-02-09 --end_date 2021-02-28 --interventions_past /Users/anto/github/coronasurveys/code/xprize/data/IPS-latest-full.csv --intervention_costs /Users/anto/github/coronasurveys/code/xprize/data/uniform_random_costs.csv --output_file /Users/anto/github/coronasurveys/code/xprize/prescribe7/prescribe7_output.csv
+2021-02-09 10:24:45 - main - INFO - Main script - Successfully launched subprocesses.
+2021-02-09 10:24:45 - main - INFO - Launching prescriptor [prescribe8/prescribe.py] from 2021-02-09 to 2021-02-28
+2021-02-09 10:24:46 - main - INFO - Command: python prescribe.py --start_date 2021-02-09 --end_date 2021-02-28 --interventions_past /Users/anto/github/coronasurveys/code/xprize/data/IPS-latest-full.csv --intervention_costs /Users/anto/github/coronasurveys/code/xprize/data/uniform_random_costs.csv --output_file /Users/anto/github/coronasurveys/code/xprize/prescribe8/prescribe8_output.csv
+2021-02-09 10:24:46 - main - INFO - Main script - Successfully launched subprocesses.
+2021-02-09 10:24:46 - main - INFO - Launching prescriptor [prescribe9/prescribe.py] from 2021-02-09 to 2021-02-28
+2021-02-09 10:24:47 - main - INFO - Command: python prescribe.py --start_date 2021-02-09 --end_date 2021-02-28 --interventions_past /Users/anto/github/coronasurveys/code/xprize/data/IPS-latest-full.csv --intervention_costs /Users/anto/github/coronasurveys/code/xprize/data/uniform_random_costs.csv --output_file /Users/anto/github/coronasurveys/code/xprize/prescribe9/prescribe9_output.csv
+2021-02-09 10:24:47 - main - INFO - Main script - Successfully launched subprocesses.
+2021-02-09 10:24:47 - main - INFO - 
+2021-02-09 10:24:47 - main - INFO - ####### Launched CORONASURVEYS MULTI-PRESCRIPTOR RUNNER
+2021-02-09 10:24:47 - main - INFO - 
+2021-02-09 10:24:48 - main - INFO - 
+2021-02-09 10:24:48 - main - INFO - ---------------------------------------------------------------------------------------
+2021-02-09 10:24:48 - main - INFO - Prescriptor: prescribe0/prescribe.py - exitcode: 0
+2021-02-09 10:24:48 - main - INFO - ---------------------------------------------------------------------------------------
+2021-02-09 10:24:48 - main - INFO - 
+2021-02-09 10:24:48 - main - INFO - ---------------------------------------------------------------------------------------
+2021-02-09 10:24:48 - main - INFO - Prescriptor: prescribe4/prescribe.py - exitcode: 0
+2021-02-09 10:24:48 - main - INFO - ---------------------------------------------------------------------------------------
+2021-02-09 10:24:50 - main - INFO - 
+2021-02-09 10:24:50 - main - INFO - ---------------------------------------------------------------------------------------
+2021-02-09 10:24:50 - main - INFO - Prescriptor: prescribe3/prescribe.py - exitcode: 0
+2021-02-09 10:24:50 - main - INFO - ---------------------------------------------------------------------------------------
+2021-02-09 10:26:10 - prescribe2 - INFO - Successfully executed /Users/anto/github/coronasurveys/code/xprize/prescribe2/prescribe.py
+2021-02-09 10:26:10 - prescribe2 - INFO - Duration: 0:01:28.633630 seconds
+2021-02-09 10:26:11 - main - INFO - 
+2021-02-09 10:26:11 - main - INFO - ---------------------------------------------------------------------------------------
+2021-02-09 10:26:11 - main - INFO - Prescriptor: prescribe2/prescribe.py - exitcode: 0
+2021-02-09 10:26:11 - main - INFO - ---------------------------------------------------------------------------------------
+2021-02-09 10:26:14 - main - INFO - 
+2021-02-09 10:26:14 - main - INFO - ---------------------------------------------------------------------------------------
+2021-02-09 10:26:14 - main - INFO - Prescriptor: prescribe7/prescribe.py - exitcode: 0
+2021-02-09 10:26:14 - main - INFO - ---------------------------------------------------------------------------------------
+2021-02-09 10:28:25 - main - INFO - 
+2021-02-09 10:28:25 - main - INFO - ---------------------------------------------------------------------------------------
+2021-02-09 10:28:25 - main - INFO - Prescriptor: prescribe5/prescribe.py - exitcode: 0
+2021-02-09 10:28:25 - main - INFO - ---------------------------------------------------------------------------------------
+2021-02-09 10:28:26 - main - INFO - 
+2021-02-09 10:28:26 - main - INFO - ---------------------------------------------------------------------------------------
+2021-02-09 10:28:26 - main - INFO - Prescriptor: prescribe6/prescribe.py - exitcode: 0
+2021-02-09 10:28:26 - main - INFO - ---------------------------------------------------------------------------------------
+2021-02-09 10:31:04 - main - INFO - 
+2021-02-09 10:31:04 - main - INFO - ---------------------------------------------------------------------------------------
+2021-02-09 10:31:04 - main - INFO - Prescriptor: prescribe1/prescribe.py - exitcode: 0
+2021-02-09 10:31:04 - main - INFO - ---------------------------------------------------------------------------------------
+2021-02-09 10:31:05 - main - INFO - 
+2021-02-09 10:31:05 - main - INFO - ---------------------------------------------------------------------------------------
+2021-02-09 10:31:05 - main - INFO - Prescriptor: prescribe8/prescribe.py - exitcode: 0
+2021-02-09 10:31:05 - main - INFO - ---------------------------------------------------------------------------------------
+2021-02-09 10:31:08 - main - INFO - 
+2021-02-09 10:31:08 - main - INFO - ---------------------------------------------------------------------------------------
+2021-02-09 10:31:08 - main - INFO - Prescriptor: prescribe9/prescribe.py - exitcode: 0
+2021-02-09 10:31:08 - main - INFO - ---------------------------------------------------------------------------------------
+2021-02-09 10:31:08 - main - INFO - #######   COMPLETED CORONASURVEYS MULTI-PRESCRIPTOR RUNNER  #####################################
+2021-02-09 20:28:13 - main - INFO - 
+2021-02-09 20:28:13 - main - INFO - 
+2021-02-09 20:28:13 - main - INFO - #######  EXECUTING CORONASURVEYS MULTI-PRESCRIPTOR RUNNER  #####################################
+2021-02-09 20:28:13 - main - INFO - 
+2021-02-09 20:28:13 - main - INFO - Successfully created the directory ./prescriptions
+2021-02-09 20:28:13 - main - INFO - 
+2021-02-09 20:28:13 - main - INFO - ***************************************************************************************
+2021-02-09 20:28:13 - main - INFO - ********* CORONASURVEYS PRESCRIPTIONS *************************************************
+2021-02-09 20:28:13 - main - INFO - [
+                                "prescribe0/prescribe.py",
+                                "prescribe1/prescribe.py",
+                                "prescribe2/prescribe.py",
+                                "prescribe3/prescribe.py",
+                                "prescribe4/prescribe.py",
+                                "prescribe5/prescribe.py",
+                                "prescribe6/prescribe.py",
+                                "prescribe7/prescribe.py",
+                                "prescribe8/prescribe.py",
+                                "prescribe9/prescribe.py"
+]
+2021-02-09 20:28:13 - main - INFO - ***************************************************************************************
+2021-02-09 20:28:13 - main - INFO - 
+2021-02-09 20:28:13 - main - INFO - Launching prescriptor [prescribe0/prescribe.py] from 2021-02-09 to 2021-04-30
+2021-02-09 20:28:14 - main - INFO - Command: python prescribe.py --start_date 2021-02-09 --end_date 2021-04-30 --interventions_past /Users/anto/github/coronasurveys/code/xprize/data/IPS-latest-full.csv --intervention_costs /Users/anto/github/coronasurveys/code/xprize/data/fixed_equal_costs.csv --output_file /Users/anto/github/coronasurveys/code/xprize/prescribe0/prescribe0_output.csv
+2021-02-09 20:28:14 - main - INFO - Main script - Successfully launched subprocesses.
+2021-02-09 20:28:14 - main - INFO - Launching prescriptor [prescribe1/prescribe.py] from 2021-02-09 to 2021-04-30
+2021-02-09 20:28:14 - main - INFO - Command: python prescribe.py --start_date 2021-02-09 --end_date 2021-04-30 --interventions_past /Users/anto/github/coronasurveys/code/xprize/data/IPS-latest-full.csv --intervention_costs /Users/anto/github/coronasurveys/code/xprize/data/fixed_equal_costs.csv --output_file /Users/anto/github/coronasurveys/code/xprize/prescribe1/prescribe1_output.csv
+2021-02-09 20:28:14 - main - INFO - Main script - Successfully launched subprocesses.
+2021-02-09 20:28:14 - main - INFO - Launching prescriptor [prescribe2/prescribe.py] from 2021-02-09 to 2021-04-30
+2021-02-09 20:28:15 - main - INFO - Command: python prescribe.py --start_date 2021-02-09 --end_date 2021-04-30 --interventions_past /Users/anto/github/coronasurveys/code/xprize/data/IPS-latest-full.csv --intervention_costs /Users/anto/github/coronasurveys/code/xprize/data/fixed_equal_costs.csv --output_file /Users/anto/github/coronasurveys/code/xprize/prescribe2/prescribe2_output.csv
+2021-02-09 20:28:15 - main - INFO - Main script - Successfully launched subprocesses.
+2021-02-09 20:28:15 - main - INFO - Launching prescriptor [prescribe3/prescribe.py] from 2021-02-09 to 2021-04-30
+2021-02-09 20:28:15 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2021-02-09 20:28:16 - main - INFO - Command: python prescribe.py --start_date 2021-02-09 --end_date 2021-04-30 --interventions_past /Users/anto/github/coronasurveys/code/xprize/data/IPS-latest-full.csv --intervention_costs /Users/anto/github/coronasurveys/code/xprize/data/fixed_equal_costs.csv --output_file /Users/anto/github/coronasurveys/code/xprize/prescribe3/prescribe3_output.csv
+2021-02-09 20:28:16 - main - INFO - Main script - Successfully launched subprocesses.
+2021-02-09 20:28:16 - main - INFO - Launching prescriptor [prescribe4/prescribe.py] from 2021-02-09 to 2021-04-30
+2021-02-09 20:28:17 - main - INFO - Command: python prescribe.py --start_date 2021-02-09 --end_date 2021-04-30 --interventions_past /Users/anto/github/coronasurveys/code/xprize/data/IPS-latest-full.csv --intervention_costs /Users/anto/github/coronasurveys/code/xprize/data/fixed_equal_costs.csv --output_file /Users/anto/github/coronasurveys/code/xprize/prescribe4/prescribe4_output.csv
+2021-02-09 20:28:17 - main - INFO - Main script - Successfully launched subprocesses.
+2021-02-09 20:28:17 - main - INFO - Launching prescriptor [prescribe5/prescribe.py] from 2021-02-09 to 2021-04-30
+2021-02-09 20:28:17 - main - INFO - Command: python prescribe.py --start_date 2021-02-09 --end_date 2021-04-30 --interventions_past /Users/anto/github/coronasurveys/code/xprize/data/IPS-latest-full.csv --intervention_costs /Users/anto/github/coronasurveys/code/xprize/data/fixed_equal_costs.csv --output_file /Users/anto/github/coronasurveys/code/xprize/prescribe5/prescribe5_output.csv
+2021-02-09 20:28:17 - main - INFO - Main script - Successfully launched subprocesses.
+2021-02-09 20:28:17 - main - INFO - Launching prescriptor [prescribe6/prescribe.py] from 2021-02-09 to 2021-04-30
+2021-02-09 20:28:18 - main - INFO - Command: python prescribe.py --start_date 2021-02-09 --end_date 2021-04-30 --interventions_past /Users/anto/github/coronasurveys/code/xprize/data/IPS-latest-full.csv --intervention_costs /Users/anto/github/coronasurveys/code/xprize/data/fixed_equal_costs.csv --output_file /Users/anto/github/coronasurveys/code/xprize/prescribe6/prescribe6_output.csv
+2021-02-09 20:28:18 - main - INFO - Main script - Successfully launched subprocesses.
+2021-02-09 20:28:18 - main - INFO - Launching prescriptor [prescribe7/prescribe.py] from 2021-02-09 to 2021-04-30
+2021-02-09 20:28:20 - main - INFO - Command: python prescribe.py --start_date 2021-02-09 --end_date 2021-04-30 --interventions_past /Users/anto/github/coronasurveys/code/xprize/data/IPS-latest-full.csv --intervention_costs /Users/anto/github/coronasurveys/code/xprize/data/fixed_equal_costs.csv --output_file /Users/anto/github/coronasurveys/code/xprize/prescribe7/prescribe7_output.csv
+2021-02-09 20:28:20 - main - INFO - Main script - Successfully launched subprocesses.
+2021-02-09 20:28:20 - main - INFO - Launching prescriptor [prescribe8/prescribe.py] from 2021-02-09 to 2021-04-30
+2021-02-09 20:28:21 - main - INFO - Command: python prescribe.py --start_date 2021-02-09 --end_date 2021-04-30 --interventions_past /Users/anto/github/coronasurveys/code/xprize/data/IPS-latest-full.csv --intervention_costs /Users/anto/github/coronasurveys/code/xprize/data/fixed_equal_costs.csv --output_file /Users/anto/github/coronasurveys/code/xprize/prescribe8/prescribe8_output.csv
+2021-02-09 20:28:21 - main - INFO - Main script - Successfully launched subprocesses.
+2021-02-09 20:28:21 - main - INFO - Launching prescriptor [prescribe9/prescribe.py] from 2021-02-09 to 2021-04-30
+2021-02-09 20:28:22 - main - INFO - Command: python prescribe.py --start_date 2021-02-09 --end_date 2021-04-30 --interventions_past /Users/anto/github/coronasurveys/code/xprize/data/IPS-latest-full.csv --intervention_costs /Users/anto/github/coronasurveys/code/xprize/data/fixed_equal_costs.csv --output_file /Users/anto/github/coronasurveys/code/xprize/prescribe9/prescribe9_output.csv
+2021-02-09 20:28:22 - main - INFO - Main script - Successfully launched subprocesses.
+2021-02-09 20:28:22 - main - INFO - 
+2021-02-09 20:28:22 - main - INFO - ####### Launched CORONASURVEYS MULTI-PRESCRIPTOR RUNNER
+2021-02-09 20:28:22 - main - INFO - 
+2021-02-09 20:28:23 - main - INFO - 
+2021-02-09 20:28:23 - main - INFO - ---------------------------------------------------------------------------------------
+2021-02-09 20:28:23 - main - INFO - Prescriptor: prescribe0/prescribe.py - exitcode: 0
+2021-02-09 20:28:23 - main - INFO - ---------------------------------------------------------------------------------------
+2021-02-09 20:28:23 - main - INFO - 
+2021-02-09 20:28:23 - main - INFO - ---------------------------------------------------------------------------------------
+2021-02-09 20:28:23 - main - INFO - Prescriptor: prescribe3/prescribe.py - exitcode: 0
+2021-02-09 20:28:23 - main - INFO - ---------------------------------------------------------------------------------------
+2021-02-09 20:28:24 - main - INFO - 
+2021-02-09 20:28:24 - main - INFO - ---------------------------------------------------------------------------------------
+2021-02-09 20:28:24 - main - INFO - Prescriptor: prescribe4/prescribe.py - exitcode: 0
+2021-02-09 20:28:24 - main - INFO - ---------------------------------------------------------------------------------------
+2021-02-09 20:32:52 - main - INFO - 
+2021-02-09 20:32:52 - main - INFO - ---------------------------------------------------------------------------------------
+2021-02-09 20:32:52 - main - INFO - Prescriptor: prescribe5/prescribe.py - exitcode: 0
+2021-02-09 20:32:52 - main - INFO - ---------------------------------------------------------------------------------------
+2021-02-09 20:32:57 - main - INFO - 
+2021-02-09 20:32:57 - main - INFO - ---------------------------------------------------------------------------------------
+2021-02-09 20:32:57 - main - INFO - Prescriptor: prescribe6/prescribe.py - exitcode: 0
+2021-02-09 20:32:57 - main - INFO - ---------------------------------------------------------------------------------------
+2021-02-09 20:35:36 - prescribe2 - INFO - Successfully executed /Users/anto/github/coronasurveys/code/xprize/prescribe2/prescribe.py
+2021-02-09 20:35:36 - prescribe2 - INFO - Duration: 0:07:20.760212 seconds
+2021-02-09 20:35:37 - main - INFO - 
+2021-02-09 20:35:37 - main - INFO - ---------------------------------------------------------------------------------------
+2021-02-09 20:35:37 - main - INFO - Prescriptor: prescribe2/prescribe.py - exitcode: 0
+2021-02-09 20:35:37 - main - INFO - ---------------------------------------------------------------------------------------
+2021-02-09 20:35:38 - main - INFO - 
+2021-02-09 20:35:38 - main - INFO - ---------------------------------------------------------------------------------------
+2021-02-09 20:35:38 - main - INFO - Prescriptor: prescribe7/prescribe.py - exitcode: 0
+2021-02-09 20:35:38 - main - INFO - ---------------------------------------------------------------------------------------
+2021-02-09 20:41:44 - main - INFO - 
+2021-02-09 20:41:44 - main - INFO - ---------------------------------------------------------------------------------------
+2021-02-09 20:41:44 - main - INFO - Prescriptor: prescribe9/prescribe.py - exitcode: 0
+2021-02-09 20:41:44 - main - INFO - ---------------------------------------------------------------------------------------
+2021-02-09 20:41:48 - main - INFO - 
+2021-02-09 20:41:48 - main - INFO - ---------------------------------------------------------------------------------------
+2021-02-09 20:41:48 - main - INFO - Prescriptor: prescribe1/prescribe.py - exitcode: 0
+2021-02-09 20:41:48 - main - INFO - ---------------------------------------------------------------------------------------
+2021-02-09 20:41:49 - main - INFO - 
+2021-02-09 20:41:49 - main - INFO - ---------------------------------------------------------------------------------------
+2021-02-09 20:41:49 - main - INFO - Prescriptor: prescribe8/prescribe.py - exitcode: 0
+2021-02-09 20:41:49 - main - INFO - ---------------------------------------------------------------------------------------
+2021-02-09 20:41:50 - main - INFO - #######   COMPLETED CORONASURVEYS MULTI-PRESCRIPTOR RUNNER  #####################################
+2021-02-09 20:41:50 - main - INFO - 
+2021-02-09 20:41:50 - main - INFO - 
+2021-02-09 20:41:50 - main - INFO - #######  EXECUTING CORONASURVEYS MULTI-PRESCRIPTOR RUNNER  #####################################
+2021-02-09 20:41:50 - main - INFO - 
+2021-02-09 20:41:50 - main - INFO - Successfully created the directory ./prescriptions
+2021-02-09 20:41:50 - main - INFO - 
+2021-02-09 20:41:50 - main - INFO - ***************************************************************************************
+2021-02-09 20:41:50 - main - INFO - ********* CORONASURVEYS PRESCRIPTIONS *************************************************
+2021-02-09 20:41:50 - main - INFO - [
+                                "prescribe0/prescribe.py",
+                                "prescribe1/prescribe.py",
+                                "prescribe2/prescribe.py",
+                                "prescribe3/prescribe.py",
+                                "prescribe4/prescribe.py",
+                                "prescribe5/prescribe.py",
+                                "prescribe6/prescribe.py",
+                                "prescribe7/prescribe.py",
+                                "prescribe8/prescribe.py",
+                                "prescribe9/prescribe.py"
+]
+2021-02-09 20:41:50 - main - INFO - ***************************************************************************************
+2021-02-09 20:41:50 - main - INFO - 
+2021-02-09 20:41:50 - main - INFO - Launching prescriptor [prescribe0/prescribe.py] from 2021-02-09 to 2021-04-30
+2021-02-09 20:41:51 - main - INFO - Command: python prescribe.py --start_date 2021-02-09 --end_date 2021-04-30 --interventions_past /Users/anto/github/coronasurveys/code/xprize/data/IPS-latest-full.csv --intervention_costs /Users/anto/github/coronasurveys/code/xprize/data/uniform_random_costs.csv --output_file /Users/anto/github/coronasurveys/code/xprize/prescribe0/prescribe0_output.csv
+2021-02-09 20:41:51 - main - INFO - Main script - Successfully launched subprocesses.
+2021-02-09 20:41:51 - main - INFO - Launching prescriptor [prescribe1/prescribe.py] from 2021-02-09 to 2021-04-30
+2021-02-09 20:41:51 - main - INFO - Command: python prescribe.py --start_date 2021-02-09 --end_date 2021-04-30 --interventions_past /Users/anto/github/coronasurveys/code/xprize/data/IPS-latest-full.csv --intervention_costs /Users/anto/github/coronasurveys/code/xprize/data/uniform_random_costs.csv --output_file /Users/anto/github/coronasurveys/code/xprize/prescribe1/prescribe1_output.csv
+2021-02-09 20:41:51 - main - INFO - Main script - Successfully launched subprocesses.
+2021-02-09 20:41:51 - main - INFO - Launching prescriptor [prescribe2/prescribe.py] from 2021-02-09 to 2021-04-30
+2021-02-09 20:41:52 - main - INFO - Command: python prescribe.py --start_date 2021-02-09 --end_date 2021-04-30 --interventions_past /Users/anto/github/coronasurveys/code/xprize/data/IPS-latest-full.csv --intervention_costs /Users/anto/github/coronasurveys/code/xprize/data/uniform_random_costs.csv --output_file /Users/anto/github/coronasurveys/code/xprize/prescribe2/prescribe2_output.csv
+2021-02-09 20:41:52 - main - INFO - Main script - Successfully launched subprocesses.
+2021-02-09 20:41:52 - main - INFO - Launching prescriptor [prescribe3/prescribe.py] from 2021-02-09 to 2021-04-30
+2021-02-09 20:41:52 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2021-02-09 20:41:53 - main - INFO - Command: python prescribe.py --start_date 2021-02-09 --end_date 2021-04-30 --interventions_past /Users/anto/github/coronasurveys/code/xprize/data/IPS-latest-full.csv --intervention_costs /Users/anto/github/coronasurveys/code/xprize/data/uniform_random_costs.csv --output_file /Users/anto/github/coronasurveys/code/xprize/prescribe3/prescribe3_output.csv
+2021-02-09 20:41:53 - main - INFO - Main script - Successfully launched subprocesses.
+2021-02-09 20:41:53 - main - INFO - Launching prescriptor [prescribe4/prescribe.py] from 2021-02-09 to 2021-04-30
+2021-02-09 20:41:54 - main - INFO - Command: python prescribe.py --start_date 2021-02-09 --end_date 2021-04-30 --interventions_past /Users/anto/github/coronasurveys/code/xprize/data/IPS-latest-full.csv --intervention_costs /Users/anto/github/coronasurveys/code/xprize/data/uniform_random_costs.csv --output_file /Users/anto/github/coronasurveys/code/xprize/prescribe4/prescribe4_output.csv
+2021-02-09 20:41:54 - main - INFO - Main script - Successfully launched subprocesses.
+2021-02-09 20:41:54 - main - INFO - Launching prescriptor [prescribe5/prescribe.py] from 2021-02-09 to 2021-04-30
+2021-02-09 20:41:55 - main - INFO - Command: python prescribe.py --start_date 2021-02-09 --end_date 2021-04-30 --interventions_past /Users/anto/github/coronasurveys/code/xprize/data/IPS-latest-full.csv --intervention_costs /Users/anto/github/coronasurveys/code/xprize/data/uniform_random_costs.csv --output_file /Users/anto/github/coronasurveys/code/xprize/prescribe5/prescribe5_output.csv
+2021-02-09 20:41:55 - main - INFO - Main script - Successfully launched subprocesses.
+2021-02-09 20:41:55 - main - INFO - Launching prescriptor [prescribe6/prescribe.py] from 2021-02-09 to 2021-04-30
+2021-02-09 20:41:56 - main - INFO - Command: python prescribe.py --start_date 2021-02-09 --end_date 2021-04-30 --interventions_past /Users/anto/github/coronasurveys/code/xprize/data/IPS-latest-full.csv --intervention_costs /Users/anto/github/coronasurveys/code/xprize/data/uniform_random_costs.csv --output_file /Users/anto/github/coronasurveys/code/xprize/prescribe6/prescribe6_output.csv
+2021-02-09 20:41:56 - main - INFO - Main script - Successfully launched subprocesses.
+2021-02-09 20:41:56 - main - INFO - Launching prescriptor [prescribe7/prescribe.py] from 2021-02-09 to 2021-04-30
+2021-02-09 20:41:57 - main - INFO - Command: python prescribe.py --start_date 2021-02-09 --end_date 2021-04-30 --interventions_past /Users/anto/github/coronasurveys/code/xprize/data/IPS-latest-full.csv --intervention_costs /Users/anto/github/coronasurveys/code/xprize/data/uniform_random_costs.csv --output_file /Users/anto/github/coronasurveys/code/xprize/prescribe7/prescribe7_output.csv
+2021-02-09 20:41:57 - main - INFO - Main script - Successfully launched subprocesses.
+2021-02-09 20:41:57 - main - INFO - Launching prescriptor [prescribe8/prescribe.py] from 2021-02-09 to 2021-04-30
+2021-02-09 20:41:58 - main - INFO - Command: python prescribe.py --start_date 2021-02-09 --end_date 2021-04-30 --interventions_past /Users/anto/github/coronasurveys/code/xprize/data/IPS-latest-full.csv --intervention_costs /Users/anto/github/coronasurveys/code/xprize/data/uniform_random_costs.csv --output_file /Users/anto/github/coronasurveys/code/xprize/prescribe8/prescribe8_output.csv
+2021-02-09 20:41:58 - main - INFO - Main script - Successfully launched subprocesses.
+2021-02-09 20:41:58 - main - INFO - Launching prescriptor [prescribe9/prescribe.py] from 2021-02-09 to 2021-04-30
+2021-02-09 20:42:00 - main - INFO - Command: python prescribe.py --start_date 2021-02-09 --end_date 2021-04-30 --interventions_past /Users/anto/github/coronasurveys/code/xprize/data/IPS-latest-full.csv --intervention_costs /Users/anto/github/coronasurveys/code/xprize/data/uniform_random_costs.csv --output_file /Users/anto/github/coronasurveys/code/xprize/prescribe9/prescribe9_output.csv
+2021-02-09 20:42:00 - main - INFO - Main script - Successfully launched subprocesses.
+2021-02-09 20:42:00 - main - INFO - 
+2021-02-09 20:42:00 - main - INFO - ####### Launched CORONASURVEYS MULTI-PRESCRIPTOR RUNNER
+2021-02-09 20:42:00 - main - INFO - 
+2021-02-09 20:42:01 - main - INFO - 
+2021-02-09 20:42:01 - main - INFO - ---------------------------------------------------------------------------------------
+2021-02-09 20:42:01 - main - INFO - Prescriptor: prescribe0/prescribe.py - exitcode: 0
+2021-02-09 20:42:01 - main - INFO - ---------------------------------------------------------------------------------------
+2021-02-09 20:42:01 - main - INFO - 
+2021-02-09 20:42:01 - main - INFO - ---------------------------------------------------------------------------------------
+2021-02-09 20:42:01 - main - INFO - Prescriptor: prescribe3/prescribe.py - exitcode: 0
+2021-02-09 20:42:01 - main - INFO - ---------------------------------------------------------------------------------------
+2021-02-09 20:42:02 - main - INFO - 
+2021-02-09 20:42:02 - main - INFO - ---------------------------------------------------------------------------------------
+2021-02-09 20:42:02 - main - INFO - Prescriptor: prescribe4/prescribe.py - exitcode: 0
+2021-02-09 20:42:02 - main - INFO - ---------------------------------------------------------------------------------------
+2021-02-09 20:46:28 - main - INFO - 
+2021-02-09 20:46:28 - main - INFO - ---------------------------------------------------------------------------------------
+2021-02-09 20:46:28 - main - INFO - Prescriptor: prescribe5/prescribe.py - exitcode: 0
+2021-02-09 20:46:28 - main - INFO - ---------------------------------------------------------------------------------------
+2021-02-09 20:46:30 - main - INFO - 
+2021-02-09 20:46:30 - main - INFO - ---------------------------------------------------------------------------------------
+2021-02-09 20:46:30 - main - INFO - Prescriptor: prescribe6/prescribe.py - exitcode: 0
+2021-02-09 20:46:30 - main - INFO - ---------------------------------------------------------------------------------------
+2021-02-09 20:49:08 - prescribe2 - INFO - Successfully executed /Users/anto/github/coronasurveys/code/xprize/prescribe2/prescribe.py
+2021-02-09 20:49:08 - prescribe2 - INFO - Duration: 0:07:15.780270 seconds
+2021-02-09 20:49:09 - main - INFO - 
+2021-02-09 20:49:09 - main - INFO - ---------------------------------------------------------------------------------------
+2021-02-09 20:49:09 - main - INFO - Prescriptor: prescribe2/prescribe.py - exitcode: 0
+2021-02-09 20:49:09 - main - INFO - ---------------------------------------------------------------------------------------
+2021-02-09 20:49:14 - main - INFO - 
+2021-02-09 20:49:14 - main - INFO - ---------------------------------------------------------------------------------------
+2021-02-09 20:49:14 - main - INFO - Prescriptor: prescribe7/prescribe.py - exitcode: 0
+2021-02-09 20:49:14 - main - INFO - ---------------------------------------------------------------------------------------
+2021-02-09 20:55:08 - main - INFO - 
+2021-02-09 20:55:08 - main - INFO - ---------------------------------------------------------------------------------------
+2021-02-09 20:55:08 - main - INFO - Prescriptor: prescribe1/prescribe.py - exitcode: 0
+2021-02-09 20:55:08 - main - INFO - ---------------------------------------------------------------------------------------
+2021-02-09 20:55:12 - main - INFO - 
+2021-02-09 20:55:12 - main - INFO - ---------------------------------------------------------------------------------------
+2021-02-09 20:55:12 - main - INFO - Prescriptor: prescribe9/prescribe.py - exitcode: 0
+2021-02-09 20:55:12 - main - INFO - ---------------------------------------------------------------------------------------
+2021-02-09 20:55:19 - main - INFO - 
+2021-02-09 20:55:19 - main - INFO - ---------------------------------------------------------------------------------------
+2021-02-09 20:55:19 - main - INFO - Prescriptor: prescribe8/prescribe.py - exitcode: 0
+2021-02-09 20:55:19 - main - INFO - ---------------------------------------------------------------------------------------
+2021-02-09 20:55:20 - main - INFO - #######   COMPLETED CORONASURVEYS MULTI-PRESCRIPTOR RUNNER  #####################################
