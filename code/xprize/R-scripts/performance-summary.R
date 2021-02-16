@@ -20,7 +20,7 @@ process_country_region <- function(regiondf, df) {
   country <- regiondf$CountryName[1]
   region <- regiondf$RegionName[1]
   
-  cat("\n working on ", country, region, "\n")
+  # cat("\n working on ", country, region, "\n")
   
   df <- df[(df$CountryName == country) & 
                   (df$RegionName == region),]
