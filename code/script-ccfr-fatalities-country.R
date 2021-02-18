@@ -18,7 +18,7 @@ contagious_window <- 12
 active_window <- 18
 onset_to_death_window <- 13 # https://www.cdc.gov/coronavirus/2019-ncov/hcp/planning-scenarios.html#table-2
 CFR <- 0.0138
-factor_window <- 14
+# factor_window <- 14
 
 plot_estimates <- function(country_geoid, code3,
                            dts){
@@ -73,14 +73,14 @@ plot_estimates <- function(country_geoid, code3,
     len <- length(aux)
     
     # factor = detectio ratio of cumulative cases
-    factor <- max(1, (aux[len]-aux[len-factor_window])/ (dt$cum_cases[len]-dt$cum_cases[len-factor_window]))
+    # factor <- max(1, (aux[len]-aux[len-factor_window])/ (dt$cum_cases[len]-dt$cum_cases[len-factor_window]))
 
     aux[1:(len-onset_to_death_window)] <- aux[-(1:onset_to_death_window)]
     
-    aux[(len-onset_to_death_window+1):len] <- aux[len-onset_to_death_window] + factor *
-      (dt$cum_cases[(len-onset_to_death_window+1):len] - dt$cum_cases[len-onset_to_death_window])
+    # aux[(len-onset_to_death_window+1):len] <- aux[len-onset_to_death_window] + factor *
+    #   (dt$cum_cases[(len-onset_to_death_window+1):len] - dt$cum_cases[len-onset_to_death_window])
     
-    # aux[(len-onset_to_death_window+1):len] <- NA
+    aux[(len-onset_to_death_window+1):len] <- NA
    
      # cat("::- script-ccfr-fatalities: Factor ", factor, "::\n")
     
