@@ -1,0 +1,76 @@
+#!/usr/bin/env bash
+# Copyright 2021 (c) Cognizant Digital Business, Evolutionary AI. All rights reserved. Issued under the Apache 2.0 License.
+# # Modified for Coronasurveys by Davide Frey davide.frey@inria.fr
+
+# This is a wrapper script for inference (generating predictions). Ultimately it runs the local predict.py module
+# which is expected to exist. See prediction_module below.
+
+# It is expected that cron will run this script on a schedule.
+# See generate_predictions_local.py for more information
+#
+# This script assumes the repository has been downloaded locally.
+# The predict.py API script is then run.
+
+# See https://www.gnu.org/software/bash/manual/html_node/The-Set-Builtin.html for what these do
+set -o errexit
+set -o errtrace
+set -o nounset
+set -o pipefail
+set -o xtrace
+
+echo "Running main prescribe_concatenate_predict script..."
+
+repo_dir="$1"
+coronasurveys_dir="$2"
+
+# Locations of tasks and predict.py module
+prescriptions_file="$repo_dir/tasks/prescribe_tasks.csv"
+#generate_prescriptions_wrapper="$coronasurveys_dir/code/xprize/robojudge-stuff/generate_prescriptions.py"
+prescription_module="$coronasurveys_dir/code/xprize/prescribe.py"
+#validation_module="$coronasurveys_dir/code/xprize/robojudge-stuff/generate_prescriptions.py"
+
+#prescriptions_file="$repo_dir/tasks/prescribe_tasks.csv"
+generate_prescriptions_wrapper="$repo_dir/judging/scripts/prescribe/generate_prescriptions.py"
+#prescription_module="$HOME/work/prescribe.py"
+validation_module="$repo_dir/judging/scripts/prescribe/prescriptor_validation.py"
+
+# prediction_module="$coronasurveys_dir/code/xprize/predict.py" # should actually run standard predictor I guess
+prediction_module="$coronasurveys_dir/code/xprize/standard_predictor/predict.py" # standar predictor
+concatenate_script="$coronasurveys_dir/code/xprize/R-scripts/prepare-prediction.R"
+# Print out some environment diagnostics
+pwd
+command -v python
+command -v pip
+python --version
+pip --version
+
+# Temporarily disable errexit as we want to detect when flock fails so we can log a message
+set +o errexit
+
+# Launch timeout monitor
+timeout_script="$repo_dir"/judging/scripts/timeout_killer.sh
+chmod +x "$timeout_script"
+$timeout_script &
+
+# Clean up timeout monitor process on exit
+timeout_script_pid=$!
+trap 'pkill -KILL --parent $timeout_script_pid' EXIT
+
+# Run script within flock to prevent multiple instances if jobs overrun
+flock --nonblock /tmp/robojudge.lock \
+  python "$generate_prescriptions_wrapper" \
+    --requested-prescriptions-file "$prescriptions_file" \
+    --prescription-module "$prescription_module" \
+    --validation-module "$validation_module" \
+    --prediction-module "$prediction_module" \
+    --concatenate-script "$concatenate_script"
+
+retVal=$?
+
+if [ $retVal -ne 0 ]; then
+    echo "Unable to acquire lock. Previous job still running?"
+    echo "Processes:"
+    ps afx
+fi
+
+set -o errexit
