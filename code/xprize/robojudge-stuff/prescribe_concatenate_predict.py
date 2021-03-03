@@ -57,7 +57,8 @@ def concatenate_prescriptions(change_date, end_date, ips_file, presc_file, base_
 
         
     for pn in range(10):
-        procs[pn].wait()
+        if procs[pn] is not None: 
+            procs[pn].wait()
 
 
 def generate_predictions(start_date, end_date, ip_file, outputbase, predictor_module: str) -> None:
@@ -66,7 +67,7 @@ def generate_predictions(start_date, end_date, ip_file, outputbase, predictor_mo
     for pn in range(10):
         outpred = os.path.splitext(outbase)[0]+"-"+str(pn)+".csv"
         if isfile(expanduser(outpred)):
-            LOGGER.warning(f'Prescriptions already generated at {output_file}. Skipping prediction.')
+            LOGGER.warning(f'Predictions already generated at {outpred}. Skipping prediction.')
             continue
         # command start_date change_date end_date path_to_ips_file path_to_prescriptions prescription_number output_file_path
         p_cmd = [
@@ -76,9 +77,11 @@ def generate_predictions(start_date, end_date, ip_file, outputbase, predictor_mo
             '--interventions_plan', ip_file,
             '--output_file', outpred
         ]
-        procs[pn] = subprocess.Popen(r_cmd)        
+        procs[pn] = subprocess.Popen(r_cmd)
+        
     for pn in range(10):
-        procs[pn].wait()
+        if procs[pn] is not None:
+            procs[pn].wait()
 
 
 
