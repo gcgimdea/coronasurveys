@@ -157,9 +157,13 @@ def generate_prescriptions_and_predictions(requested_prescriptions_df: DataFrame
                     '--submission_file', output_ip_file
                 ]
             )
-            change_date=start_date
-            complete_ip_file=os.path.splitext(output_ip_file)[0]+"-concat.csv"
-            predOutBase=os.path.splitext(output_ip_file)[0]+"-pred"
+
+
+
+
+        change_date=start_date
+        complete_ip_file=os.path.splitext(output_ip_file)[0]+"-concat.csv"
+        predOutBase=os.path.splitext(output_ip_file)[0]+"-pred"
         
         concatenate_prescriptions(change_date, end_date, ip_file, output_ip_file, complete_ip_file, concatenate_script)
         generate_predictions(change_date, end_date, complete_ip_file, predOutBase, predictor_module)
