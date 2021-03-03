@@ -127,39 +127,39 @@ def generate_prescriptions_and_predictions(requested_prescriptions_df: DataFrame
         # Skip if file exists already -- don't want to needlessly generate the same prescriptions again
         if isfile(expanduser(output_ip_file)):
             LOGGER.warning(f'Prescriptions already generated at {output_ip_file}. Skipping.')
-            continue
+        else: 
 
-        # Spawn an external process to generate prescriptions
-        subprocess.call(
-            [
-                'python', prescription_module,
-                '--start_date', start_date,
-                '--end_date', end_date,
-                '--interventions_past', ip_file,
-                '--intervention_costs', cost_file,
-                '--output_file', output_ip_file
-            ]
-        )
+            # Spawn an external process to generate prescriptions
+            subprocess.call(
+                [
+                    'python', prescription_module,
+                    '--start_date', start_date,
+                    '--end_date', end_date,
+                    '--interventions_past', ip_file,
+                    '--intervention_costs', cost_file,
+                    '--output_file', output_ip_file
+                ]
+            )
 
-        LOGGER.info(f'Running validation module {validation_module}')
-        LOGGER.info(f'Start date: {start_date}')
-        LOGGER.info(f'End date: {end_date}')
-        LOGGER.info(f'IP file: {ip_file}')
-        LOGGER.info(f'Output file: {output_ip_file}')
+            LOGGER.info(f'Running validation module {validation_module}')
+            LOGGER.info(f'Start date: {start_date}')
+            LOGGER.info(f'End date: {end_date}')
+            LOGGER.info(f'IP file: {ip_file}')
+            LOGGER.info(f'Output file: {output_ip_file}')
 
-        # Now run validation
-        subprocess.call(
-            [
-                'python', validation_module,
-                '--start_date', start_date,
-                '--end_date', end_date,
-                '--interventions_plan', ip_file,
-                '--submission_file', output_ip_file
-            ]
-        )
-        change_date=start_date
-        complete_ip_file=os.path.splitext(output_ip_file)[0]+"-concat.csv"
-        predOutBase=os.path.splitext(output_ip_file)[0]+"-pred"
+            # Now run validation
+            subprocess.call(
+                [
+                    'python', validation_module,
+                    '--start_date', start_date,
+                    '--end_date', end_date,
+                    '--interventions_plan', ip_file,
+                    '--submission_file', output_ip_file
+                ]
+            )
+            change_date=start_date
+            complete_ip_file=os.path.splitext(output_ip_file)[0]+"-concat.csv"
+            predOutBase=os.path.splitext(output_ip_file)[0]+"-pred"
         
         concatenate_prescriptions(change_date, end_date, ip_file, output_ip_file, complete_ip_file, concatenate_script)
         generate_predictions(change_date, end_date, complete_ip_file, predOutBase, predictor_module)
