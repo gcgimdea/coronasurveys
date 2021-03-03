@@ -95,7 +95,7 @@ def get_prescriptions_tasks(requested_prescriptions_file):
 
 
 
-def generate_prescriptions_and_predictions(requested_prescriptions_df: DataFrame, prescription_module: str, concantenate_script: str, 
+def generate_prescriptions_and_predictions(requested_prescriptions_df: DataFrame, prescription_module: str, concatenate_script: str, 
                                            validation_module: str, predictor_module: str) -> None:
     """
     Generates prescriptions for each of the requested scenarios by invoking `prescription_module`
