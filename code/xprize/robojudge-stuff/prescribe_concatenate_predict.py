@@ -51,7 +51,9 @@ def concatenate_prescriptions(change_date, end_date, ips_file, presc_file, base_
             out_ip_file_pn
         ]
 #        procs[pn] =subprocess.Popen(r_cmd)
+        print (r_cmd)
         subprocess.Popen(r_cmd)
+
 
         
     for pn in range(10):
