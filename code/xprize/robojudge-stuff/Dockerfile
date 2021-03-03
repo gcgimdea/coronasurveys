@@ -44,13 +44,13 @@ RUN su - xprize -c "git clone git@github.com:leaf-ai/covid-xprize-robotasks.git 
 
 RUN su - xprize -c "git clone git@github.com:leaf-ai/covid-xprize.git"
 
-RUN su - xprize -c "cd ; ln -s  ~/coronasurveys/code/xprize work"
+RUN su - xprize -c "cd ; ln -s  ~/coronasurveys/code/xprize/cs-prescribe-daily work"
 
-#RUN su - xprize -c "cd coronasurveys/code/xprize;  patch  prescribe.py -i patch-prescribe.patch ; cd"
+#RUN su - xprize -c "cd coronasurveys/code/xprize/cs-prescribe-daily;  patch  prescribe.py -i patch-prescribe.patch ; cd"
 
-RUN su - xprize -c "cd coronasurveys/code/xprize; pip3 install -r requirements.txt"
+RUN su - xprize -c "cd coronasurveys/code/xprize/cs-prescribe-daily; pip3 install -r requirements.txt"
 
-RUN su - xprize -c "cd coronasurveys/code/xprize; pip3 install -e ~/covid-xprize"
+RUN su - xprize -c "cd coronasurveys/code/xprize/cs-prescribe-daily; pip3 install -e ~/covid-xprize"
 
 
 
