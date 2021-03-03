@@ -37,13 +37,20 @@ dfd <- dfd %>%
          C8_International.travel.controls, H1_Public.information.campaigns,
          H2_Testing.policy,	H3_Contact.tracing, H6_Facial.Coverings)
 
+#col_order <- c("Date", "CountryName", "RegionName", "C1_School closing",	"C2_Workplace closing",
+#               "C3_Cancel public events",	"C4_Restrictions on gatherings", "C5_Close public transport",
+#               "C6_Stay at home requirements",	"C7_Restrictions on internal movement",
+#               "C8_International travel controls", "H1_Public information campaigns",
+#               "H2_Testing policy",	"H3_Contact tracing", "H6_Facial Coverings")
+#dfd <- dfd[, col_order]
+
 df <- bind_rows(df, dfd)
 
-colnames(df)<- c("Date", "CountryName", "RegionName", "C1_School closing",	"C2_Workplace closing",
-                  "C3_Cancel public events",	"C4_Restrictions on gatherings", "C5_Close public transport",
-                  "C6_Stay at home requirements",	"C7_Restrictions on internal movement",
-                  "C8_International travel controls", "H1_Public information campaigns",
-                  "H2_Testing policy",	"H3_Contact tracing", "H6_Facial Coverings")
+#colnames(df)<- c("Date", "CountryName", "RegionName", "C1_School closing",	"C2_Workplace closing",
+#                  "C3_Cancel public events",	"C4_Restrictions on gatherings", "C5_Close public transport",
+#                  "C6_Stay at home requirements",	"C7_Restrictions on internal movement",
+#                  "C8_International travel controls", "H1_Public information campaigns",
+#                  "H2_Testing policy",	"H3_Contact tracing", "H6_Facial Coverings")
 
 df <- df[order(df$CountryName,df$RegionName,df$Date),]
 write.csv(df, output_file_path, row.names = FALSE)
