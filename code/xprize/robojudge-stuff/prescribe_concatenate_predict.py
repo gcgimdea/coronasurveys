@@ -78,6 +78,7 @@ def generate_predictions(start_date, end_date, ipbase, outbase, predictor_module
             '--interventions_plan', ip_file,
             '--output_file', outpred
         ]
+        LOGGER.info(f"launching prediction {p_cmd}")
         procs[pn] = subprocess.Popen(p_cmd)
         
     for pn in range(10):
