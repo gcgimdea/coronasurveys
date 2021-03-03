@@ -9,7 +9,7 @@ import time
 import json
 import re
 
-sys.path.append(os.path.expanduser("logger"))
+sys.path.append(os.path.expanduser("cs-prescribe-daily/logger"))
 import coronasurveys_utils
 
 ##########################################################################################
