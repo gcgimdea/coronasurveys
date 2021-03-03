@@ -77,7 +77,7 @@ def generate_predictions(start_date, end_date, ip_file, outbase, predictor_modul
             '--interventions_plan', ip_file,
             '--output_file', outpred
         ]
-        procs[pn] = subprocess.Popen(r_cmd)
+        procs[pn] = subprocess.Popen(p_cmd)
         
     for pn in range(10):
         if procs[pn] is not None:
