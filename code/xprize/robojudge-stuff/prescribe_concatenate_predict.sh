@@ -30,7 +30,7 @@ prescription_module="$coronasurveys_dir/code/xprize/cs-prescribe-daily/prescribe
 #validation_module="$coronasurveys_dir/code/xprize/robojudge-stuff/generate_prescriptions.py"
 
 #prescriptions_file="$repo_dir/tasks/prescribe_tasks.csv"
-generate_prescriptions_wrapper="$repo_dir/judging/scripts/prescribe/generate_prescriptions.py"
+generate_prescriptions_wrapper="$coronasurveys_dir/code/xprize/robojudge-stuff/prescribe_concatenate_predict.py"
 #prescription_module="$HOME/work/prescribe.py"
 validation_module="$repo_dir/judging/scripts/prescribe/prescriptor_validation.py"
 

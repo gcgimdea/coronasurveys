@@ -29,7 +29,7 @@ LOGGER = logging.getLogger('robojudge')
     
        
 
-def concatenate_prescriptions(change_date, end_date, ips_file, presc_file, base_out_ip_file) -> None:
+def concatenate_prescriptions(change_date, end_date, ips_file, presc_file, base_out_ip_file, concatenate_script: str) -> None:
     # now concatenate prescription file
     procs = [None] * 10
     for pn in range(10):
@@ -95,8 +95,8 @@ def get_prescriptions_tasks(requested_prescriptions_file):
 
 
 
-def generate_prescriptions_and_predictions(requested_prescriptions_df: DataFrame, prescription_module: str,
-                           validation_module: str) -> None:
+def generate_prescriptions_and_predictions(requested_prescriptions_df: DataFrame, prescription_module: str, concantenate_script: str, 
+                                           validation_module: str, predictor_module: str) -> None:
     """
     Generates prescriptions for each of the requested scenarios by invoking `prescription_module`
     :param requested_prescriptions_df: A Pandas DataFrame containing the prescriptions to be made, one per row.
@@ -114,16 +114,16 @@ def generate_prescriptions_and_predictions(requested_prescriptions_df: DataFrame
         cost_file = row.CostFile
         output_ip_file = row.OutputFile
 
-        LOGGER.info(f'Running prescribe module {prescription_module}')
+        LOGGER.info(f'Running prescribe concatenate and predict module {prescription_module}')
         LOGGER.info(f'Start date: {start_date}')
         LOGGER.info(f'End date: {end_date}')
         LOGGER.info(f'IP file: {ip_file}')
         LOGGER.info(f'Cost file: {cost_file}')
-        LOGGER.info(f'Output file: {output_file}')
+        LOGGER.info(f'Output file: {output_ip_file}')
 
         # Skip if file exists already -- don't want to needlessly generate the same prescriptions again
-        if isfile(expanduser(output_file)):
-            LOGGER.warning(f'Prescriptions already generated at {output_file}. Skipping.')
+        if isfile(expanduser(output_ip_file)):
+            LOGGER.warning(f'Prescriptions already generated at {output_ip_file}. Skipping.')
             continue
 
         # Spawn an external process to generate prescriptions
@@ -156,9 +156,9 @@ def generate_prescriptions_and_predictions(requested_prescriptions_df: DataFrame
         )
         change_date=start_date
         complete_ip_file=os.path.splitext(output_ip_file)[0]+"-concat.csv"
-        predOutBase=
+        predOutBase=os.path.splitext(output_ip_file)[0]+"-pred"
         
-        concatenate_prescriptions(change_date, end_date, ip_file, output_ip_file, complete_ip_file)
+        concatenate_prescriptions(change_date, end_date, ip_file, output_ip_file, complete_ip_file, concatenate_script)
         generate_predictions(change_date, end_date, complete_ip_file, predOutBase, predictor_module)
 
 
@@ -180,7 +180,7 @@ def do_main():
                         required=True,
                         help="Path to the python script that should be run to generate prescriptions. According to the "
                              "API conversion this script should be named prescribe.py")
-     parser.add_argument("-d", "--prediction-module",
+    parser.add_argument("-d", "--prediction-module",
                         dest="prediction_module",
                         type=str,
                         required=True,
@@ -201,7 +201,7 @@ def do_main():
 
     LOGGER.info(f'Generating prescriptions from file {args.requested_prescriptions_file}')
     requested_prescriptions_df = get_prescriptions_tasks(args.requested_prescriptions_file)
-    generate_prescriptions_and_predictions(requested_prescriptions_df, args.prescription_module, args.validation_module)
+    generate_prescriptions_and_predictions(requested_prescriptions_df, args.prescription_module, args.concatenate_script, args.validation_module, args.prediction_module)
 
 
 if __name__ == '__main__':
