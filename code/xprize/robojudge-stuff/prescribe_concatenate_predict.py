@@ -71,7 +71,7 @@ def generate_predictions(start_date, end_date, ip_file, outbase, predictor_modul
             continue
         # command start_date change_date end_date path_to_ips_file path_to_prescriptions prescription_number output_file_path
         p_cmd = [
-            'python', prediction_module,
+            'python', predictor_module,
             '--start_date', start_date,
             '--end_date', end_date,
             '--interventions_plan', ip_file,
