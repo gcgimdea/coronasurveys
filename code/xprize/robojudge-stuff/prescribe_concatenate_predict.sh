@@ -26,7 +26,7 @@ coronasurveys_dir="$2"
 # Locations of tasks and predict.py module
 prescriptions_file="$repo_dir/tasks/prescribe_tasks.csv"
 #generate_prescriptions_wrapper="$coronasurveys_dir/code/xprize/robojudge-stuff/generate_prescriptions.py"
-prescription_module="$coronasurveys_dir/code/xprize/prescribe.py"
+prescription_module="$coronasurveys_dir/code/xprize/cs-prescribe-daily/prescribe.py"
 #validation_module="$coronasurveys_dir/code/xprize/robojudge-stuff/generate_prescriptions.py"
 
 #prescriptions_file="$repo_dir/tasks/prescribe_tasks.csv"
