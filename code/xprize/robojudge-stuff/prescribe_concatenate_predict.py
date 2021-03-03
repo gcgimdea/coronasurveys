@@ -47,7 +47,7 @@ def concatenate_prescriptions(change_date, end_date, ips_file, presc_file, base_
             end_date,
             ips_file,
             presc_file,
-            pn,
+            str(pn),
             out_ip_file_pn
         ]
 #        procs[pn] =subprocess.Popen(r_cmd)
