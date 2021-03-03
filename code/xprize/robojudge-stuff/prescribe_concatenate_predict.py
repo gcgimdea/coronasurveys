@@ -50,7 +50,7 @@ def concatenate_prescriptions(change_date, end_date, ips_file, presc_file, base_
             pn,
             out_ip_file_pn
         ]
-        procs[pn] = subprocess.pOpen(r_cmd)
+        procs[pn] = subprocess.Popen(r_cmd)
 
         
     for pn in range(10):
@@ -73,7 +73,7 @@ def generate_predictions(start_date, end_date, ip_file, outputbase, predictor_mo
             '--interventions_plan', ip_file,
             '--output_file', outpred
         ]
-        procs[pn] = subprocess.pOpen(r_cmd)        
+        procs[pn] = subprocess.Popen(r_cmd)        
     for pn in range(10):
         procs[pn].wait()
 
