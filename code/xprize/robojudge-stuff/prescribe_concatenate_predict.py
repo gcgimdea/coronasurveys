@@ -35,7 +35,7 @@ def concatenate_prescriptions(change_date, end_date, ips_file, presc_file, base_
     for pn in range(10):
         out_ip_file_pn =  os.path.splitext(base_out_ip_file)[0]+"-"+str(pn)+".csv"
         if isfile(expanduser(out_ip_file_pn)):
-            LOGGER.warning(f'Prescriptions already generated at {output_file}. Skipping concatenation.')
+            LOGGER.warning(f'Concatenation already generated at {out_ip_file_pn}. Skipping concatenation.')
             continue
         # command start_date change_date end_date path_to_ips_file path_to_prescriptions prescription_number output_file_path
         r_cmd = [
