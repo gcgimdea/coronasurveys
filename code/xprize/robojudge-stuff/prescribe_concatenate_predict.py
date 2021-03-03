@@ -61,7 +61,7 @@ def concatenate_prescriptions(change_date, end_date, ips_file, presc_file, base_
             procs[pn].wait()
 
 
-def generate_predictions(start_date, end_date, ip_file, outputbase, predictor_module: str) -> None:
+def generate_predictions(start_date, end_date, ip_file, outbase, predictor_module: str) -> None:
   # now generate predictions
     procs = [None] * 10
     for pn in range(10):
