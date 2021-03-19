@@ -14,8 +14,8 @@ estimates_path <- "../data/estimates-provinces/"
 countries <- c("ES")
 ci_level <- 0.95
 cases_cutoff <- 1/2
-fatalities_cutoff <- 1/2
-recent_cutoff <- 1/2
+fatalities_cutoff <- 1/3
+recent_cutoff <- 1/3
 
 max_responses = 100
 max_age <- 1000
