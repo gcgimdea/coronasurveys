@@ -1,5 +1,9 @@
-Timestamp,Country,ISO-3166-1-a2,Region,ISO-3166-2,Language,Reach,Cases,Visibility,Recovered,Fatalities,RecentCases,StillSick,Tested,Positive,Hospital,Severe,ICU,Vaccinated,RecentVaccinated,VaccineSideEffects,RefuseVaccine,ContactsDoctors,Surveyfirst,Surveyknown,Surveyforward,Dataset,Cookie,Campaign
+Timestamp,Country,ISO-3166-1-a2,Region,ISO-3166-2,Language,Reach,Cases,Visibility,Recovered,Fatalities,RecentCases,RecentCases14,PositiveTest14Days,PositiveTest07Days,LongCovid,StillSick,Tested,Positive,Hospital,Severe,ICU,Vaccinated,RecentVaccinated,VaccineSideEffects,RefuseVaccine,ContactsDoctors,Surveyfirst,Surveyknown,Surveyforward,Dataset,Cookie,Campaign
 2020/04/15,Peru,PE,,,,20,0,,,,,,,,,,,,,,,,,,,world-g-sheet,,
+2020/04/15,Peru,PE,,,,20,,,,,,,,,,,,,,,,,,,,,,,,world-g-sheet,,
 2020/05/31,Peru,PE,Piura,PEPIU,en,3,3,,2,,,,,,,,,,,,,,Y,N,N,limesurvey-12495,4x1s49nuvakavezept,
+2020/05/31,Peru,PE,Piura,PEPIU,en,3,3,,2,,,,,,,,,,,,,,,,,,Y,N,N,limesurvey-12495,4x1s49nuvakavezept,
 2020/09/16,Peru,PE,Lima,PELIM,en,100,25,,,2,0,0,,,,,,,,,,,,Y,,limesurvey-13923,zr1543carrc61jhdi6,
+2020/09/16,Peru,PE,Lima,PELIM,en,100,25,,,2,0,,,,,0,,,,,,,,,,,,Y,,limesurvey-13923,zr1543carrc61jhdi6,
 2020/10/04,Peru,PE,Ancash,PEANC,en,80,45,,,15,1,10,,,,,,,,,,,,Y,,limesurvey-14832,xrj58n4dahvjxe98sv,
+2020/10/04,Peru,PE,Ancash,PEANC,en,80,45,,,15,1,,,,,10,,,,,,,,,,,,Y,,limesurvey-14832,xrj58n4dahvjxe98sv,

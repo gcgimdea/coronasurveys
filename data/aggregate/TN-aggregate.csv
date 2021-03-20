@@ -1,4 +1,7 @@
-Timestamp,Country,ISO-3166-1-a2,Region,ISO-3166-2,Language,Reach,Cases,Visibility,Recovered,Fatalities,RecentCases,StillSick,Tested,Positive,Hospital,Severe,ICU,Vaccinated,RecentVaccinated,VaccineSideEffects,RefuseVaccine,ContactsDoctors,Surveyfirst,Surveyknown,Surveyforward,Dataset,Cookie,Campaign
+Timestamp,Country,ISO-3166-1-a2,Region,ISO-3166-2,Language,Reach,Cases,Visibility,Recovered,Fatalities,RecentCases,RecentCases14,PositiveTest14Days,PositiveTest07Days,LongCovid,StillSick,Tested,Positive,Hospital,Severe,ICU,Vaccinated,RecentVaccinated,VaccineSideEffects,RefuseVaccine,ContactsDoctors,Surveyfirst,Surveyknown,Surveyforward,Dataset,Cookie,Campaign
 2020/06/06,Tunisia,TN,Ariana,TN12,en,20,0,,,,,,,,,,,,,,,,Y,N,N,limesurvey-14072,gxihvuve4jkb47qm0s,
+2020/06/06,Tunisia,TN,Ariana,TN12,en,20,,,,,,,,,,,,,,,,,,,,,Y,N,N,limesurvey-14072,gxihvuve4jkb47qm0s,
 2020/06/09,Tunisia,TN,Ariana,TN12,en,20,0,,,,,,,,,,,,,,,,N,N,N,limesurvey-14792,gxihvuve4jkb47qm0s,
+2020/06/09,Tunisia,TN,Ariana,TN12,en,20,,,,,,,,,,,,,,,,,,,,,N,N,N,limesurvey-14792,gxihvuve4jkb47qm0s,
 2020/08/05,Tunisia,TN,Ariana,TN12,en,30,0,,,,0,0,,,,,,,,,,,,N,,limesurvey-6029,inxkrcweuok1oly6ce,
+2020/08/05,Tunisia,TN,Ariana,TN12,en,30,,,,,0,,,,,0,,,,,,,,,,,,N,,limesurvey-6029,inxkrcweuok1oly6ce,

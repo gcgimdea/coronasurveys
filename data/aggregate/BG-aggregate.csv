@@ -1,5 +1,9 @@
-Timestamp,Country,ISO-3166-1-a2,Region,ISO-3166-2,Language,Reach,Cases,Visibility,Recovered,Fatalities,RecentCases,StillSick,Tested,Positive,Hospital,Severe,ICU,Vaccinated,RecentVaccinated,VaccineSideEffects,RefuseVaccine,ContactsDoctors,Surveyfirst,Surveyknown,Surveyforward,Dataset,Cookie,Campaign
+Timestamp,Country,ISO-3166-1-a2,Region,ISO-3166-2,Language,Reach,Cases,Visibility,Recovered,Fatalities,RecentCases,RecentCases14,PositiveTest14Days,PositiveTest07Days,LongCovid,StillSick,Tested,Positive,Hospital,Severe,ICU,Vaccinated,RecentVaccinated,VaccineSideEffects,RefuseVaccine,ContactsDoctors,Surveyfirst,Surveyknown,Surveyforward,Dataset,Cookie,Campaign
 2020/05/03,Bulgaria,BG,,,,100,0,,,,,,,,,,,,,,,,,,,world-g-sheet,,
+2020/05/03,Bulgaria,BG,,,,100,,,,,,,,,,,,,,,,,,,,,,,,world-g-sheet,,
 2020/05/21,Bulgaria,BG,Burgas,BG02,en,100,0,,0,,,,,,,,,,,,,,Y,N,N,limesurvey-10084,ld894ic8b0kagru42z,
+2020/05/21,Bulgaria,BG,Burgas,BG02,en,100,,,,,,,,,,,,,,,,,,,,,Y,N,N,limesurvey-10084,ld894ic8b0kagru42z,
 2021/01/02,Bulgaria,BG,Sofia,BG23,en,1,111,3,,,1,11,,,,,,10,,,100,,,,,limesurvey-9748,qd8m5hl2n49qxbjo5c,GAUK
 2021/01/02,Bulgaria,BG,Sofia,BG23,en,1,111,3,,,1,11,,,,,,10,,,100,,,,,limesurvey-9749,qd8m5hl2n49qxbjo5c,GAUK
+2021/01/02,Bulgaria,BG,Sofia,BG23,en,1,111,3,,,1,,,,,11,,,,,,10,,,100,,,,,limesurvey-9749,qd8m5hl2n49qxbjo5c,GAUK
+2021/01/02,Bulgaria,BG,Sofia,BG23,en,1,111,3,,,1,,,,,11,,,,,,10,,,100,,,,,limesurvey-9748,qd8m5hl2n49qxbjo5c,GAUK

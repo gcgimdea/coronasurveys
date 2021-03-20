@@ -1,2 +1,3 @@
-Timestamp,Country,ISO-3166-1-a2,Region,ISO-3166-2,Language,Reach,Cases,Visibility,Recovered,Fatalities,RecentCases,StillSick,Tested,Positive,Hospital,Severe,ICU,Vaccinated,RecentVaccinated,VaccineSideEffects,RefuseVaccine,ContactsDoctors,Surveyfirst,Surveyknown,Surveyforward,Dataset,Cookie,Campaign
+Timestamp,Country,ISO-3166-1-a2,Region,ISO-3166-2,Language,Reach,Cases,Visibility,Recovered,Fatalities,RecentCases,RecentCases14,PositiveTest14Days,PositiveTest07Days,LongCovid,StillSick,Tested,Positive,Hospital,Severe,ICU,Vaccinated,RecentVaccinated,VaccineSideEffects,RefuseVaccine,ContactsDoctors,Surveyfirst,Surveyknown,Surveyforward,Dataset,Cookie,Campaign
 2020/06/07,"Puerto Rico",PR,,,en,50,3,,3,,,,,,,,,,,,,,Y,N,N,limesurvey-14124,me9scmgt6fkb4wj9qq,
+2020/06/07,"Puerto Rico",PR,,,en,50,3,,3,,,,,,,,,,,,,,,,,,Y,N,N,limesurvey-14124,me9scmgt6fkb4wj9qq,

@@ -1,8 +1,15 @@
-Timestamp,Country,ISO-3166-1-a2,Region,ISO-3166-2,Language,Reach,Cases,Visibility,Recovered,Fatalities,RecentCases,StillSick,Tested,Positive,Hospital,Severe,ICU,Vaccinated,RecentVaccinated,VaccineSideEffects,RefuseVaccine,ContactsDoctors,Surveyfirst,Surveyknown,Surveyforward,Dataset,Cookie,Campaign
+Timestamp,Country,ISO-3166-1-a2,Region,ISO-3166-2,Language,Reach,Cases,Visibility,Recovered,Fatalities,RecentCases,RecentCases14,PositiveTest14Days,PositiveTest07Days,LongCovid,StillSick,Tested,Positive,Hospital,Severe,ICU,Vaccinated,RecentVaccinated,VaccineSideEffects,RefuseVaccine,ContactsDoctors,Surveyfirst,Surveyknown,Surveyforward,Dataset,Cookie,Campaign
 2020/04/09,Norway,NO,,,,50,0,,,,,,,,,,,,,,,,,,,world-g-sheet,,
+2020/04/09,Norway,NO,,,,50,,,,,,,,,,,,,,,,,,,,,,,,world-g-sheet,,
 2020/04/11,Norway,NO,,,,8,0,,,,,,,,,,,,,,,,,,,world-g-sheet,,
+2020/04/11,Norway,NO,,,,8,,,,,,,,,,,,,,,,,,,,,,,,world-g-sheet,,
 2020/04/14,Norway,NO,,,,50,0,,,,,,,,,,,,,,,,,,,world-g-sheet,,
+2020/04/14,Norway,NO,,,,50,,,,,,,,,,,,,,,,,,,,,,,,world-g-sheet,,
 2020/06/09,Norway,NO,Nord-Trøndelag,NO17,en,30,8,,8,,,,,,,,,,,,,,Y,N,N,limesurvey-14781,k2angjlf7gkb86c96y,
+2020/06/09,Norway,NO,Nord-Trøndelag,NO17,en,30,8,,8,,,,,,,,,,,,,,,,,,Y,N,N,limesurvey-14781,k2angjlf7gkb86c96y,
 2020/06/13,Norway,NO,Rogaland,NO11,en,2,0,,,,,,,,,,,,,,,,Y,N,N,limesurvey-16058,lqiv7n4qrji22p1w4f,
+2020/06/13,Norway,NO,Rogaland,NO11,en,2,,,,,,,,,,,,,,,,,,,,,Y,N,N,limesurvey-16058,lqiv7n4qrji22p1w4f,
 2020/06/23,Norway,NO,Rogaland,NO11,en,2,0,,,,,,,,,,,,,,,,N,N,N,limesurvey-19052,t0g40bjnqzi8h9w13s,
+2020/06/23,Norway,NO,Rogaland,NO11,en,2,,,,,,,,,,,,,,,,,,,,,N,N,N,limesurvey-19052,t0g40bjnqzi8h9w13s,
 2020/12/16,Norway,NO,Troms,NO19,en,50,1,,,0,0,0,,,,,,,,,,,,,,limesurvey-6313,nd2danneoudb55cl2h,
+2020/12/16,Norway,NO,Troms,NO19,en,50,1,,,,0,,,,,0,,,,,,,,,,,,,,limesurvey-6313,nd2danneoudb55cl2h,
