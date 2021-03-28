@@ -28,9 +28,9 @@ try(source("script-300responses-smooth.R"), silent = F)
 try(source("script-W-alpha.R"), silent = F)
 try(source("script-W.R"), silent = F)
 
-try(source("script-rivas-arganda-daily.R"), silent = F)
+# try(source("script-rivas-arganda-daily.R"), silent = F)
 
-try(source("script-liverpool-daily.R"), silent = F)
+# try(source("script-liverpool-daily.R"), silent = F)
 
 try(source("script-provinces-daily.R"), silent = F)
 try(source("script-provinces-map.R"), silent = F)

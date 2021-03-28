@@ -50,11 +50,11 @@ plot_estimates <- function(country_geoid, code3,
   dt$cases[is.na(dt$cases)] <- 0
   dt$deaths[is.na(dt$deaths)] <- 0
   
-  cat(min(dt$date), nrow(dt), ".\n")
+  # cat(min(dt$date), nrow(dt), ".\n")
   # Add onset_to_death_window rows to dt
   ds <- setdiff(seq(as.Date(min(dt$date)-onset_to_death_window), as.Date(max(dt$date)), by="days"),
                 dt$date)
-  cat(".\n")
+  # cat(".\n")
   dt2 <- data.frame("date" = ds, 
                     "countrycode" = country_geoid, 
                     "population" = dt$population[1], 
@@ -131,9 +131,9 @@ generate_estimates <- function(){
   # country_codes <- country_codes[!grepl("_", country_codes, fixed = T)]
   # country_codes <- country_codes[!is.na(country_codes)]
   # country_codes <- country_codes[country_codes != ""]
-  cat(country_codes, "\n")
+  # cat(country_codes, "\n")
   for (c in country_codes) {
-    cat(paste0(ox_country_path, c, "-estimate.csv"))
+    # cat(paste0(ox_country_path, c, "-estimate.csv"))
     df <- read.csv(paste0(ox_country_path, c, "-estimate.csv"))
     plot_estimates(c, df$CountryCode[1], dts = df)
   }

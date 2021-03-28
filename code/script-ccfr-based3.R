@@ -124,12 +124,13 @@ plot_estimates <- function(country_geoid = "ES",
       p_ccfr_high[i] <- est_ccfr_high[i]/dt$population[1]
     }
     
-    dt$cases_infected <- est_ccfr
-    dt$cases_infected_low <- est_ccfr_low
-    dt$cases_infected_high <- est_ccfr_high
-    dt$p_cases_infected <- p_ccfr
-    dt$p_cases_infected_low <- p_ccfr_low
-    dt$p_cases_infected_high <- p_ccfr_high
+    # Avoid having more than 100% of the population reported infected
+    dt$cases_infected <- pmin(est_ccfr, dt$population)
+    dt$cases_infected_low <- pmin(est_ccfr_low, dt$population)
+    dt$cases_infected_high <- pmin(est_ccfr_high, dt$population)
+    dt$p_cases_infected <- pmin(p_ccfr, 1)
+    dt$p_cases_infected_low <- pmin(p_ccfr_low, 1)
+    dt$p_cases_infected_high <- pmin(p_ccfr_high, 1)
     
     # daily ccfr estimate
     dt$cases_daily <- c(0, diff(smooth_greedy(dt$cases_infected)))
