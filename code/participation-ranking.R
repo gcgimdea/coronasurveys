@@ -20,7 +20,7 @@ compute_ranking <- function(country_geoid){
     dt <- unique.data.frame(dt)
     dt <- dt %>% group_by(Cookie) %>% summarise(Count=n()) %>% arrange(desc(Count))
     dt = subset(dt, select = c(Cookie,Count) )
-    write.csv(dt,paste0(ranking_path, country_geoid, "-ranking.csv"),row.names = FALSE)
+    write.csv(dt,paste0(ranking_path, country_geoid, "-ranking.csv")) #,row.names = FALSE)
     }
     }
 }
