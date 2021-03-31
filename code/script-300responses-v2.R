@@ -235,7 +235,7 @@ get_spain_region_based_rosa <- function(country_geoid = "ES",
     if(write_file == T){
       cat("::- script-300responses: Writing estimates for:", country_geoid, "::\n")
       write.csv(region_based_estimate2,
-                paste0(estimates_path, country_geoid, "-estimate.csv"))
+                paste0(estimates_path, country_geoid, "-estimate.csv"), row.names = F)
 
     }
     else{

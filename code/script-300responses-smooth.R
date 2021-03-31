@@ -47,7 +47,7 @@ for (k in 1:length(all.files)) {
     data300$p_cases_infected_smooth_high <- data300$p_cases_infected_smooth + data300$p_cases_infected_error
   }
   write.csv(data300,
-            paste0(estimates_path, all.files[k]))
+            paste0(estimates_path, all.files[k]), row.names = F)
   
   ## Plots ----
   if (to_plot) {
