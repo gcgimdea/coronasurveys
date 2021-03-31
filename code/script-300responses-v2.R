@@ -249,9 +249,9 @@ get_spain_region_based_rosa <- function(country_geoid = "ES",
 }
 
 
-# "DE", "FR" , "GB"
+# "DE", "FR" , "GB", "EC", 
 # CY does not have regional data check
-country_interest <- c("ES", "IT",  "PT", "UA", "BR", "EC", "US", "DE", "GB", "FR")
+country_interest <- c("ES", "IT",  "PT", "UA", "BR", "US", "DE", "GB", "FR")
 # country_interest <- c("GB")
 
 dd <- sapply(country_interest, get_spain_region_based_rosa, write_file = T)
