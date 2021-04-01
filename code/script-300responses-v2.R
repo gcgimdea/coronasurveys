@@ -30,7 +30,8 @@ get_spain_region_based_rosa <- function(country_geoid = "ES",
     names(dt) <- tolower(names(dt))
     dt <- dt[, c("timestamp","region","reach","cases","recovered","fatalities","recentcases","stillsick", "iso.3166.1.a2", "iso.3166.2")]
     dt$date <- substr(dt$timestamp, 1, 10)
-    dates <- as.character(seq.Date(as.Date(dt$date[1]), as.Date(tail(dt$date,1)), by = "days"))
+    # dates <- as.character(seq.Date(as.Date(dt$date[1]), as.Date(tail(dt$date,1)), by = "days"))
+    dates <- as.character(seq.Date(as.Date(dt$date[1]), Sys.Date(), by = "days"))
     dates <- gsub("-","/", dates)
     if(country_geoid == "ES"){
       # change province madrid to comunidad madrid
