@@ -21,7 +21,7 @@ try(source("script-ES-ccfr-based.R"), silent = F)
 try(source("script-umd_batch_symptom_country.R"), silent = F)
 try(source("script-umd_batch_symptom_region.R"), silent = F)
 
-try(source("script-30responses.R"), silent = F)
+# try(source("script-30responses.R"), silent = F)
 try(source("script-300responses-v2.R"), silent = F)
 try(source("script-300responses-smooth.R"), silent = F)
 
