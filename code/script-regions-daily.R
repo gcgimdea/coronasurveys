@@ -11,17 +11,17 @@ estimates_path <- "../data/estimates-regions/"
 # data_path <- "../coronasurveys/data/common-data/regions-tree-population.csv"
 # estimates_path <- "./estimates-regions/"
 
-countries <- c("ES")
+countries <- c("PT", "ES")
 ci_level <- 0.95
-cases_cutoff <- 1/3
+cases_cutoff <- 1/2
 fatalities_cutoff <- 1/2
 recent_cutoff <- 1/2
 
-max_responses <- 100
-max_age <- 150
-max_age_recent <- 15
-sampling <- 100000 # If the reach is < population/sampling the estimate is NA
-sampling_recent <- 100000 # If the reach is < population/sampling_recent the estimate is NA
+max_responses <- 50
+max_age <- 1000
+max_age_recent <- 7
+sampling <- 10000 # If the reach is < population/sampling the estimate is NA
+sampling_recent <- 10000 # If the reach is < population/sampling_recent the estimate is NA
 
 
 remove_outliers <- function(dt, ratio_cutoff=1/3, fatalities_cutoff=1/10) {
@@ -257,7 +257,7 @@ dt$iso.3166.2[dt$iso.3166.2=="ESLO"] <-  "ESRI"
 
 
 #list of dates
-dates_dash <- as.character(seq.Date(as.Date(dt$timestamp[1]), as.Date(tail(dt$timestamp,1)), by = "days"))
+dates_dash <- as.character(seq.Date(as.Date(dt$timestamp[1]), Sys.Date(), by = "days"))
 dates <- gsub("-","/", dates_dash)
 
 #list responses per region
