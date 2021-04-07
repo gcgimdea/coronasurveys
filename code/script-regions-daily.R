@@ -11,7 +11,7 @@ estimates_path <- "../data/estimates-regions/"
 # data_path <- "../coronasurveys/data/common-data/regions-tree-population.csv"
 # estimates_path <- "./estimates-regions/"
 
-countries <- c("PT", "ES")
+countries <- c("BR", "DE", "ES", "FR", "GB", "IT", "PT", "US")
 ci_level <- 0.95
 cases_cutoff <- 1/2
 fatalities_cutoff <- 1/2

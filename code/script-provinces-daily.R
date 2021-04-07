@@ -11,7 +11,7 @@ estimates_path <- "../data/estimates-provinces/"
 # data_path <- "../coronasurveys/data/common-data/regions-tree-population.csv"
 # estimates_path <- "./estimates-provinces/"
 
-countries <- c("ES")
+countries <- c("FR", "ES", "IT")
 ci_level <- 0.95
 cases_cutoff <- 1/2
 fatalities_cutoff <- 1/3
@@ -268,7 +268,7 @@ dt$iso.3166.2[dt$iso.3166.2=="ESNC"] <- "ESNA"
 dt$iso.3166.2[dt$iso.3166.2=="ESRI"] <- "ESLO"
 
 #list of dates
-dates_dash <- as.character(seq.Date(as.Date(dt$timestamp[1]), as.Date(tail(dt$timestamp,1)), by = "days"))
+dates_dash <- as.character(seq.Date(as.Date(dt$timestamp[1]), Sys.Date(), by = "days"))
 dates <- gsub("-","/", dates_dash)
 
 #list responses per province
