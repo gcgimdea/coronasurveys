@@ -11,7 +11,7 @@ estimates_path <- "../data/estimates-provinces/"
 # data_path <- "../coronasurveys/data/common-data/regions-tree-population.csv"
 # estimates_path <- "./estimates-provinces/"
 
-countries <- c("FR", "ES", "IT")
+countries <- c("ES", "FR", "IT")
 ci_level <- 0.95
 cases_cutoff <- 1/2
 fatalities_cutoff <- 1/3
@@ -96,6 +96,8 @@ process_region <- function(dt, reg, name, pop, dates, max_responses = 1000, max_
   
   p_cases <- c()
   p_cases_error <- c()
+  
+  cases <- c()
 
   p_fatalities <- c()
   p_fatalities_error <- c()
@@ -114,6 +116,12 @@ process_region <- function(dt, reg, name, pop, dates, max_responses = 1000, max_
   
   p_refusevaccine <- c()
   p_refusevaccine_error <- c()
+
+  p_longcovid <- c()
+  p_longcovid_error <- c()
+ 
+  p_vaccinesideeffects <- c()
+  p_vaccinesideeffects_error <- c()
   
   population <- c()
   
@@ -149,6 +157,8 @@ process_region <- function(dt, reg, name, pop, dates, max_responses = 1000, max_
       p_cases <- c(p_cases, est$val)
       p_cases_error <- c(p_cases_error, est$error)
       
+      cases <- c(cases, est$val*pop)
+      
       est <- process_ratio(dt_date, "fatalities", "reach", "cases")
       p_fatalities <- c(p_fatalities, est$val)
       p_fatalities_error <- c(p_fatalities_error, est$error)
@@ -156,15 +166,35 @@ process_region <- function(dt, reg, name, pop, dates, max_responses = 1000, max_
       est <- process_ratio(dt_date, "vaccinated", "reach", "reach")
       p_vaccinated <- c(p_vaccinated, est$val)
       p_vaccinated_error <- c(p_vaccinated_error, est$error)
+      
+      est <- process_ratio(dt_date, "refusevaccine", "reach", "reach")
+      p_refusevaccine <- c(p_refusevaccine, est$val)
+      p_refusevaccine_error <- c(p_refusevaccine_error, est$error)
+      
+      est <- process_ratio(dt_date, "longcovid", "reach", "cases")
+      p_longcovid <- c(p_longcovid, est$val)
+      p_longcovid_error <- c(p_longcovid_error, est$error)
+      
+      est <- process_ratio(dt_date, "vaccinesideeffects", "reach", "vaccinated")
+      p_vaccinesideeffects <- c(p_vaccinesideeffects, est$val)
+      p_vaccinesideeffects_error <- c(p_vaccinesideeffects_error, est$error)
+      
     }
     else {
       # cat("Low reach\n"  )
       p_cases <- c(p_cases, NA)
       p_cases_error <- c(p_cases_error, NA)
+      cases <- c(cases, NA)
       p_fatalities <- c(p_fatalities, NA)
       p_fatalities_error <- c(p_fatalities_error, NA)
       p_vaccinated <- c(p_vaccinated, NA)
       p_vaccinated_error <- c(p_vaccinated_error, NA)
+      p_refusevaccine <- c(p_refusevaccine, NA)
+      p_refusevaccine_error <- c(p_refusevaccine_error, NA)
+      p_longcovid <- c(p_longcovid, NA)
+      p_longcovid_error <- c(p_longcovid_error, NA)
+      p_vaccinesideeffects <- c(p_vaccinesideeffects, NA)
+      p_vaccinesideeffects_error <- c(p_vaccinesideeffects_error, NA)
     }
 
     if (sum(dt_recent$reach) >= pop/sampling_recent){
@@ -180,10 +210,7 @@ process_region <- function(dt, reg, name, pop, dates, max_responses = 1000, max_
       est <- process_ratio(dt_recent, "stillsick", "reach", "cases")
       p_stillsick <- c(p_stillsick, est$val)
       p_stillsick_error <- c(p_stillsick_error, est$error)
-      
-      est <- process_ratio(dt_recent, "refusevaccine", "reach", "reach")
-      p_refusevaccine <- c(p_refusevaccine, est$val)
-      p_refusevaccine_error <- c(p_refusevaccine_error, est$error)
+
     }
     else {
       # cat("Low reach_recent\n"  )
@@ -193,8 +220,6 @@ process_region <- function(dt, reg, name, pop, dates, max_responses = 1000, max_
       p_cases_daily_error <- c(p_cases_daily_error, NA)
       p_stillsick <- c(p_stillsick, NA)
       p_stillsick_error <- c(p_stillsick_error, NA)
-      p_refusevaccine <- c(p_refusevaccine, NA)
-      p_refusevaccine_error <- c(p_refusevaccine_error, NA)
     }
     
     population <- c(population, pop)
@@ -211,6 +236,8 @@ process_region <- function(dt, reg, name, pop, dates, max_responses = 1000, max_
                    
                    p_cases,
                    p_cases_error,
+                   
+                   cases,
 
                    p_fatalities,
                    p_fatalities_error,
@@ -229,6 +256,11 @@ process_region <- function(dt, reg, name, pop, dates, max_responses = 1000, max_
                    
                    p_refusevaccine,
                    p_refusevaccine_error,
+                   
+                   p_longcovid,
+                   p_longcovid_error,
+                   p_vaccinesideeffects,
+                   p_vaccinesideeffects_error,
                    
                    stringsAsFactors = F)
   
@@ -295,6 +327,8 @@ dw <- data.frame(date=c(),
 
                  p_cases=c(),
                  p_cases_error=c(),
+                 
+                 cases=c(),
 
                  p_fatalities=c(),
                  p_fatalities_error=c(),
@@ -313,6 +347,11 @@ dw <- data.frame(date=c(),
                  
                  p_refusevaccine = c(),
                  p_refusevaccine_error = c(),
+                 
+                 p_longcovid <- c(),
+                 p_longcovid_error <- c(),
+                 p_vaccinesideeffects <- c(),
+                 p_vaccinesideeffects_error <- c(),
 
                  stringsAsFactors = F)
 
