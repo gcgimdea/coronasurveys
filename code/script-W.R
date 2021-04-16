@@ -63,7 +63,6 @@ provincial_regional_estimate_w_only <- function(countrycode = "ES",
   # dates <- unique(dt$date)
   dates <- seq(as.Date(dt$date[1]), Sys.Date(), by = "day")
   
-  
   dt_region2 <- dt_region[, c("countrycode",  "regioncode",   "provincecode", "population")] ## bring autonomous cities code to lowest level
   
   r_c <- r_r <- r_r_recent <-  
@@ -516,10 +515,10 @@ provincial_regional_estimate_w_only <- function(countrycode = "ES",
 }
 
 
-interest <- c("BR", "CL", "CY", "DE", "EC", "FR", "GB", "GR", "PT", "UA", "US")
-#interest <- c("BR", "US")
+interest <- c("BR", "CL", "CY", "DE", "EC", "GB", "GR", "PT", "UA", "US")
+# interest <- c("EC", "US")
 dd <- sapply(interest, provincial_regional_estimate_w_only, province = F, write_daily_file = T)
 
-interest2 <- c("ES", "IT")
+interest2 <- c("ES", "FR", "IT")
 dd2 <- sapply(interest2, provincial_regional_estimate_w_only, province = T, write_daily_file = T)
 
