@@ -2,6 +2,15 @@ library(tidyverse)
 library(readxl)
 library(httr)
 
+country_codes_file <- "../data/common-data/wikipedia-iso-country-codes.xlsx"
+estimates_path <- "../data/estimates-ccfr-based/PlotData/"
+
+# country_codes_file <- "../coronasurveys/data/common-data/wikipedia-iso-country-codes.xlsx"
+# estimates_path <- "./estimates-ccfr-based/PlotData/"
+
+infectious_window_cases <- 12
+symptomatic_window_cases <- 18
+
 calculate_ci <- function(p_est, level, pop_size) {
   z <- qnorm(level+(1-level)/2)
   se <- sqrt(p_est*(1-p_est))/sqrt(pop_size)
@@ -46,7 +55,8 @@ plot_estimates <- function(country_geoid = "ES",
                            c_cfr_baseline = 1.38,
                            c_cfr_estimate_range = c(1.23, 1.53),
                            dts, 
-                           ac_window){
+                           ac_window,
+                           symptom_window){
   cat("::- script-ccfr-based: Computing ccfr-based estimates for", country_geoid, "::\n")
   mu_hdt = log(z_median_hdt)
   sigma_hdt = sqrt(2*(log(z_mean_hdt) - mu_hdt))
@@ -115,32 +125,58 @@ plot_estimates <- function(country_geoid = "ES",
     # daily ccfr estimate
     dt$cases_daily <- ccfr_factor*dt$cases
     
-    #total active cases
-    dt$cases_active <- cumsum(c(dt$cases_daily[1:ac_window],
-                                      diff(dt$cases_daily, lag = ac_window)))
     #undetected active cases
     undetected_daily_estimate <-  dt$cases_daily - dt$cases
-    dt$cases_active_undected <- cumsum(c(undetected_daily_estimate[1:ac_window],
-                                         diff(undetected_daily_estimate, lag = ac_window)))
+    
+    #total active cases
+    if (nrow(dt) >= ac_window){
+      dt$cases_active <- cumsum(c(dt$cases_daily[1:ac_window],
+                                      diff(dt$cases_daily, lag = ac_window)))
+      dt$cases_active_undected <- cumsum(c(undetected_daily_estimate[1:ac_window],
+                                           diff(undetected_daily_estimate, lag = ac_window)))
+      #infectious
+      dt$cases_infect <- cumsum(c(dt$cases_daily[1:ac_window],
+                                  diff(dt$cases_daily, lag = ac_window)))
+      dt$cases_infect_undected <- cumsum(c(undetected_daily_estimate[1:ac_window],
+                                           diff(undetected_daily_estimate, lag = ac_window)))
+    }
+    else {
+      dt$cases_active <- dt$cases_active_undected <- dt$cases_infect <- dt$cases_infect_undected <- NA
+    }
+    
+    #symptomatic
+    if (nrow(dt) >= symptom_window){
+      dt$cases_symptom <- cumsum(c(dt$cases_daily[1:symptom_window],
+                                diff(dt$cases_daily, lag = symptom_window)))
+    }
+    else {
+      dt$cases_symptom <- NA
+    }
     
     dt$p_cases_daily <- ccfr_factor*dt$cases_daily/dt$population
     dt$p_cases_active <- dt$cases_active/dt$population
     dt$p_cases_active_undetected <- dt$cases_active_undected/dt$population
-
+    dt$p_infect <- dt$cases_infect/dt$population
+    dt$p_infect_undected <- dt$cases_infect_undected/dt$population
+    dt$p_symptom <- dt$cases_symptom/dt$population
     
     dt_w <- dt %>% 
-      select("date", "cases", "deaths", "cum_cases", "cum_deaths", "cases_daily", "cases_active", "cases_active_undected", 
-             "p_cases", "p_cases_low", "p_cases_high", "p_cases_daily", "p_cases_active", "p_cases_active_undetected", 
-             "population")
+      select("date", "cases", "deaths", "cum_cases", "cum_deaths", 
+             "cases_daily", "cases_active", "cases_active_undected", 
+             "cases_infect", "cases_infect_undected", "cases_symptom",
+             "p_cases", "p_cases_low", "p_cases_high", 
+             "p_cases_daily", "p_cases_active", "p_cases_active_undetected", 
+             "p_infect", "p_infect_undected", "p_symptom", "population")
     
-    dir.create("../data/estimates-ccfr-based/PlotData/", showWarnings = F)
+    dir.create(estimates_path, showWarnings = F)
     cat("::- script-ccfr-based: Writing data for", country_geoid, "::\n")
-    write.csv(dt_w, paste0("../data/estimates-ccfr-based/PlotData/", country_geoid, "-estimate.csv"))
+    write.csv(dt_w, paste0(estimates_path, country_geoid, "-estimate.csv"), row.names = FALSE)
     
   } 
   
 
-generate_estimates <- function(active_window_cases = 12){
+generate_estimates <- function(active_window_cases = 12,
+                               symptom_window_cases = 18){
   url <- paste("https://www.ecdc.europa.eu/sites/default/files/documents/COVID-19-geographic-disbtribution-worldwide-",
                Sys.Date(), ".xlsx", sep = "")
   GET(url, authenticate(":", ":", type="ntlm"), write_disk(tf <- tempfile(fileext = ".xlsx")))
@@ -161,27 +197,33 @@ generate_estimates <- function(active_window_cases = 12){
     }else{
       cat("::- script-ccfr: Using ECDC data for previous day ::\n")
       data_ecdc$countryterritoryCode[data_ecdc$geoId == "CZ"] <- "CZE" # add "CZ" manually
-      data_country_code <- read_excel("../data/common-data/wikipedia-iso-country-codes.xlsx")
+      data_country_code <- read_excel(country_codes_file)
       names(data_country_code) <- c("English.short.name.lower.case", "Alpha.2.code",
                                     "Alpha.3.code", "Numeric.code", "ISO.3166.2")
       
       data_ecdc <- inner_join(data_ecdc, data_country_code, by = c("countryterritoryCode" = "Alpha.3.code"))
       
       all_geo_ids <- unique(data_ecdc$Alpha.2.code)
-      sapply(all_geo_ids, plot_estimates, dts = data_ecdc)
+      sapply(all_geo_ids, plot_estimates, dts = data_ecdc, 
+             ac_window = active_window_cases, 
+             symptom_window = symptom_window_cases)
     }
   } else{
     cat("::- script-ccfr: ECDC data for the day available! ::\n")
     data_ecdc$countryterritoryCode[data_ecdc$geoId == "CZ"] <- "CZE" # add "CZ" manually
-    data_country_code <- read_excel("../data/common-data/wikipedia-iso-country-codes.xlsx")
+    data_country_code <- read_excel(country_codes_file)
     names(data_country_code) <- c("English.short.name.lower.case", "Alpha.2.code",
                                   "Alpha.3.code", "Numeric.code", "ISO.3166.2")
     data_ecdc <- inner_join(data_ecdc, data_country_code, by = c("countryterritoryCode" = "Alpha.3.code"))
-    all_geo_ids <- unique(data_ecdc$Alpha.2.code) 
-    go <- sapply(all_geo_ids, plot_estimates, dts =  data_ecdc, ac_window = active_window_cases)
+    all_geo_ids <- unique(data_ecdc$Alpha.2.code)
+    go <- sapply(all_geo_ids, plot_estimates, dts =  data_ecdc, 
+                 ac_window = active_window_cases, 
+                 symptom_window = symptom_window_cases)
   }
   
 }
-generate_estimates()
+
+generate_estimates(active_window_cases = infectious_window_cases,
+                   symptom_window_cases = symptomatic_window_cases)
 
 #plot_estimates(country_geoid = "ES", dts =  data_ecdc, ac_window = active_window_cases)
