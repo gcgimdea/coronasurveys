@@ -32,6 +32,7 @@ try(source("script-W.R"), silent = F)
 
 # try(source("script-liverpool-daily.R"), silent = F)
 
+try(source("script-regions-daily.R"), silent = F)
 try(source("script-provinces-daily.R"), silent = F)
 try(source("script-provinces-map.R"), silent = F)
 try(source("script-provinces-plot.R"), silent = F)
