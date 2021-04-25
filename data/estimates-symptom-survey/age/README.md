@@ -3,14 +3,14 @@ Estimates for each age group at the country level obtained from the UMD Survey D
 Each row of the tables contains:
 - date
 - age. This column can take the following values:
--- 1: 18-24 years
--- 2: 25-34 years 
--- 3: 35-44 years 
--- 4: 45-54 years 
--- 5: 55-64 years 
--- 6: 65-74 years 
--- 7: 75 years or older
--- -99/-77: not provided or invalid
+  * 1: 18-24 years
+  * 2: 25-34 years 
+  * 3: 35-44 years 
+  * 4: 45-54 years 
+  * 5: 55-64 years 
+  * 6: 65-74 years 
+  * 7: 75 years or older
+  * -99/-77: not provided or invalid
 - ISO2
 - country
 - ISO3
