@@ -95,6 +95,8 @@ df_isoo <- df_aux[!duplicated(df_aux$ISO2),c("country","region","ISO2","ISO3")]
 # te selecciona todas las regiones que salgan en los datos sin repetir
 df_region <- df_aux[!duplicated(df_aux$region),c("country","region","ISO2","ISO3")] 
 
+dw <- data.frame()
+
 for (h in 1:dim(df_isoo)[1]){
   df_country1 <- df_aux[df_aux$ISO2 == df_isoo$ISO2[h], ]
   df_region_country <- df_country1[!duplicated(df_country1$region), c("country","region","ISO2","ISO3")]

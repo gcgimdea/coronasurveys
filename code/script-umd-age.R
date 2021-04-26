@@ -104,6 +104,8 @@ df_isoo <- df_aux_age[!duplicated(df_aux_age$ISO2),c("country","age","ISO2","ISO
 # te selecciona todos los grupos de edades que salgan en los datos sin repetir
 df_age <- df_aux_age[!duplicated(df_aux_age$age),c("country","age","ISO2","ISO3","population")] 
     
+dw <- data.frame()
+
 # recorro el dataframe creado previamente pais por pais y aplico el algoritmo diseñado
 for (i in 1:dim(df_isoo)[1]){
   for (j in 1:dim(df_age)[1]){
