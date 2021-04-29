@@ -165,6 +165,8 @@ for (i in 1:dim(df_iso)[1]){
   df_country_ok$p_cli_local_14days_low <- est$low
   df_country_ok$p_cli_local_14days_high <- est$high
   
+  df_country_ok$p_cases_active <- df_country_ok$p_cli_14days
+  
   write.csv(df_country_ok, paste0(estimates_path,df_iso$ISO2[i],"-estimate.csv"), row.names = FALSE)
 }
 
