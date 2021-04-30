@@ -11,7 +11,8 @@ estimates_path <- "../data/estimates-regions/"
 # data_path <- "../coronasurveys/data/common-data/regions-tree-population.csv"
 # estimates_path <- "./estimates-regions/"
 
-countries <- c("BR", "DE", "ES", "FR", "GB", "IT", "PT", "US")
+countries <- c("AR", "AU", "BR", "CA", "CH", "CL", "CY", "DE", "EC", "ES", "FI", "FR", 
+               "GB", "GR", "HU", "IN", "IT", "JP", "NL", "PL", "PT", "RO", "RU", "UA", "US")
 ci_level <- 0.95
 cases_cutoff <- 1/2
 fatalities_cutoff <- 1/2
@@ -34,7 +35,7 @@ remove_outliers <- function(dt, ratio_cutoff=1/3, fatalities_cutoff=1/10) {
   
   #Compute cutoffs
   reach_cutoff <- boxplot.stats(dt$reach, coef=1.5)$stats[5] # changed cutoff to upper fence
-
+  
   # dt$ratio <- dt$cases/dt$reach
   # cases_cutoff <- boxplot.stats(dt$ratio, coef=1.5)$stats[5] # changed cutoff to upper fence
   # 
@@ -221,6 +222,10 @@ for (co in 1:length(countries)){
   country_iso <- countries[co]
 
 cat("Country ", country_iso, " region daily script run at ", as.character(Sys.time()), "\n\n")
+
+if (!file.exists(paste0(estimates_path, country_iso))){
+  dir.create(paste0(estimates_path, country_iso))
+}
 
 #list of regions
 region_tree <- read.csv(data_path, as.is = T)
