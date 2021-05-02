@@ -19,8 +19,8 @@ plot_estimates <- function(country_geoid = "AF", dts,
   dt$cases_infected[is.na(dt$cases_infected)] <- 0
   dt$cum_deaths[is.na(dt$cum_deaths)] <- 0
   
-  dt$cases_daily <- c(NA,diff(dt$cases_infected))
-  dt$deaths <- c(NA,diff(dt$cum_deaths))
+  dt$cases_daily <- c(0,diff(dt$cases_infected))
+  dt$deaths <- c(0,diff(dt$cum_deaths))
   
   dt$date <- gsub("-", "/", as.Date(dt$date, format = "%Y-%m-%d"))
   

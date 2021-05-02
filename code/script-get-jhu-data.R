@@ -22,8 +22,8 @@ library(tidyverse)
 # leo los archivos de datos
 responses_path <- "https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/"
 data_path <- "https://raw.githubusercontent.com/GCGImdea/coronasurveys/master/data/common-data/unified-country-list.csv"
-
 # estimates_path <- "./jhu/"
+
 estimates_path <- "../data/jhu/"
 
 paises <- read.csv(data_path, as.is = T, na.string = "NaN")
@@ -62,8 +62,9 @@ for (i in 1:length(fechas)){
             , error = function(e) {date_error <<- TRUE})
 
   if (!date_error){ # If date not available, read_csv failed
+    csv$date <- fechas[i]
     if("Country/Region" %in% colnames(csv)){
-      if(dim(csv)[2]==8){
+      if(dim(csv)[2]==9){
         dw_special8 <- rbind(dw_special8,csv)
       }
       else{
@@ -74,7 +75,7 @@ for (i in 1:length(fechas)){
       dw_special_2020 <- rbind(dw_special_2020,csv)
     }
     else{
-      if(dim(csv)[2]==12){
+      if(dim(csv)[2]==13){
         dw_2020 <- rbind(dw_2020,csv)
       }
       else{
@@ -94,24 +95,24 @@ fechas <- fechas[!fechas %in% no_date]
 
 # cat(as.character.Date(fechas))
 
-# Realizo diversas acciones para trabajar en un formato de fecha adecuado
-dw$date<- as.Date(dw$Last_Update, format = "%m/%d/%y")
-dw_2020$date <- as.Date(dw_2020$Last_Update, format = "%m/%d/%y")
-dw_special$date <- as.Date(dw_special$'Last Update', format = "%m/%d/%y")
-dw_special_2020$date <- as.Date(dw_special_2020$Last_Update, format = "%m/%d/%y")
-dw_special8$date <- as.Date(dw_special8$'Last Update', format = "%m/%d/%y")
-
-# for (i in 572:dim(dw_special)[1]){
-#   dw_special$date[i] <- as.POSIXct(as.numeric(dw_special$'Last Update'[i]), origin="1970-01-01", tz="GMT")
-# }
-dw_special$date[572:dim(dw_special)[1]] <- 
-  as.POSIXct(as.numeric(dw_special$'Last Update'[572:dim(dw_special)[1]]), origin="1970-01-01", tz="GMT")
-
-# for (i in 3422:dim(dw_2020)[1]){
-#   dw_2020$date[i] <- as.POSIXct(as.numeric(dw_2020$Last_Update[i]), origin="1970-01-01", tz="GMT")
-# }
-dw_2020$date[3422:dim(dw_2020)[1]] <- 
-  as.POSIXct(as.numeric(dw_2020$Last_Update[3422:dim(dw_2020)[1]]), origin="1970-01-01", tz="GMT")
+# # Realizo diversas acciones para trabajar en un formato de fecha adecuado
+# dw$date<- as.Date(dw$Last_Update, format = "%m/%d/%y")
+# dw_2020$date <- as.Date(dw_2020$Last_Update, format = "%m/%d/%y")
+# dw_special$date <- as.Date(dw_special$'Last Update', format = "%m/%d/%y")
+# dw_special_2020$date <- as.Date(dw_special_2020$Last_Update, format = "%m/%d/%y")
+# dw_special8$date <- as.Date(dw_special8$'Last Update', format = "%m/%d/%y")
+# 
+# # for (i in 572:dim(dw_special)[1]){
+# #   dw_special$date[i] <- as.POSIXct(as.numeric(dw_special$'Last Update'[i]), origin="1970-01-01", tz="GMT")
+# # }
+# dw_special$date[572:dim(dw_special)[1]] <- 
+#   as.POSIXct(as.numeric(dw_special$'Last Update'[572:dim(dw_special)[1]]), origin="1970-01-01", tz="GMT")
+# 
+# # for (i in 3422:dim(dw_2020)[1]){
+# #   dw_2020$date[i] <- as.POSIXct(as.numeric(dw_2020$Last_Update[i]), origin="1970-01-01", tz="GMT")
+# # }
+# dw_2020$date[3422:dim(dw_2020)[1]] <- 
+#   as.POSIXct(as.numeric(dw_2020$Last_Update[3422:dim(dw_2020)[1]]), origin="1970-01-01", tz="GMT")
 
 # El orden de los dataframe por fechas es:
 # 1 -> dw_special
@@ -158,7 +159,7 @@ df_pais_nan<- na.exclude(df_pais)
 # por cada fecha suma todos los datos disponibles de confirmed, active, deaths y recovered
 # se guardan en las correspondientes listas y se crea un dataframe por cada pais que se exportara como csv
 for (i in 1:dim(df_pais_nan)[1]){
-  cat(df_pais_nan$country[i],"\n")
+  # cat(df_pais_nan$country[i],"\n")
   lista_confirmed <- c()
   lista_deaths <- c()
   lista_active <- c()
@@ -201,3 +202,5 @@ for (i in 1:dim(df_pais_nan)[1]){
     
   write.csv(df_aux, paste0(estimates_path,df_pais_nan$ISO2[i],"-data.csv"), row.names = FALSE)
 }
+
+
