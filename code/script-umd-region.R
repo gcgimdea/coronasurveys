@@ -38,6 +38,7 @@ process_ratio <- function(numerator, denominator){
 
 lista_cli <- c()
 lista_count <- c()
+lista_anosmia <- c()
 lista_cli_local <- c()
 lista_count_local <- c()
 lista_pais <- c()
@@ -62,6 +63,7 @@ for (i in 1:length(files)){
     iso3 <- csv_merge$ISO3[j]
     cli <- csv_merge$cli[j]
     count <- csv_merge$count[j]
+    anosmia <- csv_merge$anosmia[j]
     cli_local <- csv_merge$cli_local_com[j]
     count_local <- csv_merge$count_local_com[j]
     population <- csv_merge$population[j]
@@ -75,6 +77,7 @@ for (i in 1:length(files)){
     lista_count[[length(lista_count)+1]] <- count
     lista_cli_local[[length(lista_cli_local)+1]] <- cli_local
     lista_count_local[[length(lista_count_local)+1]] <- count_local
+    lista_anosmia[[length(lista_anosmia)+1]] <- anosmia
   }
 }
 
@@ -85,6 +88,7 @@ df_aux <- data.frame(
       "ISO3" = as.vector(unlist(lista_iso3)),
       "date" = as.Date(as.vector(unlist(lista_fecha)), origin="1970-01-01"),
       "cli" = as.vector(unlist(lista_cli)),
+      "anosmia" = as.vector(unlist(lista_anosmia)),
       "count" = as.vector(unlist(lista_count)),
       "cli_local" = as.vector(unlist(lista_cli_local)),
       "count_local" = as.vector(unlist(lista_count_local))
@@ -109,11 +113,13 @@ for (h in 1:dim(df_isoo)[1]){
     dfdf <- df_country_ok %>%
       complete(date = seq.Date(start, hoy, by="day"), region =df_region_country$region[i], country=df_isoo$country[h], ISO2=df_isoo$ISO2[h], ISO3=df_isoo$ISO3[h] )
       
-    dfdf$cli_7days <- rollapply(dfdf$cli,7,sum,fill=NA,na.rm = TRUE,align="right")
-    dfdf$count_7days <- rollapply(dfdf$count,7,sum,fill=NA,na.rm = TRUE,align="right")
-    dfdf$cli_local_7days <- rollapply(dfdf$cli_local,7,sum,fill=NA,na.rm = TRUE,align="right")
-    dfdf$count_local_7days <- rollapply(dfdf$count_local,7,sum,fill=NA,na.rm = TRUE,align="right")
+    # dfdf$cli_7days <- rollapply(dfdf$cli,7,sum,fill=NA,na.rm = TRUE,align="right")
+    # dfdf$count_7days <- rollapply(dfdf$count,7,sum,fill=NA,na.rm = TRUE,align="right")
+    # dfdf$cli_local_7days <- rollapply(dfdf$cli_local,7,sum,fill=NA,na.rm = TRUE,align="right")
+    # dfdf$count_local_7days <- rollapply(dfdf$count_local,7,sum,fill=NA,na.rm = TRUE,align="right")
+    
     dfdf$cli_14days <- rollapply(dfdf$cli,14,sum,fill=NA,na.rm = TRUE,align="right")
+    dfdf$anosmia_14days <- rollapply(dfdf$anosmia,14,sum,fill=NA,na.rm = TRUE,align="right")
     dfdf$count_14days <- rollapply(dfdf$count,14,sum,fill=NA,na.rm = TRUE,align="right")
     dfdf$cli_local_14days <- rollapply(dfdf$cli_local,14,sum,fill=NA,na.rm = TRUE,align="right")
     dfdf$count_local_14days <- rollapply(dfdf$count_local,14,sum,fill=NA,na.rm = TRUE,align="right")
@@ -122,27 +128,37 @@ for (h in 1:dim(df_isoo)[1]){
     dfdf$p_cli <- est$val
     dfdf$p_cli_low <- est$low
     dfdf$p_cli_high <- est$high
-  
-    est <- process_ratio(dfdf$cli_7days, dfdf$count_7days)
-    dfdf$p_cli_7days <- est$val
-    dfdf$p_cli_7days_low <- est$low
-    dfdf$p_cli_7days_high <- est$high
+    
+    est <- process_ratio(dfdf$anosmia, dfdf$count)
+    dfdf$p_anosmia <- est$val
+    dfdf$p_anosmia_low <- est$low
+    dfdf$p_anosmia_high <- est$high
+    
+    est <- process_ratio(dfdf$cli_local, reach * dfdf$count_local)
+    dfdf$p_cli_local <- est$val
+    dfdf$p_cli_local_low <- est$low
+    dfdf$p_cli_local_high <- est$high
+    
+    # est <- process_ratio(dfdf$cli_7days, dfdf$count_7days)
+    # dfdf$p_cli_7days <- est$val
+    # dfdf$p_cli_7days_low <- est$low
+    # dfdf$p_cli_7days_high <- est$high
   
     est <- process_ratio(dfdf$cli_14days, dfdf$count_14days)
     dfdf$p_cli_14days <- est$val
     dfdf$p_cli_14days_low <- est$low
     dfdf$p_cli_14days_high <- est$high
   
-    est <- process_ratio(dfdf$cli_local, reach * dfdf$count_local)
-    dfdf$p_cli_local <- est$val
-    dfdf$p_cli_local_low <- est$low
-    dfdf$p_cli_local_high <- est$high
-  
-    est <- process_ratio(dfdf$cli_local_7days, reach * dfdf$count_local_7days)
-    dfdf$p_cli_local_7days <- est$val
-    dfdf$p_cli_local_7days_low <- est$low
-    dfdf$p_cli_local_7days_high <- est$high
-  
+    est <- process_ratio(dfdf$anosmia_14days, dfdf$count_14days)
+    dfdf$p_anosmia_14days <- est$val
+    dfdf$p_anosmia_14days_low <- est$low
+    dfdf$p_anosmia_14days_high <- est$high
+    
+    # est <- process_ratio(dfdf$cli_local_7days, reach * dfdf$count_local_7days)
+    # dfdf$p_cli_local_7days <- est$val
+    # dfdf$p_cli_local_7days_low <- est$low
+    # dfdf$p_cli_local_7days_high <- est$high
+
     est <- process_ratio(dfdf$cli_local_14days, reach * dfdf$count_local_14days)
     dfdf$p_cli_local_14days <- est$val
     dfdf$p_cli_local_14days_low <- est$low

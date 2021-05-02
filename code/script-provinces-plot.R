@@ -7,7 +7,7 @@ source("smooth_column-v2.R")
 # population <- 6663394
 
 estimates_path <- "../data/estimates-provinces/"
-estimates_umd_path <- "../data/estimates-umd-symptom-survey/"
+estimates_umd_path <- "../data/estimates-symptom-survey/region/ES-estimate.csv"
 plots_path <- "../data/estimates-provinces/plots/"
 ccfr_path <- "../data/estimates-ccfr-based/ES/"
 
@@ -17,9 +17,9 @@ ccfr_path <- "../data/estimates-ccfr-based/ES/"
 # datadista_file <- "../estimates-datadista/smooth_cases_fatalities.csv"
 
 
-smooth_param <- 15
+smooth_param <- 20
 age_recent <- 7
-#start_date <- "2020-10-10"
+# start_date <- "2020-04-10"
 start_date <- "2021-01-01"
 #end_date <- "2020-12-10"
 end_date <- Sys.Date()
@@ -117,86 +117,48 @@ df_ccfr <- smooth_column(df_in = df_ccfr,
 
 
 # Read UMD data
-df_umd <- read.csv(paste0(estimates_umd_path, "ES/ESMD-estimate.csv"))
-df_umd <- df_umd %>% select(date, pct_cli_weighted) #, batched_pct_cli)
+df_umd <- read.csv(estimates_umd_path)
+df_umd <- df_umd[df_umd$region == "Comunidad de Madrid",]
+#df_umd <- df_umd %>% select(date, pct_cli_weighted) #, batched_pct_cli)
 df_umd$date <- as.Date(df_umd$date)
 
-# df <- tail(df, n=(nrow(df)-211))
-df_umd <- df_umd[df_umd$date >= ymd(start_date),]
-
-cat("Smoothing pct_cli_weighted\n")
-df_umd <- smooth_column(df_in = df_umd, 
-                    col_s = "pct_cli_weighted", 
+cat("Smoothing p_cli\n")
+df_umd <- smooth_column(df_in = df_umd,
+                    col_s = "p_cli",
                     basis_dim = smooth_param,
                     link_in = "log")
 
-# cat("Smoothing batched_pct_cli\n")
-# df_umd <- smooth_column(df_in = df_umd,
-#                         col_s = "batched_pct_cli",
-#                         basis_dim = smooth_param,
-#                         link_in = "log")
+cat("Smoothing p_cli_local\n")
+df_umd <- smooth_column(df_in = df_umd,
+                        col_s = "p_cli_local",
+                        basis_dim = smooth_param,
+                        link_in = "log")
+
+df_umd <- df_umd[df_umd$date >= ymd(start_date),]
 
 # colors <- c("Nuevos casos" = "red", "recent_c" = "red", "sick_c" = "blue", "Sintomáticos" = "blue")
 p1 <- ggplot(data = df_umd, aes(x = date, color = ""))  +
-  # geom_rect(xmin = ymd("2020-09-19"), xmax = ymd("2020-09-20"),
-  #               ymin = 0, ymax = Inf, 
-  #             alpha = 0.01, color = "orange", size = 0.1, fill = "yellow") +
-  # geom_rect(xmin = ymd("2020-09-26"), xmax = ymd("2020-09-27"),
-  #           ymin = 0, ymax = Inf, 
-  #           alpha = 0.01, color = "orange", size = 0.1, fill = "yellow") +
-  # geom_rect(xmin = ymd("2020-10-03"), xmax = ymd("2020-10-04"),
-  #           ymin = 0, ymax = Inf, 
-  #           alpha = 0.01, color = "orange", size = 0.1, fill = "yellow") +
-  # geom_rect(xmin = ymd("2020-10-10"), xmax = ymd("2020-10-12"),
-  #           ymin = 0, ymax = Inf, 
-  #           alpha = 0.01, color = "orange", size = 0.1, fill = "yellow") +
-  # geom_rect(xmin = ymd("2020-10-17"), xmax = ymd("2020-10-18"),
-  #           ymin = 0, ymax = Inf, 
-  #           alpha = 0.01, color = "orange", size = 0.1, fill = "yellow") +
-  # geom_rect(xmin = ymd("2020-10-24"), xmax = ymd("2020-10-25"),
-  #           ymin = 0, ymax = Inf, 
-  #           alpha = 0.01, color = "orange", size = 0.1, fill = "yellow") +
-  # geom_rect(xmin = ymd("2020-10-31"), xmax = ymd("2020-11-02"),
-  #           ymin = 0, ymax = Inf, 
-  #           alpha = 0.01, color = "orange", size = 0.1, fill = "yellow") +
-  # geom_rect(xmin = ymd("2020-11-7"), xmax = ymd("2020-11-09"),
-  #           ymin = 0, ymax = Inf, 
-  #           alpha = 0.01, color = "orange", size = 0.1, fill = "yellow") +
-  # geom_rect(xmin = ymd("2020-11-14"), xmax = ymd("2020-11-15"),
-  #           ymin = 0, ymax = Inf, 
-  #           alpha = 0.01, color = "orange", size = 0.1, fill = "yellow") +
-  # geom_rect(xmin = ymd("2020-11-21"), xmax = ymd("2020-11-22"),
-  #           ymin = 0, ymax = Inf, 
-  #           alpha = 0.01, color = "orange", size = 0.1, fill = "yellow") +
-  # geom_rect(xmin = ymd("2020-11-28"), xmax = ymd("2020-11-29"),
-  #           ymin = 0, ymax = Inf, 
-  #           alpha = 0.01, color = "orange", size = 0.1, fill = "yellow") +
-  # geom_rect(xmin = ymd("2020-12-05"), xmax = ymd("2020-12-08"),
-  #           ymin = 0, ymax = Inf, 
-  #           alpha = 0.01, color = "orange", size = 0.1, fill = "yellow") +
-  # geom_rect(xmin = ymd("2020-12-12"), xmax = ymd("2020-12-13"),
-  #           ymin = 0, ymax = Inf, 
-  #           alpha = 0.01, color = "orange", size = 0.1, fill = "yellow") +
-  # 
-  geom_point(aes(y = pct_cli_weighted*1000, color = "U. Maryland Covidmap"), 
-             alpha = 0.5, size = 2) +
-  # geom_point(aes(y = batched_pct_cli*1000, color = "UMD-B"), 
-  #            alpha = 0.5, size = 2) +
-  geom_line(aes(y = pct_cli_weighted_smooth*1000, color = "U. Maryland Covidmap"),
+  # geom_point(aes(y = p_cli*100000, color = "UMD CLI"), alpha = 0.5, size = 2) +
+  geom_line(aes(y = p_cli_smooth*100000, color = "UMD CLI"),
             linetype = "solid", size = 1, alpha = 0.6) +
-  #
-  # geom_ribbon(aes(ymin = pct_cli_weighted_smooth_low*1000, 
-  #                 ymax = pct_cli_weighted_smooth_high*1000), 
-  #             alpha = 0.1, color = "red", size = 0.1, fill = "red") +
-  # geom_point(aes(y = recent_shifted*100000, color = "Nuevos casos (7 días)"),
+  geom_ribbon(aes(ymin = p_cli_smooth_low*100000,
+                  ymax = p_cli_smooth_high*100000),
+              alpha = 0.1, color = "green", size = 0.1, fill = "green") +
+  # geom_point(aes(y = p_cli_local*100000, color = "UMD CLI Indirect"), alpha = 0.5, size = 2) +
+  geom_line(aes(y = p_cli_local_smooth*100000, color = "UMD CLI Indirect"),
+            linetype = "solid", size = 1, alpha = 0.6) +
+  geom_ribbon(aes(ymin = p_cli_local_smooth_low*100000,
+                  ymax = p_cli_local_smooth_high*100000),
+              alpha = 0.1, color = "red", size = 0.1, fill = "red") +
+  # geom_point(aes(y = p_anosmia*100000, color = "UMD anosmia"),
   #            alpha = 0.5, size = 2) +
-  # geom_line(aes(y = recent_shifted_smooth*100000, color = "Nuevos casos (7 días)"),
+  # geom_line(aes(y = p_anosmia_14days*100000, color = "UMD anosmia"),
   #           linetype = "solid", size = 1, alpha = 0.6) +
-  # geom_ribbon(aes(ymin = (recent_shifted_smooth-recent_error_shifted)*100000, 
-  #                 ymax = (recent_shifted_smooth+recent_error_shifted)*100000), 
+  # geom_ribbon(aes(ymin = p_anosmia_14days_low*100000,
+  #                 ymax = p_anosmia_14days_high*100000),
   #             alpha = 0.1, color = "red", size = 0.1, fill = "red") +
-  geom_point(data=df_cs, aes(y = p_stillsick*100000, color = "Enfermos CoronaSurveys"), alpha = 0.5, size = 2) +
-  geom_line(data=df_cs, aes(y = p_stillsick_smooth*100000, color = "Enfermos CoronaSurveys"), 
+  geom_point(data=df_cs, aes(y = p_stillsick*100000, color = "CoronaSurveys"), alpha = 0.5, size = 2) +
+  geom_line(data=df_cs, aes(y = p_stillsick_smooth*100000, color = "CoronaSurveys"), 
             linetype = "solid", size = 1, alpha = 0.6) +
   geom_ribbon(data=df_cs, aes(ymin = (p_stillsick_smooth-p_stillsick_error)*100000, 
                   ymax = (p_stillsick_smooth+p_stillsick_error)*100000), 
@@ -211,16 +173,17 @@ p1 <- ggplot(data = df_umd, aes(x = date, color = ""))  +
   # ylim(0, 3000)+
   theme_bw() + 
   ggtitle("Casos activos en Madrid") +
-  scale_colour_manual(values = c("blue", "red", "green", "magenta"),
+  scale_colour_manual(values = c("blue", "green", "red", "magenta"),
                       name="",
                       guide = guide_legend(override.aes = list(
                         linetype = c(#"dotted", 
-                                     # "dotted", "blank", "solid", 
+                                     # "dotted", "blank", 
+                          "solid", 
                           "solid", 
                           "solid"),
                         shape = c(#NA, 
-                                  # NA, 1, NA, 1, 
-                                  1, 1)))) +
+                                  # NA, 1, NA, 
+                          1, 1, 1)))) +
   theme(legend.position = "bottom")
 #p1
 

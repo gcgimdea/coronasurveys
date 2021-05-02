@@ -15,6 +15,10 @@ library(httr)
 try(source("script-get-oxford-data.R"), silent = T)
 try(source("script-confirmed2.R"), silent = T)
 
+# This is an alternative to the official data from Oxford: data from JHU
+# try(source("script-get-jhu-data.R"), silent = T)
+# try(source("script-confirmed-jhu.R"), silent = T)
+
 # UMD estimates from the API
 try(source("script-umd_batch_symptom_country.R"), silent = T)
 try(source("script-umd_batch_symptom_region.R"), silent = T)
@@ -30,6 +34,7 @@ try(source("script-300responses-smooth.R"), silent = T)
 # try(source("script-W-alpha.R"), silent = T)
 try(source("script-W.R"), silent = T)
 
+# The estimates based on fatalities use the Oxford official data. Has to be changes if using JHU
 try(source("script-ccfr-fatalities-country.R"), silent = T)
 
 try(source("script-ccfr-based3.R"), silent = T)
