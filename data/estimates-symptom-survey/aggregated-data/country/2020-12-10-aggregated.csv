@@ -34,7 +34,6 @@ date,ISO3,country,count,cli,count_local_com,cli_local_com,anosmia
 2020-12-10,BGR,Bulgaria,401,9,401,543,27
 2020-12-10,BFA,Burkina Faso,18,1,18,104,2
 2020-12-10,BDI,Burundi,1,1,1,0,1
-2020-12-10,CIV,Côte d'Ivoire,36,0,36,5,1
 2020-12-10,KHM,Cambodia,49,1,49,30,1
 2020-12-10,CMR,Cameroon,24,1,24,20,1
 2020-12-10,CAN,Canada,2413,9,2413,692,33
@@ -44,6 +43,7 @@ date,ISO3,country,count,cli,count_local_com,cli_local_com,anosmia
 2020-12-10,COL,Colombia,1852,42,1850,798,93
 2020-12-10,COM,Comoros,1,0,1,1,0
 2020-12-10,CRI,Costa Rica,401,11,401,314,20
+2020-12-10,CIV,Côte d'Ivoire,36,0,36,5,1
 2020-12-10,HRV,Croatia,445,14,444,548.5,34
 2020-12-10,CUW,Curaçao,2,0,1,0,0
 2020-12-10,CYP,Cyprus,4,0,4,1,0
@@ -144,9 +144,9 @@ date,ISO3,country,count,cli,count_local_com,cli_local_com,anosmia
 2020-12-10,PRT,Portugal,939,5,936,392,22
 2020-12-10,PRI,"Puerto Rico, U.S.",500,7,500,147,14
 2020-12-10,QAT,Qatar,41,1,41,13,2
-2020-12-10,REU,Réunion,3,0,3,0,0
 2020-12-10,MKD,Republic of North Macedonia,7,0,7,2,1
 2020-12-10,COG,Republic of the Congo,1,0,1,0,0
+2020-12-10,REU,Réunion,3,0,3,0,0
 2020-12-10,ROU,Romania,1097,16,1096,1276,48
 2020-12-10,RUS,Russia,1171,54,1170,2323,93
 2020-12-10,RWA,Rwanda,1,0,1,0,0

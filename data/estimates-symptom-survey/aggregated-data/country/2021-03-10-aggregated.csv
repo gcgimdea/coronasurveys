@@ -28,7 +28,6 @@ date,ISO3,country,count,cli,count_local_com,cli_local_com,anosmia
 2021-03-10,BGR,Bulgaria,513,9,509,334,23
 2021-03-10,BFA,Burkina Faso,9,0,9,4,1
 2021-03-10,BDI,Burundi,2,0,2,1,0
-2021-03-10,CIV,Côte d'Ivoire,42,1,42,7,0
 2021-03-10,KHM,Cambodia,85,5,85,125,2
 2021-03-10,CMR,Cameroon,47,0,47,6,1
 2021-03-10,CAN,Canada,1904,9,1900,416,28
@@ -38,6 +37,7 @@ date,ISO3,country,count,cli,count_local_com,cli_local_com,anosmia
 2021-03-10,CCK,Cocos (Keeling) Islands,1,1,1,90,1
 2021-03-10,COL,Colombia,1427,23,1426,585,39
 2021-03-10,CRI,Costa Rica,268,5,267,74,6
+2021-03-10,CIV,Côte d'Ivoire,42,1,42,7,0
 2021-03-10,HRV,Croatia,256,2,255,111,3
 2021-03-10,CYP,Cyprus,2,0,2,2,0
 2021-03-10,CZE,Czech Republic,1068,19,1067,988,52
@@ -126,9 +126,9 @@ date,ISO3,country,count,cli,count_local_com,cli_local_com,anosmia
 2021-03-10,PRT,Portugal,1030,2,1030,142,11
 2021-03-10,PRI,"Puerto Rico, U.S.",428,2,426,39,3
 2021-03-10,QAT,Qatar,61,1,61,44,3
-2021-03-10,REU,Réunion,1,0,1,0,0
 2021-03-10,MKD,Republic of North Macedonia,1,0,1,0,0
 2021-03-10,COG,Republic of the Congo,1,0,1,0,0
+2021-03-10,REU,Réunion,1,0,1,0,0
 2021-03-10,ROU,Romania,1095,14,1093,686.5,30
 2021-03-10,RUS,Russia,1124,19,1123,848,34
 2021-03-10,SAU,Saudi Arabia,203,3,203,173,5

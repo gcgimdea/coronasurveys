@@ -114,29 +114,33 @@ df_total_aux <- data.frame(
 df_total_aux = df_total_aux[df_total_aux$country !="-99", ]
 
 # dataframe con todos los codigos ISO de todos los paises que se han agregado como datos de UMD
-df_iso <- df_total_aux[!duplicated(df_total_aux$ISO2),c("country","ISO2","ISO3")]     
+# df_iso <- df_total_aux[!duplicated(df_total_aux$ISO2),c("country","ISO2","ISO3")]     
+
+iso_list <- unique(df_total_aux$ISO2)
 
 # recorro el dataframe creado previamente pais por pais y aplico el algoritmo diseñado
-for (i in 1:dim(df_iso)[1]){
+#for (i in 1:dim(df_iso)[1]){
+for (iso in iso_list){
+  # iso <- df_iso$ISO2[i]
   # cat("procesing ", df_iso$ISO2[i], "\n")
-  df_country <- df_total_aux[df_total_aux$ISO2 == df_iso$ISO2[i], ]
-  df_country_nan<- na.exclude(df_country)
-  df_country_ok<- df_country_nan[!duplicated(df_country_nan),]
+  df_country <- df_total_aux[df_total_aux$ISO2 == iso, ]
+  df_country <- df_country[!is.na(df_country$country),]
+  df_country_ok<- df_country[!duplicated(df_country),]
   df_country_ok <- df_country_ok %>%
-      complete(date = seq.Date(start, hoy, by="day"), ISO2 =df_iso$ISO2[i] )
+      complete(date = seq.Date(start, hoy, by="day"), ISO2 =iso, country, ISO3, population )
   
-  # df_country_ok$cli_7days <- rollapply(df_country_ok$cli,7,sum,fill=NA,align="right")
-  # df_country_ok$count_7days <- rollapply(df_country_ok$count,7,sum,fill=NA,align="right")
+  # df_country_ok$cli_7days <- rollapply(df_country_ok$cli,7,sum,fill=NA,align="right",na.rm=TRUE)
+  # df_country_ok$count_7days <- rollapply(df_country_ok$count,7,sum,fill=NA,align="right",na.rm=TRUE)
   # 
-  # df_country_ok$cli_local_7days <- rollapply(df_country_ok$cli_local,7,sum,fill=NA,align="right")
-  # df_country_ok$count_local_7days <- rollapply(df_country_ok$count_local,7,sum,fill=NA,align="right")
+  # df_country_ok$cli_local_7days <- rollapply(df_country_ok$cli_local,7,sum,fill=NA,align="right",na.rm=TRUE)
+  # df_country_ok$count_local_7days <- rollapply(df_country_ok$count_local,7,sum,fill=NA,align="right",na.rm=TRUE)
   
-  df_country_ok$cli_14days <- rollapply(df_country_ok$cli,14,sum,fill=NA,align="right")
-  df_country_ok$anosmia_14days <- rollapply(df_country_ok$anosmia,14,sum,fill=NA,align="right")
-  df_country_ok$count_14days <- rollapply(df_country_ok$count,14,sum,fill=NA,align="right")
+  df_country_ok$cli_14days <- rollapply(df_country_ok$cli,14,sum,fill=NA,align="right",na.rm=TRUE)
+  df_country_ok$anosmia_14days <- rollapply(df_country_ok$anosmia,14,sum,fill=NA,align="right",na.rm=TRUE)
+  df_country_ok$count_14days <- rollapply(df_country_ok$count,14,sum,fill=NA,align="right",na.rm=TRUE)
   
-  df_country_ok$cli_local_14days <- rollapply(df_country_ok$cli_local,14,sum,fill=NA,align="right")
-  df_country_ok$count_local_14days <- rollapply(df_country_ok$count_local,14,sum,fill=NA,align="right")
+  df_country_ok$cli_local_14days <- rollapply(df_country_ok$cli_local,14,sum,fill=NA,align="right",na.rm=TRUE)
+  df_country_ok$count_local_14days <- rollapply(df_country_ok$count_local,14,sum,fill=NA,align="right",na.rm=TRUE)
   
   est <- process_ratio(df_country_ok$cli, df_country_ok$count)
   df_country_ok$p_cli <- est$val
@@ -180,6 +184,6 @@ for (i in 1:dim(df_iso)[1]){
   
   df_country_ok$p_cases_active <- df_country_ok$p_cli_14days
   
-  write.csv(df_country_ok, paste0(estimates_path,df_iso$ISO2[i],"-estimate.csv"), row.names = FALSE)
+  write.csv(df_country_ok, paste0(estimates_path,iso,"-estimate.csv"), row.names = FALSE)
 }
 

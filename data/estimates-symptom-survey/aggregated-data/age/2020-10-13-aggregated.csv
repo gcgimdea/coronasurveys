@@ -161,12 +161,6 @@ date,ISO3,country,age_E4,count,cli,count_local_com,cli_local_com,anosmia
 2020-10-13,BFA,Burkina Faso,5,1,0,1,1,0
 2020-10-13,BFA,Burkina Faso,6,2,0,2,0,0
 2020-10-13,BDI,Burundi,6,1,0,1,0,0
-2020-10-13,CIV,Côte d'Ivoire,1,4,0,4,4,0
-2020-10-13,CIV,Côte d'Ivoire,2,7,1,7,0,1
-2020-10-13,CIV,Côte d'Ivoire,3,17,0,17,5,2
-2020-10-13,CIV,Côte d'Ivoire,4,8,0,8,0,0
-2020-10-13,CIV,Côte d'Ivoire,5,2,0,2,0,0
-2020-10-13,CIV,Côte d'Ivoire,6,1,0,1,0,0
 2020-10-13,KHM,Cambodia,1,8,0,8,0,0
 2020-10-13,KHM,Cambodia,2,13,1,13,1,1
 2020-10-13,KHM,Cambodia,3,5,0,5,5,1
@@ -217,6 +211,12 @@ date,ISO3,country,age_E4,count,cli,count_local_com,cli_local_com,anosmia
 2020-10-13,CRI,Costa Rica,5,39,0,39,68,0
 2020-10-13,CRI,Costa Rica,6,24,0,24,2,0
 2020-10-13,CRI,Costa Rica,7,3,0,3,0,0
+2020-10-13,CIV,Côte d'Ivoire,1,4,0,4,4,0
+2020-10-13,CIV,Côte d'Ivoire,2,7,1,7,0,1
+2020-10-13,CIV,Côte d'Ivoire,3,17,0,17,5,2
+2020-10-13,CIV,Côte d'Ivoire,4,8,0,8,0,0
+2020-10-13,CIV,Côte d'Ivoire,5,2,0,2,0,0
+2020-10-13,CIV,Côte d'Ivoire,6,1,0,1,0,0
 2020-10-13,HRV,Croatia,1,29,1,29,12,0
 2020-10-13,HRV,Croatia,2,39,1,39,18,1
 2020-10-13,HRV,Croatia,3,52,0,52,35,1
@@ -686,10 +686,10 @@ date,ISO3,country,age_E4,count,cli,count_local_com,cli_local_com,anosmia
 2020-10-13,QAT,Qatar,4,7,0,7,20,0
 2020-10-13,QAT,Qatar,5,2,0,2,0,0
 2020-10-13,QAT,Qatar,6,2,0,2,0,0
-2020-10-13,REU,Réunion,2,2,0,2,0,0
 2020-10-13,MKD,Republic of North Macedonia,-99,1,1,1,1,1
 2020-10-13,MKD,Republic of North Macedonia,6,2,0,2,0,0
 2020-10-13,COG,Republic of the Congo,2,3,0,3,0,0
+2020-10-13,REU,Réunion,2,2,0,2,0,0
 2020-10-13,ROU,Romania,-99,1,0,1,0,0
 2020-10-13,ROU,Romania,1,198,6,198,71,5
 2020-10-13,ROU,Romania,2,316,4,316,191,9

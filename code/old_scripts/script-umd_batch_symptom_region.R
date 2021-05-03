@@ -193,10 +193,10 @@ batch_effect <- function(df_batch_in, denom2try){
                                        str_sub(survey_date, 5, 6), "-",
                                        str_sub(survey_date, 7, 8))) %>% 
       mutate(date = as.Date(date)) %>% 
-      select(date, percent_cli, percent_cli_unw, sample_size)
+      select(date, percent_cli, percent_cli_unw) #, sample_size)
     
     # rename columns to use Fb. Challenge scripts:
-    colnames(dt) <- c("date", "pct_cli_weighted", "pct_cli", "total_responses")
+    colnames(dt) <- c("date", "pct_cli_weighted", "pct_cli") #, "total_responses")
     
     # I THINK pct_cli IS NOW A RATIO IN [0,1] NOT A %:
     summary(dt$pct_cli)
@@ -206,24 +206,26 @@ batch_effect <- function(df_batch_in, denom2try){
     dt$pct_cli_weighted <- dt$pct_cli_weighted*100
     
     # number of infected:
-    dt$number_cli <- dt$total_responses*dt$pct_cli/100
+    # dt$number_cli <- dt$total_responses*dt$pct_cli/100
     
     # add population:
     # dt$population <- countries[countries$country==country, "population"]
     dt$population <- 6663394
     
-    df_out <- batch_effect(df_batch_in = dt, 
-                           denom2try = denom_2_try) # denom2try = seq(1000, 5000, by = 500)
+    # df_out <- batch_effect(df_batch_in = dt, 
+    #                        denom2try = denom_2_try) # denom2try = seq(1000, 5000, by = 500)
+    df_out <- dt
     
-    df_out$p_cases_active <- df_out$batched_pct_cli_smooth/100
-    df_out$p_cases_active_high <- df_out$batched_pct_cli_smooth_high/100
-    df_out$p_cases_active_low <- df_out$batched_pct_cli_smooth_low/100
+    # df_out$p_cases_active <- df_out$batched_pct_cli_smooth/100
+    # df_out$p_cases_active_high <- df_out$batched_pct_cli_smooth_high/100
+    # df_out$p_cases_active_low <- df_out$batched_pct_cli_smooth_low/100
     
     df_out$date <- as.Date(gsub("-", "/", df_out$date))
     # df_out$date <- as.Date(df_out$date)
     
     # select a single batch size:
-    df_save <- df_out %>% filter(b_size_denom == d_to_save)
+    # df_save <- df_out %>% filter(b_size_denom == d_to_save)
+    df_save <- df_out
     
     country_code <- "ES"
     region_code <- "ESMD"
@@ -233,37 +235,37 @@ batch_effect <- function(df_batch_in, denom2try){
               row.names = FALSE)
     
     
-    ## Some plots
-    df_out$d = paste0("d = ", df_out$b_size_denom)
-    
-    df_out <- df_out %>% ungroup()
-    
-    p1 <- ggplot(data = df_out, aes(x = date, colour = Legend)) +
-      facet_wrap( ~ d, scales = "free_y" )+
-      geom_point(aes(y = batched_pct_cli, colour = "Batched CSDC CLI"), alpha = 0.5, size = 2) +
-      geom_line(aes(y = batched_pct_cli_smooth, colour = "Batched CSDC CLI (smooth)"), 
-                linetype = "solid", size =1, alpha = 0.6) +
-      geom_ribbon(aes(ymin = batched_pct_cli_smooth_low, 
-                      ymax = batched_pct_cli_smooth_high), 
-                  alpha = 0.1, color = "blue", size = 0.1, fill = "blue") +
-      geom_point(aes(y = pct_cli, colour = "CSDC CLI"), alpha = 0.2, size = 2) +
-      geom_line(aes(y = pct_cli_smooth, colour = "CSDC CLI (smooth)"), 
-                linetype = "solid", size = 1, alpha = 0.6) +
-      geom_ribbon(aes(ymin = pct_cli_smooth_low, 
-                      ymax = pct_cli_smooth_high), 
-                  alpha = 0.1, color = "red", size = 0.1, fill = "red") +
-      geom_point(aes(y = pct_cli, colour = "d = population / batch size"), alpha = 0) +
-      theme_bw() +
-      scale_colour_manual(values = c("blue", "blue", "red", "red", "black"),
-                          guide = guide_legend(override.aes = list(
-                            linetype = c("blank", "solid", "blank", "solid", "blank"),
-                            shape = c(1, NA, 1, NA, NA)))) +
-      xlab("Date") + ylab("% symptomatic cases") + ggtitle(country) +
-      theme(legend.position = "bottom")
-    p1
-    ggsave(plot = p1, 
-           filename =  paste0(estimates_path, country_code, "/", region_code, "-plots-by-batch.png"), 
-           width = 9, height = 6)
+    # ## Some plots
+    # df_out$d = paste0("d = ", df_out$b_size_denom)
+    # 
+    # df_out <- df_out %>% ungroup()
+    # 
+    # p1 <- ggplot(data = df_out, aes(x = date, colour = Legend)) +
+    #   facet_wrap( ~ d, scales = "free_y" )+
+    #   geom_point(aes(y = batched_pct_cli, colour = "Batched CSDC CLI"), alpha = 0.5, size = 2) +
+    #   geom_line(aes(y = batched_pct_cli_smooth, colour = "Batched CSDC CLI (smooth)"), 
+    #             linetype = "solid", size =1, alpha = 0.6) +
+    #   geom_ribbon(aes(ymin = batched_pct_cli_smooth_low, 
+    #                   ymax = batched_pct_cli_smooth_high), 
+    #               alpha = 0.1, color = "blue", size = 0.1, fill = "blue") +
+    #   geom_point(aes(y = pct_cli, colour = "CSDC CLI"), alpha = 0.2, size = 2) +
+    #   geom_line(aes(y = pct_cli_smooth, colour = "CSDC CLI (smooth)"), 
+    #             linetype = "solid", size = 1, alpha = 0.6) +
+    #   geom_ribbon(aes(ymin = pct_cli_smooth_low, 
+    #                   ymax = pct_cli_smooth_high), 
+    #               alpha = 0.1, color = "red", size = 0.1, fill = "red") +
+    #   geom_point(aes(y = pct_cli, colour = "d = population / batch size"), alpha = 0) +
+    #   theme_bw() +
+    #   scale_colour_manual(values = c("blue", "blue", "red", "red", "black"),
+    #                       guide = guide_legend(override.aes = list(
+    #                         linetype = c("blank", "solid", "blank", "solid", "blank"),
+    #                         shape = c(1, NA, 1, NA, NA)))) +
+    #   xlab("Date") + ylab("% symptomatic cases") + ggtitle(country) +
+    #   theme(legend.position = "bottom")
+    # p1
+    # ggsave(plot = p1, 
+    #        filename =  paste0(estimates_path, country_code, "/", region_code, "-plots-by-batch.png"), 
+    #        width = 9, height = 6)
     
 #   } # end-for-countries_2_try
 # } #end-function: umd_batch_symptom_country

@@ -32,7 +32,6 @@ date,ISO3,country,region,count,cli,count_local_com,cli_local_com,anosmia
 2020-04-25,VGB,British Virgin Islands,-99,7,0,7,0,1
 2020-04-25,BGR,Bulgaria,-99,437,2,437,128,11
 2020-04-25,BFA,Burkina Faso,-99,35,0,35,4,1
-2020-04-25,CIV,Côte d'Ivoire,-99,64,0,64,20,3
 2020-04-25,KHM,Cambodia,-99,17,1,17,5,0
 2020-04-25,CMR,Cameroon,-99,89,4,89,29,6
 2020-04-25,CAN,Canada,-99,1937,15,1937,448,35
@@ -41,6 +40,7 @@ date,ISO3,country,region,count,cli,count_local_com,cli_local_com,anosmia
 2020-04-25,CCK,Cocos (Keeling) Islands,-99,1,0,1,0,0
 2020-04-25,COL,Colombia,-99,1952,19,1948,259,34
 2020-04-25,CRI,Costa Rica,-99,502,6,501,46,2
+2020-04-25,CIV,Côte d'Ivoire,-99,64,0,64,20,3
 2020-04-25,HRV,Croatia,-99,277,5,276,52,2
 2020-04-25,CYP,Cyprus,-99,3,0,3,0,0
 2020-04-25,CZE,Czech Republic,-99,872,2,872,169,12
@@ -132,8 +132,8 @@ date,ISO3,country,region,count,cli,count_local_com,cli_local_com,anosmia
 2020-04-25,PRT,Portugal,-99,1144,1,1143,336,14
 2020-04-25,PRI,"Puerto Rico, U.S.",-99,537,2,537,65,6
 2020-04-25,QAT,Qatar,-99,91,0,91,10,0
-2020-04-25,REU,Réunion,-99,4,0,4,0,0
 2020-04-25,MKD,Republic of North Macedonia,-99,1,0,1,0,0
+2020-04-25,REU,Réunion,-99,4,0,4,0,0
 2020-04-25,ROU,Romania,-99,1862,6,1859,373,20
 2020-04-25,RUS,Russia,-99,1462,20,1461,510,29
 2020-04-25,SAU,Saudi Arabia,-99,308,0,307,69,7

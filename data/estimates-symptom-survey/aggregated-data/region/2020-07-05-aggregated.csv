@@ -43,14 +43,14 @@ date,ISO3,country,region,count,cli,count_local_com,cli_local_com,anosmia
 2020-07-05,ALB,Albania,Tiranë,54,1,54,33,1
 2020-07-05,ALB,Albania,Vlorë,10,0,10,2,1
 2020-07-05,DZA,Algeria,-99,15,1,15,103,1
+2020-07-05,DZA,Algeria,Adrar,5,0,5,2,0
 2020-07-05,DZA,Algeria,Aïn Defla,5,0,5,0,1
 2020-07-05,DZA,Algeria,Aïn Témouchent,3,0,3,5,0
-2020-07-05,DZA,Algeria,Adrar,5,0,5,2,0
 2020-07-05,DZA,Algeria,Alger,133,5,133,134,5
 2020-07-05,DZA,Algeria,Annaba,21,0,21,1,1
+2020-07-05,DZA,Algeria,Batna,16,1,16,1,2
 2020-07-05,DZA,Algeria,Béchar,8,2,8,117,2
 2020-07-05,DZA,Algeria,Béjaïa,11,0,11,1,0
-2020-07-05,DZA,Algeria,Batna,16,1,16,1,2
 2020-07-05,DZA,Algeria,Biskra,15,1,15,15,1
 2020-07-05,DZA,Algeria,Blida,26,2,26,16,1
 2020-07-05,DZA,Algeria,Bordj Bou Arréridj,5,0,5,16,1
@@ -67,8 +67,8 @@ date,ISO3,country,region,count,cli,count_local_com,cli_local_com,anosmia
 2020-07-05,DZA,Algeria,Khenchela,8,0,8,3,1
 2020-07-05,DZA,Algeria,Laghouat,5,0,5,5,0
 2020-07-05,DZA,Algeria,M'Sila,12,0,12,11,1
-2020-07-05,DZA,Algeria,Médéa,3,1,3,4,0
 2020-07-05,DZA,Algeria,Mascara,7,0,7,2,2
+2020-07-05,DZA,Algeria,Médéa,3,1,3,4,0
 2020-07-05,DZA,Algeria,Mila,4,0,4,7,0
 2020-07-05,DZA,Algeria,Mostaganem,7,0,7,1,0
 2020-07-05,DZA,Algeria,Naâma,2,0,2,15,0
@@ -76,13 +76,13 @@ date,ISO3,country,region,count,cli,count_local_com,cli_local_com,anosmia
 2020-07-05,DZA,Algeria,Ouargla,15,0,15,26,0
 2020-07-05,DZA,Algeria,Oum el Bouaghi,6,0,6,15,1
 2020-07-05,DZA,Algeria,Relizane,3,0,3,5,0
-2020-07-05,DZA,Algeria,Sétif,32,2,32,84,6
 2020-07-05,DZA,Algeria,Saïda,4,0,4,0,1
+2020-07-05,DZA,Algeria,Sétif,32,2,32,84,6
 2020-07-05,DZA,Algeria,Sidi Bel Abbès,4,0,4,0,0
 2020-07-05,DZA,Algeria,Skikda,5,0,5,3,0
 2020-07-05,DZA,Algeria,Souk Ahras,4,0,4,6,0
-2020-07-05,DZA,Algeria,Tébessa,12,0,12,12,0
 2020-07-05,DZA,Algeria,Tamanghasset,2,0,2,0,0
+2020-07-05,DZA,Algeria,Tébessa,12,0,12,12,0
 2020-07-05,DZA,Algeria,Tiaret,6,1,6,7,1
 2020-07-05,DZA,Algeria,Tindouf,1,0,1,0,0
 2020-07-05,DZA,Algeria,Tipaza,8,0,8,6,0
@@ -115,11 +115,11 @@ date,ISO3,country,region,count,cli,count_local_com,cli_local_com,anosmia
 2020-07-05,ATG,Antigua,Saint Mary,1,0,1,1,0
 2020-07-05,ARG,Argentina,-99,40,0,40,0,1
 2020-07-05,ARG,Argentina,Buenos Aires,692,1,692,241,8
-2020-07-05,ARG,Argentina,Córdoba,258,1,258,24,3
 2020-07-05,ARG,Argentina,Catamarca,48,0,48,0,2
 2020-07-05,ARG,Argentina,Chaco,83,0,83,131,1
 2020-07-05,ARG,Argentina,Chubut,61,0,61,24,0
 2020-07-05,ARG,Argentina,Ciudad Autónoma de Buenos Aires,191,1,191,51,1
+2020-07-05,ARG,Argentina,Córdoba,258,1,258,24,3
 2020-07-05,ARG,Argentina,Corrientes,67,0,67,1,0
 2020-07-05,ARG,Argentina,Entre Ríos,104,0,104,13,2
 2020-07-05,ARG,Argentina,Formosa,31,0,31,4,0
@@ -286,13 +286,13 @@ date,ISO3,country,region,count,cli,count_local_com,cli_local_com,anosmia
 2020-07-05,BRA,Brazil,Paraná,595,5,594,308,15
 2020-07-05,BRA,Brazil,Pernambuco,363,8,363,425,14
 2020-07-05,BRA,Brazil,Piauí,226,7,226,383,17
+2020-07-05,BRA,Brazil,Rio de Janeiro,663,9,661,635,28
 2020-07-05,BRA,Brazil,Rio Grande do Norte,350,6,350,751,18
 2020-07-05,BRA,Brazil,Rio Grande do Sul,646,5,646,217,14
-2020-07-05,BRA,Brazil,Rio de Janeiro,663,9,661,635,28
 2020-07-05,BRA,Brazil,Rondônia,132,6,132,298,13
 2020-07-05,BRA,Brazil,Roraima,55,1,55,201,8
-2020-07-05,BRA,Brazil,São Paulo,2292,20,2291,2046,93
 2020-07-05,BRA,Brazil,Santa Catarina,546,5,545,317,22
+2020-07-05,BRA,Brazil,São Paulo,2292,20,2291,2046,93
 2020-07-05,BRA,Brazil,Sergipe,168,6,168,398,20
 2020-07-05,BRA,Brazil,Tocantins,95,1,95,65,4
 2020-07-05,IOT,British Indian Ocean Territory,-99,3,0,3,0,1
@@ -336,19 +336,6 @@ date,ISO3,country,region,count,cli,count_local_com,cli_local_com,anosmia
 2020-07-05,BFA,Burkina Faso,Nord,1,0,1,0,0
 2020-07-05,BFA,Burkina Faso,Sud-Ouest,1,0,1,0,0
 2020-07-05,BDI,Burundi,Bubanza,1,0,1,0,0
-2020-07-05,CIV,Côte d'Ivoire,-99,2,0,2,0,0
-2020-07-05,CIV,Côte d'Ivoire,Autonome d'Abidjan,61,4,60,18,4
-2020-07-05,CIV,Côte d'Ivoire,Autonome de Yamoussoukro,1,1,1,0,0
-2020-07-05,CIV,Côte d'Ivoire,Bas-Sassandra,2,1,2,5,1
-2020-07-05,CIV,Côte d'Ivoire,Comoé,3,1,3,10,1
-2020-07-05,CIV,Côte d'Ivoire,Gôh-Djiboua,2,0,2,0,0
-2020-07-05,CIV,Côte d'Ivoire,Lacs,1,0,1,0,0
-2020-07-05,CIV,Côte d'Ivoire,Lagunes,15,1,15,4,1
-2020-07-05,CIV,Côte d'Ivoire,Montagnes,3,0,3,0,0
-2020-07-05,CIV,Côte d'Ivoire,Sassandra-Marahoué,2,0,2,0,0
-2020-07-05,CIV,Côte d'Ivoire,Savanes,3,0,3,0,0
-2020-07-05,CIV,Côte d'Ivoire,Vallée du Bandama,3,0,3,0,0
-2020-07-05,CIV,Côte d'Ivoire,Zanzan,1,0,1,0,0
 2020-07-05,KHM,Cambodia,-99,7,1,7,6,0
 2020-07-05,KHM,Cambodia,Bântéay Méanchey,1,0,1,0,0
 2020-07-05,KHM,Cambodia,Batdâmbâng,7,0,7,0,0
@@ -388,7 +375,6 @@ date,ISO3,country,region,count,cli,count_local_com,cli_local_com,anosmia
 2020-07-05,CAF,Central African Republic,Kémo,1,1,1,100,1
 2020-07-05,CAF,Central African Republic,Ouaka,1,0,1,1,1
 2020-07-05,CHL,Chile,-99,12,0,12,1,2
-2020-07-05,CHL,Chile,Ñuble,31,0,31,30,1
 2020-07-05,CHL,Chile,Aisén del General Carlos Ibáñez del Campo,7,0,7,0,0
 2020-07-05,CHL,Chile,Antofagasta,89,1,89,113,8
 2020-07-05,CHL,Chile,Araucanía,66,0,66,4,0
@@ -401,6 +387,7 @@ date,ISO3,country,region,count,cli,count_local_com,cli_local_com,anosmia
 2020-07-05,CHL,Chile,Los Ríos,27,0,27,3,0
 2020-07-05,CHL,Chile,Magallanes y Antártica Chilena,23,0,23,8,1
 2020-07-05,CHL,Chile,Maule,88,0,88,95,4
+2020-07-05,CHL,Chile,Ñuble,31,0,31,30,1
 2020-07-05,CHL,Chile,Región Metropolitana de Santiago,439,3,438,619,23
 2020-07-05,CHL,Chile,Tarapacá,34,0,34,9,0
 2020-07-05,CHL,Chile,Valparaíso,213,0,213,131,4
@@ -411,13 +398,13 @@ date,ISO3,country,region,count,cli,count_local_com,cli_local_com,anosmia
 2020-07-05,COL,Colombia,"Bogotá, Distrito Capital",275,1,275,59,6
 2020-07-05,COL,Colombia,Bolívar,111,4,110,135,9
 2020-07-05,COL,Colombia,Boyacá,62,1,62,6,0
-2020-07-05,COL,Colombia,Córdoba,60,3,60,44,6
 2020-07-05,COL,Colombia,Caldas,68,0,68,0,0
 2020-07-05,COL,Colombia,Caquetá,19,0,19,3,0
 2020-07-05,COL,Colombia,Casanare,29,1,29,11,0
 2020-07-05,COL,Colombia,Cauca,54,0,54,14,2
 2020-07-05,COL,Colombia,Cesar,36,2,36,8,3
 2020-07-05,COL,Colombia,Chocó,9,0,9,7,1
+2020-07-05,COL,Colombia,Córdoba,60,3,60,44,6
 2020-07-05,COL,Colombia,Cundinamarca,130,0,130,21,4
 2020-07-05,COL,Colombia,Guaviare,3,0,3,2,1
 2020-07-05,COL,Colombia,Huila,43,0,43,1,1
@@ -445,8 +432,20 @@ date,ISO3,country,region,count,cli,count_local_com,cli_local_com,anosmia
 2020-07-05,CRI,Costa Rica,Limón,48,1,48,2,0
 2020-07-05,CRI,Costa Rica,Puntarenas,63,0,63,23,0
 2020-07-05,CRI,Costa Rica,San José,378,4,378,191,4
+2020-07-05,CIV,Côte d'Ivoire,-99,2,0,2,0,0
+2020-07-05,CIV,Côte d'Ivoire,Autonome d'Abidjan,61,4,60,18,4
+2020-07-05,CIV,Côte d'Ivoire,Autonome de Yamoussoukro,1,1,1,0,0
+2020-07-05,CIV,Côte d'Ivoire,Bas-Sassandra,2,1,2,5,1
+2020-07-05,CIV,Côte d'Ivoire,Comoé,3,1,3,10,1
+2020-07-05,CIV,Côte d'Ivoire,Gôh-Djiboua,2,0,2,0,0
+2020-07-05,CIV,Côte d'Ivoire,Lacs,1,0,1,0,0
+2020-07-05,CIV,Côte d'Ivoire,Lagunes,15,1,15,4,1
+2020-07-05,CIV,Côte d'Ivoire,Montagnes,3,0,3,0,0
+2020-07-05,CIV,Côte d'Ivoire,Sassandra-Marahoué,2,0,2,0,0
+2020-07-05,CIV,Côte d'Ivoire,Savanes,3,0,3,0,0
+2020-07-05,CIV,Côte d'Ivoire,Vallée du Bandama,3,0,3,0,0
+2020-07-05,CIV,Côte d'Ivoire,Zanzan,1,0,1,0,0
 2020-07-05,HRV,Croatia,-99,22,0,22,0,1
-2020-07-05,HRV,Croatia,Šibensko-Kninska,14,0,14,0,0
 2020-07-05,HRV,Croatia,Bjelovarska-Bilogorska,14,0,14,0,0
 2020-07-05,HRV,Croatia,Brodsko-Posavska,14,0,14,0,0
 2020-07-05,HRV,Croatia,Dubrovacko-Neretvanska,18,0,18,0,0
@@ -460,6 +459,7 @@ date,ISO3,country,region,count,cli,count_local_com,cli_local_com,anosmia
 2020-07-05,HRV,Croatia,Osjecko-Baranjska,34,0,34,11,0
 2020-07-05,HRV,Croatia,Požeško-Slavonska,8,0,8,2,0
 2020-07-05,HRV,Croatia,Primorsko-Goranska,44,0,44,0,1
+2020-07-05,HRV,Croatia,Šibensko-Kninska,14,0,14,0,0
 2020-07-05,HRV,Croatia,Sisacko-Moslavacka,12,0,12,4,0
 2020-07-05,HRV,Croatia,Splitsko-Dalmatinska,43,2,43,6,1
 2020-07-05,HRV,Croatia,Varaždinska,8,0,8,0,0
@@ -471,12 +471,11 @@ date,ISO3,country,region,count,cli,count_local_com,cli_local_com,anosmia
 2020-07-05,CYP,Cyprus,Larnaca,2,0,2,0,1
 2020-07-05,CYP,Cyprus,Limassol,1,0,1,0,0
 2020-07-05,CZE,Czech Republic,-99,12,1,12,1,0
-2020-07-05,CZE,Czech Republic,Ústecký,67,0,67,15,0
 2020-07-05,CZE,Czech Republic,Jihočeský,41,0,41,5,0
 2020-07-05,CZE,Czech Republic,Jihomoravský,69,2,69,6,1
 2020-07-05,CZE,Czech Republic,Karlovarský,28,0,28,0,1
-2020-07-05,CZE,Czech Republic,Královéhradecký,35,1,35,6,0
 2020-07-05,CZE,Czech Republic,Kraj Vysočina,45,1,44,103,1
+2020-07-05,CZE,Czech Republic,Královéhradecký,35,1,35,6,0
 2020-07-05,CZE,Czech Republic,Liberecký,47,0,47,3,1
 2020-07-05,CZE,Czech Republic,Moravskoslezský,88,0,88,6,2
 2020-07-05,CZE,Czech Republic,Olomoucký,46,0,46,3,0
@@ -484,6 +483,7 @@ date,ISO3,country,region,count,cli,count_local_com,cli_local_com,anosmia
 2020-07-05,CZE,Czech Republic,Plzeňský,33,0,33,0,0
 2020-07-05,CZE,Czech Republic,Prague,100,1,100,8,3
 2020-07-05,CZE,Czech Republic,Středočeský,116,0,114,2,2
+2020-07-05,CZE,Czech Republic,Ústecký,67,0,67,15,0
 2020-07-05,CZE,Czech Republic,Zlínský,25,1,25,0,0
 2020-07-05,COD,Democratic Republic of the Congo,-99,2,0,2,0,0
 2020-07-05,COD,Democratic Republic of the Congo,Haut-Katanga,1,0,1,0,0
@@ -519,12 +519,12 @@ date,ISO3,country,region,count,cli,count_local_com,cli_local_com,anosmia
 2020-07-05,DOM,Dominican Republic,Monte Plata,4,0,4,0,0
 2020-07-05,DOM,Dominican Republic,Peravia,7,0,7,0,0
 2020-07-05,DOM,Dominican Republic,Puerto Plata,19,0,19,8,1
-2020-07-05,DOM,Dominican Republic,Sánchez Ramírez,4,0,4,2,1
 2020-07-05,DOM,Dominican Republic,Samaná,3,0,3,0,0
 2020-07-05,DOM,Dominican Republic,San Cristóbal,17,1,17,22,4
 2020-07-05,DOM,Dominican Republic,San José de Ocoa,2,0,2,0,0
 2020-07-05,DOM,Dominican Republic,San Juan,3,0,3,0,0
 2020-07-05,DOM,Dominican Republic,San Pedro de Macorís,15,0,15,3,1
+2020-07-05,DOM,Dominican Republic,Sánchez Ramírez,4,0,4,2,1
 2020-07-05,DOM,Dominican Republic,Santiago,57,0,57,51,1
 2020-07-05,DOM,Dominican Republic,Santiago Rodríguez,1,0,1,0,0
 2020-07-05,DOM,Dominican Republic,Santo Domingo,82,3,82,101,7
@@ -628,7 +628,6 @@ date,ISO3,country,region,count,cli,count_local_com,cli_local_com,anosmia
 2020-07-05,FIN,Finland,Uusimaa,234,0,234,19,6
 2020-07-05,FIN,Finland,Varsinais-Suomi,61,0,61,10,0
 2020-07-05,FRA,France,-99,14,1,14,30,1
-2020-07-05,FRA,France,Île-de-France,228,1,228,12,2
 2020-07-05,FRA,France,Auvergne-Rhône-Alpes,263,3,261,110,4
 2020-07-05,FRA,France,Bourgogne-Franche-Comté,105,0,105,6,3
 2020-07-05,FRA,France,Bretagne,153,0,152,8,1
@@ -637,6 +636,7 @@ date,ISO3,country,region,count,cli,count_local_com,cli_local_com,anosmia
 2020-07-05,FRA,France,French Guiana,2,0,2,0,0
 2020-07-05,FRA,France,Grand Est,326,1,326,47,2
 2020-07-05,FRA,France,Hauts-de-France,275,0,275,37,5
+2020-07-05,FRA,France,Île-de-France,228,1,228,12,2
 2020-07-05,FRA,France,Mayotte,1,0,1,0,0
 2020-07-05,FRA,France,Normandie,181,1,180,8,3
 2020-07-05,FRA,France,Nouvelle-Aquitaine,241,0,237,15,2
@@ -774,8 +774,8 @@ date,ISO3,country,region,count,cli,count_local_com,cli_local_com,anosmia
 2020-07-05,HKG,Hong Kong,Yuen Long,45,0,45,4,0
 2020-07-05,HUN,Hungary,-99,47,0,47,1,1
 2020-07-05,HUN,Hungary,Bács-Kiskun,56,0,56,1,1
-2020-07-05,HUN,Hungary,Békés,38,0,37,1,0
 2020-07-05,HUN,Hungary,Baranya,47,0,47,0,0
+2020-07-05,HUN,Hungary,Békés,38,0,37,1,0
 2020-07-05,HUN,Hungary,Borsod-Abaúj-Zemplén,71,0,71,7,0
 2020-07-05,HUN,Hungary,Budapest,208,0,208,9,5
 2020-07-05,HUN,Hungary,Csongrád,61,0,61,0,1
@@ -818,8 +818,8 @@ date,ISO3,country,region,count,cli,count_local_com,cli_local_com,anosmia
 2020-07-05,IND,India,Manipur,30,0,29,3,1
 2020-07-05,IND,India,Meghalaya,14,0,14,0,0
 2020-07-05,IND,India,Mizoram,16,0,16,0,0
-2020-07-05,IND,India,NCT of Delhi,212,1,212,106,7
 2020-07-05,IND,India,Nagaland,22,1,22,1,3
+2020-07-05,IND,India,NCT of Delhi,212,1,212,106,7
 2020-07-05,IND,India,Odisha,178,0,178,28,2
 2020-07-05,IND,India,Puducherry,12,0,12,5,0
 2020-07-05,IND,India,Punjab,148,4,148,107,4
@@ -916,9 +916,9 @@ date,ISO3,country,region,count,cli,count_local_com,cli_local_com,anosmia
 2020-07-05,ISR,Israel,-99,79,2,79,43,0
 2020-07-05,ISR,Israel,Golan,9,0,9,1,0
 2020-07-05,ISR,Israel,HaDarom,129,1,129,27,2
+2020-07-05,ISR,Israel,Haifa,139,0,139,24,0
 2020-07-05,ISR,Israel,HaMerkaz,328,0,327,64,2
 2020-07-05,ISR,Israel,HaZafon,116,0,115,22,2
-2020-07-05,ISR,Israel,Haifa,139,0,139,24,0
 2020-07-05,ISR,Israel,Jerusalem,98,0,97,15,2
 2020-07-05,ISR,Israel,Tel Aviv,195,1,195,80,1
 2020-07-05,ITA,Italy,-99,41,0,41,1,1
@@ -1209,7 +1209,6 @@ date,ISO3,country,region,count,cli,count_local_com,cli_local_com,anosmia
 2020-07-05,MEX,Mexico,Yucatán,324,8,324,233,21
 2020-07-05,MEX,Mexico,Zacatecas,102,1,102,40,5
 2020-07-05,MDA,Moldova,-99,13,0,13,6,0
-2020-07-05,MDA,Moldova,Ştefan Voda,3,0,3,0,0
 2020-07-05,MDA,Moldova,Anenii Noi,2,0,2,0,0
 2020-07-05,MDA,Moldova,Bălţi,16,0,16,6,0
 2020-07-05,MDA,Moldova,Bender,1,0,1,0,0
@@ -1233,6 +1232,7 @@ date,ISO3,country,region,count,cli,count_local_com,cli_local_com,anosmia
 2020-07-05,MDA,Moldova,Orhei,4,0,4,0,0
 2020-07-05,MDA,Moldova,Rezina,1,0,1,0,0
 2020-07-05,MDA,Moldova,Soroca,5,0,5,0,0
+2020-07-05,MDA,Moldova,Ştefan Voda,3,0,3,0,0
 2020-07-05,MDA,Moldova,Străşeni,4,0,4,6,0
 2020-07-05,MDA,Moldova,Teleneşti,1,0,1,0,0
 2020-07-05,MDA,Moldova,Transnistria,7,0,7,0,0
@@ -1385,8 +1385,8 @@ date,ISO3,country,region,count,cli,count_local_com,cli_local_com,anosmia
 2020-07-05,NOR,Norway,Nordland,42,0,42,18,1
 2020-07-05,NOR,Norway,Oslo,130,0,130,10,3
 2020-07-05,NOR,Norway,Rogaland,74,1,74,2,0
-2020-07-05,NOR,Norway,Trøndelag,72,1,72,1,1
 2020-07-05,NOR,Norway,Troms og Finnmark,47,0,47,4,3
+2020-07-05,NOR,Norway,Trøndelag,72,1,72,1,1
 2020-07-05,NOR,Norway,Vestfold og Telemark,97,0,97,8,2
 2020-07-05,NOR,Norway,Vestland,75,1,75,6,2
 2020-07-05,NOR,Norway,Viken,194,1,194,16,1
@@ -1423,7 +1423,6 @@ date,ISO3,country,region,count,cli,count_local_com,cli_local_com,anosmia
 2020-07-05,PAN,Panama,Panamá Oeste,60,1,60,25,1
 2020-07-05,PAN,Panama,Veraguas,7,0,7,0,0
 2020-07-05,PRY,Paraguay,-99,7,0,7,0,0
-2020-07-05,PRY,Paraguay,Ñeembucú,1,0,1,2,0
 2020-07-05,PRY,Paraguay,Alto Paraguay,1,0,1,0,1
 2020-07-05,PRY,Paraguay,Alto Paraná,35,2,35,101,3
 2020-07-05,PRY,Paraguay,Amambay,2,0,2,0,0
@@ -1438,6 +1437,7 @@ date,ISO3,country,region,count,cli,count_local_com,cli_local_com,anosmia
 2020-07-05,PRY,Paraguay,Guairá,2,0,2,0,0
 2020-07-05,PRY,Paraguay,Itapúa,12,1,12,5,1
 2020-07-05,PRY,Paraguay,Misiones,3,0,3,5,0
+2020-07-05,PRY,Paraguay,Ñeembucú,1,0,1,2,0
 2020-07-05,PRY,Paraguay,Paraguarí,4,0,4,0,0
 2020-07-05,PRY,Paraguay,Presidente Hayes,7,0,7,0,0
 2020-07-05,PRY,Paraguay,San Pedro,3,0,3,0,0
@@ -1450,8 +1450,8 @@ date,ISO3,country,region,count,cli,count_local_com,cli_local_com,anosmia
 2020-07-05,PER,Peru,Cajamarca,60,1,60,44,1
 2020-07-05,PER,Peru,Callao,67,5,67,38,7
 2020-07-05,PER,Peru,Cusco,67,0,67,18,1
-2020-07-05,PER,Peru,Huánuco,34,3,34,50,3
 2020-07-05,PER,Peru,Huancavelica,5,0,5,1,0
+2020-07-05,PER,Peru,Huánuco,34,3,34,50,3
 2020-07-05,PER,Peru,Ica,74,4,74,72,6
 2020-07-05,PER,Peru,Junín,73,1,73,99,3
 2020-07-05,PER,Peru,La Libertad,167,9,167,233,17
@@ -1488,11 +1488,9 @@ date,ISO3,country,region,count,cli,count_local_com,cli_local_com,anosmia
 2020-07-05,PHL,Philippines,Zamboanga Peninsula,40,1,40,6,3
 2020-07-05,PCN,Pitcairn,-99,1,0,1,4,1
 2020-07-05,POL,Poland,-99,30,0,30,30,1
-2020-07-05,POL,Poland,Łódzkie,102,1,102,105,2
-2020-07-05,POL,Poland,Śląskie,181,1,181,116,3
-2020-07-05,POL,Poland,Świętokrzyskie,42,2,42,5,1
 2020-07-05,POL,Poland,Dolnośląskie,148,1,148,115,2
 2020-07-05,POL,Poland,Kujawsko-Pomorskie,65,0,65,2,0
+2020-07-05,POL,Poland,Łódzkie,102,1,102,105,2
 2020-07-05,POL,Poland,Lubelskie,51,0,51,3,0
 2020-07-05,POL,Poland,Lubuskie,27,0,27,2,0
 2020-07-05,POL,Poland,Małopolskie,140,0,140,27,0
@@ -1501,11 +1499,12 @@ date,ISO3,country,region,count,cli,count_local_com,cli_local_com,anosmia
 2020-07-05,POL,Poland,Podkarpackie,45,1,45,170,1
 2020-07-05,POL,Poland,Podlaskie,35,0,35,7,1
 2020-07-05,POL,Poland,Pomorskie,134,0,134,4,0
+2020-07-05,POL,Poland,Śląskie,181,1,181,116,3
+2020-07-05,POL,Poland,Świętokrzyskie,42,2,42,5,1
 2020-07-05,POL,Poland,Warmińsko-Mazurskie,41,0,41,2,0
 2020-07-05,POL,Poland,Wielkopolskie,151,0,151,23,1
 2020-07-05,POL,Poland,Zachodniopomorskie,84,0,84,2,1
 2020-07-05,PRT,Portugal,-99,18,0,18,1,0
-2020-07-05,PRT,Portugal,Évora,28,0,28,14,0
 2020-07-05,PRT,Portugal,Aveiro,78,0,78,5,1
 2020-07-05,PRT,Portugal,Azores,39,0,39,4,1
 2020-07-05,PRT,Portugal,Beja,20,0,20,1,0
@@ -1513,6 +1512,7 @@ date,ISO3,country,region,count,cli,count_local_com,cli_local_com,anosmia
 2020-07-05,PRT,Portugal,Bragança,11,0,11,0,1
 2020-07-05,PRT,Portugal,Castelo Branco,25,0,25,1,0
 2020-07-05,PRT,Portugal,Coimbra,79,0,79,1,3
+2020-07-05,PRT,Portugal,Évora,28,0,28,14,0
 2020-07-05,PRT,Portugal,Faro,79,0,79,13,1
 2020-07-05,PRT,Portugal,Guarda,15,0,15,10,2
 2020-07-05,PRT,Portugal,Leiria,62,1,62,6,0
@@ -1526,12 +1526,12 @@ date,ISO3,country,region,count,cli,count_local_com,cli_local_com,anosmia
 2020-07-05,PRT,Portugal,Vila Real,28,0,28,2,1
 2020-07-05,PRT,Portugal,Viseu,44,0,44,3,2
 2020-07-05,PRI,"Puerto Rico, U.S.",-99,38,0,37,3,1
-2020-07-05,PRI,"Puerto Rico, U.S.",Añasco,9,0,9,0,0
 2020-07-05,PRI,"Puerto Rico, U.S.",Adjuntas,3,0,3,0,0
 2020-07-05,PRI,"Puerto Rico, U.S.",Aguada,5,0,5,0,0
 2020-07-05,PRI,"Puerto Rico, U.S.",Aguadilla,15,0,15,0,0
 2020-07-05,PRI,"Puerto Rico, U.S.",Aguas Buenas,6,0,6,0,0
 2020-07-05,PRI,"Puerto Rico, U.S.",Aibonito,6,0,6,0,0
+2020-07-05,PRI,"Puerto Rico, U.S.",Añasco,9,0,9,0,0
 2020-07-05,PRI,"Puerto Rico, U.S.",Arecibo,18,0,18,0,0
 2020-07-05,PRI,"Puerto Rico, U.S.",Arroyo,4,0,4,0,0
 2020-07-05,PRI,"Puerto Rico, U.S.",Barceloneta,4,0,4,0,0
@@ -1584,8 +1584,8 @@ date,ISO3,country,region,count,cli,count_local_com,cli_local_com,anosmia
 2020-07-05,PRI,"Puerto Rico, U.S.",Peñuelas,2,0,2,0,0
 2020-07-05,PRI,"Puerto Rico, U.S.",Ponce,38,0,38,0,1
 2020-07-05,PRI,"Puerto Rico, U.S.",Quebradillas,4,0,4,0,0
-2020-07-05,PRI,"Puerto Rico, U.S.",Río Grande,10,0,10,0,0
 2020-07-05,PRI,"Puerto Rico, U.S.",Rincón,4,0,4,0,0
+2020-07-05,PRI,"Puerto Rico, U.S.",Río Grande,10,0,10,0,0
 2020-07-05,PRI,"Puerto Rico, U.S.",Sabana Grande,5,0,5,0,0
 2020-07-05,PRI,"Puerto Rico, U.S.",Salinas,7,0,7,0,0
 2020-07-05,PRI,"Puerto Rico, U.S.",San Germán,5,0,5,0,0
@@ -1611,9 +1611,9 @@ date,ISO3,country,region,count,cli,count_local_com,cli_local_com,anosmia
 2020-07-05,QAT,Qatar,Al Shahaniya,1,0,1,0,0
 2020-07-05,QAT,Qatar,Al Wakrah,10,0,10,0,1
 2020-07-05,QAT,Qatar,Umm Salal,7,0,7,2,0
-2020-07-05,REU,Réunion,-99,1,0,1,0,0
 2020-07-05,MKD,Republic of North Macedonia,-99,2,0,2,1,0
 2020-07-05,COG,Republic of the Congo,Pool,1,0,1,2,0
+2020-07-05,REU,Réunion,-99,1,0,1,0,0
 2020-07-05,ROU,Romania,-99,54,0,54,2,0
 2020-07-05,ROU,Romania,Alba,31,0,30,15,0
 2020-07-05,ROU,Romania,Arad,42,0,42,0,0
@@ -1638,8 +1638,8 @@ date,ISO3,country,region,count,cli,count_local_com,cli_local_com,anosmia
 2020-07-05,ROU,Romania,Gorj,15,0,15,1,0
 2020-07-05,ROU,Romania,Harghita,16,0,16,0,0
 2020-07-05,ROU,Romania,Hunedoara,35,0,35,0,0
-2020-07-05,ROU,Romania,Iași,99,0,99,3,1
 2020-07-05,ROU,Romania,Ialomița,11,1,11,3,1
+2020-07-05,ROU,Romania,Iași,99,0,99,3,1
 2020-07-05,ROU,Romania,Ilfov,27,0,27,0,0
 2020-07-05,ROU,Romania,Maramureș,46,0,46,1,0
 2020-07-05,ROU,Romania,Mehedinți,14,0,13,0,0
@@ -1737,6 +1737,7 @@ date,ISO3,country,region,count,cli,count_local_com,cli_local_com,anosmia
 2020-07-05,RUS,Russia,Yaroslavl Oblast,13,0,13,13,0
 2020-07-05,RUS,Russia,Zabaykalsky Krai,4,0,4,1,0
 2020-07-05,SAU,Saudi Arabia,-99,16,0,16,9,2
+2020-07-05,SAU,Saudi Arabia,`Asir,22,1,22,13,1
 2020-07-05,SAU,Saudi Arabia,Al Bahah,5,0,5,10,0
 2020-07-05,SAU,Saudi Arabia,Al Hudud ash Shamaliyah,3,0,3,0,0
 2020-07-05,SAU,Saudi Arabia,Al Jawf,8,0,8,1,0
@@ -1749,7 +1750,6 @@ date,ISO3,country,region,count,cli,count_local_com,cli_local_com,anosmia
 2020-07-05,SAU,Saudi Arabia,Makkah,116,3,116,61,4
 2020-07-05,SAU,Saudi Arabia,Najran,4,0,4,5,1
 2020-07-05,SAU,Saudi Arabia,Tabuk,9,0,9,0,0
-2020-07-05,SAU,Saudi Arabia,`Asir,22,1,22,13,1
 2020-07-05,SEN,Senegal,-99,1,0,1,0,0
 2020-07-05,SEN,Senegal,Dakar,18,0,18,5,1
 2020-07-05,SEN,Senegal,Kaolack,1,0,1,0,0
@@ -1758,7 +1758,6 @@ date,ISO3,country,region,count,cli,count_local_com,cli_local_com,anosmia
 2020-07-05,SEN,Senegal,Tambacounda,1,0,1,0,0
 2020-07-05,SEN,Senegal,Thiès,1,0,1,0,0
 2020-07-05,SRB,Serbia,-99,26,0,26,39,2
-2020-07-05,SRB,Serbia,Šumadijski,44,0,44,79,1
 2020-07-05,SRB,Serbia,Borski,8,1,8,4,0
 2020-07-05,SRB,Serbia,Braničevski,21,0,21,13,1
 2020-07-05,SRB,Serbia,Grad Beograd,218,3,218,358,9
@@ -1774,12 +1773,13 @@ date,ISO3,country,region,count,cli,count_local_com,cli_local_com,anosmia
 2020-07-05,SRB,Serbia,Podunavski,8,0,8,4,0
 2020-07-05,SRB,Serbia,Pomoravski,13,0,13,2,0
 2020-07-05,SRB,Serbia,Prizrenski okrug,1,0,1,0,0
-2020-07-05,SRB,Serbia,Raški,22,1,22,45,1
 2020-07-05,SRB,Serbia,Rasinski,9,1,9,8,0
+2020-07-05,SRB,Serbia,Raški,22,1,22,45,1
 2020-07-05,SRB,Serbia,Severno-Bački,30,0,30,1,2
 2020-07-05,SRB,Serbia,Severno-Banatski,12,0,12,0,0
 2020-07-05,SRB,Serbia,Srednje-Banatski,15,0,15,6,0
 2020-07-05,SRB,Serbia,Sremski,22,0,22,33,1
+2020-07-05,SRB,Serbia,Šumadijski,44,0,44,79,1
 2020-07-05,SRB,Serbia,Zaječarski,11,0,11,3,0
 2020-07-05,SRB,Serbia,Zapadno-Bački,12,0,12,5,1
 2020-07-05,SRB,Serbia,Zlatiborski,30,2,30,73,5
@@ -1791,7 +1791,6 @@ date,ISO3,country,region,count,cli,count_local_com,cli_local_com,anosmia
 2020-07-05,SGP,Singapore,West,42,0,42,0,0
 2020-07-05,ANT,Sint Maarten,-99,1,0,1,0,0
 2020-07-05,SVK,Slovakia,-99,10,0,10,0,0
-2020-07-05,SVK,Slovakia,Žilinský,40,1,40,6,0
 2020-07-05,SVK,Slovakia,Banskobystrický,39,0,39,4,0
 2020-07-05,SVK,Slovakia,Bratislavský,76,0,76,1,0
 2020-07-05,SVK,Slovakia,Košický,34,0,34,0,0
@@ -1799,6 +1798,7 @@ date,ISO3,country,region,count,cli,count_local_com,cli_local_com,anosmia
 2020-07-05,SVK,Slovakia,Prešovský,34,0,34,0,0
 2020-07-05,SVK,Slovakia,Trenčiansky,26,0,26,1,0
 2020-07-05,SVK,Slovakia,Trnavský,41,0,41,1,1
+2020-07-05,SVK,Slovakia,Žilinský,40,1,40,6,0
 2020-07-05,SVN,Slovenia,-99,9,0,9,0,0
 2020-07-05,SVN,Slovenia,Gorenjska,23,0,23,5,0
 2020-07-05,SVN,Slovenia,Goriška,13,0,12,1,0
@@ -1855,9 +1855,9 @@ date,ISO3,country,region,count,cli,count_local_com,cli_local_com,anosmia
 2020-07-05,ESP,Spain,Castilla-La Mancha,174,0,174,136,1
 2020-07-05,ESP,Spain,Cataluña,302,2,302,48,7
 2020-07-05,ESP,Spain,Ceuta y Melilla,5,0,5,0,0
+2020-07-05,ESP,Spain,Comunidad de Madrid,343,0,343,25,6
 2020-07-05,ESP,Spain,Comunidad Foral de Navarra,34,1,34,16,1
 2020-07-05,ESP,Spain,Comunidad Valenciana,270,1,270,25,5
-2020-07-05,ESP,Spain,Comunidad de Madrid,343,0,343,25,6
 2020-07-05,ESP,Spain,Extremadura,78,0,78,0,0
 2020-07-05,ESP,Spain,Galicia,240,1,240,7,3
 2020-07-05,ESP,Spain,Islas Baleares,75,0,75,0,1
@@ -1903,7 +1903,6 @@ date,ISO3,country,region,count,cli,count_local_com,cli_local_com,anosmia
 2020-07-05,SDN,Sudan,West Kurdufan,1,0,1,0,0
 2020-07-05,SDN,Sudan,White Nile,4,0,4,11,0
 2020-07-05,SWE,Sweden,-99,46,0,46,4,1
-2020-07-05,SWE,Sweden,Östergötland,124,1,123,47,2
 2020-07-05,SWE,Sweden,Blekinge,57,1,57,20,2
 2020-07-05,SWE,Sweden,Dalarna,97,1,97,32,2
 2020-07-05,SWE,Sweden,Gävleborg,96,3,96,31,5
@@ -1915,8 +1914,9 @@ date,ISO3,country,region,count,cli,count_local_com,cli_local_com,anosmia
 2020-07-05,SWE,Sweden,Kronoberg,46,0,46,7,1
 2020-07-05,SWE,Sweden,Norrbotten,100,2,100,23,3
 2020-07-05,SWE,Sweden,Orebro,86,0,86,10,4
-2020-07-05,SWE,Sweden,Södermanland,111,0,111,23,1
+2020-07-05,SWE,Sweden,Östergötland,124,1,123,47,2
 2020-07-05,SWE,Sweden,Skåne,375,3,374,118,5
+2020-07-05,SWE,Sweden,Södermanland,111,0,111,23,1
 2020-07-05,SWE,Sweden,Stockholm,314,2,314,61,14
 2020-07-05,SWE,Sweden,Uppsala,94,1,94,16,3
 2020-07-05,SWE,Sweden,Värmland,100,0,100,24,3
@@ -1947,8 +1947,8 @@ date,ISO3,country,region,count,cli,count_local_com,cli_local_com,anosmia
 2020-07-05,CHE,Switzerland,Uri,1,0,1,0,0
 2020-07-05,CHE,Switzerland,Valais,32,1,32,7,0
 2020-07-05,CHE,Switzerland,Vaud,84,0,84,0,2
-2020-07-05,CHE,Switzerland,Zürich,143,0,143,24,0
 2020-07-05,CHE,Switzerland,Zug,15,0,15,0,0
+2020-07-05,CHE,Switzerland,Zürich,143,0,143,24,0
 2020-07-05,TWN,Taiwan,-99,41,1,40,0,1
 2020-07-05,TWN,Taiwan,Changhua County,65,0,65,0,0
 2020-07-05,TWN,Taiwan,Chiayi City,17,1,17,25,1
@@ -2080,9 +2080,9 @@ date,ISO3,country,region,count,cli,count_local_com,cli_local_com,anosmia
 2020-07-05,TUN,Tunisia,Kassérine,5,0,5,0,1
 2020-07-05,TUN,Tunisia,Kebili,2,0,2,0,0
 2020-07-05,TUN,Tunisia,Le Kef,6,0,6,10,0
-2020-07-05,TUN,Tunisia,Médenine,10,0,10,3,0
 2020-07-05,TUN,Tunisia,Mahdia,4,0,4,0,0
 2020-07-05,TUN,Tunisia,Manubah,5,0,5,0,0
+2020-07-05,TUN,Tunisia,Médenine,10,0,10,3,0
 2020-07-05,TUN,Tunisia,Monastir,6,0,6,0,0
 2020-07-05,TUN,Tunisia,Nabeul,12,0,12,2,1
 2020-07-05,TUN,Tunisia,Sfax,9,0,9,1,0
@@ -2091,9 +2091,6 @@ date,ISO3,country,region,count,cli,count_local_com,cli_local_com,anosmia
 2020-07-05,TUN,Tunisia,Tozeur,2,0,2,0,0
 2020-07-05,TUN,Tunisia,Tunis,43,1,43,7,2
 2020-07-05,TUR,Turkey,-99,59,0,59,3,0
-2020-07-05,TUR,Turkey,Çanakkale,20,0,20,0,1
-2020-07-05,TUR,Turkey,Çankiri,2,0,2,0,0
-2020-07-05,TUR,Turkey,Çorum,8,0,8,1,0
 2020-07-05,TUR,Turkey,Adana,64,0,64,19,2
 2020-07-05,TUR,Turkey,Adiyaman,8,0,8,0,0
 2020-07-05,TUR,Turkey,Afyon,14,1,14,3,1
@@ -2113,24 +2110,26 @@ date,ISO3,country,region,count,cli,count_local_com,cli_local_com,anosmia
 2020-07-05,TUR,Turkey,Bolu,10,0,10,0,0
 2020-07-05,TUR,Turkey,Burdur,3,0,3,0,0
 2020-07-05,TUR,Turkey,Bursa,123,1,123,11,2
-2020-07-05,TUR,Turkey,Düzce,6,0,6,0,0
+2020-07-05,TUR,Turkey,Çanakkale,20,0,20,0,1
+2020-07-05,TUR,Turkey,Çankiri,2,0,2,0,0
+2020-07-05,TUR,Turkey,Çorum,8,0,8,1,0
 2020-07-05,TUR,Turkey,Denizli,24,0,24,0,0
 2020-07-05,TUR,Turkey,Diyarbakir,31,0,31,28,1
+2020-07-05,TUR,Turkey,Düzce,6,0,6,0,0
 2020-07-05,TUR,Turkey,Edirne,9,0,9,0,0
 2020-07-05,TUR,Turkey,Elazığ,11,0,11,1,0
 2020-07-05,TUR,Turkey,Erzincan,6,0,6,0,0
 2020-07-05,TUR,Turkey,Erzurum,15,0,15,6,1
 2020-07-05,TUR,Turkey,Eskisehir,35,0,35,3,0
-2020-07-05,TUR,Turkey,Gümüshane,4,0,4,0,0
 2020-07-05,TUR,Turkey,Gaziantep,67,2,67,44,5
 2020-07-05,TUR,Turkey,Giresun,11,0,11,0,0
+2020-07-05,TUR,Turkey,Gümüshane,4,0,4,0,0
 2020-07-05,TUR,Turkey,Hatay,39,0,38,7,0
 2020-07-05,TUR,Turkey,Iğdır,1,0,1,0,0
 2020-07-05,TUR,Turkey,Isparta,15,0,15,0,0
 2020-07-05,TUR,Turkey,Istanbul,221,0,220,40,6
 2020-07-05,TUR,Turkey,Izmir,194,1,194,16,2
 2020-07-05,TUR,Turkey,K. Maras,22,0,22,2,1
-2020-07-05,TUR,Turkey,Kütahya,14,0,14,0,0
 2020-07-05,TUR,Turkey,Karabük,3,0,3,0,0
 2020-07-05,TUR,Turkey,Karaman,9,0,9,1,0
 2020-07-05,TUR,Turkey,Kars,4,1,4,24,1
@@ -2142,6 +2141,7 @@ date,ISO3,country,region,count,cli,count_local_com,cli_local_com,anosmia
 2020-07-05,TUR,Turkey,Kirsehir,4,0,4,0,0
 2020-07-05,TUR,Turkey,Kocaeli,43,0,43,6,2
 2020-07-05,TUR,Turkey,Konya,40,0,40,5,2
+2020-07-05,TUR,Turkey,Kütahya,14,0,14,0,0
 2020-07-05,TUR,Turkey,Malatya,19,0,19,0,1
 2020-07-05,TUR,Turkey,Manisa,27,0,27,1,0
 2020-07-05,TUR,Turkey,Mardin,14,0,14,15,0
@@ -2282,42 +2282,42 @@ date,ISO3,country,region,count,cli,count_local_com,cli_local_com,anosmia
 2020-07-05,VEN,Venezuela,Yaracuy,12,0,12,1,0
 2020-07-05,VEN,Venezuela,Zulia,56,1,56,67,4
 2020-07-05,VNM,Vietnam,-99,32,0,32,2,0
-2020-07-05,VNM,Vietnam,Đà Nẵng,48,1,48,2,1
-2020-07-05,VNM,Vietnam,Đắk Lắk,18,0,18,0,0
-2020-07-05,VNM,Vietnam,Đắk Nông,7,0,7,0,0
-2020-07-05,VNM,Vietnam,Đồng Nai,44,1,44,3,0
-2020-07-05,VNM,Vietnam,Đồng Tháp,5,0,5,0,0
-2020-07-05,VNM,Vietnam,Điện Biên,3,0,3,0,0
 2020-07-05,VNM,Vietnam,An Giang,14,0,14,0,0
 2020-07-05,VNM,Vietnam,Bà Rịa - Vũng Tàu,25,0,25,0,0
+2020-07-05,VNM,Vietnam,Bắc Giang,18,0,18,90,0
+2020-07-05,VNM,Vietnam,Bắc Kạn,4,0,4,1,0
+2020-07-05,VNM,Vietnam,Bạc Liêu,4,0,4,0,0
+2020-07-05,VNM,Vietnam,Bắc Ninh,22,0,22,0,1
+2020-07-05,VNM,Vietnam,Bến Tre,11,0,11,0,0
 2020-07-05,VNM,Vietnam,Bình Định,10,1,10,4,1
 2020-07-05,VNM,Vietnam,Bình Dương,41,0,41,1,0
 2020-07-05,VNM,Vietnam,Bình Phước,13,0,13,1,0
 2020-07-05,VNM,Vietnam,Bình Thuận,10,0,10,0,1
-2020-07-05,VNM,Vietnam,Bạc Liêu,4,0,4,0,0
-2020-07-05,VNM,Vietnam,Bắc Giang,18,0,18,90,0
-2020-07-05,VNM,Vietnam,Bắc Kạn,4,0,4,1,0
-2020-07-05,VNM,Vietnam,Bắc Ninh,22,0,22,0,1
-2020-07-05,VNM,Vietnam,Bến Tre,11,0,11,0,0
 2020-07-05,VNM,Vietnam,Cà Mau,10,0,10,0,0
 2020-07-05,VNM,Vietnam,Cần Thơ,19,0,19,0,0
 2020-07-05,VNM,Vietnam,Cao Bằng,7,0,7,0,0
+2020-07-05,VNM,Vietnam,Đà Nẵng,48,1,48,2,1
+2020-07-05,VNM,Vietnam,Đắk Lắk,18,0,18,0,0
+2020-07-05,VNM,Vietnam,Đắk Nông,7,0,7,0,0
+2020-07-05,VNM,Vietnam,Điện Biên,3,0,3,0,0
+2020-07-05,VNM,Vietnam,Đồng Nai,44,1,44,3,0
+2020-07-05,VNM,Vietnam,Đồng Tháp,5,0,5,0,0
 2020-07-05,VNM,Vietnam,Gia Lai,9,0,9,3,0
 2020-07-05,VNM,Vietnam,Hà Giang,1,0,1,0,0
-2020-07-05,VNM,Vietnam,Hà Nội,227,0,227,5,2
 2020-07-05,VNM,Vietnam,Hà Nam,5,0,5,0,0
+2020-07-05,VNM,Vietnam,Hà Nội,227,0,227,5,2
 2020-07-05,VNM,Vietnam,Hà Tĩnh,11,0,11,1,0
-2020-07-05,VNM,Vietnam,Hưng Yên,18,0,18,0,1
 2020-07-05,VNM,Vietnam,Hải Dương,19,0,19,0,0
 2020-07-05,VNM,Vietnam,Hải Phòng,31,0,31,2,0
 2020-07-05,VNM,Vietnam,Hậu Giang,3,0,3,0,0
 2020-07-05,VNM,Vietnam,Hoà Bình,8,1,8,0,0
+2020-07-05,VNM,Vietnam,Hưng Yên,18,0,18,0,1
 2020-07-05,VNM,Vietnam,Khánh Hòa,27,1,27,3,1
 2020-07-05,VNM,Vietnam,Kiên Giang,15,0,15,0,0
 2020-07-05,VNM,Vietnam,Kon Tum,4,0,4,0,0
-2020-07-05,VNM,Vietnam,Lào Cai,9,0,9,0,0
 2020-07-05,VNM,Vietnam,Lâm Đồng,22,1,22,0,0
 2020-07-05,VNM,Vietnam,Lạng Sơn,6,0,6,0,0
+2020-07-05,VNM,Vietnam,Lào Cai,9,0,9,0,0
 2020-07-05,VNM,Vietnam,Long An,12,0,12,0,0
 2020-07-05,VNM,Vietnam,Nam Định,8,0,8,0,0
 2020-07-05,VNM,Vietnam,Nghệ An,24,0,24,10,2
@@ -2333,11 +2333,11 @@ date,ISO3,country,region,count,cli,count_local_com,cli_local_com,anosmia
 2020-07-05,VNM,Vietnam,Sóc Trăng,2,0,2,0,0
 2020-07-05,VNM,Vietnam,Sơn La,4,0,4,0,0
 2020-07-05,VNM,Vietnam,Tây Ninh,13,0,13,0,0
-2020-07-05,VNM,Vietnam,Thành phố Hồ Chí Minh,228,1,227,37,2
 2020-07-05,VNM,Vietnam,Thái Bình,8,0,8,0,0
 2020-07-05,VNM,Vietnam,Thái Nguyên,20,0,20,0,0
-2020-07-05,VNM,Vietnam,Thừa Thiên Huế,18,0,18,0,0
 2020-07-05,VNM,Vietnam,Thanh Hóa,20,1,20,2,0
+2020-07-05,VNM,Vietnam,Thành phố Hồ Chí Minh,228,1,227,37,2
+2020-07-05,VNM,Vietnam,Thừa Thiên Huế,18,0,18,0,0
 2020-07-05,VNM,Vietnam,Tiền Giang,23,1,23,1,1
 2020-07-05,VNM,Vietnam,Trà Vinh,7,0,7,0,0
 2020-07-05,VNM,Vietnam,Tuyên Quang,10,0,10,0,0

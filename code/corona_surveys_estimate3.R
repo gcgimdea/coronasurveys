@@ -20,8 +20,8 @@ try(source("script-confirmed2.R"), silent = T)
 # try(source("script-confirmed-jhu.R"), silent = T)
 
 # UMD estimates from the API
-try(source("script-umd_batch_symptom_country.R"), silent = T)
-try(source("script-umd_batch_symptom_region.R"), silent = T)
+# try(source("script-umd_batch_symptom_country.R"), silent = T)
+# try(source("script-umd_batch_symptom_region.R"), silent = T)
 # UMD estimates from the microdata
 try(source("script-umd-country-v2.R"), silent = T)
 try(source("script-umd-region.R"), silent = T)
