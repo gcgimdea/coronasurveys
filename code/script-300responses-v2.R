@@ -249,11 +249,11 @@ get_spain_region_based_rosa <- function(country_geoid = "ES",
   }
 }
 
-
-# "DE", "FR" , "GB", "EC", 
-# CY does not have regional data check
-country_interest <- c("ES", "IT",  "PT", "UA", "BR", "US", "DE", "GB", "FR")
-# country_interest <- c("GB")
-
-dd <- sapply(country_interest, get_spain_region_based_rosa, write_file = T)
+# interest <- c("ES", "IT", "FR",
+# "AR", "AU", "BR", "CA", "CH", "CL", "CY", "DE", "EC", "FI",  
+#               "GB", "GR", "HU", "IN", "JP", "NL", "PL", "PT", "RO", "RU", "UA", "US")
+interest <- c("ES", "IT", "FR",
+              "AU", "BR", "CA", "CH", "CL", "CY", "DE", "EC", "FI",  
+              "GB", "GR", "HU", "IN", "JP", "NL", "PL", "PT", "RO", "RU", "UA", "US")
+dd <- sapply(interest, get_spain_region_based_rosa, write_file = T)
 
