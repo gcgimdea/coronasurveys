@@ -208,7 +208,23 @@ regions_brazil <- c(
   "Sergipe",
   "Tocantins"
 )
-
 for (r in regions_brazil) {
   plot_region(country = "BR", region = r)
 }
+
+regions_nigeria <- c("Abia",  "Adamawa",  "Akwa Ibom",  "Anambra",  "Bauchi",  "Bayelsa",  "Benue",  "Borno",
+  "Cross River",  "Delta",  "Ebonyi",  "Edo",  "Ekiti",  "Enugu",  "Federal Capital Territory",  "Gombe",
+  "Imo",  "Jigawa",  "Kaduna",  "Kano",  "Katsina",  "Kebbi",  "Kogi",  "Kwara",  "Lagos",  "Nassarawa",
+  "Niger",  "Ogun",  "Ondo",  "Osun",  "Oyo",  "Plateau",  "Rivers",  "Sokoto",  "Taraba",  "Yobe", "Zamfara")
+for (r in regions_nigeria) {
+  plot_region(country = "NG", region = r)
+}
+
+regions_ecuador <- c(  "Azuay",  "Bolivar",  "Cañar",  "Carchi",  "Chimborazo",  "Cotopaxi",  "El Oro",
+  "Esmeraldas",  "Galápagos",  "Guayas",  "Imbabura",  "Loja",  "Los Rios",  "Manabi",  "Morona Santiago",
+  "Napo",  "Orellana",  "Pastaza",  "Pichincha",  "Santa Elena",  "Santo Domingo de los Tsachilas",
+  "Sucumbios",  "Tungurahua",  "Zamora Chinchipe"  )
+for (r in regions_ecuador) {
+  plot_region(country = "EC", region = r)
+}
+
