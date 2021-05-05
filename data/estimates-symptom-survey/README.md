@@ -16,7 +16,7 @@ These are the folder description:
   * 7: 75 years or older
   * -99/-77: not provided or invalid
 
-Ther estimates are obtained from the UMD Survey Data (https://covidmap.umd.edu/), in particular from the COVID-19 World Symptoms Survey Microdata (https://covidmap.umd.edu/fbsurvey/).
+The estimates are obtained from the UMD Survey Data (https://covidmap.umd.edu/), in particular from the COVID-19 World Symptoms Survey Microdata (https://covidmap.umd.edu/fbsurvey/).
 
 Each row of the tables contains:
 - date
