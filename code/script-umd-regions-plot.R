@@ -56,7 +56,7 @@ plot_region <- function(country = "IN", region = "Rajasthan")
               linetype = "solid", size = 1, alpha = 0.6) +
     geom_ribbon(aes(ymin = cli_factor * p_cli_14days_low*100000,
                     ymax = cli_factor * p_cli_14days_high*100000),
-                alpha = 0.1, color = "green", size = 0.1, fill = "green") +
+                alpha = 0.1, color = "blue", size = 0.1, fill = "blue") +
     # geom_point(aes(y = p_cli_local*100000, color = "UMD CLI Indirect"), alpha = 0.5, size = 2) +
     geom_line(aes(y = cli_local_factor * p_cli_local_14days*100000, color = "UMD CLI Indirect"),
               linetype = "solid", size = 1, alpha = 0.6) +
@@ -64,26 +64,26 @@ plot_region <- function(country = "IN", region = "Rajasthan")
                     ymax = cli_local_factor * p_cli_local_14days_high*100000),
                 alpha = 0.1, color = "red", size = 0.1, fill = "red") +
     # geom_point(aes(y = p_anosmia*100000, color = "UMD anosmia"), alpha = 0.5, size = 2) +
-    geom_line(aes(y = anosmia_factor * p_anosmia_14days*100000, color = "UMD anosmia"),
-              linetype = "solid", size = 1, alpha = 0.6) +
-    geom_ribbon(aes(ymin = anosmia_factor * p_anosmia_14days_low*100000,
-                    ymax = anosmia_factor * p_anosmia_14days_high*100000),
-                alpha = 0.1, color = "blue", size = 0.1, fill = "blue") +
-    labs(x = "Date", y =  "Cases per 100,000 people") +
+    # geom_line(aes(y = anosmia_factor * p_anosmia_14days*100000, color = "UMD anosmia"),
+    #           linetype = "solid", size = 1, alpha = 0.6) +
+    # geom_ribbon(aes(ymin = anosmia_factor * p_anosmia_14days_low*100000,
+    #                 ymax = anosmia_factor * p_anosmia_14days_high*100000),
+    #             alpha = 0.1, color = "blue", size = 0.1, fill = "blue") +
+    # labs(x = "Date", y =  "Cases per 100,000 people") +
     # ylim(0, 3000)+
     theme_bw() + 
     ggtitle(paste0("Active cases in ", region, " (14 days moving average)")) +
-    scale_colour_manual(values = c("blue", "green", "red", "magenta"),
+    scale_colour_manual(values = c("blue", "red", "magenta", "green"),
                         name="",
                         guide = guide_legend(override.aes = list(
                           linetype = c(#"dotted", 
                             # "dotted", "blank", 
-                            "solid", 
+                            # "solid", 
                             "solid", 
                             "solid"),
                           shape = c(#NA, 
-                            # NA, 1, NA, 
-                            1, 1, 1)))) +
+                            # NA, 1, NA, 1, 
+                            1, 1)))) +
     theme(legend.position = "bottom")
   #p1
   ggsave(plot = p1, 
