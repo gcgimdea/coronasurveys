@@ -69,7 +69,7 @@ plot_region <- function(country = "IN", region = "Rajasthan")
     # geom_ribbon(aes(ymin = anosmia_factor * p_anosmia_14days_low*100000,
     #                 ymax = anosmia_factor * p_anosmia_14days_high*100000),
     #             alpha = 0.1, color = "blue", size = 0.1, fill = "blue") +
-    # labs(x = "Date", y =  "Cases per 100,000 people") +
+    labs(x = "Date", y =  "Cases per 100,000 people") +
     # ylim(0, 3000)+
     theme_bw() + 
     ggtitle(paste0("Active cases in ", region, " (14 days moving average)")) +
