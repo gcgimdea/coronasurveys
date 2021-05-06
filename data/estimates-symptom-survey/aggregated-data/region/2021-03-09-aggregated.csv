@@ -37,13 +37,13 @@ date,ISO3,country,region,count,cli,count_local_com,cli_local_com,anosmia
 2021-03-09,ALB,Albania,Shkodër,2,0,2,1,0
 2021-03-09,ALB,Albania,Tiranë,40,0,40,71,0
 2021-03-09,ALB,Albania,Vlorë,6,2,6,38,2
-2021-03-09,DZA,Algeria,Adrar,5,0,5,4,1
 2021-03-09,DZA,Algeria,Aïn Defla,3,0,3,0,0
+2021-03-09,DZA,Algeria,Adrar,5,0,5,4,1
 2021-03-09,DZA,Algeria,Alger,50,1,50,46,4
 2021-03-09,DZA,Algeria,Annaba,7,0,7,7,0
-2021-03-09,DZA,Algeria,Batna,7,0,7,9,0
 2021-03-09,DZA,Algeria,Béchar,4,1,4,1,1
 2021-03-09,DZA,Algeria,Béjaïa,8,0,8,4,0
+2021-03-09,DZA,Algeria,Batna,7,0,7,9,0
 2021-03-09,DZA,Algeria,Biskra,11,2,11,104,3
 2021-03-09,DZA,Algeria,Blida,5,1,5,6,0
 2021-03-09,DZA,Algeria,Bordj Bou Arréridj,2,0,2,0,1
@@ -61,8 +61,8 @@ date,ISO3,country,region,count,cli,count_local_com,cli_local_com,anosmia
 2021-03-09,DZA,Algeria,Khenchela,1,0,1,1,0
 2021-03-09,DZA,Algeria,Laghouat,4,0,4,4,0
 2021-03-09,DZA,Algeria,M'Sila,7,1,7,31,1
-2021-03-09,DZA,Algeria,Mascara,2,0,2,15,1
 2021-03-09,DZA,Algeria,Médéa,5,0,5,0,0
+2021-03-09,DZA,Algeria,Mascara,2,0,2,15,1
 2021-03-09,DZA,Algeria,Mila,1,1,1,3,0
 2021-03-09,DZA,Algeria,Mostaganem,4,0,4,2,0
 2021-03-09,DZA,Algeria,Naâma,1,0,1,0,0
@@ -70,12 +70,12 @@ date,ISO3,country,region,count,cli,count_local_com,cli_local_com,anosmia
 2021-03-09,DZA,Algeria,Ouargla,3,0,3,0,0
 2021-03-09,DZA,Algeria,Oum el Bouaghi,4,0,4,5,1
 2021-03-09,DZA,Algeria,Relizane,3,0,3,3,0
-2021-03-09,DZA,Algeria,Saïda,2,0,2,0,0
 2021-03-09,DZA,Algeria,Sétif,3,0,3,0,0
+2021-03-09,DZA,Algeria,Saïda,2,0,2,0,0
 2021-03-09,DZA,Algeria,Sidi Bel Abbès,3,0,3,0,0
 2021-03-09,DZA,Algeria,Skikda,4,0,4,1,1
-2021-03-09,DZA,Algeria,Tamanghasset,2,0,2,0,0
 2021-03-09,DZA,Algeria,Tébessa,2,0,2,0,0
+2021-03-09,DZA,Algeria,Tamanghasset,2,0,2,0,0
 2021-03-09,DZA,Algeria,Tiaret,3,0,3,0,0
 2021-03-09,DZA,Algeria,Tissemsilt,2,0,2,0,0
 2021-03-09,DZA,Algeria,Tizi Ouzou,7,0,7,7,0
@@ -94,16 +94,16 @@ date,ISO3,country,region,count,cli,count_local_com,cli_local_com,anosmia
 2021-03-09,AGO,Angola,Cabinda,2,0,2,0,0
 2021-03-09,AGO,Angola,Cuanza Norte,1,0,1,0,0
 2021-03-09,AGO,Angola,Cuanza Sul,1,1,1,3,1
-2021-03-09,AGO,Angola,Huambo,1,0,1,0,0
 2021-03-09,AGO,Angola,Huíla,2,0,2,0,0
+2021-03-09,AGO,Angola,Huambo,1,0,1,0,0
 2021-03-09,AGO,Angola,Luanda,20,0,20,2,2
 2021-03-09,AGO,Angola,Moxico,1,0,1,0,0
 2021-03-09,ARG,Argentina,Buenos Aires,630,7,629,309,11
+2021-03-09,ARG,Argentina,Córdoba,213,1,212,81,1
 2021-03-09,ARG,Argentina,Catamarca,18,1,18,7,0
 2021-03-09,ARG,Argentina,Chaco,41,0,41,17,1
 2021-03-09,ARG,Argentina,Chubut,32,1,32,28,0
 2021-03-09,ARG,Argentina,Ciudad Autónoma de Buenos Aires,191,0,191,66,2
-2021-03-09,ARG,Argentina,Córdoba,213,1,212,81,1
 2021-03-09,ARG,Argentina,Corrientes,42,0,42,14,0
 2021-03-09,ARG,Argentina,Entre Ríos,54,1,54,13,3
 2021-03-09,ARG,Argentina,Formosa,14,0,14,0,0
@@ -219,13 +219,13 @@ date,ISO3,country,region,count,cli,count_local_com,cli_local_com,anosmia
 2021-03-09,BRA,Brazil,Paraná,893,14,892,1496,47
 2021-03-09,BRA,Brazil,Pernambuco,304,6,304,215,19
 2021-03-09,BRA,Brazil,Piauí,108,4,108,152,9
-2021-03-09,BRA,Brazil,Rio de Janeiro,895,12,895,835,31
 2021-03-09,BRA,Brazil,Rio Grande do Norte,197,5,197,221,12
 2021-03-09,BRA,Brazil,Rio Grande do Sul,1004,16,1004,2251,48
+2021-03-09,BRA,Brazil,Rio de Janeiro,895,12,895,835,31
 2021-03-09,BRA,Brazil,Rondônia,93,3,93,113,6
 2021-03-09,BRA,Brazil,Roraima,27,1,27,33,2
-2021-03-09,BRA,Brazil,Santa Catarina,552,6,552,735,24
 2021-03-09,BRA,Brazil,São Paulo,3349,48,3347,3174,112
+2021-03-09,BRA,Brazil,Santa Catarina,552,6,552,735,24
 2021-03-09,BRA,Brazil,Sergipe,77,1,76,76,6
 2021-03-09,BRA,Brazil,Tocantins,57,2,57,97,4
 2021-03-09,IOT,British Indian Ocean Territory,British Indian Ocean Territory,1,0,1,5,0
@@ -267,6 +267,12 @@ date,ISO3,country,region,count,cli,count_local_com,cli_local_com,anosmia
 2021-03-09,BFA,Burkina Faso,Haut-Bassins,2,0,2,0,0
 2021-03-09,BFA,Burkina Faso,Plateau-Central,1,0,1,0,0
 2021-03-09,BFA,Burkina Faso,Sahel,1,0,1,1,0
+2021-03-09,CIV,Côte d'Ivoire,Autonome d'Abidjan,26,0,26,11,2
+2021-03-09,CIV,Côte d'Ivoire,Autonome de Yamoussoukro,2,0,2,0,0
+2021-03-09,CIV,Côte d'Ivoire,Bas-Sassandra,1,0,1,1,0
+2021-03-09,CIV,Côte d'Ivoire,Gôh-Djiboua,1,0,1,0,0
+2021-03-09,CIV,Côte d'Ivoire,Lagunes,7,0,7,0,0
+2021-03-09,CIV,Côte d'Ivoire,Vallée du Bandama,2,0,2,0,0
 2021-03-09,KHM,Cambodia,Bântéay Méanchey,1,0,1,0,0
 2021-03-09,KHM,Cambodia,Batdâmbâng,1,0,1,0,0
 2021-03-09,KHM,Cambodia,Kâmpóng Cham,2,1,2,100,1
@@ -304,6 +310,7 @@ date,ISO3,country,region,count,cli,count_local_com,cli_local_com,anosmia
 2021-03-09,CAN,Canada,Yukon,8,0,8,0,0
 2021-03-09,CYM,Cayman Islands,George Town,1,0,1,0,0
 2021-03-09,CAF,Central African Republic,Bangui,1,0,1,0,0
+2021-03-09,CHL,Chile,Ñuble,19,0,19,15,0
 2021-03-09,CHL,Chile,Aisén del General Carlos Ibáñez del Campo,4,0,4,0,0
 2021-03-09,CHL,Chile,Antofagasta,48,1,48,34,3
 2021-03-09,CHL,Chile,Araucanía,49,0,49,35,3
@@ -316,7 +323,6 @@ date,ISO3,country,region,count,cli,count_local_com,cli_local_com,anosmia
 2021-03-09,CHL,Chile,Los Ríos,32,2,32,20,1
 2021-03-09,CHL,Chile,Magallanes y Antártica Chilena,12,0,12,0,1
 2021-03-09,CHL,Chile,Maule,60,0,60,11,1
-2021-03-09,CHL,Chile,Ñuble,19,0,19,15,0
 2021-03-09,CHL,Chile,Región Metropolitana de Santiago,358,3,358,97,6
 2021-03-09,CHL,Chile,Tarapacá,17,0,17,1,0
 2021-03-09,CHL,Chile,Valparaíso,143,1,143,28,5
@@ -329,13 +335,13 @@ date,ISO3,country,region,count,cli,count_local_com,cli_local_com,anosmia
 2021-03-09,COL,Colombia,"Bogotá, Distrito Capital",317,0,316,103,7
 2021-03-09,COL,Colombia,Bolívar,38,0,38,8,0
 2021-03-09,COL,Colombia,Boyacá,29,0,29,3,0
+2021-03-09,COL,Colombia,Córdoba,42,1,42,12,4
 2021-03-09,COL,Colombia,Caldas,36,1,36,9,2
 2021-03-09,COL,Colombia,Caquetá,6,0,6,0,0
 2021-03-09,COL,Colombia,Casanare,8,0,8,3,0
 2021-03-09,COL,Colombia,Cauca,36,0,36,9,0
 2021-03-09,COL,Colombia,Cesar,16,0,16,3,2
 2021-03-09,COL,Colombia,Chocó,8,0,8,10,0
-2021-03-09,COL,Colombia,Córdoba,42,1,42,12,4
 2021-03-09,COL,Colombia,Cundinamarca,87,0,87,5,1
 2021-03-09,COL,Colombia,Guainía,2,0,2,0,0
 2021-03-09,COL,Colombia,Guaviare,2,0,2,3,0
@@ -360,12 +366,7 @@ date,ISO3,country,region,count,cli,count_local_com,cli_local_com,anosmia
 2021-03-09,CRI,Costa Rica,Limón,7,0,7,0,0
 2021-03-09,CRI,Costa Rica,Puntarenas,17,0,17,2,0
 2021-03-09,CRI,Costa Rica,San José,111,3,111,40,3
-2021-03-09,CIV,Côte d'Ivoire,Autonome d'Abidjan,26,0,26,11,2
-2021-03-09,CIV,Côte d'Ivoire,Autonome de Yamoussoukro,2,0,2,0,0
-2021-03-09,CIV,Côte d'Ivoire,Bas-Sassandra,1,0,1,1,0
-2021-03-09,CIV,Côte d'Ivoire,Gôh-Djiboua,1,0,1,0,0
-2021-03-09,CIV,Côte d'Ivoire,Lagunes,7,0,7,0,0
-2021-03-09,CIV,Côte d'Ivoire,Vallée du Bandama,2,0,2,0,0
+2021-03-09,HRV,Croatia,Šibensko-Kninska,5,1,5,0,0
 2021-03-09,HRV,Croatia,Bjelovarska-Bilogorska,8,1,8,2,1
 2021-03-09,HRV,Croatia,Brodsko-Posavska,7,0,7,0,0
 2021-03-09,HRV,Croatia,Dubrovacko-Neretvanska,9,0,9,1,0
@@ -379,7 +380,6 @@ date,ISO3,country,region,count,cli,count_local_com,cli_local_com,anosmia
 2021-03-09,HRV,Croatia,Osjecko-Baranjska,23,0,23,4,0
 2021-03-09,HRV,Croatia,Požeško-Slavonska,4,0,4,1,0
 2021-03-09,HRV,Croatia,Primorsko-Goranska,15,0,15,4,0
-2021-03-09,HRV,Croatia,Šibensko-Kninska,5,1,5,0,0
 2021-03-09,HRV,Croatia,Sisacko-Moslavacka,11,0,11,2,0
 2021-03-09,HRV,Croatia,Splitsko-Dalmatinska,27,1,27,5,0
 2021-03-09,HRV,Croatia,Varaždinska,8,0,8,1,0
@@ -389,11 +389,12 @@ date,ISO3,country,region,count,cli,count_local_com,cli_local_com,anosmia
 2021-03-09,HRV,Croatia,Zagrebačka,25,0,24,3,1
 2021-03-09,CYP,Cyprus,Famagusta,1,0,1,0,0
 2021-03-09,CYP,Cyprus,Nicosia,2,0,2,0,0
+2021-03-09,CZE,Czech Republic,Ústecký,82,3,82,77,2
 2021-03-09,CZE,Czech Republic,Jihočeský,68,2,68,50,1
 2021-03-09,CZE,Czech Republic,Jihomoravský,115,2,115,167,8
 2021-03-09,CZE,Czech Republic,Karlovarský,38,0,38,27,2
-2021-03-09,CZE,Czech Republic,Kraj Vysočina,43,0,43,35,4
 2021-03-09,CZE,Czech Republic,Královéhradecký,62,0,62,64,3
+2021-03-09,CZE,Czech Republic,Kraj Vysočina,43,0,43,35,4
 2021-03-09,CZE,Czech Republic,Liberecký,39,1,39,31,0
 2021-03-09,CZE,Czech Republic,Moravskoslezský,98,4,97,145,5
 2021-03-09,CZE,Czech Republic,Olomoucký,52,0,52,21,2
@@ -401,7 +402,6 @@ date,ISO3,country,region,count,cli,count_local_com,cli_local_com,anosmia
 2021-03-09,CZE,Czech Republic,Plzeňský,68,0,68,65,2
 2021-03-09,CZE,Czech Republic,Prague,175,4,174,98,7
 2021-03-09,CZE,Czech Republic,Středočeský,147,6,147,185,5
-2021-03-09,CZE,Czech Republic,Ústecký,82,3,82,77,2
 2021-03-09,CZE,Czech Republic,Zlínský,53,0,53,18,0
 2021-03-09,COD,Democratic Republic of the Congo,Haut-Katanga,8,1,8,3,1
 2021-03-09,COD,Democratic Republic of the Congo,Ituri,2,0,2,0,0
@@ -438,11 +438,11 @@ date,ISO3,country,region,count,cli,count_local_com,cli_local_com,anosmia
 2021-03-09,DOM,Dominican Republic,Pedernales,1,0,1,0,0
 2021-03-09,DOM,Dominican Republic,Peravia,1,0,1,0,0
 2021-03-09,DOM,Dominican Republic,Puerto Plata,6,0,6,1,0
+2021-03-09,DOM,Dominican Republic,Sánchez Ramírez,2,0,2,0,0
 2021-03-09,DOM,Dominican Republic,Samaná,3,0,3,0,0
 2021-03-09,DOM,Dominican Republic,San Cristóbal,7,0,7,5,1
 2021-03-09,DOM,Dominican Republic,San Juan,4,0,4,0,0
 2021-03-09,DOM,Dominican Republic,San Pedro de Macorís,9,0,9,1,0
-2021-03-09,DOM,Dominican Republic,Sánchez Ramírez,2,0,2,0,0
 2021-03-09,DOM,Dominican Republic,Santiago,38,1,38,21,4
 2021-03-09,DOM,Dominican Republic,Santiago Rodríguez,1,0,1,0,0
 2021-03-09,DOM,Dominican Republic,Santo Domingo,43,2,43,15,5
@@ -537,6 +537,7 @@ date,ISO3,country,region,count,cli,count_local_com,cli_local_com,anosmia
 2021-03-09,FIN,Finland,Satakunta,22,0,22,1,0
 2021-03-09,FIN,Finland,Uusimaa,224,2,224,57,7
 2021-03-09,FIN,Finland,Varsinais-Suomi,61,0,60,5,2
+2021-03-09,FRA,France,Île-de-France,387,4,387,59,6
 2021-03-09,FRA,France,Auvergne-Rhône-Alpes,412,5,411,97,7
 2021-03-09,FRA,France,Bourgogne-Franche-Comté,139,1,139,21,0
 2021-03-09,FRA,France,Bretagne,228,0,228,18,2
@@ -546,7 +547,6 @@ date,ISO3,country,region,count,cli,count_local_com,cli_local_com,anosmia
 2021-03-09,FRA,France,Grand Est,389,5,388,146,8
 2021-03-09,FRA,France,Guadeloupe,1,0,1,2,0
 2021-03-09,FRA,France,Hauts-de-France,382,5,382,71,8
-2021-03-09,FRA,France,Île-de-France,387,4,387,59,6
 2021-03-09,FRA,France,Mayotte,1,0,1,0,1
 2021-03-09,FRA,France,Normandie,170,2,170,17,1
 2021-03-09,FRA,France,Nouvelle-Aquitaine,373,0,373,53,2
@@ -677,8 +677,8 @@ date,ISO3,country,region,count,cli,count_local_com,cli_local_com,anosmia
 2021-03-09,HKG,Hong Kong,Yau Tsim Mong,3,0,3,0,0
 2021-03-09,HKG,Hong Kong,Yuen Long,18,0,18,5,0
 2021-03-09,HUN,Hungary,Bács-Kiskun,95,0,95,32,3
-2021-03-09,HUN,Hungary,Baranya,82,2,82,87,3
 2021-03-09,HUN,Hungary,Békés,47,1,47,9,1
+2021-03-09,HUN,Hungary,Baranya,82,2,82,87,3
 2021-03-09,HUN,Hungary,Borsod-Abaúj-Zemplén,104,2,104,58,3
 2021-03-09,HUN,Hungary,Budapest,431,7,429,272,14
 2021-03-09,HUN,Hungary,Csongrád,79,1,79,37,3
@@ -719,8 +719,8 @@ date,ISO3,country,region,count,cli,count_local_com,cli_local_com,anosmia
 2021-03-09,IND,India,Manipur,15,1,15,2,0
 2021-03-09,IND,India,Meghalaya,4,1,4,0,0
 2021-03-09,IND,India,Mizoram,7,0,7,0,0
-2021-03-09,IND,India,Nagaland,7,0,7,0,0
 2021-03-09,IND,India,NCT of Delhi,115,1,115,22,4
+2021-03-09,IND,India,Nagaland,7,0,7,0,0
 2021-03-09,IND,India,Odisha,52,0,52,10,0
 2021-03-09,IND,India,Puducherry,4,0,4,0,0
 2021-03-09,IND,India,Punjab,45,2,45,6,2
@@ -813,9 +813,9 @@ date,ISO3,country,region,count,cli,count_local_com,cli_local_com,anosmia
 2021-03-09,IMN,Isle Of Man,Ayre,1,0,1,0,0
 2021-03-09,ISR,Israel,Golan,14,0,14,0,1
 2021-03-09,ISR,Israel,HaDarom,110,0,110,48,2
-2021-03-09,ISR,Israel,Haifa,95,1,95,130,2
 2021-03-09,ISR,Israel,HaMerkaz,246,2,246,41,2
 2021-03-09,ISR,Israel,HaZafon,90,1,90,37,1
+2021-03-09,ISR,Israel,Haifa,95,1,95,130,2
 2021-03-09,ISR,Israel,Jerusalem,78,0,77,28,3
 2021-03-09,ISR,Israel,Tel Aviv,111,0,111,13,2
 2021-03-09,ITA,Italy,Abruzzo,117,0,117,63,3
@@ -1214,8 +1214,8 @@ date,ISO3,country,region,count,cli,count_local_com,cli_local_com,anosmia
 2021-03-09,NOR,Norway,Nordland,72,0,72,8,0
 2021-03-09,NOR,Norway,Oslo,140,3,140,11,3
 2021-03-09,NOR,Norway,Rogaland,87,0,87,4,0
-2021-03-09,NOR,Norway,Troms og Finnmark,60,2,60,4,0
 2021-03-09,NOR,Norway,Trøndelag,116,0,116,6,2
+2021-03-09,NOR,Norway,Troms og Finnmark,60,2,60,4,0
 2021-03-09,NOR,Norway,Vestfold og Telemark,89,0,89,5,1
 2021-03-09,NOR,Norway,Vestland,79,1,79,4,2
 2021-03-09,NOR,Norway,Viken,257,0,257,10,5
@@ -1244,6 +1244,7 @@ date,ISO3,country,region,count,cli,count_local_com,cli_local_com,anosmia
 2021-03-09,PAN,Panama,Panamá Oeste,19,0,19,10,0
 2021-03-09,PAN,Panama,Veraguas,5,0,5,102,0
 2021-03-09,PNG,Papua New Guinea,East Sepik,1,0,1,0,0
+2021-03-09,PRY,Paraguay,Ñeembucú,1,0,1,0,0
 2021-03-09,PRY,Paraguay,Alto Paraná,28,0,28,42,1
 2021-03-09,PRY,Paraguay,Amambay,3,0,3,0,0
 2021-03-09,PRY,Paraguay,Asunción,59,3,59,74,3
@@ -1257,7 +1258,6 @@ date,ISO3,country,region,count,cli,count_local_com,cli_local_com,anosmia
 2021-03-09,PRY,Paraguay,Guairá,2,0,2,1,0
 2021-03-09,PRY,Paraguay,Itapúa,18,1,18,14,2
 2021-03-09,PRY,Paraguay,Misiones,8,0,8,3,0
-2021-03-09,PRY,Paraguay,Ñeembucú,1,0,1,0,0
 2021-03-09,PRY,Paraguay,Paraguarí,1,0,1,0,0
 2021-03-09,PRY,Paraguay,Presidente Hayes,1,0,1,2,0
 2021-03-09,PRY,Paraguay,San Pedro,2,0,2,7,0
@@ -1269,8 +1269,8 @@ date,ISO3,country,region,count,cli,count_local_com,cli_local_com,anosmia
 2021-03-09,PER,Peru,Cajamarca,22,1,22,28,3
 2021-03-09,PER,Peru,Callao,69,2,69,101,6
 2021-03-09,PER,Peru,Cusco,43,3,43,38,4
-2021-03-09,PER,Peru,Huancavelica,1,0,1,0,0
 2021-03-09,PER,Peru,Huánuco,10,0,10,1,1
+2021-03-09,PER,Peru,Huancavelica,1,0,1,0,0
 2021-03-09,PER,Peru,Ica,38,0,38,71,1
 2021-03-09,PER,Peru,Junín,35,2,35,58,2
 2021-03-09,PER,Peru,La Libertad,62,2,61,69,4
@@ -1304,9 +1304,11 @@ date,ISO3,country,region,count,cli,count_local_com,cli_local_com,anosmia
 2021-03-09,PHL,Philippines,Soccsksargen,19,0,19,8,0
 2021-03-09,PHL,Philippines,Western Visayas,47,1,47,2,2
 2021-03-09,PHL,Philippines,Zamboanga Peninsula,31,0,31,3,0
+2021-03-09,POL,Poland,Łódzkie,58,1,58,25,4
+2021-03-09,POL,Poland,Śląskie,127,2,127,32,4
+2021-03-09,POL,Poland,Świętokrzyskie,21,1,21,7,0
 2021-03-09,POL,Poland,Dolnośląskie,84,1,84,38,3
 2021-03-09,POL,Poland,Kujawsko-Pomorskie,58,1,58,14,2
-2021-03-09,POL,Poland,Łódzkie,58,1,58,25,4
 2021-03-09,POL,Poland,Lubelskie,41,2,40,120,2
 2021-03-09,POL,Poland,Lubuskie,29,0,29,14,2
 2021-03-09,POL,Poland,Małopolskie,106,2,106,72,0
@@ -1315,11 +1317,10 @@ date,ISO3,country,region,count,cli,count_local_com,cli_local_com,anosmia
 2021-03-09,POL,Poland,Podkarpackie,33,0,33,17,0
 2021-03-09,POL,Poland,Podlaskie,25,0,25,5,1
 2021-03-09,POL,Poland,Pomorskie,89,2,89,103,6
-2021-03-09,POL,Poland,Śląskie,127,2,127,32,4
-2021-03-09,POL,Poland,Świętokrzyskie,21,1,21,7,0
 2021-03-09,POL,Poland,Warmińsko-Mazurskie,25,1,25,10,2
 2021-03-09,POL,Poland,Wielkopolskie,89,1,89,144,4
 2021-03-09,POL,Poland,Zachodniopomorskie,52,0,52,13,0
+2021-03-09,PRT,Portugal,Évora,18,0,18,0,0
 2021-03-09,PRT,Portugal,Aveiro,58,0,58,101,1
 2021-03-09,PRT,Portugal,Azores,17,0,16,0,0
 2021-03-09,PRT,Portugal,Beja,12,0,12,4,0
@@ -1327,7 +1328,6 @@ date,ISO3,country,region,count,cli,count_local_com,cli_local_com,anosmia
 2021-03-09,PRT,Portugal,Bragança,7,0,7,0,0
 2021-03-09,PRT,Portugal,Castelo Branco,15,0,15,0,3
 2021-03-09,PRT,Portugal,Coimbra,29,0,29,4,0
-2021-03-09,PRT,Portugal,Évora,18,0,18,0,0
 2021-03-09,PRT,Portugal,Faro,57,1,57,64,1
 2021-03-09,PRT,Portugal,Guarda,12,0,12,1,0
 2021-03-09,PRT,Portugal,Leiria,54,0,54,3,0
@@ -1340,12 +1340,12 @@ date,ISO3,country,region,count,cli,count_local_com,cli_local_com,anosmia
 2021-03-09,PRT,Portugal,Viana do Castelo,11,0,11,0,0
 2021-03-09,PRT,Portugal,Vila Real,14,0,14,2,1
 2021-03-09,PRT,Portugal,Viseu,24,1,24,0,1
+2021-03-09,PRI,"Puerto Rico, U.S.",Añasco,1,0,1,0,0
 2021-03-09,PRI,"Puerto Rico, U.S.",Adjuntas,2,0,2,0,0
 2021-03-09,PRI,"Puerto Rico, U.S.",Aguada,3,0,3,0,0
 2021-03-09,PRI,"Puerto Rico, U.S.",Aguadilla,11,0,11,0,0
 2021-03-09,PRI,"Puerto Rico, U.S.",Aguas Buenas,3,0,3,0,0
 2021-03-09,PRI,"Puerto Rico, U.S.",Aibonito,5,1,5,0,0
-2021-03-09,PRI,"Puerto Rico, U.S.",Añasco,1,0,1,0,0
 2021-03-09,PRI,"Puerto Rico, U.S.",Arecibo,13,0,13,8,0
 2021-03-09,PRI,"Puerto Rico, U.S.",Barceloneta,3,0,3,0,0
 2021-03-09,PRI,"Puerto Rico, U.S.",Barranquitas,1,0,1,0,0
@@ -1394,8 +1394,8 @@ date,ISO3,country,region,count,cli,count_local_com,cli_local_com,anosmia
 2021-03-09,PRI,"Puerto Rico, U.S.",Peñuelas,1,0,1,0,0
 2021-03-09,PRI,"Puerto Rico, U.S.",Ponce,25,0,25,2,0
 2021-03-09,PRI,"Puerto Rico, U.S.",Quebradillas,3,0,3,1,0
-2021-03-09,PRI,"Puerto Rico, U.S.",Rincón,3,0,3,0,0
 2021-03-09,PRI,"Puerto Rico, U.S.",Río Grande,6,1,6,0,0
+2021-03-09,PRI,"Puerto Rico, U.S.",Rincón,3,0,3,0,0
 2021-03-09,PRI,"Puerto Rico, U.S.",Sabana Grande,5,0,5,0,0
 2021-03-09,PRI,"Puerto Rico, U.S.",Salinas,4,0,4,1,0
 2021-03-09,PRI,"Puerto Rico, U.S.",San Germán,7,0,7,0,0
@@ -1420,9 +1420,9 @@ date,ISO3,country,region,count,cli,count_local_com,cli_local_com,anosmia
 2021-03-09,QAT,Qatar,Al Shamal,3,0,3,100,0
 2021-03-09,QAT,Qatar,Al Wakrah,7,0,7,2,1
 2021-03-09,QAT,Qatar,Umm Salal,3,0,3,3,0
+2021-03-09,REU,Réunion,Saint-Pierre,1,0,1,0,0
 2021-03-09,MKD,Republic of North Macedonia,Skopje,1,0,1,0,0
 2021-03-09,COG,Republic of the Congo,Brazzaville,1,0,1,0,0
-2021-03-09,REU,Réunion,Saint-Pierre,1,0,1,0,0
 2021-03-09,ROU,Romania,Alba,18,0,18,20,0
 2021-03-09,ROU,Romania,Arad,25,0,25,14,0
 2021-03-09,ROU,Romania,Argeș,19,0,19,1,0
@@ -1446,8 +1446,8 @@ date,ISO3,country,region,count,cli,count_local_com,cli_local_com,anosmia
 2021-03-09,ROU,Romania,Gorj,14,0,14,6,1
 2021-03-09,ROU,Romania,Harghita,10,0,10,0,0
 2021-03-09,ROU,Romania,Hunedoara,25,0,25,59,0
-2021-03-09,ROU,Romania,Ialomița,13,0,13,1,0
 2021-03-09,ROU,Romania,Iași,46,0,46,7,1
+2021-03-09,ROU,Romania,Ialomița,13,0,13,1,0
 2021-03-09,ROU,Romania,Ilfov,31,0,31,9,0
 2021-03-09,ROU,Romania,Maramureș,26,0,26,7,0
 2021-03-09,ROU,Romania,Mehedinți,14,0,14,6,0
@@ -1543,7 +1543,6 @@ date,ISO3,country,region,count,cli,count_local_com,cli_local_com,anosmia
 2021-03-09,RUS,Russia,Zabaykalsky Krai,1,0,1,0,0
 2021-03-09,RWA,Rwanda,Amajyaruguru,1,0,1,15,1
 2021-03-09,RWA,Rwanda,Umujyi wa Kigali,1,0,1,0,0
-2021-03-09,SAU,Saudi Arabia,`Asir,6,0,6,0,0
 2021-03-09,SAU,Saudi Arabia,Al Bahah,1,0,1,0,0
 2021-03-09,SAU,Saudi Arabia,Al Hudud ash Shamaliyah,1,0,1,0,0
 2021-03-09,SAU,Saudi Arabia,Al Jawf,1,0,1,0,0
@@ -1556,11 +1555,13 @@ date,ISO3,country,region,count,cli,count_local_com,cli_local_com,anosmia
 2021-03-09,SAU,Saudi Arabia,Makkah,53,1,53,13,0
 2021-03-09,SAU,Saudi Arabia,Najran,1,0,1,0,0
 2021-03-09,SAU,Saudi Arabia,Tabuk,10,0,10,0,0
+2021-03-09,SAU,Saudi Arabia,`Asir,6,0,6,0,0
 2021-03-09,SEN,Senegal,Dakar,12,0,11,3,1
 2021-03-09,SEN,Senegal,Matam,1,0,1,0,0
 2021-03-09,SEN,Senegal,Saint-Louis,1,0,1,0,0
 2021-03-09,SEN,Senegal,Thiès,1,0,1,0,0
 2021-03-09,SEN,Senegal,Ziguinchor,1,0,1,0,0
+2021-03-09,SRB,Serbia,Šumadijski,30,3,30,143,2
 2021-03-09,SRB,Serbia,Borski,6,0,6,2,0
 2021-03-09,SRB,Serbia,Braničevski,9,0,9,10,0
 2021-03-09,SRB,Serbia,Grad Beograd,154,7,154,307,3
@@ -1578,13 +1579,12 @@ date,ISO3,country,region,count,cli,count_local_com,cli_local_com,anosmia
 2021-03-09,SRB,Serbia,Pirotski,3,0,3,0,0
 2021-03-09,SRB,Serbia,Podunavski,8,0,8,5,0
 2021-03-09,SRB,Serbia,Pomoravski,12,0,12,25,0
-2021-03-09,SRB,Serbia,Rasinski,16,2,16,132,0
 2021-03-09,SRB,Serbia,Raški,14,0,14,15,1
+2021-03-09,SRB,Serbia,Rasinski,16,2,16,132,0
 2021-03-09,SRB,Serbia,Severno-Bački,25,1,25,55,5
 2021-03-09,SRB,Serbia,Severno-Banatski,10,0,10,2,0
 2021-03-09,SRB,Serbia,Srednje-Banatski,11,1,11,6,1
 2021-03-09,SRB,Serbia,Sremski,20,1,20,35,1
-2021-03-09,SRB,Serbia,Šumadijski,30,3,30,143,2
 2021-03-09,SRB,Serbia,Toplički,2,0,2,1,0
 2021-03-09,SRB,Serbia,Zaječarski,1,0,1,1,0
 2021-03-09,SRB,Serbia,Zapadno-Bački,8,0,8,3,0
@@ -1594,6 +1594,7 @@ date,ISO3,country,region,count,cli,count_local_com,cli_local_com,anosmia
 2021-03-09,SGP,Singapore,North,12,0,12,0,0
 2021-03-09,SGP,Singapore,North-East,14,0,14,3,0
 2021-03-09,SGP,Singapore,West,25,0,25,0,0
+2021-03-09,SVK,Slovakia,Žilinský,63,0,63,49,1
 2021-03-09,SVK,Slovakia,Banskobystrický,65,0,65,21,1
 2021-03-09,SVK,Slovakia,Bratislavský,112,1,112,64,4
 2021-03-09,SVK,Slovakia,Košický,81,2,80,143,1
@@ -1601,7 +1602,6 @@ date,ISO3,country,region,count,cli,count_local_com,cli_local_com,anosmia
 2021-03-09,SVK,Slovakia,Prešovský,64,2,64,65,2
 2021-03-09,SVK,Slovakia,Trenčiansky,37,0,37,57,0
 2021-03-09,SVK,Slovakia,Trnavský,60,0,59,20,0
-2021-03-09,SVK,Slovakia,Žilinský,63,0,63,49,1
 2021-03-09,SVN,Slovenia,Gorenjska,11,0,11,14,1
 2021-03-09,SVN,Slovenia,Goriška,11,0,10,16,1
 2021-03-09,SVN,Slovenia,Jugovzhodna Slovenija,8,1,8,14,0
@@ -1649,9 +1649,9 @@ date,ISO3,country,region,count,cli,count_local_com,cli_local_com,anosmia
 2021-03-09,ESP,Spain,Castilla-La Mancha,81,1,81,17,1
 2021-03-09,ESP,Spain,Cataluña,242,3,242,43,3
 2021-03-09,ESP,Spain,Ceuta y Melilla,4,0,4,5,0
-2021-03-09,ESP,Spain,Comunidad de Madrid,302,0,302,94,5
 2021-03-09,ESP,Spain,Comunidad Foral de Navarra,25,0,25,11,0
 2021-03-09,ESP,Spain,Comunidad Valenciana,222,1,222,37,3
+2021-03-09,ESP,Spain,Comunidad de Madrid,302,0,302,94,5
 2021-03-09,ESP,Spain,Extremadura,43,0,43,3,1
 2021-03-09,ESP,Spain,Galicia,121,0,121,20,0
 2021-03-09,ESP,Spain,Islas Baleares,57,0,57,6,0
@@ -1693,6 +1693,7 @@ date,ISO3,country,region,count,cli,count_local_com,cli_local_com,anosmia
 2021-03-09,SDN,Sudan,West Darfur,2,0,2,0,0
 2021-03-09,SDN,Sudan,White Nile,3,0,3,0,0
 2021-03-09,SJM,Svalbard and Jan Mayen,Svalbard,1,0,1,0,0
+2021-03-09,SWE,Sweden,Östergötland,145,2,145,48,6
 2021-03-09,SWE,Sweden,Blekinge,49,0,49,4,1
 2021-03-09,SWE,Sweden,Dalarna,117,0,117,26,6
 2021-03-09,SWE,Sweden,Gävleborg,122,3,122,28,5
@@ -1704,9 +1705,8 @@ date,ISO3,country,region,count,cli,count_local_com,cli_local_com,anosmia
 2021-03-09,SWE,Sweden,Kronoberg,59,0,59,24,1
 2021-03-09,SWE,Sweden,Norrbotten,102,2,100,65,4
 2021-03-09,SWE,Sweden,Orebro,103,1,103,20,7
-2021-03-09,SWE,Sweden,Östergötland,145,2,145,48,6
-2021-03-09,SWE,Sweden,Skåne,450,6,448,123,31
 2021-03-09,SWE,Sweden,Södermanland,122,1,122,17,7
+2021-03-09,SWE,Sweden,Skåne,450,6,448,123,31
 2021-03-09,SWE,Sweden,Stockholm,404,6,404,172,23
 2021-03-09,SWE,Sweden,Uppsala,123,2,123,25,8
 2021-03-09,SWE,Sweden,Värmland,94,3,94,25,2
@@ -1735,8 +1735,8 @@ date,ISO3,country,region,count,cli,count_local_com,cli_local_com,anosmia
 2021-03-09,CHE,Switzerland,Ticino,34,0,34,6,0
 2021-03-09,CHE,Switzerland,Valais,27,1,27,14,1
 2021-03-09,CHE,Switzerland,Vaud,69,0,69,10,2
-2021-03-09,CHE,Switzerland,Zug,10,0,10,1,0
 2021-03-09,CHE,Switzerland,Zürich,96,0,96,30,3
+2021-03-09,CHE,Switzerland,Zug,10,0,10,1,0
 2021-03-09,TWN,Taiwan,Changhua County,30,0,30,0,0
 2021-03-09,TWN,Taiwan,Chiayi City,8,0,8,0,0
 2021-03-09,TWN,Taiwan,Chiayi County,6,0,6,0,0
@@ -1859,9 +1859,9 @@ date,ISO3,country,region,count,cli,count_local_com,cli_local_com,anosmia
 2021-03-09,TUN,Tunisia,Jendouba,3,0,3,1,0
 2021-03-09,TUN,Tunisia,Kairouan,1,0,1,0,0
 2021-03-09,TUN,Tunisia,Le Kef,3,0,3,0,0
+2021-03-09,TUN,Tunisia,Médenine,2,0,2,0,0
 2021-03-09,TUN,Tunisia,Mahdia,4,0,4,1,0
 2021-03-09,TUN,Tunisia,Manubah,2,0,2,0,0
-2021-03-09,TUN,Tunisia,Médenine,2,0,2,0,0
 2021-03-09,TUN,Tunisia,Monastir,10,1,10,3,0
 2021-03-09,TUN,Tunisia,Nabeul,12,0,12,4,0
 2021-03-09,TUN,Tunisia,Sfax,13,1,13,3,0
@@ -1871,6 +1871,8 @@ date,ISO3,country,region,count,cli,count_local_com,cli_local_com,anosmia
 2021-03-09,TUN,Tunisia,Tataouine,1,0,1,0,0
 2021-03-09,TUN,Tunisia,Tunis,35,0,35,12,0
 2021-03-09,TUN,Tunisia,Zaghouan,1,0,1,0,0
+2021-03-09,TUR,Turkey,Çanakkale,17,0,17,3,0
+2021-03-09,TUR,Turkey,Çorum,4,0,4,0,0
 2021-03-09,TUR,Turkey,Adana,36,2,36,1,1
 2021-03-09,TUR,Turkey,Adiyaman,2,0,2,0,0
 2021-03-09,TUR,Turkey,Afyon,4,0,4,0,0
@@ -1890,25 +1892,24 @@ date,ISO3,country,region,count,cli,count_local_com,cli_local_com,anosmia
 2021-03-09,TUR,Turkey,Bolu,2,0,2,0,0
 2021-03-09,TUR,Turkey,Burdur,4,0,4,0,0
 2021-03-09,TUR,Turkey,Bursa,54,0,54,12,1
-2021-03-09,TUR,Turkey,Çanakkale,17,0,17,3,0
-2021-03-09,TUR,Turkey,Çorum,4,0,4,0,0
+2021-03-09,TUR,Turkey,Düzce,5,0,5,0,0
 2021-03-09,TUR,Turkey,Denizli,19,0,19,1,1
 2021-03-09,TUR,Turkey,Diyarbakir,8,0,8,1,0
-2021-03-09,TUR,Turkey,Düzce,5,0,5,0,0
 2021-03-09,TUR,Turkey,Edirne,10,0,10,1,0
 2021-03-09,TUR,Turkey,Elazığ,5,0,5,0,0
 2021-03-09,TUR,Turkey,Erzincan,4,0,4,0,0
 2021-03-09,TUR,Turkey,Erzurum,3,0,3,0,0
 2021-03-09,TUR,Turkey,Eskisehir,14,0,14,3,0
+2021-03-09,TUR,Turkey,Gümüshane,1,0,1,1,0
 2021-03-09,TUR,Turkey,Gaziantep,26,1,26,1,2
 2021-03-09,TUR,Turkey,Giresun,6,0,6,3,0
-2021-03-09,TUR,Turkey,Gümüshane,1,0,1,1,0
 2021-03-09,TUR,Turkey,Hakkari,1,0,1,2,0
 2021-03-09,TUR,Turkey,Hatay,23,0,23,1,0
 2021-03-09,TUR,Turkey,Isparta,6,1,6,0,0
 2021-03-09,TUR,Turkey,Istanbul,192,1,192,62,4
 2021-03-09,TUR,Turkey,Izmir,98,0,98,11,1
 2021-03-09,TUR,Turkey,K. Maras,13,0,13,26,0
+2021-03-09,TUR,Turkey,Kütahya,5,0,5,0,0
 2021-03-09,TUR,Turkey,Karabük,2,0,2,0,0
 2021-03-09,TUR,Turkey,Karaman,5,0,5,0,0
 2021-03-09,TUR,Turkey,Kars,1,0,1,0,0
@@ -1919,7 +1920,6 @@ date,ISO3,country,region,count,cli,count_local_com,cli_local_com,anosmia
 2021-03-09,TUR,Turkey,Kirsehir,2,0,2,0,0
 2021-03-09,TUR,Turkey,Kocaeli,28,0,28,14,1
 2021-03-09,TUR,Turkey,Konya,28,0,28,2,2
-2021-03-09,TUR,Turkey,Kütahya,5,0,5,0,0
 2021-03-09,TUR,Turkey,Malatya,12,0,12,4,0
 2021-03-09,TUR,Turkey,Manisa,22,0,22,61,0
 2021-03-09,TUR,Turkey,Mardin,7,0,7,0,0
@@ -2047,43 +2047,43 @@ date,ISO3,country,region,count,cli,count_local_com,cli_local_com,anosmia
 2021-03-09,VEN,Venezuela,Vargas,14,0,14,1,0
 2021-03-09,VEN,Venezuela,Yaracuy,5,0,5,0,0
 2021-03-09,VEN,Venezuela,Zulia,63,1,63,26,1
+2021-03-09,VNM,Vietnam,Đà Nẵng,25,0,25,10,0
+2021-03-09,VNM,Vietnam,Đắk Lắk,9,0,9,0,0
+2021-03-09,VNM,Vietnam,Đắk Nông,3,0,3,0,1
+2021-03-09,VNM,Vietnam,Đồng Nai,35,0,35,0,0
+2021-03-09,VNM,Vietnam,Đồng Tháp,7,0,7,0,0
+2021-03-09,VNM,Vietnam,Điện Biên,1,0,1,0,0
 2021-03-09,VNM,Vietnam,An Giang,12,0,12,0,0
 2021-03-09,VNM,Vietnam,Bà Rịa - Vũng Tàu,17,1,17,1,1
-2021-03-09,VNM,Vietnam,Bắc Giang,20,0,20,1,0
-2021-03-09,VNM,Vietnam,Bắc Kạn,1,0,1,0,0
-2021-03-09,VNM,Vietnam,Bạc Liêu,2,0,2,1,0
-2021-03-09,VNM,Vietnam,Bắc Ninh,20,0,20,0,0
-2021-03-09,VNM,Vietnam,Bến Tre,5,0,5,0,0
 2021-03-09,VNM,Vietnam,Bình Định,10,0,10,0,0
 2021-03-09,VNM,Vietnam,Bình Dương,31,2,31,4,2
 2021-03-09,VNM,Vietnam,Bình Phước,8,0,8,1,0
 2021-03-09,VNM,Vietnam,Bình Thuận,2,0,2,0,0
+2021-03-09,VNM,Vietnam,Bạc Liêu,2,0,2,1,0
+2021-03-09,VNM,Vietnam,Bắc Giang,20,0,20,1,0
+2021-03-09,VNM,Vietnam,Bắc Kạn,1,0,1,0,0
+2021-03-09,VNM,Vietnam,Bắc Ninh,20,0,20,0,0
+2021-03-09,VNM,Vietnam,Bến Tre,5,0,5,0,0
 2021-03-09,VNM,Vietnam,Cà Mau,6,0,6,0,0
 2021-03-09,VNM,Vietnam,Cần Thơ,14,1,14,0,1
 2021-03-09,VNM,Vietnam,Cao Bằng,3,0,3,0,0
-2021-03-09,VNM,Vietnam,Đà Nẵng,25,0,25,10,0
-2021-03-09,VNM,Vietnam,Đắk Lắk,9,0,9,0,0
-2021-03-09,VNM,Vietnam,Đắk Nông,3,0,3,0,1
-2021-03-09,VNM,Vietnam,Điện Biên,1,0,1,0,0
-2021-03-09,VNM,Vietnam,Đồng Nai,35,0,35,0,0
-2021-03-09,VNM,Vietnam,Đồng Tháp,7,0,7,0,0
 2021-03-09,VNM,Vietnam,Gia Lai,7,0,7,0,0
 2021-03-09,VNM,Vietnam,Hà Giang,1,0,1,0,0
-2021-03-09,VNM,Vietnam,Hà Nam,12,0,12,0,0
 2021-03-09,VNM,Vietnam,Hà Nội,222,2,222,5,2
+2021-03-09,VNM,Vietnam,Hà Nam,12,0,12,0,0
 2021-03-09,VNM,Vietnam,Hà Tĩnh,7,0,7,0,0
+2021-03-09,VNM,Vietnam,Hưng Yên,13,0,13,0,0
 2021-03-09,VNM,Vietnam,Hải Dương,32,0,32,7,0
 2021-03-09,VNM,Vietnam,Hải Phòng,32,0,32,0,0
 2021-03-09,VNM,Vietnam,Hậu Giang,7,0,7,0,0
 2021-03-09,VNM,Vietnam,Hoà Bình,6,0,6,0,0
-2021-03-09,VNM,Vietnam,Hưng Yên,13,0,13,0,0
 2021-03-09,VNM,Vietnam,Khánh Hòa,19,0,19,0,1
 2021-03-09,VNM,Vietnam,Kiên Giang,11,0,11,0,0
 2021-03-09,VNM,Vietnam,Kon Tum,3,0,3,0,0
-2021-03-09,VNM,Vietnam,Lai Châu,2,0,2,0,0
+2021-03-09,VNM,Vietnam,Lào Cai,8,0,8,0,0
 2021-03-09,VNM,Vietnam,Lâm Đồng,17,1,17,0,0
 2021-03-09,VNM,Vietnam,Lạng Sơn,10,0,10,3,0
-2021-03-09,VNM,Vietnam,Lào Cai,8,0,8,0,0
+2021-03-09,VNM,Vietnam,Lai Châu,2,0,2,0,0
 2021-03-09,VNM,Vietnam,Long An,14,0,14,0,0
 2021-03-09,VNM,Vietnam,Nam Định,7,0,7,0,0
 2021-03-09,VNM,Vietnam,Nghệ An,21,1,21,2,0
@@ -2099,11 +2099,11 @@ date,ISO3,country,region,count,cli,count_local_com,cli_local_com,anosmia
 2021-03-09,VNM,Vietnam,Sóc Trăng,5,0,5,0,0
 2021-03-09,VNM,Vietnam,Sơn La,11,0,11,0,0
 2021-03-09,VNM,Vietnam,Tây Ninh,3,0,3,0,0
+2021-03-09,VNM,Vietnam,Thành phố Hồ Chí Minh,236,1,236,18,2
 2021-03-09,VNM,Vietnam,Thái Bình,12,0,12,0,0
 2021-03-09,VNM,Vietnam,Thái Nguyên,9,0,9,0,0
-2021-03-09,VNM,Vietnam,Thanh Hóa,30,0,30,0,0
-2021-03-09,VNM,Vietnam,Thành phố Hồ Chí Minh,236,1,236,18,2
 2021-03-09,VNM,Vietnam,Thừa Thiên Huế,6,0,6,0,0
+2021-03-09,VNM,Vietnam,Thanh Hóa,30,0,30,0,0
 2021-03-09,VNM,Vietnam,Tiền Giang,13,0,13,0,0
 2021-03-09,VNM,Vietnam,Trà Vinh,4,0,4,0,0
 2021-03-09,VNM,Vietnam,Tuyên Quang,3,0,3,0,0

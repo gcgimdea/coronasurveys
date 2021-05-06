@@ -150,6 +150,13 @@ date,ISO3,country,age_E4,count,cli,count_local_com,cli_local_com,anosmia
 2021-03-09,BFA,Burkina Faso,4,2,0,2,0,0
 2021-03-09,BFA,Burkina Faso,5,1,0,1,0,0
 2021-03-09,BFA,Burkina Faso,7,1,0,1,0,0
+2021-03-09,CIV,Côte d'Ivoire,-77,1,0,1,0,0
+2021-03-09,CIV,Côte d'Ivoire,1,5,0,5,1,0
+2021-03-09,CIV,Côte d'Ivoire,2,13,0,13,6,1
+2021-03-09,CIV,Côte d'Ivoire,3,11,0,11,5,1
+2021-03-09,CIV,Côte d'Ivoire,4,6,0,6,0,0
+2021-03-09,CIV,Côte d'Ivoire,5,2,0,2,0,0
+2021-03-09,CIV,Côte d'Ivoire,6,1,0,1,0,0
 2021-03-09,KHM,Cambodia,1,10,0,10,1,0
 2021-03-09,KHM,Cambodia,2,27,1,27,110,3
 2021-03-09,KHM,Cambodia,3,29,0,29,1,1
@@ -198,13 +205,6 @@ date,ISO3,country,age_E4,count,cli,count_local_com,cli_local_com,anosmia
 2021-03-09,CRI,Costa Rica,5,45,0,45,3,0
 2021-03-09,CRI,Costa Rica,6,16,0,16,2,0
 2021-03-09,CRI,Costa Rica,7,6,0,6,0,0
-2021-03-09,CIV,Côte d'Ivoire,-77,1,0,1,0,0
-2021-03-09,CIV,Côte d'Ivoire,1,5,0,5,1,0
-2021-03-09,CIV,Côte d'Ivoire,2,13,0,13,6,1
-2021-03-09,CIV,Côte d'Ivoire,3,11,0,11,5,1
-2021-03-09,CIV,Côte d'Ivoire,4,6,0,6,0,0
-2021-03-09,CIV,Côte d'Ivoire,5,2,0,2,0,0
-2021-03-09,CIV,Côte d'Ivoire,6,1,0,1,0,0
 2021-03-09,HRV,Croatia,1,26,0,26,2,0
 2021-03-09,HRV,Croatia,2,42,1,42,9,0
 2021-03-09,HRV,Croatia,3,46,1,46,12,2
@@ -666,9 +666,9 @@ date,ISO3,country,age_E4,count,cli,count_local_com,cli_local_com,anosmia
 2021-03-09,QAT,Qatar,5,6,0,6,3,0
 2021-03-09,QAT,Qatar,6,1,0,1,5,0
 2021-03-09,QAT,Qatar,7,1,0,1,100,0
+2021-03-09,REU,Réunion,4,1,0,1,0,0
 2021-03-09,MKD,Republic of North Macedonia,1,1,0,1,0,0
 2021-03-09,COG,Republic of the Congo,1,1,0,1,0,0
-2021-03-09,REU,Réunion,4,1,0,1,0,0
 2021-03-09,ROU,Romania,-77,6,0,6,1,0
 2021-03-09,ROU,Romania,1,104,1,104,33,0
 2021-03-09,ROU,Romania,2,209,0,208,81,3
