@@ -102,6 +102,7 @@ df_region <- df_aux[!duplicated(df_aux$region),c("country","region","ISO2","ISO3
 dw <- data.frame()
 
 for (h in 1:dim(df_isoo)[1]){
+  cat(df_isoo$ISO2[h],"\n")
   df_country1 <- df_aux[df_aux$ISO2 == df_isoo$ISO2[h], ]
   df_region_country <- df_country1[!duplicated(df_country1$region), c("country","region","ISO2","ISO3")]
   df_region_country<- na.exclude(df_region_country)
