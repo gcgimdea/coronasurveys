@@ -1,1449 +1,1533 @@
 date,ISO3,country,region,count,cli,count_local_com,cli_local_com,anosmia
-2020-11-12,AFG,Afghanistan,-99,6,1,6,7,2
-2020-11-12,AFG,Afghanistan,Badakhshan,7,2,7,200,2
-2020-11-12,AFG,Afghanistan,Badghis,1,0,1,0,0
+2020-11-12,AFG,Afghanistan,-99,24,8,19,215,10
+2020-11-12,AFG,Afghanistan,Badakhshan,11,4,11,401,4
+2020-11-12,AFG,Afghanistan,Badghis,2,0,2,1,0
 2020-11-12,AFG,Afghanistan,Baghlan,1,1,1,1,1
 2020-11-12,AFG,Afghanistan,Balkh,2,0,2,0,0
 2020-11-12,AFG,Afghanistan,Bamyan,3,1,3,69,1
-2020-11-12,AFG,Afghanistan,Farah,2,1,2,27,1
+2020-11-12,AFG,Afghanistan,Farah,3,2,3,28,2
 2020-11-12,AFG,Afghanistan,Ghazni,1,0,1,1,0
+2020-11-12,AFG,Afghanistan,Ghor,1,0,1,100,1
 2020-11-12,AFG,Afghanistan,Hirat,8,0,8,9,0
-2020-11-12,AFG,Afghanistan,Kabul,15,0,15,9,1
+2020-11-12,AFG,Afghanistan,Kabul,17,0,17,9,1
 2020-11-12,AFG,Afghanistan,Kandahar,2,0,2,3,0
 2020-11-12,AFG,Afghanistan,Khost,2,0,2,1,0
 2020-11-12,AFG,Afghanistan,Kunar,1,0,1,1,0
 2020-11-12,AFG,Afghanistan,Kunduz,1,0,1,0,1
 2020-11-12,AFG,Afghanistan,Laghman,1,0,1,0,0
-2020-11-12,AFG,Afghanistan,Logar,1,0,1,1,0
-2020-11-12,AFG,Afghanistan,Nangarhar,3,0,3,2,0
+2020-11-12,AFG,Afghanistan,Logar,2,0,2,1,0
+2020-11-12,AFG,Afghanistan,Nangarhar,4,0,4,2,0
 2020-11-12,AFG,Afghanistan,Paktika,1,0,1,3,1
 2020-11-12,AFG,Afghanistan,Takhar,2,0,2,1,0
 2020-11-12,AFG,Afghanistan,Wardak,1,0,1,3,0
-2020-11-12,ALA,Aland Islands,-99,1,0,1,0,0
+2020-11-12,ALA,Aland Islands,-99,2,1,2,1,1
 2020-11-12,ALA,Aland Islands,Finström,1,0,1,0,0
 2020-11-12,ALA,Aland Islands,Jomala,1,0,1,0,0
+2020-11-12,ALA,Aland Islands,Mariehamn,1,0,1,0,0
 2020-11-12,ALA,Aland Islands,Sund,1,0,1,0,0
-2020-11-12,ALB,Albania,-99,3,0,3,3,1
-2020-11-12,ALB,Albania,Berat,2,0,2,0,0
+2020-11-12,ALB,Albania,-99,7,1,7,4,2
+2020-11-12,ALB,Albania,Berat,4,2,4,2,2
 2020-11-12,ALB,Albania,Dibër,1,0,1,0,0
-2020-11-12,ALB,Albania,Durrës,2,0,2,9,1
+2020-11-12,ALB,Albania,Durrës,4,0,4,9,1
 2020-11-12,ALB,Albania,Elbasan,7,1,7,3,2
-2020-11-12,ALB,Albania,Fier,5,1,5,105,1
+2020-11-12,ALB,Albania,Fier,6,1,6,105,1
 2020-11-12,ALB,Albania,Gjirokastër,1,0,1,0,1
 2020-11-12,ALB,Albania,Korçë,1,0,1,25,0
 2020-11-12,ALB,Albania,Kukës,1,0,1,1,0
-2020-11-12,ALB,Albania,Shkodër,1,0,1,0,0
-2020-11-12,ALB,Albania,Tiranë,24,0,24,88,1
-2020-11-12,ALB,Albania,Vlorë,1,0,1,0,0
-2020-11-12,DZA,Algeria,-99,4,0,4,15,1
-2020-11-12,DZA,Algeria,Adrar,1,0,1,0,0
+2020-11-12,ALB,Albania,Lezhë,2,0,2,0,0
+2020-11-12,ALB,Albania,Shkodër,2,1,2,0,1
+2020-11-12,ALB,Albania,Tiranë,32,2,32,90,3
+2020-11-12,ALB,Albania,Vlorë,2,0,2,0,0
+2020-11-12,DZA,Algeria,-99,17,2,12,24,5
 2020-11-12,DZA,Algeria,Aïn Defla,1,0,1,0,0
-2020-11-12,DZA,Algeria,Alger,43,2,43,84,4
-2020-11-12,DZA,Algeria,Annaba,5,0,5,30,1
+2020-11-12,DZA,Algeria,Adrar,2,0,2,0,0
+2020-11-12,DZA,Algeria,Alger,58,3,58,108,6
+2020-11-12,DZA,Algeria,Annaba,9,1,9,36,3
+2020-11-12,DZA,Algeria,Béjaïa,8,0,8,9,2
 2020-11-12,DZA,Algeria,Batna,4,0,4,6,0
-2020-11-12,DZA,Algeria,Béjaïa,5,0,5,5,2
-2020-11-12,DZA,Algeria,Biskra,2,0,2,0,0
-2020-11-12,DZA,Algeria,Blida,4,0,4,11,0
-2020-11-12,DZA,Algeria,Bordj Bou Arréridj,1,0,1,0,0
+2020-11-12,DZA,Algeria,Biskra,3,0,3,0,0
+2020-11-12,DZA,Algeria,Blida,6,0,6,12,0
+2020-11-12,DZA,Algeria,Bordj Bou Arréridj,3,0,3,0,0
 2020-11-12,DZA,Algeria,Boumerdès,1,0,1,2,0
-2020-11-12,DZA,Algeria,Constantine,5,0,5,14,2
+2020-11-12,DZA,Algeria,Constantine,6,0,6,16,2
 2020-11-12,DZA,Algeria,Djelfa,7,0,7,21,0
-2020-11-12,DZA,Algeria,El Oued,1,0,1,0,0
+2020-11-12,DZA,Algeria,El Bayadh,1,0,1,5,0
+2020-11-12,DZA,Algeria,El Oued,2,0,2,2,0
+2020-11-12,DZA,Algeria,Ghardaïa,1,0,1,0,1
 2020-11-12,DZA,Algeria,Illizi,2,0,2,0,1
 2020-11-12,DZA,Algeria,Jijel,4,0,4,21,0
-2020-11-12,DZA,Algeria,Khenchela,1,0,1,0,0
+2020-11-12,DZA,Algeria,Khenchela,3,0,3,0,0
 2020-11-12,DZA,Algeria,Laghouat,3,0,3,0,0
-2020-11-12,DZA,Algeria,M'Sila,1,0,1,0,1
+2020-11-12,DZA,Algeria,M'Sila,2,1,2,6,2
 2020-11-12,DZA,Algeria,Médéa,2,0,2,0,0
+2020-11-12,DZA,Algeria,Mascara,1,0,1,0,0
 2020-11-12,DZA,Algeria,Mila,2,0,2,3,0
-2020-11-12,DZA,Algeria,Oran,5,1,5,20,1
-2020-11-12,DZA,Algeria,Ouargla,3,0,3,10,0
+2020-11-12,DZA,Algeria,Mostaganem,1,0,1,0,0
+2020-11-12,DZA,Algeria,Oran,9,1,9,21,1
+2020-11-12,DZA,Algeria,Ouargla,4,0,4,10,0
+2020-11-12,DZA,Algeria,Oum el Bouaghi,2,0,2,2,0
 2020-11-12,DZA,Algeria,Relizane,2,0,2,0,0
-2020-11-12,DZA,Algeria,Sétif,5,0,5,11,0
+2020-11-12,DZA,Algeria,Sétif,8,0,8,14,1
 2020-11-12,DZA,Algeria,Sidi Bel Abbès,1,0,1,4,1
+2020-11-12,DZA,Algeria,Tébessa,4,1,4,3,1
 2020-11-12,DZA,Algeria,Tamanghasset,1,0,1,0,0
-2020-11-12,DZA,Algeria,Tébessa,3,1,3,1,1
+2020-11-12,DZA,Algeria,Tiaret,2,0,2,5,0
 2020-11-12,DZA,Algeria,Tipaza,2,0,2,1,0
 2020-11-12,DZA,Algeria,Tissemsilt,2,0,2,0,0
-2020-11-12,DZA,Algeria,Tizi Ouzou,4,0,4,7,0
-2020-11-12,DZA,Algeria,Tlemcen,3,0,3,2,0
-2020-11-12,ASM,American Samoa,-99,1,0,1,2,0
-2020-11-12,ASM,American Samoa,Unorganized,1,0,1,0,0
-2020-11-12,ASM,American Samoa,Western,1,0,1,20,0
-2020-11-12,AND,Andorra,-99,2,0,2,0,0
+2020-11-12,DZA,Algeria,Tizi Ouzou,6,0,6,7,0
+2020-11-12,DZA,Algeria,Tlemcen,4,0,4,2,0
+2020-11-12,ASM,American Samoa,-99,3,0,3,5,0
+2020-11-12,ASM,American Samoa,Eastern,1,0,1,0,0
+2020-11-12,ASM,American Samoa,Manu'a,1,0,1,1,1
+2020-11-12,ASM,American Samoa,Unorganized,2,0,2,0,0
+2020-11-12,ASM,American Samoa,Western,2,0,2,20,0
+2020-11-12,AND,Andorra,-99,6,0,2,0,1
 2020-11-12,AND,Andorra,La Massana,1,1,1,1,1
-2020-11-12,AND,Andorra,Sant Julià de Lòria,1,0,1,0,0
+2020-11-12,AND,Andorra,Sant Julià de Lòria,2,0,2,0,0
+2020-11-12,AGO,Angola,-99,5,0,1,0,1
 2020-11-12,AGO,Angola,Bengo,1,0,1,0,0
-2020-11-12,AGO,Angola,Benguela,1,0,1,0,0
-2020-11-12,AGO,Angola,Cabinda,1,0,1,0,0
-2020-11-12,AGO,Angola,Cuanza Sul,1,1,1,0,1
-2020-11-12,AGO,Angola,Cunene,1,0,1,0,0
-2020-11-12,AGO,Angola,Huambo,1,0,1,0,0
+2020-11-12,AGO,Angola,Benguela,3,0,3,0,0
+2020-11-12,AGO,Angola,Cabinda,2,0,2,0,0
+2020-11-12,AGO,Angola,Cuanza Norte,1,0,1,5,0
+2020-11-12,AGO,Angola,Cuanza Sul,2,1,2,0,1
+2020-11-12,AGO,Angola,Cunene,2,0,2,30,0
 2020-11-12,AGO,Angola,Huíla,1,0,1,0,1
-2020-11-12,AGO,Angola,Luanda,16,0,16,5,0
+2020-11-12,AGO,Angola,Huambo,1,0,1,0,0
+2020-11-12,AGO,Angola,Luanda,21,0,21,7,0
+2020-11-12,AGO,Angola,Namibe,2,0,2,0,0
 2020-11-12,AGO,Angola,Zaire,1,0,1,0,0
-2020-11-12,AIA,Anguilla,-99,2,0,2,0,0
-2020-11-12,ATA,Antarctica,-99,5,3,5,131,3
+2020-11-12,AIA,Anguilla,-99,4,1,4,0,1
+2020-11-12,ATA,Antarctica,-99,6,3,6,133,3
 2020-11-12,ATG,Antigua,-99,1,0,1,3,0
-2020-11-12,ARG,Argentina,-99,24,0,23,4,1
-2020-11-12,ARG,Argentina,Buenos Aires,306,3,306,181,5
-2020-11-12,ARG,Argentina,Catamarca,9,0,9,1,0
-2020-11-12,ARG,Argentina,Chaco,31,0,31,13,0
-2020-11-12,ARG,Argentina,Chubut,24,2,24,46,2
-2020-11-12,ARG,Argentina,Ciudad Autónoma de Buenos Aires,81,0,81,20,1
-2020-11-12,ARG,Argentina,Córdoba,112,2,112,234,3
-2020-11-12,ARG,Argentina,Corrientes,41,2,41,22,2
-2020-11-12,ARG,Argentina,Entre Ríos,37,0,37,24,1
+2020-11-12,ARG,Argentina,-99,84,2,71,47,7
+2020-11-12,ARG,Argentina,Buenos Aires,379,5,379,217,8
+2020-11-12,ARG,Argentina,Córdoba,147,4,147,247,6
+2020-11-12,ARG,Argentina,Catamarca,13,0,13,1,0
+2020-11-12,ARG,Argentina,Chaco,45,0,45,18,1
+2020-11-12,ARG,Argentina,Chubut,26,2,26,47,2
+2020-11-12,ARG,Argentina,Ciudad Autónoma de Buenos Aires,91,0,91,58,1
+2020-11-12,ARG,Argentina,Corrientes,49,2,49,27,2
+2020-11-12,ARG,Argentina,Entre Ríos,47,0,47,33,2
 2020-11-12,ARG,Argentina,Formosa,13,0,13,0,0
-2020-11-12,ARG,Argentina,Jujuy,17,0,17,18,0
-2020-11-12,ARG,Argentina,La Pampa,6,0,6,0,0
-2020-11-12,ARG,Argentina,La Rioja,8,0,8,6,2
-2020-11-12,ARG,Argentina,Mendoza,57,1,57,64,2
-2020-11-12,ARG,Argentina,Misiones,25,0,25,0,0
-2020-11-12,ARG,Argentina,Neuquén,19,0,19,29,1
-2020-11-12,ARG,Argentina,Río Negro,20,0,20,19,1
-2020-11-12,ARG,Argentina,Salta,29,0,29,109,1
-2020-11-12,ARG,Argentina,San Juan,22,0,22,46,2
-2020-11-12,ARG,Argentina,San Luis,12,1,12,16,1
-2020-11-12,ARG,Argentina,Santa Cruz,14,0,14,11,0
-2020-11-12,ARG,Argentina,Santa Fe,87,2,87,68,4
-2020-11-12,ARG,Argentina,Santiago del Estero,17,1,17,39,1
-2020-11-12,ARG,Argentina,Tierra del Fuego,11,1,11,11,2
-2020-11-12,ARG,Argentina,Tucumán,47,0,47,81,4
+2020-11-12,ARG,Argentina,Jujuy,21,0,21,18,0
+2020-11-12,ARG,Argentina,La Pampa,11,0,11,0,0
+2020-11-12,ARG,Argentina,La Rioja,11,0,11,6,2
+2020-11-12,ARG,Argentina,Mendoza,74,1,74,73,2
+2020-11-12,ARG,Argentina,Misiones,37,0,37,0,0
+2020-11-12,ARG,Argentina,Neuquén,25,0,25,31,1
+2020-11-12,ARG,Argentina,Río Negro,28,0,28,24,1
+2020-11-12,ARG,Argentina,Salta,34,0,34,113,1
+2020-11-12,ARG,Argentina,San Juan,28,0,28,52,2
+2020-11-12,ARG,Argentina,San Luis,16,1,16,25,1
+2020-11-12,ARG,Argentina,Santa Cruz,20,0,20,27,1
+2020-11-12,ARG,Argentina,Santa Fe,108,3,108,77,5
+2020-11-12,ARG,Argentina,Santiago del Estero,18,1,18,39,1
+2020-11-12,ARG,Argentina,Tierra del Fuego,12,1,12,16,2
+2020-11-12,ARG,Argentina,Tucumán,58,0,58,102,5
 2020-11-12,ARM,Armenia,-99,1,0,1,0,0
-2020-11-12,ARM,Armenia,Erevan,7,1,7,11,1
+2020-11-12,ARM,Armenia,Armavir,1,1,1,3,0
+2020-11-12,ARM,Armenia,Erevan,8,1,8,11,1
 2020-11-12,ARM,Armenia,Kotayk,1,0,1,0,0
-2020-11-12,ARM,Armenia,Shirak,2,0,2,4,1
-2020-11-12,ABW,Aruba,-99,4,0,4,4,0
-2020-11-12,AUS,Australia,-99,19,0,19,1,0
+2020-11-12,ARM,Armenia,Shirak,3,0,3,4,1
+2020-11-12,ARM,Armenia,Vayots Dzor,1,0,1,0,0
+2020-11-12,ABW,Aruba,-99,5,1,5,5,1
+2020-11-12,AUS,Australia,-99,42,1,36,3,4
+2020-11-12,AUS,Australia,Ashmore and Cartier Islands,1,0,1,0,0
 2020-11-12,AUS,Australia,Australian Antarctic Territory,1,0,1,0,0
-2020-11-12,AUS,Australia,Australian Capital Territory,21,0,21,0,2
+2020-11-12,AUS,Australia,Australian Capital Territory,23,0,23,0,2
 2020-11-12,AUS,Australia,Christmas Island,2,0,2,0,0
+2020-11-12,AUS,Australia,Cocos (Keeling) Islands,1,0,1,0,0
 2020-11-12,AUS,Australia,Jervis Bay Territory,1,0,1,0,0
-2020-11-12,AUS,Australia,New South Wales,121,0,121,11,5
-2020-11-12,AUS,Australia,Northern Territory,6,0,6,0,0
-2020-11-12,AUS,Australia,Queensland,90,0,90,16,1
-2020-11-12,AUS,Australia,South Australia,45,0,45,5,1
-2020-11-12,AUS,Australia,Tasmania,14,0,14,1,0
-2020-11-12,AUS,Australia,Victoria,148,1,148,92,1
-2020-11-12,AUS,Australia,Western Australia,49,0,49,0,0
-2020-11-12,AUT,Austria,-99,9,0,9,0,0
-2020-11-12,AUT,Austria,Burgenland,9,0,9,22,0
+2020-11-12,AUS,Australia,New South Wales,143,0,143,12,6
+2020-11-12,AUS,Australia,Northern Territory,9,0,9,100,0
+2020-11-12,AUS,Australia,Queensland,114,0,114,16,2
+2020-11-12,AUS,Australia,South Australia,56,0,56,6,2
+2020-11-12,AUS,Australia,Tasmania,18,0,18,1,0
+2020-11-12,AUS,Australia,Victoria,172,2,172,98,3
+2020-11-12,AUS,Australia,Western Australia,56,0,56,0,0
+2020-11-12,AUT,Austria,-99,18,1,15,3,2
+2020-11-12,AUT,Austria,Burgenland,13,0,13,23,0
 2020-11-12,AUT,Austria,Kärnten,30,0,30,14,1
-2020-11-12,AUT,Austria,Niederösterreich,73,0,73,34,2
-2020-11-12,AUT,Austria,Oberösterreich,67,1,67,163,2
-2020-11-12,AUT,Austria,Salzburg,19,0,19,8,1
-2020-11-12,AUT,Austria,Steiermark,53,0,53,20,2
-2020-11-12,AUT,Austria,Tirol,46,0,46,9,0
-2020-11-12,AUT,Austria,Vorarlberg,16,0,16,13,1
-2020-11-12,AUT,Austria,Wien,91,1,91,57,1
-2020-11-12,AZE,Azerbaijan,-99,2,0,2,0,0
-2020-11-12,AZE,Azerbaijan,Absheron,3,1,3,2,1
-2020-11-12,AZE,Azerbaijan,Baku,18,0,18,10,0
+2020-11-12,AUT,Austria,Niederösterreich,83,0,83,55,2
+2020-11-12,AUT,Austria,Oberösterreich,76,2,76,181,3
+2020-11-12,AUT,Austria,Salzburg,21,0,21,8,1
+2020-11-12,AUT,Austria,Steiermark,59,0,59,29,2
+2020-11-12,AUT,Austria,Tirol,48,0,48,10,0
+2020-11-12,AUT,Austria,Vorarlberg,17,0,17,13,1
+2020-11-12,AUT,Austria,Wien,106,1,106,59,1
+2020-11-12,AZE,Azerbaijan,-99,5,0,5,1,0
+2020-11-12,AZE,Azerbaijan,Absheron,4,1,4,2,1
+2020-11-12,AZE,Azerbaijan,Baku,23,0,23,12,1
 2020-11-12,AZE,Azerbaijan,Barda,1,0,1,0,0
 2020-11-12,AZE,Azerbaijan,Ganja,1,0,1,0,0
 2020-11-12,AZE,Azerbaijan,Imishli,1,0,1,0,0
-2020-11-12,AZE,Azerbaijan,Mingechevir,1,0,1,0,0
+2020-11-12,AZE,Azerbaijan,Mingechevir,2,0,2,1,0
 2020-11-12,AZE,Azerbaijan,Shamakhi,1,0,1,5,0
-2020-11-12,AZE,Azerbaijan,Sumgayit,4,0,4,1,0
+2020-11-12,AZE,Azerbaijan,Shirvan,1,0,1,1,0
+2020-11-12,AZE,Azerbaijan,Sumgayit,5,0,5,1,0
 2020-11-12,AZE,Azerbaijan,Tovuz,1,0,1,0,0
-2020-11-12,AZE,Azerbaijan,Zagatala,1,0,1,0,0
-2020-11-12,BHS,Bahamas,-99,1,0,1,0,0
+2020-11-12,AZE,Azerbaijan,Zagatala,2,0,2,0,0
+2020-11-12,BHS,Bahamas,-99,2,0,2,0,0
 2020-11-12,BHS,Bahamas,Exuma,1,0,1,15,1
 2020-11-12,BHS,Bahamas,West Grand Bahama,1,0,1,0,0
 2020-11-12,BHR,Bahrain,-99,1,0,1,2,0
-2020-11-12,BHR,Bahrain,Southern,1,0,1,0,1
-2020-11-12,BGD,Bangladesh,-99,7,2,7,6,2
-2020-11-12,BGD,Bangladesh,Barisal,3,0,3,7,0
-2020-11-12,BGD,Bangladesh,Chittagong,34,5,34,27,2
-2020-11-12,BGD,Bangladesh,Dhaka,56,1,56,298,3
-2020-11-12,BGD,Bangladesh,Khulna,13,1,13,10,2
+2020-11-12,BHR,Bahrain,Southern,2,1,2,1,2
+2020-11-12,BGD,Bangladesh,-99,22,3,13,10,5
+2020-11-12,BGD,Bangladesh,Barisal,6,1,6,9,0
+2020-11-12,BGD,Bangladesh,Chittagong,38,7,38,129,4
+2020-11-12,BGD,Bangladesh,Dhaka,83,2,83,335,5
+2020-11-12,BGD,Bangladesh,Khulna,17,1,17,11,2
 2020-11-12,BGD,Bangladesh,Mymensingh,8,0,8,3,0
-2020-11-12,BGD,Bangladesh,Rajasahi,10,1,10,15,1
-2020-11-12,BGD,Bangladesh,Rangur,6,0,6,1,0
-2020-11-12,BGD,Bangladesh,Sylhet,10,0,10,11,2
-2020-11-12,BRB,Barbados,-99,1,0,1,0,0
+2020-11-12,BGD,Bangladesh,Rajasahi,11,2,11,15,1
+2020-11-12,BGD,Bangladesh,Rangur,9,0,9,52,1
+2020-11-12,BGD,Bangladesh,Sylhet,13,1,13,16,3
+2020-11-12,BRB,Barbados,-99,2,0,1,0,0
 2020-11-12,BRB,Barbados,Saint Andrew,1,0,1,0,0
-2020-11-12,BLR,Belarus,-99,10,0,10,7,0
-2020-11-12,BLR,Belarus,Brest,4,0,4,10,0
-2020-11-12,BLR,Belarus,Homyel',11,1,11,27,2
-2020-11-12,BLR,Belarus,Hrodna,12,2,12,68,2
-2020-11-12,BLR,Belarus,Mahilyow,5,0,5,2,2
-2020-11-12,BLR,Belarus,Minsk,83,5,83,182,10
-2020-11-12,BLR,Belarus,Vitsyebsk,14,0,14,12,3
-2020-11-12,BEL,Belgium,-99,3,0,3,0,0
-2020-11-12,BEL,Belgium,Bruxelles,56,0,56,32,2
-2020-11-12,BEL,Belgium,Vlaanderen,158,3,158,59,4
-2020-11-12,BEL,Belgium,Wallonie,112,1,112,92,9
+2020-11-12,BLR,Belarus,-99,15,1,13,8,1
+2020-11-12,BLR,Belarus,Brest,6,0,6,15,1
+2020-11-12,BLR,Belarus,Homyel',14,1,14,29,2
+2020-11-12,BLR,Belarus,Hrodna,14,2,14,70,2
+2020-11-12,BLR,Belarus,Mahilyow,7,0,7,3,2
+2020-11-12,BLR,Belarus,Minsk,97,5,97,205,11
+2020-11-12,BLR,Belarus,Vitsyebsk,16,1,16,14,4
+2020-11-12,BEL,Belgium,-99,12,0,10,3,0
+2020-11-12,BEL,Belgium,Bruxelles,72,1,71,48,2
+2020-11-12,BEL,Belgium,Vlaanderen,182,3,182,154,4
+2020-11-12,BEL,Belgium,Wallonie,153,2,152,126,13
 2020-11-12,BLZ,Belize,-99,1,0,1,2,1
+2020-11-12,BLZ,Belize,Stann Creek,1,1,1,3,0
 2020-11-12,BEN,Benin,Alibori,1,0,1,0,0
-2020-11-12,BEN,Benin,Atlantique,2,0,2,1,0
-2020-11-12,BEN,Benin,Borgou,1,0,1,2,0
+2020-11-12,BEN,Benin,Atlantique,3,1,3,1,1
+2020-11-12,BEN,Benin,Borgou,3,0,3,2,0
+2020-11-12,BEN,Benin,Collines,1,1,1,0,0
+2020-11-12,BEN,Benin,Donga,1,0,1,0,0
 2020-11-12,BEN,Benin,Littoral,1,0,1,0,0
 2020-11-12,BMU,Bermuda,-99,1,0,1,0,0
 2020-11-12,BMU,Bermuda,Pembroke,1,0,1,100,0
-2020-11-12,BOL,Bolivia,-99,2,0,2,0,0
-2020-11-12,BOL,Bolivia,Chuquisaca,4,0,4,0,0
-2020-11-12,BOL,Bolivia,Cochabamba,38,0,38,17,3
-2020-11-12,BOL,Bolivia,El Beni,8,0,8,6,1
-2020-11-12,BOL,Bolivia,La Paz,56,2,56,47,1
-2020-11-12,BOL,Bolivia,Oruro,12,0,12,5,1
-2020-11-12,BOL,Bolivia,Pando,1,0,1,0,0
-2020-11-12,BOL,Bolivia,Potosí,5,0,5,2,0
-2020-11-12,BOL,Bolivia,Santa Cruz,54,2,54,20,0
-2020-11-12,BOL,Bolivia,Tarija,15,1,15,21,0
-2020-11-12,BIH,Bosnia and Herzegovina,-99,7,0,7,17,1
+2020-11-12,BTN,Bhutan,Chhukha,1,0,1,0,0
+2020-11-12,BOL,Bolivia,-99,12,0,8,3,0
+2020-11-12,BOL,Bolivia,Chuquisaca,5,0,5,5,0
+2020-11-12,BOL,Bolivia,Cochabamba,44,0,44,17,3
+2020-11-12,BOL,Bolivia,El Beni,11,0,11,6,1
+2020-11-12,BOL,Bolivia,La Paz,70,3,70,52,2
+2020-11-12,BOL,Bolivia,Oruro,14,0,14,6,1
+2020-11-12,BOL,Bolivia,Pando,2,0,2,0,0
+2020-11-12,BOL,Bolivia,Potosí,6,0,6,2,0
+2020-11-12,BOL,Bolivia,Santa Cruz,72,2,72,27,1
+2020-11-12,BOL,Bolivia,Tarija,17,1,17,24,0
+2020-11-12,BIH,Bosnia and Herzegovina,-99,13,1,13,21,1
 2020-11-12,BIH,Bosnia and Herzegovina,Brčko,2,0,2,4,1
-2020-11-12,BIH,Bosnia and Herzegovina,Federacija Bosna i Hercegovina,44,1,44,78,3
-2020-11-12,BIH,Bosnia and Herzegovina,Repuplika Srpska,20,1,20,74,3
+2020-11-12,BIH,Bosnia and Herzegovina,Federacija Bosna i Hercegovina,60,1,59,114,4
+2020-11-12,BIH,Bosnia and Herzegovina,Repuplika Srpska,26,1,26,91,4
 2020-11-12,BWA,Botswana,Lobatse,1,0,1,0,0
 2020-11-12,BVT,Bouvet Island,-99,1,0,1,6,0
-2020-11-12,BRA,Brazil,-99,80,2,80,138,6
-2020-11-12,BRA,Brazil,Acre,16,2,16,23,0
-2020-11-12,BRA,Brazil,Alagoas,31,0,31,15,1
-2020-11-12,BRA,Brazil,Amapá,13,0,13,48,0
-2020-11-12,BRA,Brazil,Amazonas,55,5,55,47,8
-2020-11-12,BRA,Brazil,Bahia,127,1,127,37,8
-2020-11-12,BRA,Brazil,Ceará,93,2,93,137,10
-2020-11-12,BRA,Brazil,Distrito Federal,131,2,130,77.6,4
-2020-11-12,BRA,Brazil,Espírito Santo,109,4,109,111,13
-2020-11-12,BRA,Brazil,Goiás,102,3,102,51,5
-2020-11-12,BRA,Brazil,Maranhão,36,1,36,38,2
-2020-11-12,BRA,Brazil,Mato Grosso,76,0,76,41,2
-2020-11-12,BRA,Brazil,Mato Grosso do Sul,70,3,70,34,1
-2020-11-12,BRA,Brazil,Minas Gerais,368,6,368,216,10
-2020-11-12,BRA,Brazil,Pará,72,5,72,77,8
-2020-11-12,BRA,Brazil,Paraíba,46,0,46,30,1
-2020-11-12,BRA,Brazil,Paraná,327,4,327,203,12
-2020-11-12,BRA,Brazil,Pernambuco,120,0,120,116,3
-2020-11-12,BRA,Brazil,Piauí,38,1,38,15,1
-2020-11-12,BRA,Brazil,Rio de Janeiro,475,10,475,502,28
-2020-11-12,BRA,Brazil,Rio Grande do Norte,61,2,60,46,2
-2020-11-12,BRA,Brazil,Rio Grande do Sul,328,5,328,273,8
-2020-11-12,BRA,Brazil,Rondônia,31,1,31,20,3
-2020-11-12,BRA,Brazil,Roraima,9,0,9,5,1
-2020-11-12,BRA,Brazil,Santa Catarina,223,1,222,189,18
-2020-11-12,BRA,Brazil,São Paulo,1366,25,1364,776,60
-2020-11-12,BRA,Brazil,Sergipe,31,1,31,5,2
-2020-11-12,BRA,Brazil,Tocantins,18,1,18,17,1
+2020-11-12,BRA,Brazil,-99,265,9,198,248,22
+2020-11-12,BRA,Brazil,Acre,20,2,20,25,0
+2020-11-12,BRA,Brazil,Alagoas,37,0,37,17,1
+2020-11-12,BRA,Brazil,Amapá,19,1,19,51,1
+2020-11-12,BRA,Brazil,Amazonas,66,6,66,48,9
+2020-11-12,BRA,Brazil,Bahia,173,3,173,50,11
+2020-11-12,BRA,Brazil,Ceará,131,2,131,168,12
+2020-11-12,BRA,Brazil,Distrito Federal,161,2,160,107.6,5
+2020-11-12,BRA,Brazil,Espírito Santo,141,4,141,135,13
+2020-11-12,BRA,Brazil,Goiás,139,4,139,60,6
+2020-11-12,BRA,Brazil,Maranhão,55,3,55,55,2
+2020-11-12,BRA,Brazil,Mato Grosso,104,0,104,61,4
+2020-11-12,BRA,Brazil,Mato Grosso do Sul,90,3,90,85,2
+2020-11-12,BRA,Brazil,Minas Gerais,472,8,472,288,15
+2020-11-12,BRA,Brazil,Pará,101,5,101,113,12
+2020-11-12,BRA,Brazil,Paraíba,63,1,63,37,2
+2020-11-12,BRA,Brazil,Paraná,423,4,423,228,13
+2020-11-12,BRA,Brazil,Pernambuco,161,1,161,158,5
+2020-11-12,BRA,Brazil,Piauí,56,1,56,36,1
+2020-11-12,BRA,Brazil,Rio Grande do Norte,84,5,83,54,5
+2020-11-12,BRA,Brazil,Rio Grande do Sul,420,6,420,312,13
+2020-11-12,BRA,Brazil,Rio de Janeiro,587,14,587,585,34
+2020-11-12,BRA,Brazil,Rondônia,44,2,44,27,4
+2020-11-12,BRA,Brazil,Roraima,12,0,12,5,1
+2020-11-12,BRA,Brazil,São Paulo,1709,27,1707,970,73
+2020-11-12,BRA,Brazil,Santa Catarina,284,2,282,225,20
+2020-11-12,BRA,Brazil,Sergipe,38,1,37,7,2
+2020-11-12,BRA,Brazil,Tocantins,22,1,22,17,1
 2020-11-12,VGB,British Virgin Islands,Other Islands,1,0,1,0,0
-2020-11-12,BGR,Bulgaria,-99,8,0,8,9,0
-2020-11-12,BGR,Bulgaria,Blagoevgrad,4,0,4,0,0
-2020-11-12,BGR,Bulgaria,Burgas,13,0,13,27,0
+2020-11-12,BGR,Bulgaria,-99,19,0,18,21,3
+2020-11-12,BGR,Bulgaria,Blagoevgrad,5,0,5,5,0
+2020-11-12,BGR,Bulgaria,Burgas,14,0,14,27,0
 2020-11-12,BGR,Bulgaria,Dobrich,3,0,3,0,0
 2020-11-12,BGR,Bulgaria,Gabrovo,3,0,3,0,0
-2020-11-12,BGR,Bulgaria,Grad Sofiya,6,0,6,3.5,0
-2020-11-12,BGR,Bulgaria,Haskovo,2,0,2,0,0
-2020-11-12,BGR,Bulgaria,Kardzhali,1,0,1,0,0
-2020-11-12,BGR,Bulgaria,Kyustendil,3,0,3,31,0
+2020-11-12,BGR,Bulgaria,Grad Sofiya,8,0,8,5.5,0
+2020-11-12,BGR,Bulgaria,Haskovo,4,0,3,0,0
+2020-11-12,BGR,Bulgaria,Kardzhali,2,0,2,0,0
+2020-11-12,BGR,Bulgaria,Kyustendil,4,0,4,31,0
 2020-11-12,BGR,Bulgaria,Lovech,2,0,2,0,0
-2020-11-12,BGR,Bulgaria,Montana,3,0,3,7,0
+2020-11-12,BGR,Bulgaria,Montana,5,0,5,7,0
 2020-11-12,BGR,Bulgaria,Pazardzhik,3,0,3,0,0
-2020-11-12,BGR,Bulgaria,Pernik,3,0,3,0,0
-2020-11-12,BGR,Bulgaria,Pleven,2,0,2,1,0
-2020-11-12,BGR,Bulgaria,Plovdiv,21,1,21,32,2
-2020-11-12,BGR,Bulgaria,Razgrad,2,0,2,2,0
+2020-11-12,BGR,Bulgaria,Pernik,4,0,4,0,0
+2020-11-12,BGR,Bulgaria,Pleven,3,1,3,2,1
+2020-11-12,BGR,Bulgaria,Plovdiv,23,1,23,32,2
+2020-11-12,BGR,Bulgaria,Razgrad,3,0,3,2,0
 2020-11-12,BGR,Bulgaria,Ruse,9,0,9,9,1
-2020-11-12,BGR,Bulgaria,Shumen,6,0,6,4,1
-2020-11-12,BGR,Bulgaria,Silistra,6,0,6,0,0
-2020-11-12,BGR,Bulgaria,Smolyan,1,0,1,0,0
-2020-11-12,BGR,Bulgaria,Sofia,61,2,61,82,7
+2020-11-12,BGR,Bulgaria,Shumen,7,0,7,7,2
+2020-11-12,BGR,Bulgaria,Silistra,7,0,7,1,0
+2020-11-12,BGR,Bulgaria,Sliven,1,0,1,0,0
+2020-11-12,BGR,Bulgaria,Smolyan,2,0,2,0,0
+2020-11-12,BGR,Bulgaria,Sofia,68,2,68,87,9
 2020-11-12,BGR,Bulgaria,Stara Zagora,10,0,10,17,0
 2020-11-12,BGR,Bulgaria,Targovishte,1,0,1,0,0
-2020-11-12,BGR,Bulgaria,Varna,14,2,14,15,1
+2020-11-12,BGR,Bulgaria,Varna,16,2,16,15,1
 2020-11-12,BGR,Bulgaria,Veliko Tarnovo,5,0,5,1,1
-2020-11-12,BGR,Bulgaria,Vidin,3,0,3,3,0
+2020-11-12,BGR,Bulgaria,Vidin,4,0,4,5,0
 2020-11-12,BGR,Bulgaria,Vratsa,2,0,2,0,0
 2020-11-12,BGR,Bulgaria,Yambol,2,0,2,0,0
-2020-11-12,BFA,Burkina Faso,Centre,6,0,6,0,0
-2020-11-12,BFA,Burkina Faso,Centre-Ouest,1,0,1,0,0
+2020-11-12,BFA,Burkina Faso,-99,1,0,1,0,0
+2020-11-12,BFA,Burkina Faso,Boucle du Mouhoun,1,0,1,0,0
+2020-11-12,BFA,Burkina Faso,Centre,13,1,13,0,0
+2020-11-12,BFA,Burkina Faso,Centre-Est,1,0,1,0,0
+2020-11-12,BFA,Burkina Faso,Centre-Nord,1,0,1,0,0
+2020-11-12,BFA,Burkina Faso,Centre-Ouest,2,0,2,0,0
 2020-11-12,BFA,Burkina Faso,Centre-Sud,1,1,1,95,1
+2020-11-12,BFA,Burkina Faso,Est,1,0,1,0,0
+2020-11-12,BFA,Burkina Faso,Plateau-Central,1,0,1,0,1
 2020-11-12,BFA,Burkina Faso,Sud-Ouest,1,0,1,0,0
-2020-11-12,KHM,Cambodia,-99,2,0,2,0,0
-2020-11-12,KHM,Cambodia,Kândal,1,0,1,0,0
-2020-11-12,KHM,Cambodia,Krong Pailin,1,0,1,0,0
-2020-11-12,KHM,Cambodia,Phnom Penh,18,1,18,8,1
-2020-11-12,KHM,Cambodia,Siemréab,5,0,5,0,0
-2020-11-12,KHM,Cambodia,Takêv,1,0,1,0,0
-2020-11-12,CMR,Cameroon,Centre,5,0,5,0,0
-2020-11-12,CMR,Cameroon,Littoral,10,0,10,3,0
-2020-11-12,CMR,Cameroon,Nord-Ouest,2,1,2,101,1
-2020-11-12,CMR,Cameroon,Sud,1,0,1,0,0
-2020-11-12,CAN,Canada,-99,15,0,15,0,0
-2020-11-12,CAN,Canada,Alberta,161,2,161,37,5
-2020-11-12,CAN,Canada,British Columbia,176,3,176,90,7
-2020-11-12,CAN,Canada,Manitoba,71,2,71,16,2
-2020-11-12,CAN,Canada,New Brunswick,24,0,24,7,0
-2020-11-12,CAN,Canada,Newfoundland and Labrador,22,0,22,0,0
-2020-11-12,CAN,Canada,Nova Scotia,67,1,67,10,0
-2020-11-12,CAN,Canada,Nunavut,1,1,1,0,0
-2020-11-12,CAN,Canada,Ontario,208,1,208,25,1
-2020-11-12,CAN,Canada,Prince Edward Island,6,0,6,0,0
-2020-11-12,CAN,Canada,Québec,124,0,124,16,3
-2020-11-12,CAN,Canada,Saskatchewan,70,1,70,122,1
-2020-11-12,CAN,Canada,Yukon,3,0,3,0,0
-2020-11-12,CHL,Chile,-99,7,0,7,2,0
-2020-11-12,CHL,Chile,Aisén del General Carlos Ibáñez del Campo,6,0,6,0,0
-2020-11-12,CHL,Chile,Antofagasta,18,1,18,102,1
-2020-11-12,CHL,Chile,Araucanía,24,0,24,5,0
-2020-11-12,CHL,Chile,Arica y Parinacota,4,0,4,3,0
-2020-11-12,CHL,Chile,Atacama,12,0,12,2,0
-2020-11-12,CHL,Chile,Bío-Bío,52,0,52,9,1
-2020-11-12,CHL,Chile,Coquimbo,17,0,17,0,0
-2020-11-12,CHL,Chile,Libertador General Bernardo O'Higgins,27,0,27,3,1
-2020-11-12,CHL,Chile,Los Lagos,33,1,33,24,0
-2020-11-12,CHL,Chile,Los Ríos,14,0,14,1,0
-2020-11-12,CHL,Chile,Magallanes y Antártica Chilena,11,0,11,10,1
-2020-11-12,CHL,Chile,Maule,21,0,21,4,1
-2020-11-12,CHL,Chile,Ñuble,9,0,9,3,1
-2020-11-12,CHL,Chile,Región Metropolitana de Santiago,136,0,135,25,1
-2020-11-12,CHL,Chile,Tarapacá,8,0,8,0,0
-2020-11-12,CHL,Chile,Valparaíso,80,0,80,17,3
-2020-11-12,COL,Colombia,-99,13,0,13,5,0
-2020-11-12,COL,Colombia,Amazonas,2,0,2,0,0
-2020-11-12,COL,Colombia,Antioquia,134,4,134,82,12
-2020-11-12,COL,Colombia,Arauca,6,0,6,4,1
-2020-11-12,COL,Colombia,Atlántico,46,2,46,19,2
-2020-11-12,COL,Colombia,"Bogotá, Distrito Capital",169,2,169,74,7
-2020-11-12,COL,Colombia,Bolívar,29,1,29,5,2
-2020-11-12,COL,Colombia,Boyacá,24,1,24,9,1
-2020-11-12,COL,Colombia,Caldas,33,1,33,27,1
-2020-11-12,COL,Colombia,Caquetá,6,0,6,1,1
-2020-11-12,COL,Colombia,Casanare,6,0,6,1,0
-2020-11-12,COL,Colombia,Cauca,18,0,18,15,1
-2020-11-12,COL,Colombia,Cesar,11,0,11,1,1
-2020-11-12,COL,Colombia,Chocó,1,0,1,0,0
-2020-11-12,COL,Colombia,Córdoba,11,0,11,1,0
-2020-11-12,COL,Colombia,Cundinamarca,58,1,58,6,3
-2020-11-12,COL,Colombia,Guainía,1,0,1,0,0
-2020-11-12,COL,Colombia,Huila,16,0,16,4,0
-2020-11-12,COL,Colombia,La Guajira,9,0,9,8,0
-2020-11-12,COL,Colombia,Magdalena,9,1,9,5,3
-2020-11-12,COL,Colombia,Meta,19,0,19,10,1
-2020-11-12,COL,Colombia,Nariño,16,0,16,0,0
-2020-11-12,COL,Colombia,Norte de Santander,30,0,30,8,2
-2020-11-12,COL,Colombia,Putumayo,3,0,3,1,0
-2020-11-12,COL,Colombia,Quindío,17,0,17,11,1
-2020-11-12,COL,Colombia,Risaralda,28,2,28,11,2
-2020-11-12,COL,Colombia,Santander,39,2,39,7,0
-2020-11-12,COL,Colombia,Sucre,11,1,11,0,2
-2020-11-12,COL,Colombia,Tolima,24,0,24,16,0
-2020-11-12,COL,Colombia,Valle del Cauca,94,2,93,23,5
-2020-11-12,COL,Colombia,Vaupés,1,0,1,0,0
-2020-11-12,CRI,Costa Rica,-99,6,0,6,1,0
-2020-11-12,CRI,Costa Rica,Alajuela,34,1,33,26,3
-2020-11-12,CRI,Costa Rica,Cartago,34,2,34,39,3
-2020-11-12,CRI,Costa Rica,Guanacaste,6,1,6,15,1
-2020-11-12,CRI,Costa Rica,Heredia,18,0,18,16,0
-2020-11-12,CRI,Costa Rica,Limón,12,0,12,4,0
-2020-11-12,CRI,Costa Rica,Puntarenas,10,0,10,9,0
-2020-11-12,CRI,Costa Rica,San José,70,1,70,23,1
-2020-11-12,CIV,Côte d'Ivoire,Autonome d'Abidjan,13,0,13,0,0
+2020-11-12,CIV,Côte d'Ivoire,-99,1,0,1,0,0
+2020-11-12,CIV,Côte d'Ivoire,Autonome d'Abidjan,28,1,28,0,0
 2020-11-12,CIV,Côte d'Ivoire,Autonome de Yamoussoukro,3,0,3,0,1
 2020-11-12,CIV,Côte d'Ivoire,Bas-Sassandra,1,0,1,0,0
-2020-11-12,CIV,Côte d'Ivoire,Comoé,3,0,3,3,0
-2020-11-12,CIV,Côte d'Ivoire,Lagunes,5,0,5,0,0
-2020-11-12,CIV,Côte d'Ivoire,Savanes,1,0,1,0,0
+2020-11-12,CIV,Côte d'Ivoire,Comoé,5,0,5,3,0
+2020-11-12,CIV,Côte d'Ivoire,Denguélé,1,0,1,0,0
+2020-11-12,CIV,Côte d'Ivoire,Lagunes,7,0,7,0,2
+2020-11-12,CIV,Côte d'Ivoire,Savanes,2,0,2,0,0
 2020-11-12,CIV,Côte d'Ivoire,Vallée du Bandama,1,0,1,0,0
-2020-11-12,HRV,Croatia,-99,15,1,15,4,1
-2020-11-12,HRV,Croatia,Bjelovarska-Bilogorska,4,0,4,3,0
-2020-11-12,HRV,Croatia,Brodsko-Posavska,5,1,5,0,0
-2020-11-12,HRV,Croatia,Dubrovacko-Neretvanska,4,0,4,1,0
-2020-11-12,HRV,Croatia,Grad Zagreb,42,0,42,59,1
-2020-11-12,HRV,Croatia,Istarska,11,0,10,5,0
+2020-11-12,CIV,Côte d'Ivoire,Woroba,2,0,2,0,0
+2020-11-12,CIV,Côte d'Ivoire,Zanzan,1,0,1,0,0
+2020-11-12,KHM,Cambodia,-99,5,1,4,1,1
+2020-11-12,KHM,Cambodia,Kândal,1,0,1,0,0
+2020-11-12,KHM,Cambodia,Krong Pailin,1,0,1,0,0
+2020-11-12,KHM,Cambodia,Phnom Penh,21,1,21,8,1
+2020-11-12,KHM,Cambodia,Siemréab,6,0,6,0,0
+2020-11-12,KHM,Cambodia,Svay Rieng,1,0,1,1,0
+2020-11-12,KHM,Cambodia,Takêv,1,0,1,0,0
+2020-11-12,CMR,Cameroon,-99,2,1,2,20,1
+2020-11-12,CMR,Cameroon,Centre,8,0,8,2,0
+2020-11-12,CMR,Cameroon,Est,1,0,1,3,0
+2020-11-12,CMR,Cameroon,Extrême-Nord,1,0,1,0,0
+2020-11-12,CMR,Cameroon,Littoral,15,0,15,7,0
+2020-11-12,CMR,Cameroon,Nord-Ouest,3,1,3,101,1
+2020-11-12,CMR,Cameroon,Ouest,3,0,3,0,0
+2020-11-12,CMR,Cameroon,Sud,2,0,2,0,0
+2020-11-12,CAN,Canada,-99,35,0,31,3,3
+2020-11-12,CAN,Canada,Alberta,196,2,196,45,6
+2020-11-12,CAN,Canada,British Columbia,202,3,202,92,7
+2020-11-12,CAN,Canada,Manitoba,76,3,76,20,2
+2020-11-12,CAN,Canada,New Brunswick,32,0,32,7,0
+2020-11-12,CAN,Canada,Newfoundland and Labrador,26,0,26,0,0
+2020-11-12,CAN,Canada,Nova Scotia,78,1,78,10,1
+2020-11-12,CAN,Canada,Nunavut,1,1,1,0,0
+2020-11-12,CAN,Canada,Ontario,241,2,241,35,1
+2020-11-12,CAN,Canada,Prince Edward Island,7,0,7,0,0
+2020-11-12,CAN,Canada,Québec,151,0,151,17,3
+2020-11-12,CAN,Canada,Saskatchewan,78,1,78,122,1
+2020-11-12,CAN,Canada,Yukon,3,0,3,0,0
+2020-11-12,CPV,Cape Verde,São Salvador do Mundo,1,0,1,0,0
+2020-11-12,CAF,Central African Republic,Bangui,1,0,1,0,0
+2020-11-12,CHL,Chile,-99,17,0,13,11,1
+2020-11-12,CHL,Chile,Ñuble,11,0,11,3,1
+2020-11-12,CHL,Chile,Aisén del General Carlos Ibáñez del Campo,6,0,6,0,0
+2020-11-12,CHL,Chile,Antofagasta,22,1,22,102,1
+2020-11-12,CHL,Chile,Araucanía,33,1,33,13,0
+2020-11-12,CHL,Chile,Arica y Parinacota,6,0,6,3,0
+2020-11-12,CHL,Chile,Atacama,13,0,13,4,0
+2020-11-12,CHL,Chile,Bío-Bío,58,0,58,9,1
+2020-11-12,CHL,Chile,Coquimbo,20,0,20,0,0
+2020-11-12,CHL,Chile,Libertador General Bernardo O'Higgins,32,0,32,3,1
+2020-11-12,CHL,Chile,Los Lagos,42,1,42,24,0
+2020-11-12,CHL,Chile,Los Ríos,17,1,17,7,1
+2020-11-12,CHL,Chile,Magallanes y Antártica Chilena,11,0,11,10,1
+2020-11-12,CHL,Chile,Maule,26,0,26,9,1
+2020-11-12,CHL,Chile,Región Metropolitana de Santiago,187,1,185,42,3
+2020-11-12,CHL,Chile,Tarapacá,11,0,11,0,0
+2020-11-12,CHL,Chile,Valparaíso,96,0,96,17,3
+2020-11-12,COL,Colombia,-99,57,4,46,32,8
+2020-11-12,COL,Colombia,Amazonas,2,0,2,0,0
+2020-11-12,COL,Colombia,Antioquia,158,4,158,104,13
+2020-11-12,COL,Colombia,Arauca,7,0,7,4,2
+2020-11-12,COL,Colombia,Atlántico,59,4,59,23,3
+2020-11-12,COL,Colombia,"Bogotá, Distrito Capital",210,2,210,88,8
+2020-11-12,COL,Colombia,Bolívar,38,1,38,7,2
+2020-11-12,COL,Colombia,Boyacá,29,1,29,9,1
+2020-11-12,COL,Colombia,Córdoba,12,0,12,1,0
+2020-11-12,COL,Colombia,Caldas,39,2,39,31,3
+2020-11-12,COL,Colombia,Caquetá,8,0,8,1,2
+2020-11-12,COL,Colombia,Casanare,6,0,6,1,0
+2020-11-12,COL,Colombia,Cauca,23,0,23,15,1
+2020-11-12,COL,Colombia,Cesar,18,0,18,1,2
+2020-11-12,COL,Colombia,Chocó,1,0,1,0,0
+2020-11-12,COL,Colombia,Cundinamarca,72,1,72,7,4
+2020-11-12,COL,Colombia,Guainía,1,0,1,0,0
+2020-11-12,COL,Colombia,Huila,22,0,22,5,0
+2020-11-12,COL,Colombia,La Guajira,10,0,10,8,0
+2020-11-12,COL,Colombia,Magdalena,15,1,15,5,3
+2020-11-12,COL,Colombia,Meta,24,0,24,50,1
+2020-11-12,COL,Colombia,Nariño,24,1,24,1,0
+2020-11-12,COL,Colombia,Norte de Santander,34,1,34,11,2
+2020-11-12,COL,Colombia,Putumayo,3,0,3,1,0
+2020-11-12,COL,Colombia,Quindío,21,0,21,11,1
+2020-11-12,COL,Colombia,Risaralda,31,2,31,11,2
+2020-11-12,COL,Colombia,Santander,48,3,48,7,0
+2020-11-12,COL,Colombia,Sucre,12,1,12,0,2
+2020-11-12,COL,Colombia,Tolima,32,0,32,16,1
+2020-11-12,COL,Colombia,Valle del Cauca,127,3,126,42,10
+2020-11-12,COL,Colombia,Vaupés,1,0,1,0,0
+2020-11-12,CRI,Costa Rica,-99,13,0,11,4,0
+2020-11-12,CRI,Costa Rica,Alajuela,41,1,40,126,3
+2020-11-12,CRI,Costa Rica,Cartago,41,2,41,40,4
+2020-11-12,CRI,Costa Rica,Guanacaste,9,2,9,15,2
+2020-11-12,CRI,Costa Rica,Heredia,23,0,23,25,0
+2020-11-12,CRI,Costa Rica,Limón,17,0,17,4,0
+2020-11-12,CRI,Costa Rica,Puntarenas,12,0,12,10,0
+2020-11-12,CRI,Costa Rica,San José,85,1,84,26,1
+2020-11-12,HRV,Croatia,-99,20,2,20,7,3
+2020-11-12,HRV,Croatia,Šibensko-Kninska,4,0,4,1,0
+2020-11-12,HRV,Croatia,Bjelovarska-Bilogorska,6,0,6,5,0
+2020-11-12,HRV,Croatia,Brodsko-Posavska,6,1,6,0,0
+2020-11-12,HRV,Croatia,Dubrovacko-Neretvanska,6,0,6,1,0
+2020-11-12,HRV,Croatia,Grad Zagreb,49,0,49,65,1
+2020-11-12,HRV,Croatia,Istarska,14,0,13,15,1
 2020-11-12,HRV,Croatia,Karlovacka,4,0,4,1,0
 2020-11-12,HRV,Croatia,Koprivničko-Križevačka,1,0,1,0,0
-2020-11-12,HRV,Croatia,Krapinsko-Zagorska,6,0,6,2,1
+2020-11-12,HRV,Croatia,Krapinsko-Zagorska,7,0,7,2,1
 2020-11-12,HRV,Croatia,Licko-Senjska,2,0,2,0,0
 2020-11-12,HRV,Croatia,Medimurska,7,2,7,7,2
 2020-11-12,HRV,Croatia,Osjecko-Baranjska,7,0,7,7,0
 2020-11-12,HRV,Croatia,Požeško-Slavonska,3,0,3,0,0
-2020-11-12,HRV,Croatia,Primorsko-Goranska,7,1,7,6,0
-2020-11-12,HRV,Croatia,Šibensko-Kninska,4,0,4,1,0
-2020-11-12,HRV,Croatia,Sisacko-Moslavacka,7,0,7,9,1
-2020-11-12,HRV,Croatia,Splitsko-Dalmatinska,13,0,13,8,2
-2020-11-12,HRV,Croatia,Varaždinska,6,2,6,123,2
+2020-11-12,HRV,Croatia,Primorsko-Goranska,10,1,10,6,0
+2020-11-12,HRV,Croatia,Sisacko-Moslavacka,8,0,8,9,1
+2020-11-12,HRV,Croatia,Splitsko-Dalmatinska,17,0,17,16,2
+2020-11-12,HRV,Croatia,Varaždinska,8,2,8,123,2
 2020-11-12,HRV,Croatia,Viroviticko-Podravska,1,0,1,0,0
-2020-11-12,HRV,Croatia,Vukovarsko-Srijemska,6,1,6,1,0
+2020-11-12,HRV,Croatia,Vukovarsko-Srijemska,7,1,7,1,0
 2020-11-12,HRV,Croatia,Zadarska,9,0,9,2,0
-2020-11-12,HRV,Croatia,Zagrebačka,17,0,17,30,1
-2020-11-12,CZE,Czech Republic,-99,11,1,11,5,1
-2020-11-12,CZE,Czech Republic,Jihočeský,20,2,20,15,1
-2020-11-12,CZE,Czech Republic,Jihomoravský,33,2,33,45,1
-2020-11-12,CZE,Czech Republic,Karlovarský,11,0,11,12,1
-2020-11-12,CZE,Czech Republic,Kraj Vysočina,8,1,8,8,0
-2020-11-12,CZE,Czech Republic,Královéhradecký,19,0,19,7,3
-2020-11-12,CZE,Czech Republic,Liberecký,12,0,12,8,0
-2020-11-12,CZE,Czech Republic,Moravskoslezský,28,0,28,9,1
-2020-11-12,CZE,Czech Republic,Olomoucký,12,1,12,23,1
-2020-11-12,CZE,Czech Republic,Pardubický,24,0,24,19,0
-2020-11-12,CZE,Czech Republic,Plzeňský,22,0,22,11,0
-2020-11-12,CZE,Czech Republic,Prague,64,1,64,185,1
-2020-11-12,CZE,Czech Republic,Středočeský,46,1,46,19,0
-2020-11-12,CZE,Czech Republic,Ústecký,33,0,33,43,2
-2020-11-12,CZE,Czech Republic,Zlínský,10,0,10,50,0
-2020-11-12,COD,Democratic Republic of the Congo,Haut-Katanga,2,0,2,0,0
-2020-11-12,COD,Democratic Republic of the Congo,Kinshasa,4,0,4,0,1
+2020-11-12,HRV,Croatia,Zagrebačka,20,0,20,34,2
+2020-11-12,CZE,Czech Republic,-99,22,1,19,10,1
+2020-11-12,CZE,Czech Republic,Ústecký,40,0,40,47,2
+2020-11-12,CZE,Czech Republic,Jihočeský,21,2,21,15,1
+2020-11-12,CZE,Czech Republic,Jihomoravský,41,2,41,45,2
+2020-11-12,CZE,Czech Republic,Karlovarský,12,0,12,12,1
+2020-11-12,CZE,Czech Republic,Královéhradecký,27,1,27,13,4
+2020-11-12,CZE,Czech Republic,Kraj Vysočina,9,1,9,8,0
+2020-11-12,CZE,Czech Republic,Liberecký,15,0,15,8,0
+2020-11-12,CZE,Czech Republic,Moravskoslezský,31,0,31,12,1
+2020-11-12,CZE,Czech Republic,Olomoucký,14,1,14,23,1
+2020-11-12,CZE,Czech Republic,Pardubický,28,0,28,19,1
+2020-11-12,CZE,Czech Republic,Plzeňský,24,0,24,11,0
+2020-11-12,CZE,Czech Republic,Prague,71,1,71,188,1
+2020-11-12,CZE,Czech Republic,Středočeský,52,1,52,20,1
+2020-11-12,CZE,Czech Republic,Zlínský,17,0,17,57,0
+2020-11-12,COD,Democratic Republic of the Congo,-99,2,1,1,0,1
+2020-11-12,COD,Democratic Republic of the Congo,Haut-Katanga,4,0,4,0,0
+2020-11-12,COD,Democratic Republic of the Congo,Ituri,1,1,1,5,0
+2020-11-12,COD,Democratic Republic of the Congo,Kasaï-Oriental,1,0,1,0,0
+2020-11-12,COD,Democratic Republic of the Congo,Kinshasa,6,0,6,0,1
 2020-11-12,COD,Democratic Republic of the Congo,Lualaba,1,0,1,0,0
-2020-11-12,COD,Democratic Republic of the Congo,Nord-Kivu,1,0,1,0,0
-2020-11-12,DNK,Denmark,-99,17,0,17,6,0
-2020-11-12,DNK,Denmark,Hovedstaden,156,1,156,20,5
-2020-11-12,DNK,Denmark,Midtjylland,157,2,157,154,5
-2020-11-12,DNK,Denmark,Nordjylland,71,1,71,31,0
-2020-11-12,DNK,Denmark,Sjælland,111,2,111,45,2
-2020-11-12,DNK,Denmark,Syddanmark,134,3,134,36,2
+2020-11-12,COD,Democratic Republic of the Congo,Nord-Kivu,3,0,3,0,0
+2020-11-12,DNK,Denmark,-99,30,1,28,10,2
+2020-11-12,DNK,Denmark,Hovedstaden,180,2,180,25,6
+2020-11-12,DNK,Denmark,Midtjylland,176,2,176,158,6
+2020-11-12,DNK,Denmark,Nordjylland,84,1,84,37,0
+2020-11-12,DNK,Denmark,Sjælland,130,2,129,59,2
+2020-11-12,DNK,Denmark,Syddanmark,145,3,145,46,2
 2020-11-12,DMA,Dominica,-99,1,0,1,0,0
-2020-11-12,DOM,Dominican Republic,-99,8,0,8,2,0
-2020-11-12,DOM,Dominican Republic,Barahona,1,0,1,0,0
+2020-11-12,DOM,Dominican Republic,-99,18,0,17,7,1
+2020-11-12,DOM,Dominican Republic,Barahona,2,0,2,0,0
 2020-11-12,DOM,Dominican Republic,Dajabón,1,0,1,0,0
-2020-11-12,DOM,Dominican Republic,Distrito Nacional,32,0,32,27,1
+2020-11-12,DOM,Dominican Republic,Distrito Nacional,43,0,43,32,1
 2020-11-12,DOM,Dominican Republic,Duarte,5,0,5,0,0
-2020-11-12,DOM,Dominican Republic,El Seibo,1,0,1,3,0
+2020-11-12,DOM,Dominican Republic,El Seibo,2,0,2,13,0
 2020-11-12,DOM,Dominican Republic,Elías Piña,1,0,1,0,0
 2020-11-12,DOM,Dominican Republic,Hermanas Mirabal,2,0,2,0,0
-2020-11-12,DOM,Dominican Republic,La Altagracia,6,0,6,3,0
-2020-11-12,DOM,Dominican Republic,La Romana,1,0,1,0,0
-2020-11-12,DOM,Dominican Republic,La Vega,7,0,7,0,0
-2020-11-12,DOM,Dominican Republic,María Trinidad Sánchez,1,0,1,0,0
+2020-11-12,DOM,Dominican Republic,La Altagracia,7,0,7,3,0
+2020-11-12,DOM,Dominican Republic,La Romana,2,0,2,0,0
+2020-11-12,DOM,Dominican Republic,La Vega,10,0,10,0,0
+2020-11-12,DOM,Dominican Republic,María Trinidad Sánchez,2,0,1,0,0
 2020-11-12,DOM,Dominican Republic,Monseñor Nouel,3,0,3,2,0
-2020-11-12,DOM,Dominican Republic,Monte Plata,2,0,2,0,0
+2020-11-12,DOM,Dominican Republic,Monte Plata,4,0,4,0,0
+2020-11-12,DOM,Dominican Republic,Peravia,1,0,1,0,0
 2020-11-12,DOM,Dominican Republic,Puerto Plata,2,0,2,0,0
 2020-11-12,DOM,Dominican Republic,Samaná,1,0,1,0,0
-2020-11-12,DOM,Dominican Republic,San Cristóbal,1,0,1,0,0
+2020-11-12,DOM,Dominican Republic,San Cristóbal,2,0,2,0,0
 2020-11-12,DOM,Dominican Republic,San Juan,2,0,2,1,0
-2020-11-12,DOM,Dominican Republic,San Pedro de Macorís,1,0,1,0,0
-2020-11-12,DOM,Dominican Republic,Santiago,20,0,20,15,0
+2020-11-12,DOM,Dominican Republic,San Pedro de Macorís,2,0,2,0,0
+2020-11-12,DOM,Dominican Republic,Santiago,23,0,23,15,0
 2020-11-12,DOM,Dominican Republic,Santiago Rodríguez,1,0,1,0,0
-2020-11-12,DOM,Dominican Republic,Santo Domingo,24,0,24,15,1
+2020-11-12,DOM,Dominican Republic,Santo Domingo,27,0,27,15,1
 2020-11-12,DOM,Dominican Republic,Valverde,1,0,1,0,0
-2020-11-12,ECU,Ecuador,-99,14,0,14,2,0
-2020-11-12,ECU,Ecuador,Azuay,27,2,27,15,1
-2020-11-12,ECU,Ecuador,Bolivar,1,0,1,0,0
-2020-11-12,ECU,Ecuador,Cañar,3,0,3,0,0
-2020-11-12,ECU,Ecuador,Chimborazo,11,0,11,7,1
+2020-11-12,ECU,Ecuador,-99,28,0,25,7,0
+2020-11-12,ECU,Ecuador,Azuay,31,2,31,18,1
+2020-11-12,ECU,Ecuador,Bolivar,2,0,2,0,0
+2020-11-12,ECU,Ecuador,Cañar,4,0,4,3,0
+2020-11-12,ECU,Ecuador,Carchi,3,0,3,0,0
+2020-11-12,ECU,Ecuador,Chimborazo,13,0,13,7,1
 2020-11-12,ECU,Ecuador,Cotopaxi,4,0,4,0,1
-2020-11-12,ECU,Ecuador,El Oro,12,1,12,14,1
-2020-11-12,ECU,Ecuador,Esmeraldas,6,0,6,0,0
+2020-11-12,ECU,Ecuador,El Oro,17,1,17,17,2
+2020-11-12,ECU,Ecuador,Esmeraldas,9,0,9,1,0
 2020-11-12,ECU,Ecuador,Galápagos,1,0,1,5,1
-2020-11-12,ECU,Ecuador,Guayas,93,3,93,151,3
-2020-11-12,ECU,Ecuador,Imbabura,16,2,16,18,1
-2020-11-12,ECU,Ecuador,Loja,11,0,11,0,0
-2020-11-12,ECU,Ecuador,Los Rios,12,0,12,19,3
-2020-11-12,ECU,Ecuador,Manabi,33,2,33,32,0
+2020-11-12,ECU,Ecuador,Guayas,114,5,114,155,5
+2020-11-12,ECU,Ecuador,Imbabura,17,2,17,18,1
+2020-11-12,ECU,Ecuador,Loja,15,0,15,0,0
+2020-11-12,ECU,Ecuador,Los Rios,15,0,15,19,3
+2020-11-12,ECU,Ecuador,Manabi,37,2,37,32,0
 2020-11-12,ECU,Ecuador,Napo,2,0,2,0,0
-2020-11-12,ECU,Ecuador,Orellana,2,0,2,0,0
-2020-11-12,ECU,Ecuador,Pichincha,117,2,117,83,5
+2020-11-12,ECU,Ecuador,Orellana,4,0,4,1,0
+2020-11-12,ECU,Ecuador,Pastaza,1,0,1,0,0
+2020-11-12,ECU,Ecuador,Pichincha,135,3,135,84,5
 2020-11-12,ECU,Ecuador,Santa Elena,9,0,9,7,0
-2020-11-12,ECU,Ecuador,Santo Domingo de los Tsachilas,8,1,8,10,2
-2020-11-12,ECU,Ecuador,Sucumbios,2,0,2,0,1
-2020-11-12,ECU,Ecuador,Tungurahua,7,0,7,0,2
+2020-11-12,ECU,Ecuador,Santo Domingo de los Tsachilas,9,1,9,10,2
+2020-11-12,ECU,Ecuador,Sucumbios,3,0,3,0,1
+2020-11-12,ECU,Ecuador,Tungurahua,9,0,9,0,2
 2020-11-12,ECU,Ecuador,Zamora Chinchipe,1,0,1,0,0
-2020-11-12,EGY,Egypt,-99,40,2,40,45,4
-2020-11-12,EGY,Egypt,Ad Daqahliyah,28,0,28,125,4
-2020-11-12,EGY,Egypt,Al Bahr al Ahmar,8,0,8,3,0
-2020-11-12,EGY,Egypt,Al Buhayrah,23,0,23,34,4
-2020-11-12,EGY,Egypt,Al Fayyum,11,0,11,16,1
-2020-11-12,EGY,Egypt,Al Gharbiyah,15,0,15,4,2
-2020-11-12,EGY,Egypt,Al Iskandariyah,82,0,82,97,5
-2020-11-12,EGY,Egypt,Al Isma`iliyah,11,1,11,106,1
-2020-11-12,EGY,Egypt,Al Jizah,73,4,73,56,10
-2020-11-12,EGY,Egypt,Al Minufiyah,18,0,17,2,1
-2020-11-12,EGY,Egypt,Al Minya,15,0,15,14,0
-2020-11-12,EGY,Egypt,Al Qahirah,101,0,101,102,5
-2020-11-12,EGY,Egypt,Al Qalyubiyah,21,1,21,21,2
-2020-11-12,EGY,Egypt,Al Uqsur,2,0,2,0,0
-2020-11-12,EGY,Egypt,Al Wadi al Jadid,2,0,2,0,0
+2020-11-12,EGY,Egypt,-99,81,3,66,69,6
+2020-11-12,EGY,Egypt,Ad Daqahliyah,34,0,34,132,4
+2020-11-12,EGY,Egypt,Al Bahr al Ahmar,11,0,11,4,0
+2020-11-12,EGY,Egypt,Al Buhayrah,32,0,32,38,5
+2020-11-12,EGY,Egypt,Al Fayyum,14,0,14,16,1
+2020-11-12,EGY,Egypt,Al Gharbiyah,20,0,20,4,3
+2020-11-12,EGY,Egypt,Al Iskandariyah,102,0,102,120,8
+2020-11-12,EGY,Egypt,Al Isma`iliyah,12,2,12,112,2
+2020-11-12,EGY,Egypt,Al Jizah,94,6,94,73,12
+2020-11-12,EGY,Egypt,Al Minufiyah,20,0,19,2,2
+2020-11-12,EGY,Egypt,Al Minya,16,0,16,17,0
+2020-11-12,EGY,Egypt,Al Qahirah,124,1,124,160,7
+2020-11-12,EGY,Egypt,Al Qalyubiyah,28,1,28,23,2
+2020-11-12,EGY,Egypt,Al Uqsur,3,0,3,0,0
+2020-11-12,EGY,Egypt,Al Wadi al Jadid,3,0,3,10,1
 2020-11-12,EGY,Egypt,As Suways,6,0,6,5,2
-2020-11-12,EGY,Egypt,Ash Sharqiyah,32,2,32,38,2
-2020-11-12,EGY,Egypt,Aswan,8,1,8,0,2
-2020-11-12,EGY,Egypt,Asyut,12,1,12,8,0
-2020-11-12,EGY,Egypt,Bani Suwayf,6,0,6,4,1
-2020-11-12,EGY,Egypt,Bur Sa`id,5,1,5,94,0
-2020-11-12,EGY,Egypt,Dumyat,10,1,10,10,1
-2020-11-12,EGY,Egypt,Kafr ash Shaykh,11,1,11,49,2
-2020-11-12,EGY,Egypt,Matrouh,6,0,6,8,0
-2020-11-12,EGY,Egypt,Qina,4,0,4,10,0
-2020-11-12,EGY,Egypt,Suhaj,14,0,14,5,2
-2020-11-12,SLV,El Salvador,-99,4,0,4,2,0
+2020-11-12,EGY,Egypt,Ash Sharqiyah,44,2,44,53,3
+2020-11-12,EGY,Egypt,Aswan,12,1,12,3,2
+2020-11-12,EGY,Egypt,Asyut,20,1,20,21,0
+2020-11-12,EGY,Egypt,Bani Suwayf,7,0,7,6,1
+2020-11-12,EGY,Egypt,Bur Sa`id,6,1,6,94,0
+2020-11-12,EGY,Egypt,Dumyat,11,1,11,10,1
+2020-11-12,EGY,Egypt,Janub Sina',1,0,1,0,0
+2020-11-12,EGY,Egypt,Kafr ash Shaykh,14,1,14,49,2
+2020-11-12,EGY,Egypt,Matrouh,7,0,7,8,0
+2020-11-12,EGY,Egypt,Qina,7,0,7,25,0
+2020-11-12,EGY,Egypt,Suhaj,16,0,16,5,2
+2020-11-12,SLV,El Salvador,-99,10,0,8,3,0
 2020-11-12,SLV,El Salvador,Ahuachapán,5,0,5,0,1
 2020-11-12,SLV,El Salvador,Cabañas,2,0,2,0,0
-2020-11-12,SLV,El Salvador,Chalatenango,2,0,2,1,0
+2020-11-12,SLV,El Salvador,Chalatenango,3,0,3,1,0
 2020-11-12,SLV,El Salvador,Cuscatlán,2,0,2,0,0
-2020-11-12,SLV,El Salvador,La Libertad,23,1,23,4,2
+2020-11-12,SLV,El Salvador,La Libertad,29,1,29,4,2
 2020-11-12,SLV,El Salvador,La Paz,3,1,3,8,1
-2020-11-12,SLV,El Salvador,Morazán,2,0,2,0,0
+2020-11-12,SLV,El Salvador,Morazán,3,0,3,0,0
 2020-11-12,SLV,El Salvador,San Miguel,13,0,13,9,0
-2020-11-12,SLV,El Salvador,San Salvador,74,4,74,28,3
-2020-11-12,SLV,El Salvador,San Vicente,2,0,2,0,0
-2020-11-12,SLV,El Salvador,Santa Ana,3,0,3,0,0
-2020-11-12,SLV,El Salvador,Sonsonate,6,1,6,1,1
-2020-11-12,SLV,El Salvador,Usulután,2,0,2,5,0
+2020-11-12,SLV,El Salvador,San Salvador,100,4,100,32,5
+2020-11-12,SLV,El Salvador,San Vicente,4,0,4,1,0
+2020-11-12,SLV,El Salvador,Santa Ana,5,0,5,0,0
+2020-11-12,SLV,El Salvador,Sonsonate,8,2,8,2,2
+2020-11-12,SLV,El Salvador,Usulután,6,0,6,8,0
 2020-11-12,ERI,Eritrea,Debub,1,0,1,0,0
-2020-11-12,EST,Estonia,Harju,1,0,1,0,0
-2020-11-12,ETH,Ethiopia,-99,1,0,1,0,0
-2020-11-12,ETH,Ethiopia,Addis Abeba,21,0,21,6,0
+2020-11-12,EST,Estonia,Harju,2,0,2,0,0
+2020-11-12,ETH,Ethiopia,-99,3,0,2,1,1
+2020-11-12,ETH,Ethiopia,Addis Abeba,25,0,25,9,2
 2020-11-12,ETH,Ethiopia,Afar,1,0,1,0,0
 2020-11-12,ETH,Ethiopia,Amhara,1,0,1,0,0
-2020-11-12,ETH,Ethiopia,Gambela Peoples,1,0,1,1,0
-2020-11-12,ETH,Ethiopia,Oromia,6,0,6,0,0
+2020-11-12,ETH,Ethiopia,Gambela Peoples,2,0,2,1,0
+2020-11-12,ETH,Ethiopia,Oromia,14,0,14,100,1
 2020-11-12,ETH,Ethiopia,"Southern Nations, Nationalities and Peoples",2,0,2,1,0
-2020-11-12,FIN,Finland,-99,9,0,9,3,0
+2020-11-12,FIN,Finland,-99,14,0,12,3,1
 2020-11-12,FIN,Finland,Ahvenanmaa-Åland,2,0,2,0,0
-2020-11-12,FIN,Finland,Etelä-Karjala,9,0,9,0,0
+2020-11-12,FIN,Finland,Etelä-Karjala,11,0,11,0,0
 2020-11-12,FIN,Finland,Etelä-Pohjanmaa,10,0,10,1,0
-2020-11-12,FIN,Finland,Etelä-Savo,14,0,14,4,0
+2020-11-12,FIN,Finland,Etelä-Savo,16,0,16,4,1
 2020-11-12,FIN,Finland,Kainuu,5,0,5,0,0
-2020-11-12,FIN,Finland,Kanta-Häme,14,0,14,1,0
+2020-11-12,FIN,Finland,Kanta-Häme,15,0,15,1,0
 2020-11-12,FIN,Finland,Keski-Pohjanmaa,5,0,5,1,0
-2020-11-12,FIN,Finland,Keski-Suomi,10,0,10,0,0
-2020-11-12,FIN,Finland,Kymenlaakso,19,1,19,6,0
-2020-11-12,FIN,Finland,Lappi,7,0,7,3,0
-2020-11-12,FIN,Finland,Päijät-Häme,12,0,12,0,0
-2020-11-12,FIN,Finland,Pirkanmaa,32,0,32,9,0
-2020-11-12,FIN,Finland,Pohjanmaa,3,1,3,0,0
+2020-11-12,FIN,Finland,Keski-Suomi,12,0,12,0,0
+2020-11-12,FIN,Finland,Kymenlaakso,21,1,21,6,0
+2020-11-12,FIN,Finland,Lappi,9,0,9,3,0
+2020-11-12,FIN,Finland,Päijät-Häme,15,0,15,0,0
+2020-11-12,FIN,Finland,Pirkanmaa,39,0,39,11,0
+2020-11-12,FIN,Finland,Pohjanmaa,4,1,4,0,0
 2020-11-12,FIN,Finland,Pohjois-Karjala,7,0,7,0,0
-2020-11-12,FIN,Finland,Pohjois-Pohjanmaa,14,0,14,0,0
+2020-11-12,FIN,Finland,Pohjois-Pohjanmaa,15,0,15,0,0
 2020-11-12,FIN,Finland,Pohjois-Savo,10,0,10,0,0
 2020-11-12,FIN,Finland,Satakunta,4,0,4,0,0
-2020-11-12,FIN,Finland,Uusimaa,116,1,116,28,3
-2020-11-12,FIN,Finland,Varsinais-Suomi,29,0,29,6,1
-2020-11-12,FRA,France,-99,18,1,18,37,0
-2020-11-12,FRA,France,Auvergne-Rhône-Alpes,175,3,174,106,10
-2020-11-12,FRA,France,Bourgogne-Franche-Comté,102,4,102,65,5
-2020-11-12,FRA,France,Bretagne,79,1,79,14,1
-2020-11-12,FRA,France,Centre-Val de Loire,56,0,56,13,1
-2020-11-12,FRA,France,Corse,13,0,13,2,0
+2020-11-12,FIN,Finland,Uusimaa,130,1,130,29,3
+2020-11-12,FIN,Finland,Varsinais-Suomi,34,0,34,6,1
+2020-11-12,FRA,France,-99,76,5,62,53,7
+2020-11-12,FRA,France,Île-de-France,232,1,232,95,5
+2020-11-12,FRA,France,Auvergne-Rhône-Alpes,224,3,223,137,10
+2020-11-12,FRA,France,Bourgogne-Franche-Comté,133,4,132,71,6
+2020-11-12,FRA,France,Bretagne,108,2,108,36,2
+2020-11-12,FRA,France,Centre-Val de Loire,74,1,74,14,2
+2020-11-12,FRA,France,Corse,17,0,17,2,0
 2020-11-12,FRA,France,French Guiana,3,0,3,0,1
-2020-11-12,FRA,France,Grand Est,210,1,210,83,5
-2020-11-12,FRA,France,Hauts-de-France,161,2,161,53,3
-2020-11-12,FRA,France,Île-de-France,176,1,176,68,4
-2020-11-12,FRA,France,Normandie,89,1,89,13,2
-2020-11-12,FRA,France,Nouvelle-Aquitaine,170,1,170,24,3
-2020-11-12,FRA,France,Occitanie,157,1,157,38,4
-2020-11-12,FRA,France,Pays de la Loire,96,0,96,25,3
-2020-11-12,FRA,France,Provence-Alpes-Côte d'Azur,113,0,113,48,2
+2020-11-12,FRA,France,Grand Est,273,2,273,116,7
+2020-11-12,FRA,France,Hauts-de-France,225,4,225,62,5
+2020-11-12,FRA,France,Normandie,123,1,123,18,2
+2020-11-12,FRA,France,Nouvelle-Aquitaine,230,1,230,29,4
+2020-11-12,FRA,France,Occitanie,214,2,212,142,6
+2020-11-12,FRA,France,Pays de la Loire,126,0,126,32,3
+2020-11-12,FRA,France,Provence-Alpes-Côte d'Azur,158,0,158,66,3
 2020-11-12,GUF,French Guiana,Saint-Laurent-du-Maroni,1,0,1,1,1
+2020-11-12,GAB,Gabon,-99,1,0,1,0,0
 2020-11-12,GAB,Gabon,Haut-Ogooué,1,0,1,0,0
-2020-11-12,DEU,Germany,-99,14,0,14,1,0
-2020-11-12,DEU,Germany,Baden-Württemberg,211,2,210,60,2
-2020-11-12,DEU,Germany,Bayern,214,1,214,61,1
-2020-11-12,DEU,Germany,Berlin,171,1,171,160,4
-2020-11-12,DEU,Germany,Brandenburg,68,0,68,15,2
-2020-11-12,DEU,Germany,Bremen,36,1,36,10,0
-2020-11-12,DEU,Germany,Hamburg,102,1,102,17,2
-2020-11-12,DEU,Germany,Hessen,201,2,201,48,8
-2020-11-12,DEU,Germany,Mecklenburg-Vorpommern,55,3,55,7,0
-2020-11-12,DEU,Germany,Niedersachsen,202,0,202,133,2
-2020-11-12,DEU,Germany,Nordrhein-Westfalen,243,0,242,54,4
-2020-11-12,DEU,Germany,Rheinland-Pfalz,161,2,161,47,2
-2020-11-12,DEU,Germany,Saarland,36,0,36,8,0
-2020-11-12,DEU,Germany,Sachsen,138,2,138,105,5
-2020-11-12,DEU,Germany,Sachsen-Anhalt,72,1,71,12,1
-2020-11-12,DEU,Germany,Schleswig-Holstein,143,0,143,34,1
-2020-11-12,DEU,Germany,Thüringen,79,0,79,35,0
-2020-11-12,GHA,Ghana,-99,3,0,3,0,0
-2020-11-12,GHA,Ghana,Ahafo,2,0,2,0,0
-2020-11-12,GHA,Ghana,Ashanti,9,2,9,1,1
+2020-11-12,DEU,Germany,-99,53,1,37,15,1
+2020-11-12,DEU,Germany,Baden-Württemberg,230,2,229,75,2
+2020-11-12,DEU,Germany,Bayern,235,1,235,63,2
+2020-11-12,DEU,Germany,Berlin,189,1,189,163,4
+2020-11-12,DEU,Germany,Brandenburg,81,0,81,22,2
+2020-11-12,DEU,Germany,Bremen,40,1,40,11,0
+2020-11-12,DEU,Germany,Hamburg,113,2,113,22,2
+2020-11-12,DEU,Germany,Hessen,223,2,223,55,8
+2020-11-12,DEU,Germany,Mecklenburg-Vorpommern,60,3,60,7,0
+2020-11-12,DEU,Germany,Niedersachsen,226,0,226,137,5
+2020-11-12,DEU,Germany,Nordrhein-Westfalen,280,0,279,59,4
+2020-11-12,DEU,Germany,Rheinland-Pfalz,176,2,176,57,2
+2020-11-12,DEU,Germany,Saarland,44,0,44,13,1
+2020-11-12,DEU,Germany,Sachsen,155,2,155,107,5
+2020-11-12,DEU,Germany,Sachsen-Anhalt,83,2,82,64,1
+2020-11-12,DEU,Germany,Schleswig-Holstein,160,0,160,44,1
+2020-11-12,DEU,Germany,Thüringen,85,0,85,36,0
+2020-11-12,GHA,Ghana,-99,8,0,4,0,1
+2020-11-12,GHA,Ghana,Ahafo,3,0,3,0,0
+2020-11-12,GHA,Ghana,Ashanti,13,2,13,1,2
 2020-11-12,GHA,Ghana,Bono East,1,0,1,0,0
-2020-11-12,GHA,Ghana,Brong-Ahafo,3,0,3,1,0
-2020-11-12,GHA,Ghana,Central,5,0,5,2,1
+2020-11-12,GHA,Ghana,Brong-Ahafo,6,0,6,1,0
+2020-11-12,GHA,Ghana,Central,7,0,7,3,1
 2020-11-12,GHA,Ghana,Eastern,4,0,4,0,1
-2020-11-12,GHA,Ghana,Greater Accra,32,2,32,5,2
-2020-11-12,GHA,Ghana,Northern,5,0,5,0,0
+2020-11-12,GHA,Ghana,Greater Accra,41,2,41,6,2
+2020-11-12,GHA,Ghana,Northern,6,0,6,3,0
 2020-11-12,GHA,Ghana,Oti,2,0,2,2,0
 2020-11-12,GHA,Ghana,Savannah,2,0,2,0,0
 2020-11-12,GHA,Ghana,Upper East,2,0,2,0,1
 2020-11-12,GHA,Ghana,Upper West,1,0,1,0,0
-2020-11-12,GHA,Ghana,Volta,2,0,2,0,0
-2020-11-12,GHA,Ghana,Western,5,0,5,0,0
-2020-11-12,GHA,Ghana,Western North,1,0,1,0,0
-2020-11-12,GRC,Greece,-99,8,0,8,3,0
-2020-11-12,GRC,Greece,Anatoliki Makedonia Thraki,35,1,35,22,1
-2020-11-12,GRC,Greece,Attiki,216,1,215,60,3
-2020-11-12,GRC,Greece,Dytiki Ellada,15,0,15,6,1
+2020-11-12,GHA,Ghana,Volta,4,0,4,0,1
+2020-11-12,GHA,Ghana,Western,6,0,6,0,0
+2020-11-12,GHA,Ghana,Western North,2,0,2,0,0
+2020-11-12,GIB,Gibraltar,-99,1,0,1,0,0
+2020-11-12,GRC,Greece,-99,15,0,15,8,0
+2020-11-12,GRC,Greece,Anatoliki Makedonia Thraki,39,2,39,24,1
+2020-11-12,GRC,Greece,Attiki,245,1,244,66,4
+2020-11-12,GRC,Greece,Dytiki Ellada,19,0,19,10,2
 2020-11-12,GRC,Greece,Dytiki Makedonia,8,0,8,8,0
-2020-11-12,GRC,Greece,Ionia Nisia,13,0,12,3,0
-2020-11-12,GRC,Greece,Ipeiros,7,0,7,5,0
-2020-11-12,GRC,Greece,Kentriki Makedonia,99,2,99,125,5
-2020-11-12,GRC,Greece,Kriti,49,3,49,19,3
+2020-11-12,GRC,Greece,Ionia Nisia,14,0,13,3,0
+2020-11-12,GRC,Greece,Ipeiros,9,0,9,5,0
+2020-11-12,GRC,Greece,Kentriki Makedonia,118,2,118,144,6
+2020-11-12,GRC,Greece,Kriti,52,3,52,22,3
 2020-11-12,GRC,Greece,Notio Aigaio,12,0,12,4,0
-2020-11-12,GRC,Greece,Peloponnisos,28,0,28,6,0
+2020-11-12,GRC,Greece,Peloponnisos,30,0,30,6,0
 2020-11-12,GRC,Greece,Sterea Ellada,19,1,19,1,0
-2020-11-12,GRC,Greece,Thessalia,29,0,29,66,0
-2020-11-12,GRC,Greece,Voreio Aigaio,14,0,14,13,0
+2020-11-12,GRC,Greece,Thessalia,34,0,34,67,0
+2020-11-12,GRC,Greece,Voreio Aigaio,16,0,16,13,0
 2020-11-12,GRD,Grenada,-99,1,0,1,0,0
-2020-11-12,GTM,Guatemala,-99,10,1,10,4,1
-2020-11-12,GTM,Guatemala,Alta Verapaz,8,0,8,4,1
-2020-11-12,GTM,Guatemala,Baja Verapaz,1,1,1,5,1
-2020-11-12,GTM,Guatemala,Chimaltenango,5,0,5,1,0
-2020-11-12,GTM,Guatemala,Chiquimula,9,0,9,1,0
+2020-11-12,GTM,Guatemala,-99,21,1,19,10,1
+2020-11-12,GTM,Guatemala,Alta Verapaz,11,0,11,4,1
+2020-11-12,GTM,Guatemala,Baja Verapaz,2,1,2,5,1
+2020-11-12,GTM,Guatemala,Chimaltenango,8,1,8,1,0
+2020-11-12,GTM,Guatemala,Chiquimula,10,0,10,1,0
 2020-11-12,GTM,Guatemala,El Progreso,1,0,1,1,0
-2020-11-12,GTM,Guatemala,Escuintla,12,0,12,6,1
-2020-11-12,GTM,Guatemala,Guatemala,111,1,111,40,4
-2020-11-12,GTM,Guatemala,Huehuetenango,7,0,7,24,1
-2020-11-12,GTM,Guatemala,Izabal,4,0,4,2,0
+2020-11-12,GTM,Guatemala,Escuintla,15,0,15,6,1
+2020-11-12,GTM,Guatemala,Guatemala,130,2,130,43,4
+2020-11-12,GTM,Guatemala,Huehuetenango,10,0,10,26,1
+2020-11-12,GTM,Guatemala,Izabal,6,0,6,2,0
 2020-11-12,GTM,Guatemala,Jalapa,1,0,1,0,0
-2020-11-12,GTM,Guatemala,Jutiapa,1,0,1,0,0
-2020-11-12,GTM,Guatemala,Petén,4,2,4,7,2
-2020-11-12,GTM,Guatemala,Quezaltenango,13,0,13,9,0
-2020-11-12,GTM,Guatemala,Quiché,3,0,3,0,0
-2020-11-12,GTM,Guatemala,Retalhuleu,4,0,4,5,1
-2020-11-12,GTM,Guatemala,Sacatepéquez,4,0,4,0,0
-2020-11-12,GTM,Guatemala,San Marcos,3,0,3,1,0
-2020-11-12,GTM,Guatemala,Santa Rosa,3,0,3,0,0
-2020-11-12,GTM,Guatemala,Sololá,2,0,2,0,0
-2020-11-12,GTM,Guatemala,Suchitepéquez,3,0,3,0,0
+2020-11-12,GTM,Guatemala,Jutiapa,2,0,2,0,0
+2020-11-12,GTM,Guatemala,Petén,5,2,5,7,2
+2020-11-12,GTM,Guatemala,Quezaltenango,16,0,16,9,0
+2020-11-12,GTM,Guatemala,Quiché,5,0,5,3,0
+2020-11-12,GTM,Guatemala,Retalhuleu,5,0,5,6,1
+2020-11-12,GTM,Guatemala,Sacatepéquez,5,0,5,0,0
+2020-11-12,GTM,Guatemala,San Marcos,7,0,7,3,0
+2020-11-12,GTM,Guatemala,Santa Rosa,4,0,4,0,0
+2020-11-12,GTM,Guatemala,Sololá,4,0,4,0,0
+2020-11-12,GTM,Guatemala,Suchitepéquez,5,0,5,0,0
 2020-11-12,GTM,Guatemala,Totonicapán,4,1,4,22,0
-2020-11-12,GTM,Guatemala,Zacapa,2,0,2,0,0
+2020-11-12,GTM,Guatemala,Zacapa,4,0,4,0,0
 2020-11-12,GGY,Guernsey,Forest,1,0,1,0,0
+2020-11-12,GIN,Guinea,Conakry,2,0,2,0,0
 2020-11-12,GIN,Guinea,Mamou,1,0,1,0,0
-2020-11-12,HTI,Haiti,L'Artibonite,2,0,2,0,0
-2020-11-12,HTI,Haiti,Nord,1,0,1,0,0
-2020-11-12,HTI,Haiti,Ouest,6,0,6,0,0
-2020-11-12,HND,Honduras,-99,2,0,2,0,0
-2020-11-12,HND,Honduras,Atlántida,2,0,2,1,0
+2020-11-12,GIN,Guinea,Nzérékoré,2,0,2,0,0
+2020-11-12,HTI,Haiti,L'Artibonite,4,0,4,0,1
+2020-11-12,HTI,Haiti,Nord,2,0,2,0,0
+2020-11-12,HTI,Haiti,Ouest,13,0,13,0,0
+2020-11-12,HTI,Haiti,Sud,2,0,2,1,0
+2020-11-12,HND,Honduras,-99,6,0,6,0,0
+2020-11-12,HND,Honduras,Atlántida,3,0,3,1,0
 2020-11-12,HND,Honduras,Choluteca,3,0,3,0,0
 2020-11-12,HND,Honduras,Colón,1,0,1,1,0
-2020-11-12,HND,Honduras,Comayagua,6,0,6,0,0
+2020-11-12,HND,Honduras,Comayagua,7,0,7,2,0
 2020-11-12,HND,Honduras,Copán,5,0,5,0,0
-2020-11-12,HND,Honduras,Cortés,27,0,27,21,2
-2020-11-12,HND,Honduras,El Paraíso,5,0,5,3,0
-2020-11-12,HND,Honduras,Francisco Morazán,30,1,30,7,1
+2020-11-12,HND,Honduras,Cortés,32,0,32,21,2
+2020-11-12,HND,Honduras,El Paraíso,6,0,6,3,0
+2020-11-12,HND,Honduras,Francisco Morazán,39,1,39,12,2
 2020-11-12,HND,Honduras,Intibucá,1,0,1,0,0
 2020-11-12,HND,Honduras,Islas de la Bahía,2,0,2,1,0
 2020-11-12,HND,Honduras,La Paz,2,0,2,5,0
-2020-11-12,HND,Honduras,Lempira,1,0,1,0,0
+2020-11-12,HND,Honduras,Lempira,3,0,3,2,0
 2020-11-12,HND,Honduras,Olancho,2,0,2,4,0
 2020-11-12,HND,Honduras,Santa Bárbara,2,0,2,2,0
-2020-11-12,HND,Honduras,Yoro,7,0,7,19,1
-2020-11-12,HKG,Hong Kong,-99,14,0,14,7,0
-2020-11-12,HKG,Hong Kong,Central and Western,7,0,7,3,0
+2020-11-12,HND,Honduras,Yoro,8,0,8,19,1
+2020-11-12,HKG,Hong Kong,-99,20,0,19,9,0
+2020-11-12,HKG,Hong Kong,Central and Western,8,0,8,3,0
 2020-11-12,HKG,Hong Kong,Eastern,10,0,10,0,0
-2020-11-12,HKG,Hong Kong,Islands,6,0,6,2,0
-2020-11-12,HKG,Hong Kong,Kowloon City,11,0,11,1,0
-2020-11-12,HKG,Hong Kong,Kwai Tsing,7,0,7,0,0
-2020-11-12,HKG,Hong Kong,Kwun Tong,12,0,12,1,0
-2020-11-12,HKG,Hong Kong,North,5,0,5,1,0
-2020-11-12,HKG,Hong Kong,Sai Kung,6,0,6,10,0
-2020-11-12,HKG,Hong Kong,Sha Tin,8,0,8,5,0
-2020-11-12,HKG,Hong Kong,Sham Shui Po,7,0,7,3,0
+2020-11-12,HKG,Hong Kong,Islands,7,0,7,2,0
+2020-11-12,HKG,Hong Kong,Kowloon City,13,0,13,1,0
+2020-11-12,HKG,Hong Kong,Kwai Tsing,9,0,9,0,0
+2020-11-12,HKG,Hong Kong,Kwun Tong,13,0,13,1,0
+2020-11-12,HKG,Hong Kong,North,6,0,6,1,0
+2020-11-12,HKG,Hong Kong,Sai Kung,7,0,7,10,0
+2020-11-12,HKG,Hong Kong,Sha Tin,10,0,10,5,0
+2020-11-12,HKG,Hong Kong,Sham Shui Po,11,0,11,3,0
 2020-11-12,HKG,Hong Kong,Southern,2,0,2,2,0
 2020-11-12,HKG,Hong Kong,Tai Po,5,0,5,3,0
 2020-11-12,HKG,Hong Kong,Tsuen Wan,4,0,4,0,0
-2020-11-12,HKG,Hong Kong,Tuen Mun,8,0,8,0,0
-2020-11-12,HKG,Hong Kong,Wan Chai,5,0,5,0,0
-2020-11-12,HKG,Hong Kong,Wong Tai Sin,1,0,1,0,0
+2020-11-12,HKG,Hong Kong,Tuen Mun,11,0,11,2,0
+2020-11-12,HKG,Hong Kong,Wan Chai,6,0,6,0,0
+2020-11-12,HKG,Hong Kong,Wong Tai Sin,4,0,4,0,0
 2020-11-12,HKG,Hong Kong,Yau Tsim Mong,4,0,4,2,0
-2020-11-12,HKG,Hong Kong,Yuen Long,14,0,14,1,0
-2020-11-12,HUN,Hungary,-99,34,0,33,74,1
-2020-11-12,HUN,Hungary,Bács-Kiskun,33,2,33,51,2
-2020-11-12,HUN,Hungary,Baranya,33,0,33,13,4
-2020-11-12,HUN,Hungary,Békés,23,1,23,21,1
-2020-11-12,HUN,Hungary,Borsod-Abaúj-Zemplén,32,0,32,69,1
-2020-11-12,HUN,Hungary,Budapest,181,1,181,118,7
-2020-11-12,HUN,Hungary,Csongrád,23,0,23,5,1
-2020-11-12,HUN,Hungary,Fejér,33,1,33,157,2
-2020-11-12,HUN,Hungary,Gyor-Moson-Sopron,48,0,48,68,1
-2020-11-12,HUN,Hungary,Hajdú-Bihar,38,0,38,27,1
-2020-11-12,HUN,Hungary,Heves,17,0,17,10,1
-2020-11-12,HUN,Hungary,Jász-Nagykun-Szolnok,23,0,23,21,1
-2020-11-12,HUN,Hungary,Komárom-Esztergom,24,1,24,6,3
-2020-11-12,HUN,Hungary,Nógrád,13,0,13,9,1
-2020-11-12,HUN,Hungary,Pest,110,1,109,118,7
-2020-11-12,HUN,Hungary,Somogy,17,0,17,9,0
-2020-11-12,HUN,Hungary,Szabolcs-Szatmár-Bereg,27,0,27,19,1
-2020-11-12,HUN,Hungary,Tolna,14,0,14,0,1
-2020-11-12,HUN,Hungary,Vas,11,1,11,8,4
-2020-11-12,HUN,Hungary,Veszprém,24,1,23,3,0
-2020-11-12,HUN,Hungary,Zala,12,0,12,3,0
+2020-11-12,HKG,Hong Kong,Yuen Long,15,0,15,1,0
+2020-11-12,HUN,Hungary,-99,66,2,56,96,4
+2020-11-12,HUN,Hungary,Bács-Kiskun,43,2,43,51,2
+2020-11-12,HUN,Hungary,Békés,25,1,25,22,1
+2020-11-12,HUN,Hungary,Baranya,43,0,43,16,4
+2020-11-12,HUN,Hungary,Borsod-Abaúj-Zemplén,43,0,43,92,2
+2020-11-12,HUN,Hungary,Budapest,216,2,216,140,8
+2020-11-12,HUN,Hungary,Csongrád,27,0,27,5,1
+2020-11-12,HUN,Hungary,Fejér,38,1,38,178,3
+2020-11-12,HUN,Hungary,Gyor-Moson-Sopron,57,0,57,72,2
+2020-11-12,HUN,Hungary,Hajdú-Bihar,46,1,46,29,1
+2020-11-12,HUN,Hungary,Heves,23,0,23,11,1
+2020-11-12,HUN,Hungary,Jász-Nagykun-Szolnok,29,0,29,31,1
+2020-11-12,HUN,Hungary,Komárom-Esztergom,30,1,30,6,3
+2020-11-12,HUN,Hungary,Nógrád,14,0,14,9,1
+2020-11-12,HUN,Hungary,Pest,126,1,125,121,8
+2020-11-12,HUN,Hungary,Somogy,24,0,24,14,0
+2020-11-12,HUN,Hungary,Szabolcs-Szatmár-Bereg,37,0,37,20,1
+2020-11-12,HUN,Hungary,Tolna,16,0,16,0,1
+2020-11-12,HUN,Hungary,Vas,12,1,12,11,4
+2020-11-12,HUN,Hungary,Veszprém,32,1,31,8,1
+2020-11-12,HUN,Hungary,Zala,16,0,16,4,1
 2020-11-12,ISL,Iceland,-99,1,0,1,5,1
 2020-11-12,ISL,Iceland,Norðurland vestra,1,0,1,0,0
-2020-11-12,IND,India,-99,24,0,24,3,1
+2020-11-12,IND,India,-99,142,13,112,154,14
 2020-11-12,IND,India,Andaman and Nicobar,1,0,1,0,0
-2020-11-12,IND,India,Andhra Pradesh,78,0,78,36,3
-2020-11-12,IND,India,Arunachal Pradesh,4,0,4,0,0
-2020-11-12,IND,India,Assam,30,2,30,263,2
-2020-11-12,IND,India,Bihar,50,3,50,80,3
-2020-11-12,IND,India,Chandigarh,7,1,7,0,1
-2020-11-12,IND,India,Chhattisgarh,8,0,8,0,0
-2020-11-12,IND,India,Dadra and Nagar Haveli,1,0,1,0,0
+2020-11-12,IND,India,Andhra Pradesh,121,0,121,60,3
+2020-11-12,IND,India,Arunachal Pradesh,8,1,8,8,2
+2020-11-12,IND,India,Assam,45,2,45,264,2
+2020-11-12,IND,India,Bihar,87,5,87,191,8
+2020-11-12,IND,India,Chandigarh,16,1,16,0,1
+2020-11-12,IND,India,Chhattisgarh,16,0,16,11,0
+2020-11-12,IND,India,Dadra and Nagar Haveli,2,0,2,0,0
 2020-11-12,IND,India,Daman and Diu,1,0,1,0,0
 2020-11-12,IND,India,Goa,6,1,6,0,0
-2020-11-12,IND,India,Gujarat,75,1,74,48,1
-2020-11-12,IND,India,Haryana,63,4,63,47,6
-2020-11-12,IND,India,Himachal Pradesh,21,0,21,1,1
-2020-11-12,IND,India,Jammu and Kashmir,15,0,15,4,0
-2020-11-12,IND,India,Jharkhand,29,3,29,209,2
-2020-11-12,IND,India,Karnataka,88,1,88,113,1
-2020-11-12,IND,India,Kerala,82,3,82,98,3
+2020-11-12,IND,India,Gujarat,110,1,109,52,2
+2020-11-12,IND,India,Haryana,107,4,107,83,6
+2020-11-12,IND,India,Himachal Pradesh,32,0,32,3,1
+2020-11-12,IND,India,Jammu and Kashmir,24,1,23,5,1
+2020-11-12,IND,India,Jharkhand,42,4,42,210,2
+2020-11-12,IND,India,Karnataka,130,2,130,144,4
+2020-11-12,IND,India,Kerala,99,4,99,100,3
 2020-11-12,IND,India,Ladakh,2,0,2,0,0
-2020-11-12,IND,India,Madhya Pradesh,58,0,58,23,2
-2020-11-12,IND,India,Maharashtra,137,0,137,45,2
-2020-11-12,IND,India,Manipur,14,0,14,22,0
+2020-11-12,IND,India,Madhya Pradesh,99,1,99,44,6
+2020-11-12,IND,India,Maharashtra,193,0,193,63,6
+2020-11-12,IND,India,Manipur,19,0,19,32,0
 2020-11-12,IND,India,Meghalaya,2,0,2,0,0
-2020-11-12,IND,India,Mizoram,7,0,7,4,0
-2020-11-12,IND,India,Nagaland,10,1,10,3,0
-2020-11-12,IND,India,NCT of Delhi,75,3,75,71,6
-2020-11-12,IND,India,Odisha,46,0,46,22,1
-2020-11-12,IND,India,Puducherry,3,0,3,0,0
-2020-11-12,IND,India,Punjab,33,1,33,11,1
-2020-11-12,IND,India,Rajasthan,98,4,98,109,11
-2020-11-12,IND,India,Sikkim,5,0,5,1,1
-2020-11-12,IND,India,Tamil Nadu,69,0,69,20,0
-2020-11-12,IND,India,Telangana,80,0,80,27,0
-2020-11-12,IND,India,Tripura,6,0,6,6,0
-2020-11-12,IND,India,Uttar Pradesh,99,0,99,41,5
-2020-11-12,IND,India,Uttarakhand,31,1,31,12,0
-2020-11-12,IND,India,West Bengal,121,3,121,193,4
-2020-11-12,IDN,Indonesia,-99,17,0,17,6,0
-2020-11-12,IDN,Indonesia,Aceh,3,0,3,2,0
-2020-11-12,IDN,Indonesia,Bali,17,0,17,2,0
-2020-11-12,IDN,Indonesia,Bangka Belitung,4,0,4,0,0
-2020-11-12,IDN,Indonesia,Banten,21,1,20,11,1
-2020-11-12,IDN,Indonesia,Bengkulu,7,0,7,0,0
+2020-11-12,IND,India,Mizoram,8,0,8,4,0
+2020-11-12,IND,India,NCT of Delhi,106,6,106,124,9
+2020-11-12,IND,India,Nagaland,13,1,13,3,0
+2020-11-12,IND,India,Odisha,72,1,72,25,3
+2020-11-12,IND,India,Puducherry,6,0,6,0,0
+2020-11-12,IND,India,Punjab,51,1,51,25,2
+2020-11-12,IND,India,Rajasthan,166,4,166,149,15
+2020-11-12,IND,India,Sikkim,7,0,7,1,1
+2020-11-12,IND,India,Tamil Nadu,102,1,102,23,1
+2020-11-12,IND,India,Telangana,112,2,112,39,1
+2020-11-12,IND,India,Tripura,9,0,9,13,0
+2020-11-12,IND,India,Uttar Pradesh,160,4,159,159,11
+2020-11-12,IND,India,Uttarakhand,41,1,41,13,1
+2020-11-12,IND,India,West Bengal,177,6,177,365,5
+2020-11-12,IDN,Indonesia,-99,69,2,55,21,4
+2020-11-12,IDN,Indonesia,Aceh,5,0,5,2,0
+2020-11-12,IDN,Indonesia,Bali,20,0,20,2,1
+2020-11-12,IDN,Indonesia,Bangka Belitung,8,0,8,0,0
+2020-11-12,IDN,Indonesia,Banten,30,1,29,11,2
+2020-11-12,IDN,Indonesia,Bengkulu,9,0,9,0,0
 2020-11-12,IDN,Indonesia,Gorontalo,2,0,2,0,0
-2020-11-12,IDN,Indonesia,Jakarta Raya,85,1,85,7,3
-2020-11-12,IDN,Indonesia,Jambi,11,0,11,10,0
-2020-11-12,IDN,Indonesia,Jawa Barat,94,1,94,20,1
-2020-11-12,IDN,Indonesia,Jawa Tengah,84,0,84,38,0
-2020-11-12,IDN,Indonesia,Jawa Timur,68,2,68,13,2
-2020-11-12,IDN,Indonesia,Kalimantan Barat,15,0,15,2,0
-2020-11-12,IDN,Indonesia,Kalimantan Selatan,6,0,6,0,0
-2020-11-12,IDN,Indonesia,Kalimantan Tengah,11,0,11,10,0
-2020-11-12,IDN,Indonesia,Kalimantan Timur,14,0,14,3,0
+2020-11-12,IDN,Indonesia,Jakarta Raya,96,1,96,7,3
+2020-11-12,IDN,Indonesia,Jambi,17,0,17,10,0
+2020-11-12,IDN,Indonesia,Jawa Barat,114,2,114,124,1
+2020-11-12,IDN,Indonesia,Jawa Tengah,113,1,113,41,2
+2020-11-12,IDN,Indonesia,Jawa Timur,87,2,87,15,2
+2020-11-12,IDN,Indonesia,Kalimantan Barat,20,0,20,2,0
+2020-11-12,IDN,Indonesia,Kalimantan Selatan,11,0,11,1,0
+2020-11-12,IDN,Indonesia,Kalimantan Tengah,15,0,15,10,0
+2020-11-12,IDN,Indonesia,Kalimantan Timur,20,0,20,3,0
 2020-11-12,IDN,Indonesia,Kalimantan Utara,3,0,3,0,0
-2020-11-12,IDN,Indonesia,Kepulauan Riau,14,0,14,10,1
-2020-11-12,IDN,Indonesia,Lampung,14,0,14,1,0
+2020-11-12,IDN,Indonesia,Kepulauan Riau,16,0,16,10,1
+2020-11-12,IDN,Indonesia,Lampung,15,0,15,1,0
 2020-11-12,IDN,Indonesia,Maluku,1,0,1,0,0
 2020-11-12,IDN,Indonesia,Maluku Utara,6,0,6,0,0
-2020-11-12,IDN,Indonesia,Nusa Tenggara Barat,9,0,9,4,2
-2020-11-12,IDN,Indonesia,Nusa Tenggara Timur,16,0,16,0,0
-2020-11-12,IDN,Indonesia,Papua,6,0,6,1,0
+2020-11-12,IDN,Indonesia,Nusa Tenggara Barat,13,0,13,4,2
+2020-11-12,IDN,Indonesia,Nusa Tenggara Timur,21,0,21,0,0
+2020-11-12,IDN,Indonesia,Papua,10,0,10,1,0
 2020-11-12,IDN,Indonesia,Papua Barat,4,0,4,0,0
-2020-11-12,IDN,Indonesia,Riau,17,0,17,8,1
+2020-11-12,IDN,Indonesia,Riau,24,0,24,8,2
 2020-11-12,IDN,Indonesia,Sulawesi Barat,2,0,2,2,0
-2020-11-12,IDN,Indonesia,Sulawesi Selatan,14,1,14,1,0
-2020-11-12,IDN,Indonesia,Sulawesi Tengah,6,0,6,0,0
-2020-11-12,IDN,Indonesia,Sulawesi Tenggara,5,0,5,4,0
-2020-11-12,IDN,Indonesia,Sulawesi Utara,15,0,14,0,0
-2020-11-12,IDN,Indonesia,Sumatera Barat,14,1,14,19,2
-2020-11-12,IDN,Indonesia,Sumatera Selatan,20,1,20,5,1
-2020-11-12,IDN,Indonesia,Sumatera Utara,34,0,34,6,1
-2020-11-12,IDN,Indonesia,Yogyakarta,29,0,29,10,0
-2020-11-12,IRQ,Iraq,-99,5,0,5,10,0
+2020-11-12,IDN,Indonesia,Sulawesi Selatan,23,1,23,1,0
+2020-11-12,IDN,Indonesia,Sulawesi Tengah,11,0,11,0,0
+2020-11-12,IDN,Indonesia,Sulawesi Tenggara,6,0,6,4,0
+2020-11-12,IDN,Indonesia,Sulawesi Utara,19,0,18,0,0
+2020-11-12,IDN,Indonesia,Sumatera Barat,21,1,21,19,2
+2020-11-12,IDN,Indonesia,Sumatera Selatan,25,1,25,5,1
+2020-11-12,IDN,Indonesia,Sumatera Utara,45,0,45,7,1
+2020-11-12,IDN,Indonesia,Yogyakarta,33,0,33,10,0
+2020-11-12,IRQ,Iraq,-99,19,2,11,84,2
 2020-11-12,IRQ,Iraq,Al-Anbar,6,1,6,17,1
-2020-11-12,IRQ,Iraq,Al-Basrah,6,0,6,2,0
+2020-11-12,IRQ,Iraq,Al-Basrah,8,0,8,3,0
 2020-11-12,IRQ,Iraq,Al-Qadissiya,2,0,2,1,0
-2020-11-12,IRQ,Iraq,Al-Sulaymaniyah,9,1,9,23,1
-2020-11-12,IRQ,Iraq,Babil,8,0,8,15,1
-2020-11-12,IRQ,Iraq,Baghdad,49,1,49,68,0
-2020-11-12,IRQ,Iraq,Dahuk,9,0,9,23,1
-2020-11-12,IRQ,Iraq,Diyala,7,0,7,12,0
-2020-11-12,IRQ,Iraq,Erbil,10,1,10,33,1
+2020-11-12,IRQ,Iraq,Al-Sulaymaniyah,13,2,13,24,2
+2020-11-12,IRQ,Iraq,Babil,11,1,11,16,2
+2020-11-12,IRQ,Iraq,Baghdad,59,1,59,180,1
+2020-11-12,IRQ,Iraq,Dahuk,10,0,10,23,1
+2020-11-12,IRQ,Iraq,Diyala,8,0,8,19,0
+2020-11-12,IRQ,Iraq,Erbil,13,1,13,41,1
 2020-11-12,IRQ,Iraq,Halabja,2,0,2,0,1
 2020-11-12,IRQ,Iraq,Kerbala,12,1,12,60,3
 2020-11-12,IRQ,Iraq,Kirkuk,3,0,3,61,0
-2020-11-12,IRQ,Iraq,Missan,2,0,2,1,0
-2020-11-12,IRQ,Iraq,Najaf,5,0,5,23,1
-2020-11-12,IRQ,Iraq,Ninewa,9,0,9,115,2
+2020-11-12,IRQ,Iraq,Missan,3,0,3,1,0
+2020-11-12,IRQ,Iraq,Najaf,6,0,6,23,1
+2020-11-12,IRQ,Iraq,Ninewa,11,0,10,115,2
 2020-11-12,IRQ,Iraq,Salah Al-Din,5,0,5,54,0
-2020-11-12,IRQ,Iraq,Thi-Qar,9,0,9,19,0
+2020-11-12,IRQ,Iraq,Thi-Qar,11,0,11,22,0
 2020-11-12,IRQ,Iraq,Wassit,1,0,1,0,0
-2020-11-12,IRL,Ireland,-99,8,0,8,0,0
-2020-11-12,IRL,Ireland,Carlow,2,0,2,1,0
+2020-11-12,IRL,Ireland,-99,14,0,14,1,0
+2020-11-12,IRL,Ireland,Carlow,5,0,5,1,0
 2020-11-12,IRL,Ireland,Cavan,4,0,4,0,0
-2020-11-12,IRL,Ireland,Clare,8,0,8,1,0
-2020-11-12,IRL,Ireland,Cork,24,0,24,1,0
-2020-11-12,IRL,Ireland,Donegal,10,0,10,16,0
-2020-11-12,IRL,Ireland,Dublin,74,2,74,12,0
-2020-11-12,IRL,Ireland,Galway,11,0,11,3,0
-2020-11-12,IRL,Ireland,Kerry,6,0,6,0,0
-2020-11-12,IRL,Ireland,Kildare,5,0,5,2,0
-2020-11-12,IRL,Ireland,Kilkenny,6,0,6,0,0
-2020-11-12,IRL,Ireland,Laois,4,0,4,2,0
+2020-11-12,IRL,Ireland,Clare,11,0,11,3,1
+2020-11-12,IRL,Ireland,Cork,28,0,28,1,0
+2020-11-12,IRL,Ireland,Donegal,11,0,11,16,0
+2020-11-12,IRL,Ireland,Dublin,82,2,82,12,1
+2020-11-12,IRL,Ireland,Galway,14,0,14,3,0
+2020-11-12,IRL,Ireland,Kerry,7,0,7,0,0
+2020-11-12,IRL,Ireland,Kildare,6,0,6,2,1
+2020-11-12,IRL,Ireland,Kilkenny,7,0,7,0,0
+2020-11-12,IRL,Ireland,Laois,5,0,5,2,0
 2020-11-12,IRL,Ireland,Leitrim,3,0,3,0,0
-2020-11-12,IRL,Ireland,Limerick,8,0,8,0,0
+2020-11-12,IRL,Ireland,Limerick,9,0,9,1,0
 2020-11-12,IRL,Ireland,Longford,2,0,2,0,0
 2020-11-12,IRL,Ireland,Louth,6,0,5,0,0
-2020-11-12,IRL,Ireland,Mayo,9,0,9,0,0
-2020-11-12,IRL,Ireland,Meath,5,0,5,0,0
+2020-11-12,IRL,Ireland,Mayo,12,0,12,1,0
+2020-11-12,IRL,Ireland,Meath,7,0,7,0,0
+2020-11-12,IRL,Ireland,Monaghan,2,0,2,0,0
 2020-11-12,IRL,Ireland,Offaly,7,0,7,4,0
-2020-11-12,IRL,Ireland,Roscommon,2,0,2,0,0
+2020-11-12,IRL,Ireland,Roscommon,3,0,3,0,0
 2020-11-12,IRL,Ireland,Sligo,4,0,4,0,0
-2020-11-12,IRL,Ireland,Tipperary,11,0,10,0,0
-2020-11-12,IRL,Ireland,Waterford,9,0,9,2,0
-2020-11-12,IRL,Ireland,Westmeath,4,0,4,2,0
-2020-11-12,IRL,Ireland,Wexford,8,0,8,5,0
-2020-11-12,IRL,Ireland,Wicklow,5,0,5,0,0
+2020-11-12,IRL,Ireland,Tipperary,15,0,14,0,0
+2020-11-12,IRL,Ireland,Waterford,10,0,10,2,0
+2020-11-12,IRL,Ireland,Westmeath,7,0,7,2,0
+2020-11-12,IRL,Ireland,Wexford,9,0,9,5,0
+2020-11-12,IRL,Ireland,Wicklow,6,0,6,0,0
 2020-11-12,IMN,Isle Of Man,Ayre,1,1,1,100,1
-2020-11-12,ISR,Israel,-99,34,1,34,7,1
+2020-11-12,ISR,Israel,-99,56,2,54,12,3
 2020-11-12,ISR,Israel,Golan,1,0,1,0,0
-2020-11-12,ISR,Israel,HaDarom,37,0,37,1,0
-2020-11-12,ISR,Israel,Haifa,24,0,24,9,0
-2020-11-12,ISR,Israel,HaMerkaz,72,2,72,7,1
-2020-11-12,ISR,Israel,HaZafon,24,0,22,1,0
-2020-11-12,ISR,Israel,Jerusalem,32,0,31,11,0
-2020-11-12,ISR,Israel,Tel Aviv,49,0,49,2,0
-2020-11-12,ITA,Italy,-99,36,0,36,11,0
-2020-11-12,ITA,Italy,Abruzzo,103,1,103,126,3
-2020-11-12,ITA,Italy,Basilicata,24,0,24,12,0
-2020-11-12,ITA,Italy,Calabria,99,0,98,51,0
-2020-11-12,ITA,Italy,Campania,255,1,255,271,5
-2020-11-12,ITA,Italy,Emilia-Romagna,262,4,262,147,2
-2020-11-12,ITA,Italy,Friuli-Venezia Giulia,90,2,90,63,1
-2020-11-12,ITA,Italy,Lazio,249,2,248,241,1
-2020-11-12,ITA,Italy,Liguria,112,0,111,191,0
-2020-11-12,ITA,Italy,Lombardia,271,4,271,294,7
-2020-11-12,ITA,Italy,Marche,90,2,90,62,4
-2020-11-12,ITA,Italy,Molise,12,0,12,3,0
-2020-11-12,ITA,Italy,Piemonte,232,5,231,403,11
-2020-11-12,ITA,Italy,Puglia,238,2,238,235,3
-2020-11-12,ITA,Italy,Sardegna,129,1,129,124,2
-2020-11-12,ITA,Italy,Sicilia,225,1,225,199,7
-2020-11-12,ITA,Italy,Toscana,214,0,214,173,0
-2020-11-12,ITA,Italy,Trentino-Alto Adige,77,1,77,221,3
-2020-11-12,ITA,Italy,Umbria,65,0,65,89,0
+2020-11-12,ISR,Israel,HaDarom,44,0,44,5,0
+2020-11-12,ISR,Israel,HaMerkaz,88,2,88,8,1
+2020-11-12,ISR,Israel,HaZafon,26,0,24,1,0
+2020-11-12,ISR,Israel,Haifa,34,0,34,9,0
+2020-11-12,ISR,Israel,Jerusalem,36,0,35,14,0
+2020-11-12,ISR,Israel,Tel Aviv,58,0,58,3,0
+2020-11-12,ITA,Italy,-99,127,5,108,55,9
+2020-11-12,ITA,Italy,Abruzzo,119,1,119,135,4
+2020-11-12,ITA,Italy,Basilicata,31,0,31,40,0
+2020-11-12,ITA,Italy,Calabria,112,0,110,54,0
+2020-11-12,ITA,Italy,Campania,303,3,303,312,8
+2020-11-12,ITA,Italy,Emilia-Romagna,306,4,306,171,2
+2020-11-12,ITA,Italy,Friuli-Venezia Giulia,105,2,105,73,1
+2020-11-12,ITA,Italy,Lazio,282,2,281,249,3
+2020-11-12,ITA,Italy,Liguria,130,1,128,212,1
+2020-11-12,ITA,Italy,Lombardia,309,4,309,307,8
+2020-11-12,ITA,Italy,Marche,105,2,105,62,4
+2020-11-12,ITA,Italy,Molise,13,0,13,3,0
+2020-11-12,ITA,Italy,Piemonte,268,6,267,439,15
+2020-11-12,ITA,Italy,Puglia,276,3,275,278,3
+2020-11-12,ITA,Italy,Sardegna,160,1,160,130,2
+2020-11-12,ITA,Italy,Sicilia,272,1,272,212,7
+2020-11-12,ITA,Italy,Toscana,247,0,246,198,0
+2020-11-12,ITA,Italy,Trentino-Alto Adige,90,1,90,236,3
+2020-11-12,ITA,Italy,Umbria,76,0,76,94,0
 2020-11-12,ITA,Italy,Valle d'Aosta,9,0,9,33,0
-2020-11-12,ITA,Italy,Veneto,351,0,350,410,9
-2020-11-12,JPN,Japan,-99,60,0,60,0,0
-2020-11-12,JPN,Japan,Aichi,183,1,182,12,1
-2020-11-12,JPN,Japan,Akita,24,0,24,0,0
-2020-11-12,JPN,Japan,Aomori,26,0,26,1,0
-2020-11-12,JPN,Japan,Chiba,216,0,216,16,0
-2020-11-12,JPN,Japan,Ehime,24,1,24,0,0
-2020-11-12,JPN,Japan,Fukui,22,0,22,0,0
-2020-11-12,JPN,Japan,Fukuoka,116,1,115,2,1
-2020-11-12,JPN,Japan,Fukushima,28,0,27,1,0
-2020-11-12,JPN,Japan,Gifu,35,0,35,1,0
-2020-11-12,JPN,Japan,Gunma,36,0,36,0,0
-2020-11-12,JPN,Japan,Hiroshima,72,0,71,1,2
-2020-11-12,JPN,Japan,Hokkaido,199,1,199,6,1
-2020-11-12,JPN,Japan,Hyōgo,131,2,129,4,0
-2020-11-12,JPN,Japan,Ibaraki,77,1,77,0,0
-2020-11-12,JPN,Japan,Ishikawa,31,0,31,3,0
-2020-11-12,JPN,Japan,Iwate,25,0,25,1,0
-2020-11-12,JPN,Japan,Kagawa,33,1,32,0,0
-2020-11-12,JPN,Japan,Kagoshima,27,0,27,0,0
-2020-11-12,JPN,Japan,Kanagawa,280,3,279,10,0
-2020-11-12,JPN,Japan,Kochi,21,0,21,0,0
-2020-11-12,JPN,Japan,Kumamoto,33,0,33,0,0
-2020-11-12,JPN,Japan,Kyoto,77,2,77,3,1
-2020-11-12,JPN,Japan,Mie,31,0,31,0,1
-2020-11-12,JPN,Japan,Miyagi,60,0,60,3,0
-2020-11-12,JPN,Japan,Miyazaki,24,0,24,50,0
-2020-11-12,JPN,Japan,Nagano,48,0,48,2,1
-2020-11-12,JPN,Japan,Nagasaki,33,0,33,3,0
-2020-11-12,JPN,Japan,Nara,40,0,40,0,0
-2020-11-12,JPN,Japan,Niigata,53,0,53,0,0
-2020-11-12,JPN,Japan,Oita,25,0,25,0,0
-2020-11-12,JPN,Japan,Okayama,48,0,48,13,0
-2020-11-12,JPN,Japan,Okinawa,41,1,41,0,0
-2020-11-12,JPN,Japan,Osaka,227,0,227,4,1
-2020-11-12,JPN,Japan,Saga,10,0,10,0,0
-2020-11-12,JPN,Japan,Saitama,192,0,192,3,1
-2020-11-12,JPN,Japan,Shiga,31,0,31,0,0
-2020-11-12,JPN,Japan,Shimane,13,0,13,1,0
-2020-11-12,JPN,Japan,Shizuoka,101,0,101,0,0
-2020-11-12,JPN,Japan,Tochigi,46,0,46,1,0
-2020-11-12,JPN,Japan,Tokushima,17,0,17,2,1
-2020-11-12,JPN,Japan,Tokyo,596,3,596,20,2
-2020-11-12,JPN,Japan,Tottori,13,0,13,0,0
-2020-11-12,JPN,Japan,Toyama,24,0,24,5,0
-2020-11-12,JPN,Japan,Wakayama,21,0,21,0,0
-2020-11-12,JPN,Japan,Yamagata,21,0,21,0,0
-2020-11-12,JPN,Japan,Yamaguchi,22,0,22,0,0
-2020-11-12,JPN,Japan,Yamanashi,28,0,28,1,0
-2020-11-12,JOR,Jordan,-99,13,0,13,3,0
-2020-11-12,JOR,Jordan,Ajlun,4,0,4,1,0
-2020-11-12,JOR,Jordan,Amman,124,14,124,406,19
+2020-11-12,ITA,Italy,Veneto,398,1,397,426,10
+2020-11-12,JPN,Japan,-99,112,0,98,6,1
+2020-11-12,JPN,Japan,Aichi,218,2,217,12,1
+2020-11-12,JPN,Japan,Akita,30,0,30,0,0
+2020-11-12,JPN,Japan,Aomori,28,0,28,6,0
+2020-11-12,JPN,Japan,Chiba,250,0,250,19,0
+2020-11-12,JPN,Japan,Ehime,26,1,26,0,0
+2020-11-12,JPN,Japan,Fukui,27,0,27,0,0
+2020-11-12,JPN,Japan,Fukuoka,131,1,130,2,1
+2020-11-12,JPN,Japan,Fukushima,33,0,32,1,0
+2020-11-12,JPN,Japan,Gifu,45,0,45,1,1
+2020-11-12,JPN,Japan,Gunma,45,0,45,0,0
+2020-11-12,JPN,Japan,Hiroshima,85,0,84,2,2
+2020-11-12,JPN,Japan,Hokkaido,229,1,229,6,1
+2020-11-12,JPN,Japan,Hyōgo,150,2,147,4,0
+2020-11-12,JPN,Japan,Ibaraki,83,1,83,0,0
+2020-11-12,JPN,Japan,Ishikawa,36,0,36,3,0
+2020-11-12,JPN,Japan,Iwate,30,0,30,1,0
+2020-11-12,JPN,Japan,Kagawa,36,1,35,0,0
+2020-11-12,JPN,Japan,Kagoshima,31,0,31,0,0
+2020-11-12,JPN,Japan,Kanagawa,313,3,312,10,0
+2020-11-12,JPN,Japan,Kochi,22,0,22,0,0
+2020-11-12,JPN,Japan,Kumamoto,43,0,43,0,0
+2020-11-12,JPN,Japan,Kyoto,93,2,93,3,1
+2020-11-12,JPN,Japan,Mie,34,0,34,0,1
+2020-11-12,JPN,Japan,Miyagi,66,0,66,3,0
+2020-11-12,JPN,Japan,Miyazaki,29,0,29,50,0
+2020-11-12,JPN,Japan,Nagano,57,0,57,2,1
+2020-11-12,JPN,Japan,Nagasaki,38,0,38,3,0
+2020-11-12,JPN,Japan,Nara,43,0,43,0,0
+2020-11-12,JPN,Japan,Niigata,55,0,55,0,0
+2020-11-12,JPN,Japan,Oita,32,0,32,0,0
+2020-11-12,JPN,Japan,Okayama,52,0,52,13,0
+2020-11-12,JPN,Japan,Okinawa,45,1,45,0,0
+2020-11-12,JPN,Japan,Osaka,278,0,278,7,1
+2020-11-12,JPN,Japan,Saga,12,0,12,0,0
+2020-11-12,JPN,Japan,Saitama,220,0,220,8,1
+2020-11-12,JPN,Japan,Shiga,36,0,36,1,0
+2020-11-12,JPN,Japan,Shimane,14,0,14,1,0
+2020-11-12,JPN,Japan,Shizuoka,122,0,122,0,0
+2020-11-12,JPN,Japan,Tochigi,57,0,57,2,0
+2020-11-12,JPN,Japan,Tokushima,19,0,19,2,1
+2020-11-12,JPN,Japan,Tokyo,695,3,695,22,2
+2020-11-12,JPN,Japan,Tottori,14,0,14,0,0
+2020-11-12,JPN,Japan,Toyama,32,0,32,5,1
+2020-11-12,JPN,Japan,Wakayama,26,0,26,0,0
+2020-11-12,JPN,Japan,Yamagata,24,0,24,0,0
+2020-11-12,JPN,Japan,Yamaguchi,25,0,25,0,0
+2020-11-12,JPN,Japan,Yamanashi,32,0,32,1,0
+2020-11-12,JOR,Jordan,-99,34,5,25,18,3
+2020-11-12,JOR,Jordan,Ajlun,5,0,5,1,0
+2020-11-12,JOR,Jordan,Amman,158,17,158,444,22
 2020-11-12,JOR,Jordan,Aqaba,7,0,7,12,1
-2020-11-12,JOR,Jordan,Balqa,13,0,13,18,0
-2020-11-12,JOR,Jordan,Irbid,45,2,45,89,6
-2020-11-12,JOR,Jordan,Jarash,2,0,2,12,0
-2020-11-12,JOR,Jordan,Karak,5,0,5,2,0
+2020-11-12,JOR,Jordan,Balqa,16,0,16,20,0
+2020-11-12,JOR,Jordan,Irbid,58,3,58,103,7
+2020-11-12,JOR,Jordan,Jarash,3,0,3,12,0
+2020-11-12,JOR,Jordan,Karak,6,0,6,2,0
 2020-11-12,JOR,Jordan,Ma`an,1,0,1,1,0
-2020-11-12,JOR,Jordan,Madaba,2,0,2,1,0
-2020-11-12,JOR,Jordan,Mafraq,6,0,6,0,0
+2020-11-12,JOR,Jordan,Madaba,3,0,3,1,0
+2020-11-12,JOR,Jordan,Mafraq,7,0,7,0,0
 2020-11-12,JOR,Jordan,Tafilah,3,0,3,4,2
-2020-11-12,JOR,Jordan,Zarqa,34,1,34,62,7
-2020-11-12,KAZ,Kazakhstan,-99,9,0,9,1,0
-2020-11-12,KAZ,Kazakhstan,Almaty,27,0,27,24,1
-2020-11-12,KAZ,Kazakhstan,Aqmola,3,0,3,0,0
-2020-11-12,KAZ,Kazakhstan,Aqtöbe,2,0,2,0,0
-2020-11-12,KAZ,Kazakhstan,Atyrau,4,0,4,0,0
-2020-11-12,KAZ,Kazakhstan,East Kazakhstan,4,0,4,0,0
+2020-11-12,JOR,Jordan,Zarqa,40,2,40,68,8
+2020-11-12,KAZ,Kazakhstan,-99,17,0,17,2,0
+2020-11-12,KAZ,Kazakhstan,Almaty,34,0,34,26,1
+2020-11-12,KAZ,Kazakhstan,Aqmola,5,0,5,1,0
+2020-11-12,KAZ,Kazakhstan,Aqtöbe,3,0,3,0,0
+2020-11-12,KAZ,Kazakhstan,Atyrau,6,0,6,0,0
+2020-11-12,KAZ,Kazakhstan,East Kazakhstan,5,0,5,0,0
 2020-11-12,KAZ,Kazakhstan,Mangghystau,4,0,4,0,0
-2020-11-12,KAZ,Kazakhstan,North Kazakhstan,2,0,2,0,0
-2020-11-12,KAZ,Kazakhstan,Nur-Sultan (Astana),9,0,9,0,0
+2020-11-12,KAZ,Kazakhstan,North Kazakhstan,3,0,3,0,0
+2020-11-12,KAZ,Kazakhstan,Nur-Sultan (Astana),10,0,10,0,0
 2020-11-12,KAZ,Kazakhstan,Pavlodar,4,0,4,0,0
-2020-11-12,KAZ,Kazakhstan,Qaraghandy,8,1,8,5,1
+2020-11-12,KAZ,Kazakhstan,Qaraghandy,10,1,10,5,1
 2020-11-12,KAZ,Kazakhstan,Qostanay,3,0,3,0,0
-2020-11-12,KAZ,Kazakhstan,South Kazakhstan,3,0,3,0,0
-2020-11-12,KAZ,Kazakhstan,West Kazakhstan,6,0,6,4,0
-2020-11-12,KAZ,Kazakhstan,Zhambyl,1,0,1,0,0
-2020-11-12,KEN,Kenya,-99,9,0,9,3,0
+2020-11-12,KAZ,Kazakhstan,Qyzylorda,2,0,2,0,0
+2020-11-12,KAZ,Kazakhstan,South Kazakhstan,6,0,6,0,0
+2020-11-12,KAZ,Kazakhstan,West Kazakhstan,7,0,7,4,0
+2020-11-12,KAZ,Kazakhstan,Zhambyl,2,0,2,0,0
+2020-11-12,KEN,Kenya,-99,20,0,17,6,1
 2020-11-12,KEN,Kenya,Baringo,1,0,1,0,0
 2020-11-12,KEN,Kenya,Bomet,4,0,4,2,0
 2020-11-12,KEN,Kenya,Bungoma,6,0,6,9,1
-2020-11-12,KEN,Kenya,Busia,1,0,1,0,0
+2020-11-12,KEN,Kenya,Busia,3,1,3,2,1
 2020-11-12,KEN,Kenya,Elgeyo-Marakwet,2,0,2,0,0
-2020-11-12,KEN,Kenya,Embu,2,0,2,0,2
+2020-11-12,KEN,Kenya,Embu,4,0,4,1,2
 2020-11-12,KEN,Kenya,Garissa,2,0,2,0,0
-2020-11-12,KEN,Kenya,Homa Bay,7,1,7,8,0
+2020-11-12,KEN,Kenya,Homa Bay,11,1,11,16,0
 2020-11-12,KEN,Kenya,Isiolo,2,1,2,5,1
-2020-11-12,KEN,Kenya,Kajiado,5,0,5,0,0
+2020-11-12,KEN,Kenya,Kajiado,8,0,8,0,0
 2020-11-12,KEN,Kenya,Kakamega,6,1,6,5,1
 2020-11-12,KEN,Kenya,Kericho,4,1,4,3,2
-2020-11-12,KEN,Kenya,Kiambu,21,1,21,11,1
-2020-11-12,KEN,Kenya,Kilifi,4,0,4,0,0
+2020-11-12,KEN,Kenya,Kiambu,27,3,27,14,1
+2020-11-12,KEN,Kenya,Kilifi,5,0,5,0,0
 2020-11-12,KEN,Kenya,Kirinyaga,2,0,2,3,0
-2020-11-12,KEN,Kenya,Kisii,6,0,6,0,0
-2020-11-12,KEN,Kenya,Kisumu,6,0,6,1,0
+2020-11-12,KEN,Kenya,Kisii,12,0,12,0,0
+2020-11-12,KEN,Kenya,Kisumu,7,0,7,1,0
 2020-11-12,KEN,Kenya,Kitui,2,0,2,0,1
 2020-11-12,KEN,Kenya,Kwale,1,0,1,0,0
 2020-11-12,KEN,Kenya,Laikipia,2,0,2,0,0
-2020-11-12,KEN,Kenya,Lamu,1,0,1,0,0
-2020-11-12,KEN,Kenya,Machakos,7,0,7,1,0
-2020-11-12,KEN,Kenya,Makueni,4,1,4,3,1
+2020-11-12,KEN,Kenya,Lamu,3,0,3,0,0
+2020-11-12,KEN,Kenya,Machakos,9,1,9,1,0
+2020-11-12,KEN,Kenya,Makueni,5,1,5,3,1
 2020-11-12,KEN,Kenya,Mandera,2,0,2,0,0
 2020-11-12,KEN,Kenya,Marsabit,3,0,3,0,1
-2020-11-12,KEN,Kenya,Meru,6,0,6,0,0
+2020-11-12,KEN,Kenya,Meru,7,0,7,0,0
 2020-11-12,KEN,Kenya,Migori,2,0,2,3,1
-2020-11-12,KEN,Kenya,Mombasa,11,0,11,4,1
+2020-11-12,KEN,Kenya,Mombasa,13,0,13,4,1
 2020-11-12,KEN,Kenya,Murang'a,3,0,3,5,0
-2020-11-12,KEN,Kenya,Nairobi,76,3,76,36,6
-2020-11-12,KEN,Kenya,Nakuru,11,1,11,3,0
-2020-11-12,KEN,Kenya,Nandi,2,0,2,0,0
-2020-11-12,KEN,Kenya,Narok,5,1,5,6,0
+2020-11-12,KEN,Kenya,Nairobi,92,4,92,41,8
+2020-11-12,KEN,Kenya,Nakuru,13,2,13,3,0
+2020-11-12,KEN,Kenya,Nandi,4,1,4,0,1
+2020-11-12,KEN,Kenya,Narok,6,1,6,8,0
+2020-11-12,KEN,Kenya,Nyamira,1,0,1,0,0
 2020-11-12,KEN,Kenya,Nyandarua,2,1,2,0,0
-2020-11-12,KEN,Kenya,Nyeri,5,0,5,2,0
+2020-11-12,KEN,Kenya,Nyeri,7,0,7,3,0
 2020-11-12,KEN,Kenya,Samburu,1,0,1,0,0
 2020-11-12,KEN,Kenya,Siaya,7,0,7,5,1
-2020-11-12,KEN,Kenya,Taita Taveta,1,0,1,0,0
+2020-11-12,KEN,Kenya,Taita Taveta,2,0,2,0,0
 2020-11-12,KEN,Kenya,Tana River,1,0,1,0,0
 2020-11-12,KEN,Kenya,Tharaka-Nithi,1,0,1,0,0
 2020-11-12,KEN,Kenya,Trans Nzoia,3,1,3,3,0
-2020-11-12,KEN,Kenya,Turkana,2,0,2,0,0
-2020-11-12,KEN,Kenya,Uasin Gishu,10,0,10,2,1
+2020-11-12,KEN,Kenya,Turkana,3,0,3,0,1
+2020-11-12,KEN,Kenya,Uasin Gishu,14,1,14,2,2
 2020-11-12,KEN,Kenya,Vihiga,1,0,1,0,1
 2020-11-12,KEN,Kenya,Wajir,3,0,3,0,0
-2020-11-12,KWT,Kuwait,-99,1,0,1,0,0
-2020-11-12,KWT,Kuwait,Al Ahmadi,4,0,4,0,0
-2020-11-12,KWT,Kuwait,Al Farwaniyah,9,1,9,2,1
-2020-11-12,KWT,Kuwait,Al Jahrah,3,0,3,0,0
-2020-11-12,KWT,Kuwait,Al Kuwayt,2,0,2,2,0
+2020-11-12,KWT,Kuwait,-99,4,0,2,1,0
+2020-11-12,KWT,Kuwait,Al Ahmadi,5,0,5,0,0
+2020-11-12,KWT,Kuwait,Al Farwaniyah,13,2,13,3,2
+2020-11-12,KWT,Kuwait,Al Jahrah,4,0,4,0,0
+2020-11-12,KWT,Kuwait,Al Kuwayt,3,0,3,2,0
 2020-11-12,KWT,Kuwait,Hawalli,13,1,13,2,1
 2020-11-12,KWT,Kuwait,Mubarak Al-Kabeer,1,0,1,0,0
-2020-11-12,KGZ,Kyrgyzstan,-99,3,0,3,1,1
-2020-11-12,KGZ,Kyrgyzstan,Batken,3,0,3,4,0
-2020-11-12,KGZ,Kyrgyzstan,Biškek,26,0,26,21,3
-2020-11-12,KGZ,Kyrgyzstan,Chüy,3,0,3,1,0
+2020-11-12,KGZ,Kyrgyzstan,-99,6,1,4,2,1
+2020-11-12,KGZ,Kyrgyzstan,Batken,5,0,5,4,0
+2020-11-12,KGZ,Kyrgyzstan,Biškek,33,1,33,27,3
+2020-11-12,KGZ,Kyrgyzstan,Chüy,4,0,4,1,0
 2020-11-12,KGZ,Kyrgyzstan,Jalal-Abad,2,0,2,4,1
 2020-11-12,KGZ,Kyrgyzstan,Naryn,3,0,3,8,0
-2020-11-12,KGZ,Kyrgyzstan,Osh,2,0,2,2,0
+2020-11-12,KGZ,Kyrgyzstan,Osh,4,0,4,2,0
 2020-11-12,KGZ,Kyrgyzstan,Osh (city),1,0,1,0,1
 2020-11-12,KGZ,Kyrgyzstan,Talas,1,0,1,0,0
 2020-11-12,KGZ,Kyrgyzstan,Ysyk-Köl,3,0,3,1,0
-2020-11-12,LAO,Laos,-99,2,0,2,0,0
+2020-11-12,LAO,Laos,-99,3,0,3,0,0
 2020-11-12,LAO,Laos,Attapu,1,0,1,0,0
 2020-11-12,LAO,Laos,Louangphrabang,1,0,1,0,0
+2020-11-12,LAO,Laos,Oudômxai,1,0,1,0,0
 2020-11-12,LAO,Laos,Savannakhét,1,0,1,0,0
-2020-11-12,LAO,Laos,Vientiane,2,0,2,0,1
+2020-11-12,LAO,Laos,Vientiane,3,0,3,0,1
 2020-11-12,LAO,Laos,Vientiane [prefecture],3,0,3,2,0
 2020-11-12,LVA,Latvia,Riga,1,0,1,0,0
-2020-11-12,LBN,Lebanon,-99,1,0,1,0,0
-2020-11-12,LBN,Lebanon,Akkar,4,1,4,3,0
+2020-11-12,LVA,Latvia,Zemgale,1,0,1,0,0
+2020-11-12,LBN,Lebanon,-99,8,0,5,2,0
+2020-11-12,LBN,Lebanon,Akkar,5,1,5,3,0
 2020-11-12,LBN,Lebanon,Baalbak - Hermel,1,0,1,0,0
-2020-11-12,LBN,Lebanon,Beirut,26,2,26,36,4
-2020-11-12,LBN,Lebanon,Bekaa,6,0,6,18,1
-2020-11-12,LBN,Lebanon,Mount Lebanon,24,0,24,23,0
-2020-11-12,LBN,Lebanon,Nabatiyeh,3,0,3,0,0
+2020-11-12,LBN,Lebanon,Beirut,28,2,28,36,4
+2020-11-12,LBN,Lebanon,Bekaa,8,0,8,19,1
+2020-11-12,LBN,Lebanon,Mount Lebanon,27,0,27,23,0
+2020-11-12,LBN,Lebanon,Nabatiyeh,4,0,4,0,0
 2020-11-12,LBN,Lebanon,North,7,0,7,3,0
-2020-11-12,LBN,Lebanon,South,9,1,9,3,1
-2020-11-12,LBY,Libya,-99,7,1,7,44,1
+2020-11-12,LBN,Lebanon,South,12,1,12,3,1
+2020-11-12,LBY,Libya,-99,17,2,17,53,1
 2020-11-12,LBY,Libya,Al Butnan,4,0,4,2,0
 2020-11-12,LBY,Libya,Al Jabal al Akhdar,1,0,1,0,0
-2020-11-12,LBY,Libya,Al Jabal al Gharbi,5,0,5,8,0
+2020-11-12,LBY,Libya,Al Jabal al Gharbi,6,0,6,8,0
 2020-11-12,LBY,Libya,Al Jifarah,1,0,1,0,0
 2020-11-12,LBY,Libya,Al Jufrah,2,0,2,1,0
-2020-11-12,LBY,Libya,Al Kufrah,1,0,1,0,0
+2020-11-12,LBY,Libya,Al Kufrah,2,0,2,0,0
 2020-11-12,LBY,Libya,Al Marj,2,1,2,0,0
-2020-11-12,LBY,Libya,Al Marqab,1,0,1,5,0
+2020-11-12,LBY,Libya,Al Marqab,3,0,3,7,0
 2020-11-12,LBY,Libya,An Nuqat al Khams,1,0,1,4,0
-2020-11-12,LBY,Libya,Az Zawiyah,7,1,7,78,2
-2020-11-12,LBY,Libya,Benghazi,18,1,18,27,3
+2020-11-12,LBY,Libya,Az Zawiyah,9,1,9,79,2
+2020-11-12,LBY,Libya,Benghazi,21,1,21,27,3
 2020-11-12,LBY,Libya,Darnah,1,0,1,1,0
-2020-11-12,LBY,Libya,Misratah,6,0,6,44,1
+2020-11-12,LBY,Libya,Misratah,8,0,7,44,2
 2020-11-12,LBY,Libya,Sabha,2,0,2,0,0
 2020-11-12,LBY,Libya,Surt,1,0,1,5,0
-2020-11-12,LBY,Libya,Tripoli,34,1,34,57,1
-2020-11-12,LBY,Libya,Wadi ash Shati',1,0,1,1,0
+2020-11-12,LBY,Libya,Tripoli,49,1,49,80,3
+2020-11-12,LBY,Libya,Wadi ash Shati',2,0,2,1,0
 2020-11-12,LIE,Liechtenstein,Schaan,1,0,1,0,0
 2020-11-12,LTU,Lithuania,Vilniaus,1,0,1,0,0
 2020-11-12,LUX,Luxembourg,Diekirch,1,0,1,1,0
+2020-11-12,LUX,Luxembourg,Echternach,1,0,1,0,0
 2020-11-12,LUX,Luxembourg,Luxembourg,1,0,1,1,0
 2020-11-12,MAC,Macau,-99,1,0,1,0,0
-2020-11-12,MDG,Madagascar,Analamanga,7,0,7,0,0
+2020-11-12,MDG,Madagascar,Analamanga,8,0,8,0,0
 2020-11-12,MDG,Madagascar,Bongolava,1,0,1,0,0
-2020-11-12,MYS,Malaysia,-99,4,0,3,0,0
-2020-11-12,MYS,Malaysia,Johor,44,0,44,3,0
-2020-11-12,MYS,Malaysia,Kedah,17,0,17,3,2
-2020-11-12,MYS,Malaysia,Kelantan,7,0,7,0,0
-2020-11-12,MYS,Malaysia,Kuala Lumpur,52,1,52,0,0
+2020-11-12,MYS,Malaysia,-99,15,0,11,1,0
+2020-11-12,MYS,Malaysia,Johor,65,0,65,3,0
+2020-11-12,MYS,Malaysia,Kedah,19,0,19,3,2
+2020-11-12,MYS,Malaysia,Kelantan,10,0,10,0,0
+2020-11-12,MYS,Malaysia,Kuala Lumpur,65,2,65,0,1
 2020-11-12,MYS,Malaysia,Labuan,2,0,2,0,0
-2020-11-12,MYS,Malaysia,Melaka,10,0,10,1,0
-2020-11-12,MYS,Malaysia,Negeri Sembilan,11,0,11,1,1
-2020-11-12,MYS,Malaysia,Pahang,14,0,14,0,0
-2020-11-12,MYS,Malaysia,Perak,19,0,19,101,0
-2020-11-12,MYS,Malaysia,Perlis,2,0,2,0,0
-2020-11-12,MYS,Malaysia,Pulau Pinang,22,0,22,0,1
-2020-11-12,MYS,Malaysia,Sabah,21,0,21,4,1
-2020-11-12,MYS,Malaysia,Sarawak,22,0,22,0,2
-2020-11-12,MYS,Malaysia,Selangor,75,2,75,5,1
-2020-11-12,MYS,Malaysia,Terengganu,9,0,9,0,0
+2020-11-12,MYS,Malaysia,Melaka,14,0,14,1,0
+2020-11-12,MYS,Malaysia,Negeri Sembilan,17,0,17,1,1
+2020-11-12,MYS,Malaysia,Pahang,19,0,19,0,0
+2020-11-12,MYS,Malaysia,Perak,26,0,26,101,0
+2020-11-12,MYS,Malaysia,Perlis,3,0,3,0,0
+2020-11-12,MYS,Malaysia,Pulau Pinang,28,0,28,0,1
+2020-11-12,MYS,Malaysia,Sabah,34,0,34,10,1
+2020-11-12,MYS,Malaysia,Sarawak,32,1,32,100,2
+2020-11-12,MYS,Malaysia,Selangor,93,2,93,7,1
+2020-11-12,MYS,Malaysia,Terengganu,16,0,16,0,0
 2020-11-12,MDV,Maldives,North Province,1,0,1,0,0
-2020-11-12,MLI,Mali,-99,2,0,2,0,0
-2020-11-12,MLI,Mali,Bamako,6,2,6,6,2
-2020-11-12,MLI,Mali,Kayes,1,0,1,0,0
-2020-11-12,MLI,Mali,Mopti,2,0,2,0,0
-2020-11-12,MLT,Malta,Nofsinhar,1,0,1,0,0
+2020-11-12,MLI,Mali,-99,4,0,3,0,0
+2020-11-12,MLI,Mali,Bamako,10,2,10,10,2
+2020-11-12,MLI,Mali,Kayes,2,0,2,0,0
+2020-11-12,MLI,Mali,Mopti,3,0,3,0,0
+2020-11-12,MLI,Mali,Ségou,1,0,1,0,0
+2020-11-12,MLI,Mali,Sikasso,1,0,1,0,0
+2020-11-12,MLT,Malta,Nofsinhar,2,0,2,0,0
 2020-11-12,MTQ,Martinique,-99,1,0,1,0,0
+2020-11-12,MRT,Mauritania,-99,1,0,0,0,0
 2020-11-12,MRT,Mauritania,Dakhlet Nouadhibou,1,0,1,0,0
-2020-11-12,MRT,Mauritania,Nouakchott,5,1,5,2,1
+2020-11-12,MRT,Mauritania,Nouakchott,8,1,8,2,1
 2020-11-12,MRT,Mauritania,Tiris Zemmour,1,0,1,0,0
 2020-11-12,MRT,Mauritania,Trarza,1,0,1,6,0
-2020-11-12,MEX,Mexico,-99,47,0,47,32,2
-2020-11-12,MEX,Mexico,Aguascalientes,74,1,73,110,9
-2020-11-12,MEX,Mexico,Baja California,179,3,179,115,9
-2020-11-12,MEX,Mexico,Baja California Sur,42,0,42,39,0
-2020-11-12,MEX,Mexico,Campeche,26,1,26,12,1
-2020-11-12,MEX,Mexico,Chiapas,54,2,54,52,2
-2020-11-12,MEX,Mexico,Chihuahua,203,9,203,409,27
-2020-11-12,MEX,Mexico,Coahuila,146,6,146,298,15
-2020-11-12,MEX,Mexico,Colima,27,0,27,41,1
-2020-11-12,MEX,Mexico,Distrito Federal,379,5,379,334,19
-2020-11-12,MEX,Mexico,Durango,95,4,95,191,9
-2020-11-12,MEX,Mexico,Guanajuato,165,4,165,212,9
-2020-11-12,MEX,Mexico,Guerrero,42,3,42,54,3
-2020-11-12,MEX,Mexico,Hidalgo,94,2,94,92,6
-2020-11-12,MEX,Mexico,Jalisco,173,6,173,183,9
-2020-11-12,MEX,Mexico,México,334,6,334,299,24
-2020-11-12,MEX,Mexico,Michoacán,95,2,95,62,9
-2020-11-12,MEX,Mexico,Morelos,56,1,56,27,3
-2020-11-12,MEX,Mexico,Nayarit,32,0,32,11,0
-2020-11-12,MEX,Mexico,Nuevo León,221,4,221,240,13
-2020-11-12,MEX,Mexico,Oaxaca,55,1,55,56,4
-2020-11-12,MEX,Mexico,Puebla,161,0,161,200,4
-2020-11-12,MEX,Mexico,Querétaro,136,1,136,123,8
-2020-11-12,MEX,Mexico,Quintana Roo,64,0,64,20,1
-2020-11-12,MEX,Mexico,San Luis Potosí,72,3,72,55,7
-2020-11-12,MEX,Mexico,Sinaloa,86,4,86,75,3
-2020-11-12,MEX,Mexico,Sonora,88,3,88,65,6
-2020-11-12,MEX,Mexico,Tabasco,46,1,46,24,5
-2020-11-12,MEX,Mexico,Tamaulipas,98,2,98,86,6
-2020-11-12,MEX,Mexico,Tlaxcala,26,0,26,10,0
-2020-11-12,MEX,Mexico,Veracruz,149,2,149,86,6
-2020-11-12,MEX,Mexico,Yucatán,73,1,73,24,2
-2020-11-12,MEX,Mexico,Zacatecas,50,1,50,84,8
-2020-11-12,MDA,Moldova,-99,1,0,1,0,0
+2020-11-12,MEX,Mexico,-99,165,9,121,76,12
+2020-11-12,MEX,Mexico,Aguascalientes,87,2,86,123,10
+2020-11-12,MEX,Mexico,Baja California,212,3,212,124,10
+2020-11-12,MEX,Mexico,Baja California Sur,47,0,47,43,0
+2020-11-12,MEX,Mexico,Campeche,30,1,30,12,1
+2020-11-12,MEX,Mexico,Chiapas,66,2,66,69,2
+2020-11-12,MEX,Mexico,Chihuahua,250,10,250,469,30
+2020-11-12,MEX,Mexico,Coahuila,180,9,180,352,22
+2020-11-12,MEX,Mexico,Colima,35,0,35,41,1
+2020-11-12,MEX,Mexico,Distrito Federal,450,8,450,373,23
+2020-11-12,MEX,Mexico,Durango,113,4,113,203,11
+2020-11-12,MEX,Mexico,Guanajuato,190,5,190,233,10
+2020-11-12,MEX,Mexico,Guerrero,51,3,51,65,3
+2020-11-12,MEX,Mexico,Hidalgo,111,3,111,103,8
+2020-11-12,MEX,Mexico,Jalisco,215,7,215,198,14
+2020-11-12,MEX,Mexico,México,423,8,423,406,27
+2020-11-12,MEX,Mexico,Michoacán,118,2,118,75,10
+2020-11-12,MEX,Mexico,Morelos,70,1,70,28,3
+2020-11-12,MEX,Mexico,Nayarit,37,0,37,12,0
+2020-11-12,MEX,Mexico,Nuevo León,276,5,276,292,17
+2020-11-12,MEX,Mexico,Oaxaca,72,1,72,60,5
+2020-11-12,MEX,Mexico,Puebla,183,1,183,211,5
+2020-11-12,MEX,Mexico,Querétaro,157,1,157,132,8
+2020-11-12,MEX,Mexico,Quintana Roo,78,1,78,26,2
+2020-11-12,MEX,Mexico,San Luis Potosí,89,3,89,68,8
+2020-11-12,MEX,Mexico,Sinaloa,102,4,102,82,6
+2020-11-12,MEX,Mexico,Sonora,113,3,113,75,6
+2020-11-12,MEX,Mexico,Tabasco,60,1,60,36,5
+2020-11-12,MEX,Mexico,Tamaulipas,119,3,119,94,8
+2020-11-12,MEX,Mexico,Tlaxcala,33,0,33,13,0
+2020-11-12,MEX,Mexico,Veracruz,189,4,189,99,7
+2020-11-12,MEX,Mexico,Yucatán,92,2,92,61,3
+2020-11-12,MEX,Mexico,Zacatecas,64,1,64,95,11
+2020-11-12,MDA,Moldova,-99,8,2,7,19,2
+2020-11-12,MDA,Moldova,Ştefan Voda,1,0,1,4,0
+2020-11-12,MDA,Moldova,Anenii Noi,1,0,1,0,0
 2020-11-12,MDA,Moldova,Bălţi,5,0,5,3,0
 2020-11-12,MDA,Moldova,Bender,2,0,2,3,0
-2020-11-12,MDA,Moldova,Cahul,2,0,2,0,1
-2020-11-12,MDA,Moldova,Calarasi,1,0,1,5,0
-2020-11-12,MDA,Moldova,Chişinău,30,1,30,17,4
+2020-11-12,MDA,Moldova,Cahul,4,0,4,0,1
+2020-11-12,MDA,Moldova,Calarasi,2,0,1,5,0
+2020-11-12,MDA,Moldova,Chişinău,33,1,33,20,5
 2020-11-12,MDA,Moldova,Criuleni,1,0,1,0,0
 2020-11-12,MDA,Moldova,Dubăsari,1,0,1,0,0
 2020-11-12,MDA,Moldova,Găgăuzia,1,0,1,0,0
-2020-11-12,MDA,Moldova,Hîncesti,2,0,2,0,0
-2020-11-12,MDA,Moldova,Orhei,1,0,1,0,0
-2020-11-12,MDA,Moldova,Rezina,1,0,1,0,0
-2020-11-12,MDA,Moldova,Rîşcani,1,0,1,0,0
-2020-11-12,MDA,Moldova,Ştefan Voda,1,0,1,4,0
-2020-11-12,MCO,Monaco,-99,2,0,2,0,0
-2020-11-12,MAR,Morocco,Béni Mellal-Khénifra,3,0,3,1,0
-2020-11-12,MAR,Morocco,Casablanca-Settat,41,2,41,29,6
+2020-11-12,MDA,Moldova,Hîncesti,3,0,3,0,0
+2020-11-12,MDA,Moldova,Orhei,2,0,1,0,1
+2020-11-12,MDA,Moldova,Rîşcani,2,0,2,1,0
+2020-11-12,MDA,Moldova,Rezina,2,0,2,0,0
+2020-11-12,MDA,Moldova,Soroca,1,0,1,0,0
+2020-11-12,MCO,Monaco,-99,3,0,3,0,0
+2020-11-12,MAR,Morocco,-99,11,2,5,8,3
+2020-11-12,MAR,Morocco,Béni Mellal-Khénifra,7,0,7,16,0
+2020-11-12,MAR,Morocco,Casablanca-Settat,63,3,63,41,7
 2020-11-12,MAR,Morocco,Drâa-Tafilalet,5,0,5,0,0
-2020-11-12,MAR,Morocco,Fès-Meknès,8,2,8,16,2
-2020-11-12,MAR,Morocco,Laâyoune-Sakia El Hamra,2,1,2,102,1
-2020-11-12,MAR,Morocco,Marrakesh-Safi,15,3,15,12,2
-2020-11-12,MAR,Morocco,Oriental,5,0,5,11,0
-2020-11-12,MAR,Morocco,Rabat-Salé-Kénitra,19,2,19,17,5
-2020-11-12,MAR,Morocco,Souss-Massa,9,1,9,13,0
-2020-11-12,MAR,Morocco,Tanger-Tetouan-Al Hoceima,6,0,6,10,0
-2020-11-12,MOZ,Mozambique,-99,3,0,3,0,0
-2020-11-12,MOZ,Mozambique,Gaza,2,0,2,0,0
+2020-11-12,MAR,Morocco,Fès-Meknès,14,2,14,18,3
+2020-11-12,MAR,Morocco,Laâyoune-Sakia El Hamra,3,1,3,104,1
+2020-11-12,MAR,Morocco,Marrakesh-Safi,20,3,20,16,2
+2020-11-12,MAR,Morocco,Oriental,11,0,11,18,0
+2020-11-12,MAR,Morocco,Rabat-Salé-Kénitra,35,4,34,145,10
+2020-11-12,MAR,Morocco,Souss-Massa,16,1,16,14,0
+2020-11-12,MAR,Morocco,Tanger-Tetouan-Al Hoceima,14,1,14,13,2
+2020-11-12,MOZ,Mozambique,-99,8,1,8,2,1
+2020-11-12,MOZ,Mozambique,Gaza,5,0,5,1,0
 2020-11-12,MOZ,Mozambique,Inhambane,2,0,2,100,0
 2020-11-12,MOZ,Mozambique,Manica,1,0,1,0,0
-2020-11-12,MOZ,Mozambique,Maputo,8,0,7,6,0
-2020-11-12,MOZ,Mozambique,Maputo City,5,1,5,0,1
-2020-11-12,MOZ,Mozambique,Nampula,1,0,1,0,0
+2020-11-12,MOZ,Mozambique,Maputo,14,0,13,8,0
+2020-11-12,MOZ,Mozambique,Maputo City,9,1,9,0,2
+2020-11-12,MOZ,Mozambique,Nampula,2,0,2,0,0
 2020-11-12,MOZ,Mozambique,Niassa,1,0,1,0,0
-2020-11-12,MOZ,Mozambique,Sofala,2,0,2,0,0
-2020-11-12,MOZ,Mozambique,Zambezia,2,0,2,1,0
-2020-11-12,MMR,Myanmar,-99,6,0,6,5,0
-2020-11-12,MMR,Myanmar,Ayeyarwady,2,0,2,5,0
-2020-11-12,MMR,Myanmar,Bago,9,1,9,3,0
-2020-11-12,MMR,Myanmar,Kachin,7,0,7,0,0
+2020-11-12,MOZ,Mozambique,Sofala,5,0,5,0,0
+2020-11-12,MOZ,Mozambique,Zambezia,4,1,4,6,1
+2020-11-12,MMR,Myanmar,-99,20,4,16,130,5
+2020-11-12,MMR,Myanmar,Ayeyarwady,7,0,7,5,0
+2020-11-12,MMR,Myanmar,Bago,14,1,14,4,0
+2020-11-12,MMR,Myanmar,Kachin,8,0,8,0,0
 2020-11-12,MMR,Myanmar,Kayah,2,0,2,1,0
-2020-11-12,MMR,Myanmar,Kayin,1,0,1,0,0
-2020-11-12,MMR,Myanmar,Magway,4,0,4,0,0
-2020-11-12,MMR,Myanmar,Mandalay,24,1,23,0,0
+2020-11-12,MMR,Myanmar,Kayin,2,0,2,0,0
+2020-11-12,MMR,Myanmar,Magway,8,0,8,1,0
+2020-11-12,MMR,Myanmar,Mandalay,30,3,29,3,2
 2020-11-12,MMR,Myanmar,Mon,1,0,1,0,0
 2020-11-12,MMR,Myanmar,Naypyitaw,7,0,7,100,0
 2020-11-12,MMR,Myanmar,Rakhine,2,0,2,3,0
-2020-11-12,MMR,Myanmar,Sagaing,6,0,6,0,0
-2020-11-12,MMR,Myanmar,Shan,10,1,10,2,1
-2020-11-12,MMR,Myanmar,Tanintharyi,4,0,4,0,0
-2020-11-12,MMR,Myanmar,Yangon,63,2,63,37,1
+2020-11-12,MMR,Myanmar,Sagaing,8,0,8,0,0
+2020-11-12,MMR,Myanmar,Shan,11,1,11,2,1
+2020-11-12,MMR,Myanmar,Tanintharyi,5,0,5,0,0
+2020-11-12,MMR,Myanmar,Yangon,79,2,79,48,1
 2020-11-12,NAM,Namibia,-99,1,0,1,0,1
-2020-11-12,NPL,Nepal,-99,4,0,4,3,1
-2020-11-12,NPL,Nepal,Bagmati Pradesh,76,3,76,75,9
-2020-11-12,NPL,Nepal,Gandaki Pradesh,17,0,17,35,0
-2020-11-12,NPL,Nepal,Karnali Pradesh,2,0,2,4,0
-2020-11-12,NPL,Nepal,Province No. 1,23,1,23,111,1
-2020-11-12,NPL,Nepal,Province No. 2,8,0,8,2,1
-2020-11-12,NPL,Nepal,Province No. 5,12,0,12,7,2
-2020-11-12,NPL,Nepal,Sudurpashchim Pradesh,6,0,6,4,0
-2020-11-12,NLD,Netherlands,-99,25,0,25,20,1
-2020-11-12,NLD,Netherlands,Drenthe,12,0,12,2,0
-2020-11-12,NLD,Netherlands,Flevoland,11,1,11,5,2
-2020-11-12,NLD,Netherlands,Friesland,18,0,18,10,0
-2020-11-12,NLD,Netherlands,Gelderland,58,1,58,13,2
-2020-11-12,NLD,Netherlands,Groningen,16,0,16,1,0
-2020-11-12,NLD,Netherlands,Limburg,32,0,32,8,1
-2020-11-12,NLD,Netherlands,Noord-Brabant,70,1,70,135,4
-2020-11-12,NLD,Netherlands,Noord-Holland,87,0,87,18,4
-2020-11-12,NLD,Netherlands,Overijssel,37,0,37,19,1
-2020-11-12,NLD,Netherlands,Utrecht,42,0,42,22,0
-2020-11-12,NLD,Netherlands,Zeeland,11,0,11,101,0
-2020-11-12,NLD,Netherlands,Zuid-Holland,107,1,107,57,3
-2020-11-12,NZL,New Zealand,-99,8,0,8,1,0
-2020-11-12,NZL,New Zealand,Auckland,87,2,87,7,2
-2020-11-12,NZL,New Zealand,Bay of Plenty,12,1,12,12,0
-2020-11-12,NZL,New Zealand,Canterbury,34,2,34,3,1
+2020-11-12,NPL,Nepal,-99,12,1,9,21,3
+2020-11-12,NPL,Nepal,Bagmati Pradesh,106,5,106,122,10
+2020-11-12,NPL,Nepal,Gandaki Pradesh,20,0,20,36,0
+2020-11-12,NPL,Nepal,Karnali Pradesh,3,0,3,4,0
+2020-11-12,NPL,Nepal,Province No. 1,28,3,27,115,1
+2020-11-12,NPL,Nepal,Province No. 2,13,0,13,11,2
+2020-11-12,NPL,Nepal,Province No. 5,19,0,19,7,2
+2020-11-12,NPL,Nepal,Sudurpashchim Pradesh,7,0,7,4,0
+2020-11-12,NLD,Netherlands,-99,40,0,36,23,1
+2020-11-12,NLD,Netherlands,Drenthe,17,0,17,2,0
+2020-11-12,NLD,Netherlands,Flevoland,12,1,12,9,2
+2020-11-12,NLD,Netherlands,Friesland,22,0,22,13,0
+2020-11-12,NLD,Netherlands,Gelderland,67,1,67,18,2
+2020-11-12,NLD,Netherlands,Groningen,19,0,19,5,1
+2020-11-12,NLD,Netherlands,Limburg,36,0,36,8,1
+2020-11-12,NLD,Netherlands,Noord-Brabant,82,2,82,148,5
+2020-11-12,NLD,Netherlands,Noord-Holland,113,2,113,21,5
+2020-11-12,NLD,Netherlands,Overijssel,43,0,43,21,1
+2020-11-12,NLD,Netherlands,Utrecht,49,0,49,23,0
+2020-11-12,NLD,Netherlands,Zeeland,13,0,13,103,1
+2020-11-12,NLD,Netherlands,Zuid-Holland,128,2,128,64,7
+2020-11-12,NZL,New Zealand,-99,14,0,13,2,1
+2020-11-12,NZL,New Zealand,Auckland,100,2,100,17,2
+2020-11-12,NZL,New Zealand,Bay of Plenty,16,1,16,12,0
+2020-11-12,NZL,New Zealand,Canterbury,38,2,38,3,1
 2020-11-12,NZL,New Zealand,Gisborne,5,0,5,1,1
-2020-11-12,NZL,New Zealand,Hawke's Bay,8,0,8,0,0
-2020-11-12,NZL,New Zealand,Manawatu-Wanganui,11,1,11,0,1
-2020-11-12,NZL,New Zealand,Marlborough,3,0,3,0,0
+2020-11-12,NZL,New Zealand,Hawke's Bay,10,0,10,0,0
+2020-11-12,NZL,New Zealand,Manawatu-Wanganui,14,1,14,0,1
+2020-11-12,NZL,New Zealand,Marlborough,4,0,4,0,0
 2020-11-12,NZL,New Zealand,Nelson,4,0,4,0,0
-2020-11-12,NZL,New Zealand,Northland,10,1,10,0,1
-2020-11-12,NZL,New Zealand,Otago,9,0,9,2,1
+2020-11-12,NZL,New Zealand,Northland,12,1,12,0,1
+2020-11-12,NZL,New Zealand,Otago,12,0,12,2,1
 2020-11-12,NZL,New Zealand,Southland,4,0,4,5,0
-2020-11-12,NZL,New Zealand,Taranaki,9,1,9,5,1
+2020-11-12,NZL,New Zealand,Taranaki,10,1,10,5,1
 2020-11-12,NZL,New Zealand,Tasman,5,0,5,0,0
-2020-11-12,NZL,New Zealand,Waikato,19,0,19,12,0
-2020-11-12,NZL,New Zealand,Wellington,35,1,35,1,2
+2020-11-12,NZL,New Zealand,Waikato,24,0,24,12,1
+2020-11-12,NZL,New Zealand,Wellington,37,1,37,1,2
 2020-11-12,NZL,New Zealand,West Coast,3,0,3,0,1
-2020-11-12,NIC,Nicaragua,-99,7,0,7,0,1
+2020-11-12,NIC,Nicaragua,-99,15,1,14,2,2
 2020-11-12,NIC,Nicaragua,Atlántico Norte,3,0,3,0,0
-2020-11-12,NIC,Nicaragua,Atlántico Sur,2,0,2,0,0
-2020-11-12,NIC,Nicaragua,Boaco,1,0,1,0,0
+2020-11-12,NIC,Nicaragua,Atlántico Sur,3,0,3,0,0
+2020-11-12,NIC,Nicaragua,Boaco,2,0,2,0,0
 2020-11-12,NIC,Nicaragua,Carazo,3,0,3,0,0
-2020-11-12,NIC,Nicaragua,Chinandega,4,0,4,0,0
-2020-11-12,NIC,Nicaragua,Chontales,1,0,1,0,0
+2020-11-12,NIC,Nicaragua,Chinandega,7,0,7,1,0
+2020-11-12,NIC,Nicaragua,Chontales,2,0,2,0,0
 2020-11-12,NIC,Nicaragua,Estelí,6,0,6,2,0
-2020-11-12,NIC,Nicaragua,Granada,2,0,2,0,0
+2020-11-12,NIC,Nicaragua,Granada,3,0,3,1,0
 2020-11-12,NIC,Nicaragua,Jinotega,5,0,5,0,0
-2020-11-12,NIC,Nicaragua,León,6,0,6,1,1
-2020-11-12,NIC,Nicaragua,Managua,39,2,39,93,4
-2020-11-12,NIC,Nicaragua,Masaya,2,0,2,0,0
+2020-11-12,NIC,Nicaragua,León,10,1,10,2,1
+2020-11-12,NIC,Nicaragua,Managua,55,2,55,99,7
+2020-11-12,NIC,Nicaragua,Masaya,6,0,6,0,0
 2020-11-12,NIC,Nicaragua,Matagalpa,2,0,2,0,1
 2020-11-12,NIC,Nicaragua,Nueva Segovia,2,0,2,0,0
 2020-11-12,NIC,Nicaragua,Rivas,4,0,4,5,0
 2020-11-12,NER,Niger,Dosso,1,0,1,0,0
-2020-11-12,NGA,Nigeria,-99,4,0,4,1,0
-2020-11-12,NGA,Nigeria,Adamawa,3,0,3,1,0
+2020-11-12,NGA,Nigeria,-99,25,2,18,16,2
+2020-11-12,NGA,Nigeria,Adamawa,5,0,5,2,0
 2020-11-12,NGA,Nigeria,Akwa Ibom,4,0,4,0,0
-2020-11-12,NGA,Nigeria,Anambra,8,0,8,0,1
+2020-11-12,NGA,Nigeria,Anambra,9,0,9,0,1
 2020-11-12,NGA,Nigeria,Bauchi,1,0,1,0,0
 2020-11-12,NGA,Nigeria,Bayelsa,1,1,1,0,1
-2020-11-12,NGA,Nigeria,Benue,6,0,6,3,0
-2020-11-12,NGA,Nigeria,Borno,9,0,9,19,0
-2020-11-12,NGA,Nigeria,Cross River,4,0,4,6,0
-2020-11-12,NGA,Nigeria,Delta,8,2,8,43,1
-2020-11-12,NGA,Nigeria,Edo,6,0,6,0,0
-2020-11-12,NGA,Nigeria,Enugu,4,0,4,2,1
-2020-11-12,NGA,Nigeria,Federal Capital Territory,18,0,18,4,0
+2020-11-12,NGA,Nigeria,Benue,7,0,7,3,0
+2020-11-12,NGA,Nigeria,Borno,10,0,10,19,0
+2020-11-12,NGA,Nigeria,Cross River,6,0,6,6,0
+2020-11-12,NGA,Nigeria,Delta,15,3,15,48,2
+2020-11-12,NGA,Nigeria,Ebonyi,1,0,1,0,0
+2020-11-12,NGA,Nigeria,Edo,9,1,9,0,0
+2020-11-12,NGA,Nigeria,Enugu,5,0,5,2,1
+2020-11-12,NGA,Nigeria,Federal Capital Territory,24,0,24,4,0
 2020-11-12,NGA,Nigeria,Gombe,4,0,4,6,1
-2020-11-12,NGA,Nigeria,Jigawa,1,0,1,0,0
-2020-11-12,NGA,Nigeria,Kaduna,14,1,14,0,4
-2020-11-12,NGA,Nigeria,Kano,5,0,5,10,1
-2020-11-12,NGA,Nigeria,Katsina,4,1,4,7,1
-2020-11-12,NGA,Nigeria,Lagos,44,1,44,4,4
+2020-11-12,NGA,Nigeria,Imo,1,0,1,0,0
+2020-11-12,NGA,Nigeria,Jigawa,3,0,3,0,0
+2020-11-12,NGA,Nigeria,Kaduna,16,1,16,0,4
+2020-11-12,NGA,Nigeria,Kano,11,0,11,18,2
+2020-11-12,NGA,Nigeria,Katsina,5,1,5,7,1
+2020-11-12,NGA,Nigeria,Kebbi,1,1,1,0,1
+2020-11-12,NGA,Nigeria,Kogi,1,0,1,0,0
+2020-11-12,NGA,Nigeria,Kwara,2,0,2,0,0
+2020-11-12,NGA,Nigeria,Lagos,63,1,63,5,5
 2020-11-12,NGA,Nigeria,Nassarawa,4,0,4,2,1
-2020-11-12,NGA,Nigeria,Niger,2,0,2,0,0
-2020-11-12,NGA,Nigeria,Ogun,7,1,7,0,2
-2020-11-12,NGA,Nigeria,Ondo,3,0,3,1,1
+2020-11-12,NGA,Nigeria,Niger,3,0,3,0,0
+2020-11-12,NGA,Nigeria,Ogun,13,1,13,0,2
+2020-11-12,NGA,Nigeria,Ondo,7,0,7,1,1
 2020-11-12,NGA,Nigeria,Osun,3,0,3,0,0
-2020-11-12,NGA,Nigeria,Oyo,10,1,10,3,3
-2020-11-12,NGA,Nigeria,Plateau,4,0,4,1,0
-2020-11-12,NGA,Nigeria,Rivers,8,1,8,0,1
+2020-11-12,NGA,Nigeria,Oyo,16,1,16,3,3
+2020-11-12,NGA,Nigeria,Plateau,5,0,5,1,0
+2020-11-12,NGA,Nigeria,Rivers,10,1,10,0,1
 2020-11-12,NGA,Nigeria,Sokoto,4,0,4,7,0
-2020-11-12,NGA,Nigeria,Taraba,7,1,7,6,0
-2020-11-12,NGA,Nigeria,Yobe,2,0,2,0,0
-2020-11-12,NOR,Norway,-99,22,0,22,0,1
-2020-11-12,NOR,Norway,Agder,23,0,23,11,0
-2020-11-12,NOR,Norway,Innlandet,45,1,45,10,1
-2020-11-12,NOR,Norway,Møre og Romsdal,17,0,17,0,0
-2020-11-12,NOR,Norway,Nordland,23,0,23,2,2
-2020-11-12,NOR,Norway,Oslo,60,1,59,5,0
-2020-11-12,NOR,Norway,Rogaland,44,0,44,2,0
-2020-11-12,NOR,Norway,Troms og Finnmark,32,2,32,10,1
-2020-11-12,NOR,Norway,Trøndelag,60,1,60,7,1
-2020-11-12,NOR,Norway,Vestfold og Telemark,40,1,40,4,1
-2020-11-12,NOR,Norway,Vestland,48,0,48,10,1
-2020-11-12,NOR,Norway,Viken,123,1,123,25,5
+2020-11-12,NGA,Nigeria,Taraba,8,1,8,6,0
+2020-11-12,NGA,Nigeria,Yobe,3,1,3,1,1
+2020-11-12,NOR,Norway,-99,35,1,31,2,2
+2020-11-12,NOR,Norway,Agder,26,0,26,11,0
+2020-11-12,NOR,Norway,Innlandet,49,1,49,10,1
+2020-11-12,NOR,Norway,Møre og Romsdal,22,0,22,0,1
+2020-11-12,NOR,Norway,Nordland,25,0,25,2,2
+2020-11-12,NOR,Norway,Oslo,69,1,68,5,0
+2020-11-12,NOR,Norway,Rogaland,48,0,48,4,0
+2020-11-12,NOR,Norway,Trøndelag,69,1,69,14,1
+2020-11-12,NOR,Norway,Troms og Finnmark,37,2,37,10,1
+2020-11-12,NOR,Norway,Vestfold og Telemark,46,2,46,4,1
+2020-11-12,NOR,Norway,Vestland,54,0,54,12,2
+2020-11-12,NOR,Norway,Viken,148,1,148,26,5
+2020-11-12,OMN,Oman,-99,1,0,1,0,0
 2020-11-12,OMN,Oman,Ad Dakhliyah,2,0,2,1,0
-2020-11-12,OMN,Oman,Al Batinah North,1,0,1,0,0
+2020-11-12,OMN,Oman,Al Batinah North,2,0,2,0,0
+2020-11-12,OMN,Oman,Al Batinah South,1,0,1,0,0
 2020-11-12,OMN,Oman,Al Dhahira,1,0,1,0,0
 2020-11-12,OMN,Oman,Al Wusta,1,1,1,100,0
 2020-11-12,OMN,Oman,Ash Sharqiyah North,1,0,1,0,0
 2020-11-12,OMN,Oman,Dhofar,2,0,2,0,0
-2020-11-12,OMN,Oman,Muscat,1,0,1,0,0
-2020-11-12,PAK,Pakistan,-99,8,1,8,1,0
-2020-11-12,PAK,Pakistan,AJK (Azad Jammu Kashmir),2,0,2,0,0
-2020-11-12,PAK,Pakistan,BA (Balochistan),6,1,6,32,0
+2020-11-12,OMN,Oman,Muscat,2,0,2,0,0
+2020-11-12,PAK,Pakistan,-99,39,8,34,214,7
+2020-11-12,PAK,Pakistan,AJK (Azad Jammu Kashmir),3,0,3,5,0
+2020-11-12,PAK,Pakistan,BA (Balochistan),9,1,9,53,1
 2020-11-12,PAK,Pakistan,GB (Gilgit-Baltistan),2,0,2,2,0
-2020-11-12,PAK,Pakistan,ICT (Islamabad Capital Territory),42,1,42,54,0
-2020-11-12,PAK,Pakistan,KPK (Khyber Pakhtunkhwa),46,2,46,43,3
-2020-11-12,PAK,Pakistan,PB (Punjab),118,9,118,297,5
-2020-11-12,PAK,Pakistan,SD (Sindh),73,3,73,333,4
-2020-11-12,PSE,Palestine,Gaza,22,0,22,22,3
-2020-11-12,PSE,Palestine,West Bank,30,1,30,16,3
-2020-11-12,PAN,Panama,-99,4,0,4,0,0
+2020-11-12,PAK,Pakistan,ICT (Islamabad Capital Territory),48,1,48,58,0
+2020-11-12,PAK,Pakistan,KPK (Khyber Pakhtunkhwa),60,4,59,50,4
+2020-11-12,PAK,Pakistan,PB (Punjab),157,11,157,336,8
+2020-11-12,PAK,Pakistan,SD (Sindh),97,5,96,349,7
+2020-11-12,PSE,Palestine,-99,2,0,1,1,0
+2020-11-12,PSE,Palestine,Gaza,31,0,31,41,4
+2020-11-12,PSE,Palestine,West Bank,36,1,36,20,4
+2020-11-12,PAN,Panama,-99,10,0,9,1,0
+2020-11-12,PAN,Panama,Bocas del Toro,1,0,1,0,0
 2020-11-12,PAN,Panama,Chiriquí,6,0,6,0,0
-2020-11-12,PAN,Panama,Coclé,4,1,4,3,1
-2020-11-12,PAN,Panama,Colón,5,0,5,5,0
+2020-11-12,PAN,Panama,Coclé,5,1,5,4,1
+2020-11-12,PAN,Panama,Colón,6,0,6,5,1
 2020-11-12,PAN,Panama,Herrera,3,0,3,0,1
 2020-11-12,PAN,Panama,Los Santos,2,0,2,0,0
-2020-11-12,PAN,Panama,Panamá,44,0,44,12,3
-2020-11-12,PAN,Panama,Panamá Oeste,18,1,18,21,2
-2020-11-12,PAN,Panama,Veraguas,5,0,5,0,0
-2020-11-12,PRY,Paraguay,-99,4,1,4,1,1
-2020-11-12,PRY,Paraguay,Alto Paraná,12,1,12,14,2
+2020-11-12,PAN,Panama,Panamá,53,0,53,14,3
+2020-11-12,PAN,Panama,Panamá Oeste,23,1,23,24,2
+2020-11-12,PAN,Panama,Veraguas,7,0,7,0,0
+2020-11-12,PRY,Paraguay,-99,9,1,8,2,1
+2020-11-12,PRY,Paraguay,Alto Paraná,15,1,15,14,2
 2020-11-12,PRY,Paraguay,Amambay,1,0,1,20,0
-2020-11-12,PRY,Paraguay,Asunción,27,2,27,32,3
-2020-11-12,PRY,Paraguay,Boquerón,1,0,1,0,0
+2020-11-12,PRY,Paraguay,Asunción,35,2,35,35,3
+2020-11-12,PRY,Paraguay,Boquerón,3,0,3,0,0
+2020-11-12,PRY,Paraguay,Caaguazú,1,0,1,0,0
 2020-11-12,PRY,Paraguay,Canindeyú,2,0,2,0,0
-2020-11-12,PRY,Paraguay,Central,33,2,33,29,5
+2020-11-12,PRY,Paraguay,Central,41,2,41,35,5
+2020-11-12,PRY,Paraguay,Guairá,1,0,1,8,0
 2020-11-12,PRY,Paraguay,Itapúa,5,0,5,3,0
+2020-11-12,PRY,Paraguay,Paraguarí,2,0,2,0,0
 2020-11-12,PRY,Paraguay,San Pedro,1,0,1,0,0
-2020-11-12,PER,Peru,-99,7,0,7,20,0
-2020-11-12,PER,Peru,Amazonas,3,0,3,8,0
-2020-11-12,PER,Peru,Ancash,5,0,5,1,0
+2020-11-12,PER,Peru,-99,26,1,22,28,2
+2020-11-12,PER,Peru,Amazonas,5,1,5,8,1
+2020-11-12,PER,Peru,Ancash,7,0,7,1,0
 2020-11-12,PER,Peru,Apurímac,4,0,4,0,0
-2020-11-12,PER,Peru,Arequipa,20,0,20,5,2
-2020-11-12,PER,Peru,Ayacucho,2,0,2,0,0
-2020-11-12,PER,Peru,Cajamarca,8,0,8,3,0
-2020-11-12,PER,Peru,Callao,12,0,12,5,2
-2020-11-12,PER,Peru,Cusco,12,0,12,7,2
-2020-11-12,PER,Peru,Huánuco,2,0,2,0,0
-2020-11-12,PER,Peru,Ica,10,0,10,0,0
-2020-11-12,PER,Peru,Junín,8,0,8,33,0
-2020-11-12,PER,Peru,La Libertad,15,0,15,2,0
-2020-11-12,PER,Peru,Lambayeque,16,1,16,18,1
-2020-11-12,PER,Peru,Lima,96,1,95,33,3
-2020-11-12,PER,Peru,Lima Province,3,0,3,0,0
+2020-11-12,PER,Peru,Arequipa,28,0,28,5,2
+2020-11-12,PER,Peru,Ayacucho,4,0,4,2,0
+2020-11-12,PER,Peru,Cajamarca,11,0,11,3,1
+2020-11-12,PER,Peru,Callao,14,0,14,8,2
+2020-11-12,PER,Peru,Cusco,13,0,13,7,2
+2020-11-12,PER,Peru,Huánuco,5,0,5,1,0
+2020-11-12,PER,Peru,Ica,13,0,13,0,0
+2020-11-12,PER,Peru,Junín,11,0,11,35,0
+2020-11-12,PER,Peru,La Libertad,18,0,18,3,1
+2020-11-12,PER,Peru,Lambayeque,22,3,22,28,2
+2020-11-12,PER,Peru,Lima,122,2,121,43,3
+2020-11-12,PER,Peru,Lima Province,6,0,6,0,0
 2020-11-12,PER,Peru,Loreto,5,0,5,0,0
 2020-11-12,PER,Peru,Madre de Dios,4,1,4,1,1
-2020-11-12,PER,Peru,Moquegua,4,0,4,0,0
-2020-11-12,PER,Peru,Pasco,3,0,3,0,0
-2020-11-12,PER,Peru,Piura,19,2,19,4,1
-2020-11-12,PER,Peru,Puno,5,0,5,0,0
-2020-11-12,PER,Peru,San Martín,8,1,8,1,0
-2020-11-12,PER,Peru,Tacna,6,0,6,1,0
-2020-11-12,PER,Peru,Ucayali,4,0,4,3,1
-2020-11-12,PHL,Philippines,-99,22,0,22,57,0
-2020-11-12,PHL,Philippines,Bangsamoro Autonomous Region in Muslim Mindanao,1,0,1,0,0
-2020-11-12,PHL,Philippines,Bicol Region,10,0,10,0,0
-2020-11-12,PHL,Philippines,Cagayan Valley,4,0,4,0,0
-2020-11-12,PHL,Philippines,Calabarzon,75,0,75,9,0
-2020-11-12,PHL,Philippines,Caraga,5,0,5,0,0
-2020-11-12,PHL,Philippines,Central Luzon,64,1,64,19,0
-2020-11-12,PHL,Philippines,Central Visayas,40,0,40,9,0
-2020-11-12,PHL,Philippines,Cordillera Admin Region,19,0,19,3,0
-2020-11-12,PHL,Philippines,Davao Region,26,0,26,3,1
-2020-11-12,PHL,Philippines,Eastern Visayas,14,0,14,3,0
-2020-11-12,PHL,Philippines,Ilocos Region,20,1,20,2,0
-2020-11-12,PHL,Philippines,Mimaropa,5,0,5,0,0
-2020-11-12,PHL,Philippines,National Capital Region,134,1,134,15,2
-2020-11-12,PHL,Philippines,Northern Mindanao,19,0,19,5,0
-2020-11-12,PHL,Philippines,Soccsksargen,8,0,7,0,0
-2020-11-12,PHL,Philippines,Western Visayas,21,1,21,5,1
-2020-11-12,PHL,Philippines,Zamboanga Peninsula,9,0,9,3,0
-2020-11-12,POL,Poland,-99,10,0,10,2,1
-2020-11-12,POL,Poland,Dolnośląskie,55,1,55,31,4
-2020-11-12,POL,Poland,Kujawsko-Pomorskie,21,0,21,27,2
-2020-11-12,POL,Poland,Łódzkie,35,0,35,15,5
-2020-11-12,POL,Poland,Lubelskie,15,0,15,18,0
-2020-11-12,POL,Poland,Lubuskie,12,1,12,13,2
-2020-11-12,POL,Poland,Małopolskie,46,1,46,142,5
-2020-11-12,POL,Poland,Mazowieckie,89,4,89,149,4
-2020-11-12,POL,Poland,Opolskie,7,0,7,17,2
-2020-11-12,POL,Poland,Podkarpackie,17,2,17,28,2
-2020-11-12,POL,Poland,Podlaskie,8,0,8,11,0
-2020-11-12,POL,Poland,Pomorskie,49,3,49,34,3
-2020-11-12,POL,Poland,Śląskie,76,1,75,63,9
-2020-11-12,POL,Poland,Świętokrzyskie,12,0,12,22,2
-2020-11-12,POL,Poland,Warmińsko-Mazurskie,13,1,13,7,0
-2020-11-12,POL,Poland,Wielkopolskie,36,2,36,58,6
-2020-11-12,POL,Poland,Zachodniopomorskie,28,2,28,25,4
-2020-11-12,PRT,Portugal,-99,12,0,12,1,0
-2020-11-12,PRT,Portugal,Aveiro,49,0,49,12,0
-2020-11-12,PRT,Portugal,Azores,18,1,18,2,0
-2020-11-12,PRT,Portugal,Beja,10,0,10,3,0
-2020-11-12,PRT,Portugal,Braga,48,0,48,43,0
-2020-11-12,PRT,Portugal,Bragança,6,0,6,0,0
-2020-11-12,PRT,Portugal,Castelo Branco,11,0,11,2,1
-2020-11-12,PRT,Portugal,Coimbra,35,0,35,17,1
-2020-11-12,PRT,Portugal,Évora,10,0,10,1,0
-2020-11-12,PRT,Portugal,Faro,34,0,34,6,1
-2020-11-12,PRT,Portugal,Guarda,3,0,3,0,0
-2020-11-12,PRT,Portugal,Leiria,36,0,36,9,0
-2020-11-12,PRT,Portugal,Lisboa,137,1,137,28,3
-2020-11-12,PRT,Portugal,Madeira,13,1,13,13,0
-2020-11-12,PRT,Portugal,Portalegre,9,0,9,5,0
-2020-11-12,PRT,Portugal,Porto,134,0,134,53,2
-2020-11-12,PRT,Portugal,Santarém,35,0,35,3,0
-2020-11-12,PRT,Portugal,Setúbal,46,0,45,22,3
-2020-11-12,PRT,Portugal,Viana do Castelo,12,0,12,4,0
-2020-11-12,PRT,Portugal,Vila Real,9,0,9,5,0
-2020-11-12,PRT,Portugal,Viseu,17,0,17,3,0
-2020-11-12,PRI,"Puerto Rico, U.S.",-99,13,0,13,0,0
+2020-11-12,PER,Peru,Moquegua,5,0,5,0,0
+2020-11-12,PER,Peru,Pasco,5,0,5,1,0
+2020-11-12,PER,Peru,Piura,24,2,24,4,1
+2020-11-12,PER,Peru,Puno,9,0,9,2,1
+2020-11-12,PER,Peru,San Martín,9,1,9,1,0
+2020-11-12,PER,Peru,Tacna,7,0,7,1,0
+2020-11-12,PER,Peru,Ucayali,5,0,5,3,1
+2020-11-12,PHL,Philippines,-99,42,3,36,58,1
+2020-11-12,PHL,Philippines,Bangsamoro Autonomous Region in Muslim Mindanao,3,1,3,101,1
+2020-11-12,PHL,Philippines,Bicol Region,13,0,13,1,0
+2020-11-12,PHL,Philippines,Cagayan Valley,6,0,6,0,0
+2020-11-12,PHL,Philippines,Calabarzon,88,0,88,13,0
+2020-11-12,PHL,Philippines,Caraga,6,1,6,100,1
+2020-11-12,PHL,Philippines,Central Luzon,80,1,80,23,0
+2020-11-12,PHL,Philippines,Central Visayas,52,0,51,9,0
+2020-11-12,PHL,Philippines,Cordillera Admin Region,21,0,21,3,0
+2020-11-12,PHL,Philippines,Davao Region,35,0,35,4,1
+2020-11-12,PHL,Philippines,Eastern Visayas,15,0,15,3,0
+2020-11-12,PHL,Philippines,Ilocos Region,21,1,21,2,0
+2020-11-12,PHL,Philippines,Mimaropa,6,0,6,0,0
+2020-11-12,PHL,Philippines,National Capital Region,162,1,162,15,2
+2020-11-12,PHL,Philippines,Northern Mindanao,24,0,24,5,0
+2020-11-12,PHL,Philippines,Soccsksargen,10,0,9,0,0
+2020-11-12,PHL,Philippines,Western Visayas,25,1,25,5,1
+2020-11-12,PHL,Philippines,Zamboanga Peninsula,12,0,12,3,0
+2020-11-12,POL,Poland,-99,34,2,27,11,6
+2020-11-12,POL,Poland,Łódzkie,47,0,47,18,5
+2020-11-12,POL,Poland,Śląskie,102,1,101,79,9
+2020-11-12,POL,Poland,Świętokrzyskie,15,0,15,25,3
+2020-11-12,POL,Poland,Dolnośląskie,66,1,66,38,5
+2020-11-12,POL,Poland,Kujawsko-Pomorskie,38,0,37,38,3
+2020-11-12,POL,Poland,Lubelskie,23,0,23,21,0
+2020-11-12,POL,Poland,Lubuskie,16,1,16,18,2
+2020-11-12,POL,Poland,Małopolskie,59,1,59,149,6
+2020-11-12,POL,Poland,Mazowieckie,113,4,113,157,4
+2020-11-12,POL,Poland,Opolskie,9,1,9,18,2
+2020-11-12,POL,Poland,Podkarpackie,31,5,30,41,4
+2020-11-12,POL,Poland,Podlaskie,11,0,11,12,0
+2020-11-12,POL,Poland,Pomorskie,60,3,60,37,5
+2020-11-12,POL,Poland,Warmińsko-Mazurskie,15,1,15,8,0
+2020-11-12,POL,Poland,Wielkopolskie,62,4,62,84,9
+2020-11-12,POL,Poland,Zachodniopomorskie,42,2,42,28,6
+2020-11-12,PRT,Portugal,-99,35,1,32,17,0
+2020-11-12,PRT,Portugal,Évora,13,0,13,1,0
+2020-11-12,PRT,Portugal,Aveiro,67,1,67,15,1
+2020-11-12,PRT,Portugal,Azores,23,1,23,2,0
+2020-11-12,PRT,Portugal,Beja,12,0,12,8,0
+2020-11-12,PRT,Portugal,Braga,73,0,73,55,0
+2020-11-12,PRT,Portugal,Bragança,11,0,11,3,0
+2020-11-12,PRT,Portugal,Castelo Branco,14,0,14,2,1
+2020-11-12,PRT,Portugal,Coimbra,48,0,48,21,1
+2020-11-12,PRT,Portugal,Faro,42,0,42,8,1
+2020-11-12,PRT,Portugal,Guarda,7,1,7,0,1
+2020-11-12,PRT,Portugal,Leiria,45,0,45,10,1
+2020-11-12,PRT,Portugal,Lisboa,192,1,192,40,3
+2020-11-12,PRT,Portugal,Madeira,18,1,18,13,0
+2020-11-12,PRT,Portugal,Portalegre,12,0,12,9,0
+2020-11-12,PRT,Portugal,Porto,186,0,186,92,3
+2020-11-12,PRT,Portugal,Santarém,44,0,44,5,0
+2020-11-12,PRT,Portugal,Setúbal,68,0,67,25,3
+2020-11-12,PRT,Portugal,Viana do Castelo,14,0,14,4,0
+2020-11-12,PRT,Portugal,Vila Real,13,0,13,9,0
+2020-11-12,PRT,Portugal,Viseu,23,0,23,5,0
+2020-11-12,PRI,"Puerto Rico, U.S.",-99,27,0,26,1,0
+2020-11-12,PRI,"Puerto Rico, U.S.",Añasco,7,0,7,2,1
 2020-11-12,PRI,"Puerto Rico, U.S.",Adjuntas,1,0,1,0,0
 2020-11-12,PRI,"Puerto Rico, U.S.",Aguada,2,0,2,2,0
 2020-11-12,PRI,"Puerto Rico, U.S.",Aguadilla,6,0,6,0,0
 2020-11-12,PRI,"Puerto Rico, U.S.",Aguas Buenas,2,0,2,0,0
 2020-11-12,PRI,"Puerto Rico, U.S.",Aibonito,2,0,2,0,0
-2020-11-12,PRI,"Puerto Rico, U.S.",Añasco,4,0,4,2,1
-2020-11-12,PRI,"Puerto Rico, U.S.",Arecibo,5,0,5,0,0
+2020-11-12,PRI,"Puerto Rico, U.S.",Arecibo,6,0,6,0,0
 2020-11-12,PRI,"Puerto Rico, U.S.",Arroyo,1,0,1,0,0
 2020-11-12,PRI,"Puerto Rico, U.S.",Barceloneta,1,0,1,0,0
 2020-11-12,PRI,"Puerto Rico, U.S.",Barranquitas,4,0,4,6,0
-2020-11-12,PRI,"Puerto Rico, U.S.",Bayamón,18,0,18,1,0
-2020-11-12,PRI,"Puerto Rico, U.S.",Cabo Rojo,10,0,10,3,0
-2020-11-12,PRI,"Puerto Rico, U.S.",Caguas,16,0,16,4,1
-2020-11-12,PRI,"Puerto Rico, U.S.",Canóvanas,3,0,3,2,0
-2020-11-12,PRI,"Puerto Rico, U.S.",Carolina,10,0,10,4,1
-2020-11-12,PRI,"Puerto Rico, U.S.",Cayey,3,0,3,0,0
+2020-11-12,PRI,"Puerto Rico, U.S.",Bayamón,23,0,23,8,0
+2020-11-12,PRI,"Puerto Rico, U.S.",Cabo Rojo,11,0,11,3,0
+2020-11-12,PRI,"Puerto Rico, U.S.",Caguas,21,0,21,4,1
+2020-11-12,PRI,"Puerto Rico, U.S.",Canóvanas,6,0,6,2,0
+2020-11-12,PRI,"Puerto Rico, U.S.",Carolina,14,0,14,6,2
+2020-11-12,PRI,"Puerto Rico, U.S.",Cayey,5,0,5,0,0
 2020-11-12,PRI,"Puerto Rico, U.S.",Ceiba,1,0,1,0,0
 2020-11-12,PRI,"Puerto Rico, U.S.",Ciales,2,0,2,0,0
-2020-11-12,PRI,"Puerto Rico, U.S.",Coamo,1,0,1,0,0
+2020-11-12,PRI,"Puerto Rico, U.S.",Coamo,3,0,3,0,0
 2020-11-12,PRI,"Puerto Rico, U.S.",Comerío,1,0,1,0,0
-2020-11-12,PRI,"Puerto Rico, U.S.",Corozal,2,0,2,2,1
-2020-11-12,PRI,"Puerto Rico, U.S.",Fajardo,3,0,3,0,0
+2020-11-12,PRI,"Puerto Rico, U.S.",Corozal,3,0,3,2,1
+2020-11-12,PRI,"Puerto Rico, U.S.",Dorado,2,0,2,10,0
+2020-11-12,PRI,"Puerto Rico, U.S.",Fajardo,4,0,4,1,0
 2020-11-12,PRI,"Puerto Rico, U.S.",Guánica,1,0,1,0,0
-2020-11-12,PRI,"Puerto Rico, U.S.",Guayama,2,0,2,0,0
+2020-11-12,PRI,"Puerto Rico, U.S.",Guayama,3,0,3,0,0
 2020-11-12,PRI,"Puerto Rico, U.S.",Guayanilla,1,0,1,0,0
-2020-11-12,PRI,"Puerto Rico, U.S.",Guaynabo,12,0,12,3,0
-2020-11-12,PRI,"Puerto Rico, U.S.",Gurabo,4,0,4,0,0
+2020-11-12,PRI,"Puerto Rico, U.S.",Guaynabo,13,0,13,3,0
+2020-11-12,PRI,"Puerto Rico, U.S.",Gurabo,6,1,6,0,1
 2020-11-12,PRI,"Puerto Rico, U.S.",Hatillo,1,0,1,2,0
 2020-11-12,PRI,"Puerto Rico, U.S.",Hormigueros,2,0,2,0,0
-2020-11-12,PRI,"Puerto Rico, U.S.",Humacao,6,0,6,0,1
+2020-11-12,PRI,"Puerto Rico, U.S.",Humacao,7,0,7,0,1
 2020-11-12,PRI,"Puerto Rico, U.S.",Isabela,3,0,3,0,0
 2020-11-12,PRI,"Puerto Rico, U.S.",Jayuya,1,0,1,0,0
-2020-11-12,PRI,"Puerto Rico, U.S.",Juana Díaz,7,0,7,2,1
-2020-11-12,PRI,"Puerto Rico, U.S.",Juncos,4,0,4,0,1
+2020-11-12,PRI,"Puerto Rico, U.S.",Juana Díaz,10,0,10,2,1
+2020-11-12,PRI,"Puerto Rico, U.S.",Juncos,5,0,5,0,1
 2020-11-12,PRI,"Puerto Rico, U.S.",Lajas,4,0,4,0,0
-2020-11-12,PRI,"Puerto Rico, U.S.",Lares,2,0,2,0,0
+2020-11-12,PRI,"Puerto Rico, U.S.",Lares,3,0,3,0,0
 2020-11-12,PRI,"Puerto Rico, U.S.",Las Piedras,4,0,4,0,0
+2020-11-12,PRI,"Puerto Rico, U.S.",Loíza,1,0,1,2,0
 2020-11-12,PRI,"Puerto Rico, U.S.",Luquillo,1,0,1,0,0
-2020-11-12,PRI,"Puerto Rico, U.S.",Manatí,2,0,2,0,0
-2020-11-12,PRI,"Puerto Rico, U.S.",Mayagüez,5,0,5,0,0
+2020-11-12,PRI,"Puerto Rico, U.S.",Manatí,4,0,4,0,0
+2020-11-12,PRI,"Puerto Rico, U.S.",Mayagüez,8,0,8,0,0
 2020-11-12,PRI,"Puerto Rico, U.S.",Moca,2,0,2,0,0
-2020-11-12,PRI,"Puerto Rico, U.S.",Morovis,3,0,3,0,0
-2020-11-12,PRI,"Puerto Rico, U.S.",Naranjito,1,0,1,0,0
-2020-11-12,PRI,"Puerto Rico, U.S.",Orocovis,1,0,1,0,0
-2020-11-12,PRI,"Puerto Rico, U.S.",Peñuelas,1,0,1,0,0
-2020-11-12,PRI,"Puerto Rico, U.S.",Ponce,8,0,8,2,0
+2020-11-12,PRI,"Puerto Rico, U.S.",Morovis,4,0,4,0,0
+2020-11-12,PRI,"Puerto Rico, U.S.",Naranjito,3,0,3,0,0
+2020-11-12,PRI,"Puerto Rico, U.S.",Orocovis,2,0,2,0,0
+2020-11-12,PRI,"Puerto Rico, U.S.",Patillas,1,0,1,0,0
+2020-11-12,PRI,"Puerto Rico, U.S.",Peñuelas,2,0,2,0,0
+2020-11-12,PRI,"Puerto Rico, U.S.",Ponce,14,0,14,2,0
 2020-11-12,PRI,"Puerto Rico, U.S.",Quebradillas,3,0,3,0,0
 2020-11-12,PRI,"Puerto Rico, U.S.",Río Grande,2,0,2,3,0
-2020-11-12,PRI,"Puerto Rico, U.S.",Sabana Grande,2,0,2,0,0
+2020-11-12,PRI,"Puerto Rico, U.S.",Sabana Grande,3,0,3,0,0
 2020-11-12,PRI,"Puerto Rico, U.S.",Salinas,2,0,2,0,0
 2020-11-12,PRI,"Puerto Rico, U.S.",San Germán,1,0,1,0,0
-2020-11-12,PRI,"Puerto Rico, U.S.",San Juan,25,0,25,1,1
+2020-11-12,PRI,"Puerto Rico, U.S.",San Juan,27,0,27,2,1
 2020-11-12,PRI,"Puerto Rico, U.S.",San Lorenzo,2,0,2,1,0
+2020-11-12,PRI,"Puerto Rico, U.S.",San Sebastián,1,0,1,0,0
 2020-11-12,PRI,"Puerto Rico, U.S.",Santa Isabel,1,0,1,0,0
 2020-11-12,PRI,"Puerto Rico, U.S.",Toa Alta,6,0,6,6,0
-2020-11-12,PRI,"Puerto Rico, U.S.",Toa Baja,4,1,4,4,1
-2020-11-12,PRI,"Puerto Rico, U.S.",Trujillo Alto,5,0,5,1,0
-2020-11-12,PRI,"Puerto Rico, U.S.",Utuado,2,0,2,0,0
+2020-11-12,PRI,"Puerto Rico, U.S.",Toa Baja,5,1,5,4,1
+2020-11-12,PRI,"Puerto Rico, U.S.",Trujillo Alto,7,0,7,1,0
+2020-11-12,PRI,"Puerto Rico, U.S.",Utuado,3,0,3,1,0
 2020-11-12,PRI,"Puerto Rico, U.S.",Vega Alta,2,0,2,0,0
-2020-11-12,PRI,"Puerto Rico, U.S.",Vega Baja,5,0,5,5,0
+2020-11-12,PRI,"Puerto Rico, U.S.",Vega Baja,6,0,6,5,0
 2020-11-12,PRI,"Puerto Rico, U.S.",Vieques,1,0,1,0,0
-2020-11-12,PRI,"Puerto Rico, U.S.",Villalba,1,0,1,0,1
-2020-11-12,PRI,"Puerto Rico, U.S.",Yauco,1,0,1,0,0
+2020-11-12,PRI,"Puerto Rico, U.S.",Villalba,2,0,2,0,1
+2020-11-12,PRI,"Puerto Rico, U.S.",Yabucoa,3,0,3,0,0
+2020-11-12,PRI,"Puerto Rico, U.S.",Yauco,2,0,2,0,0
 2020-11-12,QAT,Qatar,-99,1,0,1,0,0
-2020-11-12,QAT,Qatar,Al Doha,16,0,16,0,1
-2020-11-12,QAT,Qatar,Al Khor and Al Thakhira,1,0,1,0,0
-2020-11-12,QAT,Qatar,Al Rayyan,4,0,4,0,0
+2020-11-12,QAT,Qatar,Al Doha,17,0,17,0,1
+2020-11-12,QAT,Qatar,Al Khor and Al Thakhira,2,0,2,0,0
+2020-11-12,QAT,Qatar,Al Rayyan,7,0,7,0,0
 2020-11-12,QAT,Qatar,Al Wakrah,3,0,3,1,0
-2020-11-12,COG,Republic of the Congo,-99,2,0,2,0,0
+2020-11-12,REU,Réunion,Saint-Denis,1,0,1,0,0
 2020-11-12,REU,Réunion,Saint-Paul,1,0,1,0,0
-2020-11-12,ROU,Romania,-99,23,0,23,10,0
-2020-11-12,ROU,Romania,Alba,7,0,7,8,1
-2020-11-12,ROU,Romania,Arad,14,0,14,20,1
-2020-11-12,ROU,Romania,Argeș,13,1,13,7,1
-2020-11-12,ROU,Romania,Bacău,17,0,17,22,0
-2020-11-12,ROU,Romania,Bihor,29,1,29,32,0
-2020-11-12,ROU,Romania,Bistrița-Năsăud,8,0,8,1,2
-2020-11-12,ROU,Romania,Botoșani,11,0,11,6,1
-2020-11-12,ROU,Romania,Brăila,9,0,9,20,1
-2020-11-12,ROU,Romania,Brașov,32,0,32,24,1
-2020-11-12,ROU,Romania,Bucharest,99,0,99,76,3
-2020-11-12,ROU,Romania,Buzău,6,0,6,3,1
-2020-11-12,ROU,Romania,Călărași,2,0,2,0,0
-2020-11-12,ROU,Romania,Caraș-Severin,6,0,6,3,0
-2020-11-12,ROU,Romania,Cluj,46,0,46,36,0
-2020-11-12,ROU,Romania,Constanța,24,1,24,49,1
-2020-11-12,ROU,Romania,Covasna,4,0,4,4,0
-2020-11-12,ROU,Romania,Dâmbovița,14,1,14,21,2
-2020-11-12,ROU,Romania,Dolj,17,1,17,11,2
-2020-11-12,ROU,Romania,Galați,14,0,14,4,2
+2020-11-12,COG,Republic of the Congo,-99,2,0,2,0,0
+2020-11-12,COG,Republic of the Congo,Kouilou,1,0,1,1,0
+2020-11-12,ROU,Romania,-99,51,1,46,20,3
+2020-11-12,ROU,Romania,Alba,8,0,8,8,1
+2020-11-12,ROU,Romania,Arad,20,0,20,34,1
+2020-11-12,ROU,Romania,Argeș,14,1,14,7,1
+2020-11-12,ROU,Romania,Bacău,22,3,22,26,1
+2020-11-12,ROU,Romania,Bihor,32,2,32,34,1
+2020-11-12,ROU,Romania,Bistrița-Năsăud,9,0,9,4,2
+2020-11-12,ROU,Romania,Botoșani,13,0,13,6,1
+2020-11-12,ROU,Romania,Brăila,12,0,12,20,1
+2020-11-12,ROU,Romania,Brașov,37,0,37,24,2
+2020-11-12,ROU,Romania,Bucharest,113,0,113,81,4
+2020-11-12,ROU,Romania,Buzău,9,0,9,3,1
+2020-11-12,ROU,Romania,Călărași,5,0,5,0,0
+2020-11-12,ROU,Romania,Caraș-Severin,7,0,7,3,0
+2020-11-12,ROU,Romania,Cluj,51,0,51,43,0
+2020-11-12,ROU,Romania,Constanța,29,1,28,51,1
+2020-11-12,ROU,Romania,Covasna,6,0,6,4,0
+2020-11-12,ROU,Romania,Dâmbovița,17,1,17,21,2
+2020-11-12,ROU,Romania,Dolj,18,1,18,21,2
+2020-11-12,ROU,Romania,Galați,15,0,15,4,3
 2020-11-12,ROU,Romania,Giurgiu,1,0,1,5,0
-2020-11-12,ROU,Romania,Gorj,10,0,10,8,0
-2020-11-12,ROU,Romania,Harghita,6,0,6,1,1
-2020-11-12,ROU,Romania,Hunedoara,3,0,3,1,1
-2020-11-12,ROU,Romania,Ialomița,5,0,5,0,0
-2020-11-12,ROU,Romania,Iași,24,0,24,13,1
-2020-11-12,ROU,Romania,Ilfov,15,0,15,10,0
-2020-11-12,ROU,Romania,Maramureș,18,0,18,15,0
-2020-11-12,ROU,Romania,Mehedinți,6,0,6,3,0
-2020-11-12,ROU,Romania,Mureș,12,2,12,6,1
-2020-11-12,ROU,Romania,Neamț,15,0,15,2,1
+2020-11-12,ROU,Romania,Gorj,11,0,11,9,0
+2020-11-12,ROU,Romania,Harghita,8,0,8,1,1
+2020-11-12,ROU,Romania,Hunedoara,4,0,4,1,1
+2020-11-12,ROU,Romania,Iași,27,0,27,13,1
+2020-11-12,ROU,Romania,Ialomița,9,0,9,0,0
+2020-11-12,ROU,Romania,Ilfov,17,0,17,10,0
+2020-11-12,ROU,Romania,Maramureș,22,0,22,17,0
+2020-11-12,ROU,Romania,Mehedinți,8,0,8,3,0
+2020-11-12,ROU,Romania,Mureș,14,2,14,7,2
+2020-11-12,ROU,Romania,Neamț,18,0,18,2,1
 2020-11-12,ROU,Romania,Olt,9,0,9,4,0
-2020-11-12,ROU,Romania,Prahova,21,1,21,6,1
-2020-11-12,ROU,Romania,Sălaj,8,0,8,15,0
-2020-11-12,ROU,Romania,Satu Mare,8,0,8,3,0
-2020-11-12,ROU,Romania,Sibiu,22,0,22,19,1
+2020-11-12,ROU,Romania,Prahova,26,1,26,7,1
+2020-11-12,ROU,Romania,Sălaj,9,0,9,15,0
+2020-11-12,ROU,Romania,Satu Mare,9,0,9,3,1
+2020-11-12,ROU,Romania,Sibiu,29,0,29,29,2
 2020-11-12,ROU,Romania,Suceava,13,0,13,2,0
 2020-11-12,ROU,Romania,Teleorman,2,0,2,1,0
-2020-11-12,ROU,Romania,Timiș,38,0,38,20,3
-2020-11-12,ROU,Romania,Tulcea,5,0,5,1,0
-2020-11-12,ROU,Romania,Vâlcea,4,0,4,2,0
-2020-11-12,ROU,Romania,Vaslui,3,0,3,2,0
+2020-11-12,ROU,Romania,Timiș,46,1,46,31,3
+2020-11-12,ROU,Romania,Tulcea,7,0,7,1,0
+2020-11-12,ROU,Romania,Vâlcea,6,1,6,2,0
+2020-11-12,ROU,Romania,Vaslui,4,0,4,2,0
 2020-11-12,ROU,Romania,Vrancea,1,0,1,1,0
-2020-11-12,RUS,Russia,-99,51,3,51,49,4
+2020-11-12,RUS,Russia,-99,86,4,74,76,10
 2020-11-12,RUS,Russia,Adygea,2,0,2,0,0
 2020-11-12,RUS,Russia,Altai Krai,6,0,6,19,4
 2020-11-12,RUS,Russia,Amur Oblast,3,0,3,102,1
-2020-11-12,RUS,Russia,Arkhangelsk Oblast,3,0,3,0,0
+2020-11-12,RUS,Russia,Arkhangelsk Oblast,4,0,4,1,0
 2020-11-12,RUS,Russia,Astrakhan Oblast,4,1,4,0,1
-2020-11-12,RUS,Russia,Bashkortostan,15,0,15,87,4
-2020-11-12,RUS,Russia,Belgorod Oblast,3,0,3,3,0
-2020-11-12,RUS,Russia,Buryatia,7,0,7,27,0
-2020-11-12,RUS,Russia,Chelyabinsk Oblast,19,2,19,64,2
-2020-11-12,RUS,Russia,Chuvashia,3,0,3,1,0
+2020-11-12,RUS,Russia,Bashkortostan,20,1,20,99,4
+2020-11-12,RUS,Russia,Belgorod Oblast,6,0,6,6,1
+2020-11-12,RUS,Russia,Buryatia,8,0,8,47,1
+2020-11-12,RUS,Russia,Chelyabinsk Oblast,20,2,20,65,2
+2020-11-12,RUS,Russia,Chuvashia,4,0,4,1,0
 2020-11-12,RUS,Russia,Ingushetia,2,0,2,1,0
-2020-11-12,RUS,Russia,Irkutsk Oblast,10,0,10,13,1
+2020-11-12,RUS,Russia,Irkutsk Oblast,12,1,12,14,2
 2020-11-12,RUS,Russia,Ivanovo Oblast,5,1,5,9,2
 2020-11-12,RUS,Russia,Kabardino-Balkaria,3,1,3,0,1
-2020-11-12,RUS,Russia,Kaliningrad Oblast,12,0,12,10,1
+2020-11-12,RUS,Russia,Kaliningrad Oblast,14,0,14,10,1
 2020-11-12,RUS,Russia,Kaluga Oblast,3,0,3,1,1
 2020-11-12,RUS,Russia,Kamchatka Krai,2,0,2,7,0
-2020-11-12,RUS,Russia,Karelia,2,0,2,2,0
-2020-11-12,RUS,Russia,Kemerovo Oblast,10,0,10,24,0
-2020-11-12,RUS,Russia,Khabarovsk Krai,8,0,8,7,1
+2020-11-12,RUS,Russia,Karelia,3,1,3,2,0
+2020-11-12,RUS,Russia,Kemerovo Oblast,14,0,14,25,0
+2020-11-12,RUS,Russia,Khabarovsk Krai,10,0,10,7,1
 2020-11-12,RUS,Russia,Khakassia,1,0,1,0,0
 2020-11-12,RUS,Russia,Khanty-Mansi Autonomous Okrug,2,0,2,3,0
 2020-11-12,RUS,Russia,Kirov Oblast,1,0,1,0,0
@@ -1451,38 +1535,39 @@ date,ISO3,country,region,count,cli,count_local_com,cli_local_com,anosmia
 2020-11-12,RUS,Russia,Kostroma Oblast,5,0,5,0,1
 2020-11-12,RUS,Russia,Krasnodar Krai,24,1,24,48,2
 2020-11-12,RUS,Russia,Krasnoyarsk Krai,16,1,16,19,1
-2020-11-12,RUS,Russia,Kursk Oblast,1,0,1,1,0
-2020-11-12,RUS,Russia,Leningrad Oblast,12,0,12,0,0
-2020-11-12,RUS,Russia,Lipetsk Oblast,4,0,4,2,0
+2020-11-12,RUS,Russia,Kurgan Oblast,1,0,1,0,0
+2020-11-12,RUS,Russia,Kursk Oblast,2,0,2,4,0
+2020-11-12,RUS,Russia,Leningrad Oblast,13,0,13,0,0
+2020-11-12,RUS,Russia,Lipetsk Oblast,5,0,5,3,0
 2020-11-12,RUS,Russia,Mari El,4,0,4,4,0
 2020-11-12,RUS,Russia,Mordovia,3,0,3,1,0
-2020-11-12,RUS,Russia,Moscow,165,3,165,329,8
-2020-11-12,RUS,Russia,Moscow Oblast,59,1,59,50,2
+2020-11-12,RUS,Russia,Moscow,197,3,197,344,9
+2020-11-12,RUS,Russia,Moscow Oblast,68,1,68,54,2
 2020-11-12,RUS,Russia,Murmansk Oblast,5,0,5,5,1
-2020-11-12,RUS,Russia,Nizhny Novgorod Oblast,8,1,8,7,0
-2020-11-12,RUS,Russia,North Ossetia-Alania,3,0,3,0,0
+2020-11-12,RUS,Russia,Nizhny Novgorod Oblast,11,1,11,30,0
+2020-11-12,RUS,Russia,North Ossetia-Alania,5,0,5,1,0
 2020-11-12,RUS,Russia,Novgorod Oblast,3,0,3,2,0
-2020-11-12,RUS,Russia,Novosibirsk Oblast,21,1,21,58,2
-2020-11-12,RUS,Russia,Omsk Oblast,1,0,1,0,0
-2020-11-12,RUS,Russia,Orenburg Oblast,5,1,5,11,0
+2020-11-12,RUS,Russia,Novosibirsk Oblast,22,1,22,63,3
+2020-11-12,RUS,Russia,Omsk Oblast,2,1,2,1,0
+2020-11-12,RUS,Russia,Orenburg Oblast,6,1,6,11,0
 2020-11-12,RUS,Russia,Oryol Oblast,3,0,3,50,0
-2020-11-12,RUS,Russia,Penza Oblast,5,1,5,3,0
+2020-11-12,RUS,Russia,Penza Oblast,6,1,6,4,0
 2020-11-12,RUS,Russia,Perm Krai,10,3,10,137,1
-2020-11-12,RUS,Russia,Primorsky Krai,7,1,7,14,2
+2020-11-12,RUS,Russia,Primorsky Krai,9,1,9,14,2
 2020-11-12,RUS,Russia,Pskov Oblast,2,0,2,1,0
-2020-11-12,RUS,Russia,Rostov Oblast,19,1,19,10,1
+2020-11-12,RUS,Russia,Rostov Oblast,21,1,21,10,1
 2020-11-12,RUS,Russia,Ryazan Oblast,6,0,6,1,0
-2020-11-12,RUS,Russia,Saint Petersburg,66,5,66,71,8
+2020-11-12,RUS,Russia,Saint Petersburg,74,6,74,84,11
 2020-11-12,RUS,Russia,Sakhalin Oblast,4,0,4,0,0
-2020-11-12,RUS,Russia,Samara Oblast,6,0,6,19,0
-2020-11-12,RUS,Russia,Saratov Oblast,12,1,12,32,0
-2020-11-12,RUS,Russia,Smolensk Oblast,3,0,3,12,0
-2020-11-12,RUS,Russia,Stavropol Krai,6,0,6,16,0
+2020-11-12,RUS,Russia,Samara Oblast,8,0,8,21,0
+2020-11-12,RUS,Russia,Saratov Oblast,14,1,13,32,0
+2020-11-12,RUS,Russia,Smolensk Oblast,4,0,4,12,0
+2020-11-12,RUS,Russia,Stavropol Krai,8,0,8,16,0
 2020-11-12,RUS,Russia,Sverdlovsk Oblast,17,1,17,49,1
-2020-11-12,RUS,Russia,Tambov Oblast,3,0,3,5,0
-2020-11-12,RUS,Russia,Tatarstan,9,2,9,14,0
+2020-11-12,RUS,Russia,Tambov Oblast,4,0,4,10,0
+2020-11-12,RUS,Russia,Tatarstan,10,2,10,14,1
 2020-11-12,RUS,Russia,Tomsk Oblast,4,0,4,25,2
-2020-11-12,RUS,Russia,Tula Oblast,6,0,6,10,1
+2020-11-12,RUS,Russia,Tula Oblast,7,0,7,10,1
 2020-11-12,RUS,Russia,Tuva,1,0,1,0,0
 2020-11-12,RUS,Russia,Tver Oblast,6,0,6,17,0
 2020-11-12,RUS,Russia,Tyumen Oblast,8,0,8,35,1
@@ -1490,584 +1575,614 @@ date,ISO3,country,region,count,cli,count_local_com,cli_local_com,anosmia
 2020-11-12,RUS,Russia,Ulyanovsk Oblast,3,0,3,11,0
 2020-11-12,RUS,Russia,Vladimir Oblast,6,0,6,16,1
 2020-11-12,RUS,Russia,Volgograd Oblast,9,1,9,10,1
-2020-11-12,RUS,Russia,Vologda Oblast,4,1,4,8,1
-2020-11-12,RUS,Russia,Voronezh Oblast,8,0,8,21,0
-2020-11-12,RUS,Russia,Yakutia,6,0,6,8,0
+2020-11-12,RUS,Russia,Vologda Oblast,5,1,5,13,2
+2020-11-12,RUS,Russia,Voronezh Oblast,11,1,11,28,1
+2020-11-12,RUS,Russia,Yakutia,8,0,8,8,1
 2020-11-12,RUS,Russia,Yamalo-Nenets Autonomous Okrug,4,0,4,98,0
-2020-11-12,RUS,Russia,Yaroslavl Oblast,9,1,9,78,2
+2020-11-12,RUS,Russia,Yaroslavl Oblast,11,1,11,80,2
 2020-11-12,RUS,Russia,Zabaykalsky Krai,5,1,5,1,0
+2020-11-12,RWA,Rwanda,-99,1,0,1,0,0
 2020-11-12,RWA,Rwanda,Umujyi wa Kigali,1,0,1,0,0
 2020-11-12,SMR,San Marino,Serravalle,2,0,2,1,0
-2020-11-12,SAU,Saudi Arabia,-99,8,0,8,7,0
-2020-11-12,SAU,Saudi Arabia,`Asir,9,1,9,103,1
+2020-11-12,SAU,Saudi Arabia,-99,18,1,17,10,1
 2020-11-12,SAU,Saudi Arabia,Al Bahah,1,0,1,0,0
-2020-11-12,SAU,Saudi Arabia,Al Hudud ash Shamaliyah,3,0,3,6,0
+2020-11-12,SAU,Saudi Arabia,Al Hudud ash Shamaliyah,4,0,4,6,0
 2020-11-12,SAU,Saudi Arabia,Al Jawf,3,0,3,0,0
-2020-11-12,SAU,Saudi Arabia,Al Madinah,19,0,19,10,1
-2020-11-12,SAU,Saudi Arabia,Al Quassim,3,0,3,0,0
-2020-11-12,SAU,Saudi Arabia,Ar Riyad,39,0,39,19,0
-2020-11-12,SAU,Saudi Arabia,Ash Sharqiyah,19,0,19,11,0
+2020-11-12,SAU,Saudi Arabia,Al Madinah,21,0,21,11,2
+2020-11-12,SAU,Saudi Arabia,Al Quassim,4,0,4,0,0
+2020-11-12,SAU,Saudi Arabia,Ar Riyad,49,0,49,23,1
+2020-11-12,SAU,Saudi Arabia,Ash Sharqiyah,22,0,22,12,0
 2020-11-12,SAU,Saudi Arabia,Ha'il,1,0,1,0,0
 2020-11-12,SAU,Saudi Arabia,Jizan,3,1,3,4,0
-2020-11-12,SAU,Saudi Arabia,Makkah,32,0,32,21,1
-2020-11-12,SAU,Saudi Arabia,Najran,1,1,1,27,1
+2020-11-12,SAU,Saudi Arabia,Makkah,37,0,37,23,1
+2020-11-12,SAU,Saudi Arabia,Najran,3,1,3,27,2
 2020-11-12,SAU,Saudi Arabia,Tabuk,3,0,3,0,0
-2020-11-12,SEN,Senegal,-99,1,0,1,0,0
-2020-11-12,SEN,Senegal,Dakar,1,0,1,0,0
+2020-11-12,SAU,Saudi Arabia,`Asir,10,1,10,103,1
+2020-11-12,SEN,Senegal,-99,2,0,2,0,0
+2020-11-12,SEN,Senegal,Dakar,6,0,6,0,0
 2020-11-12,SEN,Senegal,Diourbel,1,0,1,2,0
-2020-11-12,SRB,Serbia,-99,9,0,9,3,1
+2020-11-12,SEN,Senegal,Thiès,2,0,2,0,0
+2020-11-12,SEN,Senegal,Ziguinchor,1,1,1,1,0
+2020-11-12,SRB,Serbia,-99,21,0,20,13,1
+2020-11-12,SRB,Serbia,Šumadijski,11,0,11,20,0
 2020-11-12,SRB,Serbia,Borski,3,0,3,0,0
-2020-11-12,SRB,Serbia,Braničevski,2,0,2,5,0
-2020-11-12,SRB,Serbia,Grad Beograd,56,2,56,85,4
-2020-11-12,SRB,Serbia,Jablanički,3,0,3,2,0
-2020-11-12,SRB,Serbia,Južno-Bački,28,0,28,60,0
-2020-11-12,SRB,Serbia,Južno-Banatski,6,0,6,0,0
+2020-11-12,SRB,Serbia,Braničevski,4,0,4,5,0
+2020-11-12,SRB,Serbia,Grad Beograd,68,4,68,115,6
+2020-11-12,SRB,Serbia,Jablanički,6,0,6,2,0
+2020-11-12,SRB,Serbia,Južno-Bački,33,0,33,65,0
+2020-11-12,SRB,Serbia,Južno-Banatski,10,1,10,1,0
 2020-11-12,SRB,Serbia,Kolubarski,6,0,6,22,0
 2020-11-12,SRB,Serbia,Kosovskomitrovički okrug,1,0,1,1,0
 2020-11-12,SRB,Serbia,Mačvanski,4,0,4,5,0
 2020-11-12,SRB,Serbia,Moravički,4,0,4,0,0
-2020-11-12,SRB,Serbia,Nišavski,17,3,17,26,2
+2020-11-12,SRB,Serbia,Nišavski,19,3,19,33,2
 2020-11-12,SRB,Serbia,Pirotski,2,0,2,0,0
 2020-11-12,SRB,Serbia,Podunavski,8,0,8,6,2
 2020-11-12,SRB,Serbia,Pomoravski,5,1,5,4,0
-2020-11-12,SRB,Serbia,Rasinski,2,0,2,0,0
 2020-11-12,SRB,Serbia,Raški,3,0,3,8,0
-2020-11-12,SRB,Serbia,Severno-Bački,10,0,10,85,1
+2020-11-12,SRB,Serbia,Rasinski,2,0,2,0,0
+2020-11-12,SRB,Serbia,Severno-Bački,13,0,13,86,2
 2020-11-12,SRB,Serbia,Severno-Banatski,5,0,5,4,0
-2020-11-12,SRB,Serbia,Srednje-Banatski,1,0,1,1,0
-2020-11-12,SRB,Serbia,Sremski,6,0,6,3,0
-2020-11-12,SRB,Serbia,Šumadijski,9,0,9,20,0
+2020-11-12,SRB,Serbia,Srednje-Banatski,3,0,3,11,0
+2020-11-12,SRB,Serbia,Sremski,8,0,8,13,0
 2020-11-12,SRB,Serbia,Toplički,2,0,2,3,0
-2020-11-12,SRB,Serbia,Zaječarski,3,0,3,0,0
+2020-11-12,SRB,Serbia,Zaječarski,4,0,4,1,0
 2020-11-12,SRB,Serbia,Zapadno-Bački,2,0,2,0,0
 2020-11-12,SRB,Serbia,Zlatiborski,6,0,6,7,0
-2020-11-12,SGP,Singapore,-99,8,0,8,0,0
-2020-11-12,SGP,Singapore,Central,12,0,12,1,0
-2020-11-12,SGP,Singapore,East,20,0,20,0,0
-2020-11-12,SGP,Singapore,North,10,0,10,0,0
-2020-11-12,SGP,Singapore,North-East,12,0,12,0,0
-2020-11-12,SGP,Singapore,West,17,1,17,0,0
-2020-11-12,SVK,Slovakia,-99,8,0,8,2,0
-2020-11-12,SVK,Slovakia,Banskobystrický,11,0,11,6,0
+2020-11-12,SGP,Singapore,-99,9,0,9,0,0
+2020-11-12,SGP,Singapore,Central,14,0,14,1,0
+2020-11-12,SGP,Singapore,East,22,0,22,0,0
+2020-11-12,SGP,Singapore,North,12,0,12,1,0
+2020-11-12,SGP,Singapore,North-East,13,0,13,0,0
+2020-11-12,SGP,Singapore,West,18,1,18,0,0
+2020-11-12,SVK,Slovakia,-99,9,0,9,2,0
+2020-11-12,SVK,Slovakia,Žilinský,18,0,18,9,1
+2020-11-12,SVK,Slovakia,Banskobystrický,12,0,12,6,0
 2020-11-12,SVK,Slovakia,Bratislavský,37,0,37,3,0
 2020-11-12,SVK,Slovakia,Košický,19,0,19,0,0
-2020-11-12,SVK,Slovakia,Nitriansky,13,0,13,1,0
-2020-11-12,SVK,Slovakia,Prešovský,13,0,13,7,0
-2020-11-12,SVK,Slovakia,Trenčiansky,16,0,16,17,2
-2020-11-12,SVK,Slovakia,Trnavský,15,0,15,0,0
-2020-11-12,SVK,Slovakia,Žilinský,17,0,17,9,1
-2020-11-12,SVN,Slovenia,-99,3,0,3,0,0
-2020-11-12,SVN,Slovenia,Gorenjska,14,0,14,96,0
-2020-11-12,SVN,Slovenia,Goriška,2,0,2,3,0
+2020-11-12,SVK,Slovakia,Nitriansky,16,0,16,1,0
+2020-11-12,SVK,Slovakia,Prešovský,16,0,16,9,0
+2020-11-12,SVK,Slovakia,Trenčiansky,20,0,20,17,2
+2020-11-12,SVK,Slovakia,Trnavský,17,0,17,1,0
+2020-11-12,SVN,Slovenia,-99,4,1,3,0,0
+2020-11-12,SVN,Slovenia,Gorenjska,20,0,20,104,0
+2020-11-12,SVN,Slovenia,Goriška,3,0,3,6,0
 2020-11-12,SVN,Slovenia,Jugovzhodna Slovenija,3,0,3,3,0
-2020-11-12,SVN,Slovenia,Koroška,5,0,5,4,0
+2020-11-12,SVN,Slovenia,Koroška,6,0,6,4,0
 2020-11-12,SVN,Slovenia,Obalno-kraška,8,0,8,4,0
-2020-11-12,SVN,Slovenia,Osrednjeslovenska,26,0,26,28,1
-2020-11-12,SVN,Slovenia,Podravska,11,0,11,5,0
+2020-11-12,SVN,Slovenia,Osrednjeslovenska,29,0,29,28,1
+2020-11-12,SVN,Slovenia,Podravska,12,0,12,5,1
 2020-11-12,SVN,Slovenia,Pomurska,1,0,1,0,1
-2020-11-12,SVN,Slovenia,Savinjska,7,1,7,108,2
-2020-11-12,SVN,Slovenia,Spodnjeposavska,1,0,1,5,0
-2020-11-12,ZAF,South Africa,-99,6,0,6,0,0
-2020-11-12,ZAF,South Africa,Eastern Cape,50,4,50,41,5
-2020-11-12,ZAF,South Africa,Free State,18,1,18,10,1
-2020-11-12,ZAF,South Africa,Gauteng,97,1,97,17,5
-2020-11-12,ZAF,South Africa,KwaZulu-Natal,63,6,63,16,2
-2020-11-12,ZAF,South Africa,Limpopo,19,1,19,1,1
-2020-11-12,ZAF,South Africa,Mpumalanga,12,0,12,2,1
-2020-11-12,ZAF,South Africa,North West,13,0,13,1,1
-2020-11-12,ZAF,South Africa,Northern Cape,7,0,7,1,0
-2020-11-12,ZAF,South Africa,Western Cape,71,1,71,17,3
-2020-11-12,KOR,South Korea,-99,2,0,2,5,0
-2020-11-12,KOR,South Korea,Busan,17,0,17,0,0
+2020-11-12,SVN,Slovenia,Savinjska,10,1,10,111,3
+2020-11-12,SVN,Slovenia,Spodnjeposavska,2,0,2,5,0
+2020-11-12,SOM,Somalia,-99,1,0,0,0,0
+2020-11-12,ZAF,South Africa,-99,26,4,21,4,2
+2020-11-12,ZAF,South Africa,Eastern Cape,68,5,68,46,5
+2020-11-12,ZAF,South Africa,Free State,24,1,24,11,1
+2020-11-12,ZAF,South Africa,Gauteng,123,2,123,25,5
+2020-11-12,ZAF,South Africa,KwaZulu-Natal,84,6,84,16,3
+2020-11-12,ZAF,South Africa,Limpopo,27,1,27,1,1
+2020-11-12,ZAF,South Africa,Mpumalanga,17,0,17,2,1
+2020-11-12,ZAF,South Africa,North West,15,0,15,2,1
+2020-11-12,ZAF,South Africa,Northern Cape,9,0,9,1,0
+2020-11-12,ZAF,South Africa,Western Cape,87,1,87,21,7
+2020-11-12,KOR,South Korea,-99,8,0,6,5,1
+2020-11-12,KOR,South Korea,Busan,19,0,19,0,0
 2020-11-12,KOR,South Korea,Chungcheongbuk-do,4,0,4,0,0
-2020-11-12,KOR,South Korea,Chungcheongnam-do,6,0,6,0,0
-2020-11-12,KOR,South Korea,Daegu,9,0,9,0,0
+2020-11-12,KOR,South Korea,Chungcheongnam-do,8,0,8,0,0
+2020-11-12,KOR,South Korea,Daegu,10,0,10,0,0
 2020-11-12,KOR,South Korea,Daejeon,7,0,7,0,0
-2020-11-12,KOR,South Korea,Gangwon-do,4,0,4,0,0
-2020-11-12,KOR,South Korea,Gwangju,3,0,3,0,0
-2020-11-12,KOR,South Korea,Gyeonggi-do,44,0,44,4,1
-2020-11-12,KOR,South Korea,Gyeongsangbuk-do,12,0,12,0,0
-2020-11-12,KOR,South Korea,Gyeongsangnam-do,9,0,9,0,0
+2020-11-12,KOR,South Korea,Gangwon-do,5,0,5,0,0
+2020-11-12,KOR,South Korea,Gwangju,4,1,4,0,0
+2020-11-12,KOR,South Korea,Gyeonggi-do,52,0,52,4,1
+2020-11-12,KOR,South Korea,Gyeongsangbuk-do,14,0,14,0,0
+2020-11-12,KOR,South Korea,Gyeongsangnam-do,10,0,10,0,0
 2020-11-12,KOR,South Korea,Incheon,6,0,6,0,0
 2020-11-12,KOR,South Korea,Jeju,4,0,4,0,0
-2020-11-12,KOR,South Korea,Jeollabuk-do,4,0,4,0,0
-2020-11-12,KOR,South Korea,Jeollanam-do,6,0,6,1,0
+2020-11-12,KOR,South Korea,Jeollabuk-do,6,0,6,0,0
+2020-11-12,KOR,South Korea,Jeollanam-do,7,0,7,1,0
 2020-11-12,KOR,South Korea,Sejong,1,0,1,0,0
-2020-11-12,KOR,South Korea,Seoul,64,0,63,2,0
-2020-11-12,KOR,South Korea,Ulsan,6,0,6,0,0
+2020-11-12,KOR,South Korea,Seoul,71,0,70,2,0
+2020-11-12,KOR,South Korea,Ulsan,7,0,7,0,0
 2020-11-12,SSD,South Sudan,-99,1,0,1,0,0
-2020-11-12,ESP,Spain,-99,14,0,14,1,0
-2020-11-12,ESP,Spain,Andalucía,212,1,212,123,4
-2020-11-12,ESP,Spain,Aragón,52,1,52,21,2
-2020-11-12,ESP,Spain,Cantabria,28,0,28,4,0
-2020-11-12,ESP,Spain,Castilla y León,108,1,108,139,1
-2020-11-12,ESP,Spain,Castilla-La Mancha,71,0,71,19,3
-2020-11-12,ESP,Spain,Cataluña,146,2,146,51,5
-2020-11-12,ESP,Spain,Comunidad de Madrid,185,1,185,35,8
-2020-11-12,ESP,Spain,Comunidad Foral de Navarra,15,0,15,5,0
-2020-11-12,ESP,Spain,Comunidad Valenciana,168,0,168,62,6
-2020-11-12,ESP,Spain,Extremadura,25,0,25,2,0
-2020-11-12,ESP,Spain,Galicia,118,0,118,39,1
-2020-11-12,ESP,Spain,Islas Baleares,30,0,30,10,1
-2020-11-12,ESP,Spain,Islas Canarias,68,0,68,3,1
-2020-11-12,ESP,Spain,La Rioja,10,0,10,0,0
-2020-11-12,ESP,Spain,País Vasco,51,0,51,9,0
-2020-11-12,ESP,Spain,Principado de Asturias,77,2,77,120,1
-2020-11-12,ESP,Spain,Región de Murcia,51,1,51,20,2
-2020-11-12,LKA,Sri Lanka,-99,6,0,6,0,0
+2020-11-12,ESP,Spain,-99,60,3,45,9,3
+2020-11-12,ESP,Spain,Andalucía,256,1,256,152,4
+2020-11-12,ESP,Spain,Aragón,63,1,63,35,3
+2020-11-12,ESP,Spain,Cantabria,32,0,32,5,0
+2020-11-12,ESP,Spain,Castilla y León,132,1,132,152,2
+2020-11-12,ESP,Spain,Castilla-La Mancha,86,1,86,25,4
+2020-11-12,ESP,Spain,Cataluña,174,3,174,56,6
+2020-11-12,ESP,Spain,Ceuta y Melilla,2,0,2,4,1
+2020-11-12,ESP,Spain,Comunidad Foral de Navarra,18,0,18,5,0
+2020-11-12,ESP,Spain,Comunidad Valenciana,205,1,204,77,8
+2020-11-12,ESP,Spain,Comunidad de Madrid,211,1,211,37,8
+2020-11-12,ESP,Spain,Extremadura,32,0,32,7,0
+2020-11-12,ESP,Spain,Galicia,134,0,134,45,2
+2020-11-12,ESP,Spain,Islas Baleares,38,1,38,13,1
+2020-11-12,ESP,Spain,Islas Canarias,84,0,84,3,1
+2020-11-12,ESP,Spain,La Rioja,14,0,14,0,0
+2020-11-12,ESP,Spain,País Vasco,62,0,62,10,1
+2020-11-12,ESP,Spain,Principado de Asturias,90,2,90,120,2
+2020-11-12,ESP,Spain,Región de Murcia,59,1,59,23,2
+2020-11-12,LKA,Sri Lanka,-99,14,0,12,4,1
 2020-11-12,LKA,Sri Lanka,Ampara,1,0,1,0,0
 2020-11-12,LKA,Sri Lanka,Anuradhapura,4,0,4,0,0
-2020-11-12,LKA,Sri Lanka,Colombo,39,0,39,6,0
-2020-11-12,LKA,Sri Lanka,Galle,10,0,10,0,0
-2020-11-12,LKA,Sri Lanka,Gampaha,17,0,17,5,0
+2020-11-12,LKA,Sri Lanka,Badulla,1,0,1,0,0
+2020-11-12,LKA,Sri Lanka,Batticaloa,1,0,1,0,0
+2020-11-12,LKA,Sri Lanka,Colombo,49,0,49,6,0
+2020-11-12,LKA,Sri Lanka,Galle,11,0,11,0,0
+2020-11-12,LKA,Sri Lanka,Gampaha,20,0,20,5,0
 2020-11-12,LKA,Sri Lanka,Hambantota,1,0,1,0,0
 2020-11-12,LKA,Sri Lanka,Jaffna,3,0,3,0,0
-2020-11-12,LKA,Sri Lanka,Kalutara,6,0,6,0,0
-2020-11-12,LKA,Sri Lanka,Kandy,3,0,3,0,0
+2020-11-12,LKA,Sri Lanka,Kalutara,7,0,7,0,0
+2020-11-12,LKA,Sri Lanka,Kandy,6,0,6,0,0
 2020-11-12,LKA,Sri Lanka,Kegalle,3,0,3,0,0
 2020-11-12,LKA,Sri Lanka,Kilinochchi,1,0,1,0,0
-2020-11-12,LKA,Sri Lanka,Kurunegala,3,0,3,0,0
-2020-11-12,LKA,Sri Lanka,Matara,6,0,6,43,0
+2020-11-12,LKA,Sri Lanka,Kurunegala,8,1,8,4,0
+2020-11-12,LKA,Sri Lanka,Matale,1,0,1,0,0
+2020-11-12,LKA,Sri Lanka,Matara,7,0,7,43,0
 2020-11-12,LKA,Sri Lanka,Moneragala,1,0,1,0,0
-2020-11-12,LKA,Sri Lanka,Nuwara Eliya,1,0,1,1,0
+2020-11-12,LKA,Sri Lanka,Nuwara Eliya,2,0,2,1,0
 2020-11-12,LKA,Sri Lanka,Polonnaruwa,1,0,1,0,0
-2020-11-12,LKA,Sri Lanka,Ratnapura,1,0,1,0,0
-2020-11-12,SDN,Sudan,-99,6,1,6,3,0
-2020-11-12,SDN,Sudan,Al Jazirah,7,0,7,7,0
+2020-11-12,LKA,Sri Lanka,Puttalam,1,0,1,0,0
+2020-11-12,LKA,Sri Lanka,Ratnapura,2,0,2,1,0
+2020-11-12,SDN,Sudan,-99,12,1,12,5,0
+2020-11-12,SDN,Sudan,Al Jazirah,9,0,9,7,0
 2020-11-12,SDN,Sudan,Al Qadarif,3,0,3,3,0
-2020-11-12,SDN,Sudan,Kassala,2,0,2,0,0
-2020-11-12,SDN,Sudan,Khartoum,71,3,71,45,4
+2020-11-12,SDN,Sudan,East Darfur,1,0,1,0,0
+2020-11-12,SDN,Sudan,Kassala,3,0,3,0,0
+2020-11-12,SDN,Sudan,Khartoum,96,3,96,63,6
 2020-11-12,SDN,Sudan,North Darfur,1,0,1,0,0
-2020-11-12,SDN,Sudan,North Kurdufan,2,0,2,0,0
-2020-11-12,SDN,Sudan,Northern,1,0,1,0,0
-2020-11-12,SDN,Sudan,River Nile,2,0,2,2,0
+2020-11-12,SDN,Sudan,North Kurdufan,4,0,4,0,0
+2020-11-12,SDN,Sudan,Northern,2,0,2,0,0
+2020-11-12,SDN,Sudan,Red Sea,2,0,2,0,0
+2020-11-12,SDN,Sudan,River Nile,3,0,3,2,0
 2020-11-12,SDN,Sudan,Sennar,1,0,1,0,0
-2020-11-12,SDN,Sudan,South Darfur,3,0,3,1,0
-2020-11-12,SDN,Sudan,South Kurdufan,1,0,1,0,0
+2020-11-12,SDN,Sudan,South Darfur,4,0,4,1,0
+2020-11-12,SDN,Sudan,South Kurdufan,2,0,2,0,0
 2020-11-12,SDN,Sudan,West Darfur,2,0,2,0,0
 2020-11-12,SDN,Sudan,White Nile,2,0,2,0,0
-2020-11-12,SWE,Sweden,-99,31,0,31,16,1
-2020-11-12,SWE,Sweden,Blekinge,23,1,23,9,0
-2020-11-12,SWE,Sweden,Dalarna,52,2,52,30,3
-2020-11-12,SWE,Sweden,Gävleborg,44,3,44,8,5
-2020-11-12,SWE,Sweden,Gotland,10,0,10,12,0
-2020-11-12,SWE,Sweden,Halland,44,2,44,30,0
-2020-11-12,SWE,Sweden,Jämtland,16,0,16,3,1
-2020-11-12,SWE,Sweden,Jönköping,39,1,39,40,1
-2020-11-12,SWE,Sweden,Kalmar,40,1,40,21,2
-2020-11-12,SWE,Sweden,Kronoberg,24,2,24,18,1
-2020-11-12,SWE,Sweden,Norrbotten,39,0,39,123,3
-2020-11-12,SWE,Sweden,Orebro,43,1,43,29,2
-2020-11-12,SWE,Sweden,Östergötland,63,1,63,30,3
-2020-11-12,SWE,Sweden,Skåne,189,1,188,92,8
-2020-11-12,SWE,Sweden,Södermanland,53,1,53,28,1
-2020-11-12,SWE,Sweden,Stockholm,197,3,197,102,8
-2020-11-12,SWE,Sweden,Uppsala,55,4,55,29,7
-2020-11-12,SWE,Sweden,Värmland,44,0,44,4,0
-2020-11-12,SWE,Sweden,Västerbotten,43,0,43,34,0
-2020-11-12,SWE,Sweden,Västernorrland,36,0,35,10,0
-2020-11-12,SWE,Sweden,Västmanland,42,1,42,34,2
-2020-11-12,SWE,Sweden,Västra Götaland,258,7,258,115,6
-2020-11-12,CHE,Switzerland,-99,5,0,5,2,0
-2020-11-12,CHE,Switzerland,Aargau,21,0,21,5,0
+2020-11-12,SUR,Suriname,Paramaribo,1,0,1,0,0
+2020-11-12,SWE,Sweden,-99,65,5,50,45,5
+2020-11-12,SWE,Sweden,Östergötland,71,1,71,33,3
+2020-11-12,SWE,Sweden,Blekinge,24,1,24,9,1
+2020-11-12,SWE,Sweden,Dalarna,56,3,56,30,3
+2020-11-12,SWE,Sweden,Gävleborg,52,4,52,9,6
+2020-11-12,SWE,Sweden,Gotland,11,0,11,13,0
+2020-11-12,SWE,Sweden,Halland,49,2,49,32,0
+2020-11-12,SWE,Sweden,Jämtland,20,0,20,3,1
+2020-11-12,SWE,Sweden,Jönköping,47,2,47,45,1
+2020-11-12,SWE,Sweden,Kalmar,45,1,45,22,2
+2020-11-12,SWE,Sweden,Kronoberg,25,2,25,20,1
+2020-11-12,SWE,Sweden,Norrbotten,44,0,44,129,3
+2020-11-12,SWE,Sweden,Orebro,50,1,50,29,2
+2020-11-12,SWE,Sweden,Södermanland,60,1,60,28,1
+2020-11-12,SWE,Sweden,Skåne,208,1,207,98,9
+2020-11-12,SWE,Sweden,Stockholm,221,5,221,113,8
+2020-11-12,SWE,Sweden,Uppsala,65,4,65,29,7
+2020-11-12,SWE,Sweden,Värmland,50,1,50,7,0
+2020-11-12,SWE,Sweden,Västerbotten,47,0,47,34,1
+2020-11-12,SWE,Sweden,Västernorrland,45,1,44,13,1
+2020-11-12,SWE,Sweden,Västmanland,47,1,47,39,2
+2020-11-12,SWE,Sweden,Västra Götaland,281,8,281,121,7
+2020-11-12,CHE,Switzerland,-99,11,0,10,5,1
+2020-11-12,CHE,Switzerland,Aargau,23,0,23,5,0
 2020-11-12,CHE,Switzerland,Appenzell Ausserrhoden,2,0,2,0,0
-2020-11-12,CHE,Switzerland,Basel-Landschaft,13,0,13,9,0
+2020-11-12,CHE,Switzerland,Basel-Landschaft,16,0,16,9,0
 2020-11-12,CHE,Switzerland,Basel-Stadt,7,0,7,5,0
 2020-11-12,CHE,Switzerland,Bern,44,0,44,20,1
-2020-11-12,CHE,Switzerland,Fribourg,6,2,6,3,2
-2020-11-12,CHE,Switzerland,Genève,22,1,22,41,2
+2020-11-12,CHE,Switzerland,Fribourg,8,2,8,3,2
+2020-11-12,CHE,Switzerland,Genève,29,1,29,46,2
 2020-11-12,CHE,Switzerland,Glarus,3,0,3,10,0
-2020-11-12,CHE,Switzerland,Graubünden,7,0,7,2,0
-2020-11-12,CHE,Switzerland,Jura,2,0,2,1,0
-2020-11-12,CHE,Switzerland,Luzern,12,1,12,2,1
+2020-11-12,CHE,Switzerland,Graubünden,8,0,8,2,0
+2020-11-12,CHE,Switzerland,Jura,3,0,3,1,0
+2020-11-12,CHE,Switzerland,Luzern,16,1,16,2,1
 2020-11-12,CHE,Switzerland,Neuchâtel,6,0,6,0,0
 2020-11-12,CHE,Switzerland,Obwalden,1,0,1,0,0
-2020-11-12,CHE,Switzerland,Schaffhausen,6,0,6,0,0
+2020-11-12,CHE,Switzerland,Schaffhausen,7,0,7,0,0
 2020-11-12,CHE,Switzerland,Schwyz,8,0,8,8,0
 2020-11-12,CHE,Switzerland,Solothurn,13,0,13,2,0
-2020-11-12,CHE,Switzerland,St. Gallen,18,0,18,4,1
+2020-11-12,CHE,Switzerland,St. Gallen,21,0,21,32,1
 2020-11-12,CHE,Switzerland,Thurgau,10,0,10,11,1
-2020-11-12,CHE,Switzerland,Ticino,21,1,21,12,2
-2020-11-12,CHE,Switzerland,Valais,15,1,15,5,0
-2020-11-12,CHE,Switzerland,Vaud,33,0,33,18,1
-2020-11-12,CHE,Switzerland,Zug,5,0,5,0,0
-2020-11-12,CHE,Switzerland,Zürich,65,1,65,21,4
-2020-11-12,TWN,Taiwan,-99,23,0,23,0,1
-2020-11-12,TWN,Taiwan,Changhua County,17,0,17,4,0
-2020-11-12,TWN,Taiwan,Chiayi City,8,1,8,99,1
-2020-11-12,TWN,Taiwan,Chiayi County,5,0,5,0,0
-2020-11-12,TWN,Taiwan,Hsinchu City,13,0,13,1,0
-2020-11-12,TWN,Taiwan,Hsinchu County,11,0,11,0,0
-2020-11-12,TWN,Taiwan,Hualien County,7,0,7,0,0
-2020-11-12,TWN,Taiwan,Kaohsiung City,83,0,83,4,1
-2020-11-12,TWN,Taiwan,Keelung City,9,0,9,0,0
-2020-11-12,TWN,Taiwan,Kinmen County,2,0,2,0,0
+2020-11-12,CHE,Switzerland,Ticino,24,1,24,13,2
+2020-11-12,CHE,Switzerland,Valais,17,1,17,8,0
+2020-11-12,CHE,Switzerland,Vaud,38,0,38,23,1
+2020-11-12,CHE,Switzerland,Zürich,71,2,71,25,4
+2020-11-12,CHE,Switzerland,Zug,6,0,6,0,0
+2020-11-12,TWN,Taiwan,-99,52,0,45,3,1
+2020-11-12,TWN,Taiwan,Changhua County,20,0,20,4,0
+2020-11-12,TWN,Taiwan,Chiayi City,13,1,13,99,1
+2020-11-12,TWN,Taiwan,Chiayi County,6,0,6,0,0
+2020-11-12,TWN,Taiwan,Hsinchu City,15,0,15,1,0
+2020-11-12,TWN,Taiwan,Hsinchu County,14,0,14,0,0
+2020-11-12,TWN,Taiwan,Hualien County,9,0,9,0,1
+2020-11-12,TWN,Taiwan,Kaohsiung City,103,0,103,5,1
+2020-11-12,TWN,Taiwan,Keelung City,15,0,15,0,0
+2020-11-12,TWN,Taiwan,Kinmen County,3,0,3,0,0
 2020-11-12,TWN,Taiwan,Lienchiang County,1,0,1,0,0
-2020-11-12,TWN,Taiwan,Miaoli County,10,0,10,0,0
-2020-11-12,TWN,Taiwan,Nantou County,5,0,5,0,0
-2020-11-12,TWN,Taiwan,New Taipei City,120,0,120,2,0
+2020-11-12,TWN,Taiwan,Miaoli County,11,0,11,0,0
+2020-11-12,TWN,Taiwan,Nantou County,6,0,6,0,0
+2020-11-12,TWN,Taiwan,New Taipei City,139,0,139,2,0
 2020-11-12,TWN,Taiwan,Penghu County,5,0,5,0,0
-2020-11-12,TWN,Taiwan,Pingtung County,13,0,13,0,0
-2020-11-12,TWN,Taiwan,Taichung City,75,0,75,2,1
-2020-11-12,TWN,Taiwan,Tainan City,49,0,49,5,0
-2020-11-12,TWN,Taiwan,Taipei City,123,0,122,6,0
-2020-11-12,TWN,Taiwan,Taitung County,12,0,12,5,0
-2020-11-12,TWN,Taiwan,Taoyuan City,64,0,64,3,0
-2020-11-12,TWN,Taiwan,Yilan County,15,0,15,0,0
-2020-11-12,TWN,Taiwan,Yunlin County,10,0,10,2,0
-2020-11-12,TZA,Tanzania,-99,1,0,1,0,0
+2020-11-12,TWN,Taiwan,Pingtung County,18,0,18,0,0
+2020-11-12,TWN,Taiwan,Taichung City,84,0,84,2,1
+2020-11-12,TWN,Taiwan,Tainan City,66,0,66,5,0
+2020-11-12,TWN,Taiwan,Taipei City,148,0,147,6,0
+2020-11-12,TWN,Taiwan,Taitung County,17,0,17,5,0
+2020-11-12,TWN,Taiwan,Taoyuan City,77,0,77,7,0
+2020-11-12,TWN,Taiwan,Yilan County,18,0,18,0,0
+2020-11-12,TWN,Taiwan,Yunlin County,12,0,12,2,0
+2020-11-12,TZA,Tanzania,-99,2,0,2,0,0
 2020-11-12,TZA,Tanzania,Arusha,4,1,4,0,0
-2020-11-12,TZA,Tanzania,Dar es Salaam,4,0,4,3,0
+2020-11-12,TZA,Tanzania,Dar es Salaam,9,0,9,3,1
+2020-11-12,TZA,Tanzania,Iringa,1,0,1,0,0
 2020-11-12,TZA,Tanzania,Katavi,1,0,1,1,0
-2020-11-12,TZA,Tanzania,Kilimanjaro,1,0,1,5,0
+2020-11-12,TZA,Tanzania,Kilimanjaro,2,0,2,5,0
 2020-11-12,TZA,Tanzania,Manyara,1,0,1,0,0
 2020-11-12,TZA,Tanzania,Mara,1,0,1,0,0
 2020-11-12,TZA,Tanzania,Mjini Magharibi,1,0,1,0,0
-2020-11-12,TZA,Tanzania,Morogoro,1,0,1,0,0
+2020-11-12,TZA,Tanzania,Morogoro,2,0,2,0,0
 2020-11-12,TZA,Tanzania,Mtwara,1,0,1,0,0
+2020-11-12,TZA,Tanzania,Mwanza,1,0,1,0,0
 2020-11-12,TZA,Tanzania,Singida,2,0,2,0,0
-2020-11-12,THA,Thailand,-99,36,1,36,1,0
+2020-11-12,THA,Thailand,-99,70,3,65,5,0
 2020-11-12,THA,Thailand,Amnat Charoen,2,0,2,0,0
 2020-11-12,THA,Thailand,Ang Thong,2,0,2,0,0
-2020-11-12,THA,Thailand,Bangkok Metropolis,97,1,96,5,0
+2020-11-12,THA,Thailand,Bangkok Metropolis,129,1,128,7,0
 2020-11-12,THA,Thailand,Bueng Kan,3,0,3,1,0
-2020-11-12,THA,Thailand,Buri Ram,1,0,1,0,0
-2020-11-12,THA,Thailand,Chachoengsao,7,0,7,2,0
-2020-11-12,THA,Thailand,Chaiyaphum,2,0,2,0,0
-2020-11-12,THA,Thailand,Chanthaburi,3,0,3,0,0
-2020-11-12,THA,Thailand,Chiang Mai,25,0,25,2,0
-2020-11-12,THA,Thailand,Chiang Rai,12,0,12,10,0
-2020-11-12,THA,Thailand,Chon Buri,23,1,23,2,0
-2020-11-12,THA,Thailand,Chumphon,3,0,3,3,0
+2020-11-12,THA,Thailand,Buri Ram,2,0,2,0,0
+2020-11-12,THA,Thailand,Chachoengsao,9,0,9,2,0
+2020-11-12,THA,Thailand,Chai Nat,1,0,1,0,0
+2020-11-12,THA,Thailand,Chaiyaphum,3,0,3,0,0
+2020-11-12,THA,Thailand,Chanthaburi,5,0,5,0,0
+2020-11-12,THA,Thailand,Chiang Mai,33,0,33,2,2
+2020-11-12,THA,Thailand,Chiang Rai,15,0,15,10,0
+2020-11-12,THA,Thailand,Chon Buri,27,1,27,2,0
+2020-11-12,THA,Thailand,Chumphon,4,0,4,3,0
 2020-11-12,THA,Thailand,Kalasin,3,0,3,1,1
 2020-11-12,THA,Thailand,Kamphaeng Phet,1,0,1,0,0
-2020-11-12,THA,Thailand,Kanchanaburi,3,0,3,0,0
-2020-11-12,THA,Thailand,Khon Kaen,11,1,10,1,0
-2020-11-12,THA,Thailand,Krabi,1,0,1,0,0
+2020-11-12,THA,Thailand,Kanchanaburi,4,0,4,0,0
+2020-11-12,THA,Thailand,Khon Kaen,12,1,11,1,0
+2020-11-12,THA,Thailand,Krabi,2,0,2,0,0
 2020-11-12,THA,Thailand,Lampang,1,0,1,0,0
 2020-11-12,THA,Thailand,Lamphun,2,0,2,0,0
-2020-11-12,THA,Thailand,Loei,3,0,3,0,0
+2020-11-12,THA,Thailand,Loei,4,0,4,0,0
 2020-11-12,THA,Thailand,Lop Buri,1,0,1,0,0
 2020-11-12,THA,Thailand,Mae Hong Son,1,0,1,0,0
-2020-11-12,THA,Thailand,Maha Sarakham,2,0,2,0,0
-2020-11-12,THA,Thailand,Mukdahan,3,0,3,0,0
+2020-11-12,THA,Thailand,Maha Sarakham,6,0,6,0,0
+2020-11-12,THA,Thailand,Mukdahan,5,0,5,0,0
 2020-11-12,THA,Thailand,Nakhon Nayok,3,0,3,0,0
-2020-11-12,THA,Thailand,Nakhon Pathom,1,0,1,0,0
-2020-11-12,THA,Thailand,Nakhon Phanom,5,0,5,0,1
-2020-11-12,THA,Thailand,Nakhon Ratchasima,12,1,12,1,0
+2020-11-12,THA,Thailand,Nakhon Pathom,2,0,2,0,0
+2020-11-12,THA,Thailand,Nakhon Phanom,6,0,6,0,1
+2020-11-12,THA,Thailand,Nakhon Ratchasima,17,1,17,2,0
 2020-11-12,THA,Thailand,Nakhon Sawan,5,0,5,0,0
-2020-11-12,THA,Thailand,Nakhon Si Thammarat,7,0,7,1,0
-2020-11-12,THA,Thailand,Narathiwat,3,0,3,5,0
+2020-11-12,THA,Thailand,Nakhon Si Thammarat,9,0,9,1,0
+2020-11-12,THA,Thailand,Narathiwat,4,0,4,5,0
 2020-11-12,THA,Thailand,Nong Bua Lam Phu,1,0,1,0,0
 2020-11-12,THA,Thailand,Nong Khai,2,0,2,0,0
-2020-11-12,THA,Thailand,Nonthaburi,14,0,14,0,0
-2020-11-12,THA,Thailand,Pathum Thani,10,1,10,0,0
+2020-11-12,THA,Thailand,Nonthaburi,20,0,20,0,0
+2020-11-12,THA,Thailand,Pathum Thani,11,1,11,0,0
 2020-11-12,THA,Thailand,Pattani,3,0,3,0,0
 2020-11-12,THA,Thailand,Phangnga,3,0,3,0,0
 2020-11-12,THA,Thailand,Phatthalung,4,0,4,0,0
+2020-11-12,THA,Thailand,Phayao,1,0,1,0,0
 2020-11-12,THA,Thailand,Phetchabun,1,0,1,0,0
-2020-11-12,THA,Thailand,Phetchaburi,4,0,4,0,0
+2020-11-12,THA,Thailand,Phetchaburi,5,0,5,0,0
 2020-11-12,THA,Thailand,Phichit,2,0,2,0,0
-2020-11-12,THA,Thailand,Phitsanulok,3,0,3,0,0
-2020-11-12,THA,Thailand,Phra Nakhon Si Ayutthaya,4,0,4,0,0
-2020-11-12,THA,Thailand,Phrae,1,0,1,0,0
-2020-11-12,THA,Thailand,Phuket,13,0,13,1,0
-2020-11-12,THA,Thailand,Prachin Buri,1,0,1,0,0
-2020-11-12,THA,Thailand,Prachuap Khiri Khan,5,0,5,0,1
+2020-11-12,THA,Thailand,Phitsanulok,5,0,5,0,0
+2020-11-12,THA,Thailand,Phra Nakhon Si Ayutthaya,5,0,5,0,0
+2020-11-12,THA,Thailand,Phrae,2,0,2,0,0
+2020-11-12,THA,Thailand,Phuket,16,0,16,1,0
+2020-11-12,THA,Thailand,Prachin Buri,2,0,2,0,0
+2020-11-12,THA,Thailand,Prachuap Khiri Khan,6,0,6,2,1
 2020-11-12,THA,Thailand,Ranong,2,0,2,0,0
-2020-11-12,THA,Thailand,Ratchaburi,4,0,4,0,0
-2020-11-12,THA,Thailand,Rayong,6,0,6,0,0
+2020-11-12,THA,Thailand,Ratchaburi,5,0,5,0,0
+2020-11-12,THA,Thailand,Rayong,9,0,9,0,0
 2020-11-12,THA,Thailand,Roi Et,5,0,5,0,0
 2020-11-12,THA,Thailand,Sa Kaeo,1,0,1,0,0
-2020-11-12,THA,Thailand,Sakon Nakhon,3,0,3,1,0
-2020-11-12,THA,Thailand,Samut Prakan,9,0,9,0,0
-2020-11-12,THA,Thailand,Samut Sakhon,7,0,7,0,1
+2020-11-12,THA,Thailand,Sakon Nakhon,4,0,4,1,0
+2020-11-12,THA,Thailand,Samut Prakan,11,0,11,0,0
+2020-11-12,THA,Thailand,Samut Sakhon,9,0,9,0,1
 2020-11-12,THA,Thailand,Samut Songkhram,2,0,2,0,0
-2020-11-12,THA,Thailand,Saraburi,6,0,6,0,0
+2020-11-12,THA,Thailand,Saraburi,7,0,7,0,0
 2020-11-12,THA,Thailand,Satun,1,0,1,0,0
 2020-11-12,THA,Thailand,Si Sa Ket,4,0,4,0,0
-2020-11-12,THA,Thailand,Songkhla,11,1,11,0,0
+2020-11-12,THA,Thailand,Sing Buri,1,0,1,0,0
+2020-11-12,THA,Thailand,Songkhla,12,1,12,0,0
 2020-11-12,THA,Thailand,Sukhothai,2,0,2,0,0
-2020-11-12,THA,Thailand,Suphan Buri,3,0,3,0,0
-2020-11-12,THA,Thailand,Surat Thani,12,0,12,1,0
-2020-11-12,THA,Thailand,Surin,4,0,4,0,0
-2020-11-12,THA,Thailand,Tak,3,0,3,0,0
-2020-11-12,THA,Thailand,Trang,4,0,4,0,0
+2020-11-12,THA,Thailand,Suphan Buri,4,0,4,0,0
+2020-11-12,THA,Thailand,Surat Thani,13,0,13,1,0
+2020-11-12,THA,Thailand,Surin,5,0,5,0,0
+2020-11-12,THA,Thailand,Tak,4,0,4,0,0
+2020-11-12,THA,Thailand,Trang,5,0,5,0,0
 2020-11-12,THA,Thailand,Trat,2,0,2,0,0
 2020-11-12,THA,Thailand,Ubon Ratchathani,9,0,9,0,0
-2020-11-12,THA,Thailand,Udon Thani,5,0,5,2,0
+2020-11-12,THA,Thailand,Udon Thani,6,0,6,2,0
 2020-11-12,THA,Thailand,Uthai Thani,2,0,2,0,0
-2020-11-12,THA,Thailand,Uttaradit,1,0,1,0,0
-2020-11-12,THA,Thailand,Yala,2,0,2,0,0
-2020-11-12,THA,Thailand,Yasothon,1,0,1,0,0
+2020-11-12,THA,Thailand,Uttaradit,2,0,2,0,0
+2020-11-12,THA,Thailand,Yala,4,0,4,0,0
+2020-11-12,THA,Thailand,Yasothon,2,0,2,0,0
 2020-11-12,TLS,Timor-Leste,-99,1,0,1,0,0
 2020-11-12,TGO,Togo,Savanes,1,0,1,0,0
-2020-11-12,TUN,Tunisia,-99,3,0,3,0,0
-2020-11-12,TUN,Tunisia,Ariana,18,1,18,15,0
-2020-11-12,TUN,Tunisia,Ben Arous (Tunis Sud),14,0,14,14,0
-2020-11-12,TUN,Tunisia,Bizerte,8,0,8,28,0
-2020-11-12,TUN,Tunisia,Gabès,3,0,3,0,2
-2020-11-12,TUN,Tunisia,Gafsa,3,0,3,7,0
-2020-11-12,TUN,Tunisia,Jendouba,2,0,2,1,0
+2020-11-12,TUN,Tunisia,-99,12,1,10,3,1
+2020-11-12,TUN,Tunisia,Ariana,26,1,26,30,0
+2020-11-12,TUN,Tunisia,Ben Arous (Tunis Sud),19,0,19,16,0
+2020-11-12,TUN,Tunisia,Bizerte,10,0,10,29,0
+2020-11-12,TUN,Tunisia,Gabès,5,0,5,5,2
+2020-11-12,TUN,Tunisia,Gafsa,5,0,5,8,0
+2020-11-12,TUN,Tunisia,Jendouba,4,0,4,2,0
 2020-11-12,TUN,Tunisia,Kassérine,2,0,2,1,0
 2020-11-12,TUN,Tunisia,Kebili,1,0,1,1,0
-2020-11-12,TUN,Tunisia,Mahdia,1,0,1,0,0
-2020-11-12,TUN,Tunisia,Manubah,4,0,4,1,0
-2020-11-12,TUN,Tunisia,Médenine,4,0,4,8,0
-2020-11-12,TUN,Tunisia,Monastir,9,0,9,11,0
-2020-11-12,TUN,Tunisia,Nabeul,10,0,10,0,0
-2020-11-12,TUN,Tunisia,Sfax,5,0,5,2,2
-2020-11-12,TUN,Tunisia,Sidi Bou Zid,1,0,1,3,1
+2020-11-12,TUN,Tunisia,Le Kef,2,0,2,0,0
+2020-11-12,TUN,Tunisia,Médenine,6,0,6,8,0
+2020-11-12,TUN,Tunisia,Mahdia,2,0,2,4,1
+2020-11-12,TUN,Tunisia,Manubah,5,0,5,1,0
+2020-11-12,TUN,Tunisia,Monastir,10,0,10,11,0
+2020-11-12,TUN,Tunisia,Nabeul,17,0,17,4,0
+2020-11-12,TUN,Tunisia,Sfax,7,0,7,2,2
+2020-11-12,TUN,Tunisia,Sidi Bou Zid,3,0,3,4,1
 2020-11-12,TUN,Tunisia,Siliana,1,0,1,0,1
-2020-11-12,TUN,Tunisia,Sousse,8,1,8,6,2
+2020-11-12,TUN,Tunisia,Sousse,13,1,13,7,3
+2020-11-12,TUN,Tunisia,Tataouine,1,0,1,1,0
 2020-11-12,TUN,Tunisia,Tozeur,2,0,2,0,1
-2020-11-12,TUN,Tunisia,Tunis,22,0,22,8,2
+2020-11-12,TUN,Tunisia,Tunis,39,1,39,32,3
 2020-11-12,TUN,Tunisia,Zaghouan,1,0,1,0,0
-2020-11-12,TUR,Turkey,-99,26,0,25,8,1
-2020-11-12,TUR,Turkey,Adana,19,1,19,4,2
-2020-11-12,TUR,Turkey,Adiyaman,7,2,7,45,1
-2020-11-12,TUR,Turkey,Afyon,10,0,10,0,0
-2020-11-12,TUR,Turkey,Agri,3,0,2,0,0
+2020-11-12,TUR,Turkey,-99,70,2,50,22,4
+2020-11-12,TUR,Turkey,Çanakkale,12,0,12,100,0
+2020-11-12,TUR,Turkey,Çankiri,1,0,1,0,0
+2020-11-12,TUR,Turkey,Çorum,9,1,9,15,1
+2020-11-12,TUR,Turkey,Adana,23,1,23,13,2
+2020-11-12,TUR,Turkey,Adiyaman,8,2,8,45,1
+2020-11-12,TUR,Turkey,Afyon,12,0,11,0,0
+2020-11-12,TUR,Turkey,Agri,5,0,4,7,0
 2020-11-12,TUR,Turkey,Aksaray,2,0,2,0,1
-2020-11-12,TUR,Turkey,Amasya,5,0,5,4,0
-2020-11-12,TUR,Turkey,Ankara,95,0,95,52,0
-2020-11-12,TUR,Turkey,Antalya,46,0,46,16,1
+2020-11-12,TUR,Turkey,Amasya,6,0,6,4,0
+2020-11-12,TUR,Turkey,Ankara,113,0,112,62,0
+2020-11-12,TUR,Turkey,Antalya,55,0,55,16,1
 2020-11-12,TUR,Turkey,Ardahan,2,0,2,5,0
 2020-11-12,TUR,Turkey,Artvin,4,0,4,0,0
-2020-11-12,TUR,Turkey,Aydin,21,0,21,8,0
-2020-11-12,TUR,Turkey,Balikesir,17,0,17,6,0
+2020-11-12,TUR,Turkey,Aydin,25,0,25,13,0
+2020-11-12,TUR,Turkey,Balikesir,25,0,25,6,0
 2020-11-12,TUR,Turkey,Bartın,1,0,1,2,1
 2020-11-12,TUR,Turkey,Batman,1,0,1,0,0
 2020-11-12,TUR,Turkey,Bayburt,1,0,1,0,0
-2020-11-12,TUR,Turkey,Bilecik,5,0,5,3,0
-2020-11-12,TUR,Turkey,Bolu,5,0,5,0,0
-2020-11-12,TUR,Turkey,Burdur,1,0,1,0,0
-2020-11-12,TUR,Turkey,Bursa,49,0,49,50,2
-2020-11-12,TUR,Turkey,Çanakkale,8,0,8,100,0
-2020-11-12,TUR,Turkey,Çankiri,1,0,1,0,0
-2020-11-12,TUR,Turkey,Çorum,7,1,7,15,1
-2020-11-12,TUR,Turkey,Denizli,13,0,13,27,1
-2020-11-12,TUR,Turkey,Diyarbakir,12,0,12,3,2
-2020-11-12,TUR,Turkey,Düzce,5,0,5,2,0
-2020-11-12,TUR,Turkey,Edirne,9,0,9,8,0
+2020-11-12,TUR,Turkey,Bilecik,8,0,8,3,0
+2020-11-12,TUR,Turkey,Bolu,6,0,6,0,0
+2020-11-12,TUR,Turkey,Burdur,2,0,2,0,0
+2020-11-12,TUR,Turkey,Bursa,61,0,61,99,6
+2020-11-12,TUR,Turkey,Düzce,6,0,6,2,0
+2020-11-12,TUR,Turkey,Denizli,19,0,19,28,1
+2020-11-12,TUR,Turkey,Diyarbakir,13,0,13,3,2
+2020-11-12,TUR,Turkey,Edirne,11,0,11,10,0
 2020-11-12,TUR,Turkey,Elazığ,3,0,3,13,0
-2020-11-12,TUR,Turkey,Erzincan,2,0,2,0,0
-2020-11-12,TUR,Turkey,Erzurum,3,0,3,1,0
-2020-11-12,TUR,Turkey,Eskisehir,22,2,22,40,1
-2020-11-12,TUR,Turkey,Gaziantep,27,0,27,26,4
-2020-11-12,TUR,Turkey,Giresun,7,0,7,0,0
+2020-11-12,TUR,Turkey,Erzincan,3,0,3,0,0
+2020-11-12,TUR,Turkey,Erzurum,6,0,6,2,0
+2020-11-12,TUR,Turkey,Eskisehir,24,2,24,40,1
 2020-11-12,TUR,Turkey,Gümüshane,2,0,2,1,0
-2020-11-12,TUR,Turkey,Hatay,12,0,12,9,0
+2020-11-12,TUR,Turkey,Gaziantep,32,0,32,34,4
+2020-11-12,TUR,Turkey,Giresun,9,0,9,0,0
+2020-11-12,TUR,Turkey,Hatay,21,0,21,9,1
 2020-11-12,TUR,Turkey,Iğdır,2,0,2,4,0
-2020-11-12,TUR,Turkey,Isparta,10,0,10,1,1
-2020-11-12,TUR,Turkey,Istanbul,156,2,156,209,4
-2020-11-12,TUR,Turkey,Izmir,105,2,105,63,5
-2020-11-12,TUR,Turkey,K. Maras,14,1,14,10,1
-2020-11-12,TUR,Turkey,Karabük,2,0,2,10,0
-2020-11-12,TUR,Turkey,Karaman,2,0,2,0,0
+2020-11-12,TUR,Turkey,Isparta,13,0,13,1,1
+2020-11-12,TUR,Turkey,Istanbul,187,2,187,256,7
+2020-11-12,TUR,Turkey,Izmir,131,3,131,71,5
+2020-11-12,TUR,Turkey,K. Maras,19,1,19,10,1
+2020-11-12,TUR,Turkey,Kütahya,10,0,10,1,0
+2020-11-12,TUR,Turkey,Karabük,3,0,3,10,0
+2020-11-12,TUR,Turkey,Karaman,3,0,3,1,0
 2020-11-12,TUR,Turkey,Kars,1,0,1,0,0
-2020-11-12,TUR,Turkey,Kayseri,9,0,9,0,0
+2020-11-12,TUR,Turkey,Kastamonu,1,0,1,0,0
+2020-11-12,TUR,Turkey,Kayseri,14,0,14,2,0
 2020-11-12,TUR,Turkey,Kilis,1,0,1,0,0
 2020-11-12,TUR,Turkey,Kinkkale,2,0,2,2,0
-2020-11-12,TUR,Turkey,Kirklareli,4,0,4,11,0
-2020-11-12,TUR,Turkey,Kirsehir,2,1,2,0,1
-2020-11-12,TUR,Turkey,Kocaeli,25,1,25,12,0
-2020-11-12,TUR,Turkey,Konya,24,0,24,99,1
-2020-11-12,TUR,Turkey,Kütahya,7,0,7,1,0
-2020-11-12,TUR,Turkey,Malatya,9,0,9,6,1
-2020-11-12,TUR,Turkey,Manisa,22,0,22,23,2
-2020-11-12,TUR,Turkey,Mardin,4,1,4,0,0
-2020-11-12,TUR,Turkey,Mersin,21,0,21,7,1
-2020-11-12,TUR,Turkey,Mugla,29,0,29,5,0
+2020-11-12,TUR,Turkey,Kirklareli,5,0,5,11,0
+2020-11-12,TUR,Turkey,Kirsehir,3,1,3,0,1
+2020-11-12,TUR,Turkey,Kocaeli,29,1,29,18,0
+2020-11-12,TUR,Turkey,Konya,31,0,31,106,1
+2020-11-12,TUR,Turkey,Malatya,11,0,11,6,1
+2020-11-12,TUR,Turkey,Manisa,28,0,28,24,3
+2020-11-12,TUR,Turkey,Mardin,5,1,5,0,0
+2020-11-12,TUR,Turkey,Mersin,26,0,26,7,1
+2020-11-12,TUR,Turkey,Mugla,40,0,40,5,0
 2020-11-12,TUR,Turkey,Mus,1,0,1,0,0
 2020-11-12,TUR,Turkey,Nigde,1,0,1,0,0
-2020-11-12,TUR,Turkey,Ordu,8,0,8,2,0
-2020-11-12,TUR,Turkey,Osmaniye,1,0,1,0,0
+2020-11-12,TUR,Turkey,Ordu,9,0,9,7,0
+2020-11-12,TUR,Turkey,Osmaniye,2,0,2,0,0
 2020-11-12,TUR,Turkey,Rize,7,0,7,11,0
-2020-11-12,TUR,Turkey,Sakarya,10,0,10,8,0
-2020-11-12,TUR,Turkey,Samsun,13,0,13,0,0
-2020-11-12,TUR,Turkey,Sanliurfa,13,1,13,58,2
+2020-11-12,TUR,Turkey,Sakarya,13,0,13,10,1
+2020-11-12,TUR,Turkey,Samsun,24,0,24,1,0
+2020-11-12,TUR,Turkey,Sanliurfa,16,1,16,60,2
 2020-11-12,TUR,Turkey,Siirt,1,0,1,1,0
-2020-11-12,TUR,Turkey,Sinop,2,0,2,0,0
+2020-11-12,TUR,Turkey,Sinop,3,0,3,1,0
 2020-11-12,TUR,Turkey,Sirnak,2,0,2,0,0
 2020-11-12,TUR,Turkey,Sivas,11,0,11,4,0
-2020-11-12,TUR,Turkey,Tekirdag,20,0,20,15,0
-2020-11-12,TUR,Turkey,Tokat,7,1,7,2,1
-2020-11-12,TUR,Turkey,Trabzon,8,0,8,1,0
+2020-11-12,TUR,Turkey,Tekirdag,26,1,26,15,1
+2020-11-12,TUR,Turkey,Tokat,8,1,8,2,1
+2020-11-12,TUR,Turkey,Trabzon,10,0,10,6,0
 2020-11-12,TUR,Turkey,Tunceli,1,0,1,3,0
-2020-11-12,TUR,Turkey,Usak,5,0,5,4,0
+2020-11-12,TUR,Turkey,Usak,7,0,7,15,1
 2020-11-12,TUR,Turkey,Van,4,0,4,0,1
-2020-11-12,TUR,Turkey,Yozgat,2,0,2,0,0
-2020-11-12,TUR,Turkey,Zinguldak,6,0,6,5,1
+2020-11-12,TUR,Turkey,Yalova,1,0,1,1,1
+2020-11-12,TUR,Turkey,Yozgat,5,0,5,5,0
+2020-11-12,TUR,Turkey,Zinguldak,9,0,9,9,1
 2020-11-12,TUV,Tuvalu,Nui,1,0,1,0,0
 2020-11-12,UGA,Uganda,Central,1,1,1,5,1
-2020-11-12,UKR,Ukraine,-99,82,6,82,94,5
-2020-11-12,UKR,Ukraine,Cherkasy,20,2,20,18,1
-2020-11-12,UKR,Ukraine,Chernihiv,33,2,33,71,3
-2020-11-12,UKR,Ukraine,Chernivtsi,11,1,11,65,0
-2020-11-12,UKR,Ukraine,Dnipropetrovs'k,138,8,138,178,18
-2020-11-12,UKR,Ukraine,Donets'k,52,3,52,131,7
-2020-11-12,UKR,Ukraine,Ivano-Frankivs'k,10,1,10,40,0
-2020-11-12,UKR,Ukraine,Kharkiv,102,6,102,213,12
-2020-11-12,UKR,Ukraine,Kherson,32,1,32,18,2
-2020-11-12,UKR,Ukraine,Khmel'nyts'kyy,14,1,14,38,2
-2020-11-12,UKR,Ukraine,Kiev,188,6,188,406,14
-2020-11-12,UKR,Ukraine,Kiev City,42,1,42,45,2
-2020-11-12,UKR,Ukraine,Kirovohrad,25,4,25,18,4
-2020-11-12,UKR,Ukraine,L'viv,36,2,36,27,4
-2020-11-12,UKR,Ukraine,Luhans'k,31,1,31,106,1
-2020-11-12,UKR,Ukraine,Mykolayiv,45,0,45,57,2
-2020-11-12,UKR,Ukraine,Odessa,88,6,88,175,6
-2020-11-12,UKR,Ukraine,Poltava,52,2,52,107,5
-2020-11-12,UKR,Ukraine,Rivne,12,3,12,17,3
+2020-11-12,UKR,Ukraine,-99,147,13,135,149,12
+2020-11-12,UKR,Ukraine,Cherkasy,24,2,24,24,2
+2020-11-12,UKR,Ukraine,Chernihiv,37,2,37,83,4
+2020-11-12,UKR,Ukraine,Chernivtsi,13,1,13,68,0
+2020-11-12,UKR,Ukraine,Dnipropetrovs'k,169,9,169,206,21
+2020-11-12,UKR,Ukraine,Donets'k,64,3,64,132,8
+2020-11-12,UKR,Ukraine,Ivano-Frankivs'k,13,1,13,43,1
+2020-11-12,UKR,Ukraine,Kharkiv,124,6,124,245,15
+2020-11-12,UKR,Ukraine,Kherson,38,1,38,18,2
+2020-11-12,UKR,Ukraine,Khmel'nyts'kyy,18,1,18,39,2
+2020-11-12,UKR,Ukraine,Kiev,232,11,232,444,18
+2020-11-12,UKR,Ukraine,Kiev City,47,3,47,152,2
+2020-11-12,UKR,Ukraine,Kirovohrad,28,4,28,21,4
+2020-11-12,UKR,Ukraine,L'viv,43,2,42,33,6
+2020-11-12,UKR,Ukraine,Luhans'k,37,1,37,106,1
+2020-11-12,UKR,Ukraine,Mykolayiv,54,0,54,71,4
+2020-11-12,UKR,Ukraine,Odessa,99,8,99,183,7
+2020-11-12,UKR,Ukraine,Poltava,59,2,59,109,6
+2020-11-12,UKR,Ukraine,Rivne,13,3,13,17,3
 2020-11-12,UKR,Ukraine,Sevastopol',1,0,1,2,0
-2020-11-12,UKR,Ukraine,Sumy,29,3,29,133,5
+2020-11-12,UKR,Ukraine,Sumy,39,3,39,143,6
 2020-11-12,UKR,Ukraine,Ternopil',3,0,3,9,0
-2020-11-12,UKR,Ukraine,Transcarpathia,16,2,16,19,1
-2020-11-12,UKR,Ukraine,Vinnytsya,29,2,29,72,8
-2020-11-12,UKR,Ukraine,Volyn,2,0,2,15,1
-2020-11-12,UKR,Ukraine,Zaporizhzhya,54,4,53,150,5
-2020-11-12,UKR,Ukraine,Zhytomyr,26,0,26,73,1
-2020-11-12,ARE,United Arab Emirates,-99,2,0,2,0,0
-2020-11-12,ARE,United Arab Emirates,Abu Dhabi,27,0,27,3,1
-2020-11-12,ARE,United Arab Emirates,Ajman,3,1,3,0,0
-2020-11-12,ARE,United Arab Emirates,Dubai,45,1,45,5,1
-2020-11-12,ARE,United Arab Emirates,Ras Al-Khaimah,3,0,3,0,0
-2020-11-12,ARE,United Arab Emirates,Sharjah,12,0,12,3,0
-2020-11-12,GBR,United Kingdom,-99,58,0,58,16,3
-2020-11-12,GBR,United Kingdom,British Antarctic Territory,1,0,1,0,0
-2020-11-12,GBR,United Kingdom,East Anglia,63,0,63,5,1
-2020-11-12,GBR,United Kingdom,East Midlands,73,0,72,33,1
-2020-11-12,GBR,United Kingdom,Greater London,86,2,86,4,3
-2020-11-12,GBR,United Kingdom,North East,60,0,60,22,3
-2020-11-12,GBR,United Kingdom,North West,103,3,103,33,3
-2020-11-12,GBR,United Kingdom,Northern Ireland,85,3,85,43,3
-2020-11-12,GBR,United Kingdom,Scotland,111,2,111,40,2
-2020-11-12,GBR,United Kingdom,South East,131,1,131,24,2
-2020-11-12,GBR,United Kingdom,South West,133,4,133,65,5
-2020-11-12,GBR,United Kingdom,Wales,102,1,102,81,3
-2020-11-12,GBR,United Kingdom,West Midlands,86,1,86,29,3
-2020-11-12,GBR,United Kingdom,Yorkshire and the Humber,87,1,87,28,2
-2020-11-12,URY,Uruguay,-99,14,0,14,0,0
-2020-11-12,URY,Uruguay,Artigas,3,0,3,0,0
-2020-11-12,URY,Uruguay,Canelones,46,0,46,1,2
-2020-11-12,URY,Uruguay,Cerro Largo,10,1,10,0,0
+2020-11-12,UKR,Ukraine,Transcarpathia,19,2,19,26,1
+2020-11-12,UKR,Ukraine,Vinnytsya,33,2,33,92,9
+2020-11-12,UKR,Ukraine,Volyn,3,0,3,19,1
+2020-11-12,UKR,Ukraine,Zaporizhzhya,70,5,69,176,7
+2020-11-12,UKR,Ukraine,Zhytomyr,28,0,28,73,1
+2020-11-12,ARE,United Arab Emirates,-99,10,1,7,1,1
+2020-11-12,ARE,United Arab Emirates,Abu Dhabi,38,0,38,13,1
+2020-11-12,ARE,United Arab Emirates,Ajman,5,1,5,3,0
+2020-11-12,ARE,United Arab Emirates,Dubai,51,1,51,8,1
+2020-11-12,ARE,United Arab Emirates,Ras Al-Khaimah,4,0,4,0,0
+2020-11-12,ARE,United Arab Emirates,Sharjah,16,0,16,3,0
+2020-11-12,GBR,United Kingdom,-99,101,1,92,29,5
+2020-11-12,GBR,United Kingdom,British Antarctic Territory,2,0,2,0,0
+2020-11-12,GBR,United Kingdom,East Anglia,73,1,73,6,1
+2020-11-12,GBR,United Kingdom,East Midlands,87,0,86,36,1
+2020-11-12,GBR,United Kingdom,Greater London,96,2,96,6,4
+2020-11-12,GBR,United Kingdom,North East,71,1,71,28,4
+2020-11-12,GBR,United Kingdom,North West,116,3,116,33,3
+2020-11-12,GBR,United Kingdom,Northern Ireland,100,3,100,55,3
+2020-11-12,GBR,United Kingdom,Scotland,126,2,126,48,3
+2020-11-12,GBR,United Kingdom,South East,149,1,149,25,2
+2020-11-12,GBR,United Kingdom,South West,149,4,149,66,5
+2020-11-12,GBR,United Kingdom,Wales,120,1,120,84,3
+2020-11-12,GBR,United Kingdom,West Midlands,100,2,100,45,4
+2020-11-12,GBR,United Kingdom,Yorkshire and the Humber,98,1,98,33,2
+2020-11-12,URY,Uruguay,-99,23,0,21,1,0
+2020-11-12,URY,Uruguay,Artigas,4,0,4,0,0
+2020-11-12,URY,Uruguay,Canelones,57,0,57,3,2
+2020-11-12,URY,Uruguay,Cerro Largo,13,1,13,0,1
 2020-11-12,URY,Uruguay,Colonia,7,0,7,0,0
 2020-11-12,URY,Uruguay,Durazno,4,0,4,0,0
-2020-11-12,URY,Uruguay,Flores,2,0,2,0,0
+2020-11-12,URY,Uruguay,Flores,4,0,4,0,0
 2020-11-12,URY,Uruguay,Florida,8,0,8,0,0
-2020-11-12,URY,Uruguay,Lavalleja,2,0,2,0,0
-2020-11-12,URY,Uruguay,Maldonado,16,0,16,3,0
-2020-11-12,URY,Uruguay,Montevideo,113,0,112,12,6
-2020-11-12,URY,Uruguay,Paysandú,2,0,2,0,0
-2020-11-12,URY,Uruguay,Río Negro,3,0,3,0,0
-2020-11-12,URY,Uruguay,Rivera,4,0,4,1,0
-2020-11-12,URY,Uruguay,Rocha,5,0,5,0,0
-2020-11-12,URY,Uruguay,Salto,12,0,12,0,1
+2020-11-12,URY,Uruguay,Lavalleja,5,0,5,0,0
+2020-11-12,URY,Uruguay,Maldonado,20,0,20,3,0
+2020-11-12,URY,Uruguay,Montevideo,137,1,136,12,7
+2020-11-12,URY,Uruguay,Paysandú,5,0,5,0,0
+2020-11-12,URY,Uruguay,Río Negro,4,0,4,0,0
+2020-11-12,URY,Uruguay,Rivera,9,0,9,1,1
+2020-11-12,URY,Uruguay,Rocha,6,0,6,0,0
+2020-11-12,URY,Uruguay,Salto,18,0,17,1,1
 2020-11-12,URY,Uruguay,San José,4,0,4,0,0
-2020-11-12,URY,Uruguay,Soriano,5,0,5,0,0
-2020-11-12,URY,Uruguay,Tacuarembó,4,0,4,0,0
-2020-11-12,URY,Uruguay,Treinta y Tres,4,0,4,0,0
-2020-11-12,UZB,Uzbekistan,-99,5,1,5,0,1
-2020-11-12,UZB,Uzbekistan,Bukhoro,1,0,1,0,0
+2020-11-12,URY,Uruguay,Soriano,6,0,6,0,0
+2020-11-12,URY,Uruguay,Tacuarembó,7,0,7,0,0
+2020-11-12,URY,Uruguay,Treinta y Tres,5,0,5,0,0
+2020-11-12,UZB,Uzbekistan,-99,11,1,9,1,1
+2020-11-12,UZB,Uzbekistan,Bukhoro,2,0,2,0,0
 2020-11-12,UZB,Uzbekistan,Ferghana,1,0,1,50,0
 2020-11-12,UZB,Uzbekistan,Kashkadarya,2,1,2,3,0
 2020-11-12,UZB,Uzbekistan,Khorezm,1,0,1,0,0
 2020-11-12,UZB,Uzbekistan,Namangan,1,0,1,0,0
-2020-11-12,UZB,Uzbekistan,Samarkand,5,0,5,2,0
+2020-11-12,UZB,Uzbekistan,Samarkand,6,0,6,2,0
 2020-11-12,UZB,Uzbekistan,Surkhandarya,1,0,1,0,0
-2020-11-12,UZB,Uzbekistan,Tashkent,20,0,20,66,1
+2020-11-12,UZB,Uzbekistan,Tashkent,25,0,25,97,2
 2020-11-12,UZB,Uzbekistan,Tashkent City,9,0,9,5,1
-2020-11-12,VEN,Venezuela,-99,1,0,1,0,0
-2020-11-12,VEN,Venezuela,Anzoátegui,11,0,11,12,1
-2020-11-12,VEN,Venezuela,Apure,2,0,2,3,0
-2020-11-12,VEN,Venezuela,Aragua,8,0,8,4,0
+2020-11-12,VUT,Vanuatu,-99,1,0,1,1,0
+2020-11-12,VEN,Venezuela,-99,13,2,11,10,1
+2020-11-12,VEN,Venezuela,Anzoátegui,14,0,14,15,2
+2020-11-12,VEN,Venezuela,Apure,5,0,5,3,0
+2020-11-12,VEN,Venezuela,Aragua,10,0,10,4,0
 2020-11-12,VEN,Venezuela,Barinas,5,0,5,3,1
-2020-11-12,VEN,Venezuela,Bolívar,6,0,6,0,0
-2020-11-12,VEN,Venezuela,Carabobo,16,0,16,1,0
+2020-11-12,VEN,Venezuela,Bolívar,12,0,12,1,0
+2020-11-12,VEN,Venezuela,Carabobo,23,0,23,9,1
 2020-11-12,VEN,Venezuela,Cojedes,1,0,1,0,0
 2020-11-12,VEN,Venezuela,Dependencias Federales,2,0,2,4,0
-2020-11-12,VEN,Venezuela,Distrito Capital,31,1,31,11,2
+2020-11-12,VEN,Venezuela,Distrito Capital,38,1,38,11,2
 2020-11-12,VEN,Venezuela,Falcón,5,0,5,1,0
-2020-11-12,VEN,Venezuela,Guárico,11,1,11,2,2
-2020-11-12,VEN,Venezuela,Lara,11,0,11,9,0
-2020-11-12,VEN,Venezuela,Mérida,6,0,6,6,0
-2020-11-12,VEN,Venezuela,Miranda,21,0,21,4,1
+2020-11-12,VEN,Venezuela,Guárico,12,1,12,2,2
+2020-11-12,VEN,Venezuela,Lara,14,0,14,11,0
+2020-11-12,VEN,Venezuela,Mérida,8,0,8,6,0
+2020-11-12,VEN,Venezuela,Miranda,22,0,22,4,1
+2020-11-12,VEN,Venezuela,Monagas,2,0,2,0,0
 2020-11-12,VEN,Venezuela,Nueva Esparta,1,0,1,0,0
-2020-11-12,VEN,Venezuela,Portuguesa,5,0,5,5,1
-2020-11-12,VEN,Venezuela,Sucre,1,0,1,0,0
-2020-11-12,VEN,Venezuela,Táchira,9,0,9,2,0
+2020-11-12,VEN,Venezuela,Portuguesa,8,0,8,5,1
+2020-11-12,VEN,Venezuela,Sucre,2,0,2,0,0
+2020-11-12,VEN,Venezuela,Táchira,12,1,12,22,1
 2020-11-12,VEN,Venezuela,Trujillo,1,0,1,0,0
 2020-11-12,VEN,Venezuela,Vargas,6,0,6,0,0
-2020-11-12,VEN,Venezuela,Yaracuy,1,0,1,0,1
-2020-11-12,VEN,Venezuela,Zulia,20,0,20,20,0
-2020-11-12,VNM,Vietnam,-99,22,0,22,0,0
-2020-11-12,VNM,Vietnam,An Giang,7,0,7,0,0
-2020-11-12,VNM,Vietnam,Bà Rịa - Vũng Tàu,9,0,9,0,0
-2020-11-12,VNM,Vietnam,Bắc Giang,9,0,9,0,0
-2020-11-12,VNM,Vietnam,Bắc Kạn,1,0,1,0,0
-2020-11-12,VNM,Vietnam,Bạc Liêu,1,0,1,0,0
-2020-11-12,VNM,Vietnam,Bắc Ninh,5,0,5,0,0
-2020-11-12,VNM,Vietnam,Bến Tre,4,0,4,0,0
-2020-11-12,VNM,Vietnam,Bình Định,7,0,7,0,0
-2020-11-12,VNM,Vietnam,Bình Dương,16,0,16,0,0
-2020-11-12,VNM,Vietnam,Bình Phước,6,0,6,0,0
-2020-11-12,VNM,Vietnam,Bình Thuận,4,0,4,1,0
-2020-11-12,VNM,Vietnam,Cần Thơ,5,0,5,0,0
-2020-11-12,VNM,Vietnam,Cao Bằng,2,0,2,0,0
-2020-11-12,VNM,Vietnam,Đà Nẵng,14,0,14,1,0
-2020-11-12,VNM,Vietnam,Đắk Lắk,5,0,5,0,0
+2020-11-12,VEN,Venezuela,Yaracuy,2,0,2,0,1
+2020-11-12,VEN,Venezuela,Zulia,22,0,22,25,0
+2020-11-12,VNM,Vietnam,-99,66,1,60,4,1
+2020-11-12,VNM,Vietnam,Đà Nẵng,20,0,20,1,0
+2020-11-12,VNM,Vietnam,Đắk Lắk,6,0,6,0,0
 2020-11-12,VNM,Vietnam,Đắk Nông,2,0,2,0,0
-2020-11-12,VNM,Vietnam,Đồng Nai,15,0,15,0,0
-2020-11-12,VNM,Vietnam,Đồng Tháp,1,0,1,0,0
+2020-11-12,VNM,Vietnam,Đồng Nai,18,0,18,2,0
+2020-11-12,VNM,Vietnam,Đồng Tháp,2,0,2,0,0
+2020-11-12,VNM,Vietnam,An Giang,13,0,13,0,0
+2020-11-12,VNM,Vietnam,Bà Rịa - Vũng Tàu,12,0,12,0,0
+2020-11-12,VNM,Vietnam,Bình Định,9,0,9,0,0
+2020-11-12,VNM,Vietnam,Bình Dương,24,0,24,0,0
+2020-11-12,VNM,Vietnam,Bình Phước,9,0,9,0,0
+2020-11-12,VNM,Vietnam,Bình Thuận,7,0,7,1,0
+2020-11-12,VNM,Vietnam,Bạc Liêu,1,0,1,0,0
+2020-11-12,VNM,Vietnam,Bắc Giang,10,0,10,0,0
+2020-11-12,VNM,Vietnam,Bắc Kạn,2,0,2,0,0
+2020-11-12,VNM,Vietnam,Bắc Ninh,6,0,6,0,0
+2020-11-12,VNM,Vietnam,Bến Tre,5,0,5,0,0
+2020-11-12,VNM,Vietnam,Cà Mau,1,0,1,0,0
+2020-11-12,VNM,Vietnam,Cần Thơ,6,0,6,0,0
+2020-11-12,VNM,Vietnam,Cao Bằng,4,0,4,0,0
 2020-11-12,VNM,Vietnam,Gia Lai,4,0,4,0,0
+2020-11-12,VNM,Vietnam,Hà Nội,124,2,124,5,2
 2020-11-12,VNM,Vietnam,Hà Nam,3,0,3,0,0
-2020-11-12,VNM,Vietnam,Hà Nội,94,2,94,5,2
-2020-11-12,VNM,Vietnam,Hà Tĩnh,2,0,2,3,0
-2020-11-12,VNM,Vietnam,Hải Dương,4,0,4,0,0
-2020-11-12,VNM,Vietnam,Hải Phòng,6,0,6,1,0
-2020-11-12,VNM,Vietnam,Hậu Giang,2,0,2,0,1
-2020-11-12,VNM,Vietnam,Hoà Bình,2,0,2,0,0
-2020-11-12,VNM,Vietnam,Hưng Yên,2,0,2,0,0
-2020-11-12,VNM,Vietnam,Khánh Hòa,6,1,6,0,2
-2020-11-12,VNM,Vietnam,Lâm Đồng,5,0,5,0,0
+2020-11-12,VNM,Vietnam,Hà Tĩnh,4,0,4,3,0
+2020-11-12,VNM,Vietnam,Hưng Yên,3,0,3,0,0
+2020-11-12,VNM,Vietnam,Hải Dương,8,0,8,0,0
+2020-11-12,VNM,Vietnam,Hải Phòng,17,0,17,1,0
+2020-11-12,VNM,Vietnam,Hậu Giang,3,0,3,0,1
+2020-11-12,VNM,Vietnam,Hoà Bình,4,0,4,0,1
+2020-11-12,VNM,Vietnam,Khánh Hòa,7,1,7,0,2
+2020-11-12,VNM,Vietnam,Kiên Giang,2,0,2,0,0
+2020-11-12,VNM,Vietnam,Lào Cai,6,0,6,0,0
+2020-11-12,VNM,Vietnam,Lâm Đồng,8,0,8,0,0
 2020-11-12,VNM,Vietnam,Lạng Sơn,1,0,1,0,0
-2020-11-12,VNM,Vietnam,Lào Cai,4,0,4,0,0
-2020-11-12,VNM,Vietnam,Long An,3,0,3,0,0
-2020-11-12,VNM,Vietnam,Nam Định,6,0,6,0,0
-2020-11-12,VNM,Vietnam,Nghệ An,6,0,6,0,0
-2020-11-12,VNM,Vietnam,Ninh Bình,2,0,2,0,0
-2020-11-12,VNM,Vietnam,Phú Thọ,2,0,2,0,0
+2020-11-12,VNM,Vietnam,Long An,8,0,7,0,0
+2020-11-12,VNM,Vietnam,Nam Định,9,0,9,0,0
+2020-11-12,VNM,Vietnam,Nghệ An,11,0,11,0,0
+2020-11-12,VNM,Vietnam,Ninh Bình,4,0,4,0,0
+2020-11-12,VNM,Vietnam,Phú Thọ,3,0,3,1,0
 2020-11-12,VNM,Vietnam,Phú Yên,2,0,2,0,0
-2020-11-12,VNM,Vietnam,Quảng Bình,2,0,2,0,1
-2020-11-12,VNM,Vietnam,Quảng Nam,5,0,5,1,0
-2020-11-12,VNM,Vietnam,Quảng Ngãi,2,0,2,0,0
-2020-11-12,VNM,Vietnam,Quảng Ninh,6,0,6,0,0
+2020-11-12,VNM,Vietnam,Quảng Bình,6,0,6,0,1
+2020-11-12,VNM,Vietnam,Quảng Nam,7,0,7,1,0
+2020-11-12,VNM,Vietnam,Quảng Ngãi,4,0,4,0,0
+2020-11-12,VNM,Vietnam,Quảng Ninh,10,0,10,0,0
 2020-11-12,VNM,Vietnam,Quảng Trị,1,0,1,0,0
+2020-11-12,VNM,Vietnam,Sóc Trăng,2,0,2,1,0
 2020-11-12,VNM,Vietnam,Sơn La,1,0,1,0,0
-2020-11-12,VNM,Vietnam,Tây Ninh,2,0,2,0,1
-2020-11-12,VNM,Vietnam,Thái Bình,3,0,3,0,0
-2020-11-12,VNM,Vietnam,Thái Nguyên,11,0,11,0,0
+2020-11-12,VNM,Vietnam,Tây Ninh,4,0,4,0,1
+2020-11-12,VNM,Vietnam,Thành phố Hồ Chí Minh,148,5,147,11,2
+2020-11-12,VNM,Vietnam,Thái Bình,6,0,6,0,0
+2020-11-12,VNM,Vietnam,Thái Nguyên,16,0,16,5,0
+2020-11-12,VNM,Vietnam,Thừa Thiên Huế,9,0,9,0,0
 2020-11-12,VNM,Vietnam,Thanh Hóa,10,0,10,0,0
-2020-11-12,VNM,Vietnam,Thành phố Hồ Chí Minh,106,3,106,4,2
-2020-11-12,VNM,Vietnam,Thừa Thiên Huế,4,0,4,0,0
-2020-11-12,VNM,Vietnam,Tiền Giang,5,0,5,0,0
+2020-11-12,VNM,Vietnam,Tiền Giang,8,0,8,0,0
 2020-11-12,VNM,Vietnam,Tuyên Quang,3,0,3,0,0
-2020-11-12,VNM,Vietnam,Vĩnh Long,3,0,3,0,0
-2020-11-12,VNM,Vietnam,Vĩnh Phúc,4,0,4,0,0
+2020-11-12,VNM,Vietnam,Vĩnh Long,4,0,4,0,0
+2020-11-12,VNM,Vietnam,Vĩnh Phúc,5,0,5,0,0
 2020-11-12,VNM,Vietnam,Yên Bái,2,0,2,0,0
 2020-11-12,WLF,Wallis and Futuna,-99,1,0,1,0,0
-2020-11-12,YEM,Yemen,-99,3,0,3,19,0
+2020-11-12,YEM,Yemen,-99,5,0,5,20,0
 2020-11-12,YEM,Yemen,Aden,3,0,3,19,0
 2020-11-12,YEM,Yemen,Al-Baidha,1,0,1,0,0
 2020-11-12,YEM,Yemen,Al-Dhalae,2,0,2,0,0
 2020-11-12,YEM,Yemen,Al-Hodeidah,2,0,2,0,0
 2020-11-12,YEM,Yemen,Amran,1,0,1,2,1
 2020-11-12,YEM,Yemen,Hadramout,1,0,1,0,0
+2020-11-12,YEM,Yemen,Ibb,1,0,1,0,1
 2020-11-12,YEM,Yemen,Mareb,1,0,1,1,0
 2020-11-12,YEM,Yemen,Reimah,1,0,1,6,0
 2020-11-12,YEM,Yemen,Sadah,1,0,1,0,0
-2020-11-12,YEM,Yemen,Sana'a,7,1,7,10,1
+2020-11-12,YEM,Yemen,Sana'a,10,1,10,14,1
 2020-11-12,YEM,Yemen,Sana'a City,3,0,3,6,0
-2020-11-12,YEM,Yemen,Taiz,3,0,3,6,0
+2020-11-12,YEM,Yemen,Suqutra Archipelago,1,0,1,80,0
+2020-11-12,YEM,Yemen,Taiz,4,0,4,6,0
+2020-11-12,ZMB,Zambia,-99,1,0,1,6,0
 2020-11-12,ZWE,Zimbabwe,-99,1,0,1,0,0
+2020-11-12,ZWE,Zimbabwe,Matabeleland North,1,1,1,100,1

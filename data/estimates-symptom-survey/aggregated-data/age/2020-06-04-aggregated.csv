@@ -1,5 +1,5 @@
 date,ISO3,country,age_E4,count,cli,count_local_com,cli_local_com,anosmia
-2020-06-04,AFG,Afghanistan,-99,1,0,1,1,0
+2020-06-04,AFG,Afghanistan,-99,47,4,46,539,8
 2020-06-04,AFG,Afghanistan,1,57,10,57,577,9
 2020-06-04,AFG,Afghanistan,2,86,8,86,657,16
 2020-06-04,AFG,Afghanistan,3,41,6,41,418,9
@@ -7,7 +7,7 @@ date,ISO3,country,age_E4,count,cli,count_local_com,cli_local_com,anosmia
 2020-06-04,AFG,Afghanistan,5,3,0,3,1,0
 2020-06-04,AFG,Afghanistan,6,2,0,2,0,0
 2020-06-04,AFG,Afghanistan,7,9,5,9,455,5
-2020-06-04,ALA,Aland Islands,-99,1,0,1,0,0
+2020-06-04,ALA,Aland Islands,-99,8,2,8,101,2
 2020-06-04,ALA,Aland Islands,1,4,0,3,0,0
 2020-06-04,ALA,Aland Islands,2,4,0,4,1,1
 2020-06-04,ALA,Aland Islands,3,3,0,3,0,0
@@ -15,12 +15,14 @@ date,ISO3,country,age_E4,count,cli,count_local_com,cli_local_com,anosmia
 2020-06-04,ALA,Aland Islands,5,3,1,3,55,1
 2020-06-04,ALA,Aland Islands,6,1,0,1,0,0
 2020-06-04,ALA,Aland Islands,7,2,0,2,0,0
+2020-06-04,ALB,Albania,-99,30,1,28,105,1
 2020-06-04,ALB,Albania,1,26,0,26,5,0
 2020-06-04,ALB,Albania,2,46,1,46,102,1
 2020-06-04,ALB,Albania,3,26,0,26,5,0
 2020-06-04,ALB,Albania,4,20,0,20,0,0
 2020-06-04,ALB,Albania,5,7,0,7,1,0
 2020-06-04,ALB,Albania,6,5,0,5,1,0
+2020-06-04,DZA,Algeria,-99,110,4,109,128,5
 2020-06-04,DZA,Algeria,1,95,4,95,179,2
 2020-06-04,DZA,Algeria,2,199,8,198,279,8
 2020-06-04,DZA,Algeria,3,155,2,155,18,3
@@ -28,12 +30,13 @@ date,ISO3,country,age_E4,count,cli,count_local_com,cli_local_com,anosmia
 2020-06-04,DZA,Algeria,5,55,2,54,11,0
 2020-06-04,DZA,Algeria,6,23,0,22,14,1
 2020-06-04,DZA,Algeria,7,8,0,8,101,0
-2020-06-04,ASM,American Samoa,-99,1,0,1,0,0
+2020-06-04,ASM,American Samoa,-99,12,2,12,7,1
 2020-06-04,ASM,American Samoa,1,4,1,4,100,2
 2020-06-04,ASM,American Samoa,2,3,0,3,0,1
 2020-06-04,ASM,American Samoa,3,2,1,2,104,1
 2020-06-04,ASM,American Samoa,4,1,0,1,0,0
 2020-06-04,ASM,American Samoa,5,1,0,1,0,0
+2020-06-04,AND,Andorra,-99,10,1,10,1,1
 2020-06-04,AND,Andorra,1,4,0,4,5,0
 2020-06-04,AND,Andorra,2,5,2,5,6,2
 2020-06-04,AND,Andorra,3,5,0,5,0,0
@@ -41,6 +44,7 @@ date,ISO3,country,age_E4,count,cli,count_local_com,cli_local_com,anosmia
 2020-06-04,AND,Andorra,5,2,0,2,0,0
 2020-06-04,AND,Andorra,6,2,0,2,0,0
 2020-06-04,AND,Andorra,7,1,0,1,100,0
+2020-06-04,AGO,Angola,-99,15,0,15,208,0
 2020-06-04,AGO,Angola,1,15,1,15,11,1
 2020-06-04,AGO,Angola,2,45,2,45,2,1
 2020-06-04,AGO,Angola,3,27,1,27,0,1
@@ -48,18 +52,21 @@ date,ISO3,country,age_E4,count,cli,count_local_com,cli_local_com,anosmia
 2020-06-04,AGO,Angola,5,7,0,7,0,0
 2020-06-04,AGO,Angola,6,2,0,2,0,0
 2020-06-04,AGO,Angola,7,1,1,1,2,1
+2020-06-04,AIA,Anguilla,-99,1,0,0,0,0
 2020-06-04,AIA,Anguilla,2,2,0,2,0,0
 2020-06-04,AIA,Anguilla,3,1,0,1,0,0
 2020-06-04,AIA,Anguilla,5,2,0,2,0,0
 2020-06-04,AIA,Anguilla,7,2,1,2,154,2
+2020-06-04,ATA,Antarctica,-99,1,1,1,1,1
 2020-06-04,ATA,Antarctica,1,6,1,6,100,1
 2020-06-04,ATA,Antarctica,2,3,0,3,0,0
 2020-06-04,ATA,Antarctica,7,3,1,3,1,1
+2020-06-04,ATG,Antigua,-99,4,1,4,7,1
 2020-06-04,ATG,Antigua,1,3,0,3,0,0
 2020-06-04,ATG,Antigua,3,1,1,1,1,1
 2020-06-04,ATG,Antigua,4,2,0,2,0,0
 2020-06-04,ATG,Antigua,7,1,1,1,100,1
-2020-06-04,ARG,Argentina,-99,8,0,8,2,0
+2020-06-04,ARG,Argentina,-99,318,0,307,31,4
 2020-06-04,ARG,Argentina,1,582,5,582,269,12
 2020-06-04,ARG,Argentina,2,970,2,970,187,12
 2020-06-04,ARG,Argentina,3,766,3,766,42,8
@@ -67,20 +74,21 @@ date,ISO3,country,age_E4,count,cli,count_local_com,cli_local_com,anosmia
 2020-06-04,ARG,Argentina,5,365,0,365,37,3
 2020-06-04,ARG,Argentina,6,161,0,161,2,1
 2020-06-04,ARG,Argentina,7,33,0,33,62,0
-2020-06-04,ARM,Armenia,-99,4,0,4,1,1
+2020-06-04,ARM,Armenia,-99,30,0,30,102,1
 2020-06-04,ARM,Armenia,1,19,1,19,26,0
 2020-06-04,ARM,Armenia,2,65,1,65,44,3
 2020-06-04,ARM,Armenia,3,43,3,43,124,2
 2020-06-04,ARM,Armenia,4,18,0,18,14,0
 2020-06-04,ARM,Armenia,5,11,0,11,18,0
 2020-06-04,ARM,Armenia,6,6,0,6,1,0
+2020-06-04,ABW,Aruba,-99,2,0,2,0,0
 2020-06-04,ABW,Aruba,1,5,0,5,1,0
 2020-06-04,ABW,Aruba,2,3,0,3,1,1
 2020-06-04,ABW,Aruba,3,7,0,7,2,1
 2020-06-04,ABW,Aruba,4,2,0,2,0,0
 2020-06-04,ABW,Aruba,5,1,0,1,0,0
 2020-06-04,ABW,Aruba,6,1,0,1,0,0
-2020-06-04,AUS,Australia,-99,5,0,5,2,0
+2020-06-04,AUS,Australia,-99,145,1,143,21,4
 2020-06-04,AUS,Australia,1,191,4,191,30,5
 2020-06-04,AUS,Australia,2,348,5,348,42,8
 2020-06-04,AUS,Australia,3,290,2,290,36,4
@@ -88,7 +96,7 @@ date,ISO3,country,age_E4,count,cli,count_local_com,cli_local_com,anosmia
 2020-06-04,AUS,Australia,5,234,2,234,24,6
 2020-06-04,AUS,Australia,6,175,1,174,5,1
 2020-06-04,AUS,Australia,7,54,2,54,200,3
-2020-06-04,AUT,Austria,-99,1,0,1,0,0
+2020-06-04,AUT,Austria,-99,52,1,48,4,0
 2020-06-04,AUT,Austria,1,109,1,109,12,3
 2020-06-04,AUT,Austria,2,229,0,229,132,1
 2020-06-04,AUT,Austria,3,176,0,176,4,3
@@ -96,6 +104,7 @@ date,ISO3,country,age_E4,count,cli,count_local_com,cli_local_com,anosmia
 2020-06-04,AUT,Austria,5,112,0,112,10,1
 2020-06-04,AUT,Austria,6,68,1,68,3,0
 2020-06-04,AUT,Austria,7,13,0,12,0,0
+2020-06-04,AZE,Azerbaijan,-99,27,2,27,108,2
 2020-06-04,AZE,Azerbaijan,1,24,0,24,0,1
 2020-06-04,AZE,Azerbaijan,2,67,0,67,6,2
 2020-06-04,AZE,Azerbaijan,3,41,0,41,12,0
@@ -106,9 +115,10 @@ date,ISO3,country,age_E4,count,cli,count_local_com,cli_local_com,anosmia
 2020-06-04,BHS,Bahamas,1,2,0,2,0,0
 2020-06-04,BHS,Bahamas,4,1,0,1,0,0
 2020-06-04,BHS,Bahamas,6,1,0,0,0,0
+2020-06-04,BHR,Bahrain,-99,3,1,3,2,1
 2020-06-04,BHR,Bahrain,1,1,0,1,0,0
 2020-06-04,BHR,Bahrain,3,1,0,1,0,0
-2020-06-04,BGD,Bangladesh,-99,1,0,1,4,0
+2020-06-04,BGD,Bangladesh,-99,203,13,200,388,20
 2020-06-04,BGD,Bangladesh,1,284,16,283,887,27
 2020-06-04,BGD,Bangladesh,2,436,14,435,908,27
 2020-06-04,BGD,Bangladesh,3,142,5,141,622,9
@@ -116,8 +126,9 @@ date,ISO3,country,age_E4,count,cli,count_local_com,cli_local_com,anosmia
 2020-06-04,BGD,Bangladesh,5,14,0,14,17,1
 2020-06-04,BGD,Bangladesh,6,2,0,2,0,0
 2020-06-04,BGD,Bangladesh,7,3,1,3,2,1
+2020-06-04,BRB,Barbados,-99,2,1,2,1,0
 2020-06-04,BRB,Barbados,4,1,1,1,100,1
-2020-06-04,BLR,Belarus,-99,2,0,2,1,0
+2020-06-04,BLR,Belarus,-99,25,1,24,141,0
 2020-06-04,BLR,Belarus,1,10,0,10,51,0
 2020-06-04,BLR,Belarus,2,94,3,94,136,3
 2020-06-04,BLR,Belarus,3,125,5,125,124,3
@@ -125,7 +136,7 @@ date,ISO3,country,age_E4,count,cli,count_local_com,cli_local_com,anosmia
 2020-06-04,BLR,Belarus,5,36,0,35,71,0
 2020-06-04,BLR,Belarus,6,7,0,7,4,0
 2020-06-04,BLR,Belarus,7,1,0,1,0,0
-2020-06-04,BEL,Belgium,-99,2,0,2,0,0
+2020-06-04,BEL,Belgium,-99,76,0,74,20,2
 2020-06-04,BEL,Belgium,1,84,1,84,10,1
 2020-06-04,BEL,Belgium,2,177,0,176,24,1
 2020-06-04,BEL,Belgium,3,147,1,147,7,2
@@ -133,8 +144,10 @@ date,ISO3,country,age_E4,count,cli,count_local_com,cli_local_com,anosmia
 2020-06-04,BEL,Belgium,5,122,0,121,4,3
 2020-06-04,BEL,Belgium,6,72,0,72,0,0
 2020-06-04,BEL,Belgium,7,21,0,21,3,0
+2020-06-04,BLZ,Belize,-99,2,0,2,3,0
 2020-06-04,BLZ,Belize,1,1,0,1,0,0
 2020-06-04,BLZ,Belize,3,1,0,1,0,0
+2020-06-04,BEN,Benin,-99,7,1,6,93,1
 2020-06-04,BEN,Benin,1,7,1,7,100,1
 2020-06-04,BEN,Benin,2,10,0,9,1,0
 2020-06-04,BEN,Benin,3,2,0,2,0,0
@@ -144,7 +157,7 @@ date,ISO3,country,age_E4,count,cli,count_local_com,cli_local_com,anosmia
 2020-06-04,BMU,Bermuda,7,1,0,1,100,0
 2020-06-04,BTN,Bhutan,2,1,0,1,0,0
 2020-06-04,BTN,Bhutan,6,1,0,1,0,0
-2020-06-04,BOL,Bolivia,-99,2,0,2,0,0
+2020-06-04,BOL,Bolivia,-99,113,4,109,30,12
 2020-06-04,BOL,Bolivia,1,381,13,381,212,34
 2020-06-04,BOL,Bolivia,2,438,15,438,339,26
 2020-06-04,BOL,Bolivia,3,254,4,253,268,14
@@ -152,7 +165,9 @@ date,ISO3,country,age_E4,count,cli,count_local_com,cli_local_com,anosmia
 2020-06-04,BOL,Bolivia,5,60,1,60,22,1
 2020-06-04,BOL,Bolivia,6,15,0,15,0,0
 2020-06-04,BOL,Bolivia,7,7,0,7,1,0
+2020-06-04,BES,"Bonaire, Sint Eustatius and Saba",-99,1,0,1,0,0
 2020-06-04,BES,"Bonaire, Sint Eustatius and Saba",4,1,1,1,2,0
+2020-06-04,BIH,Bosnia and Herzegovina,-99,15,0,14,2,0
 2020-06-04,BIH,Bosnia and Herzegovina,1,26,0,26,1,1
 2020-06-04,BIH,Bosnia and Herzegovina,2,39,0,39,100,2
 2020-06-04,BIH,Bosnia and Herzegovina,3,37,0,37,9,0
@@ -160,8 +175,10 @@ date,ISO3,country,age_E4,count,cli,count_local_com,cli_local_com,anosmia
 2020-06-04,BIH,Bosnia and Herzegovina,5,11,0,11,0,0
 2020-06-04,BIH,Bosnia and Herzegovina,6,2,0,2,0,0
 2020-06-04,BIH,Bosnia and Herzegovina,7,4,0,4,0,0
+2020-06-04,BWA,Botswana,-99,1,0,0,0,0
 2020-06-04,BWA,Botswana,2,1,0,1,0,0
-2020-06-04,BRA,Brazil,-99,34,1,33,14,1
+2020-06-04,BVT,Bouvet Island,-99,1,0,1,0,0
+2020-06-04,BRA,Brazil,-99,1270,37,1233,1307,83
 2020-06-04,BRA,Brazil,1,2291,57,2291,2233,172
 2020-06-04,BRA,Brazil,2,3935,57,3933,4417,234
 2020-06-04,BRA,Brazil,3,3578,81,3577,4592,188
@@ -169,11 +186,13 @@ date,ISO3,country,age_E4,count,cli,count_local_com,cli_local_com,anosmia
 2020-06-04,BRA,Brazil,5,1522,13,1520,1342,35
 2020-06-04,BRA,Brazil,6,416,4,416,223,6
 2020-06-04,BRA,Brazil,7,49,2,49,110,1
+2020-06-04,IOT,British Indian Ocean Territory,-99,3,1,3,101,1
 2020-06-04,IOT,British Indian Ocean Territory,3,1,0,1,0,0
 2020-06-04,IOT,British Indian Ocean Territory,6,1,0,1,0,0
+2020-06-04,VGB,British Virgin Islands,-99,1,0,1,0,0
 2020-06-04,VGB,British Virgin Islands,3,1,0,1,0,0
 2020-06-04,VGB,British Virgin Islands,6,1,0,1,0,0
-2020-06-04,BGR,Bulgaria,-99,1,0,1,0,0
+2020-06-04,BGR,Bulgaria,-99,67,1,67,1,2
 2020-06-04,BGR,Bulgaria,1,54,0,54,0,2
 2020-06-04,BGR,Bulgaria,2,107,0,107,7,2
 2020-06-04,BGR,Bulgaria,3,117,2,117,6,2
@@ -181,11 +200,20 @@ date,ISO3,country,age_E4,count,cli,count_local_com,cli_local_com,anosmia
 2020-06-04,BGR,Bulgaria,5,101,0,101,3,1
 2020-06-04,BGR,Bulgaria,6,61,0,61,2,1
 2020-06-04,BGR,Bulgaria,7,6,0,6,0,0
+2020-06-04,BFA,Burkina Faso,-99,4,0,4,0,0
 2020-06-04,BFA,Burkina Faso,1,2,0,2,0,0
 2020-06-04,BFA,Burkina Faso,2,9,0,9,0,0
 2020-06-04,BFA,Burkina Faso,3,15,0,15,1,0
 2020-06-04,BFA,Burkina Faso,4,4,0,4,0,0
 2020-06-04,BFA,Burkina Faso,5,1,0,1,0,0
+2020-06-04,CIV,Côte d'Ivoire,-99,18,0,18,2,1
+2020-06-04,CIV,Côte d'Ivoire,1,18,1,18,2,2
+2020-06-04,CIV,Côte d'Ivoire,2,43,1,43,4,2
+2020-06-04,CIV,Côte d'Ivoire,3,59,1,59,6,2
+2020-06-04,CIV,Côte d'Ivoire,4,13,0,13,1,1
+2020-06-04,CIV,Côte d'Ivoire,5,12,0,12,0,0
+2020-06-04,CIV,Côte d'Ivoire,6,2,0,2,0,0
+2020-06-04,KHM,Cambodia,-99,17,1,17,5,2
 2020-06-04,KHM,Cambodia,1,18,0,18,2,2
 2020-06-04,KHM,Cambodia,2,40,1,40,202,1
 2020-06-04,KHM,Cambodia,3,27,1,27,3,2
@@ -193,12 +221,13 @@ date,ISO3,country,age_E4,count,cli,count_local_com,cli_local_com,anosmia
 2020-06-04,KHM,Cambodia,5,4,0,4,0,0
 2020-06-04,KHM,Cambodia,6,1,0,1,0,0
 2020-06-04,KHM,Cambodia,7,1,0,1,0,0
+2020-06-04,CMR,Cameroon,-99,15,1,15,4,3
 2020-06-04,CMR,Cameroon,1,18,2,18,4,2
 2020-06-04,CMR,Cameroon,2,41,4,41,21,10
 2020-06-04,CMR,Cameroon,3,16,1,16,3,1
 2020-06-04,CMR,Cameroon,4,12,0,12,4,2
 2020-06-04,CMR,Cameroon,5,4,0,4,0,0
-2020-06-04,CAN,Canada,-99,3,0,3,0,0
+2020-06-04,CAN,Canada,-99,182,3,175,16,3
 2020-06-04,CAN,Canada,1,316,5,316,33,6
 2020-06-04,CAN,Canada,2,584,0,584,81,7
 2020-06-04,CAN,Canada,3,447,2,446,55,4
@@ -208,7 +237,9 @@ date,ISO3,country,age_E4,count,cli,count_local_com,cli_local_com,anosmia
 2020-06-04,CAN,Canada,7,71,0,70,2,0
 2020-06-04,CYM,Cayman Islands,2,1,1,1,8,1
 2020-06-04,CYM,Cayman Islands,4,1,0,1,0,0
-2020-06-04,CHL,Chile,-99,8,0,8,18,1
+2020-06-04,CAF,Central African Republic,-99,1,0,1,0,0
+2020-06-04,TCD,Chad,-99,2,1,2,2,1
+2020-06-04,CHL,Chile,-99,194,2,190,125,7
 2020-06-04,CHL,Chile,1,309,2,309,172,16
 2020-06-04,CHL,Chile,2,589,5,589,587,20
 2020-06-04,CHL,Chile,3,452,2,451,276,13
@@ -216,7 +247,7 @@ date,ISO3,country,age_E4,count,cli,count_local_com,cli_local_com,anosmia
 2020-06-04,CHL,Chile,5,248,3,247,93,4
 2020-06-04,CHL,Chile,6,105,0,105,24,2
 2020-06-04,CHL,Chile,7,11,0,11,0,0
-2020-06-04,COL,Colombia,-99,6,0,6,0,1
+2020-06-04,COL,Colombia,-99,293,3,281,121,8
 2020-06-04,COL,Colombia,1,780,13,780,175,29
 2020-06-04,COL,Colombia,2,928,14,928,149,21
 2020-06-04,COL,Colombia,3,683,5,682,90,14
@@ -224,7 +255,9 @@ date,ISO3,country,age_E4,count,cli,count_local_com,cli_local_com,anosmia
 2020-06-04,COL,Colombia,5,180,0,180,33,2
 2020-06-04,COL,Colombia,6,64,0,64,38,1
 2020-06-04,COL,Colombia,7,10,0,10,0,0
+2020-06-04,COM,Comoros,-99,1,0,1,1,0
 2020-06-04,COM,Comoros,1,1,0,1,0,0
+2020-06-04,CRI,Costa Rica,-99,84,0,83,41,0
 2020-06-04,CRI,Costa Rica,1,241,1,241,19,9
 2020-06-04,CRI,Costa Rica,2,307,3,307,32,5
 2020-06-04,CRI,Costa Rica,3,259,1,259,16,5
@@ -232,12 +265,7 @@ date,ISO3,country,age_E4,count,cli,count_local_com,cli_local_com,anosmia
 2020-06-04,CRI,Costa Rica,5,91,0,90,5,1
 2020-06-04,CRI,Costa Rica,6,27,0,26,0,0
 2020-06-04,CRI,Costa Rica,7,6,0,6,0,0
-2020-06-04,CIV,Côte d'Ivoire,1,18,1,18,2,2
-2020-06-04,CIV,Côte d'Ivoire,2,43,1,43,4,2
-2020-06-04,CIV,Côte d'Ivoire,3,59,1,59,6,2
-2020-06-04,CIV,Côte d'Ivoire,4,13,0,13,1,1
-2020-06-04,CIV,Côte d'Ivoire,5,12,0,12,0,0
-2020-06-04,CIV,Côte d'Ivoire,6,2,0,2,0,0
+2020-06-04,HRV,Croatia,-99,38,0,36,11,0
 2020-06-04,HRV,Croatia,1,45,2,45,0,0
 2020-06-04,HRV,Croatia,2,96,1,96,24,1
 2020-06-04,HRV,Croatia,3,97,1,97,101,2
@@ -249,7 +277,7 @@ date,ISO3,country,age_E4,count,cli,count_local_com,cli_local_com,anosmia
 2020-06-04,CUW,Curaçao,2,1,0,1,0,0
 2020-06-04,CUW,Curaçao,3,1,0,1,0,0
 2020-06-04,CYP,Cyprus,1,1,0,1,0,0
-2020-06-04,CZE,Czech Republic,-99,2,0,2,0,0
+2020-06-04,CZE,Czech Republic,-99,94,0,94,13,0
 2020-06-04,CZE,Czech Republic,1,156,2,156,25,2
 2020-06-04,CZE,Czech Republic,2,275,1,275,41,3
 2020-06-04,CZE,Czech Republic,3,281,2,281,23,2
@@ -257,12 +285,13 @@ date,ISO3,country,age_E4,count,cli,count_local_com,cli_local_com,anosmia
 2020-06-04,CZE,Czech Republic,5,159,0,159,15,1
 2020-06-04,CZE,Czech Republic,6,117,0,116,3,2
 2020-06-04,CZE,Czech Republic,7,24,1,24,0,1
+2020-06-04,COD,Democratic Republic of the Congo,-99,6,0,6,0,0
 2020-06-04,COD,Democratic Republic of the Congo,1,1,0,1,0,0
 2020-06-04,COD,Democratic Republic of the Congo,2,11,0,11,0,1
 2020-06-04,COD,Democratic Republic of the Congo,3,8,1,8,6,0
 2020-06-04,COD,Democratic Republic of the Congo,4,1,0,1,0,0
 2020-06-04,COD,Democratic Republic of the Congo,6,1,0,1,0,1
-2020-06-04,DNK,Denmark,-99,7,0,7,0,0
+2020-06-04,DNK,Denmark,-99,112,1,110,20,5
 2020-06-04,DNK,Denmark,1,121,1,121,13,3
 2020-06-04,DNK,Denmark,2,246,1,246,34,5
 2020-06-04,DNK,Denmark,3,240,1,240,22,5
@@ -270,11 +299,12 @@ date,ISO3,country,age_E4,count,cli,count_local_com,cli_local_com,anosmia
 2020-06-04,DNK,Denmark,5,383,3,383,44,7
 2020-06-04,DNK,Denmark,6,310,0,310,19,2
 2020-06-04,DNK,Denmark,7,114,0,114,4,4
+2020-06-04,DMA,Dominica,-99,1,0,1,0,0
 2020-06-04,DMA,Dominica,1,2,0,2,1,0
 2020-06-04,DMA,Dominica,2,6,0,6,1,0
 2020-06-04,DMA,Dominica,4,1,0,1,0,0
 2020-06-04,DMA,Dominica,5,1,0,1,0,0
-2020-06-04,DOM,Dominican Republic,-99,1,0,1,0,0
+2020-06-04,DOM,Dominican Republic,-99,63,0,63,24,1
 2020-06-04,DOM,Dominican Republic,1,119,0,119,38,5
 2020-06-04,DOM,Dominican Republic,2,219,5,219,66,10
 2020-06-04,DOM,Dominican Republic,3,149,2,149,60,1
@@ -282,7 +312,7 @@ date,ISO3,country,age_E4,count,cli,count_local_com,cli_local_com,anosmia
 2020-06-04,DOM,Dominican Republic,5,46,0,45,6,0
 2020-06-04,DOM,Dominican Republic,6,23,0,23,1,1
 2020-06-04,DOM,Dominican Republic,7,4,0,4,0,0
-2020-06-04,ECU,Ecuador,-99,3,0,3,0,0
+2020-06-04,ECU,Ecuador,-99,141,4,136,158,11
 2020-06-04,ECU,Ecuador,1,483,15,483,320,37
 2020-06-04,ECU,Ecuador,2,453,15,453,354,27
 2020-06-04,ECU,Ecuador,3,281,11,281,503,11
@@ -290,7 +320,7 @@ date,ISO3,country,age_E4,count,cli,count_local_com,cli_local_com,anosmia
 2020-06-04,ECU,Ecuador,5,89,0,89,49,1
 2020-06-04,ECU,Ecuador,6,22,0,22,2,0
 2020-06-04,ECU,Ecuador,7,4,0,4,0,0
-2020-06-04,EGY,Egypt,-99,7,0,7,85,1
+2020-06-04,EGY,Egypt,-99,415,12,407,426,31
 2020-06-04,EGY,Egypt,1,802,17,801,1061,55
 2020-06-04,EGY,Egypt,2,1082,12,1082,1188,57
 2020-06-04,EGY,Egypt,3,606,9,606,897,34
@@ -298,6 +328,7 @@ date,ISO3,country,age_E4,count,cli,count_local_com,cli_local_com,anosmia
 2020-06-04,EGY,Egypt,5,70,1,70,43,1
 2020-06-04,EGY,Egypt,6,38,0,38,43,2
 2020-06-04,EGY,Egypt,7,4,0,4,101,1
+2020-06-04,SLV,El Salvador,-99,74,0,72,6,2
 2020-06-04,SLV,El Salvador,1,289,5,289,63,16
 2020-06-04,SLV,El Salvador,2,367,7,367,119,11
 2020-06-04,SLV,El Salvador,3,224,3,224,60,5
@@ -311,12 +342,15 @@ date,ISO3,country,age_E4,count,cli,count_local_com,cli_local_com,anosmia
 2020-06-04,EST,Estonia,2,1,0,1,0,0
 2020-06-04,EST,Estonia,3,1,0,1,0,0
 2020-06-04,EST,Estonia,4,1,0,1,0,0
+2020-06-04,ETH,Ethiopia,-99,16,0,16,13,1
 2020-06-04,ETH,Ethiopia,1,1,0,1,0,0
 2020-06-04,ETH,Ethiopia,2,59,1,59,87,5
 2020-06-04,ETH,Ethiopia,3,42,0,42,11,2
 2020-06-04,ETH,Ethiopia,4,4,0,4,10,0
 2020-06-04,FLK,Falkland Islands,5,1,0,1,0,0
-2020-06-04,FIN,Finland,-99,1,0,1,0,0
+2020-06-04,FSM,Federated States of Micronesia,-99,1,0,1,0,0
+2020-06-04,FJI,Fiji,-99,1,0,1,0,0
+2020-06-04,FIN,Finland,-99,48,0,46,4,2
 2020-06-04,FIN,Finland,1,77,1,77,16,1
 2020-06-04,FIN,Finland,2,180,3,180,62,4
 2020-06-04,FIN,Finland,3,172,1,171,215,3
@@ -324,7 +358,7 @@ date,ISO3,country,age_E4,count,cli,count_local_com,cli_local_com,anosmia
 2020-06-04,FIN,Finland,5,172,0,172,10,1
 2020-06-04,FIN,Finland,6,200,0,198,20,5
 2020-06-04,FIN,Finland,7,51,0,50,1,0
-2020-06-04,FRA,France,-99,12,1,12,33,1
+2020-06-04,FRA,France,-99,378,4,374,72,3
 2020-06-04,FRA,France,1,529,3,529,65,13
 2020-06-04,FRA,France,2,863,7,863,121,12
 2020-06-04,FRA,France,3,759,1,759,74,6
@@ -334,16 +368,20 @@ date,ISO3,country,age_E4,count,cli,count_local_com,cli_local_com,anosmia
 2020-06-04,FRA,France,7,92,0,92,3,1
 2020-06-04,PYF,French Polynesia,4,1,0,1,0,0
 2020-06-04,PYF,French Polynesia,7,1,0,1,0,0
+2020-06-04,ATF,French Southern Territories,-99,1,0,1,0,0
 2020-06-04,ATF,French Southern Territories,3,1,0,1,0,0
 2020-06-04,ATF,French Southern Territories,5,1,0,1,0,0
+2020-06-04,GAB,Gabon,-99,1,0,1,0,0
 2020-06-04,GAB,Gabon,1,1,0,1,1,1
 2020-06-04,GAB,Gabon,2,1,0,1,0,0
 2020-06-04,GAB,Gabon,5,1,0,1,0,0
 2020-06-04,GAB,Gabon,6,1,0,1,0,0
+2020-06-04,GMB,Gambia,-99,1,0,1,0,0
+2020-06-04,GEO,Georgia,-99,1,1,1,99,1
 2020-06-04,GEO,Georgia,1,1,0,1,0,0
 2020-06-04,GEO,Georgia,4,1,0,1,0,0
 2020-06-04,GEO,Georgia,5,1,0,1,0,0
-2020-06-04,DEU,Germany,-99,9,0,9,0,0
+2020-06-04,DEU,Germany,-99,352,3,347,25,6
 2020-06-04,DEU,Germany,1,433,1,433,56,6
 2020-06-04,DEU,Germany,2,1331,4,1331,180,15
 2020-06-04,DEU,Germany,3,1352,6,1352,208,15
@@ -351,7 +389,7 @@ date,ISO3,country,age_E4,count,cli,count_local_com,cli_local_com,anosmia
 2020-06-04,DEU,Germany,5,788,3,787,64,6
 2020-06-04,DEU,Germany,6,340,0,339,20,1
 2020-06-04,DEU,Germany,7,94,2,93,137,4
-2020-06-04,GHA,Ghana,-99,1,0,1,0,0
+2020-06-04,GHA,Ghana,-99,41,1,41,115,3
 2020-06-04,GHA,Ghana,1,46,2,46,5,4
 2020-06-04,GHA,Ghana,2,121,2,121,7,8
 2020-06-04,GHA,Ghana,3,42,2,42,1,1
@@ -359,8 +397,9 @@ date,ISO3,country,age_E4,count,cli,count_local_com,cli_local_com,anosmia
 2020-06-04,GHA,Ghana,5,3,0,3,3,1
 2020-06-04,GHA,Ghana,6,2,0,2,0,0
 2020-06-04,GHA,Ghana,7,1,0,1,0,0
+2020-06-04,GIB,Gibraltar,-99,1,0,1,0,0
 2020-06-04,GIB,Gibraltar,7,1,0,1,0,0
-2020-06-04,GRC,Greece,-99,3,0,3,0,0
+2020-06-04,GRC,Greece,-99,65,0,61,4,0
 2020-06-04,GRC,Greece,1,113,0,113,23,1
 2020-06-04,GRC,Greece,2,226,1,226,44,4
 2020-06-04,GRC,Greece,3,279,3,279,116,5
@@ -368,11 +407,13 @@ date,ISO3,country,age_E4,count,cli,count_local_com,cli_local_com,anosmia
 2020-06-04,GRC,Greece,5,134,0,134,1,0
 2020-06-04,GRC,Greece,6,48,0,48,3,0
 2020-06-04,GRC,Greece,7,11,1,11,100,1
+2020-06-04,GRL,Greenland,-99,1,0,1,0,0
 2020-06-04,GRL,Greenland,5,1,0,1,0,0
 2020-06-04,GRL,Greenland,6,1,0,1,0,0
+2020-06-04,GLP,Guadeloupe,-99,1,1,1,0,1
 2020-06-04,GLP,Guadeloupe,4,1,0,1,0,0
 2020-06-04,GUM,Guam,6,1,0,1,0,0
-2020-06-04,GTM,Guatemala,-99,1,0,1,0,0
+2020-06-04,GTM,Guatemala,-99,80,3,76,7,3
 2020-06-04,GTM,Guatemala,1,347,6,347,75,15
 2020-06-04,GTM,Guatemala,2,335,6,335,61,9
 2020-06-04,GTM,Guatemala,3,154,0,153,19,0
@@ -381,6 +422,7 @@ date,ISO3,country,age_E4,count,cli,count_local_com,cli_local_com,anosmia
 2020-06-04,GTM,Guatemala,6,9,0,9,0,0
 2020-06-04,GTM,Guatemala,7,1,0,1,0,0
 2020-06-04,GGY,Guernsey,7,1,1,1,9,1
+2020-06-04,GIN,Guinea,-99,5,0,5,2,0
 2020-06-04,GIN,Guinea,1,6,0,6,0,0
 2020-06-04,GIN,Guinea,2,19,2,19,23,2
 2020-06-04,GIN,Guinea,3,5,0,5,0,0
@@ -388,6 +430,7 @@ date,ISO3,country,age_E4,count,cli,count_local_com,cli_local_com,anosmia
 2020-06-04,GIN,Guinea,5,2,0,2,0,0
 2020-06-04,GIN,Guinea,6,1,0,1,0,0
 2020-06-04,GNB,Guinea-Bissau,5,1,0,1,0,0
+2020-06-04,HTI,Haiti,-99,8,0,8,2,0
 2020-06-04,HTI,Haiti,1,15,0,15,46,3
 2020-06-04,HTI,Haiti,2,29,1,29,41,2
 2020-06-04,HTI,Haiti,3,18,0,18,14,1
@@ -396,7 +439,7 @@ date,ISO3,country,age_E4,count,cli,count_local_com,cli_local_com,anosmia
 2020-06-04,HTI,Haiti,6,1,0,1,0,0
 2020-06-04,HTI,Haiti,7,1,0,1,1,0
 2020-06-04,HMD,Heard Island and McDonald Islands,3,1,0,1,1,0
-2020-06-04,HND,Honduras,-99,1,0,1,0,0
+2020-06-04,HND,Honduras,-99,49,0,47,18,5
 2020-06-04,HND,Honduras,1,151,2,151,61,12
 2020-06-04,HND,Honduras,2,237,7,237,93,16
 2020-06-04,HND,Honduras,3,112,3,112,15,8
@@ -404,7 +447,7 @@ date,ISO3,country,age_E4,count,cli,count_local_com,cli_local_com,anosmia
 2020-06-04,HND,Honduras,5,34,0,34,1,0
 2020-06-04,HND,Honduras,6,9,0,9,4,0
 2020-06-04,HND,Honduras,7,1,0,1,0,0
-2020-06-04,HKG,Hong Kong,-99,1,0,1,1,0
+2020-06-04,HKG,Hong Kong,-99,47,1,47,5,0
 2020-06-04,HKG,Hong Kong,1,52,1,52,4,0
 2020-06-04,HKG,Hong Kong,2,118,0,118,9,0
 2020-06-04,HKG,Hong Kong,3,129,0,129,151,1
@@ -412,7 +455,7 @@ date,ISO3,country,age_E4,count,cli,count_local_com,cli_local_com,anosmia
 2020-06-04,HKG,Hong Kong,5,85,1,85,10,0
 2020-06-04,HKG,Hong Kong,6,19,0,18,4,0
 2020-06-04,HKG,Hong Kong,7,2,0,1,0,0
-2020-06-04,HUN,Hungary,-99,12,0,12,9,0
+2020-06-04,HUN,Hungary,-99,143,0,136,12,7
 2020-06-04,HUN,Hungary,1,142,1,142,26,3
 2020-06-04,HUN,Hungary,2,306,0,306,19,7
 2020-06-04,HUN,Hungary,3,319,2,319,147,5
@@ -420,10 +463,11 @@ date,ISO3,country,age_E4,count,cli,count_local_com,cli_local_com,anosmia
 2020-06-04,HUN,Hungary,5,357,0,357,11,5
 2020-06-04,HUN,Hungary,6,312,0,312,0,3
 2020-06-04,HUN,Hungary,7,65,1,65,3,1
+2020-06-04,ISL,Iceland,-99,2,0,2,0,0
 2020-06-04,ISL,Iceland,4,1,0,1,0,0
 2020-06-04,ISL,Iceland,5,1,0,1,0,0
 2020-06-04,ISL,Iceland,7,1,0,1,0,0
-2020-06-04,IND,India,-99,14,0,14,3,0
+2020-06-04,IND,India,-99,1248,22,1234,1633,31
 2020-06-04,IND,India,1,1355,15,1353,1224,23
 2020-06-04,IND,India,2,2594,10,2591,595,20
 2020-06-04,IND,India,3,854,6,851,232,7
@@ -431,14 +475,14 @@ date,ISO3,country,age_E4,count,cli,count_local_com,cli_local_com,anosmia
 2020-06-04,IND,India,5,97,0,97,61,0
 2020-06-04,IND,India,6,38,0,38,1,0
 2020-06-04,IND,India,7,7,0,7,100,0
-2020-06-04,IDN,Indonesia,-99,11,1,11,2,0
+2020-06-04,IDN,Indonesia,-99,418,10,409,494,13
 2020-06-04,IDN,Indonesia,1,638,18,636,172,18
 2020-06-04,IDN,Indonesia,2,1146,22,1143,358,24
 2020-06-04,IDN,Indonesia,3,746,12,746,107,5
 2020-06-04,IDN,Indonesia,4,354,2,354,67,1
 2020-06-04,IDN,Indonesia,5,131,1,129,30,2
 2020-06-04,IDN,Indonesia,6,28,0,28,2,0
-2020-06-04,IRQ,Iraq,-99,3,0,3,8,0
+2020-06-04,IRQ,Iraq,-99,153,6,151,340,6
 2020-06-04,IRQ,Iraq,1,296,6,296,433,18
 2020-06-04,IRQ,Iraq,2,416,5,414,258,21
 2020-06-04,IRQ,Iraq,3,267,4,267,117,6
@@ -446,7 +490,7 @@ date,ISO3,country,age_E4,count,cli,count_local_com,cli_local_com,anosmia
 2020-06-04,IRQ,Iraq,5,34,1,34,7,1
 2020-06-04,IRQ,Iraq,6,13,0,13,102,0
 2020-06-04,IRQ,Iraq,7,5,1,5,1,1
-2020-06-04,IRL,Ireland,-99,2,0,2,0,0
+2020-06-04,IRL,Ireland,-99,73,0,69,5,1
 2020-06-04,IRL,Ireland,1,125,1,125,7,1
 2020-06-04,IRL,Ireland,2,226,0,226,19,1
 2020-06-04,IRL,Ireland,3,247,1,247,41,1
@@ -454,7 +498,7 @@ date,ISO3,country,age_E4,count,cli,count_local_com,cli_local_com,anosmia
 2020-06-04,IRL,Ireland,5,168,1,167,8,3
 2020-06-04,IRL,Ireland,6,75,0,75,2,1
 2020-06-04,IRL,Ireland,7,21,0,21,0,1
-2020-06-04,ISR,Israel,-99,4,0,4,0,0
+2020-06-04,ISR,Israel,-99,108,2,106,108,2
 2020-06-04,ISR,Israel,1,84,2,84,12,2
 2020-06-04,ISR,Israel,2,197,1,197,43,8
 2020-06-04,ISR,Israel,3,211,0,211,19,1
@@ -462,7 +506,7 @@ date,ISO3,country,age_E4,count,cli,count_local_com,cli_local_com,anosmia
 2020-06-04,ISR,Israel,5,160,0,160,2,0
 2020-06-04,ISR,Israel,6,133,0,133,3,1
 2020-06-04,ISR,Israel,7,35,0,33,2,0
-2020-06-04,ITA,Italy,-99,12,0,12,0,0
+2020-06-04,ITA,Italy,-99,446,2,436,36,7
 2020-06-04,ITA,Italy,1,577,2,577,73,7
 2020-06-04,ITA,Italy,2,1417,8,1417,280,10
 2020-06-04,ITA,Italy,3,1320,5,1320,98,6
@@ -470,7 +514,8 @@ date,ISO3,country,age_E4,count,cli,count_local_com,cli_local_com,anosmia
 2020-06-04,ITA,Italy,5,783,1,783,46,3
 2020-06-04,ITA,Italy,6,443,0,442,20,3
 2020-06-04,ITA,Italy,7,116,0,116,2,2
-2020-06-04,JPN,Japan,-99,8,0,8,1,0
+2020-06-04,JAM,Jamaica,-99,1,0,1,0,0
+2020-06-04,JPN,Japan,-99,573,0,562,25,2
 2020-06-04,JPN,Japan,1,109,1,109,5,1
 2020-06-04,JPN,Japan,2,636,8,636,22,6
 2020-06-04,JPN,Japan,3,1439,7,1434,50,4
@@ -479,34 +524,40 @@ date,ISO3,country,age_E4,count,cli,count_local_com,cli_local_com,anosmia
 2020-06-04,JPN,Japan,6,880,1,877,103,2
 2020-06-04,JPN,Japan,7,141,0,138,0,0
 2020-06-04,JEY,Jersey,4,2,0,2,0,0
+2020-06-04,JOR,Jordan,-99,84,2,82,14,4
 2020-06-04,JOR,Jordan,1,109,2,108,8,4
 2020-06-04,JOR,Jordan,2,195,1,195,12,3
 2020-06-04,JOR,Jordan,3,151,1,151,18,5
 2020-06-04,JOR,Jordan,4,79,1,79,10,1
 2020-06-04,JOR,Jordan,5,50,0,50,2,0
 2020-06-04,JOR,Jordan,6,9,0,9,0,0
-2020-06-04,KAZ,Kazakhstan,-99,1,0,1,0,0
+2020-06-04,KAZ,Kazakhstan,-99,32,3,31,1,2
 2020-06-04,KAZ,Kazakhstan,1,7,0,7,0,1
 2020-06-04,KAZ,Kazakhstan,2,66,2,66,204,2
 2020-06-04,KAZ,Kazakhstan,3,87,2,87,2,2
 2020-06-04,KAZ,Kazakhstan,4,49,0,48,0,1
 2020-06-04,KAZ,Kazakhstan,5,25,0,25,1,1
 2020-06-04,KAZ,Kazakhstan,6,7,0,7,1,0
+2020-06-04,KEN,Kenya,-99,56,1,56,19,2
 2020-06-04,KEN,Kenya,1,40,3,40,18,1
 2020-06-04,KEN,Kenya,2,218,7,218,18,6
 2020-06-04,KEN,Kenya,3,112,0,112,5,4
 2020-06-04,KEN,Kenya,4,53,0,53,5,1
 2020-06-04,KEN,Kenya,5,22,0,22,101,1
 2020-06-04,KEN,Kenya,6,3,1,3,0,0
+2020-06-04,KIR,Kiribati,-99,2,0,2,1,1
 2020-06-04,KIR,Kiribati,2,1,0,1,2,0
+2020-06-04,RKS,Kosovo,-99,1,0,1,0,0
 2020-06-04,RKS,Kosovo,2,1,0,1,0,0
 2020-06-04,RKS,Kosovo,3,1,0,1,0,0
+2020-06-04,KWT,Kuwait,-99,30,2,30,12,1
 2020-06-04,KWT,Kuwait,1,9,0,9,2,0
 2020-06-04,KWT,Kuwait,2,84,1,84,68,8
 2020-06-04,KWT,Kuwait,3,61,1,61,42,2
 2020-06-04,KWT,Kuwait,4,27,2,27,17,2
 2020-06-04,KWT,Kuwait,5,7,0,7,5,0
 2020-06-04,KWT,Kuwait,6,3,0,3,0,0
+2020-06-04,KGZ,Kyrgyzstan,-99,16,0,15,1,0
 2020-06-04,KGZ,Kyrgyzstan,1,12,0,12,0,0
 2020-06-04,KGZ,Kyrgyzstan,2,30,1,30,0,1
 2020-06-04,KGZ,Kyrgyzstan,3,29,0,29,0,0
@@ -514,6 +565,7 @@ date,ISO3,country,age_E4,count,cli,count_local_com,cli_local_com,anosmia
 2020-06-04,KGZ,Kyrgyzstan,5,6,0,6,0,0
 2020-06-04,KGZ,Kyrgyzstan,6,2,0,2,0,0
 2020-06-04,KGZ,Kyrgyzstan,7,1,0,1,0,0
+2020-06-04,LAO,Laos,-99,13,1,11,5,1
 2020-06-04,LAO,Laos,1,7,0,7,1,0
 2020-06-04,LAO,Laos,2,14,1,14,101,1
 2020-06-04,LAO,Laos,3,9,0,9,0,0
@@ -521,21 +573,24 @@ date,ISO3,country,age_E4,count,cli,count_local_com,cli_local_com,anosmia
 2020-06-04,LAO,Laos,5,1,0,1,0,0
 2020-06-04,LAO,Laos,6,2,0,2,0,0
 2020-06-04,LVA,Latvia,5,2,0,2,0,0
+2020-06-04,LBN,Lebanon,-99,24,1,24,4,1
 2020-06-04,LBN,Lebanon,1,37,1,37,5,3
 2020-06-04,LBN,Lebanon,2,77,3,77,6,2
 2020-06-04,LBN,Lebanon,3,50,0,50,2,1
 2020-06-04,LBN,Lebanon,4,21,0,21,0,0
 2020-06-04,LBN,Lebanon,5,18,0,18,0,0
 2020-06-04,LBN,Lebanon,6,6,0,6,0,0
-2020-06-04,LBY,Libya,-99,1,0,1,0,0
+2020-06-04,LBY,Libya,-99,54,0,54,4,1
 2020-06-04,LBY,Libya,1,82,1,82,11,2
 2020-06-04,LBY,Libya,2,122,3,122,13,4
 2020-06-04,LBY,Libya,3,93,1,93,7,1
 2020-06-04,LBY,Libya,4,47,0,47,0,1
 2020-06-04,LBY,Libya,5,13,0,13,2,0
 2020-06-04,LBY,Libya,6,4,0,4,0,0
+2020-06-04,LTU,Lithuania,-99,1,0,1,0,0
 2020-06-04,LTU,Lithuania,1,1,0,1,0,0
 2020-06-04,LTU,Lithuania,3,1,0,1,2,0
+2020-06-04,LUX,Luxembourg,-99,1,0,1,1,0
 2020-06-04,LUX,Luxembourg,1,2,0,2,0,0
 2020-06-04,LUX,Luxembourg,4,1,0,1,0,0
 2020-06-04,LUX,Luxembourg,5,2,0,2,0,0
@@ -543,13 +598,14 @@ date,ISO3,country,age_E4,count,cli,count_local_com,cli_local_com,anosmia
 2020-06-04,MAC,Macau,2,1,1,1,1,1
 2020-06-04,MAC,Macau,5,1,0,1,0,0
 2020-06-04,MAC,Macau,6,1,0,1,0,0
+2020-06-04,MDG,Madagascar,-99,3,0,3,0,0
 2020-06-04,MDG,Madagascar,2,11,1,11,5,0
 2020-06-04,MDG,Madagascar,3,13,0,13,1,0
 2020-06-04,MDG,Madagascar,4,2,0,2,0,0
 2020-06-04,MDG,Madagascar,5,1,0,1,0,0
 2020-06-04,MDG,Madagascar,6,2,0,2,0,0
 2020-06-04,MWI,Malawi,2,1,0,1,0,1
-2020-06-04,MYS,Malaysia,-99,3,0,3,0,0
+2020-06-04,MYS,Malaysia,-99,167,0,162,219,1
 2020-06-04,MYS,Malaysia,1,304,0,304,43,7
 2020-06-04,MYS,Malaysia,2,542,2,542,41,8
 2020-06-04,MYS,Malaysia,3,335,0,335,86,4
@@ -557,8 +613,10 @@ date,ISO3,country,age_E4,count,cli,count_local_com,cli_local_com,anosmia
 2020-06-04,MYS,Malaysia,5,69,0,69,7,1
 2020-06-04,MYS,Malaysia,6,32,0,32,1,0
 2020-06-04,MYS,Malaysia,7,5,0,5,0,0
+2020-06-04,MDV,Maldives,-99,1,0,1,0,0
 2020-06-04,MDV,Maldives,1,1,0,1,0,0
 2020-06-04,MDV,Maldives,2,1,0,1,0,0
+2020-06-04,MLI,Mali,-99,7,1,7,0,1
 2020-06-04,MLI,Mali,1,2,0,2,0,0
 2020-06-04,MLI,Mali,2,15,0,15,2,0
 2020-06-04,MLI,Mali,3,5,0,5,0,0
@@ -568,13 +626,16 @@ date,ISO3,country,age_E4,count,cli,count_local_com,cli_local_com,anosmia
 2020-06-04,MLT,Malta,-99,1,0,1,0,0
 2020-06-04,MHL,Marshall Islands,2,1,0,1,0,0
 2020-06-04,MTQ,Martinique,4,1,0,1,1,0
+2020-06-04,MRT,Mauritania,-99,2,0,2,1,0
 2020-06-04,MRT,Mauritania,1,3,0,3,2,0
 2020-06-04,MRT,Mauritania,2,8,0,8,1,0
 2020-06-04,MRT,Mauritania,3,6,1,6,2,0
 2020-06-04,MRT,Mauritania,4,3,0,3,0,0
 2020-06-04,MRT,Mauritania,5,2,0,2,0,0
 2020-06-04,MRT,Mauritania,6,2,0,2,0,0
-2020-06-04,MEX,Mexico,-99,18,0,18,12,0
+2020-06-04,MUS,Mauritius,-99,1,0,1,1,0
+2020-06-04,MYT,Mayotte,-99,1,0,1,0,0
+2020-06-04,MEX,Mexico,-99,884,11,855,520,43
 2020-06-04,MEX,Mexico,1,2913,52,2913,1742,160
 2020-06-04,MEX,Mexico,2,3419,66,3419,3230,192
 2020-06-04,MEX,Mexico,3,2111,36,2110,1546,73
@@ -582,6 +643,7 @@ date,ISO3,country,age_E4,count,cli,count_local_com,cli_local_com,anosmia
 2020-06-04,MEX,Mexico,5,692,3,692,267,13
 2020-06-04,MEX,Mexico,6,210,1,208,72,2
 2020-06-04,MEX,Mexico,7,31,0,31,11,1
+2020-06-04,MDA,Moldova,-99,27,2,26,19,3
 2020-06-04,MDA,Moldova,1,45,1,45,2,1
 2020-06-04,MDA,Moldova,2,73,1,73,14,2
 2020-06-04,MDA,Moldova,3,55,2,55,16,0
@@ -589,14 +651,16 @@ date,ISO3,country,age_E4,count,cli,count_local_com,cli_local_com,anosmia
 2020-06-04,MDA,Moldova,5,16,0,16,3,0
 2020-06-04,MDA,Moldova,6,8,0,8,0,0
 2020-06-04,MDA,Moldova,7,1,0,1,0,0
+2020-06-04,MCO,Monaco,-99,1,0,1,0,0
 2020-06-04,MCO,Monaco,1,1,0,1,0,0
 2020-06-04,MCO,Monaco,3,1,0,1,0,0
 2020-06-04,MCO,Monaco,4,2,0,2,0,0
 2020-06-04,MCO,Monaco,7,1,0,1,0,0
+2020-06-04,MNG,Mongolia,-99,1,0,1,0,0
 2020-06-04,MNG,Mongolia,3,1,1,1,100,1
 2020-06-04,MNE,Montenegro,3,1,0,1,0,0
 2020-06-04,MSR,Montserrat,5,1,0,1,0,0
-2020-06-04,MAR,Morocco,-99,3,0,3,0,1
+2020-06-04,MAR,Morocco,-99,99,3,97,216,6
 2020-06-04,MAR,Morocco,1,115,5,115,114,8
 2020-06-04,MAR,Morocco,2,165,1,165,30,2
 2020-06-04,MAR,Morocco,3,102,0,102,84,2
@@ -604,13 +668,14 @@ date,ISO3,country,age_E4,count,cli,count_local_com,cli_local_com,anosmia
 2020-06-04,MAR,Morocco,5,26,0,26,2,1
 2020-06-04,MAR,Morocco,6,9,0,9,0,0
 2020-06-04,MAR,Morocco,7,3,0,3,0,1
+2020-06-04,MOZ,Mozambique,-99,7,0,6,0,0
 2020-06-04,MOZ,Mozambique,1,5,0,5,1,0
 2020-06-04,MOZ,Mozambique,2,48,1,48,6,1
 2020-06-04,MOZ,Mozambique,3,32,0,32,8,0
 2020-06-04,MOZ,Mozambique,4,9,0,9,0,0
 2020-06-04,MOZ,Mozambique,5,9,0,9,2,0
 2020-06-04,MOZ,Mozambique,6,3,0,3,0,0
-2020-06-04,MMR,Myanmar,-99,1,0,1,0,0
+2020-06-04,MMR,Myanmar,-99,99,8,95,536,8
 2020-06-04,MMR,Myanmar,1,96,3,96,152,4
 2020-06-04,MMR,Myanmar,2,158,1,158,24,1
 2020-06-04,MMR,Myanmar,3,82,0,82,12,0
@@ -620,13 +685,13 @@ date,ISO3,country,age_E4,count,cli,count_local_com,cli_local_com,anosmia
 2020-06-04,NAM,Namibia,3,1,0,1,0,0
 2020-06-04,NAM,Namibia,6,1,0,1,0,0
 2020-06-04,NAM,Namibia,7,1,0,1,0,0
-2020-06-04,NPL,Nepal,-99,1,0,1,0,0
+2020-06-04,NPL,Nepal,-99,88,2,88,186,3
 2020-06-04,NPL,Nepal,1,177,1,177,110,2
 2020-06-04,NPL,Nepal,2,205,2,204,113,4
 2020-06-04,NPL,Nepal,3,96,0,96,24,0
 2020-06-04,NPL,Nepal,4,23,0,23,0,0
 2020-06-04,NPL,Nepal,5,6,0,6,1,0
-2020-06-04,NLD,Netherlands,-99,5,0,5,1,0
+2020-06-04,NLD,Netherlands,-99,184,0,180,22,3
 2020-06-04,NLD,Netherlands,1,211,3,211,45,6
 2020-06-04,NLD,Netherlands,2,422,4,422,48,7
 2020-06-04,NLD,Netherlands,3,391,4,391,94,9
@@ -634,7 +699,7 @@ date,ISO3,country,age_E4,count,cli,count_local_com,cli_local_com,anosmia
 2020-06-04,NLD,Netherlands,5,532,2,530,88,8
 2020-06-04,NLD,Netherlands,6,355,0,354,25,2
 2020-06-04,NLD,Netherlands,7,106,0,105,10,5
-2020-06-04,NZL,New Zealand,-99,5,0,5,0,0
+2020-06-04,NZL,New Zealand,-99,54,1,53,4,0
 2020-06-04,NZL,New Zealand,1,88,1,88,30,2
 2020-06-04,NZL,New Zealand,2,115,1,115,27,3
 2020-06-04,NZL,New Zealand,3,99,0,99,11,0
@@ -642,7 +707,7 @@ date,ISO3,country,age_E4,count,cli,count_local_com,cli_local_com,anosmia
 2020-06-04,NZL,New Zealand,5,124,3,124,9,2
 2020-06-04,NZL,New Zealand,6,94,0,94,13,3
 2020-06-04,NZL,New Zealand,7,21,0,21,0,2
-2020-06-04,NIC,Nicaragua,-99,1,0,1,0,0
+2020-06-04,NIC,Nicaragua,-99,78,6,74,174,13
 2020-06-04,NIC,Nicaragua,1,188,11,188,432,23
 2020-06-04,NIC,Nicaragua,2,294,19,294,642,38
 2020-06-04,NIC,Nicaragua,3,170,13,170,419,20
@@ -650,7 +715,8 @@ date,ISO3,country,age_E4,count,cli,count_local_com,cli_local_com,anosmia
 2020-06-04,NIC,Nicaragua,5,34,2,33,130,2
 2020-06-04,NIC,Nicaragua,6,8,0,8,22,0
 2020-06-04,NIC,Nicaragua,7,2,0,2,20,0
-2020-06-04,NGA,Nigeria,-99,3,0,2,0,0
+2020-06-04,NER,Niger,-99,2,0,1,0,0
+2020-06-04,NGA,Nigeria,-99,91,3,87,22,6
 2020-06-04,NGA,Nigeria,1,61,2,61,5,4
 2020-06-04,NGA,Nigeria,2,244,10,244,93,17
 2020-06-04,NGA,Nigeria,3,174,1,174,25,7
@@ -659,7 +725,7 @@ date,ISO3,country,age_E4,count,cli,count_local_com,cli_local_com,anosmia
 2020-06-04,NGA,Nigeria,6,3,0,3,0,0
 2020-06-04,NGA,Nigeria,7,1,0,1,0,0
 2020-06-04,MNP,Northern Mariana Islands,5,1,0,1,0,0
-2020-06-04,NOR,Norway,-99,5,0,5,0,0
+2020-06-04,NOR,Norway,-99,91,2,89,4,0
 2020-06-04,NOR,Norway,1,77,0,77,14,1
 2020-06-04,NOR,Norway,2,145,0,145,14,1
 2020-06-04,NOR,Norway,3,165,1,165,37,4
@@ -667,7 +733,7 @@ date,ISO3,country,age_E4,count,cli,count_local_com,cli_local_com,anosmia
 2020-06-04,NOR,Norway,5,245,1,245,12,1
 2020-06-04,NOR,Norway,6,263,0,263,8,2
 2020-06-04,NOR,Norway,7,81,0,80,1,1
-2020-06-04,OMN,Oman,-99,1,0,1,0,0
+2020-06-04,OMN,Oman,-99,12,0,12,1,0
 2020-06-04,OMN,Oman,1,9,0,9,15,1
 2020-06-04,OMN,Oman,2,36,0,36,1,1
 2020-06-04,OMN,Oman,3,24,0,24,34,1
@@ -675,6 +741,7 @@ date,ISO3,country,age_E4,count,cli,count_local_com,cli_local_com,anosmia
 2020-06-04,OMN,Oman,5,4,0,4,0,0
 2020-06-04,OMN,Oman,6,1,0,1,0,0
 2020-06-04,OMN,Oman,7,1,0,1,0,0
+2020-06-04,PAK,Pakistan,-99,239,14,235,974,21
 2020-06-04,PAK,Pakistan,1,425,23,424,796,37
 2020-06-04,PAK,Pakistan,2,555,21,554,1018.5,50
 2020-06-04,PAK,Pakistan,3,184,4,184,338,9
@@ -684,6 +751,7 @@ date,ISO3,country,age_E4,count,cli,count_local_com,cli_local_com,anosmia
 2020-06-04,PAK,Pakistan,7,2,1,2,0,1
 2020-06-04,PLW,Palau,2,1,0,1,0,0
 2020-06-04,PLW,Palau,5,1,0,1,0,0
+2020-06-04,PSE,Palestine,-99,34,2,34,104,1
 2020-06-04,PSE,Palestine,1,51,2,51,19,2
 2020-06-04,PSE,Palestine,2,80,1,80,12,6
 2020-06-04,PSE,Palestine,3,43,0,43,0,1
@@ -691,6 +759,7 @@ date,ISO3,country,age_E4,count,cli,count_local_com,cli_local_com,anosmia
 2020-06-04,PSE,Palestine,5,8,0,8,0,0
 2020-06-04,PSE,Palestine,6,3,0,3,0,0
 2020-06-04,PSE,Palestine,7,1,0,0,0,0
+2020-06-04,PAN,Panama,-99,28,0,26,2,1
 2020-06-04,PAN,Panama,1,68,1,68,23,3
 2020-06-04,PAN,Panama,2,119,1,119,26,3
 2020-06-04,PAN,Panama,3,84,2,84,9,1
@@ -702,6 +771,7 @@ date,ISO3,country,age_E4,count,cli,count_local_com,cli_local_com,anosmia
 2020-06-04,PNG,Papua New Guinea,2,2,0,2,1,0
 2020-06-04,PNG,Papua New Guinea,3,1,0,1,0,0
 2020-06-04,PNG,Papua New Guinea,5,1,1,1,3,1
+2020-06-04,PRY,Paraguay,-99,46,0,45,1,1
 2020-06-04,PRY,Paraguay,1,142,1,142,4,3
 2020-06-04,PRY,Paraguay,2,196,2,196,13,5
 2020-06-04,PRY,Paraguay,3,120,0,119,3,0
@@ -709,7 +779,7 @@ date,ISO3,country,age_E4,count,cli,count_local_com,cli_local_com,anosmia
 2020-06-04,PRY,Paraguay,5,34,0,34,0,0
 2020-06-04,PRY,Paraguay,6,12,0,12,0,0
 2020-06-04,PRY,Paraguay,7,4,0,4,0,0
-2020-06-04,PER,Peru,-99,1,0,1,0,0
+2020-06-04,PER,Peru,-99,196,6,186,508,15
 2020-06-04,PER,Peru,1,641,25,641,771,56
 2020-06-04,PER,Peru,2,733,32,733,738,58
 2020-06-04,PER,Peru,3,474,25,474,690,35
@@ -717,7 +787,7 @@ date,ISO3,country,age_E4,count,cli,count_local_com,cli_local_com,anosmia
 2020-06-04,PER,Peru,5,161,2,161,62,1
 2020-06-04,PER,Peru,6,55,0,55,38,1
 2020-06-04,PER,Peru,7,9,1,9,102,2
-2020-06-04,PHL,Philippines,-99,6,0,6,0,1
+2020-06-04,PHL,Philippines,-99,265,1,255,176,4
 2020-06-04,PHL,Philippines,1,735,3,734,98,15
 2020-06-04,PHL,Philippines,2,805,2,804,132,10
 2020-06-04,PHL,Philippines,3,323,3,323,51,6
@@ -726,7 +796,7 @@ date,ISO3,country,age_E4,count,cli,count_local_com,cli_local_com,anosmia
 2020-06-04,PHL,Philippines,6,48,0,48,1,1
 2020-06-04,PHL,Philippines,7,9,0,9,3,0
 2020-06-04,PCN,Pitcairn,3,1,0,1,0,0
-2020-06-04,POL,Poland,-99,3,0,3,0,0
+2020-06-04,POL,Poland,-99,229,3,224,27,6
 2020-06-04,POL,Poland,1,546,5,546,90,9
 2020-06-04,POL,Poland,2,717,7,717,197,7
 2020-06-04,POL,Poland,3,579,1,577,62,8
@@ -734,7 +804,7 @@ date,ISO3,country,age_E4,count,cli,count_local_com,cli_local_com,anosmia
 2020-06-04,POL,Poland,5,256,0,255,5,1
 2020-06-04,POL,Poland,6,171,0,170,10,1
 2020-06-04,POL,Poland,7,30,2,30,138,2
-2020-06-04,PRT,Portugal,-99,5,0,5,12,0
+2020-06-04,PRT,Portugal,-99,159,0,158,32,0
 2020-06-04,PRT,Portugal,1,264,0,264,72,10
 2020-06-04,PRT,Portugal,2,511,0,511,40,12
 2020-06-04,PRT,Portugal,3,596,0,596,103,12
@@ -742,7 +812,7 @@ date,ISO3,country,age_E4,count,cli,count_local_com,cli_local_com,anosmia
 2020-06-04,PRT,Portugal,5,290,1,288,41,6
 2020-06-04,PRT,Portugal,6,134,0,134,8,0
 2020-06-04,PRT,Portugal,7,25,0,25,0,0
-2020-06-04,PRI,"Puerto Rico, U.S.",-99,3,0,3,0,0
+2020-06-04,PRI,"Puerto Rico, U.S.",-99,75,0,71,1,1
 2020-06-04,PRI,"Puerto Rico, U.S.",1,89,0,89,7,4
 2020-06-04,PRI,"Puerto Rico, U.S.",2,117,1,117,110,1
 2020-06-04,PRI,"Puerto Rico, U.S.",3,154,0,154,6,3
@@ -750,18 +820,21 @@ date,ISO3,country,age_E4,count,cli,count_local_com,cli_local_com,anosmia
 2020-06-04,PRI,"Puerto Rico, U.S.",5,150,0,150,8,0
 2020-06-04,PRI,"Puerto Rico, U.S.",6,105,0,105,1,0
 2020-06-04,PRI,"Puerto Rico, U.S.",7,23,0,23,0,0
+2020-06-04,QAT,Qatar,-99,26,2,26,104,1
 2020-06-04,QAT,Qatar,1,12,0,12,26,2
 2020-06-04,QAT,Qatar,2,76,0,76,88,3
 2020-06-04,QAT,Qatar,3,46,1,46,52,4
 2020-06-04,QAT,Qatar,4,26,0,26,4,0
 2020-06-04,QAT,Qatar,5,5,0,5,4,0
 2020-06-04,QAT,Qatar,7,1,0,1,0,0
+2020-06-04,REU,Réunion,7,1,0,1,0,0
+2020-06-04,MKD,Republic of North Macedonia,-99,1,0,1,0,0
 2020-06-04,MKD,Republic of North Macedonia,2,1,0,1,0,0
 2020-06-04,MKD,Republic of North Macedonia,6,1,0,1,0,0
+2020-06-04,COG,Republic of the Congo,-99,2,1,2,100,1
 2020-06-04,COG,Republic of the Congo,2,2,0,2,0,0
 2020-06-04,COG,Republic of the Congo,5,1,0,1,0,0
-2020-06-04,REU,Réunion,7,1,0,1,0,0
-2020-06-04,ROU,Romania,-99,5,0,5,0,0
+2020-06-04,ROU,Romania,-99,252,1,247,19,3
 2020-06-04,ROU,Romania,1,497,3,495,129,8
 2020-06-04,ROU,Romania,2,660,4,659,170,7
 2020-06-04,ROU,Romania,3,537,3,537,44,0
@@ -769,7 +842,7 @@ date,ISO3,country,age_E4,count,cli,count_local_com,cli_local_com,anosmia
 2020-06-04,ROU,Romania,5,185,0,184,5,1
 2020-06-04,ROU,Romania,6,107,0,107,0,1
 2020-06-04,ROU,Romania,7,11,0,11,0,0
-2020-06-04,RUS,Russia,-99,6,0,6,3,0
+2020-06-04,RUS,Russia,-99,112,0,107,168,5
 2020-06-04,RUS,Russia,1,51,2,51,77,1
 2020-06-04,RUS,Russia,2,286,8,286,176,7
 2020-06-04,RUS,Russia,3,435,13,435,200,10
@@ -780,7 +853,7 @@ date,ISO3,country,age_E4,count,cli,count_local_com,cli_local_com,anosmia
 2020-06-04,KNA,Saint Kitts and Nevis,2,1,0,1,0,0
 2020-06-04,LCA,Saint Lucia,2,1,0,1,0,0
 2020-06-04,SPM,Saint Pierre and Miquelon,2,1,1,1,30,1
-2020-06-04,SAU,Saudi Arabia,-99,2,0,2,0,0
+2020-06-04,SAU,Saudi Arabia,-99,85,0,82,128,2
 2020-06-04,SAU,Saudi Arabia,1,36,1,36,67,1
 2020-06-04,SAU,Saudi Arabia,2,306,6,304,380,14
 2020-06-04,SAU,Saudi Arabia,3,221,4,221,153,9
@@ -788,13 +861,13 @@ date,ISO3,country,age_E4,count,cli,count_local_com,cli_local_com,anosmia
 2020-06-04,SAU,Saudi Arabia,5,33,0,33,49,0
 2020-06-04,SAU,Saudi Arabia,6,8,0,8,1,0
 2020-06-04,SAU,Saudi Arabia,7,1,0,1,1,0
-2020-06-04,SEN,Senegal,-99,1,0,1,0,0
+2020-06-04,SEN,Senegal,-99,12,0,12,0,0
 2020-06-04,SEN,Senegal,1,8,0,8,0,0
 2020-06-04,SEN,Senegal,2,17,0,17,1,1
 2020-06-04,SEN,Senegal,3,12,1,12,3,1
 2020-06-04,SEN,Senegal,4,9,0,9,0,0
 2020-06-04,SEN,Senegal,5,11,0,11,0,0
-2020-06-04,SRB,Serbia,-99,1,0,1,0,0
+2020-06-04,SRB,Serbia,-99,50,0,49,8,1
 2020-06-04,SRB,Serbia,1,43,0,43,123,0
 2020-06-04,SRB,Serbia,2,104,0,104,125,2
 2020-06-04,SRB,Serbia,3,120,0,120,47,1
@@ -802,7 +875,7 @@ date,ISO3,country,age_E4,count,cli,count_local_com,cli_local_com,anosmia
 2020-06-04,SRB,Serbia,5,56,0,56,13,2
 2020-06-04,SRB,Serbia,6,17,0,17,1,1
 2020-06-04,SRB,Serbia,7,2,1,2,100,1
-2020-06-04,SGP,Singapore,-99,1,0,1,0,0
+2020-06-04,SGP,Singapore,-99,41,1,40,2,1
 2020-06-04,SGP,Singapore,1,38,0,38,4,1
 2020-06-04,SGP,Singapore,2,110,0,110,74,0
 2020-06-04,SGP,Singapore,3,89,0,89,18,0
@@ -811,7 +884,7 @@ date,ISO3,country,age_E4,count,cli,count_local_com,cli_local_com,anosmia
 2020-06-04,SGP,Singapore,6,8,0,8,0,0
 2020-06-04,SGP,Singapore,7,3,0,3,0,0
 2020-06-04,ANT,Sint Maarten,2,1,0,1,0,0
-2020-06-04,SVK,Slovakia,-99,3,0,3,0,0
+2020-06-04,SVK,Slovakia,-99,36,0,35,5,0
 2020-06-04,SVK,Slovakia,1,77,1,77,9,3
 2020-06-04,SVK,Slovakia,2,138,0,138,2,0
 2020-06-04,SVK,Slovakia,3,87,1,87,1,1
@@ -819,6 +892,7 @@ date,ISO3,country,age_E4,count,cli,count_local_com,cli_local_com,anosmia
 2020-06-04,SVK,Slovakia,5,60,0,60,1,0
 2020-06-04,SVK,Slovakia,6,47,0,47,0,0
 2020-06-04,SVK,Slovakia,7,5,0,5,0,0
+2020-06-04,SVN,Slovenia,-99,20,0,20,1,0
 2020-06-04,SVN,Slovenia,1,32,0,32,4,2
 2020-06-04,SVN,Slovenia,2,42,0,42,7,1
 2020-06-04,SVN,Slovenia,3,60,0,60,2,0
@@ -829,7 +903,7 @@ date,ISO3,country,age_E4,count,cli,count_local_com,cli_local_com,anosmia
 2020-06-04,SOM,Somalia,1,1,0,1,0,0
 2020-06-04,SOM,Somalia,4,1,0,1,3,0
 2020-06-04,SOM,Somalia,5,2,1,2,10,1
-2020-06-04,ZAF,South Africa,-99,4,1,4,0,1
+2020-06-04,ZAF,South Africa,-99,97,2,95,35,3
 2020-06-04,ZAF,South Africa,1,171,3,171,34,5
 2020-06-04,ZAF,South Africa,2,384,11,383,97,19
 2020-06-04,ZAF,South Africa,3,299,3,299,55,6
@@ -837,7 +911,7 @@ date,ISO3,country,age_E4,count,cli,count_local_com,cli_local_com,anosmia
 2020-06-04,ZAF,South Africa,5,94,1,92,12,1
 2020-06-04,ZAF,South Africa,6,50,0,50,2,1
 2020-06-04,ZAF,South Africa,7,14,0,14,0,0
-2020-06-04,KOR,South Korea,-99,1,0,1,1,1
+2020-06-04,KOR,South Korea,-99,134,4,131,9,2
 2020-06-04,KOR,South Korea,1,237,3,237,21,1
 2020-06-04,KOR,South Korea,2,239,2,239,13,1
 2020-06-04,KOR,South Korea,3,135,0,135,11,0
@@ -845,10 +919,11 @@ date,ISO3,country,age_E4,count,cli,count_local_com,cli_local_com,anosmia
 2020-06-04,KOR,South Korea,5,85,1,85,1,0
 2020-06-04,KOR,South Korea,6,40,0,40,4,0
 2020-06-04,KOR,South Korea,7,10,0,10,2,0
+2020-06-04,SSD,South Sudan,-99,2,0,2,0,0
 2020-06-04,SSD,South Sudan,1,2,0,2,2,1
 2020-06-04,SSD,South Sudan,2,2,1,2,5,1
 2020-06-04,SSD,South Sudan,3,1,0,1,0,0
-2020-06-04,ESP,Spain,-99,8,0,8,0,1
+2020-06-04,ESP,Spain,-99,291,3,280,226,11
 2020-06-04,ESP,Spain,1,267,3,266,187,7
 2020-06-04,ESP,Spain,2,917,4,917,333,16
 2020-06-04,ESP,Spain,3,1036,4,1036,251,23
@@ -856,6 +931,7 @@ date,ISO3,country,age_E4,count,cli,count_local_com,cli_local_com,anosmia
 2020-06-04,ESP,Spain,5,545,5,545,88,7
 2020-06-04,ESP,Spain,6,235,1,234,13,4
 2020-06-04,ESP,Spain,7,59,0,59,9,1
+2020-06-04,LKA,Sri Lanka,-99,53,0,53,18,1
 2020-06-04,LKA,Sri Lanka,1,44,1,44,101,2
 2020-06-04,LKA,Sri Lanka,2,142,1,142,17,0
 2020-06-04,LKA,Sri Lanka,3,63,0,63,11,0
@@ -863,13 +939,13 @@ date,ISO3,country,age_E4,count,cli,count_local_com,cli_local_com,anosmia
 2020-06-04,LKA,Sri Lanka,5,13,0,13,4,0
 2020-06-04,LKA,Sri Lanka,6,5,0,5,1,1
 2020-06-04,LKA,Sri Lanka,7,1,0,1,0,0
-2020-06-04,SDN,Sudan,-99,1,0,1,1,0
+2020-06-04,SDN,Sudan,-99,45,3,41,34,3
 2020-06-04,SDN,Sudan,1,65,1,65,30,4
 2020-06-04,SDN,Sudan,2,117,4,115,216,10
 2020-06-04,SDN,Sudan,3,62,1,62,83,2
 2020-06-04,SDN,Sudan,4,15,0,14,12,0
 2020-06-04,SDN,Sudan,5,4,0,4,3,0
-2020-06-04,SWE,Sweden,-99,7,0,7,0,0
+2020-06-04,SWE,Sweden,-99,197,6,192,169,9
 2020-06-04,SWE,Sweden,1,132,3,132,91,11
 2020-06-04,SWE,Sweden,2,527,14,527,497,35
 2020-06-04,SWE,Sweden,3,576,17,575,410,41
@@ -877,7 +953,7 @@ date,ISO3,country,age_E4,count,cli,count_local_com,cli_local_com,anosmia
 2020-06-04,SWE,Sweden,5,583,7,582,232,15
 2020-06-04,SWE,Sweden,6,627,2,626,85,13
 2020-06-04,SWE,Sweden,7,213,1,212,22,8
-2020-06-04,CHE,Switzerland,-99,2,0,2,0,0
+2020-06-04,CHE,Switzerland,-99,67,1,65,79,2
 2020-06-04,CHE,Switzerland,1,65,1,65,23,0
 2020-06-04,CHE,Switzerland,2,170,0,170,9,0
 2020-06-04,CHE,Switzerland,3,199,1,199,25,5
@@ -885,7 +961,7 @@ date,ISO3,country,age_E4,count,cli,count_local_com,cli_local_com,anosmia
 2020-06-04,CHE,Switzerland,5,160,0,159,15,4
 2020-06-04,CHE,Switzerland,6,105,0,104,8,0
 2020-06-04,CHE,Switzerland,7,28,0,27,1,0
-2020-06-04,TWN,Taiwan,-99,3,0,3,0,0
+2020-06-04,TWN,Taiwan,-99,258,5,245,17,3
 2020-06-04,TWN,Taiwan,1,323,1,323,6,1
 2020-06-04,TWN,Taiwan,2,660,0,660,19,0
 2020-06-04,TWN,Taiwan,3,630,1,629,52,0
@@ -893,13 +969,15 @@ date,ISO3,country,age_E4,count,cli,count_local_com,cli_local_com,anosmia
 2020-06-04,TWN,Taiwan,5,166,1,166,6,0
 2020-06-04,TWN,Taiwan,6,56,0,56,2,0
 2020-06-04,TWN,Taiwan,7,7,0,7,0,0
+2020-06-04,TJK,Tajikistan,-99,1,0,1,0,0
 2020-06-04,TJK,Tajikistan,4,1,0,1,0,0
+2020-06-04,TZA,Tanzania,-99,8,0,7,0,0
 2020-06-04,TZA,Tanzania,1,2,1,2,5,1
 2020-06-04,TZA,Tanzania,2,22,0,22,3,0
 2020-06-04,TZA,Tanzania,3,12,0,12,14,1
 2020-06-04,TZA,Tanzania,4,5,0,5,3,0
 2020-06-04,TZA,Tanzania,6,1,0,1,0,0
-2020-06-04,THA,Thailand,-99,1,0,1,0,0
+2020-06-04,THA,Thailand,-99,149,0,147,125,4
 2020-06-04,THA,Thailand,1,196,4,196,18,3
 2020-06-04,THA,Thailand,2,304,3,304,6,6
 2020-06-04,THA,Thailand,3,304,2,304,10,2
@@ -907,14 +985,17 @@ date,ISO3,country,age_E4,count,cli,count_local_com,cli_local_com,anosmia
 2020-06-04,THA,Thailand,5,167,0,166,7,0
 2020-06-04,THA,Thailand,6,54,0,54,0,1
 2020-06-04,THA,Thailand,7,7,0,7,0,0
+2020-06-04,TLS,Timor-Leste,-99,1,0,1,0,0
 2020-06-04,TLS,Timor-Leste,1,1,1,1,1,1
 2020-06-04,TLS,Timor-Leste,2,1,0,1,0,0
 2020-06-04,TLS,Timor-Leste,4,1,0,1,0,0
 2020-06-04,TLS,Timor-Leste,5,1,0,1,0,0
+2020-06-04,TGO,Togo,-99,1,0,1,0,0
 2020-06-04,TGO,Togo,2,1,0,1,0,0
+2020-06-04,TKL,Tokelau,-99,1,0,1,0,0
 2020-06-04,TON,Tonga,6,1,0,1,0,0
 2020-06-04,TTO,Trinidad and Tobago,2,1,0,1,0,0
-2020-06-04,TUN,Tunisia,-99,1,0,1,0,0
+2020-06-04,TUN,Tunisia,-99,85,1,84,34,5
 2020-06-04,TUN,Tunisia,1,65,0,65,7,2
 2020-06-04,TUN,Tunisia,2,116,2,116,46,4
 2020-06-04,TUN,Tunisia,3,87,0,87,3,1
@@ -922,7 +1003,7 @@ date,ISO3,country,age_E4,count,cli,count_local_com,cli_local_com,anosmia
 2020-06-04,TUN,Tunisia,5,33,0,33,0,0
 2020-06-04,TUN,Tunisia,6,22,0,22,1,0
 2020-06-04,TUN,Tunisia,7,4,0,4,0,0
-2020-06-04,TUR,Turkey,-99,12,0,12,0,0
+2020-06-04,TUR,Turkey,-99,275,3,271,60,2
 2020-06-04,TUR,Turkey,1,276,3,274,30,5
 2020-06-04,TUR,Turkey,2,697,6,697,120,17
 2020-06-04,TUR,Turkey,3,627,1,627,155,13
@@ -930,9 +1011,10 @@ date,ISO3,country,age_E4,count,cli,count_local_com,cli_local_com,anosmia
 2020-06-04,TUR,Turkey,5,237,0,236,4,3
 2020-06-04,TUR,Turkey,6,64,0,64,1,1
 2020-06-04,TUR,Turkey,7,9,0,9,0,0
+2020-06-04,TCA,Turks and Caicos Islands,-99,1,0,1,0,0
 2020-06-04,UGA,Uganda,2,2,0,2,1,0
 2020-06-04,UGA,Uganda,3,1,0,1,0,0
-2020-06-04,UKR,Ukraine,-99,16,0,16,1,0
+2020-06-04,UKR,Ukraine,-99,206,2,196,15,3
 2020-06-04,UKR,Ukraine,1,190,3,190,15,5
 2020-06-04,UKR,Ukraine,2,731,6,731,73,12
 2020-06-04,UKR,Ukraine,3,650,3,650,52,8
@@ -940,7 +1022,7 @@ date,ISO3,country,age_E4,count,cli,count_local_com,cli_local_com,anosmia
 2020-06-04,UKR,Ukraine,5,221,1,221,4,2
 2020-06-04,UKR,Ukraine,6,47,0,47,3,1
 2020-06-04,UKR,Ukraine,7,5,1,5,100,1
-2020-06-04,ARE,United Arab Emirates,-99,2,0,2,0,0
+2020-06-04,ARE,United Arab Emirates,-99,79,1,79,139,2
 2020-06-04,ARE,United Arab Emirates,1,41,1,41,116,1
 2020-06-04,ARE,United Arab Emirates,2,331,3,331,170,8
 2020-06-04,ARE,United Arab Emirates,3,180,4,180,68,1
@@ -948,7 +1030,7 @@ date,ISO3,country,age_E4,count,cli,count_local_com,cli_local_com,anosmia
 2020-06-04,ARE,United Arab Emirates,5,23,0,23,2,0
 2020-06-04,ARE,United Arab Emirates,6,6,1,6,0,1
 2020-06-04,ARE,United Arab Emirates,7,2,0,2,0,0
-2020-06-04,GBR,United Kingdom,-99,12,0,12,0,0
+2020-06-04,GBR,United Kingdom,-99,251,2,239,49,6
 2020-06-04,GBR,United Kingdom,1,398,2,398,43,10
 2020-06-04,GBR,United Kingdom,2,767,4,767,85,8
 2020-06-04,GBR,United Kingdom,3,636,3,636,224,12
@@ -956,7 +1038,7 @@ date,ISO3,country,age_E4,count,cli,count_local_com,cli_local_com,anosmia
 2020-06-04,GBR,United Kingdom,5,465,3,465,42,7
 2020-06-04,GBR,United Kingdom,6,283,0,282,21,8
 2020-06-04,GBR,United Kingdom,7,72,0,72,1,2
-2020-06-04,URY,Uruguay,-99,2,0,2,0,0
+2020-06-04,URY,Uruguay,-99,74,0,72,5,0
 2020-06-04,URY,Uruguay,1,84,0,84,4,0
 2020-06-04,URY,Uruguay,2,150,0,150,7,4
 2020-06-04,URY,Uruguay,3,145,2,145,1,2
@@ -964,7 +1046,7 @@ date,ISO3,country,age_E4,count,cli,count_local_com,cli_local_com,anosmia
 2020-06-04,URY,Uruguay,5,108,0,108,3,2
 2020-06-04,URY,Uruguay,6,61,0,61,0,2
 2020-06-04,URY,Uruguay,7,10,0,10,0,0
-2020-06-04,UZB,Uzbekistan,-99,1,0,1,0,0
+2020-06-04,UZB,Uzbekistan,-99,29,0,28,0,0
 2020-06-04,UZB,Uzbekistan,1,15,0,15,0,0
 2020-06-04,UZB,Uzbekistan,2,59,0,59,2,1
 2020-06-04,UZB,Uzbekistan,3,45,0,45,0,1
@@ -972,7 +1054,8 @@ date,ISO3,country,age_E4,count,cli,count_local_com,cli_local_com,anosmia
 2020-06-04,UZB,Uzbekistan,5,17,0,17,0,1
 2020-06-04,UZB,Uzbekistan,6,2,0,2,0,0
 2020-06-04,UZB,Uzbekistan,7,2,0,2,0,0
-2020-06-04,VEN,Venezuela,-99,2,0,2,0,0
+2020-06-04,VAT,Vatican City,-99,3,1,3,1,0
+2020-06-04,VEN,Venezuela,-99,60,2,60,5,1
 2020-06-04,VEN,Venezuela,1,113,1,113,23,6
 2020-06-04,VEN,Venezuela,2,138,2,138,36,4
 2020-06-04,VEN,Venezuela,3,129,1,129,8,2
@@ -980,7 +1063,7 @@ date,ISO3,country,age_E4,count,cli,count_local_com,cli_local_com,anosmia
 2020-06-04,VEN,Venezuela,5,161,0,161,5,0
 2020-06-04,VEN,Venezuela,6,43,0,43,0,0
 2020-06-04,VEN,Venezuela,7,5,0,5,0,0
-2020-06-04,VNM,Vietnam,-99,2,0,2,0,0
+2020-06-04,VNM,Vietnam,-99,448,8,438,129,11
 2020-06-04,VNM,Vietnam,1,758,10,758,76,6
 2020-06-04,VNM,Vietnam,2,806,6,805,79,6
 2020-06-04,VNM,Vietnam,3,325,3,325,81,0
@@ -988,19 +1071,22 @@ date,ISO3,country,age_E4,count,cli,count_local_com,cli_local_com,anosmia
 2020-06-04,VNM,Vietnam,5,61,0,61,8,1
 2020-06-04,VNM,Vietnam,6,20,0,20,1,0
 2020-06-04,VNM,Vietnam,7,3,1,3,1,2
+2020-06-04,WLF,Wallis and Futuna,-99,2,0,2,0,0
 2020-06-04,ESH,Western Sahara,2,1,0,1,0,0
 2020-06-04,ESH,Western Sahara,3,1,0,1,0,0
 2020-06-04,ESH,Western Sahara,4,1,0,1,0,0
-2020-06-04,YEM,Yemen,-99,2,2,2,6,1
+2020-06-04,YEM,Yemen,-99,22,3,22,38,2
 2020-06-04,YEM,Yemen,1,25,1,24,66,6
 2020-06-04,YEM,Yemen,2,73,4,73,451,14
 2020-06-04,YEM,Yemen,3,49,2,49,222,7
 2020-06-04,YEM,Yemen,4,11,0,11,21,1
 2020-06-04,YEM,Yemen,5,3,0,3,8,1
 2020-06-04,YEM,Yemen,6,1,1,1,19,1
+2020-06-04,ZMB,Zambia,-99,2,1,2,1,1
 2020-06-04,ZMB,Zambia,1,1,1,1,4,1
 2020-06-04,ZMB,Zambia,2,1,0,1,1,1
 2020-06-04,ZMB,Zambia,3,1,0,1,0,0
+2020-06-04,ZWE,Zimbabwe,-99,1,1,1,0,1
 2020-06-04,ZWE,Zimbabwe,1,3,0,3,100,0
 2020-06-04,ZWE,Zimbabwe,2,3,1,3,6,1
 2020-06-04,ZWE,Zimbabwe,3,2,0,2,0,0

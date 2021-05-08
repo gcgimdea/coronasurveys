@@ -1,1047 +1,1168 @@
 date,ISO3,country,region,count,cli,count_local_com,cli_local_com,anosmia
-2021-05-06,AFG,Afghanistan,Badakhshan,7,2,7,114,2
-2021-05-06,AFG,Afghanistan,Badghis,3,1,3,114,1
-2021-05-06,AFG,Afghanistan,Baghlan,1,0,1,0,0
-2021-05-06,AFG,Afghanistan,Balkh,4,0,4,2,0
-2021-05-06,AFG,Afghanistan,Bamyan,1,0,1,0,0
-2021-05-06,AFG,Afghanistan,Daykundi,3,0,3,101,0
-2021-05-06,AFG,Afghanistan,Farah,2,1,2,127,2
-2021-05-06,AFG,Afghanistan,Hirat,6,0,6,2,1
-2021-05-06,AFG,Afghanistan,Kabul,16,1,16,12,0
-2021-05-06,AFG,Afghanistan,Kandahar,2,0,2,0,0
+2021-05-06,AFG,Afghanistan,Badakhshan,36,14,25,326,15
+2021-05-06,AFG,Afghanistan,Badghis,13,5,8,116,6
+2021-05-06,AFG,Afghanistan,Baghlan,5,1,3,102,0
+2021-05-06,AFG,Afghanistan,Balkh,8,2,7,102,2
+2021-05-06,AFG,Afghanistan,Bamyan,3,2,3,102,2
+2021-05-06,AFG,Afghanistan,Daykundi,4,0,4,102,0
+2021-05-06,AFG,Afghanistan,Farah,9,4,7,196,4
+2021-05-06,AFG,Afghanistan,Faryab,1,1,1,100,1
+2021-05-06,AFG,Afghanistan,Ghazni,1,1,1,100,1
+2021-05-06,AFG,Afghanistan,Hirat,8,0,7,3,2
+2021-05-06,AFG,Afghanistan,Kabul,27,1,23,15,1
+2021-05-06,AFG,Afghanistan,Kandahar,3,0,3,0,0
 2021-05-06,AFG,Afghanistan,Kapisa,1,0,1,0,0
 2021-05-06,AFG,Afghanistan,Khost,2,0,2,13,0
-2021-05-06,AFG,Afghanistan,Nangarhar,4,1,4,112,1
+2021-05-06,AFG,Afghanistan,Kunar,1,0,0,0,0
+2021-05-06,AFG,Afghanistan,Kunduz,1,1,0,0,0
+2021-05-06,AFG,Afghanistan,Nangarhar,7,3,7,138,3
 2021-05-06,AFG,Afghanistan,Nimroz,1,1,1,1,1
-2021-05-06,AFG,Afghanistan,Paktya,1,0,1,0,0
+2021-05-06,AFG,Afghanistan,Paktya,2,0,2,1,0
 2021-05-06,AFG,Afghanistan,Panjshir,1,0,1,0,0
 2021-05-06,AFG,Afghanistan,Samangan,1,0,1,0,0
-2021-05-06,AFG,Afghanistan,Sari Pul,1,0,1,1,0
-2021-05-06,ALA,Aland Islands,Brändö,1,0,1,0,0
-2021-05-06,ALA,Aland Islands,Jomala,2,0,2,0,0
+2021-05-06,AFG,Afghanistan,Sari Pul,2,1,2,2,1
+2021-05-06,AFG,Afghanistan,Takhar,2,2,1,0,1
+2021-05-06,AFG,Afghanistan,Uruzgan,1,0,1,0,0
+2021-05-06,ALA,Aland Islands,Brändö,5,3,3,101,3
+2021-05-06,ALA,Aland Islands,Eckerö,1,1,1,0,1
+2021-05-06,ALA,Aland Islands,Finström,1,1,0,0,1
+2021-05-06,ALA,Aland Islands,Geta,1,1,1,100,1
+2021-05-06,ALA,Aland Islands,Hammarland,2,1,1,0,0
+2021-05-06,ALA,Aland Islands,Jomala,4,2,3,1,2
+2021-05-06,ALA,Aland Islands,Kökar,2,1,2,1,1
 2021-05-06,ALA,Aland Islands,Mariehamn,1,0,1,0,0
-2021-05-06,ALB,Albania,Berat,6,1,6,108,1
-2021-05-06,ALB,Albania,Durrës,9,0,9,3,0
-2021-05-06,ALB,Albania,Elbasan,4,1,4,0,1
-2021-05-06,ALB,Albania,Fier,4,0,4,1,0
-2021-05-06,ALB,Albania,Gjirokastër,1,0,1,0,0
-2021-05-06,ALB,Albania,Korçë,1,0,1,100,0
-2021-05-06,ALB,Albania,Shkodër,2,0,2,1,0
-2021-05-06,ALB,Albania,Tiranë,25,0,25,16,0
+2021-05-06,ALA,Aland Islands,Saltvik,1,0,1,0,0
+2021-05-06,ALA,Aland Islands,Sund,1,0,1,2,0
+2021-05-06,ALB,Albania,Berat,10,1,7,108,3
+2021-05-06,ALB,Albania,Dibër,1,1,1,1,1
+2021-05-06,ALB,Albania,Durrës,14,0,12,6,1
+2021-05-06,ALB,Albania,Elbasan,8,1,6,0,1
+2021-05-06,ALB,Albania,Fier,8,1,7,102,1
+2021-05-06,ALB,Albania,Gjirokastër,3,1,3,100,1
+2021-05-06,ALB,Albania,Korçë,5,2,4,202,2
+2021-05-06,ALB,Albania,Shkodër,4,0,4,5,0
+2021-05-06,ALB,Albania,Tiranë,32,0,32,17,0
 2021-05-06,ALB,Albania,Vlorë,1,0,1,0,0
-2021-05-06,DZA,Algeria,Aïn Defla,1,0,1,0,0
-2021-05-06,DZA,Algeria,Adrar,2,0,2,0,0
-2021-05-06,DZA,Algeria,Alger,58,1,58,44,5
-2021-05-06,DZA,Algeria,Annaba,6,0,6,0,0
-2021-05-06,DZA,Algeria,Béchar,2,0,2,0,0
-2021-05-06,DZA,Algeria,Béjaïa,12,1,12,5,1
-2021-05-06,DZA,Algeria,Batna,11,1,11,4,1
-2021-05-06,DZA,Algeria,Biskra,5,0,4,3,0
-2021-05-06,DZA,Algeria,Blida,8,0,8,0,2
-2021-05-06,DZA,Algeria,Bordj Bou Arréridj,1,0,1,0,0
-2021-05-06,DZA,Algeria,Bouira,3,0,3,2,0
-2021-05-06,DZA,Algeria,Chlef,6,0,6,5,0
-2021-05-06,DZA,Algeria,Constantine,11,0,11,4,2
-2021-05-06,DZA,Algeria,Djelfa,9,0,9,2,0
-2021-05-06,DZA,Algeria,El Bayadh,1,0,1,0,0
-2021-05-06,DZA,Algeria,El Oued,1,0,1,1,0
-2021-05-06,DZA,Algeria,El Tarf,3,0,3,0,0
-2021-05-06,DZA,Algeria,Ghardaïa,2,0,2,0,0
-2021-05-06,DZA,Algeria,Guelma,1,0,1,0,0
-2021-05-06,DZA,Algeria,Jijel,4,0,4,103,1
-2021-05-06,DZA,Algeria,Khenchela,2,0,2,1,0
-2021-05-06,DZA,Algeria,Laghouat,3,0,3,2,1
-2021-05-06,DZA,Algeria,M'Sila,4,0,4,0,0
-2021-05-06,DZA,Algeria,Médéa,2,0,2,0,0
-2021-05-06,DZA,Algeria,Mila,1,0,1,2,0
-2021-05-06,DZA,Algeria,Mostaganem,2,0,2,1,0
+2021-05-06,DZA,Algeria,Aïn Defla,3,0,3,0,0
+2021-05-06,DZA,Algeria,Aïn Témouchent,2,1,2,1,1
+2021-05-06,DZA,Algeria,Adrar,4,1,4,0,1
+2021-05-06,DZA,Algeria,Alger,110,5,100,84,11
+2021-05-06,DZA,Algeria,Annaba,10,0,9,0,0
+2021-05-06,DZA,Algeria,Béchar,3,0,2,0,0
+2021-05-06,DZA,Algeria,Béjaïa,25,2,22,44,4
+2021-05-06,DZA,Algeria,Batna,22,4,19,15,2
+2021-05-06,DZA,Algeria,Biskra,6,0,5,6,0
+2021-05-06,DZA,Algeria,Blida,17,0,13,1,2
+2021-05-06,DZA,Algeria,Bordj Bou Arréridj,4,1,4,0,0
+2021-05-06,DZA,Algeria,Bouira,4,0,4,2,0
+2021-05-06,DZA,Algeria,Boumerdès,3,0,3,4,1
+2021-05-06,DZA,Algeria,Chlef,10,0,9,5,0
+2021-05-06,DZA,Algeria,Constantine,16,0,15,5,2
+2021-05-06,DZA,Algeria,Djelfa,14,0,13,2,1
+2021-05-06,DZA,Algeria,El Bayadh,2,0,1,0,0
+2021-05-06,DZA,Algeria,El Oued,3,1,3,1,0
+2021-05-06,DZA,Algeria,El Tarf,4,0,4,0,0
+2021-05-06,DZA,Algeria,Ghardaïa,3,0,3,0,0
+2021-05-06,DZA,Algeria,Guelma,3,0,3,0,0
+2021-05-06,DZA,Algeria,Jijel,6,0,6,103,1
+2021-05-06,DZA,Algeria,Khenchela,3,0,3,1,0
+2021-05-06,DZA,Algeria,Laghouat,9,0,7,6,1
+2021-05-06,DZA,Algeria,M'Sila,8,0,8,1,0
+2021-05-06,DZA,Algeria,Médéa,4,0,4,1,0
+2021-05-06,DZA,Algeria,Mascara,5,0,4,12,1
+2021-05-06,DZA,Algeria,Mila,2,0,1,2,0
+2021-05-06,DZA,Algeria,Mostaganem,5,0,4,6,0
 2021-05-06,DZA,Algeria,Naâma,2,0,2,0,0
-2021-05-06,DZA,Algeria,Oran,15,0,15,3,1
-2021-05-06,DZA,Algeria,Ouargla,10,0,10,9,2
-2021-05-06,DZA,Algeria,Oum el Bouaghi,5,0,5,0,0
-2021-05-06,DZA,Algeria,Sétif,9,0,9,10,0
-2021-05-06,DZA,Algeria,Sidi Bel Abbès,3,0,3,0,0
-2021-05-06,DZA,Algeria,Skikda,2,0,2,2,0
-2021-05-06,DZA,Algeria,Souk Ahras,1,0,1,0,0
+2021-05-06,DZA,Algeria,Oran,31,1,28,11,2
+2021-05-06,DZA,Algeria,Ouargla,12,0,12,15,2
+2021-05-06,DZA,Algeria,Oum el Bouaghi,8,0,6,0,0
+2021-05-06,DZA,Algeria,Relizane,3,0,3,4,0
+2021-05-06,DZA,Algeria,Sétif,12,0,12,11,1
+2021-05-06,DZA,Algeria,Sidi Bel Abbès,4,1,3,0,1
+2021-05-06,DZA,Algeria,Skikda,5,0,4,2,0
+2021-05-06,DZA,Algeria,Souk Ahras,3,0,3,1,0
 2021-05-06,DZA,Algeria,Tébessa,4,0,4,2,0
-2021-05-06,DZA,Algeria,Tiaret,5,1,5,7,0
-2021-05-06,DZA,Algeria,Tindouf,2,0,2,0,0
+2021-05-06,DZA,Algeria,Tamanghasset,1,0,0,0,0
+2021-05-06,DZA,Algeria,Tiaret,6,2,6,7,0
+2021-05-06,DZA,Algeria,Tindouf,3,0,3,0,0
 2021-05-06,DZA,Algeria,Tipaza,2,0,2,0,0
-2021-05-06,DZA,Algeria,Tizi Ouzou,12,0,11,11,0
-2021-05-06,DZA,Algeria,Tlemcen,2,0,2,0,0
-2021-05-06,ASM,American Samoa,Eastern,2,0,2,0,0
-2021-05-06,ASM,American Samoa,Manu'a,2,1,2,80,1
-2021-05-06,ASM,American Samoa,Unorganized,1,1,1,18,1
-2021-05-06,AND,Andorra,Andorra la Vella,3,0,3,2,0
-2021-05-06,AND,Andorra,La Massana,1,0,1,0,0
+2021-05-06,DZA,Algeria,Tizi Ouzou,19,0,15,14,0
+2021-05-06,DZA,Algeria,Tlemcen,7,0,6,1,0
+2021-05-06,ASM,American Samoa,Eastern,5,1,4,100,1
+2021-05-06,ASM,American Samoa,Manu'a,5,4,5,92,4
+2021-05-06,ASM,American Samoa,Unorganized,2,2,2,19,2
+2021-05-06,ASM,American Samoa,Western,3,1,3,0,2
+2021-05-06,AND,Andorra,Andorra la Vella,9,2,6,12,3
+2021-05-06,AND,Andorra,Canillo,1,0,1,1,0
+2021-05-06,AND,Andorra,La Massana,4,2,4,19,2
+2021-05-06,AND,Andorra,Ordino,1,0,1,1,0
 2021-05-06,AGO,Angola,Bengo,1,1,1,7,1
-2021-05-06,AGO,Angola,Benguela,5,1,5,101,2
-2021-05-06,AGO,Angola,Cabinda,3,0,3,0,0
-2021-05-06,AGO,Angola,Cuanza Norte,2,0,2,0,0
-2021-05-06,AGO,Angola,Cuanza Sul,5,2,5,2,1
-2021-05-06,AGO,Angola,Huíla,1,0,1,0,0
-2021-05-06,AGO,Angola,Huambo,3,1,3,100,1
-2021-05-06,AGO,Angola,Luanda,25,0,25,7,2
-2021-05-06,AGO,Angola,Lunda Norte,1,0,1,0,0
-2021-05-06,AIA,Anguilla,Anguilla,2,1,2,113,1
-2021-05-06,ARG,Argentina,Buenos Aires,644,6,644,663,17
-2021-05-06,ARG,Argentina,Córdoba,208,4,206,187,4
-2021-05-06,ARG,Argentina,Catamarca,24,1,23,21,1
-2021-05-06,ARG,Argentina,Chaco,52,2,51,21,2
-2021-05-06,ARG,Argentina,Chubut,32,1,32,19,1
-2021-05-06,ARG,Argentina,Ciudad Autónoma de Buenos Aires,274,2,274,309,5
-2021-05-06,ARG,Argentina,Corrientes,45,0,45,29,2
-2021-05-06,ARG,Argentina,Entre Ríos,62,0,62,116,2
-2021-05-06,ARG,Argentina,Formosa,27,1,27,24,3
-2021-05-06,ARG,Argentina,Jujuy,28,0,28,6,1
-2021-05-06,ARG,Argentina,La Pampa,23,2,23,11,1
-2021-05-06,ARG,Argentina,La Rioja,19,0,19,19,0
-2021-05-06,ARG,Argentina,Mendoza,105,2,105,68,7
-2021-05-06,ARG,Argentina,Misiones,51,2,51,62,2
-2021-05-06,ARG,Argentina,Neuquén,41,1,41,38,0
-2021-05-06,ARG,Argentina,Río Negro,41,0,41,59,1
-2021-05-06,ARG,Argentina,Salta,53,3,53,31,3
-2021-05-06,ARG,Argentina,San Juan,32,1,32,51,3
-2021-05-06,ARG,Argentina,San Luis,39,1,39,72,0
-2021-05-06,ARG,Argentina,Santa Cruz,28,1,28,6,2
-2021-05-06,ARG,Argentina,Santa Fe,203,3,201,218.3,8
-2021-05-06,ARG,Argentina,Santiago del Estero,28,0,28,108,1
-2021-05-06,ARG,Argentina,Tierra del Fuego,13,0,13,18,0
-2021-05-06,ARG,Argentina,Tucumán,75,0,75,69,1
-2021-05-06,ARM,Armenia,Erevan,10,0,10,6,0
+2021-05-06,AGO,Angola,Benguela,6,1,6,101,2
+2021-05-06,AGO,Angola,Cabinda,4,0,4,0,0
+2021-05-06,AGO,Angola,Cuanza Norte,3,0,3,0,0
+2021-05-06,AGO,Angola,Cuanza Sul,6,2,6,2,1
+2021-05-06,AGO,Angola,Cunene,2,0,2,1,0
+2021-05-06,AGO,Angola,Huíla,3,1,2,0,1
+2021-05-06,AGO,Angola,Huambo,6,2,6,101,2
+2021-05-06,AGO,Angola,Luanda,38,1,34,8,2
+2021-05-06,AGO,Angola,Lunda Norte,2,0,2,1,0
+2021-05-06,AGO,Angola,Namibe,1,0,0,0,0
+2021-05-06,AIA,Anguilla,Anguilla,6,2,5,149,2
+2021-05-06,ATG,Antigua,Saint Paul,1,0,1,0,0
+2021-05-06,ATG,Antigua,Saint Peter,2,2,1,100,1
+2021-05-06,ATG,Antigua,Saint Philip,1,0,1,0,0
+2021-05-06,ARG,Argentina,Buenos Aires,890,14,848,862,29
+2021-05-06,ARG,Argentina,Córdoba,271,6,258,207,9
+2021-05-06,ARG,Argentina,Catamarca,31,1,29,22,1
+2021-05-06,ARG,Argentina,Chaco,77,2,71,33,3
+2021-05-06,ARG,Argentina,Chubut,45,1,42,22,2
+2021-05-06,ARG,Argentina,Ciudad Autónoma de Buenos Aires,350,4,335,345,9
+2021-05-06,ARG,Argentina,Corrientes,65,1,64,31,2
+2021-05-06,ARG,Argentina,Entre Ríos,95,1,88,242,5
+2021-05-06,ARG,Argentina,Formosa,43,2,41,39,5
+2021-05-06,ARG,Argentina,Jujuy,36,0,34,8,1
+2021-05-06,ARG,Argentina,La Pampa,34,2,33,14,2
+2021-05-06,ARG,Argentina,La Rioja,25,0,23,19,0
+2021-05-06,ARG,Argentina,Mendoza,167,5,150,111,10
+2021-05-06,ARG,Argentina,Misiones,71,3,68,91,4
+2021-05-06,ARG,Argentina,Neuquén,57,1,56,43,1
+2021-05-06,ARG,Argentina,Río Negro,57,0,56,69,2
+2021-05-06,ARG,Argentina,Salta,77,4,72,38,4
+2021-05-06,ARG,Argentina,San Juan,45,1,44,56,3
+2021-05-06,ARG,Argentina,San Luis,51,2,50,76,1
+2021-05-06,ARG,Argentina,Santa Cruz,36,1,32,6,2
+2021-05-06,ARG,Argentina,Santa Fe,285,4,272,298.3,11
+2021-05-06,ARG,Argentina,Santiago del Estero,41,1,39,113,3
+2021-05-06,ARG,Argentina,Tierra del Fuego,20,0,19,18,0
+2021-05-06,ARG,Argentina,Tucumán,99,0,96,81,2
+2021-05-06,ARM,Armenia,Aragatsotn,3,0,1,0,0
+2021-05-06,ARM,Armenia,Ararat,1,0,0,0,0
+2021-05-06,ARM,Armenia,Erevan,14,0,14,7,0
+2021-05-06,ARM,Armenia,Gegharkunik,1,0,1,1,0
 2021-05-06,ARM,Armenia,Kotayk,1,0,1,0,0
-2021-05-06,ARM,Armenia,Lori,2,0,2,1,0
-2021-05-06,ARM,Armenia,Shirak,1,0,1,0,0
+2021-05-06,ARM,Armenia,Lori,4,0,3,1,0
+2021-05-06,ARM,Armenia,Shirak,4,1,2,0,1
 2021-05-06,ARM,Armenia,Syunik,1,0,1,0,0
-2021-05-06,AUS,Australia,Australian Capital Territory,33,0,32,7,1
-2021-05-06,AUS,Australia,Cocos (Keeling) Islands,2,2,2,200,2
-2021-05-06,AUS,Australia,New South Wales,244,1,242,39,4
-2021-05-06,AUS,Australia,Northern Territory,6,0,6,0,1
-2021-05-06,AUS,Australia,Queensland,195,3,195,17,3
-2021-05-06,AUS,Australia,South Australia,92,1,92,16,4
-2021-05-06,AUS,Australia,Tasmania,24,1,24,5,2
-2021-05-06,AUS,Australia,Victoria,203,1,203,97,4
-2021-05-06,AUS,Australia,Western Australia,145,4,145,22,4
-2021-05-06,AUT,Austria,Burgenland,25,0,25,5,0
-2021-05-06,AUT,Austria,Kärnten,47,0,47,6,1
-2021-05-06,AUT,Austria,Niederösterreich,110,0,110,24,4
-2021-05-06,AUT,Austria,Oberösterreich,79,0,79,14,2
-2021-05-06,AUT,Austria,Salzburg,36,0,36,5,0
-2021-05-06,AUT,Austria,Steiermark,89,0,89,112,0
-2021-05-06,AUT,Austria,Tirol,33,1,33,114,1
-2021-05-06,AUT,Austria,Vorarlberg,35,0,35,7,0
-2021-05-06,AUT,Austria,Wien,137,2,137,24,3
-2021-05-06,AZE,Azerbaijan,Absheron,2,0,2,0,0
-2021-05-06,AZE,Azerbaijan,Baku,34,1,34,12,0
+2021-05-06,ARM,Armenia,Tavush,2,0,1,0,0
+2021-05-06,AUS,Australia,Ashmore and Cartier Islands,1,0,1,1,1
+2021-05-06,AUS,Australia,Australian Antarctic Territory,1,0,0,0,0
+2021-05-06,AUS,Australia,Australian Capital Territory,42,0,38,7,1
+2021-05-06,AUS,Australia,Christmas Island,1,0,1,0,0
+2021-05-06,AUS,Australia,Cocos (Keeling) Islands,4,2,3,200,2
+2021-05-06,AUS,Australia,Jervis Bay Territory,1,1,1,1,1
+2021-05-06,AUS,Australia,New South Wales,320,3,307,151,6
+2021-05-06,AUS,Australia,Northern Territory,11,0,9,0,1
+2021-05-06,AUS,Australia,Queensland,241,3,236,23,3
+2021-05-06,AUS,Australia,South Australia,113,1,109,23,6
+2021-05-06,AUS,Australia,Tasmania,32,1,32,5,3
+2021-05-06,AUS,Australia,Victoria,268,3,258,218,5
+2021-05-06,AUS,Australia,Western Australia,186,5,182,23,4
+2021-05-06,AUT,Austria,Burgenland,29,0,29,8,0
+2021-05-06,AUT,Austria,Kärnten,58,0,56,6,2
+2021-05-06,AUT,Austria,Niederösterreich,130,2,127,32,4
+2021-05-06,AUT,Austria,Oberösterreich,92,0,88,16,3
+2021-05-06,AUT,Austria,Salzburg,41,0,41,6,0
+2021-05-06,AUT,Austria,Steiermark,106,0,103,112,0
+2021-05-06,AUT,Austria,Tirol,40,1,38,119,1
+2021-05-06,AUT,Austria,Vorarlberg,38,0,38,7,0
+2021-05-06,AUT,Austria,Wien,152,2,149,25,3
+2021-05-06,AZE,Azerbaijan,Absheron,5,0,3,3,0
+2021-05-06,AZE,Azerbaijan,Agdash,1,0,1,0,0
+2021-05-06,AZE,Azerbaijan,Astara,1,0,0,0,0
+2021-05-06,AZE,Azerbaijan,Baku,53,2,51,41,0
 2021-05-06,AZE,Azerbaijan,Balaken,1,0,1,2,0
 2021-05-06,AZE,Azerbaijan,Barda,1,0,1,2,0
 2021-05-06,AZE,Azerbaijan,Bilasuvar,2,0,2,14,1
-2021-05-06,AZE,Azerbaijan,Ganja,2,0,2,0,0
+2021-05-06,AZE,Azerbaijan,Gabala,1,1,0,0,1
+2021-05-06,AZE,Azerbaijan,Ganja,3,0,3,0,0
 2021-05-06,AZE,Azerbaijan,Goranboy,1,0,1,1,0
 2021-05-06,AZE,Azerbaijan,Goychay,1,0,1,0,0
-2021-05-06,AZE,Azerbaijan,Mingechevir,1,1,1,1,1
+2021-05-06,AZE,Azerbaijan,Mingechevir,2,1,2,2,1
 2021-05-06,AZE,Azerbaijan,Nakhchivan,1,0,1,0,0
 2021-05-06,AZE,Azerbaijan,Shirvan,1,0,1,0,0
+2021-05-06,AZE,Azerbaijan,Sumgayit,1,0,0,0,0
 2021-05-06,AZE,Azerbaijan,Tovuz,1,0,1,0,0
 2021-05-06,AZE,Azerbaijan,Zagatala,1,0,1,0,0
 2021-05-06,BHS,Bahamas,Central Andros,1,0,1,0,0
-2021-05-06,BHR,Bahrain,Capital,1,0,1,0,0
+2021-05-06,BHS,Bahamas,Rum Cay,1,0,1,0,0
+2021-05-06,BHR,Bahrain,Capital,2,1,1,0,1
 2021-05-06,BHR,Bahrain,Central,1,1,1,2,1
-2021-05-06,BGD,Bangladesh,Barisal,14,0,14,8,1
-2021-05-06,BGD,Bangladesh,Chittagong,94,2,94,68,4
-2021-05-06,BGD,Bangladesh,Dhaka,160,5,160,314,8
-2021-05-06,BGD,Bangladesh,Khulna,35,2,35,34,3
-2021-05-06,BGD,Bangladesh,Mymensingh,13,2,13,5,3
-2021-05-06,BGD,Bangladesh,Rajasahi,39,6,38,131,7
-2021-05-06,BGD,Bangladesh,Rangur,21,1,21,13,1
-2021-05-06,BGD,Bangladesh,Sylhet,19,2,18,4,2
-2021-05-06,BLR,Belarus,Brest,9,1,9,36,1
-2021-05-06,BLR,Belarus,Homyel',12,2,12,18,0
-2021-05-06,BLR,Belarus,Hrodna,9,0,9,0,0
-2021-05-06,BLR,Belarus,Mahilyow,6,0,6,0,0
-2021-05-06,BLR,Belarus,Minsk,83,2,82,72,8
-2021-05-06,BLR,Belarus,Vitsyebsk,10,0,10,1,0
-2021-05-06,BEL,Belgium,Bruxelles,95,0,95,12,3
-2021-05-06,BEL,Belgium,Vlaanderen,186,0,186,43,4
-2021-05-06,BEL,Belgium,Wallonie,265,2,265,134,8
-2021-05-06,BLZ,Belize,Belize,2,0,2,1,1
-2021-05-06,BEN,Benin,Atlantique,3,0,3,0,0
+2021-05-06,BHR,Bahrain,Muharraq,1,0,1,0,0
+2021-05-06,BHR,Bahrain,Southern,1,0,1,100,1
+2021-05-06,BGD,Bangladesh,Barisal,22,0,21,8,1
+2021-05-06,BGD,Bangladesh,Chittagong,168,11,147,317,20
+2021-05-06,BGD,Bangladesh,Dhaka,258,12,235,401,14
+2021-05-06,BGD,Bangladesh,Khulna,67,6,59,123,11
+2021-05-06,BGD,Bangladesh,Mymensingh,21,3,19,7,5
+2021-05-06,BGD,Bangladesh,Rajasahi,68,9,62,140,12
+2021-05-06,BGD,Bangladesh,Rangur,44,5,35,35,6
+2021-05-06,BGD,Bangladesh,Sylhet,40,5,36,316,5
+2021-05-06,BRB,Barbados,Saint Lucy,1,1,1,10,1
+2021-05-06,BLR,Belarus,Brest,12,2,12,37,1
+2021-05-06,BLR,Belarus,Homyel',16,2,14,19,0
+2021-05-06,BLR,Belarus,Hrodna,10,0,10,0,0
+2021-05-06,BLR,Belarus,Mahilyow,8,0,7,0,0
+2021-05-06,BLR,Belarus,Minsk,97,2,91,72,9
+2021-05-06,BLR,Belarus,Vitsyebsk,13,0,13,1,0
+2021-05-06,BEL,Belgium,Bruxelles,111,0,107,12,4
+2021-05-06,BEL,Belgium,Vlaanderen,219,0,212,60,4
+2021-05-06,BEL,Belgium,Wallonie,352,5,320,143,11
+2021-05-06,BLZ,Belize,Belize,5,0,5,1,1
+2021-05-06,BEN,Benin,Atlantique,5,1,3,0,0
+2021-05-06,BEN,Benin,Borgou,2,0,1,0,0
 2021-05-06,BEN,Benin,Collines,2,0,2,0,0
-2021-05-06,BEN,Benin,Littoral,3,0,3,0,0
-2021-05-06,BEN,Benin,Ouémé,1,0,1,0,0
-2021-05-06,BOL,Bolivia,Chuquisaca,21,1,21,23,2
-2021-05-06,BOL,Bolivia,Cochabamba,63,7,63,58,2
-2021-05-06,BOL,Bolivia,El Beni,12,1,12,10,2
-2021-05-06,BOL,Bolivia,La Paz,90,3,89,52,5
-2021-05-06,BOL,Bolivia,Oruro,13,0,13,14,0
-2021-05-06,BOL,Bolivia,Potosí,5,0,5,2,1
-2021-05-06,BOL,Bolivia,Santa Cruz,79,4,79,68,2
-2021-05-06,BOL,Bolivia,Tarija,22,1,22,8,1
+2021-05-06,BEN,Benin,Donga,1,0,1,0,0
+2021-05-06,BEN,Benin,Kouffo,1,0,1,0,0
+2021-05-06,BEN,Benin,Littoral,5,0,4,0,0
+2021-05-06,BEN,Benin,Ouémé,2,0,2,0,0
+2021-05-06,BTN,Bhutan,Haa,1,0,0,0,0
+2021-05-06,BTN,Bhutan,Thimphu,1,0,1,0,0
+2021-05-06,BOL,Bolivia,Chuquisaca,25,1,22,23,3
+2021-05-06,BOL,Bolivia,Cochabamba,94,9,91,79,6
+2021-05-06,BOL,Bolivia,El Beni,20,2,16,30,2
+2021-05-06,BOL,Bolivia,La Paz,128,7,124,160,7
+2021-05-06,BOL,Bolivia,Oruro,21,2,20,21,2
+2021-05-06,BOL,Bolivia,Pando,2,0,1,1,0
+2021-05-06,BOL,Bolivia,Potosí,10,0,8,2,1
+2021-05-06,BOL,Bolivia,Santa Cruz,117,8,103,85,4
+2021-05-06,BOL,Bolivia,Tarija,29,1,27,8,2
 2021-05-06,BES,"Bonaire, Sint Eustatius and Saba",Bonaire,1,0,1,0,0
+2021-05-06,BES,"Bonaire, Sint Eustatius and Saba",Saba,1,1,1,1,1
 2021-05-06,BIH,Bosnia and Herzegovina,Brčko,2,0,2,0,0
-2021-05-06,BIH,Bosnia and Herzegovina,Federacija Bosna i Hercegovina,46,2,46,135,2
-2021-05-06,BIH,Bosnia and Herzegovina,Repuplika Srpska,24,1,24,15,1
-2021-05-06,BRA,Brazil,Acre,24,1,24,22,1
-2021-05-06,BRA,Brazil,Alagoas,64,3,64,75,5
-2021-05-06,BRA,Brazil,Amapá,34,1,34,7,0
-2021-05-06,BRA,Brazil,Amazonas,106,1,105,46,4
-2021-05-06,BRA,Brazil,Bahia,265,6,264,218,8
-2021-05-06,BRA,Brazil,Ceará,250,6,249,361,15
-2021-05-06,BRA,Brazil,Distrito Federal,274,4,274,192,8
-2021-05-06,BRA,Brazil,Espírito Santo,176,3,176,165,4
-2021-05-06,BRA,Brazil,Goiás,280,3,278,238,10
-2021-05-06,BRA,Brazil,Maranhão,115,6,115,77,6
-2021-05-06,BRA,Brazil,Mato Grosso,158,2,155,103,4
-2021-05-06,BRA,Brazil,Mato Grosso do Sul,167,5,166,132,11
-2021-05-06,BRA,Brazil,Minas Gerais,697,12,694,694,23
-2021-05-06,BRA,Brazil,Pará,180,6,179,176,6
-2021-05-06,BRA,Brazil,Paraíba,110,2,109,108,8
-2021-05-06,BRA,Brazil,Paraná,540,4,536,399,13
-2021-05-06,BRA,Brazil,Pernambuco,227,5,225,332,8
-2021-05-06,BRA,Brazil,Piauí,68,5,68,56,2
-2021-05-06,BRA,Brazil,Rio Grande do Norte,153,4,153,168,4
-2021-05-06,BRA,Brazil,Rio Grande do Sul,603,4,603,464,12
-2021-05-06,BRA,Brazil,Rio de Janeiro,726,7,723,830,27
-2021-05-06,BRA,Brazil,Rondônia,45,2,45,115,3
-2021-05-06,BRA,Brazil,Roraima,20,0,20,7,2
-2021-05-06,BRA,Brazil,São Paulo,2580,40,2577,2225,87
-2021-05-06,BRA,Brazil,Santa Catarina,316,9,316,264,10
-2021-05-06,BRA,Brazil,Sergipe,73,5,71,44,4
-2021-05-06,BRA,Brazil,Tocantins,36,0,36,20,2
+2021-05-06,BIH,Bosnia and Herzegovina,Federacija Bosna i Hercegovina,62,3,62,141,4
+2021-05-06,BIH,Bosnia and Herzegovina,Repuplika Srpska,35,2,32,22,2
+2021-05-06,BRA,Brazil,Acre,31,1,29,23,2
+2021-05-06,BRA,Brazil,Alagoas,92,3,88,91,8
+2021-05-06,BRA,Brazil,Amapá,41,1,41,15,0
+2021-05-06,BRA,Brazil,Amazonas,168,4,159,121,9
+2021-05-06,BRA,Brazil,Bahia,412,14,384,310,15
+2021-05-06,BRA,Brazil,Ceará,357,8,338,474,28
+2021-05-06,BRA,Brazil,Distrito Federal,371,6,350,288,12
+2021-05-06,BRA,Brazil,Espírito Santo,266,6,252,229,9
+2021-05-06,BRA,Brazil,Goiás,392,7,374,280,18
+2021-05-06,BRA,Brazil,Maranhão,179,9,165,96,13
+2021-05-06,BRA,Brazil,Mato Grosso,225,4,203,183,4
+2021-05-06,BRA,Brazil,Mato Grosso do Sul,248,8,232,278,18
+2021-05-06,BRA,Brazil,Minas Gerais,1022,20,966,1030,41
+2021-05-06,BRA,Brazil,Pará,257,7,241,254,8
+2021-05-06,BRA,Brazil,Paraíba,167,5,157,154,10
+2021-05-06,BRA,Brazil,Paraná,781,8,731,619,19
+2021-05-06,BRA,Brazil,Pernambuco,359,13,342,474,16
+2021-05-06,BRA,Brazil,Piauí,100,6,98,66,5
+2021-05-06,BRA,Brazil,Rio Grande do Norte,214,5,204,305,9
+2021-05-06,BRA,Brazil,Rio Grande do Sul,822,8,785,588,26
+2021-05-06,BRA,Brazil,Rio de Janeiro,1079,18,1006,1080,44
+2021-05-06,BRA,Brazil,Rondônia,86,3,76,142,9
+2021-05-06,BRA,Brazil,Roraima,30,0,26,9,5
+2021-05-06,BRA,Brazil,São Paulo,3566,60,3409,2818,141
+2021-05-06,BRA,Brazil,Santa Catarina,458,13,434,349,17
+2021-05-06,BRA,Brazil,Sergipe,106,8,94,70.2,8
+2021-05-06,BRA,Brazil,Tocantins,52,1,51,39,2
 2021-05-06,VGB,British Virgin Islands,Jost Van Dyke,1,0,1,0,1
-2021-05-06,BRN,Brunei,Brunei and Muara,1,0,1,0,0
-2021-05-06,BGR,Bulgaria,Blagoevgrad,8,0,8,0,0
-2021-05-06,BGR,Bulgaria,Burgas,17,0,17,3,0
-2021-05-06,BGR,Bulgaria,Dobrich,11,0,10,2,1
-2021-05-06,BGR,Bulgaria,Gabrovo,7,0,7,0,0
-2021-05-06,BGR,Bulgaria,Grad Sofiya,16,0,15,1,1
-2021-05-06,BGR,Bulgaria,Haskovo,3,0,3,1,0
+2021-05-06,VGB,British Virgin Islands,Other Islands,1,0,1,0,0
+2021-05-06,BRN,Brunei,Brunei and Muara,2,0,1,0,0
+2021-05-06,BGR,Bulgaria,Blagoevgrad,12,0,11,1,1
+2021-05-06,BGR,Bulgaria,Burgas,22,0,22,4,0
+2021-05-06,BGR,Bulgaria,Dobrich,15,0,13,2,1
+2021-05-06,BGR,Bulgaria,Gabrovo,8,0,8,0,0
+2021-05-06,BGR,Bulgaria,Grad Sofiya,18,0,17,2,1
+2021-05-06,BGR,Bulgaria,Haskovo,5,0,4,2,0
 2021-05-06,BGR,Bulgaria,Kardzhali,5,0,5,1,0
-2021-05-06,BGR,Bulgaria,Kyustendil,2,0,2,0,0
+2021-05-06,BGR,Bulgaria,Kyustendil,3,0,3,0,0
 2021-05-06,BGR,Bulgaria,Lovech,7,1,7,2,1
-2021-05-06,BGR,Bulgaria,Montana,3,0,3,0,0
-2021-05-06,BGR,Bulgaria,Pazardzhik,4,0,4,0,0
+2021-05-06,BGR,Bulgaria,Montana,7,0,6,0,0
+2021-05-06,BGR,Bulgaria,Pazardzhik,7,0,6,0,0
 2021-05-06,BGR,Bulgaria,Pernik,10,0,10,5,0
-2021-05-06,BGR,Bulgaria,Pleven,13,0,13,6,0
-2021-05-06,BGR,Bulgaria,Plovdiv,26,0,26,19,1
-2021-05-06,BGR,Bulgaria,Razgrad,2,0,2,5,0
+2021-05-06,BGR,Bulgaria,Pleven,14,0,14,6,0
+2021-05-06,BGR,Bulgaria,Plovdiv,35,0,34,19,1
+2021-05-06,BGR,Bulgaria,Razgrad,4,0,3,5,0
 2021-05-06,BGR,Bulgaria,Ruse,9,1,9,101,1
 2021-05-06,BGR,Bulgaria,Shumen,6,0,6,0,0
-2021-05-06,BGR,Bulgaria,Silistra,4,0,4,17,0
-2021-05-06,BGR,Bulgaria,Sliven,3,0,3,0,0
+2021-05-06,BGR,Bulgaria,Silistra,5,0,4,17,0
+2021-05-06,BGR,Bulgaria,Sliven,4,0,4,0,0
 2021-05-06,BGR,Bulgaria,Smolyan,6,0,6,0,0
-2021-05-06,BGR,Bulgaria,Sofia,84,2,84,18,3
-2021-05-06,BGR,Bulgaria,Stara Zagora,12,0,12,2,1
-2021-05-06,BGR,Bulgaria,Targovishte,4,0,4,8,0
-2021-05-06,BGR,Bulgaria,Varna,22,0,22,6,0
+2021-05-06,BGR,Bulgaria,Sofia,110,3,105,29,5
+2021-05-06,BGR,Bulgaria,Stara Zagora,15,0,14,2,1
+2021-05-06,BGR,Bulgaria,Targovishte,5,0,4,8,1
+2021-05-06,BGR,Bulgaria,Varna,27,0,25,6,1
 2021-05-06,BGR,Bulgaria,Veliko Tarnovo,5,0,5,0,0
 2021-05-06,BGR,Bulgaria,Vidin,3,0,3,0,0
-2021-05-06,BGR,Bulgaria,Vratsa,3,0,3,0,0
+2021-05-06,BGR,Bulgaria,Vratsa,4,0,4,0,0
 2021-05-06,BGR,Bulgaria,Yambol,2,0,2,0,0
-2021-05-06,BFA,Burkina Faso,Boucle du Mouhoun,1,0,1,0,0
-2021-05-06,BFA,Burkina Faso,Centre,4,0,4,0,0
+2021-05-06,BFA,Burkina Faso,Boucle du Mouhoun,2,0,2,0,0
+2021-05-06,BFA,Burkina Faso,Centre,9,0,7,0,0
+2021-05-06,BFA,Burkina Faso,Centre-Est,1,0,1,0,0
+2021-05-06,BFA,Burkina Faso,Centre-Nord,2,0,2,0,0
 2021-05-06,BFA,Burkina Faso,Centre-Sud,1,0,1,0,0
-2021-05-06,BFA,Burkina Faso,Est,1,0,1,0,0
-2021-05-06,BFA,Burkina Faso,Haut-Bassins,2,0,2,0,0
+2021-05-06,BFA,Burkina Faso,Est,2,0,2,0,0
+2021-05-06,BFA,Burkina Faso,Haut-Bassins,4,1,3,0,1
 2021-05-06,BFA,Burkina Faso,Nord,2,0,2,0,0
 2021-05-06,BDI,Burundi,Cibitoke,1,0,1,0,0
-2021-05-06,CIV,Côte d'Ivoire,Autonome d'Abidjan,24,0,23,1,1
-2021-05-06,CIV,Côte d'Ivoire,Bas-Sassandra,3,0,3,0,0
-2021-05-06,CIV,Côte d'Ivoire,Comoé,3,0,3,0,0
-2021-05-06,CIV,Côte d'Ivoire,Lacs,1,0,1,0,0
-2021-05-06,CIV,Côte d'Ivoire,Lagunes,6,0,6,0,0
-2021-05-06,CIV,Côte d'Ivoire,Montagnes,3,0,3,0,0
-2021-05-06,CIV,Côte d'Ivoire,Sassandra-Marahoué,3,0,3,0,0
+2021-05-06,BDI,Burundi,Muramvya,1,0,0,0,0
+2021-05-06,CIV,Côte d'Ivoire,Autonome d'Abidjan,48,0,43,1,2
+2021-05-06,CIV,Côte d'Ivoire,Autonome de Yamoussoukro,1,0,1,0,0
+2021-05-06,CIV,Côte d'Ivoire,Bas-Sassandra,5,0,5,100,0
+2021-05-06,CIV,Côte d'Ivoire,Comoé,7,0,6,0,0
+2021-05-06,CIV,Côte d'Ivoire,Denguélé,2,1,2,15,0
+2021-05-06,CIV,Côte d'Ivoire,Gôh-Djiboua,1,0,1,0,0
+2021-05-06,CIV,Côte d'Ivoire,Lacs,2,0,2,0,0
+2021-05-06,CIV,Côte d'Ivoire,Lagunes,12,0,10,0,1
+2021-05-06,CIV,Côte d'Ivoire,Montagnes,8,0,7,0,0
+2021-05-06,CIV,Côte d'Ivoire,Sassandra-Marahoué,4,0,3,0,0
 2021-05-06,CIV,Côte d'Ivoire,Vallée du Bandama,1,0,1,0,0
 2021-05-06,CIV,Côte d'Ivoire,Zanzan,1,0,1,0,0
-2021-05-06,KHM,Cambodia,Bântéay Méanchey,1,0,1,0,0
-2021-05-06,KHM,Cambodia,Batdâmbâng,1,0,1,0,0
-2021-05-06,KHM,Cambodia,Kâmpóng Cham,1,0,1,0,0
+2021-05-06,KHM,Cambodia,Bântéay Méanchey,3,0,3,0,0
+2021-05-06,KHM,Cambodia,Batdâmbâng,2,0,1,0,0
+2021-05-06,KHM,Cambodia,Kâmpóng Cham,5,0,5,2,0
+2021-05-06,KHM,Cambodia,Kâmpóng Spœ,1,0,1,0,0
+2021-05-06,KHM,Cambodia,Kâmpóng Thum,1,1,0,0,1
 2021-05-06,KHM,Cambodia,Kâmpôt,1,0,1,2,0
-2021-05-06,KHM,Cambodia,Kândal,2,1,2,5,1
+2021-05-06,KHM,Cambodia,Kândal,6,1,4,6,2
 2021-05-06,KHM,Cambodia,Krâchéh,1,0,1,1,0
 2021-05-06,KHM,Cambodia,Krong Pailin,1,0,1,0,0
 2021-05-06,KHM,Cambodia,Krong Preah Sihanouk,2,0,2,0,0
-2021-05-06,KHM,Cambodia,Phnom Penh,35,0,35,6,0
-2021-05-06,KHM,Cambodia,Pouthisat,1,0,1,0,0
-2021-05-06,KHM,Cambodia,Siemréab,3,0,3,0,0
+2021-05-06,KHM,Cambodia,Phnom Penh,49,2,46,10,1
+2021-05-06,KHM,Cambodia,Pouthisat,2,1,2,1,1
+2021-05-06,KHM,Cambodia,Siemréab,6,0,6,0,0
 2021-05-06,KHM,Cambodia,Takêv,2,0,2,0,0
-2021-05-06,CMR,Cameroon,Adamaoua,1,0,1,0,0
-2021-05-06,CMR,Cameroon,Centre,12,1,12,9,1
-2021-05-06,CMR,Cameroon,Extrême-Nord,2,0,1,0,1
-2021-05-06,CMR,Cameroon,Littoral,9,0,9,5,1
+2021-05-06,CMR,Cameroon,Adamaoua,2,0,2,0,0
+2021-05-06,CMR,Cameroon,Centre,28,3,26,13,2
+2021-05-06,CMR,Cameroon,Extrême-Nord,5,1,3,0,2
+2021-05-06,CMR,Cameroon,Littoral,20,0,20,7,2
 2021-05-06,CMR,Cameroon,Nord,1,0,1,0,0
-2021-05-06,CMR,Cameroon,Nord-Ouest,3,0,3,0,0
-2021-05-06,CMR,Cameroon,Ouest,2,0,2,2,0
-2021-05-06,CMR,Cameroon,Sud,3,0,3,0,0
-2021-05-06,CMR,Cameroon,Sud-Ouest,4,0,4,0,0
-2021-05-06,CAN,Canada,Alberta,323,5,321,279,6
-2021-05-06,CAN,Canada,British Columbia,248,5,248,69,4
-2021-05-06,CAN,Canada,Manitoba,122,0,121,44,3
-2021-05-06,CAN,Canada,New Brunswick,74,1,74,8,1
-2021-05-06,CAN,Canada,Newfoundland and Labrador,57,1,57,3,0
-2021-05-06,CAN,Canada,Northwest Territories,1,0,1,0,0
-2021-05-06,CAN,Canada,Nova Scotia,167,1,166,24,1
+2021-05-06,CMR,Cameroon,Nord-Ouest,7,0,4,0,1
+2021-05-06,CMR,Cameroon,Ouest,3,0,3,2,0
+2021-05-06,CMR,Cameroon,Sud,4,0,4,0,0
+2021-05-06,CMR,Cameroon,Sud-Ouest,5,0,5,1,1
+2021-05-06,CAN,Canada,Alberta,374,8,360,308,11
+2021-05-06,CAN,Canada,British Columbia,295,8,286,73,6
+2021-05-06,CAN,Canada,Manitoba,147,0,141,54,4
+2021-05-06,CAN,Canada,New Brunswick,93,1,86,9,1
+2021-05-06,CAN,Canada,Newfoundland and Labrador,71,1,69,3,0
+2021-05-06,CAN,Canada,Northwest Territories,2,0,2,2,0
+2021-05-06,CAN,Canada,Nova Scotia,202,1,199,28,1
 2021-05-06,CAN,Canada,Nunavut,2,0,2,0,1
-2021-05-06,CAN,Canada,Ontario,463,3,463,100,8
-2021-05-06,CAN,Canada,Prince Edward Island,10,0,9,0,1
-2021-05-06,CAN,Canada,Québec,399,0,398,44,3
-2021-05-06,CAN,Canada,Saskatchewan,104,0,104,20,1
-2021-05-06,CAN,Canada,Yukon,4,0,4,0,0
-2021-05-06,CHL,Chile,Ñuble,15,1,15,24,1
-2021-05-06,CHL,Chile,Aisén del General Carlos Ibáñez del Campo,3,0,3,0,0
-2021-05-06,CHL,Chile,Antofagasta,21,0,21,0,0
-2021-05-06,CHL,Chile,Araucanía,41,0,41,29,3
-2021-05-06,CHL,Chile,Arica y Parinacota,8,0,8,0,0
-2021-05-06,CHL,Chile,Atacama,15,0,15,8,0
-2021-05-06,CHL,Chile,Bío-Bío,66,2,66,37,5
-2021-05-06,CHL,Chile,Coquimbo,28,1,28,5,1
-2021-05-06,CHL,Chile,Libertador General Bernardo O'Higgins,32,0,32,13,1
-2021-05-06,CHL,Chile,Los Lagos,35,1,35,6,1
-2021-05-06,CHL,Chile,Los Ríos,22,1,22,9,2
-2021-05-06,CHL,Chile,Magallanes y Antártica Chilena,16,0,16,1,0
-2021-05-06,CHL,Chile,Maule,43,2,43,31,4
-2021-05-06,CHL,Chile,Región Metropolitana de Santiago,305,3,305,93,8
-2021-05-06,CHL,Chile,Tarapacá,17,0,17,10,2
-2021-05-06,CHL,Chile,Valparaíso,109,0,109,46,2
+2021-05-06,CAN,Canada,Ontario,548,5,539,111,10
+2021-05-06,CAN,Canada,Prince Edward Island,13,0,12,0,1
+2021-05-06,CAN,Canada,Québec,475,0,461,50,4
+2021-05-06,CAN,Canada,Saskatchewan,114,1,112,20,1
+2021-05-06,CAN,Canada,Yukon,8,0,6,0,0
+2021-05-06,CPV,Cape Verde,São Vicente,1,0,0,0,0
+2021-05-06,CYM,Cayman Islands,Cayman Brac,1,0,1,5,0
+2021-05-06,CHL,Chile,Ñuble,20,1,18,31,1
+2021-05-06,CHL,Chile,Aisén del General Carlos Ibáñez del Campo,5,0,5,0,0
+2021-05-06,CHL,Chile,Antofagasta,28,0,27,0,0
+2021-05-06,CHL,Chile,Araucanía,50,0,49,30,3
+2021-05-06,CHL,Chile,Arica y Parinacota,16,0,12,0,1
+2021-05-06,CHL,Chile,Atacama,21,0,20,8,0
+2021-05-06,CHL,Chile,Bío-Bío,94,2,90,39,7
+2021-05-06,CHL,Chile,Coquimbo,39,1,35,5,1
+2021-05-06,CHL,Chile,Libertador General Bernardo O'Higgins,49,0,46,31,1
+2021-05-06,CHL,Chile,Los Lagos,42,2,39,6,3
+2021-05-06,CHL,Chile,Los Ríos,28,1,27,9,2
+2021-05-06,CHL,Chile,Magallanes y Antártica Chilena,25,0,24,3,0
+2021-05-06,CHL,Chile,Maule,54,2,52,46,4
+2021-05-06,CHL,Chile,Región Metropolitana de Santiago,374,5,353,106,11
+2021-05-06,CHL,Chile,Tarapacá,18,0,18,11,2
+2021-05-06,CHL,Chile,Valparaíso,146,1,135,56,3
 2021-05-06,CCK,Cocos (Keeling) Islands,Cocos (Keeling) Islands (Cocos,1,0,1,0,0
-2021-05-06,COL,Colombia,Antioquia,160,4,160,139,6
-2021-05-06,COL,Colombia,Arauca,9,2,9,6,0
-2021-05-06,COL,Colombia,Atlántico,81,3,81,79,6
-2021-05-06,COL,Colombia,"Bogotá, Distrito Capital",264,6,264,233,11
-2021-05-06,COL,Colombia,Bolívar,46,2,45,161,4
-2021-05-06,COL,Colombia,Boyacá,31,2,30,20,2
-2021-05-06,COL,Colombia,Córdoba,24,2,24,13,1
-2021-05-06,COL,Colombia,Caldas,28,0,28,6,2
-2021-05-06,COL,Colombia,Caquetá,4,0,4,0,1
-2021-05-06,COL,Colombia,Casanare,11,1,11,10,1
-2021-05-06,COL,Colombia,Cauca,12,0,12,4,0
-2021-05-06,COL,Colombia,Cesar,24,1,24,19,2
-2021-05-06,COL,Colombia,Chocó,5,2,5,0,1
-2021-05-06,COL,Colombia,Cundinamarca,81,5,81,40,7
-2021-05-06,COL,Colombia,Huila,20,1,20,1,1
-2021-05-06,COL,Colombia,La Guajira,15,0,15,16,2
-2021-05-06,COL,Colombia,Magdalena,25,2,25,11,3
-2021-05-06,COL,Colombia,Meta,35,0,35,3,3
-2021-05-06,COL,Colombia,Nariño,35,0,35,39,3
-2021-05-06,COL,Colombia,Norte de Santander,32,2,32,30,6
-2021-05-06,COL,Colombia,Putumayo,8,0,8,4,2
-2021-05-06,COL,Colombia,Quindío,13,0,13,3,1
-2021-05-06,COL,Colombia,Risaralda,21,0,21,0,0
-2021-05-06,COL,Colombia,San Andrés y Providencia,3,0,3,0,0
-2021-05-06,COL,Colombia,Santander,43,3,41,48,3
-2021-05-06,COL,Colombia,Sucre,21,1,21,36,1
-2021-05-06,COL,Colombia,Tolima,21,0,21,13,0
-2021-05-06,COL,Colombia,Valle del Cauca,62,0,62,25,3
+2021-05-06,COL,Colombia,Amazonas,3,0,2,12,1
+2021-05-06,COL,Colombia,Antioquia,228,9,215,178,10
+2021-05-06,COL,Colombia,Arauca,11,2,11,6,0
+2021-05-06,COL,Colombia,Atlántico,139,7,130,106,11
+2021-05-06,COL,Colombia,"Bogotá, Distrito Capital",358,12,342,369,18
+2021-05-06,COL,Colombia,Bolívar,75,2,71,175,5
+2021-05-06,COL,Colombia,Boyacá,47,2,44,26,5
+2021-05-06,COL,Colombia,Córdoba,36,3,34,18,2
+2021-05-06,COL,Colombia,Caldas,45,1,43,8,2
+2021-05-06,COL,Colombia,Caquetá,11,0,10,0,1
+2021-05-06,COL,Colombia,Casanare,17,1,15,15,2
+2021-05-06,COL,Colombia,Cauca,24,0,22,7,0
+2021-05-06,COL,Colombia,Cesar,40,3,38,28,4
+2021-05-06,COL,Colombia,Chocó,8,2,7,0,1
+2021-05-06,COL,Colombia,Cundinamarca,119,5,113,49,14
+2021-05-06,COL,Colombia,Huila,27,1,24,6,1
+2021-05-06,COL,Colombia,La Guajira,25,1,25,17,4
+2021-05-06,COL,Colombia,Magdalena,49,3,43,19,4
+2021-05-06,COL,Colombia,Meta,47,3,45,11,5
+2021-05-06,COL,Colombia,Nariño,53,2,51,42,5
+2021-05-06,COL,Colombia,Norte de Santander,55,2,49,32,6
+2021-05-06,COL,Colombia,Putumayo,9,0,8,4,2
+2021-05-06,COL,Colombia,Quindío,19,0,18,8,2
+2021-05-06,COL,Colombia,Risaralda,29,1,29,0,1
+2021-05-06,COL,Colombia,San Andrés y Providencia,5,1,5,0,1
+2021-05-06,COL,Colombia,Santander,65,5,59,51,4
+2021-05-06,COL,Colombia,Sucre,28,1,28,42,1
+2021-05-06,COL,Colombia,Tolima,30,0,29,43,0
+2021-05-06,COL,Colombia,Valle del Cauca,95,0,90,37,5
 2021-05-06,COL,Colombia,Vichada,1,0,1,0,0
-2021-05-06,CRI,Costa Rica,Alajuela,62,2,62,58,2
-2021-05-06,CRI,Costa Rica,Cartago,56,3,56,49,3
-2021-05-06,CRI,Costa Rica,Guanacaste,20,0,20,25,0
-2021-05-06,CRI,Costa Rica,Heredia,59,2,59,96,2
-2021-05-06,CRI,Costa Rica,Limón,21,1,21,20,0
-2021-05-06,CRI,Costa Rica,Puntarenas,17,1,17,12,2
-2021-05-06,CRI,Costa Rica,San José,177,6,177,187,6
-2021-05-06,HRV,Croatia,Šibensko-Kninska,8,0,8,10,1
-2021-05-06,HRV,Croatia,Bjelovarska-Bilogorska,6,0,6,1,1
-2021-05-06,HRV,Croatia,Brodsko-Posavska,10,0,10,21,0
-2021-05-06,HRV,Croatia,Dubrovacko-Neretvanska,10,0,10,0,0
-2021-05-06,HRV,Croatia,Grad Zagreb,64,0,64,32,3
-2021-05-06,HRV,Croatia,Istarska,9,0,9,1,1
-2021-05-06,HRV,Croatia,Karlovacka,5,0,5,0,0
-2021-05-06,HRV,Croatia,Koprivničko-Križevačka,2,1,2,101,1
-2021-05-06,HRV,Croatia,Krapinsko-Zagorska,4,0,4,7,1
+2021-05-06,COM,Comoros,Mwali,1,0,1,0,0
+2021-05-06,COM,Comoros,Njazídja,1,0,0,0,0
+2021-05-06,CRI,Costa Rica,Alajuela,78,4,72,68,2
+2021-05-06,CRI,Costa Rica,Cartago,72,4,69,58,5
+2021-05-06,CRI,Costa Rica,Guanacaste,27,1,25,27,0
+2021-05-06,CRI,Costa Rica,Heredia,74,2,71,99,2
+2021-05-06,CRI,Costa Rica,Limón,27,1,26,23,0
+2021-05-06,CRI,Costa Rica,Puntarenas,28,2,28,19,3
+2021-05-06,CRI,Costa Rica,San José,233,7,223,219,8
+2021-05-06,HRV,Croatia,Šibensko-Kninska,9,0,9,10,1
+2021-05-06,HRV,Croatia,Bjelovarska-Bilogorska,7,0,7,1,1
+2021-05-06,HRV,Croatia,Brodsko-Posavska,12,0,12,21,0
+2021-05-06,HRV,Croatia,Dubrovacko-Neretvanska,13,0,13,0,0
+2021-05-06,HRV,Croatia,Grad Zagreb,82,1,80,62,5
+2021-05-06,HRV,Croatia,Istarska,11,0,11,1,1
+2021-05-06,HRV,Croatia,Karlovacka,7,0,6,0,0
+2021-05-06,HRV,Croatia,Koprivničko-Križevačka,3,2,2,101,1
+2021-05-06,HRV,Croatia,Krapinsko-Zagorska,6,0,6,7,1
 2021-05-06,HRV,Croatia,Licko-Senjska,3,0,3,0,0
-2021-05-06,HRV,Croatia,Medimurska,7,0,7,4,0
-2021-05-06,HRV,Croatia,Osjecko-Baranjska,23,1,23,12,2
+2021-05-06,HRV,Croatia,Medimurska,9,0,9,4,0
+2021-05-06,HRV,Croatia,Osjecko-Baranjska,29,2,29,18,3
 2021-05-06,HRV,Croatia,Požeško-Slavonska,4,1,4,30,1
-2021-05-06,HRV,Croatia,Primorsko-Goranska,23,1,23,3,0
-2021-05-06,HRV,Croatia,Sisacko-Moslavacka,12,0,12,10,1
-2021-05-06,HRV,Croatia,Splitsko-Dalmatinska,20,0,20,10,0
-2021-05-06,HRV,Croatia,Varaždinska,8,1,8,4,0
+2021-05-06,HRV,Croatia,Primorsko-Goranska,24,1,24,3,0
+2021-05-06,HRV,Croatia,Sisacko-Moslavacka,14,0,13,12,1
+2021-05-06,HRV,Croatia,Splitsko-Dalmatinska,25,0,25,13,0
+2021-05-06,HRV,Croatia,Varaždinska,12,1,11,5,0
 2021-05-06,HRV,Croatia,Viroviticko-Podravska,2,0,2,1,0
-2021-05-06,HRV,Croatia,Vukovarsko-Srijemska,11,1,11,2,0
-2021-05-06,HRV,Croatia,Zadarska,10,0,10,12,0
-2021-05-06,HRV,Croatia,Zagrebačka,29,1,29,36,2
+2021-05-06,HRV,Croatia,Vukovarsko-Srijemska,12,1,12,3,0
+2021-05-06,HRV,Croatia,Zadarska,14,0,14,12,0
+2021-05-06,HRV,Croatia,Zagrebačka,39,1,35,37,4
 2021-05-06,CYP,Cyprus,Limassol,1,0,1,0,0
-2021-05-06,CZE,Czech Republic,Ústecký,49,0,49,6,2
-2021-05-06,CZE,Czech Republic,Jihočeský,35,0,35,12,2
-2021-05-06,CZE,Czech Republic,Jihomoravský,61,0,61,13,1
-2021-05-06,CZE,Czech Republic,Karlovarský,14,0,14,2,0
-2021-05-06,CZE,Czech Republic,Královéhradecký,29,1,29,1,1
-2021-05-06,CZE,Czech Republic,Kraj Vysočina,19,0,19,3,0
-2021-05-06,CZE,Czech Republic,Liberecký,28,1,28,0,0
-2021-05-06,CZE,Czech Republic,Moravskoslezský,62,0,62,6,0
-2021-05-06,CZE,Czech Republic,Olomoucký,29,0,29,10,0
-2021-05-06,CZE,Czech Republic,Pardubický,26,0,26,4,0
-2021-05-06,CZE,Czech Republic,Plzeňský,32,0,32,21,1
-2021-05-06,CZE,Czech Republic,Prague,85,0,84,15,2
-2021-05-06,CZE,Czech Republic,Středočeský,89,1,89,14,3
-2021-05-06,CZE,Czech Republic,Zlínský,16,0,16,6,1
-2021-05-06,COD,Democratic Republic of the Congo,Haut-Katanga,1,0,1,0,0
+2021-05-06,CZE,Czech Republic,Ústecký,62,1,57,6,2
+2021-05-06,CZE,Czech Republic,Jihočeský,46,2,46,13,2
+2021-05-06,CZE,Czech Republic,Jihomoravský,76,0,71,17,2
+2021-05-06,CZE,Czech Republic,Karlovarský,19,0,18,3,1
+2021-05-06,CZE,Czech Republic,Královéhradecký,31,1,31,1,1
+2021-05-06,CZE,Czech Republic,Kraj Vysočina,23,0,23,3,0
+2021-05-06,CZE,Czech Republic,Liberecký,36,1,36,0,0
+2021-05-06,CZE,Czech Republic,Moravskoslezský,75,0,71,7,0
+2021-05-06,CZE,Czech Republic,Olomoucký,42,0,42,13,0
+2021-05-06,CZE,Czech Republic,Pardubický,33,0,32,6,0
+2021-05-06,CZE,Czech Republic,Plzeňský,43,0,42,22,1
+2021-05-06,CZE,Czech Republic,Prague,110,0,107,20,4
+2021-05-06,CZE,Czech Republic,Středočeský,105,1,103,14,4
+2021-05-06,CZE,Czech Republic,Zlínský,24,0,23,106,2
+2021-05-06,COD,Democratic Republic of the Congo,Haut-Katanga,5,0,5,7,1
 2021-05-06,COD,Democratic Republic of the Congo,Haut-Uélé,1,0,1,0,0
 2021-05-06,COD,Democratic Republic of the Congo,Ituri,1,0,1,0,0
-2021-05-06,COD,Democratic Republic of the Congo,Kinshasa,9,0,9,1,0
-2021-05-06,COD,Democratic Republic of the Congo,Kongo-Central,2,0,2,0,0
-2021-05-06,COD,Democratic Republic of the Congo,Nord-Kivu,2,0,2,0,0
+2021-05-06,COD,Democratic Republic of the Congo,Kasaï-Central,1,0,1,0,0
+2021-05-06,COD,Democratic Republic of the Congo,Kasaï-Oriental,1,0,1,0,0
+2021-05-06,COD,Democratic Republic of the Congo,Kinshasa,11,0,11,1,0
+2021-05-06,COD,Democratic Republic of the Congo,Kongo-Central,3,0,3,0,0
+2021-05-06,COD,Democratic Republic of the Congo,Lualaba,1,0,1,0,0
+2021-05-06,COD,Democratic Republic of the Congo,Nord-Kivu,4,0,3,0,1
 2021-05-06,COD,Democratic Republic of the Congo,Sankuru,1,0,1,0,0
 2021-05-06,COD,Democratic Republic of the Congo,Sud-Kivu,3,0,3,0,0
-2021-05-06,DNK,Denmark,Hovedstaden,284,0,284,31,7
-2021-05-06,DNK,Denmark,Midtjylland,194,3,193,22,4
-2021-05-06,DNK,Denmark,Nordjylland,112,1,112,21,3
-2021-05-06,DNK,Denmark,Sjælland,184,1,184,34,4
-2021-05-06,DNK,Denmark,Syddanmark,229,0,229,31,6
-2021-05-06,DOM,Dominican Republic,Azua,1,0,1,0,0
+2021-05-06,COD,Democratic Republic of the Congo,Tshopo,1,1,1,0,1
+2021-05-06,DNK,Denmark,Hovedstaden,323,0,316,37,9
+2021-05-06,DNK,Denmark,Midtjylland,232,4,223,30,7
+2021-05-06,DNK,Denmark,Nordjylland,131,2,130,28,3
+2021-05-06,DNK,Denmark,Sjælland,215,1,212,55,4
+2021-05-06,DNK,Denmark,Syddanmark,260,0,257,34,7
+2021-05-06,DMA,Dominica,Saint Andrew,1,0,0,0,0
+2021-05-06,DMA,Dominica,Saint David,1,0,1,0,0
+2021-05-06,DOM,Dominican Republic,Azua,2,0,2,4,0
 2021-05-06,DOM,Dominican Republic,Baoruco,1,0,1,1,0
-2021-05-06,DOM,Dominican Republic,Distrito Nacional,53,2,53,15,3
-2021-05-06,DOM,Dominican Republic,Duarte,8,2,8,4,0
+2021-05-06,DOM,Dominican Republic,Barahona,3,0,2,3,0
+2021-05-06,DOM,Dominican Republic,Dajabón,1,0,1,0,0
+2021-05-06,DOM,Dominican Republic,Distrito Nacional,74,3,70,21,4
+2021-05-06,DOM,Dominican Republic,Duarte,10,2,9,4,0
 2021-05-06,DOM,Dominican Republic,El Seibo,1,0,1,0,0
+2021-05-06,DOM,Dominican Republic,Elías Piña,1,0,1,0,0
 2021-05-06,DOM,Dominican Republic,Espaillat,3,0,3,0,0
-2021-05-06,DOM,Dominican Republic,Hato Mayor,2,0,2,0,0
-2021-05-06,DOM,Dominican Republic,Hermanas Mirabal,2,0,2,0,0
+2021-05-06,DOM,Dominican Republic,Hato Mayor,3,0,3,100,0
+2021-05-06,DOM,Dominican Republic,Hermanas Mirabal,3,0,2,0,0
 2021-05-06,DOM,Dominican Republic,Independencia,1,0,1,0,0
-2021-05-06,DOM,Dominican Republic,La Altagracia,7,1,7,0,1
-2021-05-06,DOM,Dominican Republic,La Romana,3,0,3,6,1
-2021-05-06,DOM,Dominican Republic,La Vega,4,0,4,0,0
+2021-05-06,DOM,Dominican Republic,La Altagracia,10,1,10,0,1
+2021-05-06,DOM,Dominican Republic,La Romana,5,0,5,7,1
+2021-05-06,DOM,Dominican Republic,La Vega,6,0,4,0,0
 2021-05-06,DOM,Dominican Republic,María Trinidad Sánchez,1,0,1,0,0
-2021-05-06,DOM,Dominican Republic,Monseñor Nouel,2,0,2,0,0
-2021-05-06,DOM,Dominican Republic,Monte Cristi,1,0,1,0,0
-2021-05-06,DOM,Dominican Republic,Peravia,3,0,3,0,0
-2021-05-06,DOM,Dominican Republic,Puerto Plata,5,1,5,2,0
-2021-05-06,DOM,Dominican Republic,Sánchez Ramírez,3,0,3,0,0
+2021-05-06,DOM,Dominican Republic,Monseñor Nouel,3,0,2,0,0
+2021-05-06,DOM,Dominican Republic,Monte Cristi,2,0,1,0,0
+2021-05-06,DOM,Dominican Republic,Monte Plata,2,0,2,0,0
+2021-05-06,DOM,Dominican Republic,Peravia,4,0,3,0,0
+2021-05-06,DOM,Dominican Republic,Puerto Plata,8,1,7,2,0
+2021-05-06,DOM,Dominican Republic,Sánchez Ramírez,5,1,5,4,1
 2021-05-06,DOM,Dominican Republic,Samaná,3,0,3,0,0
-2021-05-06,DOM,Dominican Republic,San Cristóbal,6,0,5,5,1
+2021-05-06,DOM,Dominican Republic,San Cristóbal,7,0,6,6,1
 2021-05-06,DOM,Dominican Republic,San Juan,4,0,4,0,0
-2021-05-06,DOM,Dominican Republic,San Pedro de Macorís,3,0,3,0,0
-2021-05-06,DOM,Dominican Republic,Santiago,15,1,15,9,2
-2021-05-06,DOM,Dominican Republic,Santo Domingo,23,1,23,9,1
+2021-05-06,DOM,Dominican Republic,San Pedro de Macorís,5,0,5,0,0
+2021-05-06,DOM,Dominican Republic,Santiago,22,2,22,9,4
+2021-05-06,DOM,Dominican Republic,Santo Domingo,39,1,38,11,3
 2021-05-06,DOM,Dominican Republic,Valverde,1,0,1,5,0
-2021-05-06,ECU,Ecuador,Azuay,41,2,41,132,5
-2021-05-06,ECU,Ecuador,Bolivar,3,0,3,1,0
-2021-05-06,ECU,Ecuador,Cañar,12,0,12,13,1
-2021-05-06,ECU,Ecuador,Carchi,3,0,3,1,1
-2021-05-06,ECU,Ecuador,Chimborazo,18,0,18,9,0
-2021-05-06,ECU,Ecuador,Cotopaxi,18,1,18,16,1
-2021-05-06,ECU,Ecuador,El Oro,30,0,29,19,1
-2021-05-06,ECU,Ecuador,Esmeraldas,10,0,10,8,3
+2021-05-06,ECU,Ecuador,Azuay,59,2,58,160,5
+2021-05-06,ECU,Ecuador,Bolivar,6,0,5,1,1
+2021-05-06,ECU,Ecuador,Cañar,16,0,16,13,1
+2021-05-06,ECU,Ecuador,Carchi,4,0,4,1,1
+2021-05-06,ECU,Ecuador,Chimborazo,31,1,30,23,0
+2021-05-06,ECU,Ecuador,Cotopaxi,23,1,19,16,1
+2021-05-06,ECU,Ecuador,El Oro,44,2,39,126,2
+2021-05-06,ECU,Ecuador,Esmeraldas,17,0,17,14,5
 2021-05-06,ECU,Ecuador,Galápagos,1,0,1,0,0
-2021-05-06,ECU,Ecuador,Guayas,155,8,155,153,11
-2021-05-06,ECU,Ecuador,Imbabura,15,0,15,22,1
-2021-05-06,ECU,Ecuador,Loja,21,1,21,10,1
-2021-05-06,ECU,Ecuador,Los Rios,15,1,14,11,2
-2021-05-06,ECU,Ecuador,Manabi,49,3,49,60,3
-2021-05-06,ECU,Ecuador,Morona Santiago,7,0,7,19,0
-2021-05-06,ECU,Ecuador,Napo,3,0,3,0,0
-2021-05-06,ECU,Ecuador,Orellana,3,0,3,0,0
-2021-05-06,ECU,Ecuador,Pastaza,2,0,2,0,0
-2021-05-06,ECU,Ecuador,Pichincha,224,6,224,272,7
-2021-05-06,ECU,Ecuador,Santa Elena,14,0,14,7,0
-2021-05-06,ECU,Ecuador,Santo Domingo de los Tsachilas,17,2,17,18,1
-2021-05-06,ECU,Ecuador,Sucumbios,1,0,1,0,0
-2021-05-06,ECU,Ecuador,Tungurahua,34,1,34,131,3
-2021-05-06,ECU,Ecuador,Zamora Chinchipe,3,0,3,29,0
-2021-05-06,EGY,Egypt,Ad Daqahliyah,50,1,50,65,1
-2021-05-06,EGY,Egypt,Al Bahr al Ahmar,18,0,18,23,3
-2021-05-06,EGY,Egypt,Al Buhayrah,39,1,39,36,1
-2021-05-06,EGY,Egypt,Al Fayyum,9,0,9,17,0
-2021-05-06,EGY,Egypt,Al Gharbiyah,27,0,27,15,0
-2021-05-06,EGY,Egypt,Al Iskandariyah,106,3,105,280,7
-2021-05-06,EGY,Egypt,Al Isma`iliyah,15,2,15,111,2
-2021-05-06,EGY,Egypt,Al Jizah,141,7,141,374,11
-2021-05-06,EGY,Egypt,Al Minufiyah,31,2,30,43,0
-2021-05-06,EGY,Egypt,Al Minya,28,1,28,49,1
-2021-05-06,EGY,Egypt,Al Qahirah,165,5,164,292,9
-2021-05-06,EGY,Egypt,Al Qalyubiyah,39,2,39,50,3
-2021-05-06,EGY,Egypt,Al Uqsur,11,0,11,7,0
-2021-05-06,EGY,Egypt,Al Wadi al Jadid,2,0,2,0,0
-2021-05-06,EGY,Egypt,As Suways,6,0,6,3,0
-2021-05-06,EGY,Egypt,Ash Sharqiyah,66,2,66,100,5
-2021-05-06,EGY,Egypt,Aswan,12,0,12,32,0
-2021-05-06,EGY,Egypt,Asyut,29,3,29,199,1
-2021-05-06,EGY,Egypt,Bani Suwayf,9,0,9,63,0
-2021-05-06,EGY,Egypt,Bur Sa`id,14,3,14,15,2
-2021-05-06,EGY,Egypt,Dumyat,14,0,14,38,1
-2021-05-06,EGY,Egypt,Janub Sina',8,0,8,0,0
-2021-05-06,EGY,Egypt,Kafr ash Shaykh,21,0,21,22,2
-2021-05-06,EGY,Egypt,Matrouh,3,1,3,2,1
-2021-05-06,EGY,Egypt,Qina,20,0,20,30,2
-2021-05-06,EGY,Egypt,Suhaj,29,3,28,183,5
-2021-05-06,SLV,El Salvador,Ahuachapán,5,0,5,0,0
-2021-05-06,SLV,El Salvador,Cabañas,2,0,2,0,0
-2021-05-06,SLV,El Salvador,Chalatenango,4,0,4,0,0
-2021-05-06,SLV,El Salvador,Cuscatlán,10,0,10,5,0
-2021-05-06,SLV,El Salvador,La Libertad,41,1,41,13,1
-2021-05-06,SLV,El Salvador,La Paz,7,0,7,5,1
-2021-05-06,SLV,El Salvador,La Unión,4,0,4,0,0
+2021-05-06,ECU,Ecuador,Guayas,231,12,218,216,20
+2021-05-06,ECU,Ecuador,Imbabura,26,0,23,25,1
+2021-05-06,ECU,Ecuador,Loja,25,1,25,11,1
+2021-05-06,ECU,Ecuador,Los Rios,26,1,21,15,3
+2021-05-06,ECU,Ecuador,Manabi,64,4,61,84,4
+2021-05-06,ECU,Ecuador,Morona Santiago,10,0,8,19,0
+2021-05-06,ECU,Ecuador,Napo,4,0,4,2,0
+2021-05-06,ECU,Ecuador,Orellana,5,0,5,0,0
+2021-05-06,ECU,Ecuador,Pastaza,3,0,3,0,0
+2021-05-06,ECU,Ecuador,Pichincha,296,9,281,333,11
+2021-05-06,ECU,Ecuador,Santa Elena,15,0,15,9,0
+2021-05-06,ECU,Ecuador,Santo Domingo de los Tsachilas,25,2,23,27,2
+2021-05-06,ECU,Ecuador,Sucumbios,5,0,4,3,0
+2021-05-06,ECU,Ecuador,Tungurahua,42,3,38,131,4
+2021-05-06,ECU,Ecuador,Zamora Chinchipe,6,1,6,30,0
+2021-05-06,EGY,Egypt,Ad Daqahliyah,84,3,73,80,1
+2021-05-06,EGY,Egypt,Al Bahr al Ahmar,23,0,22,32,4
+2021-05-06,EGY,Egypt,Al Buhayrah,54,1,52,56,2
+2021-05-06,EGY,Egypt,Al Fayyum,18,1,15,29,2
+2021-05-06,EGY,Egypt,Al Gharbiyah,53,3,46,70,2
+2021-05-06,EGY,Egypt,Al Iskandariyah,157,4,143,303,9
+2021-05-06,EGY,Egypt,Al Isma`iliyah,21,2,20,123,3
+2021-05-06,EGY,Egypt,Al Jizah,224,14,203,574,22
+2021-05-06,EGY,Egypt,Al Minufiyah,53,3,47,49,0
+2021-05-06,EGY,Egypt,Al Minya,45,3,41,62,2
+2021-05-06,EGY,Egypt,Al Qahirah,244,7,226,468,13
+2021-05-06,EGY,Egypt,Al Qalyubiyah,57,3,54,172,4
+2021-05-06,EGY,Egypt,Al Uqsur,17,0,17,28,1
+2021-05-06,EGY,Egypt,Al Wadi al Jadid,3,0,2,0,0
+2021-05-06,EGY,Egypt,As Suways,10,0,7,12,0
+2021-05-06,EGY,Egypt,Ash Sharqiyah,105,9,99,114,6
+2021-05-06,EGY,Egypt,Aswan,23,0,21,41,1
+2021-05-06,EGY,Egypt,Asyut,50,3,43,234,2
+2021-05-06,EGY,Egypt,Bani Suwayf,20,0,19,74,0
+2021-05-06,EGY,Egypt,Bur Sa`id,21,3,21,22,2
+2021-05-06,EGY,Egypt,Dumyat,22,0,20,44,2
+2021-05-06,EGY,Egypt,Janub Sina',11,0,11,2,2
+2021-05-06,EGY,Egypt,Kafr ash Shaykh,29,0,25,35,2
+2021-05-06,EGY,Egypt,Matrouh,6,1,5,2,1
+2021-05-06,EGY,Egypt,Qina,33,0,32,60,3
+2021-05-06,EGY,Egypt,Suhaj,41,4,37,191,6
+2021-05-06,SLV,El Salvador,Ahuachapán,8,0,8,0,0
+2021-05-06,SLV,El Salvador,Cabañas,4,0,4,0,0
+2021-05-06,SLV,El Salvador,Chalatenango,8,0,7,0,1
+2021-05-06,SLV,El Salvador,Cuscatlán,12,0,12,5,0
+2021-05-06,SLV,El Salvador,La Libertad,58,1,51,13,3
+2021-05-06,SLV,El Salvador,La Paz,12,0,11,5,1
+2021-05-06,SLV,El Salvador,La Unión,5,0,5,0,0
 2021-05-06,SLV,El Salvador,Morazán,1,0,1,0,0
-2021-05-06,SLV,El Salvador,San Miguel,16,2,16,25,3
-2021-05-06,SLV,El Salvador,San Salvador,108,2,108,100,6
-2021-05-06,SLV,El Salvador,San Vicente,3,0,3,0,0
-2021-05-06,SLV,El Salvador,Santa Ana,25,2,25,17,2
-2021-05-06,SLV,El Salvador,Sonsonate,16,0,16,1,0
-2021-05-06,SLV,El Salvador,Usulután,10,0,10,3,0
+2021-05-06,SLV,El Salvador,San Miguel,20,3,17,27,3
+2021-05-06,SLV,El Salvador,San Salvador,154,4,143,103,9
+2021-05-06,SLV,El Salvador,San Vicente,5,1,4,0,0
+2021-05-06,SLV,El Salvador,Santa Ana,40,3,39,22,3
+2021-05-06,SLV,El Salvador,Sonsonate,21,1,20,11,0
+2021-05-06,SLV,El Salvador,Usulután,15,0,15,3,0
 2021-05-06,GNQ,Equatorial Guinea,Litoral,1,0,1,0,0
+2021-05-06,ERI,Eritrea,Gash Barka,1,0,1,0,0
 2021-05-06,EST,Estonia,Rapla,1,0,1,33,0
-2021-05-06,ETH,Ethiopia,Addis Abeba,52,1,52,70,5
-2021-05-06,ETH,Ethiopia,Afar,1,0,1,0,0
-2021-05-06,ETH,Ethiopia,Amhara,7,1,7,24,1
-2021-05-06,ETH,Ethiopia,Benshangul-Gumaz,1,0,1,1,0
+2021-05-06,EST,Estonia,Valga,1,1,1,1,1
+2021-05-06,SWZ,Eswatini,Shiselweni,1,0,1,0,0
+2021-05-06,ETH,Ethiopia,Addis Abeba,81,1,80,93,7
+2021-05-06,ETH,Ethiopia,Afar,3,0,3,0,0
+2021-05-06,ETH,Ethiopia,Amhara,12,1,10,26,1
+2021-05-06,ETH,Ethiopia,Benshangul-Gumaz,3,0,3,2,0
 2021-05-06,ETH,Ethiopia,Dire Dawa,3,0,3,3,0
 2021-05-06,ETH,Ethiopia,Gambela Peoples,1,0,1,6,0
-2021-05-06,ETH,Ethiopia,Oromia,17,0,17,44,2
+2021-05-06,ETH,Ethiopia,Oromia,33,1,29,89,5
 2021-05-06,ETH,Ethiopia,Somali,3,0,3,5,0
-2021-05-06,ETH,Ethiopia,"Southern Nations, Nationalities and Peoples",5,0,5,1,0
+2021-05-06,ETH,Ethiopia,"Southern Nations, Nationalities and Peoples",15,0,15,7,0
 2021-05-06,ETH,Ethiopia,Tigray,1,0,1,0,0
+2021-05-06,FJI,Fiji,Central,1,1,0,0,1
 2021-05-06,FJI,Fiji,Western,1,0,1,0,0
 2021-05-06,FIN,Finland,Ahvenanmaa-Åland,7,0,7,0,0
-2021-05-06,FIN,Finland,Etelä-Karjala,9,0,9,0,0
-2021-05-06,FIN,Finland,Etelä-Pohjanmaa,9,0,9,0,0
+2021-05-06,FIN,Finland,Etelä-Karjala,10,0,10,0,0
+2021-05-06,FIN,Finland,Etelä-Pohjanmaa,16,0,11,0,0
 2021-05-06,FIN,Finland,Etelä-Savo,6,0,6,0,0
 2021-05-06,FIN,Finland,Kainuu,1,0,1,0,0
 2021-05-06,FIN,Finland,Kanta-Häme,19,0,19,1,1
-2021-05-06,FIN,Finland,Keski-Pohjanmaa,9,0,9,0,0
-2021-05-06,FIN,Finland,Keski-Suomi,18,0,17,5,2
-2021-05-06,FIN,Finland,Kymenlaakso,14,0,14,0,0
-2021-05-06,FIN,Finland,Lappi,15,0,15,0,0
-2021-05-06,FIN,Finland,Päijät-Häme,17,0,17,1,0
-2021-05-06,FIN,Finland,Pirkanmaa,39,0,39,5,2
-2021-05-06,FIN,Finland,Pohjanmaa,17,0,16,3,0
-2021-05-06,FIN,Finland,Pohjois-Karjala,6,0,6,0,0
-2021-05-06,FIN,Finland,Pohjois-Pohjanmaa,25,1,25,10,0
-2021-05-06,FIN,Finland,Pohjois-Savo,23,0,23,1,0
-2021-05-06,FIN,Finland,Satakunta,22,2,22,103,1
-2021-05-06,FIN,Finland,Uusimaa,146,0,146,8,2
-2021-05-06,FIN,Finland,Varsinais-Suomi,34,0,33,0,0
-2021-05-06,FRA,France,Île-de-France,329,1,329,37,8
-2021-05-06,FRA,France,Auvergne-Rhône-Alpes,326,2,324,33,5
-2021-05-06,FRA,France,Bourgogne-Franche-Comté,152,4,152,11,2
-2021-05-06,FRA,France,Bretagne,193,1,193,29,2
-2021-05-06,FRA,France,Centre-Val de Loire,143,1,142,10,1
-2021-05-06,FRA,France,Corse,21,0,21,0,0
-2021-05-06,FRA,France,Grand Est,366,5,364,24,4
-2021-05-06,FRA,France,Hauts-de-France,329,1,326,30,4
-2021-05-06,FRA,France,Normandie,189,0,189,20,2
-2021-05-06,FRA,France,Nouvelle-Aquitaine,387,0,384,27,2
-2021-05-06,FRA,France,Occitanie,334,3,332,14,8
-2021-05-06,FRA,France,Pays de la Loire,172,2,172,13,2
-2021-05-06,FRA,France,Provence-Alpes-Côte d'Azur,248,1,248,29,4
-2021-05-06,FRA,France,Réunion,2,0,2,0,0
+2021-05-06,FIN,Finland,Keski-Pohjanmaa,13,0,13,1,0
+2021-05-06,FIN,Finland,Keski-Suomi,23,1,21,5,2
+2021-05-06,FIN,Finland,Kymenlaakso,18,0,17,0,0
+2021-05-06,FIN,Finland,Lappi,16,0,16,0,0
+2021-05-06,FIN,Finland,Päijät-Häme,19,0,19,1,0
+2021-05-06,FIN,Finland,Pirkanmaa,44,1,43,8,2
+2021-05-06,FIN,Finland,Pohjanmaa,18,0,17,3,0
+2021-05-06,FIN,Finland,Pohjois-Karjala,7,0,7,0,0
+2021-05-06,FIN,Finland,Pohjois-Pohjanmaa,27,1,27,10,0
+2021-05-06,FIN,Finland,Pohjois-Savo,26,0,26,1,0
+2021-05-06,FIN,Finland,Satakunta,24,2,24,104,1
+2021-05-06,FIN,Finland,Uusimaa,160,0,160,9,2
+2021-05-06,FIN,Finland,Varsinais-Suomi,43,0,39,0,0
+2021-05-06,FRA,France,Île-de-France,427,2,406,45,11
+2021-05-06,FRA,France,Auvergne-Rhône-Alpes,425,3,408,70,9
+2021-05-06,FRA,France,Bourgogne-Franche-Comté,198,5,188,11,4
+2021-05-06,FRA,France,Bretagne,244,1,230,36,3
+2021-05-06,FRA,France,Centre-Val de Loire,193,2,179,22,2
+2021-05-06,FRA,France,Corse,26,0,26,3,0
+2021-05-06,FRA,France,French Guiana,1,1,0,0,1
+2021-05-06,FRA,France,Grand Est,476,5,454,130,8
+2021-05-06,FRA,France,Hauts-de-France,450,2,414,37,9
+2021-05-06,FRA,France,Normandie,241,1,235,24,3
+2021-05-06,FRA,France,Nouvelle-Aquitaine,483,1,463,28,4
+2021-05-06,FRA,France,Occitanie,452,3,428,22,12
+2021-05-06,FRA,France,Pays de la Loire,217,2,210,16,2
+2021-05-06,FRA,France,Provence-Alpes-Côte d'Azur,321,1,310,32,5
+2021-05-06,FRA,France,Réunion,4,0,4,4,0
 2021-05-06,GUF,French Guiana,Cayenne,1,0,1,0,0
+2021-05-06,GUF,French Guiana,Saint-Laurent-du-Maroni,1,0,1,0,0
 2021-05-06,GAB,Gabon,Ngounié,1,0,1,0,0
+2021-05-06,GMB,Gambia,Banjul,1,1,0,0,1
 2021-05-06,GEO,Georgia,Ajaria,1,0,1,0,0
 2021-05-06,GEO,Georgia,Samegrelo-Zemo Svaneti,1,0,1,0,0
-2021-05-06,DEU,Germany,Baden-Württemberg,372,6,369,58,8
-2021-05-06,DEU,Germany,Bayern,416,0,415,63,5
-2021-05-06,DEU,Germany,Berlin,237,0,235,27,1
-2021-05-06,DEU,Germany,Brandenburg,123,0,123,121,2
-2021-05-06,DEU,Germany,Bremen,34,1,34,15,0
-2021-05-06,DEU,Germany,Hamburg,117,1,117,12,1
-2021-05-06,DEU,Germany,Hessen,275,0,275,37,2
-2021-05-06,DEU,Germany,Mecklenburg-Vorpommern,99,0,99,8,2
-2021-05-06,DEU,Germany,Niedersachsen,300,4,300,44,3
-2021-05-06,DEU,Germany,Nordrhein-Westfalen,434,3,433,125,5
-2021-05-06,DEU,Germany,Rheinland-Pfalz,256,1,256,76,1
-2021-05-06,DEU,Germany,Saarland,70,0,70,10,0
-2021-05-06,DEU,Germany,Sachsen,217,1,217,58,5
-2021-05-06,DEU,Germany,Sachsen-Anhalt,121,0,121,17,2
-2021-05-06,DEU,Germany,Schleswig-Holstein,165,0,165,36,0
-2021-05-06,DEU,Germany,Thüringen,118,1,118,28,2
+2021-05-06,DEU,Germany,Baden-Württemberg,435,8,422,170,11
+2021-05-06,DEU,Germany,Bayern,480,0,465,69,6
+2021-05-06,DEU,Germany,Berlin,262,0,256,28,1
+2021-05-06,DEU,Germany,Brandenburg,137,0,134,124,3
+2021-05-06,DEU,Germany,Bremen,38,1,37,16,0
+2021-05-06,DEU,Germany,Hamburg,144,1,142,17,2
+2021-05-06,DEU,Germany,Hessen,320,0,313,45,3
+2021-05-06,DEU,Germany,Mecklenburg-Vorpommern,113,0,111,9,2
+2021-05-06,DEU,Germany,Niedersachsen,336,4,331,50,3
+2021-05-06,DEU,Germany,Nordrhein-Westfalen,509,4,488,147,7
+2021-05-06,DEU,Germany,Rheinland-Pfalz,292,2,283,81,2
+2021-05-06,DEU,Germany,Saarland,76,0,75,11,0
+2021-05-06,DEU,Germany,Sachsen,257,2,252,61,6
+2021-05-06,DEU,Germany,Sachsen-Anhalt,136,0,132,18,3
+2021-05-06,DEU,Germany,Schleswig-Holstein,183,0,181,38,0
+2021-05-06,DEU,Germany,Thüringen,144,1,140,31,2
 2021-05-06,GHA,Ghana,Ahafo,2,0,2,0,1
-2021-05-06,GHA,Ghana,Ashanti,10,1,10,3,1
-2021-05-06,GHA,Ghana,Bono East,1,0,1,1,1
-2021-05-06,GHA,Ghana,Brong-Ahafo,2,0,2,1,0
-2021-05-06,GHA,Ghana,Central,4,0,4,0,0
-2021-05-06,GHA,Ghana,Eastern,7,0,7,3,0
-2021-05-06,GHA,Ghana,Greater Accra,27,0,27,5,1
-2021-05-06,GHA,Ghana,Northern,5,0,5,1,0
+2021-05-06,GHA,Ghana,Ashanti,18,2,16,3,2
+2021-05-06,GHA,Ghana,Bono East,4,0,4,1,1
+2021-05-06,GHA,Ghana,Brong-Ahafo,3,0,2,1,0
+2021-05-06,GHA,Ghana,Central,9,0,9,0,0
+2021-05-06,GHA,Ghana,Eastern,10,0,10,3,0
+2021-05-06,GHA,Ghana,Greater Accra,48,3,43,6,2
+2021-05-06,GHA,Ghana,Northern,10,0,10,1,0
+2021-05-06,GHA,Ghana,Oti,1,0,1,0,0
 2021-05-06,GHA,Ghana,Savannah,2,0,2,0,0
-2021-05-06,GHA,Ghana,Upper East,1,0,1,0,0
-2021-05-06,GHA,Ghana,Upper West,1,0,1,0,0
-2021-05-06,GHA,Ghana,Volta,4,0,4,2,0
-2021-05-06,GHA,Ghana,Western,7,0,7,0,0
+2021-05-06,GHA,Ghana,Upper East,3,0,3,0,0
+2021-05-06,GHA,Ghana,Upper West,2,0,2,0,0
+2021-05-06,GHA,Ghana,Volta,6,0,6,2,0
+2021-05-06,GHA,Ghana,Western,9,1,9,100,1
 2021-05-06,GHA,Ghana,Western North,3,0,3,0,0
-2021-05-06,GRC,Greece,Anatoliki Makedonia Thraki,26,1,26,7,0
-2021-05-06,GRC,Greece,Attiki,314,1,314,76,3
-2021-05-06,GRC,Greece,Dytiki Ellada,23,0,23,2,0
-2021-05-06,GRC,Greece,Dytiki Makedonia,20,0,20,9,0
-2021-05-06,GRC,Greece,Ionia Nisia,20,0,20,0,0
-2021-05-06,GRC,Greece,Ipeiros,22,0,21,0,0
-2021-05-06,GRC,Greece,Kentriki Makedonia,113,0,112,131,0
-2021-05-06,GRC,Greece,Kriti,52,0,52,45,0
-2021-05-06,GRC,Greece,Notio Aigaio,23,1,23,28,1
-2021-05-06,GRC,Greece,Peloponnisos,46,0,46,23,1
-2021-05-06,GRC,Greece,Sterea Ellada,33,0,33,13,1
-2021-05-06,GRC,Greece,Thessalia,37,0,37,9,0
-2021-05-06,GRC,Greece,Voreio Aigaio,12,0,12,0,0
+2021-05-06,GRC,Greece,Anatoliki Makedonia Thraki,30,1,30,7,0
+2021-05-06,GRC,Greece,Attiki,360,2,352,93,4
+2021-05-06,GRC,Greece,Dytiki Ellada,27,0,27,7,0
+2021-05-06,GRC,Greece,Dytiki Makedonia,27,0,27,12,0
+2021-05-06,GRC,Greece,Ionia Nisia,25,0,22,0,0
+2021-05-06,GRC,Greece,Ipeiros,23,0,22,1,0
+2021-05-06,GRC,Greece,Kentriki Makedonia,134,0,132,138,0
+2021-05-06,GRC,Greece,Kriti,63,0,61,47,0
+2021-05-06,GRC,Greece,Notio Aigaio,28,1,27,30,1
+2021-05-06,GRC,Greece,Peloponnisos,51,0,51,23,1
+2021-05-06,GRC,Greece,Sterea Ellada,39,1,38,15,1
+2021-05-06,GRC,Greece,Thessalia,44,0,42,10,0
+2021-05-06,GRC,Greece,Voreio Aigaio,13,0,13,0,0
 2021-05-06,GRL,Greenland,Northeast Greenland National Park,1,0,1,0,0
-2021-05-06,GLP,Guadeloupe,Pointe-à-Pitre,1,0,1,0,0
+2021-05-06,GRL,Greenland,Qaasuitsup,1,0,1,1,0
+2021-05-06,GRD,Grenada,Saint David,1,0,0,0,0
+2021-05-06,GLP,Guadeloupe,Basse-Terre,1,1,0,0,1
+2021-05-06,GLP,Guadeloupe,Pointe-à-Pitre,2,0,2,0,0
 2021-05-06,GUM,Guam,Piti,1,0,1,0,0
-2021-05-06,GTM,Guatemala,Alta Verapaz,4,0,4,0,0
-2021-05-06,GTM,Guatemala,Baja Verapaz,2,0,2,0,0
-2021-05-06,GTM,Guatemala,Chimaltenango,9,1,9,5,1
-2021-05-06,GTM,Guatemala,Chiquimula,6,0,6,7,0
-2021-05-06,GTM,Guatemala,El Progreso,2,0,2,0,1
-2021-05-06,GTM,Guatemala,Escuintla,9,1,9,1,0
-2021-05-06,GTM,Guatemala,Guatemala,149,3,148,129,4
-2021-05-06,GTM,Guatemala,Huehuetenango,7,0,7,7,0
-2021-05-06,GTM,Guatemala,Izabal,3,0,3,0,0
-2021-05-06,GTM,Guatemala,Jalapa,3,0,3,0,0
-2021-05-06,GTM,Guatemala,Jutiapa,2,0,2,0,0
-2021-05-06,GTM,Guatemala,Petén,8,1,8,89,0
-2021-05-06,GTM,Guatemala,Quezaltenango,19,0,19,22,1
-2021-05-06,GTM,Guatemala,Quiché,3,0,3,0,0
-2021-05-06,GTM,Guatemala,Retalhuleu,6,0,6,6,1
-2021-05-06,GTM,Guatemala,Sacatepéquez,12,0,12,2,0
-2021-05-06,GTM,Guatemala,San Marcos,5,0,5,5,0
-2021-05-06,GTM,Guatemala,Santa Rosa,4,0,4,0,0
-2021-05-06,GTM,Guatemala,Sololá,3,0,3,1,0
-2021-05-06,GTM,Guatemala,Suchitepéquez,5,0,5,1,0
-2021-05-06,GTM,Guatemala,Totonicapán,5,0,5,0,0
-2021-05-06,GTM,Guatemala,Zacapa,1,0,1,0,0
+2021-05-06,GUM,Guam,Yona,1,0,1,0,0
+2021-05-06,GTM,Guatemala,Alta Verapaz,7,0,7,0,0
+2021-05-06,GTM,Guatemala,Baja Verapaz,4,0,4,0,0
+2021-05-06,GTM,Guatemala,Chimaltenango,12,1,12,6,1
+2021-05-06,GTM,Guatemala,Chiquimula,11,0,10,12,0
+2021-05-06,GTM,Guatemala,El Progreso,4,0,3,0,1
+2021-05-06,GTM,Guatemala,Escuintla,15,2,14,2,1
+2021-05-06,GTM,Guatemala,Guatemala,198,3,190,146,6
+2021-05-06,GTM,Guatemala,Huehuetenango,9,0,9,7,0
+2021-05-06,GTM,Guatemala,Izabal,6,0,6,2,0
+2021-05-06,GTM,Guatemala,Jalapa,5,0,5,0,0
+2021-05-06,GTM,Guatemala,Jutiapa,3,0,3,0,0
+2021-05-06,GTM,Guatemala,Petén,10,1,10,96,0
+2021-05-06,GTM,Guatemala,Quezaltenango,29,1,28,32,1
+2021-05-06,GTM,Guatemala,Quiché,9,0,6,0,0
+2021-05-06,GTM,Guatemala,Retalhuleu,7,0,7,6,1
+2021-05-06,GTM,Guatemala,Sacatepéquez,18,0,18,2,0
+2021-05-06,GTM,Guatemala,San Marcos,11,0,11,5,0
+2021-05-06,GTM,Guatemala,Santa Rosa,5,0,5,0,0
+2021-05-06,GTM,Guatemala,Sololá,5,0,5,1,0
+2021-05-06,GTM,Guatemala,Suchitepéquez,6,0,6,1,0
+2021-05-06,GTM,Guatemala,Totonicapán,7,0,6,0,0
+2021-05-06,GTM,Guatemala,Zacapa,2,0,2,0,0
 2021-05-06,GGY,Guernsey,St Peter Port,1,0,1,0,0
 2021-05-06,GIN,Guinea,Boké,2,0,2,2,0
-2021-05-06,GIN,Guinea,Conakry,11,0,11,3,0
-2021-05-06,HTI,Haiti,Centre,4,0,4,6,1
-2021-05-06,HTI,Haiti,L'Artibonite,1,0,1,0,0
-2021-05-06,HTI,Haiti,Nord,2,0,2,0,0
-2021-05-06,HTI,Haiti,Ouest,7,1,7,100,1
+2021-05-06,GIN,Guinea,Conakry,25,0,20,3,2
+2021-05-06,GIN,Guinea,Kankan,2,0,2,0,0
+2021-05-06,GIN,Guinea,Nzérékoré,4,0,3,1,0
+2021-05-06,GUY,Guyana,Cuyuni-Mazaruni,1,0,1,0,0
+2021-05-06,GUY,Guyana,Upper Takutu-Upper Essequibo,1,0,0,0,0
+2021-05-06,HTI,Haiti,Centre,5,0,5,6,1
+2021-05-06,HTI,Haiti,L'Artibonite,2,0,1,0,0
+2021-05-06,HTI,Haiti,Nord,3,0,2,0,0
+2021-05-06,HTI,Haiti,Nord-Est,1,0,1,0,0
+2021-05-06,HTI,Haiti,Nord-Ouest,1,0,0,0,0
+2021-05-06,HTI,Haiti,Ouest,14,1,12,101,1
+2021-05-06,HTI,Haiti,Sud,1,0,0,0,0
 2021-05-06,HTI,Haiti,Sud-Est,1,0,1,0,0
-2021-05-06,HMD,Heard Island and McDonald Islands,Heard Island and McDonald Islands,1,0,1,0,0
-2021-05-06,HND,Honduras,Atlántida,10,0,10,7,0
-2021-05-06,HND,Honduras,Choluteca,5,0,5,0,0
-2021-05-06,HND,Honduras,Colón,1,0,1,0,0
-2021-05-06,HND,Honduras,Comayagua,4,0,4,5,0
-2021-05-06,HND,Honduras,Copán,9,0,9,9,0
-2021-05-06,HND,Honduras,Cortés,47,2,47,25,3
-2021-05-06,HND,Honduras,El Paraíso,8,0,8,2,1
-2021-05-06,HND,Honduras,Francisco Morazán,73,1,73,59,4
-2021-05-06,HND,Honduras,Intibucá,4,0,4,20,0
+2021-05-06,HMD,Heard Island and McDonald Islands,Heard Island and McDonald Islands,2,1,2,1,1
+2021-05-06,HND,Honduras,Atlántida,12,0,12,9,0
+2021-05-06,HND,Honduras,Choluteca,7,0,6,0,0
+2021-05-06,HND,Honduras,Colón,3,0,2,0,0
+2021-05-06,HND,Honduras,Comayagua,8,0,7,8,0
+2021-05-06,HND,Honduras,Copán,11,0,10,10,0
+2021-05-06,HND,Honduras,Cortés,63,2,63,61,3
+2021-05-06,HND,Honduras,El Paraíso,13,1,11,4,1
+2021-05-06,HND,Honduras,Francisco Morazán,110,3,103,85,8
+2021-05-06,HND,Honduras,Intibucá,5,0,5,20,0
 2021-05-06,HND,Honduras,La Paz,3,0,3,2,0
 2021-05-06,HND,Honduras,Lempira,3,0,3,0,0
-2021-05-06,HND,Honduras,Olancho,4,0,4,15,0
-2021-05-06,HND,Honduras,Santa Bárbara,1,0,1,0,0
-2021-05-06,HND,Honduras,Valle,2,1,2,11,0
-2021-05-06,HND,Honduras,Yoro,7,1,7,5,1
-2021-05-06,HKG,Hong Kong,Central and Western,8,0,8,0,1
-2021-05-06,HKG,Hong Kong,Eastern,15,0,15,4,0
-2021-05-06,HKG,Hong Kong,Islands,8,1,8,100,1
-2021-05-06,HKG,Hong Kong,Kowloon City,10,0,10,0,0
-2021-05-06,HKG,Hong Kong,Kwai Tsing,11,0,10,0,0
-2021-05-06,HKG,Hong Kong,Kwun Tong,7,0,7,1,0
-2021-05-06,HKG,Hong Kong,North,12,1,11,2,1
-2021-05-06,HKG,Hong Kong,Sai Kung,10,0,10,1,0
-2021-05-06,HKG,Hong Kong,Sha Tin,14,0,14,2,0
-2021-05-06,HKG,Hong Kong,Sham Shui Po,8,0,8,0,0
-2021-05-06,HKG,Hong Kong,Southern,1,0,1,0,0
-2021-05-06,HKG,Hong Kong,Tai Po,6,0,6,0,0
-2021-05-06,HKG,Hong Kong,Tsuen Wan,8,0,8,0,0
-2021-05-06,HKG,Hong Kong,Tuen Mun,7,0,7,2,0
-2021-05-06,HKG,Hong Kong,Wan Chai,3,0,3,0,0
-2021-05-06,HKG,Hong Kong,Wong Tai Sin,5,0,5,0,0
-2021-05-06,HKG,Hong Kong,Yau Tsim Mong,8,0,8,3,1
-2021-05-06,HKG,Hong Kong,Yuen Long,8,1,8,100,1
-2021-05-06,HUN,Hungary,Bács-Kiskun,62,0,62,5,1
-2021-05-06,HUN,Hungary,Békés,56,0,56,3,1
-2021-05-06,HUN,Hungary,Baranya,50,0,50,7,1
-2021-05-06,HUN,Hungary,Borsod-Abaúj-Zemplén,70,2,70,9,3
-2021-05-06,HUN,Hungary,Budapest,303,0,302,25,2
-2021-05-06,HUN,Hungary,Csongrád,49,0,49,1,0
-2021-05-06,HUN,Hungary,Fejér,55,0,55,24,0
-2021-05-06,HUN,Hungary,Gyor-Moson-Sopron,60,0,59,3,1
-2021-05-06,HUN,Hungary,Hajdú-Bihar,53,0,53,22,0
-2021-05-06,HUN,Hungary,Heves,29,1,29,2,0
-2021-05-06,HUN,Hungary,Jász-Nagykun-Szolnok,39,0,39,9,3
-2021-05-06,HUN,Hungary,Komárom-Esztergom,59,0,59,5,1
-2021-05-06,HUN,Hungary,Nógrád,28,0,28,2,0
-2021-05-06,HUN,Hungary,Pest,208,1,208,91,0
-2021-05-06,HUN,Hungary,Somogy,42,0,42,12,1
-2021-05-06,HUN,Hungary,Szabolcs-Szatmár-Bereg,42,0,41,4,2
-2021-05-06,HUN,Hungary,Tolna,24,0,23,25,1
-2021-05-06,HUN,Hungary,Vas,45,0,45,17,0
-2021-05-06,HUN,Hungary,Veszprém,28,0,28,17,1
-2021-05-06,HUN,Hungary,Zala,33,0,33,6,0
-2021-05-06,ISL,Iceland,Suðurland,1,0,1,0,0
-2021-05-06,IND,India,Andaman and Nicobar,3,0,3,1,0
-2021-05-06,IND,India,Andhra Pradesh,304,6,302,775,13
-2021-05-06,IND,India,Arunachal Pradesh,16,2,16,4,2
-2021-05-06,IND,India,Assam,113,3,112,132,3
-2021-05-06,IND,India,Bihar,245,9,245,620,13
-2021-05-06,IND,India,Chandigarh,36,1,36,21,2
-2021-05-06,IND,India,Chhattisgarh,62,1,61,154,0
-2021-05-06,IND,India,Goa,33,1,33,39,3
-2021-05-06,IND,India,Gujarat,233,5,233,626,7
-2021-05-06,IND,India,Haryana,194,5,194,875,11
-2021-05-06,IND,India,Himachal Pradesh,64,1,64,61,4
-2021-05-06,IND,India,Jammu and Kashmir,118,6,117,373,6
-2021-05-06,IND,India,Jharkhand,106,4,106,162,8
-2021-05-06,IND,India,Karnataka,251,4,251,318,10
-2021-05-06,IND,India,Kerala,275,3,274,399,9
-2021-05-06,IND,India,Ladakh,2,0,2,0,0
-2021-05-06,IND,India,Madhya Pradesh,129,4,129,571,10
-2021-05-06,IND,India,Maharashtra,315,3,314,343,7
-2021-05-06,IND,India,Manipur,31,0,31,29,1
-2021-05-06,IND,India,Meghalaya,14,0,14,4,0
-2021-05-06,IND,India,Mizoram,9,0,9,3,1
-2021-05-06,IND,India,NCT of Delhi,207,3,205,887,11
-2021-05-06,IND,India,Nagaland,21,0,21,8,0
-2021-05-06,IND,India,Odisha,137,4,137,234,8
-2021-05-06,IND,India,Puducherry,11,0,11,7,0
-2021-05-06,IND,India,Punjab,132,1,132,84,6
-2021-05-06,IND,India,Rajasthan,223,9,221,450,23
-2021-05-06,IND,India,Sikkim,12,0,12,5,0
-2021-05-06,IND,India,Tamil Nadu,267,6,267,360,9
-2021-05-06,IND,India,Telangana,265,10,265,795,17
-2021-05-06,IND,India,Tripura,12,0,12,1,0
-2021-05-06,IND,India,Uttar Pradesh,327,13,326,1526,29
-2021-05-06,IND,India,Uttarakhand,77,1,76,72,6
-2021-05-06,IND,India,West Bengal,276,10,273,758,18
-2021-05-06,IDN,Indonesia,Aceh,13,1,13,3,1
-2021-05-06,IDN,Indonesia,Bali,40,0,40,5,0
-2021-05-06,IDN,Indonesia,Bangka Belitung,11,0,11,5,0
-2021-05-06,IDN,Indonesia,Banten,50,2,50,9,2
-2021-05-06,IDN,Indonesia,Bengkulu,7,0,7,2,0
-2021-05-06,IDN,Indonesia,Jakarta Raya,100,0,100,20,1
-2021-05-06,IDN,Indonesia,Jambi,15,0,14,11,0
-2021-05-06,IDN,Indonesia,Jawa Barat,148,4,147,111,5
-2021-05-06,IDN,Indonesia,Jawa Tengah,90,1,90,25,5
-2021-05-06,IDN,Indonesia,Jawa Timur,113,0,111,16,1
-2021-05-06,IDN,Indonesia,Kalimantan Barat,33,1,33,119,3
-2021-05-06,IDN,Indonesia,Kalimantan Selatan,21,1,21,11,1
-2021-05-06,IDN,Indonesia,Kalimantan Tengah,22,2,22,18,1
-2021-05-06,IDN,Indonesia,Kalimantan Timur,33,1,33,18,1
-2021-05-06,IDN,Indonesia,Kalimantan Utara,4,0,4,1,0
-2021-05-06,IDN,Indonesia,Kepulauan Riau,14,1,14,17,1
-2021-05-06,IDN,Indonesia,Lampung,25,1,25,4,2
-2021-05-06,IDN,Indonesia,Maluku,8,0,8,0,0
-2021-05-06,IDN,Indonesia,Maluku Utara,3,0,3,0,0
-2021-05-06,IDN,Indonesia,Nusa Tenggara Barat,21,1,20,5,0
-2021-05-06,IDN,Indonesia,Nusa Tenggara Timur,28,0,28,17,0
-2021-05-06,IDN,Indonesia,Papua,5,0,5,1,0
-2021-05-06,IDN,Indonesia,Papua Barat,5,0,5,0,0
-2021-05-06,IDN,Indonesia,Riau,47,2,47,14,2
-2021-05-06,IDN,Indonesia,Sulawesi Barat,7,0,7,0,0
-2021-05-06,IDN,Indonesia,Sulawesi Selatan,34,0,34,17,1
-2021-05-06,IDN,Indonesia,Sulawesi Tengah,15,0,15,6,0
-2021-05-06,IDN,Indonesia,Sulawesi Tenggara,4,0,4,0,0
-2021-05-06,IDN,Indonesia,Sulawesi Utara,32,2,32,10,1
-2021-05-06,IDN,Indonesia,Sumatera Barat,17,1,17,7,2
-2021-05-06,IDN,Indonesia,Sumatera Selatan,30,3,30,20,4
-2021-05-06,IDN,Indonesia,Sumatera Utara,43,3,43,60,3
-2021-05-06,IDN,Indonesia,Yogyakarta,31,1,31,11,1
-2021-05-06,IRQ,Iraq,Al-Anbar,15,1,15,85,1
-2021-05-06,IRQ,Iraq,Al-Basrah,21,0,21,24,2
-2021-05-06,IRQ,Iraq,Al-Muthanna,4,0,4,1,0
-2021-05-06,IRQ,Iraq,Al-Qadissiya,7,0,7,17,0
-2021-05-06,IRQ,Iraq,Al-Sulaymaniyah,12,1,12,13,2
-2021-05-06,IRQ,Iraq,Babil,26,2,25,63,2
-2021-05-06,IRQ,Iraq,Baghdad,125,4,124,386,10
-2021-05-06,IRQ,Iraq,Dahuk,12,1,12,11,0
-2021-05-06,IRQ,Iraq,Diyala,5,1,5,6,0
-2021-05-06,IRQ,Iraq,Erbil,15,0,15,28,0
-2021-05-06,IRQ,Iraq,Kerbala,18,2,18,22,2
-2021-05-06,IRQ,Iraq,Kirkuk,15,1,15,42,1
-2021-05-06,IRQ,Iraq,Missan,8,0,8,47,0
-2021-05-06,IRQ,Iraq,Najaf,20,0,20,164,1
-2021-05-06,IRQ,Iraq,Ninewa,26,3,26,131,3
-2021-05-06,IRQ,Iraq,Salah Al-Din,13,0,13,62,1
-2021-05-06,IRQ,Iraq,Thi-Qar,16,0,15,21,0
-2021-05-06,IRQ,Iraq,Wassit,13,2,13,116,2
+2021-05-06,HND,Honduras,Olancho,8,0,7,15,1
+2021-05-06,HND,Honduras,Santa Bárbara,6,0,5,4,1
+2021-05-06,HND,Honduras,Valle,3,1,2,11,1
+2021-05-06,HND,Honduras,Yoro,13,1,11,5,2
+2021-05-06,HKG,Hong Kong,Central and Western,13,0,13,1,1
+2021-05-06,HKG,Hong Kong,Eastern,19,0,19,4,0
+2021-05-06,HKG,Hong Kong,Islands,9,1,9,100,1
+2021-05-06,HKG,Hong Kong,Kowloon City,17,0,17,1,0
+2021-05-06,HKG,Hong Kong,Kwai Tsing,13,0,10,0,0
+2021-05-06,HKG,Hong Kong,Kwun Tong,11,0,10,1,0
+2021-05-06,HKG,Hong Kong,North,14,1,13,2,1
+2021-05-06,HKG,Hong Kong,Sai Kung,15,0,14,2,0
+2021-05-06,HKG,Hong Kong,Sha Tin,15,0,14,2,0
+2021-05-06,HKG,Hong Kong,Sham Shui Po,11,0,11,0,0
+2021-05-06,HKG,Hong Kong,Southern,2,0,2,0,0
+2021-05-06,HKG,Hong Kong,Tai Po,8,0,8,0,0
+2021-05-06,HKG,Hong Kong,Tsuen Wan,11,0,11,0,0
+2021-05-06,HKG,Hong Kong,Tuen Mun,9,0,8,2,0
+2021-05-06,HKG,Hong Kong,Wan Chai,5,0,4,0,0
+2021-05-06,HKG,Hong Kong,Wong Tai Sin,7,0,7,0,0
+2021-05-06,HKG,Hong Kong,Yau Tsim Mong,9,0,9,3,1
+2021-05-06,HKG,Hong Kong,Yuen Long,15,1,14,100,1
+2021-05-06,HUN,Hungary,Bács-Kiskun,82,0,80,6,1
+2021-05-06,HUN,Hungary,Békés,61,0,61,3,1
+2021-05-06,HUN,Hungary,Baranya,69,0,67,7,2
+2021-05-06,HUN,Hungary,Borsod-Abaúj-Zemplén,90,3,86,9,4
+2021-05-06,HUN,Hungary,Budapest,354,0,348,35,4
+2021-05-06,HUN,Hungary,Csongrád,63,0,60,3,0
+2021-05-06,HUN,Hungary,Fejér,77,0,75,28,1
+2021-05-06,HUN,Hungary,Gyor-Moson-Sopron,86,0,79,5,1
+2021-05-06,HUN,Hungary,Hajdú-Bihar,70,0,67,24,0
+2021-05-06,HUN,Hungary,Heves,38,1,38,2,1
+2021-05-06,HUN,Hungary,Jász-Nagykun-Szolnok,52,0,51,28,3
+2021-05-06,HUN,Hungary,Komárom-Esztergom,69,1,67,15,2
+2021-05-06,HUN,Hungary,Nógrád,35,0,35,2,0
+2021-05-06,HUN,Hungary,Pest,255,1,248,107,3
+2021-05-06,HUN,Hungary,Somogy,52,0,51,13,1
+2021-05-06,HUN,Hungary,Szabolcs-Szatmár-Bereg,54,0,49,4,2
+2021-05-06,HUN,Hungary,Tolna,29,0,28,25,1
+2021-05-06,HUN,Hungary,Vas,60,0,59,18,0
+2021-05-06,HUN,Hungary,Veszprém,39,0,37,19,2
+2021-05-06,HUN,Hungary,Zala,42,0,39,6,0
+2021-05-06,ISL,Iceland,Suðurland,2,0,2,0,0
+2021-05-06,IND,India,Andaman and Nicobar,8,0,8,8,1
+2021-05-06,IND,India,Andhra Pradesh,510,12,486,1043,22
+2021-05-06,IND,India,Arunachal Pradesh,27,3,26,5,3
+2021-05-06,IND,India,Assam,198,5,189,217,9
+2021-05-06,IND,India,Bihar,512,24,473,1304,34
+2021-05-06,IND,India,Chandigarh,53,1,51,23,3
+2021-05-06,IND,India,Chhattisgarh,102,5,94,291,7
+2021-05-06,IND,India,Goa,42,1,40,41,3
+2021-05-06,IND,India,Gujarat,365,11,349,787,16
+2021-05-06,IND,India,Haryana,350,15,331,1197,35
+2021-05-06,IND,India,Himachal Pradesh,113,4,105,107,9
+2021-05-06,IND,India,Jammu and Kashmir,197,8,185,500,12
+2021-05-06,IND,India,Jharkhand,187,10,178,218,16
+2021-05-06,IND,India,Karnataka,390,11,373,667,17
+2021-05-06,IND,India,Kerala,455,13,437,786,18
+2021-05-06,IND,India,Ladakh,3,0,3,0,0
+2021-05-06,IND,India,Madhya Pradesh,254,12,237,1055,19
+2021-05-06,IND,India,Maharashtra,500,8,479,433,10
+2021-05-06,IND,India,Manipur,50,2,46,33,3
+2021-05-06,IND,India,Meghalaya,24,0,24,26,1
+2021-05-06,IND,India,Mizoram,16,0,15,3,1
+2021-05-06,IND,India,NCT of Delhi,315,7,301,1036,19
+2021-05-06,IND,India,Nagaland,36,0,34,11,0
+2021-05-06,IND,India,Odisha,261,10,245,454,18
+2021-05-06,IND,India,Puducherry,17,0,17,16,0
+2021-05-06,IND,India,Punjab,229,5,215,142,15
+2021-05-06,IND,India,Rajasthan,417,20,385,672,35
+2021-05-06,IND,India,Sikkim,22,0,21,8,0
+2021-05-06,IND,India,Tamil Nadu,471,16,441,495,26
+2021-05-06,IND,India,Telangana,418,25,405,1132,29
+2021-05-06,IND,India,Tripura,23,0,22,1,0
+2021-05-06,IND,India,Uttar Pradesh,596,30,557,2101,56
+2021-05-06,IND,India,Uttarakhand,136,2,129,97,10
+2021-05-06,IND,India,West Bengal,476,22,454,1354,35
+2021-05-06,IDN,Indonesia,Aceh,26,2,23,4,2
+2021-05-06,IDN,Indonesia,Bali,64,0,56,7,0
+2021-05-06,IDN,Indonesia,Bangka Belitung,21,0,20,6,1
+2021-05-06,IDN,Indonesia,Banten,72,3,62,9,3
+2021-05-06,IDN,Indonesia,Bengkulu,16,0,16,5,0
+2021-05-06,IDN,Indonesia,Gorontalo,2,0,2,2,0
+2021-05-06,IDN,Indonesia,Jakarta Raya,155,2,144,27,5
+2021-05-06,IDN,Indonesia,Jambi,28,1,23,12,1
+2021-05-06,IDN,Indonesia,Jawa Barat,244,11,219,139,7
+2021-05-06,IDN,Indonesia,Jawa Tengah,150,3,132,27,5
+2021-05-06,IDN,Indonesia,Jawa Timur,185,1,164,25,1
+2021-05-06,IDN,Indonesia,Kalimantan Barat,50,1,46,119,3
+2021-05-06,IDN,Indonesia,Kalimantan Selatan,44,3,38,17,2
+2021-05-06,IDN,Indonesia,Kalimantan Tengah,30,2,29,19,2
+2021-05-06,IDN,Indonesia,Kalimantan Timur,60,1,49,19,2
+2021-05-06,IDN,Indonesia,Kalimantan Utara,8,0,7,4,0
+2021-05-06,IDN,Indonesia,Kepulauan Riau,27,1,26,23,1
+2021-05-06,IDN,Indonesia,Lampung,40,1,35,8,3
+2021-05-06,IDN,Indonesia,Maluku,9,0,9,0,0
+2021-05-06,IDN,Indonesia,Maluku Utara,8,0,6,0,0
+2021-05-06,IDN,Indonesia,Nusa Tenggara Barat,35,1,30,6,0
+2021-05-06,IDN,Indonesia,Nusa Tenggara Timur,49,2,43,20,1
+2021-05-06,IDN,Indonesia,Papua,7,0,6,1,0
+2021-05-06,IDN,Indonesia,Papua Barat,8,0,7,0,0
+2021-05-06,IDN,Indonesia,Riau,78,3,73,16,4
+2021-05-06,IDN,Indonesia,Sulawesi Barat,8,0,8,0,0
+2021-05-06,IDN,Indonesia,Sulawesi Selatan,54,0,51,18,1
+2021-05-06,IDN,Indonesia,Sulawesi Tengah,22,0,22,7,0
+2021-05-06,IDN,Indonesia,Sulawesi Tenggara,13,0,10,0,0
+2021-05-06,IDN,Indonesia,Sulawesi Utara,52,3,46,11,2
+2021-05-06,IDN,Indonesia,Sumatera Barat,30,2,22,58,3
+2021-05-06,IDN,Indonesia,Sumatera Selatan,53,3,45,22,4
+2021-05-06,IDN,Indonesia,Sumatera Utara,93,5,75,62,7
+2021-05-06,IDN,Indonesia,Yogyakarta,45,1,44,11,1
+2021-05-06,IRQ,Iraq,Al-Anbar,23,1,22,94,1
+2021-05-06,IRQ,Iraq,Al-Basrah,40,1,34,102,3
+2021-05-06,IRQ,Iraq,Al-Muthanna,8,1,7,2,0
+2021-05-06,IRQ,Iraq,Al-Qadissiya,17,0,14,129,1
+2021-05-06,IRQ,Iraq,Al-Sulaymaniyah,22,2,21,18,2
+2021-05-06,IRQ,Iraq,Babil,41,2,34,69,2
+2021-05-06,IRQ,Iraq,Baghdad,189,7,163,520,14
+2021-05-06,IRQ,Iraq,Dahuk,18,1,18,12,0
+2021-05-06,IRQ,Iraq,Diyala,17,2,13,20,1
+2021-05-06,IRQ,Iraq,Erbil,28,0,25,35,0
+2021-05-06,IRQ,Iraq,Kerbala,22,2,21,122,3
+2021-05-06,IRQ,Iraq,Kirkuk,21,1,20,51,3
+2021-05-06,IRQ,Iraq,Missan,11,0,10,54,0
+2021-05-06,IRQ,Iraq,Najaf,23,0,22,164,1
+2021-05-06,IRQ,Iraq,Ninewa,39,4,35,135,4
+2021-05-06,IRQ,Iraq,Salah Al-Din,17,0,16,62,1
+2021-05-06,IRQ,Iraq,Thi-Qar,29,2,23,28,1
+2021-05-06,IRQ,Iraq,Wassit,20,2,18,119,3
 2021-05-06,IRL,Ireland,Carlow,3,0,3,0,0
-2021-05-06,IRL,Ireland,Cavan,4,0,4,0,0
-2021-05-06,IRL,Ireland,Clare,9,0,9,0,0
-2021-05-06,IRL,Ireland,Cork,57,0,57,6,2
-2021-05-06,IRL,Ireland,Donegal,18,0,18,9,1
-2021-05-06,IRL,Ireland,Dublin,116,1,116,24,3
-2021-05-06,IRL,Ireland,Galway,18,0,18,0,0
-2021-05-06,IRL,Ireland,Kerry,11,0,11,0,1
-2021-05-06,IRL,Ireland,Kildare,25,0,25,7,1
-2021-05-06,IRL,Ireland,Kilkenny,4,0,4,0,0
-2021-05-06,IRL,Ireland,Laois,5,0,5,5,0
-2021-05-06,IRL,Ireland,Leitrim,4,0,4,0,0
-2021-05-06,IRL,Ireland,Limerick,17,0,17,2,0
-2021-05-06,IRL,Ireland,Longford,3,0,3,1,0
-2021-05-06,IRL,Ireland,Louth,9,1,9,0,0
-2021-05-06,IRL,Ireland,Mayo,11,0,11,0,0
-2021-05-06,IRL,Ireland,Meath,17,0,17,3,0
-2021-05-06,IRL,Ireland,Monaghan,3,0,3,2,0
+2021-05-06,IRL,Ireland,Cavan,5,0,4,0,0
+2021-05-06,IRL,Ireland,Clare,11,0,10,0,0
+2021-05-06,IRL,Ireland,Cork,63,0,62,7,2
+2021-05-06,IRL,Ireland,Donegal,21,0,21,9,1
+2021-05-06,IRL,Ireland,Dublin,144,1,139,30,4
+2021-05-06,IRL,Ireland,Galway,20,0,20,1,0
+2021-05-06,IRL,Ireland,Kerry,14,0,14,0,1
+2021-05-06,IRL,Ireland,Kildare,26,0,26,7,1
+2021-05-06,IRL,Ireland,Kilkenny,5,0,5,0,0
+2021-05-06,IRL,Ireland,Laois,7,0,7,5,0
+2021-05-06,IRL,Ireland,Leitrim,6,0,6,0,0
+2021-05-06,IRL,Ireland,Limerick,21,0,21,2,0
+2021-05-06,IRL,Ireland,Longford,4,0,4,1,0
+2021-05-06,IRL,Ireland,Louth,12,1,11,0,0
+2021-05-06,IRL,Ireland,Mayo,13,0,13,0,0
+2021-05-06,IRL,Ireland,Meath,20,0,19,3,0
+2021-05-06,IRL,Ireland,Monaghan,4,0,3,2,0
 2021-05-06,IRL,Ireland,Offaly,5,0,5,0,0
-2021-05-06,IRL,Ireland,Roscommon,6,0,6,0,0
-2021-05-06,IRL,Ireland,Sligo,7,0,7,0,0
-2021-05-06,IRL,Ireland,Tipperary,17,0,17,0,0
-2021-05-06,IRL,Ireland,Waterford,14,0,14,2,0
-2021-05-06,IRL,Ireland,Westmeath,6,0,6,0,1
+2021-05-06,IRL,Ireland,Roscommon,7,0,7,0,0
+2021-05-06,IRL,Ireland,Sligo,9,0,9,0,1
+2021-05-06,IRL,Ireland,Tipperary,20,0,20,2,1
+2021-05-06,IRL,Ireland,Waterford,15,0,15,2,0
+2021-05-06,IRL,Ireland,Westmeath,9,0,8,0,1
 2021-05-06,IRL,Ireland,Wexford,9,0,9,0,0
-2021-05-06,IRL,Ireland,Wicklow,15,0,15,6,1
+2021-05-06,IRL,Ireland,Wicklow,18,0,18,6,1
 2021-05-06,IMN,Isle Of Man,Michael,1,0,1,0,0
-2021-05-06,ISR,Israel,Golan,4,0,4,2,0
-2021-05-06,ISR,Israel,HaDarom,71,0,71,10,1
-2021-05-06,ISR,Israel,HaMerkaz,109,1,109,7,1
-2021-05-06,ISR,Israel,HaZafon,46,0,46,4,0
-2021-05-06,ISR,Israel,Haifa,62,0,62,11,1
-2021-05-06,ISR,Israel,Jerusalem,42,0,42,23,0
-2021-05-06,ISR,Israel,Tel Aviv,63,0,63,7,1
-2021-05-06,ITA,Italy,Abruzzo,92,1,91,14,0
-2021-05-06,ITA,Italy,Basilicata,42,0,42,18,0
-2021-05-06,ITA,Italy,Calabria,95,1,95,50,2
-2021-05-06,ITA,Italy,Campania,268,1,267,111,4
-2021-05-06,ITA,Italy,Emilia-Romagna,315,0,315,104,1
-2021-05-06,ITA,Italy,Friuli-Venezia Giulia,108,0,107,38,2
-2021-05-06,ITA,Italy,Lazio,331,2,331,60,3
-2021-05-06,ITA,Italy,Liguria,130,0,129,20,2
-2021-05-06,ITA,Italy,Lombardia,380,5,380,183,6
-2021-05-06,ITA,Italy,Marche,100,1,100,59,1
-2021-05-06,ITA,Italy,Molise,18,0,18,0,1
-2021-05-06,ITA,Italy,Piemonte,245,2,245,84,3
-2021-05-06,ITA,Italy,Puglia,226,0,225,114,5
-2021-05-06,ITA,Italy,Sardegna,140,1,140,17,3
-2021-05-06,ITA,Italy,Sicilia,243,0,243,160,6
-2021-05-06,ITA,Italy,Toscana,248,0,246,84,3
-2021-05-06,ITA,Italy,Trentino-Alto Adige,73,1,73,27,0
-2021-05-06,ITA,Italy,Umbria,65,0,65,9,0
-2021-05-06,ITA,Italy,Valle d'Aosta,13,0,13,14,0
-2021-05-06,ITA,Italy,Veneto,236,2,235,47,9
-2021-05-06,JPN,Japan,Aichi,300,2,299,107,1
-2021-05-06,JPN,Japan,Akita,23,0,23,0,0
-2021-05-06,JPN,Japan,Aomori,54,0,53,5,0
-2021-05-06,JPN,Japan,Chiba,298,1,298,15,1
-2021-05-06,JPN,Japan,Ehime,53,0,53,1,0
-2021-05-06,JPN,Japan,Fukui,24,0,24,0,0
-2021-05-06,JPN,Japan,Fukuoka,224,0,224,22,1
-2021-05-06,JPN,Japan,Fukushima,63,1,63,3,0
-2021-05-06,JPN,Japan,Gifu,76,0,76,1,0
-2021-05-06,JPN,Japan,Gunma,68,0,68,3,0
-2021-05-06,JPN,Japan,Hiroshima,123,3,122,2,1
-2021-05-06,JPN,Japan,Hokkaido,266,2,265,23,1
-2021-05-06,JPN,Japan,Hyōgo,259,0,258,31,1
-2021-05-06,JPN,Japan,Ibaraki,127,0,127,2,0
-2021-05-06,JPN,Japan,Ishikawa,55,0,55,0,0
-2021-05-06,JPN,Japan,Iwate,44,1,44,1,0
-2021-05-06,JPN,Japan,Kagawa,46,0,46,21,1
-2021-05-06,JPN,Japan,Kagoshima,48,0,47,3,0
-2021-05-06,JPN,Japan,Kanagawa,518,3,515,22,4
-2021-05-06,JPN,Japan,Kochi,22,0,22,0,0
-2021-05-06,JPN,Japan,Kumamoto,60,0,58,12,0
-2021-05-06,JPN,Japan,Kyoto,145,0,144,13,2
-2021-05-06,JPN,Japan,Mie,50,1,50,1,0
-2021-05-06,JPN,Japan,Miyagi,102,0,101,4,0
-2021-05-06,JPN,Japan,Miyazaki,41,0,41,2,0
-2021-05-06,JPN,Japan,Nagano,62,0,61,9,1
-2021-05-06,JPN,Japan,Nagasaki,50,0,50,3,0
-2021-05-06,JPN,Japan,Nara,46,0,46,3,1
-2021-05-06,JPN,Japan,Niigata,74,0,74,20,0
-2021-05-06,JPN,Japan,Oita,43,1,43,53,0
-2021-05-06,JPN,Japan,Okayama,64,1,64,4,0
-2021-05-06,JPN,Japan,Okinawa,58,1,58,6,1
-2021-05-06,JPN,Japan,Osaka,438,3,437,34,2
-2021-05-06,JPN,Japan,Saga,24,0,24,0,0
-2021-05-06,JPN,Japan,Saitama,331,2,330,13,4
-2021-05-06,JPN,Japan,Shiga,68,0,68,3,0
-2021-05-06,JPN,Japan,Shimane,22,0,22,0,0
-2021-05-06,JPN,Japan,Shizuoka,158,0,158,3,2
-2021-05-06,JPN,Japan,Tochigi,74,0,74,0,3
-2021-05-06,JPN,Japan,Tokushima,27,0,27,0,0
-2021-05-06,JPN,Japan,Tokyo,1030,5,1028,29,5
-2021-05-06,JPN,Japan,Tottori,23,0,23,0,0
-2021-05-06,JPN,Japan,Toyama,36,0,36,1,0
-2021-05-06,JPN,Japan,Wakayama,27,0,26,0,0
-2021-05-06,JPN,Japan,Yamagata,37,0,37,1,0
-2021-05-06,JPN,Japan,Yamaguchi,53,0,53,5,0
-2021-05-06,JPN,Japan,Yamanashi,37,0,37,1,1
+2021-05-06,IMN,Isle Of Man,Rushen,1,0,0,0,0
+2021-05-06,ISR,Israel,Golan,5,0,5,2,0
+2021-05-06,ISR,Israel,HaDarom,84,0,83,10,1
+2021-05-06,ISR,Israel,HaMerkaz,135,1,130,8,3
+2021-05-06,ISR,Israel,HaZafon,56,0,55,4,0
+2021-05-06,ISR,Israel,Haifa,78,0,71,12,1
+2021-05-06,ISR,Israel,Jerusalem,53,0,52,23,1
+2021-05-06,ISR,Israel,Tel Aviv,76,0,75,11,1
+2021-05-06,ITA,Italy,Abruzzo,115,2,112,17,1
+2021-05-06,ITA,Italy,Basilicata,52,0,49,22,1
+2021-05-06,ITA,Italy,Calabria,123,1,118,51,2
+2021-05-06,ITA,Italy,Campania,350,1,333,170,8
+2021-05-06,ITA,Italy,Emilia-Romagna,383,0,369,120,4
+2021-05-06,ITA,Italy,Friuli-Venezia Giulia,137,0,135,42,3
+2021-05-06,ITA,Italy,Lazio,413,4,391,69,5
+2021-05-06,ITA,Italy,Liguria,168,0,159,20,2
+2021-05-06,ITA,Italy,Lombardia,465,6,453,201,9
+2021-05-06,ITA,Italy,Marche,120,1,118,67,3
+2021-05-06,ITA,Italy,Molise,29,0,28,1,2
+2021-05-06,ITA,Italy,Piemonte,314,3,303,101,4
+2021-05-06,ITA,Italy,Puglia,283,1,277,145,6
+2021-05-06,ITA,Italy,Sardegna,170,1,167,28,3
+2021-05-06,ITA,Italy,Sicilia,305,0,296,167,9
+2021-05-06,ITA,Italy,Toscana,302,0,292,93,4
+2021-05-06,ITA,Italy,Trentino-Alto Adige,87,1,85,28,0
+2021-05-06,ITA,Italy,Umbria,81,0,79,10,0
+2021-05-06,ITA,Italy,Valle d'Aosta,14,0,13,14,0
+2021-05-06,ITA,Italy,Veneto,288,2,281,51,10
+2021-05-06,JAM,Jamaica,Clarendon,1,1,1,1,1
+2021-05-06,JPN,Japan,Aichi,376,2,359,109,1
+2021-05-06,JPN,Japan,Akita,32,0,30,5,0
+2021-05-06,JPN,Japan,Aomori,65,0,64,5,0
+2021-05-06,JPN,Japan,Chiba,358,1,345,18,1
+2021-05-06,JPN,Japan,Ehime,65,0,61,1,0
+2021-05-06,JPN,Japan,Fukui,36,0,33,0,0
+2021-05-06,JPN,Japan,Fukuoka,267,0,260,23,1
+2021-05-06,JPN,Japan,Fukushima,86,2,81,3,1
+2021-05-06,JPN,Japan,Gifu,89,0,85,1,0
+2021-05-06,JPN,Japan,Gunma,90,0,84,3,0
+2021-05-06,JPN,Japan,Hiroshima,158,3,147,2,1
+2021-05-06,JPN,Japan,Hokkaido,329,2,314,24,4
+2021-05-06,JPN,Japan,Hyōgo,318,2,310,32,2
+2021-05-06,JPN,Japan,Ibaraki,143,0,140,2,0
+2021-05-06,JPN,Japan,Ishikawa,65,0,63,0,0
+2021-05-06,JPN,Japan,Iwate,52,1,51,1,0
+2021-05-06,JPN,Japan,Kagawa,57,0,56,21,1
+2021-05-06,JPN,Japan,Kagoshima,64,1,61,7,1
+2021-05-06,JPN,Japan,Kanagawa,606,4,586,22,5
+2021-05-06,JPN,Japan,Kochi,31,0,27,0,1
+2021-05-06,JPN,Japan,Kumamoto,77,1,71,15,0
+2021-05-06,JPN,Japan,Kyoto,189,0,175,17,2
+2021-05-06,JPN,Japan,Mie,68,1,66,1,0
+2021-05-06,JPN,Japan,Miyagi,122,0,117,4,0
+2021-05-06,JPN,Japan,Miyazaki,48,0,46,2,0
+2021-05-06,JPN,Japan,Nagano,79,0,73,9,1
+2021-05-06,JPN,Japan,Nagasaki,60,0,58,3,0
+2021-05-06,JPN,Japan,Nara,61,0,59,4,1
+2021-05-06,JPN,Japan,Niigata,94,0,92,25,0
+2021-05-06,JPN,Japan,Oita,54,1,49,53,0
+2021-05-06,JPN,Japan,Okayama,85,1,82,4,0
+2021-05-06,JPN,Japan,Okinawa,69,1,67,6,1
+2021-05-06,JPN,Japan,Osaka,540,3,523,38,2
+2021-05-06,JPN,Japan,Saga,32,0,30,0,0
+2021-05-06,JPN,Japan,Saitama,403,2,391,15,4
+2021-05-06,JPN,Japan,Shiga,85,0,83,6,0
+2021-05-06,JPN,Japan,Shimane,25,0,25,0,0
+2021-05-06,JPN,Japan,Shizuoka,192,0,186,3,2
+2021-05-06,JPN,Japan,Tochigi,86,0,85,2,3
+2021-05-06,JPN,Japan,Tokushima,39,0,34,0,0
+2021-05-06,JPN,Japan,Tokyo,1217,8,1181,141,8
+2021-05-06,JPN,Japan,Tottori,27,0,26,0,0
+2021-05-06,JPN,Japan,Toyama,44,0,43,1,0
+2021-05-06,JPN,Japan,Wakayama,31,0,29,0,1
+2021-05-06,JPN,Japan,Yamagata,43,0,42,1,0
+2021-05-06,JPN,Japan,Yamaguchi,62,1,59,5,0
+2021-05-06,JPN,Japan,Yamanashi,48,0,45,1,1
+2021-05-06,JEY,Jersey,Trinity,1,0,1,0,0
 2021-05-06,JOR,Jordan,Ajlun,5,0,5,0,0
-2021-05-06,JOR,Jordan,Amman,130,1,130,96,5
-2021-05-06,JOR,Jordan,Aqaba,4,0,4,4,0
-2021-05-06,JOR,Jordan,Balqa,10,0,10,9,1
-2021-05-06,JOR,Jordan,Irbid,34,3,34,31,1
-2021-05-06,JOR,Jordan,Jarash,4,0,4,0,0
-2021-05-06,JOR,Jordan,Karak,6,0,6,10,0
-2021-05-06,JOR,Jordan,Ma`an,4,0,4,0,0
-2021-05-06,JOR,Jordan,Madaba,2,0,2,0,0
-2021-05-06,JOR,Jordan,Mafraq,13,0,13,13,1
-2021-05-06,JOR,Jordan,Tafilah,2,0,2,0,0
-2021-05-06,JOR,Jordan,Zarqa,26,0,26,21,2
-2021-05-06,KAZ,Kazakhstan,Almaty,52,0,52,60,2
-2021-05-06,KAZ,Kazakhstan,Aqmola,6,0,6,3,0
-2021-05-06,KAZ,Kazakhstan,Aqtöbe,6,0,6,0,0
-2021-05-06,KAZ,Kazakhstan,Atyrau,8,0,8,2,0
-2021-05-06,KAZ,Kazakhstan,East Kazakhstan,10,0,10,1,0
-2021-05-06,KAZ,Kazakhstan,Mangghystau,7,0,7,0,1
+2021-05-06,JOR,Jordan,Amman,184,2,167,105,9
+2021-05-06,JOR,Jordan,Aqaba,6,0,6,4,0
+2021-05-06,JOR,Jordan,Balqa,16,0,15,12,1
+2021-05-06,JOR,Jordan,Irbid,54,6,50,51,3
+2021-05-06,JOR,Jordan,Jarash,9,0,9,1,0
+2021-05-06,JOR,Jordan,Karak,11,0,9,10,1
+2021-05-06,JOR,Jordan,Ma`an,7,0,5,0,0
+2021-05-06,JOR,Jordan,Madaba,6,1,6,7,0
+2021-05-06,JOR,Jordan,Mafraq,21,0,20,17,1
+2021-05-06,JOR,Jordan,Tafilah,3,0,2,0,0
+2021-05-06,JOR,Jordan,Zarqa,39,0,35,32,3
+2021-05-06,KAZ,Kazakhstan,Almaty,65,0,63,65,2
+2021-05-06,KAZ,Kazakhstan,Aqmola,7,0,6,3,0
+2021-05-06,KAZ,Kazakhstan,Aqtöbe,8,0,8,0,0
+2021-05-06,KAZ,Kazakhstan,Atyrau,9,0,8,2,0
+2021-05-06,KAZ,Kazakhstan,East Kazakhstan,13,0,12,3,0
+2021-05-06,KAZ,Kazakhstan,Mangghystau,8,0,8,1,2
 2021-05-06,KAZ,Kazakhstan,North Kazakhstan,4,0,4,0,0
-2021-05-06,KAZ,Kazakhstan,Nur-Sultan (Astana),20,1,20,5,1
-2021-05-06,KAZ,Kazakhstan,Pavlodar,2,0,2,0,0
-2021-05-06,KAZ,Kazakhstan,Qaraghandy,10,0,10,2,0
+2021-05-06,KAZ,Kazakhstan,Nur-Sultan (Astana),29,1,27,9,2
+2021-05-06,KAZ,Kazakhstan,Pavlodar,5,1,5,0,0
+2021-05-06,KAZ,Kazakhstan,Qaraghandy,17,0,15,2,0
 2021-05-06,KAZ,Kazakhstan,Qostanay,4,0,4,3,0
 2021-05-06,KAZ,Kazakhstan,Qyzylorda,8,0,8,0,0
-2021-05-06,KAZ,Kazakhstan,South Kazakhstan,13,0,13,18,1
-2021-05-06,KAZ,Kazakhstan,West Kazakhstan,11,0,11,3,1
-2021-05-06,KAZ,Kazakhstan,Zhambyl,7,0,7,1,0
-2021-05-06,KEN,Kenya,Baringo,2,0,2,4,0
-2021-05-06,KEN,Kenya,Bomet,3,1,3,4,0
-2021-05-06,KEN,Kenya,Bungoma,13,1,13,5,1
-2021-05-06,KEN,Kenya,Busia,6,0,6,0,0
-2021-05-06,KEN,Kenya,Elgeyo-Marakwet,1,0,1,0,0
-2021-05-06,KEN,Kenya,Embu,2,0,2,0,0
+2021-05-06,KAZ,Kazakhstan,South Kazakhstan,15,0,15,18,1
+2021-05-06,KAZ,Kazakhstan,West Kazakhstan,18,1,16,13,1
+2021-05-06,KAZ,Kazakhstan,Zhambyl,11,0,10,3,0
+2021-05-06,KEN,Kenya,Baringo,3,0,3,4,0
+2021-05-06,KEN,Kenya,Bomet,6,1,6,11,0
+2021-05-06,KEN,Kenya,Bungoma,18,1,18,8,1
+2021-05-06,KEN,Kenya,Busia,8,0,8,0,0
+2021-05-06,KEN,Kenya,Elgeyo-Marakwet,2,0,2,8,0
+2021-05-06,KEN,Kenya,Embu,3,0,2,0,0
 2021-05-06,KEN,Kenya,Garissa,3,0,3,0,0
-2021-05-06,KEN,Kenya,Homa Bay,2,0,2,1,0
-2021-05-06,KEN,Kenya,Isiolo,2,0,2,2,0
-2021-05-06,KEN,Kenya,Kajiado,10,1,10,17,0
-2021-05-06,KEN,Kenya,Kakamega,10,0,10,5,0
-2021-05-06,KEN,Kenya,Kericho,5,0,5,0,0
-2021-05-06,KEN,Kenya,Kiambu,22,0,22,8,0
+2021-05-06,KEN,Kenya,Homa Bay,4,1,4,4,1
+2021-05-06,KEN,Kenya,Isiolo,3,0,3,3,0
+2021-05-06,KEN,Kenya,Kajiado,13,1,13,17,0
+2021-05-06,KEN,Kenya,Kakamega,15,0,15,7,0
+2021-05-06,KEN,Kenya,Kericho,8,0,8,0,0
+2021-05-06,KEN,Kenya,Kiambu,33,0,32,18,0
 2021-05-06,KEN,Kenya,Kilifi,4,1,4,0,2
-2021-05-06,KEN,Kenya,Kirinyaga,3,0,3,0,0
-2021-05-06,KEN,Kenya,Kisii,2,0,2,0,0
-2021-05-06,KEN,Kenya,Kisumu,10,1,10,5,1
-2021-05-06,KEN,Kenya,Kitui,4,0,4,0,0
-2021-05-06,KEN,Kenya,Kwale,2,0,2,2,0
+2021-05-06,KEN,Kenya,Kirinyaga,4,0,4,0,0
+2021-05-06,KEN,Kenya,Kisii,9,0,7,3,1
+2021-05-06,KEN,Kenya,Kisumu,17,1,14,6,1
+2021-05-06,KEN,Kenya,Kitui,7,0,6,0,1
+2021-05-06,KEN,Kenya,Kwale,3,0,3,2,0
 2021-05-06,KEN,Kenya,Laikipia,2,0,2,0,0
-2021-05-06,KEN,Kenya,Machakos,5,0,5,1,0
-2021-05-06,KEN,Kenya,Makueni,4,0,4,0,0
-2021-05-06,KEN,Kenya,Mandera,1,0,1,0,0
-2021-05-06,KEN,Kenya,Marsabit,1,0,1,15,1
-2021-05-06,KEN,Kenya,Meru,7,0,7,4,1
-2021-05-06,KEN,Kenya,Migori,5,2,5,0,2
-2021-05-06,KEN,Kenya,Mombasa,16,0,16,9,0
-2021-05-06,KEN,Kenya,Murang'a,1,0,1,0,0
-2021-05-06,KEN,Kenya,Nairobi,95,1,95,36,3
-2021-05-06,KEN,Kenya,Nakuru,17,0,17,3,0
-2021-05-06,KEN,Kenya,Nandi,2,0,2,0,0
-2021-05-06,KEN,Kenya,Narok,4,1,4,4,0
+2021-05-06,KEN,Kenya,Lamu,1,0,1,0,0
+2021-05-06,KEN,Kenya,Machakos,13,0,11,9,1
+2021-05-06,KEN,Kenya,Makueni,9,0,8,0,1
+2021-05-06,KEN,Kenya,Mandera,2,0,2,2,1
+2021-05-06,KEN,Kenya,Marsabit,2,0,2,15,1
+2021-05-06,KEN,Kenya,Meru,10,0,9,14,1
+2021-05-06,KEN,Kenya,Migori,11,4,10,5,4
+2021-05-06,KEN,Kenya,Mombasa,27,0,25,9,1
+2021-05-06,KEN,Kenya,Murang'a,2,0,1,0,0
+2021-05-06,KEN,Kenya,Nairobi,154,3,144,70,4
+2021-05-06,KEN,Kenya,Nakuru,23,0,23,8,0
+2021-05-06,KEN,Kenya,Nandi,4,0,4,0,0
+2021-05-06,KEN,Kenya,Narok,7,1,7,4,0
 2021-05-06,KEN,Kenya,Nyamira,2,0,2,0,0
-2021-05-06,KEN,Kenya,Nyandarua,2,0,2,0,0
-2021-05-06,KEN,Kenya,Nyeri,6,0,6,2,0
-2021-05-06,KEN,Kenya,Samburu,1,0,1,10,0
-2021-05-06,KEN,Kenya,Siaya,5,0,5,1,0
+2021-05-06,KEN,Kenya,Nyandarua,3,0,3,0,0
+2021-05-06,KEN,Kenya,Nyeri,8,0,8,2,0
+2021-05-06,KEN,Kenya,Samburu,2,0,2,10,0
+2021-05-06,KEN,Kenya,Siaya,9,0,8,1,1
 2021-05-06,KEN,Kenya,Taita Taveta,2,0,2,0,0
-2021-05-06,KEN,Kenya,Tharaka-Nithi,2,0,2,0,0
-2021-05-06,KEN,Kenya,Trans Nzoia,4,0,4,0,0
-2021-05-06,KEN,Kenya,Turkana,4,1,4,0,0
-2021-05-06,KEN,Kenya,Uasin Gishu,13,0,13,6,0
-2021-05-06,KEN,Kenya,Vihiga,4,0,4,0,1
-2021-05-06,KEN,Kenya,Wajir,2,0,2,0,0
-2021-05-06,KEN,Kenya,West Pokot,1,0,1,0,0
-2021-05-06,KWT,Kuwait,Al Ahmadi,9,1,9,4,1
-2021-05-06,KWT,Kuwait,Al Farwaniyah,12,0,12,0,0
-2021-05-06,KWT,Kuwait,Al Jahrah,4,0,4,3,1
+2021-05-06,KEN,Kenya,Tana River,3,0,3,0,1
+2021-05-06,KEN,Kenya,Tharaka-Nithi,3,0,3,0,0
+2021-05-06,KEN,Kenya,Trans Nzoia,6,0,5,1,0
+2021-05-06,KEN,Kenya,Turkana,5,1,5,0,0
+2021-05-06,KEN,Kenya,Uasin Gishu,21,1,21,8,1
+2021-05-06,KEN,Kenya,Vihiga,6,1,5,0,2
+2021-05-06,KEN,Kenya,Wajir,3,0,3,0,0
+2021-05-06,KEN,Kenya,West Pokot,2,0,2,0,0
+2021-05-06,KWT,Kuwait,Al Ahmadi,12,1,10,4,1
+2021-05-06,KWT,Kuwait,Al Farwaniyah,24,0,23,4,0
+2021-05-06,KWT,Kuwait,Al Jahrah,6,0,6,4,1
 2021-05-06,KWT,Kuwait,Al Kuwayt,2,0,2,1,0
-2021-05-06,KWT,Kuwait,Hawalli,19,1,19,20,2
-2021-05-06,KWT,Kuwait,Mubarak Al-Kabeer,3,0,3,1,0
-2021-05-06,KGZ,Kyrgyzstan,Batken,2,0,2,0,0
-2021-05-06,KGZ,Kyrgyzstan,Biškek,25,1,25,12,1
-2021-05-06,KGZ,Kyrgyzstan,Chüy,2,0,2,0,0
-2021-05-06,KGZ,Kyrgyzstan,Osh,3,0,3,0,0
-2021-05-06,KGZ,Kyrgyzstan,Osh (city),1,0,1,0,0
+2021-05-06,KWT,Kuwait,Hawalli,34,2,32,29,3
+2021-05-06,KWT,Kuwait,Mubarak Al-Kabeer,4,0,4,2,0
+2021-05-06,KGZ,Kyrgyzstan,Batken,4,0,4,0,0
+2021-05-06,KGZ,Kyrgyzstan,Biškek,33,1,30,13,3
+2021-05-06,KGZ,Kyrgyzstan,Chüy,3,1,2,0,0
+2021-05-06,KGZ,Kyrgyzstan,Naryn,1,0,1,0,0
+2021-05-06,KGZ,Kyrgyzstan,Osh,4,1,3,0,1
+2021-05-06,KGZ,Kyrgyzstan,Osh (city),2,0,2,0,0
 2021-05-06,KGZ,Kyrgyzstan,Talas,2,0,2,0,0
-2021-05-06,KGZ,Kyrgyzstan,Ysyk-Köl,1,0,1,0,0
-2021-05-06,LAO,Laos,Attapu,1,0,1,0,0
-2021-05-06,LAO,Laos,Champasak,1,0,1,0,0
+2021-05-06,KGZ,Kyrgyzstan,Ysyk-Köl,3,0,1,0,1
+2021-05-06,LAO,Laos,Attapu,3,0,3,0,1
+2021-05-06,LAO,Laos,Champasak,2,0,2,0,0
 2021-05-06,LAO,Laos,Khammouan,2,0,2,0,0
+2021-05-06,LAO,Laos,Louangphrabang,1,0,1,0,0
+2021-05-06,LAO,Laos,Oudômxai,1,1,1,1,1
 2021-05-06,LAO,Laos,Saravan,1,0,1,0,0
-2021-05-06,LAO,Laos,Vientiane,11,0,11,0,0
-2021-05-06,LAO,Laos,Vientiane [prefecture],4,0,4,1,0
-2021-05-06,LAO,Laos,Xaignabouri,1,0,1,0,0
+2021-05-06,LAO,Laos,Savannakhét,3,0,2,0,0
+2021-05-06,LAO,Laos,Vientiane,14,0,14,0,0
+2021-05-06,LAO,Laos,Vientiane [prefecture],5,0,5,1,0
+2021-05-06,LAO,Laos,Xaignabouri,2,0,2,0,0
 2021-05-06,LVA,Latvia,Riga,1,0,1,2,0
-2021-05-06,LBN,Lebanon,Akkar,2,0,2,0,0
-2021-05-06,LBN,Lebanon,Baalbak - Hermel,1,0,1,0,0
-2021-05-06,LBN,Lebanon,Beirut,31,1,31,11,2
-2021-05-06,LBN,Lebanon,Bekaa,4,0,4,6,0
-2021-05-06,LBN,Lebanon,Mount Lebanon,29,0,29,12,0
-2021-05-06,LBN,Lebanon,Nabatiyeh,7,0,7,22,0
-2021-05-06,LBN,Lebanon,North,7,0,7,6,1
-2021-05-06,LBN,Lebanon,South,5,0,5,1,0
-2021-05-06,LBY,Libya,Al Butnan,2,0,2,0,0
-2021-05-06,LBY,Libya,Al Jabal al Akhdar,5,0,5,6,0
-2021-05-06,LBY,Libya,Al Jabal al Gharbi,4,0,4,6,0
+2021-05-06,LBN,Lebanon,Akkar,6,0,5,10,0
+2021-05-06,LBN,Lebanon,Baalbak - Hermel,3,0,2,0,0
+2021-05-06,LBN,Lebanon,Beirut,42,1,42,11,2
+2021-05-06,LBN,Lebanon,Bekaa,8,0,6,7,0
+2021-05-06,LBN,Lebanon,Mount Lebanon,40,0,38,15,0
+2021-05-06,LBN,Lebanon,Nabatiyeh,8,0,8,22,0
+2021-05-06,LBN,Lebanon,North,11,0,11,6,2
+2021-05-06,LBN,Lebanon,South,9,0,9,3,0
+2021-05-06,LBY,Libya,Al Butnan,3,0,3,0,0
+2021-05-06,LBY,Libya,Al Jabal al Akhdar,7,0,6,6,0
+2021-05-06,LBY,Libya,Al Jabal al Gharbi,6,0,6,6,0
 2021-05-06,LBY,Libya,Al Jifarah,2,0,2,1,0
-2021-05-06,LBY,Libya,Al Jufrah,1,0,1,0,0
-2021-05-06,LBY,Libya,Al Marqab,5,0,5,0,0
-2021-05-06,LBY,Libya,An Nuqat al Khams,2,0,2,6,0
-2021-05-06,LBY,Libya,Az Zawiyah,8,0,8,0,0
-2021-05-06,LBY,Libya,Benghazi,21,0,21,46,1
-2021-05-06,LBY,Libya,Darnah,2,0,2,1,0
-2021-05-06,LBY,Libya,Misratah,9,1,9,20,1
-2021-05-06,LBY,Libya,Sabha,3,0,3,4,0
-2021-05-06,LBY,Libya,Surt,1,0,1,0,0
-2021-05-06,LBY,Libya,Tripoli,53,0,53,75,1
+2021-05-06,LBY,Libya,Al Jufrah,3,0,2,0,0
+2021-05-06,LBY,Libya,Al Marj,1,1,0,0,1
+2021-05-06,LBY,Libya,Al Marqab,8,0,8,0,0
+2021-05-06,LBY,Libya,An Nuqat al Khams,5,0,4,7,0
+2021-05-06,LBY,Libya,Az Zawiyah,10,1,10,2,0
+2021-05-06,LBY,Libya,Benghazi,30,0,29,48,2
+2021-05-06,LBY,Libya,Darnah,3,0,3,5,0
+2021-05-06,LBY,Libya,Misratah,15,1,14,24,2
+2021-05-06,LBY,Libya,Murzuq,1,0,1,6,0
+2021-05-06,LBY,Libya,Nalut,1,0,0,0,0
+2021-05-06,LBY,Libya,Sabha,7,0,7,15,0
+2021-05-06,LBY,Libya,Surt,2,0,2,10,0
+2021-05-06,LBY,Libya,Tripoli,85,3,81,111,5
 2021-05-06,LBY,Libya,Wadi ash Shati',3,0,3,0,1
 2021-05-06,LIE,Liechtenstein,Ruggell,1,1,1,15,1
 2021-05-06,LUX,Luxembourg,Grevenmacher,1,0,1,3,0
+2021-05-06,LUX,Luxembourg,Luxembourg,1,0,1,1,0
 2021-05-06,LUX,Luxembourg,Mersch,1,0,1,0,0
 2021-05-06,MAC,Macau,Sé,1,0,1,0,0
-2021-05-06,MDG,Madagascar,Analamanga,18,2,18,11,1
+2021-05-06,MDG,Madagascar,Analamanga,25,3,23,12,2
 2021-05-06,MDG,Madagascar,Atsinanana,2,0,2,0,1
 2021-05-06,MDG,Madagascar,Diana,2,0,2,0,0
+2021-05-06,MDG,Madagascar,Itasy,1,0,1,0,0
+2021-05-06,MDG,Madagascar,Melaky,1,0,1,1,0
 2021-05-06,MDG,Madagascar,Sava,1,0,1,0,0
 2021-05-06,MWI,Malawi,Blantyre,1,0,1,0,0
-2021-05-06,MYS,Malaysia,Johor,73,1,73,18,1
-2021-05-06,MYS,Malaysia,Kedah,24,1,24,3,1
-2021-05-06,MYS,Malaysia,Kelantan,14,0,14,3,0
-2021-05-06,MYS,Malaysia,Kuala Lumpur,84,3,84,37,1
-2021-05-06,MYS,Malaysia,Labuan,1,0,1,0,0
-2021-05-06,MYS,Malaysia,Melaka,10,0,10,3,0
-2021-05-06,MYS,Malaysia,Negeri Sembilan,14,0,14,2,0
-2021-05-06,MYS,Malaysia,Pahang,17,0,17,0,1
-2021-05-06,MYS,Malaysia,Perak,30,0,30,9,0
-2021-05-06,MYS,Malaysia,Perlis,2,0,2,0,0
-2021-05-06,MYS,Malaysia,Pulau Pinang,32,0,32,4,0
-2021-05-06,MYS,Malaysia,Putrajaya,6,0,6,0,0
-2021-05-06,MYS,Malaysia,Sabah,23,0,22,4,0
-2021-05-06,MYS,Malaysia,Sarawak,41,0,41,1,0
-2021-05-06,MYS,Malaysia,Selangor,155,2,155,130,2
-2021-05-06,MYS,Malaysia,Terengganu,10,0,10,0,0
+2021-05-06,MYS,Malaysia,Johor,101,3,97,23,2
+2021-05-06,MYS,Malaysia,Kedah,38,2,33,4,1
+2021-05-06,MYS,Malaysia,Kelantan,28,0,27,3,0
+2021-05-06,MYS,Malaysia,Kuala Lumpur,122,3,113,59,2
+2021-05-06,MYS,Malaysia,Labuan,3,0,2,0,0
+2021-05-06,MYS,Malaysia,Melaka,18,1,17,5,1
+2021-05-06,MYS,Malaysia,Negeri Sembilan,21,1,19,4,0
+2021-05-06,MYS,Malaysia,Pahang,22,0,22,0,1
+2021-05-06,MYS,Malaysia,Perak,45,0,44,11,0
+2021-05-06,MYS,Malaysia,Perlis,5,0,5,100,1
+2021-05-06,MYS,Malaysia,Pulau Pinang,48,0,44,8,0
+2021-05-06,MYS,Malaysia,Putrajaya,7,0,7,0,0
+2021-05-06,MYS,Malaysia,Sabah,34,0,31,5,0
+2021-05-06,MYS,Malaysia,Sarawak,65,0,64,4,0
+2021-05-06,MYS,Malaysia,Selangor,204,2,197,146,3
+2021-05-06,MYS,Malaysia,Terengganu,14,0,13,0,0
 2021-05-06,MDV,Maldives,Central Province,1,0,1,0,0
-2021-05-06,MLI,Mali,Bamako,17,0,17,1,1
-2021-05-06,MLI,Mali,Ségou,1,0,1,0,0
+2021-05-06,MDV,Maldives,South Province,1,1,1,1,1
+2021-05-06,MLI,Mali,Bamako,26,0,25,1,2
+2021-05-06,MLI,Mali,Koulikoro,2,0,1,0,0
+2021-05-06,MLI,Mali,Mopti,2,0,1,0,0
+2021-05-06,MLI,Mali,Ségou,3,0,2,0,0
+2021-05-06,MLI,Mali,Tombouctou,1,0,1,0,0
+2021-05-06,MLT,Malta,Nofsinhar,1,0,1,0,0
+2021-05-06,MRT,Mauritania,Assaba,1,0,1,0,0
+2021-05-06,MRT,Mauritania,Dakhlet Nouadhibou,1,0,0,0,0
 2021-05-06,MRT,Mauritania,Gorgol,1,0,1,0,0
-2021-05-06,MRT,Mauritania,Nouakchott,3,0,3,2,0
-2021-05-06,MRT,Mauritania,Trarza,1,0,1,1,0
+2021-05-06,MRT,Mauritania,Nouakchott,5,0,5,2,0
+2021-05-06,MRT,Mauritania,Trarza,2,0,2,1,0
+2021-05-06,MUS,Mauritius,Black River,1,0,1,5,0
 2021-05-06,MUS,Mauritius,Plaines Wilhems,1,1,1,2,0
-2021-05-06,MEX,Mexico,Aguascalientes,65,1,65,45,2
-2021-05-06,MEX,Mexico,Baja California,215,2,214,113,7
-2021-05-06,MEX,Mexico,Baja California Sur,42,2,42,25,2
-2021-05-06,MEX,Mexico,Campeche,28,0,28,6,1
-2021-05-06,MEX,Mexico,Chiapas,79,1,78,36,4
-2021-05-06,MEX,Mexico,Chihuahua,201,1,199,274,13
-2021-05-06,MEX,Mexico,Coahuila,105,1,105,36,4
-2021-05-06,MEX,Mexico,Colima,37,0,37,9,0
-2021-05-06,MEX,Mexico,Distrito Federal,592,3,592,236.6,11
-2021-05-06,MEX,Mexico,Durango,50,4,50,11,3
-2021-05-06,MEX,Mexico,Guanajuato,126,3,125,55,3
-2021-05-06,MEX,Mexico,Guerrero,74,3,74,54,5
-2021-05-06,MEX,Mexico,Hidalgo,96,0,96,68,1
-2021-05-06,MEX,Mexico,Jalisco,252,2,251,109,12
-2021-05-06,MEX,Mexico,México,462,2,462,210,13
-2021-05-06,MEX,Mexico,Michoacán,110,5,110,54,5
-2021-05-06,MEX,Mexico,Morelos,84,2,84,63,1
-2021-05-06,MEX,Mexico,Nayarit,24,1,24,4,1
-2021-05-06,MEX,Mexico,Nuevo León,228,2,228,102,4
-2021-05-06,MEX,Mexico,Oaxaca,82,0,81,120,3
-2021-05-06,MEX,Mexico,Puebla,212,0,211,225,4
-2021-05-06,MEX,Mexico,Querétaro,111,0,110,59,7
-2021-05-06,MEX,Mexico,Quintana Roo,101,5,101,86,5
-2021-05-06,MEX,Mexico,San Luis Potosí,93,2,93,97,1
-2021-05-06,MEX,Mexico,Sinaloa,85,2,85,34,3
-2021-05-06,MEX,Mexico,Sonora,114,1,114,46,3
-2021-05-06,MEX,Mexico,Tabasco,68,2,68,64,7
-2021-05-06,MEX,Mexico,Tamaulipas,87,1,87,51,1
-2021-05-06,MEX,Mexico,Tlaxcala,33,0,33,7,1
-2021-05-06,MEX,Mexico,Veracruz,209,1,209,122,3
-2021-05-06,MEX,Mexico,Yucatán,84,0,83,44,0
-2021-05-06,MEX,Mexico,Zacatecas,41,0,41,22,1
+2021-05-06,MYT,Mayotte,Mamoudzou,1,0,0,0,0
+2021-05-06,MEX,Mexico,Aguascalientes,89,1,84,55,3
+2021-05-06,MEX,Mexico,Baja California,301,3,286,141,10
+2021-05-06,MEX,Mexico,Baja California Sur,62,2,58,32,2
+2021-05-06,MEX,Mexico,Campeche,39,1,37,10,3
+2021-05-06,MEX,Mexico,Chiapas,110,1,104,51,4
+2021-05-06,MEX,Mexico,Chihuahua,270,4,256,286,18
+2021-05-06,MEX,Mexico,Coahuila,147,2,136,81,7
+2021-05-06,MEX,Mexico,Colima,44,0,44,11,0
+2021-05-06,MEX,Mexico,Distrito Federal,791,7,765,342.6,19
+2021-05-06,MEX,Mexico,Durango,73,4,69,17,3
+2021-05-06,MEX,Mexico,Guanajuato,180,3,168,70,6
+2021-05-06,MEX,Mexico,Guerrero,100,3,94,76,6
+2021-05-06,MEX,Mexico,Hidalgo,132,0,126,80,2
+2021-05-06,MEX,Mexico,Jalisco,315,2,306,125,15
+2021-05-06,MEX,Mexico,México,632,3,602,269,16
+2021-05-06,MEX,Mexico,Michoacán,165,8,157,81,10
+2021-05-06,MEX,Mexico,Morelos,110,3,100,75,3
+2021-05-06,MEX,Mexico,Nayarit,42,1,39,9,1
+2021-05-06,MEX,Mexico,Nuevo León,306,2,288,108,5
+2021-05-06,MEX,Mexico,Oaxaca,107,0,100,132,4
+2021-05-06,MEX,Mexico,Puebla,280,3,269,301,8
+2021-05-06,MEX,Mexico,Querétaro,140,0,131,81,8
+2021-05-06,MEX,Mexico,Quintana Roo,145,5,137,113,5
+2021-05-06,MEX,Mexico,San Luis Potosí,122,2,121,98,1
+2021-05-06,MEX,Mexico,Sinaloa,117,2,111,37,5
+2021-05-06,MEX,Mexico,Sonora,148,2,144,51,5
+2021-05-06,MEX,Mexico,Tabasco,93,4,88,69,8
+2021-05-06,MEX,Mexico,Tamaulipas,116,1,110,54,1
+2021-05-06,MEX,Mexico,Tlaxcala,51,1,48,8,2
+2021-05-06,MEX,Mexico,Veracruz,301,2,284,146,6
+2021-05-06,MEX,Mexico,Yucatán,111,0,107,56,2
+2021-05-06,MEX,Mexico,Zacatecas,59,0,58,28,1
 2021-05-06,MDA,Moldova,Anenii Noi,1,0,1,0,0
 2021-05-06,MDA,Moldova,Bălţi,1,0,1,0,0
 2021-05-06,MDA,Moldova,Basarabeasca,1,0,1,0,0
-2021-05-06,MDA,Moldova,Bender,2,0,2,0,0
-2021-05-06,MDA,Moldova,Cahul,2,0,2,0,0
+2021-05-06,MDA,Moldova,Bender,3,0,3,0,0
+2021-05-06,MDA,Moldova,Cahul,3,0,3,1,0
 2021-05-06,MDA,Moldova,Calarasi,1,0,1,0,0
 2021-05-06,MDA,Moldova,Causeni,2,0,2,6,0
-2021-05-06,MDA,Moldova,Chişinău,40,0,40,26,1
-2021-05-06,MDA,Moldova,Drochia,1,0,1,0,0
+2021-05-06,MDA,Moldova,Chişinău,54,0,51,28,2
+2021-05-06,MDA,Moldova,Drochia,2,0,2,0,0
 2021-05-06,MDA,Moldova,Dubăsari,1,0,1,0,0
+2021-05-06,MDA,Moldova,Edineţ,2,0,2,0,0
+2021-05-06,MDA,Moldova,Făleşti,1,0,1,0,0
 2021-05-06,MDA,Moldova,Glodeni,2,0,2,0,0
-2021-05-06,MDA,Moldova,Leova,1,0,1,0,0
-2021-05-06,MDA,Moldova,Orhei,1,0,1,0,0
+2021-05-06,MDA,Moldova,Ialoveni,1,0,1,0,0
+2021-05-06,MDA,Moldova,Leova,2,0,2,0,0
+2021-05-06,MDA,Moldova,Orhei,2,0,2,0,0
 2021-05-06,MDA,Moldova,Rîşcani,1,0,1,1,0
 2021-05-06,MDA,Moldova,Rezina,1,0,1,0,0
-2021-05-06,MDA,Moldova,Sîngerei,1,0,1,0,0
+2021-05-06,MDA,Moldova,Sîngerei,2,0,1,0,0
 2021-05-06,MDA,Moldova,Soroca,1,0,1,3,0
 2021-05-06,MDA,Moldova,Străşeni,1,0,1,0,0
 2021-05-06,MDA,Moldova,Taraclia,1,0,1,1,0
@@ -1049,1029 +1170,1083 @@ date,ISO3,country,region,count,cli,count_local_com,cli_local_com,anosmia
 2021-05-06,MDA,Moldova,Transnistria,4,0,4,3,0
 2021-05-06,MDA,Moldova,Ungheni,1,0,1,0,0
 2021-05-06,MNE,Montenegro,Podgorica,1,0,1,0,0
-2021-05-06,MAR,Morocco,Béni Mellal-Khénifra,6,1,6,9,0
-2021-05-06,MAR,Morocco,Casablanca-Settat,53,1,53,29,1
+2021-05-06,MAR,Morocco,Béni Mellal-Khénifra,10,2,7,9,1
+2021-05-06,MAR,Morocco,Casablanca-Settat,79,3,75,120,3
 2021-05-06,MAR,Morocco,Dakhla-Oued Ed-Dahab,1,0,0,0,1
-2021-05-06,MAR,Morocco,Drâa-Tafilalet,2,1,2,0,0
-2021-05-06,MAR,Morocco,Fès-Meknès,17,0,17,82,0
-2021-05-06,MAR,Morocco,Guelmim-Oued Noun,1,0,1,0,0
-2021-05-06,MAR,Morocco,Marrakesh-Safi,15,0,15,0,1
-2021-05-06,MAR,Morocco,Oriental,12,0,12,4,1
-2021-05-06,MAR,Morocco,Rabat-Salé-Kénitra,28,0,28,1,2
-2021-05-06,MAR,Morocco,Souss-Massa,12,0,12,0,0
-2021-05-06,MAR,Morocco,Tanger-Tetouan-Al Hoceima,14,0,14,4,0
-2021-05-06,MOZ,Mozambique,Gaza,3,0,3,0,0
+2021-05-06,MAR,Morocco,Drâa-Tafilalet,4,1,4,0,0
+2021-05-06,MAR,Morocco,Fès-Meknès,24,0,20,82,1
+2021-05-06,MAR,Morocco,Guelmim-Oued Noun,2,0,2,0,0
+2021-05-06,MAR,Morocco,Marrakesh-Safi,28,0,24,1,2
+2021-05-06,MAR,Morocco,Oriental,21,0,20,9,1
+2021-05-06,MAR,Morocco,Rabat-Salé-Kénitra,49,1,45,2,3
+2021-05-06,MAR,Morocco,Souss-Massa,17,0,16,15,1
+2021-05-06,MAR,Morocco,Tanger-Tetouan-Al Hoceima,23,1,22,5,1
+2021-05-06,MOZ,Mozambique,Gaza,4,0,4,0,0
 2021-05-06,MOZ,Mozambique,Inhambane,1,0,1,0,0
-2021-05-06,MOZ,Mozambique,Manica,5,0,5,0,0
-2021-05-06,MOZ,Mozambique,Maputo,15,2,15,0,2
-2021-05-06,MOZ,Mozambique,Maputo City,4,0,4,3,0
-2021-05-06,MOZ,Mozambique,Nampula,1,0,1,0,0
-2021-05-06,MOZ,Mozambique,Niassa,1,0,1,0,0
-2021-05-06,MOZ,Mozambique,Sofala,7,0,7,3,1
-2021-05-06,MOZ,Mozambique,Tete,3,0,3,4,0
-2021-05-06,MOZ,Mozambique,Zambezia,1,0,1,0,0
-2021-05-06,MMR,Myanmar,Ayeyarwady,1,0,1,0,0
-2021-05-06,MMR,Myanmar,Kachin,1,0,1,0,0
+2021-05-06,MOZ,Mozambique,Manica,9,0,7,0,0
+2021-05-06,MOZ,Mozambique,Maputo,23,3,21,0,3
+2021-05-06,MOZ,Mozambique,Maputo City,10,0,10,8,0
+2021-05-06,MOZ,Mozambique,Nampula,5,0,5,7,1
+2021-05-06,MOZ,Mozambique,Niassa,3,0,3,0,0
+2021-05-06,MOZ,Mozambique,Sofala,8,0,7,3,1
+2021-05-06,MOZ,Mozambique,Tete,6,0,6,4,0
+2021-05-06,MOZ,Mozambique,Zambezia,5,0,5,2,0
+2021-05-06,MMR,Myanmar,Ayeyarwady,3,2,2,1,2
+2021-05-06,MMR,Myanmar,Bago,2,0,1,0,0
+2021-05-06,MMR,Myanmar,Kachin,2,1,2,1,1
 2021-05-06,MMR,Myanmar,Kayin,1,0,1,0,0
 2021-05-06,MMR,Myanmar,Magway,2,0,2,0,1
-2021-05-06,MMR,Myanmar,Mandalay,7,0,7,0,0
-2021-05-06,MMR,Myanmar,Mon,3,0,3,0,0
-2021-05-06,MMR,Myanmar,Sagaing,2,0,2,0,0
-2021-05-06,MMR,Myanmar,Shan,2,0,2,0,0
-2021-05-06,MMR,Myanmar,Tanintharyi,2,0,2,100,0
-2021-05-06,MMR,Myanmar,Yangon,15,1,15,1,0
-2021-05-06,NPL,Nepal,Bagmati Pradesh,194,9,193,314,14
-2021-05-06,NPL,Nepal,Gandaki Pradesh,27,0,27,25.3,1
-2021-05-06,NPL,Nepal,Karnali Pradesh,6,1,6,102,0
-2021-05-06,NPL,Nepal,Province No. 1,48,1,48,34,2
-2021-05-06,NPL,Nepal,Province No. 2,37,5,37,89,2
-2021-05-06,NPL,Nepal,Province No. 5,49,3,49,81,6
-2021-05-06,NPL,Nepal,Sudurpashchim Pradesh,14,2,14,193,2
-2021-05-06,NLD,Netherlands,Drenthe,46,0,45,17,1
-2021-05-06,NLD,Netherlands,Flevoland,29,0,29,11,0
-2021-05-06,NLD,Netherlands,Friesland,37,0,37,6,1
-2021-05-06,NLD,Netherlands,Gelderland,124,1,124,49,5
-2021-05-06,NLD,Netherlands,Groningen,47,0,47,8,3
-2021-05-06,NLD,Netherlands,Limburg,69,1,69,28,3
-2021-05-06,NLD,Netherlands,Noord-Brabant,184,3,183,54,7
-2021-05-06,NLD,Netherlands,Noord-Holland,180,0,180,76,4
-2021-05-06,NLD,Netherlands,Overijssel,67,0,67,38,3
-2021-05-06,NLD,Netherlands,Utrecht,52,0,52,2,2
-2021-05-06,NLD,Netherlands,Zeeland,22,0,22,1,2
-2021-05-06,NLD,Netherlands,Zuid-Holland,203,2,203,74,6
-2021-05-06,NZL,New Zealand,Auckland,87,1,87,8,2
-2021-05-06,NZL,New Zealand,Bay of Plenty,19,0,19,0,1
-2021-05-06,NZL,New Zealand,Canterbury,50,0,49,5,0
-2021-05-06,NZL,New Zealand,Gisborne,2,0,2,0,0
-2021-05-06,NZL,New Zealand,Hawke's Bay,17,1,17,3,1
-2021-05-06,NZL,New Zealand,Manawatu-Wanganui,20,1,20,0,2
-2021-05-06,NZL,New Zealand,Marlborough,6,0,6,0,0
+2021-05-06,MMR,Myanmar,Mandalay,14,0,14,2,0
+2021-05-06,MMR,Myanmar,Mon,5,0,4,1,0
+2021-05-06,MMR,Myanmar,Naypyitaw,1,0,1,0,0
+2021-05-06,MMR,Myanmar,Sagaing,3,0,3,0,0
+2021-05-06,MMR,Myanmar,Shan,4,0,4,1,1
+2021-05-06,MMR,Myanmar,Tanintharyi,3,0,3,100,0
+2021-05-06,MMR,Myanmar,Yangon,23,3,20,2,1
+2021-05-06,NPL,Nepal,Bagmati Pradesh,292,14,276,417,24
+2021-05-06,NPL,Nepal,Gandaki Pradesh,54,2,53,46.3,3
+2021-05-06,NPL,Nepal,Karnali Pradesh,12,3,11,114,2
+2021-05-06,NPL,Nepal,Province No. 1,82,3,81,57,3
+2021-05-06,NPL,Nepal,Province No. 2,60,6,59,112,5
+2021-05-06,NPL,Nepal,Province No. 5,85,7,76,221,13
+2021-05-06,NPL,Nepal,Sudurpashchim Pradesh,36,5,33,395,4
+2021-05-06,NLD,Netherlands,Drenthe,52,1,51,29,2
+2021-05-06,NLD,Netherlands,Flevoland,35,0,35,11,1
+2021-05-06,NLD,Netherlands,Friesland,44,0,43,6,1
+2021-05-06,NLD,Netherlands,Gelderland,152,2,150,52,6
+2021-05-06,NLD,Netherlands,Groningen,57,0,57,10,3
+2021-05-06,NLD,Netherlands,Limburg,79,1,76,30,5
+2021-05-06,NLD,Netherlands,Noord-Brabant,213,4,208,60,9
+2021-05-06,NLD,Netherlands,Noord-Holland,207,0,202,178,6
+2021-05-06,NLD,Netherlands,Overijssel,80,1,76,40,4
+2021-05-06,NLD,Netherlands,Utrecht,59,0,58,4,2
+2021-05-06,NLD,Netherlands,Zeeland,24,0,24,1,2
+2021-05-06,NLD,Netherlands,Zuid-Holland,255,5,248,98,8
+2021-05-06,NZL,New Zealand,Auckland,119,1,114,8,3
+2021-05-06,NZL,New Zealand,Bay of Plenty,20,0,19,0,1
+2021-05-06,NZL,New Zealand,Canterbury,59,0,58,6,0
+2021-05-06,NZL,New Zealand,Gisborne,3,0,3,0,0
+2021-05-06,NZL,New Zealand,Hawke's Bay,20,1,20,5,1
+2021-05-06,NZL,New Zealand,Manawatu-Wanganui,26,1,25,5,2
+2021-05-06,NZL,New Zealand,Marlborough,8,0,8,0,0
 2021-05-06,NZL,New Zealand,Nelson,5,0,5,0,0
-2021-05-06,NZL,New Zealand,Northland,10,0,10,1,0
-2021-05-06,NZL,New Zealand,Otago,21,1,21,2,1
-2021-05-06,NZL,New Zealand,Southland,10,0,10,2,0
-2021-05-06,NZL,New Zealand,Taranaki,10,0,9,11,1
+2021-05-06,NZL,New Zealand,Northland,15,0,14,2,0
+2021-05-06,NZL,New Zealand,Otago,24,1,24,2,1
+2021-05-06,NZL,New Zealand,Southland,13,0,12,2,0
+2021-05-06,NZL,New Zealand,Taranaki,14,0,12,11,1
 2021-05-06,NZL,New Zealand,Tasman,4,0,4,50,0
-2021-05-06,NZL,New Zealand,Waikato,31,0,31,10,2
-2021-05-06,NZL,New Zealand,Wellington,43,0,43,22,1
-2021-05-06,NZL,New Zealand,West Coast,5,0,5,2,0
-2021-05-06,NIC,Nicaragua,Atlántico Norte,2,0,2,1,0
-2021-05-06,NIC,Nicaragua,Atlántico Sur,2,0,2,2,0
+2021-05-06,NZL,New Zealand,Waikato,39,0,37,10,3
+2021-05-06,NZL,New Zealand,Wellington,50,0,50,22,2
+2021-05-06,NZL,New Zealand,West Coast,7,0,7,2,0
+2021-05-06,NIC,Nicaragua,Atlántico Norte,5,0,5,3,0
+2021-05-06,NIC,Nicaragua,Atlántico Sur,4,0,4,2,0
 2021-05-06,NIC,Nicaragua,Boaco,3,0,3,1,0
-2021-05-06,NIC,Nicaragua,Carazo,6,0,6,2,0
-2021-05-06,NIC,Nicaragua,Chinandega,8,1,8,2,1
-2021-05-06,NIC,Nicaragua,Chontales,5,0,5,3,0
-2021-05-06,NIC,Nicaragua,Estelí,4,1,4,2,0
-2021-05-06,NIC,Nicaragua,Granada,5,0,5,1,0
-2021-05-06,NIC,Nicaragua,Jinotega,6,0,6,4,0
-2021-05-06,NIC,Nicaragua,León,10,0,10,5,0
-2021-05-06,NIC,Nicaragua,Managua,64,2,64,26,5
-2021-05-06,NIC,Nicaragua,Masaya,8,0,7,4,0
-2021-05-06,NIC,Nicaragua,Matagalpa,13,0,13,14,3
-2021-05-06,NIC,Nicaragua,Nueva Segovia,2,0,2,0,0
-2021-05-06,NIC,Nicaragua,Rivas,4,0,4,3,0
-2021-05-06,NGA,Nigeria,Abia,5,0,5,0,0
-2021-05-06,NGA,Nigeria,Adamawa,5,0,5,101,0
-2021-05-06,NGA,Nigeria,Akwa Ibom,5,1,5,0,0
-2021-05-06,NGA,Nigeria,Anambra,3,0,3,1,0
-2021-05-06,NGA,Nigeria,Bauchi,4,1,4,2,1
+2021-05-06,NIC,Nicaragua,Carazo,13,0,11,3,0
+2021-05-06,NIC,Nicaragua,Chinandega,13,1,10,2,1
+2021-05-06,NIC,Nicaragua,Chontales,8,1,8,3,1
+2021-05-06,NIC,Nicaragua,Estelí,7,1,5,5,0
+2021-05-06,NIC,Nicaragua,Granada,10,0,10,2,0
+2021-05-06,NIC,Nicaragua,Jinotega,9,0,9,10,0
+2021-05-06,NIC,Nicaragua,León,16,0,16,7,0
+2021-05-06,NIC,Nicaragua,Madriz,2,0,1,0,0
+2021-05-06,NIC,Nicaragua,Managua,108,6,100,56,11
+2021-05-06,NIC,Nicaragua,Masaya,13,0,12,8,0
+2021-05-06,NIC,Nicaragua,Matagalpa,16,0,16,18,3
+2021-05-06,NIC,Nicaragua,Nueva Segovia,6,0,5,1,0
+2021-05-06,NIC,Nicaragua,Río San Juan,1,0,0,0,0
+2021-05-06,NIC,Nicaragua,Rivas,5,0,4,3,0
+2021-05-06,NER,Niger,Tahoua,1,1,0,0,1
+2021-05-06,NGA,Nigeria,Abia,10,1,8,0,2
+2021-05-06,NGA,Nigeria,Adamawa,7,0,7,101,0
+2021-05-06,NGA,Nigeria,Akwa Ibom,8,1,8,0,0
+2021-05-06,NGA,Nigeria,Anambra,9,1,8,2,2
+2021-05-06,NGA,Nigeria,Bauchi,16,1,6,2,2
 2021-05-06,NGA,Nigeria,Bayelsa,2,0,2,0,0
-2021-05-06,NGA,Nigeria,Benue,7,0,7,0,0
-2021-05-06,NGA,Nigeria,Borno,6,0,6,3,0
-2021-05-06,NGA,Nigeria,Cross River,9,0,9,5,1
-2021-05-06,NGA,Nigeria,Delta,8,1,8,0,2
-2021-05-06,NGA,Nigeria,Ebonyi,3,0,3,1,0
-2021-05-06,NGA,Nigeria,Edo,2,0,2,0,0
-2021-05-06,NGA,Nigeria,Ekiti,3,0,3,0,0
+2021-05-06,NGA,Nigeria,Benue,11,0,10,1,0
+2021-05-06,NGA,Nigeria,Borno,10,0,8,3,0
+2021-05-06,NGA,Nigeria,Cross River,10,0,10,5,1
+2021-05-06,NGA,Nigeria,Delta,13,3,12,0,3
+2021-05-06,NGA,Nigeria,Ebonyi,5,2,4,101,0
+2021-05-06,NGA,Nigeria,Edo,6,0,6,1,0
+2021-05-06,NGA,Nigeria,Ekiti,11,0,9,0,1
 2021-05-06,NGA,Nigeria,Enugu,4,0,4,1,0
-2021-05-06,NGA,Nigeria,Federal Capital Territory,19,0,19,4,0
-2021-05-06,NGA,Nigeria,Gombe,6,0,6,3,0
-2021-05-06,NGA,Nigeria,Imo,7,0,7,0,0
-2021-05-06,NGA,Nigeria,Jigawa,3,0,3,1,0
-2021-05-06,NGA,Nigeria,Kaduna,15,0,15,0,1
-2021-05-06,NGA,Nigeria,Kano,8,2,8,13,1
-2021-05-06,NGA,Nigeria,Katsina,1,0,1,0,0
+2021-05-06,NGA,Nigeria,Federal Capital Territory,28,0,26,5,0
+2021-05-06,NGA,Nigeria,Gombe,9,0,8,12,0
+2021-05-06,NGA,Nigeria,Imo,11,1,11,8,1
+2021-05-06,NGA,Nigeria,Jigawa,6,0,5,1,0
+2021-05-06,NGA,Nigeria,Kaduna,18,0,18,0,1
+2021-05-06,NGA,Nigeria,Kano,18,4,15,17,4
+2021-05-06,NGA,Nigeria,Katsina,6,1,6,2,0
 2021-05-06,NGA,Nigeria,Kebbi,3,1,3,1,1
-2021-05-06,NGA,Nigeria,Kogi,2,0,2,0,0
-2021-05-06,NGA,Nigeria,Kwara,6,0,6,0,0
-2021-05-06,NGA,Nigeria,Lagos,49,1,49,1,2
-2021-05-06,NGA,Nigeria,Nassarawa,1,0,1,0,0
-2021-05-06,NGA,Nigeria,Niger,9,0,9,6,1
-2021-05-06,NGA,Nigeria,Ogun,3,0,3,0,0
-2021-05-06,NGA,Nigeria,Ondo,6,0,6,2,0
-2021-05-06,NGA,Nigeria,Osun,3,0,3,1,0
-2021-05-06,NGA,Nigeria,Oyo,10,0,10,6,0
-2021-05-06,NGA,Nigeria,Plateau,4,0,4,2,1
-2021-05-06,NGA,Nigeria,Rivers,10,0,10,9,0
-2021-05-06,NGA,Nigeria,Sokoto,5,0,4,0,0
-2021-05-06,NGA,Nigeria,Taraba,5,0,5,1,1
+2021-05-06,NGA,Nigeria,Kogi,4,0,4,1,0
+2021-05-06,NGA,Nigeria,Kwara,9,0,9,0,0
+2021-05-06,NGA,Nigeria,Lagos,88,4,82,3,5
+2021-05-06,NGA,Nigeria,Nassarawa,3,0,3,0,0
+2021-05-06,NGA,Nigeria,Niger,10,1,10,6,2
+2021-05-06,NGA,Nigeria,Ogun,7,0,6,0,0
+2021-05-06,NGA,Nigeria,Ondo,8,0,7,4,0
+2021-05-06,NGA,Nigeria,Osun,6,1,6,3,0
+2021-05-06,NGA,Nigeria,Oyo,18,1,16,6,1
+2021-05-06,NGA,Nigeria,Plateau,9,1,7,2,2
+2021-05-06,NGA,Nigeria,Rivers,13,0,13,10,0
+2021-05-06,NGA,Nigeria,Sokoto,6,0,5,0,0
+2021-05-06,NGA,Nigeria,Taraba,7,0,7,1,1
 2021-05-06,NGA,Nigeria,Yobe,3,0,3,4,0
-2021-05-06,NGA,Nigeria,Zamfara,4,1,4,0,0
+2021-05-06,NGA,Nigeria,Zamfara,10,1,10,11,1
 2021-05-06,MNP,Northern Mariana Islands,Saipan,1,0,1,0,0
-2021-05-06,NOR,Norway,Agder,42,1,42,3,3
-2021-05-06,NOR,Norway,Innlandet,48,0,48,6,1
-2021-05-06,NOR,Norway,Møre og Romsdal,32,1,31,1,2
-2021-05-06,NOR,Norway,Nordland,38,0,38,4,0
-2021-05-06,NOR,Norway,Oslo,105,0,105,5,0
-2021-05-06,NOR,Norway,Rogaland,60,0,60,6,0
-2021-05-06,NOR,Norway,Trøndelag,62,1,62,4,1
-2021-05-06,NOR,Norway,Troms og Finnmark,35,0,35,2,0
-2021-05-06,NOR,Norway,Vestfold og Telemark,80,0,79,16,1
-2021-05-06,NOR,Norway,Vestland,78,0,78,7,2
-2021-05-06,NOR,Norway,Viken,176,2,176,23,3
+2021-05-06,NOR,Norway,Agder,49,1,49,5,3
+2021-05-06,NOR,Norway,Innlandet,56,0,55,6,1
+2021-05-06,NOR,Norway,Møre og Romsdal,38,1,36,1,2
+2021-05-06,NOR,Norway,Nordland,45,0,43,4,0
+2021-05-06,NOR,Norway,Oslo,125,0,123,6,1
+2021-05-06,NOR,Norway,Rogaland,76,0,75,8,1
+2021-05-06,NOR,Norway,Trøndelag,70,1,69,4,1
+2021-05-06,NOR,Norway,Troms og Finnmark,41,0,41,2,0
+2021-05-06,NOR,Norway,Vestfold og Telemark,95,0,92,18,1
+2021-05-06,NOR,Norway,Vestland,84,0,84,7,2
+2021-05-06,NOR,Norway,Viken,200,2,198,24,4
 2021-05-06,OMN,Oman,Al Batinah North,2,0,2,0,0
-2021-05-06,OMN,Oman,Al Buraymi,1,0,1,0,0
-2021-05-06,OMN,Oman,Ash Sharqiyah North,1,0,1,0,0
+2021-05-06,OMN,Oman,Al Batinah South,1,0,1,12,0
+2021-05-06,OMN,Oman,Al Buraymi,2,0,2,0,0
+2021-05-06,OMN,Oman,Ash Sharqiyah North,2,0,2,0,0
 2021-05-06,OMN,Oman,Ash Sharqiyah South,4,0,4,1,0
 2021-05-06,OMN,Oman,Dhofar,5,0,5,14,0
-2021-05-06,OMN,Oman,Muscat,18,0,18,16,0
-2021-05-06,PAK,Pakistan,AJK (Azad Jammu Kashmir),17,2,17,32,1
-2021-05-06,PAK,Pakistan,BA (Balochistan),13,2,12,22,2
-2021-05-06,PAK,Pakistan,GB (Gilgit-Baltistan),5,2,5,3,0
-2021-05-06,PAK,Pakistan,ICT (Islamabad Capital Territory),49,2,48,74.2,1
-2021-05-06,PAK,Pakistan,KPK (Khyber Pakhtunkhwa),81,6,80,210,8
-2021-05-06,PAK,Pakistan,PB (Punjab),216,2,216,336.5,6
-2021-05-06,PAK,Pakistan,SD (Sindh),118,5,118,102,6
-2021-05-06,PSE,Palestine,Gaza,27,3,27,48,3
-2021-05-06,PSE,Palestine,West Bank,43,0,43,56,3
-2021-05-06,PAN,Panama,Bocas del Toro,2,0,2,0,0
-2021-05-06,PAN,Panama,Chiriquí,10,0,10,3,0
-2021-05-06,PAN,Panama,Coclé,7,0,7,0,0
-2021-05-06,PAN,Panama,Colón,4,0,4,0,0
-2021-05-06,PAN,Panama,Herrera,3,0,3,0,0
-2021-05-06,PAN,Panama,Los Santos,1,0,1,0,0
-2021-05-06,PAN,Panama,Ngöbe Buglé,1,0,1,0,0
-2021-05-06,PAN,Panama,Panamá,63,0,63,13,2
-2021-05-06,PAN,Panama,Panamá Oeste,20,0,20,0,0
-2021-05-06,PAN,Panama,Veraguas,3,0,3,0,0
+2021-05-06,OMN,Oman,Muscat,25,0,25,16,0
+2021-05-06,PAK,Pakistan,AJK (Azad Jammu Kashmir),27,5,24,37,2
+2021-05-06,PAK,Pakistan,BA (Balochistan),30,4,25,38,5
+2021-05-06,PAK,Pakistan,GB (Gilgit-Baltistan),9,2,8,3,0
+2021-05-06,PAK,Pakistan,ICT (Islamabad Capital Territory),88,7,79,110.2,8
+2021-05-06,PAK,Pakistan,KPK (Khyber Pakhtunkhwa),144,9,128,324,12
+2021-05-06,PAK,Pakistan,PB (Punjab),367,13,337,734.5,14
+2021-05-06,PAK,Pakistan,SD (Sindh),186,15,174,449,14
+2021-05-06,PSE,Palestine,Gaza,39,3,36,54,4
+2021-05-06,PSE,Palestine,West Bank,57,2,54,77,5
+2021-05-06,PAN,Panama,Bocas del Toro,3,0,2,0,0
+2021-05-06,PAN,Panama,Chiriquí,17,0,14,3,0
+2021-05-06,PAN,Panama,Coclé,8,0,8,0,0
+2021-05-06,PAN,Panama,Colón,6,0,5,0,0
+2021-05-06,PAN,Panama,Herrera,4,0,3,0,0
+2021-05-06,PAN,Panama,Kuna Yala,1,0,1,0,0
+2021-05-06,PAN,Panama,Los Santos,3,0,3,0,0
+2021-05-06,PAN,Panama,Ngöbe Buglé,2,0,2,0,0
+2021-05-06,PAN,Panama,Panamá,92,0,87,25,4
+2021-05-06,PAN,Panama,Panamá Oeste,30,0,27,4,0
+2021-05-06,PAN,Panama,Veraguas,4,0,4,0,0
 2021-05-06,PRY,Paraguay,Ñeembucú,1,0,1,0,0
 2021-05-06,PRY,Paraguay,Alto Paraguay,2,0,2,1,0
-2021-05-06,PRY,Paraguay,Alto Paraná,24,1,24,225,3
-2021-05-06,PRY,Paraguay,Amambay,4,0,4,3,0
-2021-05-06,PRY,Paraguay,Asunción,58,1,58,80,1
-2021-05-06,PRY,Paraguay,Caaguazú,7,1,7,5,0
+2021-05-06,PRY,Paraguay,Alto Paraná,39,2,36,257,4
+2021-05-06,PRY,Paraguay,Amambay,5,0,5,3,0
+2021-05-06,PRY,Paraguay,Asunción,77,2,70,96,1
+2021-05-06,PRY,Paraguay,Boquerón,3,0,3,1,0
+2021-05-06,PRY,Paraguay,Caaguazú,11,1,11,15,1
+2021-05-06,PRY,Paraguay,Caazapá,1,0,1,0,0
 2021-05-06,PRY,Paraguay,Canindeyú,4,0,4,20,0
-2021-05-06,PRY,Paraguay,Central,67,1,67,124,5
+2021-05-06,PRY,Paraguay,Central,97,2,84,153,8
 2021-05-06,PRY,Paraguay,Concepción,2,0,2,1,0
-2021-05-06,PRY,Paraguay,Cordillera,4,0,4,0,2
+2021-05-06,PRY,Paraguay,Cordillera,5,0,4,0,2
 2021-05-06,PRY,Paraguay,Guairá,3,0,3,0,1
-2021-05-06,PRY,Paraguay,Itapúa,12,1,12,25,0
-2021-05-06,PRY,Paraguay,Misiones,3,0,3,1,0
-2021-05-06,PRY,Paraguay,Paraguarí,2,0,2,1,0
-2021-05-06,PRY,Paraguay,Presidente Hayes,1,0,1,0,0
-2021-05-06,PRY,Paraguay,San Pedro,3,0,3,6,1
-2021-05-06,PER,Peru,Amazonas,5,0,5,9,1
-2021-05-06,PER,Peru,Ancash,40,1,40,175,5
-2021-05-06,PER,Peru,Apurímac,10,0,10,19,0
-2021-05-06,PER,Peru,Arequipa,50,0,50,47,2
-2021-05-06,PER,Peru,Ayacucho,12,0,12,33,1
-2021-05-06,PER,Peru,Cajamarca,23,3,23,33,1
-2021-05-06,PER,Peru,Callao,44,2,44,59,1
-2021-05-06,PER,Peru,Cusco,29,3,29,34,1
-2021-05-06,PER,Peru,Huánuco,14,3,14,117,2
-2021-05-06,PER,Peru,Huancavelica,5,1,5,2,0
-2021-05-06,PER,Peru,Ica,28,2,28,25,2
-2021-05-06,PER,Peru,Junín,28,2,27,29,3
-2021-05-06,PER,Peru,La Libertad,44,2,44,80,4
-2021-05-06,PER,Peru,Lambayeque,39,1,39,148,3
-2021-05-06,PER,Peru,Lima,300,9,300,495,13
-2021-05-06,PER,Peru,Lima Province,16,0,16,10,1
-2021-05-06,PER,Peru,Loreto,12,1,12,2,2
-2021-05-06,PER,Peru,Madre de Dios,1,1,1,5,1
-2021-05-06,PER,Peru,Moquegua,3,1,3,2,1
-2021-05-06,PER,Peru,Pasco,3,2,3,10,1
-2021-05-06,PER,Peru,Piura,38,1,38,35,3
-2021-05-06,PER,Peru,Puno,11,1,11,24,1
-2021-05-06,PER,Peru,San Martín,19,2,19,33,1
-2021-05-06,PER,Peru,Tacna,6,0,6,17,0
-2021-05-06,PER,Peru,Tumbes,2,1,2,0,1
-2021-05-06,PER,Peru,Ucayali,12,0,12,21,0
-2021-05-06,PHL,Philippines,Bangsamoro Autonomous Region in Muslim Mindanao,3,1,3,0,1
-2021-05-06,PHL,Philippines,Bicol Region,33,0,33,8,1
-2021-05-06,PHL,Philippines,Cagayan Valley,23,1,22,8,3
-2021-05-06,PHL,Philippines,Calabarzon,176,3,176,73,10
-2021-05-06,PHL,Philippines,Caraga,5,0,5,0,0
-2021-05-06,PHL,Philippines,Central Luzon,127,2,127,45,6
-2021-05-06,PHL,Philippines,Central Visayas,65,0,65,10,2
-2021-05-06,PHL,Philippines,Cordillera Admin Region,22,0,22,3,1
-2021-05-06,PHL,Philippines,Davao Region,29,0,29,11,0
-2021-05-06,PHL,Philippines,Eastern Visayas,16,0,16,9,0
-2021-05-06,PHL,Philippines,Ilocos Region,25,0,25,1,0
-2021-05-06,PHL,Philippines,Mimaropa,21,0,21,0,0
-2021-05-06,PHL,Philippines,National Capital Region,233,2,233,77,5
-2021-05-06,PHL,Philippines,Northern Mindanao,46,1,46,29,2
-2021-05-06,PHL,Philippines,Soccsksargen,13,0,13,4,0
-2021-05-06,PHL,Philippines,Western Visayas,49,0,49,10,2
-2021-05-06,PHL,Philippines,Zamboanga Peninsula,31,1,31,6,1
-2021-05-06,POL,Poland,Łódzkie,64,0,63,33,1
-2021-05-06,POL,Poland,Śląskie,166,2,166,43,6
-2021-05-06,POL,Poland,Świętokrzyskie,19,0,19,60,0
-2021-05-06,POL,Poland,Dolnośląskie,105,1,105,16,1
-2021-05-06,POL,Poland,Kujawsko-Pomorskie,49,0,49,21,1
-2021-05-06,POL,Poland,Lubelskie,40,0,40,7,0
-2021-05-06,POL,Poland,Lubuskie,19,0,19,2,0
-2021-05-06,POL,Poland,Małopolskie,85,2,85,51,3
-2021-05-06,POL,Poland,Mazowieckie,183,2,183,33,3
-2021-05-06,POL,Poland,Opolskie,24,0,24,0,0
-2021-05-06,POL,Poland,Podkarpackie,39,1,39,10,1
-2021-05-06,POL,Poland,Podlaskie,24,0,24,1,1
-2021-05-06,POL,Poland,Pomorskie,104,2,104,120,3
-2021-05-06,POL,Poland,Warmińsko-Mazurskie,34,0,33,4,1
-2021-05-06,POL,Poland,Wielkopolskie,103,1,102,14,4
-2021-05-06,POL,Poland,Zachodniopomorskie,57,1,57,18,0
-2021-05-06,PRT,Portugal,Évora,9,0,9,0,0
-2021-05-06,PRT,Portugal,Aveiro,30,0,30,0,1
-2021-05-06,PRT,Portugal,Azores,24,0,24,0,0
-2021-05-06,PRT,Portugal,Beja,7,0,7,0,0
-2021-05-06,PRT,Portugal,Braga,46,0,46,4,0
-2021-05-06,PRT,Portugal,Bragança,7,0,7,1,0
-2021-05-06,PRT,Portugal,Castelo Branco,6,0,6,0,0
-2021-05-06,PRT,Portugal,Coimbra,31,1,31,2,1
-2021-05-06,PRT,Portugal,Faro,36,0,36,0,1
-2021-05-06,PRT,Portugal,Guarda,4,0,4,0,0
-2021-05-06,PRT,Portugal,Leiria,30,0,30,5,0
-2021-05-06,PRT,Portugal,Lisboa,195,1,195,10,4
-2021-05-06,PRT,Portugal,Madeira,23,0,23,1,0
-2021-05-06,PRT,Portugal,Portalegre,10,0,10,0,1
-2021-05-06,PRT,Portugal,Porto,135,0,135,3,1
-2021-05-06,PRT,Portugal,Santarém,29,0,29,0,1
-2021-05-06,PRT,Portugal,Setúbal,84,0,84,4,1
-2021-05-06,PRT,Portugal,Viana do Castelo,18,0,18,2,0
-2021-05-06,PRT,Portugal,Vila Real,9,0,9,0,0
-2021-05-06,PRT,Portugal,Viseu,21,0,20,1,1
+2021-05-06,PRY,Paraguay,Itapúa,20,1,17,30,0
+2021-05-06,PRY,Paraguay,Misiones,4,0,4,1,0
+2021-05-06,PRY,Paraguay,Paraguarí,3,0,3,1,0
+2021-05-06,PRY,Paraguay,Presidente Hayes,3,0,2,0,0
+2021-05-06,PRY,Paraguay,San Pedro,4,0,3,6,1
+2021-05-06,PER,Peru,Amazonas,8,1,7,10,3
+2021-05-06,PER,Peru,Ancash,54,2,51,185,6
+2021-05-06,PER,Peru,Apurímac,17,2,14,33,1
+2021-05-06,PER,Peru,Arequipa,66,1,64,69,3
+2021-05-06,PER,Peru,Ayacucho,18,2,17,33,2
+2021-05-06,PER,Peru,Cajamarca,39,8,34,50,6
+2021-05-06,PER,Peru,Callao,68,5,63,82,3
+2021-05-06,PER,Peru,Cusco,50,4,44,61,3
+2021-05-06,PER,Peru,Huánuco,23,3,17,117,3
+2021-05-06,PER,Peru,Huancavelica,6,1,6,2,0
+2021-05-06,PER,Peru,Ica,45,3,44,64,4
+2021-05-06,PER,Peru,Junín,43,3,39,43,5
+2021-05-06,PER,Peru,La Libertad,68,4,64,90,4
+2021-05-06,PER,Peru,Lambayeque,59,2,55,276,7
+2021-05-06,PER,Peru,Lima,432,16,402,583,22
+2021-05-06,PER,Peru,Lima Province,23,1,22,18,1
+2021-05-06,PER,Peru,Loreto,18,1,17,4,2
+2021-05-06,PER,Peru,Madre de Dios,3,2,2,5,2
+2021-05-06,PER,Peru,Moquegua,5,1,5,3,1
+2021-05-06,PER,Peru,Pasco,5,3,5,13,2
+2021-05-06,PER,Peru,Piura,60,3,52,58,6
+2021-05-06,PER,Peru,Puno,17,2,14,46,2
+2021-05-06,PER,Peru,San Martín,26,4,26,104,3
+2021-05-06,PER,Peru,Tacna,9,1,8,18,0
+2021-05-06,PER,Peru,Tumbes,7,1,7,3,1
+2021-05-06,PER,Peru,Ucayali,17,1,17,28,1
+2021-05-06,PHL,Philippines,Bangsamoro Autonomous Region in Muslim Mindanao,10,1,8,0,1
+2021-05-06,PHL,Philippines,Bicol Region,50,1,50,109,2
+2021-05-06,PHL,Philippines,Cagayan Valley,35,1,32,14,3
+2021-05-06,PHL,Philippines,Calabarzon,253,6,246,85,11
+2021-05-06,PHL,Philippines,Caraga,10,0,10,3,0
+2021-05-06,PHL,Philippines,Central Luzon,187,4,183,63,7
+2021-05-06,PHL,Philippines,Central Visayas,90,1,87,26,2
+2021-05-06,PHL,Philippines,Cordillera Admin Region,31,0,29,3,1
+2021-05-06,PHL,Philippines,Davao Region,42,0,40,13,1
+2021-05-06,PHL,Philippines,Eastern Visayas,27,0,27,12,0
+2021-05-06,PHL,Philippines,Ilocos Region,35,0,33,3,0
+2021-05-06,PHL,Philippines,Mimaropa,30,0,30,1,0
+2021-05-06,PHL,Philippines,National Capital Region,324,2,308,104,8
+2021-05-06,PHL,Philippines,Northern Mindanao,65,1,63,36,2
+2021-05-06,PHL,Philippines,Soccsksargen,22,0,22,7,1
+2021-05-06,PHL,Philippines,Western Visayas,70,1,69,13,2
+2021-05-06,PHL,Philippines,Zamboanga Peninsula,40,1,39,6,1
+2021-05-06,POL,Poland,Łódzkie,98,1,94,36,2
+2021-05-06,POL,Poland,Śląskie,223,4,218,54,8
+2021-05-06,POL,Poland,Świętokrzyskie,30,0,29,65,1
+2021-05-06,POL,Poland,Dolnośląskie,156,1,154,23,3
+2021-05-06,POL,Poland,Kujawsko-Pomorskie,79,1,76,23,1
+2021-05-06,POL,Poland,Lubelskie,54,0,53,9,1
+2021-05-06,POL,Poland,Lubuskie,30,0,29,2,0
+2021-05-06,POL,Poland,Małopolskie,122,4,115,65,5
+2021-05-06,POL,Poland,Mazowieckie,251,6,246,46,8
+2021-05-06,POL,Poland,Opolskie,33,0,31,0,0
+2021-05-06,POL,Poland,Podkarpackie,50,1,50,14,2
+2021-05-06,POL,Poland,Podlaskie,32,1,31,1,2
+2021-05-06,POL,Poland,Pomorskie,145,2,141,135,3
+2021-05-06,POL,Poland,Warmińsko-Mazurskie,53,0,51,8,2
+2021-05-06,POL,Poland,Wielkopolskie,154,2,145,22,4
+2021-05-06,POL,Poland,Zachodniopomorskie,79,2,76,30,1
+2021-05-06,PRT,Portugal,Évora,11,0,11,1,1
+2021-05-06,PRT,Portugal,Aveiro,46,0,45,0,2
+2021-05-06,PRT,Portugal,Azores,35,0,33,1,0
+2021-05-06,PRT,Portugal,Beja,9,0,9,0,0
+2021-05-06,PRT,Portugal,Braga,57,0,55,4,0
+2021-05-06,PRT,Portugal,Bragança,8,0,8,1,0
+2021-05-06,PRT,Portugal,Castelo Branco,12,0,12,0,0
+2021-05-06,PRT,Portugal,Coimbra,44,1,42,4,1
+2021-05-06,PRT,Portugal,Faro,54,1,52,0,1
+2021-05-06,PRT,Portugal,Guarda,7,0,7,0,0
+2021-05-06,PRT,Portugal,Leiria,38,0,37,5,0
+2021-05-06,PRT,Portugal,Lisboa,258,1,247,16,6
+2021-05-06,PRT,Portugal,Madeira,24,0,24,1,0
+2021-05-06,PRT,Portugal,Portalegre,12,0,12,0,1
+2021-05-06,PRT,Portugal,Porto,172,1,163,8,4
+2021-05-06,PRT,Portugal,Santarém,43,1,42,0,1
+2021-05-06,PRT,Portugal,Setúbal,103,0,100,4,1
+2021-05-06,PRT,Portugal,Viana do Castelo,21,0,21,2,0
+2021-05-06,PRT,Portugal,Vila Real,14,0,12,0,0
+2021-05-06,PRT,Portugal,Viseu,28,0,25,1,1
 2021-05-06,PRI,"Puerto Rico, U.S.",Añasco,3,0,3,0,0
 2021-05-06,PRI,"Puerto Rico, U.S.",Adjuntas,1,0,1,0,0
-2021-05-06,PRI,"Puerto Rico, U.S.",Aguada,2,0,2,0,0
-2021-05-06,PRI,"Puerto Rico, U.S.",Aguadilla,5,0,5,0,0
-2021-05-06,PRI,"Puerto Rico, U.S.",Aguas Buenas,1,0,1,0,0
-2021-05-06,PRI,"Puerto Rico, U.S.",Aibonito,3,0,3,0,0
-2021-05-06,PRI,"Puerto Rico, U.S.",Arecibo,10,0,10,2,0
-2021-05-06,PRI,"Puerto Rico, U.S.",Arroyo,4,0,4,0,0
-2021-05-06,PRI,"Puerto Rico, U.S.",Barceloneta,3,0,3,1,0
-2021-05-06,PRI,"Puerto Rico, U.S.",Barranquitas,2,0,2,0,0
-2021-05-06,PRI,"Puerto Rico, U.S.",Bayamón,32,0,32,28,1
-2021-05-06,PRI,"Puerto Rico, U.S.",Cabo Rojo,7,0,7,0,0
-2021-05-06,PRI,"Puerto Rico, U.S.",Caguas,20,0,20,0,0
+2021-05-06,PRI,"Puerto Rico, U.S.",Aguada,3,0,2,0,0
+2021-05-06,PRI,"Puerto Rico, U.S.",Aguadilla,7,0,7,10,0
+2021-05-06,PRI,"Puerto Rico, U.S.",Aguas Buenas,2,0,1,0,0
+2021-05-06,PRI,"Puerto Rico, U.S.",Aibonito,5,0,3,0,0
+2021-05-06,PRI,"Puerto Rico, U.S.",Arecibo,12,1,12,2,1
+2021-05-06,PRI,"Puerto Rico, U.S.",Arroyo,5,0,5,0,0
+2021-05-06,PRI,"Puerto Rico, U.S.",Barceloneta,4,0,3,1,0
+2021-05-06,PRI,"Puerto Rico, U.S.",Barranquitas,3,0,3,0,0
+2021-05-06,PRI,"Puerto Rico, U.S.",Bayamón,41,0,40,28,1
+2021-05-06,PRI,"Puerto Rico, U.S.",Cabo Rojo,9,1,8,0,0
+2021-05-06,PRI,"Puerto Rico, U.S.",Caguas,25,0,25,0,0
 2021-05-06,PRI,"Puerto Rico, U.S.",Camuy,4,0,4,0,0
-2021-05-06,PRI,"Puerto Rico, U.S.",Canóvanas,6,0,6,0,0
-2021-05-06,PRI,"Puerto Rico, U.S.",Carolina,14,0,14,3,0
-2021-05-06,PRI,"Puerto Rico, U.S.",Cataño,2,0,2,1,0
-2021-05-06,PRI,"Puerto Rico, U.S.",Cayey,4,0,4,0,0
+2021-05-06,PRI,"Puerto Rico, U.S.",Canóvanas,8,0,7,0,0
+2021-05-06,PRI,"Puerto Rico, U.S.",Carolina,20,0,19,3,1
+2021-05-06,PRI,"Puerto Rico, U.S.",Cataño,3,0,3,1,0
+2021-05-06,PRI,"Puerto Rico, U.S.",Cayey,5,0,5,0,0
 2021-05-06,PRI,"Puerto Rico, U.S.",Ceiba,2,0,2,0,0
 2021-05-06,PRI,"Puerto Rico, U.S.",Ciales,1,0,1,0,0
-2021-05-06,PRI,"Puerto Rico, U.S.",Cidra,2,0,2,0,0
-2021-05-06,PRI,"Puerto Rico, U.S.",Coamo,3,0,3,0,0
+2021-05-06,PRI,"Puerto Rico, U.S.",Cidra,3,0,2,0,0
+2021-05-06,PRI,"Puerto Rico, U.S.",Coamo,7,0,7,0,0
 2021-05-06,PRI,"Puerto Rico, U.S.",Comerío,1,0,1,0,0
-2021-05-06,PRI,"Puerto Rico, U.S.","Corozal (Puerto Rico, U.S.)",1,0,1,0,0
-2021-05-06,PRI,"Puerto Rico, U.S.",Dorado,4,0,4,1,0
-2021-05-06,PRI,"Puerto Rico, U.S.",Fajardo,7,0,7,1,0
+2021-05-06,PRI,"Puerto Rico, U.S.","Corozal (Puerto Rico, U.S.)",2,0,2,8,0
+2021-05-06,PRI,"Puerto Rico, U.S.",Dorado,5,0,5,1,0
+2021-05-06,PRI,"Puerto Rico, U.S.",Fajardo,8,0,8,1,0
 2021-05-06,PRI,"Puerto Rico, U.S.","Florida (Puerto Rico, U.S.)",1,0,1,0,0
-2021-05-06,PRI,"Puerto Rico, U.S.",Guánica,1,0,1,0,0
-2021-05-06,PRI,"Puerto Rico, U.S.",Guayama,4,0,4,0,0
-2021-05-06,PRI,"Puerto Rico, U.S.",Guayanilla,2,0,2,0,0
-2021-05-06,PRI,"Puerto Rico, U.S.",Guaynabo,12,0,12,0,0
-2021-05-06,PRI,"Puerto Rico, U.S.",Gurabo,6,0,6,0,0
+2021-05-06,PRI,"Puerto Rico, U.S.",Guánica,2,0,2,0,0
+2021-05-06,PRI,"Puerto Rico, U.S.",Guayama,6,0,6,0,0
+2021-05-06,PRI,"Puerto Rico, U.S.",Guayanilla,3,0,2,0,0
+2021-05-06,PRI,"Puerto Rico, U.S.",Guaynabo,16,0,15,0,0
+2021-05-06,PRI,"Puerto Rico, U.S.",Gurabo,7,0,7,0,0
 2021-05-06,PRI,"Puerto Rico, U.S.",Hatillo,5,0,5,0,0
-2021-05-06,PRI,"Puerto Rico, U.S.",Hormigueros,3,1,3,0,0
-2021-05-06,PRI,"Puerto Rico, U.S.",Humacao,8,0,8,0,0
+2021-05-06,PRI,"Puerto Rico, U.S.",Hormigueros,4,1,4,0,0
+2021-05-06,PRI,"Puerto Rico, U.S.",Humacao,10,0,10,0,0
 2021-05-06,PRI,"Puerto Rico, U.S.",Isabela,4,0,4,0,0
 2021-05-06,PRI,"Puerto Rico, U.S.",Jayuya,1,0,1,0,0
-2021-05-06,PRI,"Puerto Rico, U.S.",Juana Díaz,3,0,3,0,0
+2021-05-06,PRI,"Puerto Rico, U.S.",Juana Díaz,6,0,6,0,0
 2021-05-06,PRI,"Puerto Rico, U.S.",Juncos,3,0,3,0,1
 2021-05-06,PRI,"Puerto Rico, U.S.",Lajas,1,0,1,0,0
-2021-05-06,PRI,"Puerto Rico, U.S.",Lares,1,0,1,0,0
+2021-05-06,PRI,"Puerto Rico, U.S.",Lares,3,0,3,0,0
 2021-05-06,PRI,"Puerto Rico, U.S.",Las Piedras,8,0,8,0,0
 2021-05-06,PRI,"Puerto Rico, U.S.",Luquillo,3,0,3,0,0
 2021-05-06,PRI,"Puerto Rico, U.S.",Manatí,1,0,1,0,0
 2021-05-06,PRI,"Puerto Rico, U.S.",Maricao,1,0,1,0,0
-2021-05-06,PRI,"Puerto Rico, U.S.",Mayagüez,2,0,2,0,1
+2021-05-06,PRI,"Puerto Rico, U.S.",Maunabo,1,0,1,0,0
+2021-05-06,PRI,"Puerto Rico, U.S.",Mayagüez,9,0,5,0,1
 2021-05-06,PRI,"Puerto Rico, U.S.",Moca,3,0,3,0,0
-2021-05-06,PRI,"Puerto Rico, U.S.",Morovis,5,0,5,0,0
+2021-05-06,PRI,"Puerto Rico, U.S.",Morovis,6,0,5,0,0
 2021-05-06,PRI,"Puerto Rico, U.S.",Naguabo,3,0,3,0,0
 2021-05-06,PRI,"Puerto Rico, U.S.",Naranjito,4,0,4,3,0
 2021-05-06,PRI,"Puerto Rico, U.S.",Orocovis,3,0,3,0,0
 2021-05-06,PRI,"Puerto Rico, U.S.",Patillas,1,0,1,0,0
-2021-05-06,PRI,"Puerto Rico, U.S.",Ponce,13,0,13,4,0
-2021-05-06,PRI,"Puerto Rico, U.S.",Quebradillas,1,0,1,2,0
-2021-05-06,PRI,"Puerto Rico, U.S.",Río Grande,6,0,6,0,0
+2021-05-06,PRI,"Puerto Rico, U.S.",Ponce,20,1,19,6,1
+2021-05-06,PRI,"Puerto Rico, U.S.",Quebradillas,3,0,3,2,0
+2021-05-06,PRI,"Puerto Rico, U.S.",Río Grande,8,0,7,0,0
 2021-05-06,PRI,"Puerto Rico, U.S.",Rincón,1,0,1,0,0
-2021-05-06,PRI,"Puerto Rico, U.S.",Sabana Grande,7,0,7,0,0
+2021-05-06,PRI,"Puerto Rico, U.S.",Sabana Grande,8,0,7,0,0
 2021-05-06,PRI,"Puerto Rico, U.S.",Salinas,1,0,1,0,0
-2021-05-06,PRI,"Puerto Rico, U.S.",San Germán,5,0,5,0,0
-2021-05-06,PRI,"Puerto Rico, U.S.","San Juan (Puerto Rico, U.S.)",50,0,50,3,1
-2021-05-06,PRI,"Puerto Rico, U.S.",San Lorenzo,5,0,5,4,0
-2021-05-06,PRI,"Puerto Rico, U.S.",San Sebastián,2,0,2,0,0
+2021-05-06,PRI,"Puerto Rico, U.S.",San Germán,7,0,6,0,0
+2021-05-06,PRI,"Puerto Rico, U.S.","San Juan (Puerto Rico, U.S.)",62,0,61,3,1
+2021-05-06,PRI,"Puerto Rico, U.S.",San Lorenzo,7,0,7,4,0
+2021-05-06,PRI,"Puerto Rico, U.S.",San Sebastián,5,0,5,0,0
 2021-05-06,PRI,"Puerto Rico, U.S.",Santa Isabel,2,0,2,1,0
-2021-05-06,PRI,"Puerto Rico, U.S.",Toa Alta,7,0,7,0,0
-2021-05-06,PRI,"Puerto Rico, U.S.",Toa Baja,14,0,13,0,1
-2021-05-06,PRI,"Puerto Rico, U.S.",Trujillo Alto,10,0,10,0,0
-2021-05-06,PRI,"Puerto Rico, U.S.",Utuado,4,0,4,0,0
+2021-05-06,PRI,"Puerto Rico, U.S.",Toa Alta,9,1,8,0,1
+2021-05-06,PRI,"Puerto Rico, U.S.",Toa Baja,18,0,17,0,1
+2021-05-06,PRI,"Puerto Rico, U.S.",Trujillo Alto,12,0,12,0,0
+2021-05-06,PRI,"Puerto Rico, U.S.",Utuado,5,0,4,0,0
 2021-05-06,PRI,"Puerto Rico, U.S.",Vega Alta,2,0,2,0,0
-2021-05-06,PRI,"Puerto Rico, U.S.",Vega Baja,6,0,6,0,0
+2021-05-06,PRI,"Puerto Rico, U.S.",Vega Baja,7,0,7,10,0
 2021-05-06,PRI,"Puerto Rico, U.S.",Vieques,2,0,2,0,0
 2021-05-06,PRI,"Puerto Rico, U.S.",Villalba,6,0,6,0,1
-2021-05-06,PRI,"Puerto Rico, U.S.",Yabucoa,3,0,3,0,0
-2021-05-06,PRI,"Puerto Rico, U.S.",Yauco,7,0,7,0,0
-2021-05-06,QAT,Qatar,Al Doha,36,0,36,4,1
-2021-05-06,QAT,Qatar,Al Khor and Al Thakhira,1,0,1,0,0
-2021-05-06,QAT,Qatar,Al Rayyan,10,1,10,0,1
+2021-05-06,PRI,"Puerto Rico, U.S.",Yabucoa,4,0,4,0,0
+2021-05-06,PRI,"Puerto Rico, U.S.",Yauco,8,0,8,0,0
+2021-05-06,QAT,Qatar,Al Daayen,1,0,0,0,1
+2021-05-06,QAT,Qatar,Al Doha,52,1,50,8,2
+2021-05-06,QAT,Qatar,Al Khor and Al Thakhira,3,0,3,1,0
+2021-05-06,QAT,Qatar,Al Rayyan,14,1,14,1,1
 2021-05-06,QAT,Qatar,Al Shahaniya,1,0,1,0,0
-2021-05-06,QAT,Qatar,Al Shamal,1,0,1,0,0
-2021-05-06,QAT,Qatar,Al Wakrah,7,0,7,2,0
+2021-05-06,QAT,Qatar,Al Shamal,2,0,2,3,0
+2021-05-06,QAT,Qatar,Al Wakrah,10,0,10,2,0
 2021-05-06,QAT,Qatar,Umm Salal,1,0,1,0,0
 2021-05-06,REU,Réunion,Saint-Pierre,1,0,1,0,0
-2021-05-06,COG,Republic of the Congo,Plateaux,1,1,1,0,1
-2021-05-06,ROU,Romania,Alba,23,0,23,5,0
-2021-05-06,ROU,Romania,Arad,24,0,24,53,0
-2021-05-06,ROU,Romania,Argeș,25,0,25,2,0
-2021-05-06,ROU,Romania,Bacău,25,0,25,3,0
-2021-05-06,ROU,Romania,Bihor,25,1,24,8,0
-2021-05-06,ROU,Romania,Bistrița-Năsăud,12,1,12,3,0
+2021-05-06,COG,Republic of the Congo,Plateaux,2,1,2,0,1
+2021-05-06,COG,Republic of the Congo,Pointe Noire,1,0,1,0,0
+2021-05-06,ROU,Romania,Alba,27,0,26,5,1
+2021-05-06,ROU,Romania,Arad,34,0,32,53,0
+2021-05-06,ROU,Romania,Argeș,30,0,29,3,0
+2021-05-06,ROU,Romania,Bacău,31,0,30,6,0
+2021-05-06,ROU,Romania,Bihor,33,1,30,8,0
+2021-05-06,ROU,Romania,Bistrița-Năsăud,17,1,16,3,0
 2021-05-06,ROU,Romania,Botoșani,15,0,15,34,1
-2021-05-06,ROU,Romania,Brăila,7,0,6,1,1
-2021-05-06,ROU,Romania,Brașov,43,0,43,4,1
-2021-05-06,ROU,Romania,Bucharest,176,1,175,86,3
-2021-05-06,ROU,Romania,Buzău,12,0,12,0,0
-2021-05-06,ROU,Romania,Călărași,9,0,9,0,0
-2021-05-06,ROU,Romania,Caraș-Severin,10,0,10,2,0
-2021-05-06,ROU,Romania,Cluj,54,0,54,19,1
-2021-05-06,ROU,Romania,Constanța,52,0,52,7,0
-2021-05-06,ROU,Romania,Covasna,7,0,7,0,0
-2021-05-06,ROU,Romania,Dâmbovița,17,0,17,0,0
-2021-05-06,ROU,Romania,Dolj,30,0,30,1,0
-2021-05-06,ROU,Romania,Galați,29,0,29,1,0
-2021-05-06,ROU,Romania,Giurgiu,11,0,11,0,0
-2021-05-06,ROU,Romania,Gorj,11,0,11,0,0
-2021-05-06,ROU,Romania,Harghita,12,1,12,13,1
-2021-05-06,ROU,Romania,Hunedoara,31,0,31,3,0
-2021-05-06,ROU,Romania,Iași,43,0,43,3,0
-2021-05-06,ROU,Romania,Ialomița,18,0,18,4,0
-2021-05-06,ROU,Romania,Ilfov,22,0,22,4,0
-2021-05-06,ROU,Romania,Maramureș,23,0,23,4,1
-2021-05-06,ROU,Romania,Mehedinți,11,1,11,103,1
-2021-05-06,ROU,Romania,Mureș,29,0,29,11,1
-2021-05-06,ROU,Romania,Neamț,27,0,27,5,0
-2021-05-06,ROU,Romania,Olt,12,0,12,5,0
-2021-05-06,ROU,Romania,Prahova,47,0,46,5,0
-2021-05-06,ROU,Romania,Sălaj,12,0,12,0,0
-2021-05-06,ROU,Romania,Satu Mare,17,0,16,0,0
-2021-05-06,ROU,Romania,Sibiu,32,0,32,4,0
-2021-05-06,ROU,Romania,Suceava,20,0,20,0,0
-2021-05-06,ROU,Romania,Teleorman,11,0,11,1,0
-2021-05-06,ROU,Romania,Timiș,56,0,56,7,0
-2021-05-06,ROU,Romania,Tulcea,8,0,8,0,0
-2021-05-06,ROU,Romania,Vâlcea,14,0,13,0,0
-2021-05-06,ROU,Romania,Vaslui,12,0,12,0,1
-2021-05-06,ROU,Romania,Vrancea,17,0,17,0,0
+2021-05-06,ROU,Romania,Brăila,11,0,10,1,1
+2021-05-06,ROU,Romania,Brașov,54,0,52,6,1
+2021-05-06,ROU,Romania,Bucharest,205,1,199,93,3
+2021-05-06,ROU,Romania,Buzău,20,0,16,0,0
+2021-05-06,ROU,Romania,Călărași,11,0,9,0,0
+2021-05-06,ROU,Romania,Caraș-Severin,14,0,13,2,0
+2021-05-06,ROU,Romania,Cluj,69,0,67,21,2
+2021-05-06,ROU,Romania,Constanța,61,0,60,9,0
+2021-05-06,ROU,Romania,Covasna,9,0,9,0,0
+2021-05-06,ROU,Romania,Dâmbovița,22,0,21,0,0
+2021-05-06,ROU,Romania,Dolj,39,0,36,4,0
+2021-05-06,ROU,Romania,Galați,33,0,32,1,0
+2021-05-06,ROU,Romania,Giurgiu,12,0,12,0,0
+2021-05-06,ROU,Romania,Gorj,15,0,14,0,0
+2021-05-06,ROU,Romania,Harghita,17,1,16,13,1
+2021-05-06,ROU,Romania,Hunedoara,35,0,34,3,0
+2021-05-06,ROU,Romania,Iași,57,0,55,3,1
+2021-05-06,ROU,Romania,Ialomița,21,0,21,4,0
+2021-05-06,ROU,Romania,Ilfov,28,0,28,8,0
+2021-05-06,ROU,Romania,Maramureș,27,0,27,5,1
+2021-05-06,ROU,Romania,Mehedinți,14,1,12,103,1
+2021-05-06,ROU,Romania,Mureș,38,0,36,11,2
+2021-05-06,ROU,Romania,Neamț,33,0,32,8,0
+2021-05-06,ROU,Romania,Olt,13,0,13,5,0
+2021-05-06,ROU,Romania,Prahova,53,0,51,5,0
+2021-05-06,ROU,Romania,Sălaj,14,0,12,0,0
+2021-05-06,ROU,Romania,Satu Mare,24,0,21,0,0
+2021-05-06,ROU,Romania,Sibiu,42,2,40,4,1
+2021-05-06,ROU,Romania,Suceava,29,0,29,2,0
+2021-05-06,ROU,Romania,Teleorman,14,0,14,2,0
+2021-05-06,ROU,Romania,Timiș,71,0,70,8,0
+2021-05-06,ROU,Romania,Tulcea,10,0,9,0,0
+2021-05-06,ROU,Romania,Vâlcea,17,0,16,0,0
+2021-05-06,ROU,Romania,Vaslui,15,0,15,3,1
+2021-05-06,ROU,Romania,Vrancea,21,0,19,0,0
 2021-05-06,RUS,Russia,Adygea,1,0,1,0,0
-2021-05-06,RUS,Russia,Altai Krai,6,0,6,0,0
-2021-05-06,RUS,Russia,Amur Oblast,3,0,3,5,0
-2021-05-06,RUS,Russia,Arkhangelsk Oblast,5,0,5,8,0
-2021-05-06,RUS,Russia,Astrakhan Oblast,6,0,6,0,0
-2021-05-06,RUS,Russia,Bashkortostan,11,0,11,5,0
-2021-05-06,RUS,Russia,Belgorod Oblast,5,0,5,0,0
+2021-05-06,RUS,Russia,Altai Krai,9,0,8,0,0
+2021-05-06,RUS,Russia,Amur Oblast,4,0,3,5,1
+2021-05-06,RUS,Russia,Arkhangelsk Oblast,7,0,7,8,0
+2021-05-06,RUS,Russia,Astrakhan Oblast,7,0,7,1,0
+2021-05-06,RUS,Russia,Bashkortostan,17,0,17,5,0
+2021-05-06,RUS,Russia,Belgorod Oblast,10,0,8,0,0
 2021-05-06,RUS,Russia,Bryansk Oblast,4,0,4,2,0
-2021-05-06,RUS,Russia,Buryatia,7,0,7,0,0
-2021-05-06,RUS,Russia,Chelyabinsk Oblast,14,0,14,0,0
+2021-05-06,RUS,Russia,Buryatia,9,0,8,0,1
+2021-05-06,RUS,Russia,Chelyabinsk Oblast,18,0,17,1,0
 2021-05-06,RUS,Russia,Chuvashia,3,0,3,3,0
-2021-05-06,RUS,Russia,Dagestan,6,0,6,0,0
-2021-05-06,RUS,Russia,Irkutsk Oblast,14,0,14,2,0
+2021-05-06,RUS,Russia,Dagestan,9,0,8,0,0
+2021-05-06,RUS,Russia,Irkutsk Oblast,16,0,16,6,0
 2021-05-06,RUS,Russia,Ivanovo Oblast,3,0,3,0,0
-2021-05-06,RUS,Russia,Kaliningrad Oblast,10,0,10,25,0
-2021-05-06,RUS,Russia,Kaluga Oblast,8,0,7,21,0
-2021-05-06,RUS,Russia,Kamchatka Krai,3,0,3,0,1
-2021-05-06,RUS,Russia,Karachay-Cherkessia,1,0,1,0,0
-2021-05-06,RUS,Russia,Karelia,4,0,3,0,0
-2021-05-06,RUS,Russia,Kemerovo Oblast,7,1,7,0,1
-2021-05-06,RUS,Russia,Khabarovsk Krai,11,0,11,1,0
+2021-05-06,RUS,Russia,Kaliningrad Oblast,14,0,14,25,0
+2021-05-06,RUS,Russia,Kalmykia,2,0,2,0,0
+2021-05-06,RUS,Russia,Kaluga Oblast,11,0,10,21,0
+2021-05-06,RUS,Russia,Kamchatka Krai,4,0,4,0,1
+2021-05-06,RUS,Russia,Karachay-Cherkessia,2,0,2,0,0
+2021-05-06,RUS,Russia,Karelia,5,0,4,1,0
+2021-05-06,RUS,Russia,Kemerovo Oblast,10,1,9,1,1
+2021-05-06,RUS,Russia,Khabarovsk Krai,14,0,13,4,0
 2021-05-06,RUS,Russia,Khakassia,1,0,1,0,0
 2021-05-06,RUS,Russia,Khanty-Mansi Autonomous Okrug,6,0,6,9,1
 2021-05-06,RUS,Russia,Kirov Oblast,1,0,1,0,0
 2021-05-06,RUS,Russia,Komi Republic,2,0,2,1,0
 2021-05-06,RUS,Russia,Kostroma Oblast,4,1,4,0,0
-2021-05-06,RUS,Russia,Krasnodar Krai,25,1,25,12,1
-2021-05-06,RUS,Russia,Krasnoyarsk Krai,17,0,17,3,0
-2021-05-06,RUS,Russia,Kurgan Oblast,4,0,4,0,0
+2021-05-06,RUS,Russia,Krasnodar Krai,34,1,32,12,1
+2021-05-06,RUS,Russia,Krasnoyarsk Krai,18,0,17,3,0
+2021-05-06,RUS,Russia,Kurgan Oblast,6,0,6,0,0
 2021-05-06,RUS,Russia,Kursk Oblast,2,0,2,7,0
-2021-05-06,RUS,Russia,Leningrad Oblast,11,1,11,1,0
-2021-05-06,RUS,Russia,Lipetsk Oblast,4,0,4,2,0
-2021-05-06,RUS,Russia,Magadan Oblast,1,0,1,1,0
+2021-05-06,RUS,Russia,Leningrad Oblast,12,1,12,1,0
+2021-05-06,RUS,Russia,Lipetsk Oblast,6,0,6,2,0
+2021-05-06,RUS,Russia,Magadan Oblast,2,0,1,1,0
 2021-05-06,RUS,Russia,Mordovia,1,0,1,0,0
-2021-05-06,RUS,Russia,Moscow,215,6,214,81,6
-2021-05-06,RUS,Russia,Moscow Oblast,80,1,80,22,2
-2021-05-06,RUS,Russia,Murmansk Oblast,5,0,5,0,0
-2021-05-06,RUS,Russia,Nizhny Novgorod Oblast,24,0,23,4,1
-2021-05-06,RUS,Russia,North Ossetia-Alania,2,0,2,5,0
-2021-05-06,RUS,Russia,Novgorod Oblast,1,0,1,2,0
-2021-05-06,RUS,Russia,Novosibirsk Oblast,20,0,20,0,0
-2021-05-06,RUS,Russia,Omsk Oblast,7,0,7,6,0
-2021-05-06,RUS,Russia,Orenburg Oblast,3,0,3,0,0
-2021-05-06,RUS,Russia,Oryol Oblast,5,0,5,3,0
+2021-05-06,RUS,Russia,Moscow,261,9,248,89,10
+2021-05-06,RUS,Russia,Moscow Oblast,103,2,103,37,4
+2021-05-06,RUS,Russia,Murmansk Oblast,8,0,8,0,0
+2021-05-06,RUS,Russia,Nizhny Novgorod Oblast,29,0,26,4,2
+2021-05-06,RUS,Russia,North Ossetia-Alania,3,0,3,5,0
+2021-05-06,RUS,Russia,Novgorod Oblast,2,0,1,2,0
+2021-05-06,RUS,Russia,Novosibirsk Oblast,27,1,26,0,0
+2021-05-06,RUS,Russia,Omsk Oblast,9,0,9,9,0
+2021-05-06,RUS,Russia,Orenburg Oblast,4,0,4,0,0
+2021-05-06,RUS,Russia,Oryol Oblast,6,0,6,4,0
 2021-05-06,RUS,Russia,Penza Oblast,5,0,5,0,0
-2021-05-06,RUS,Russia,Perm Krai,11,1,11,3,0
+2021-05-06,RUS,Russia,Perm Krai,12,1,11,3,0
 2021-05-06,RUS,Russia,Primorsky Krai,14,0,14,8,0
 2021-05-06,RUS,Russia,Pskov Oblast,7,1,7,4,0
-2021-05-06,RUS,Russia,Rostov Oblast,24,0,24,9,2
-2021-05-06,RUS,Russia,Ryazan Oblast,3,0,3,1,0
-2021-05-06,RUS,Russia,Saint Petersburg,91,3,91,51,3
-2021-05-06,RUS,Russia,Sakhalin Oblast,1,0,1,0,0
-2021-05-06,RUS,Russia,Samara Oblast,17,0,17,2,0
-2021-05-06,RUS,Russia,Saratov Oblast,9,1,9,1,0
+2021-05-06,RUS,Russia,Rostov Oblast,29,0,28,9,2
+2021-05-06,RUS,Russia,Ryazan Oblast,4,0,4,1,0
+2021-05-06,RUS,Russia,Saint Petersburg,110,4,109,55,3
+2021-05-06,RUS,Russia,Sakhalin Oblast,3,0,2,0,0
+2021-05-06,RUS,Russia,Samara Oblast,19,0,19,2,0
+2021-05-06,RUS,Russia,Saratov Oblast,15,3,15,5,2
 2021-05-06,RUS,Russia,Sevastopol,3,0,3,0,0
-2021-05-06,RUS,Russia,Smolensk Oblast,9,0,8,3,0
-2021-05-06,RUS,Russia,Stavropol Krai,11,0,11,1,1
-2021-05-06,RUS,Russia,Sverdlovsk Oblast,35,1,35,109,2
-2021-05-06,RUS,Russia,Tambov Oblast,5,0,5,10,0
-2021-05-06,RUS,Russia,Tatarstan,14,2,14,3,1
+2021-05-06,RUS,Russia,Smolensk Oblast,11,0,10,3,0
+2021-05-06,RUS,Russia,Stavropol Krai,12,0,11,1,1
+2021-05-06,RUS,Russia,Sverdlovsk Oblast,42,2,42,109,3
+2021-05-06,RUS,Russia,Tambov Oblast,6,0,6,10,0
+2021-05-06,RUS,Russia,Tatarstan,17,2,16,3,1
 2021-05-06,RUS,Russia,Tomsk Oblast,1,0,1,0,0
-2021-05-06,RUS,Russia,Tula Oblast,3,0,3,3,0
+2021-05-06,RUS,Russia,Tula Oblast,6,0,5,3,0
 2021-05-06,RUS,Russia,Tuva,1,0,1,0,0
 2021-05-06,RUS,Russia,Tver Oblast,4,0,4,0,0
-2021-05-06,RUS,Russia,Tyumen Oblast,7,0,7,2,0
+2021-05-06,RUS,Russia,Tyumen Oblast,10,0,10,2,1
 2021-05-06,RUS,Russia,Udmurtia,6,0,6,0,0
 2021-05-06,RUS,Russia,Ulyanovsk Oblast,4,0,4,0,0
-2021-05-06,RUS,Russia,Vladimir Oblast,4,0,4,0,0
-2021-05-06,RUS,Russia,Volgograd Oblast,6,0,6,4,0
-2021-05-06,RUS,Russia,Vologda Oblast,5,0,5,1,0
+2021-05-06,RUS,Russia,Vladimir Oblast,5,0,5,0,0
+2021-05-06,RUS,Russia,Volgograd Oblast,7,0,7,4,0
+2021-05-06,RUS,Russia,Vologda Oblast,6,0,6,1,0
 2021-05-06,RUS,Russia,Voronezh Oblast,7,0,7,0,1
-2021-05-06,RUS,Russia,Yakutia,3,0,3,1,0
+2021-05-06,RUS,Russia,Yakutia,7,0,7,4,0
 2021-05-06,RUS,Russia,Yamalo-Nenets Autonomous Okrug,2,0,2,3,0
-2021-05-06,RUS,Russia,Yaroslavl Oblast,5,0,5,5,0
-2021-05-06,RUS,Russia,Zabaykalsky Krai,3,0,3,1,0
+2021-05-06,RUS,Russia,Yaroslavl Oblast,7,0,7,6,0
+2021-05-06,RUS,Russia,Zabaykalsky Krai,4,0,3,1,0
+2021-05-06,RWA,Rwanda,Amajyepfo,1,0,1,0,0
+2021-05-06,RWA,Rwanda,Umujyi wa Kigali,1,0,0,0,0
+2021-05-06,SHN,Saint Helena,Tristan da Cunha,1,1,0,0,1
 2021-05-06,LCA,Saint Lucia,Choiseul,1,0,1,0,0
+2021-05-06,SPM,Saint Pierre and Miquelon,Miquelon-Langlade,1,0,1,3,1
 2021-05-06,VCT,Saint Vincent and the Grenadines,Saint Andrew,1,0,1,0,0
+2021-05-06,WSM,Samoa,Va'a-o-Fonoti,1,0,0,0,0
 2021-05-06,SMR,San Marino,Acquaviva,1,0,1,0,0
 2021-05-06,SMR,San Marino,Domagnano,1,0,1,0,0
-2021-05-06,SAU,Saudi Arabia,Al Bahah,4,0,4,0,0
-2021-05-06,SAU,Saudi Arabia,Al Hudud ash Shamaliyah,2,0,2,0,0
-2021-05-06,SAU,Saudi Arabia,Al Jawf,6,0,6,1,1
-2021-05-06,SAU,Saudi Arabia,Al Madinah,15,0,15,1,0
-2021-05-06,SAU,Saudi Arabia,Al Quassim,4,0,4,15,0
-2021-05-06,SAU,Saudi Arabia,Ar Riyad,98,3,97,20,5
-2021-05-06,SAU,Saudi Arabia,Ash Sharqiyah,45,0,44,4,0
-2021-05-06,SAU,Saudi Arabia,Ha'il,4,0,4,1,0
-2021-05-06,SAU,Saudi Arabia,Jizan,10,0,10,0,0
-2021-05-06,SAU,Saudi Arabia,Makkah,75,0,75,15,1
-2021-05-06,SAU,Saudi Arabia,Najran,3,1,3,0,1
-2021-05-06,SAU,Saudi Arabia,Tabuk,3,0,3,0,0
-2021-05-06,SAU,Saudi Arabia,`Asir,7,0,7,0,0
-2021-05-06,SEN,Senegal,Dakar,19,1,19,50,1
-2021-05-06,SEN,Senegal,Thiès,1,0,1,0,0
-2021-05-06,SEN,Senegal,Ziguinchor,1,0,1,0,0
-2021-05-06,SRB,Serbia,Šumadijski,16,0,16,7,1
-2021-05-06,SRB,Serbia,Borski,5,0,5,0,0
-2021-05-06,SRB,Serbia,Braničevski,5,0,5,3,0
-2021-05-06,SRB,Serbia,Grad Beograd,110,0,110,108,0
-2021-05-06,SRB,Serbia,Jablanički,4,0,4,0,0
-2021-05-06,SRB,Serbia,Južno-Bački,33,3,33,63,2
-2021-05-06,SRB,Serbia,Južno-Banatski,10,0,10,7,1
-2021-05-06,SRB,Serbia,Kolubarski,7,0,7,3,0
+2021-05-06,SAU,Saudi Arabia,Al Bahah,6,0,5,0,0
+2021-05-06,SAU,Saudi Arabia,Al Hudud ash Shamaliyah,3,0,3,0,0
+2021-05-06,SAU,Saudi Arabia,Al Jawf,7,0,7,1,1
+2021-05-06,SAU,Saudi Arabia,Al Madinah,20,0,20,1,0
+2021-05-06,SAU,Saudi Arabia,Al Quassim,11,0,7,16,2
+2021-05-06,SAU,Saudi Arabia,Ar Riyad,142,4,139,57,8
+2021-05-06,SAU,Saudi Arabia,Ash Sharqiyah,58,1,56,7,2
+2021-05-06,SAU,Saudi Arabia,Ha'il,5,0,5,1,0
+2021-05-06,SAU,Saudi Arabia,Jizan,13,0,11,1,0
+2021-05-06,SAU,Saudi Arabia,Makkah,111,0,106,20,1
+2021-05-06,SAU,Saudi Arabia,Najran,5,1,5,0,1
+2021-05-06,SAU,Saudi Arabia,Tabuk,5,0,5,0,0
+2021-05-06,SAU,Saudi Arabia,`Asir,13,0,13,0,0
+2021-05-06,SEN,Senegal,Dakar,32,1,29,54,2
+2021-05-06,SEN,Senegal,Diourbel,1,0,1,0,0
+2021-05-06,SEN,Senegal,Kaolack,2,0,2,0,0
+2021-05-06,SEN,Senegal,Saint-Louis,2,0,2,0,0
+2021-05-06,SEN,Senegal,Thiès,3,0,2,1,0
+2021-05-06,SEN,Senegal,Ziguinchor,2,0,2,0,0
+2021-05-06,SRB,Serbia,Šumadijski,22,0,21,12,1
+2021-05-06,SRB,Serbia,Borski,6,0,6,0,0
+2021-05-06,SRB,Serbia,Braničevski,11,0,8,3,0
+2021-05-06,SRB,Serbia,Grad Beograd,133,0,127,114,1
+2021-05-06,SRB,Serbia,Jablanički,6,0,6,2,0
+2021-05-06,SRB,Serbia,Južno-Bački,44,3,43,65,2
+2021-05-06,SRB,Serbia,Južno-Banatski,17,0,16,7,1
+2021-05-06,SRB,Serbia,Kolubarski,8,0,8,4,0
 2021-05-06,SRB,Serbia,Mačvanski,7,0,7,4,0
-2021-05-06,SRB,Serbia,Moravički,7,0,7,9,0
-2021-05-06,SRB,Serbia,Nišavski,21,1,21,26,1
-2021-05-06,SRB,Serbia,Pčinjski,9,0,9,13,0
+2021-05-06,SRB,Serbia,Moravički,9,0,9,10,0
+2021-05-06,SRB,Serbia,Nišavski,24,1,24,30,1
+2021-05-06,SRB,Serbia,Pčinjski,10,0,9,13,0
 2021-05-06,SRB,Serbia,Pirotski,2,0,2,3,0
-2021-05-06,SRB,Serbia,Podunavski,11,0,11,2,0
+2021-05-06,SRB,Serbia,Podunavski,12,0,11,2,0
 2021-05-06,SRB,Serbia,Pomoravski,7,0,7,0,0
-2021-05-06,SRB,Serbia,Raški,9,0,9,3,0
-2021-05-06,SRB,Serbia,Rasinski,2,0,2,1,0
-2021-05-06,SRB,Serbia,Severno-Bački,14,0,14,7,0
-2021-05-06,SRB,Serbia,Severno-Banatski,14,1,14,8,2
-2021-05-06,SRB,Serbia,Srednje-Banatski,10,0,10,10,1
-2021-05-06,SRB,Serbia,Sremski,13,0,13,1,0
+2021-05-06,SRB,Serbia,Raški,10,0,10,3,0
+2021-05-06,SRB,Serbia,Rasinski,4,0,4,31,0
+2021-05-06,SRB,Serbia,Severno-Bački,19,0,19,9,0
+2021-05-06,SRB,Serbia,Severno-Banatski,15,1,15,13,2
+2021-05-06,SRB,Serbia,Srednje-Banatski,13,0,13,16,1
+2021-05-06,SRB,Serbia,Sremski,17,0,16,1,0
 2021-05-06,SRB,Serbia,Toplički,2,0,2,10,0
-2021-05-06,SRB,Serbia,Zaječarski,7,0,7,6,0
-2021-05-06,SRB,Serbia,Zapadno-Bački,8,0,8,8,1
-2021-05-06,SRB,Serbia,Zlatiborski,15,0,15,6,0
-2021-05-06,SGP,Singapore,Central,29,0,29,1,0
-2021-05-06,SGP,Singapore,East,23,0,23,0,1
-2021-05-06,SGP,Singapore,North,19,0,19,0,0
-2021-05-06,SGP,Singapore,North-East,28,1,28,0,1
-2021-05-06,SGP,Singapore,West,37,0,37,0,0
-2021-05-06,SVK,Slovakia,Žilinský,32,1,32,3,1
-2021-05-06,SVK,Slovakia,Banskobystrický,39,0,39,27,0
-2021-05-06,SVK,Slovakia,Bratislavský,65,1,64,8,0
-2021-05-06,SVK,Slovakia,Košický,30,0,30,8,1
-2021-05-06,SVK,Slovakia,Nitriansky,40,1,40,22,3
-2021-05-06,SVK,Slovakia,Prešovský,33,0,33,16,0
-2021-05-06,SVK,Slovakia,Trenčiansky,28,0,28,3,1
-2021-05-06,SVK,Slovakia,Trnavský,29,1,28,5,3
-2021-05-06,SVN,Slovenia,Gorenjska,20,0,20,9,0
-2021-05-06,SVN,Slovenia,Goriška,8,0,8,4,0
-2021-05-06,SVN,Slovenia,Jugovzhodna Slovenija,8,0,8,24,1
-2021-05-06,SVN,Slovenia,Koroška,6,0,6,100,0
+2021-05-06,SRB,Serbia,Zaječarski,9,0,8,6,0
+2021-05-06,SRB,Serbia,Zapadno-Bački,9,0,8,8,1
+2021-05-06,SRB,Serbia,Zlatiborski,18,0,18,6,0
+2021-05-06,SGP,Singapore,Central,40,0,39,5,0
+2021-05-06,SGP,Singapore,East,31,0,30,0,1
+2021-05-06,SGP,Singapore,North,28,0,28,1,0
+2021-05-06,SGP,Singapore,North-East,33,1,32,0,1
+2021-05-06,SGP,Singapore,West,44,1,43,0,0
+2021-05-06,SVK,Slovakia,Žilinský,35,1,35,3,1
+2021-05-06,SVK,Slovakia,Banskobystrický,43,0,43,28,1
+2021-05-06,SVK,Slovakia,Bratislavský,69,1,67,8,0
+2021-05-06,SVK,Slovakia,Košický,41,0,39,9,2
+2021-05-06,SVK,Slovakia,Nitriansky,45,1,42,22,3
+2021-05-06,SVK,Slovakia,Prešovský,42,0,41,16,0
+2021-05-06,SVK,Slovakia,Trenčiansky,35,0,33,3,2
+2021-05-06,SVK,Slovakia,Trnavský,33,1,31,5,3
+2021-05-06,SVN,Slovenia,Gorenjska,24,1,24,9,0
+2021-05-06,SVN,Slovenia,Goriška,11,1,11,8,0
+2021-05-06,SVN,Slovenia,Jugovzhodna Slovenija,12,0,11,26,1
+2021-05-06,SVN,Slovenia,Koroška,9,0,9,104,0
 2021-05-06,SVN,Slovenia,Notranjsko-kraška,2,0,2,0,0
 2021-05-06,SVN,Slovenia,Obalno-kraška,8,0,8,0,0
-2021-05-06,SVN,Slovenia,Osrednjeslovenska,41,0,41,64,0
-2021-05-06,SVN,Slovenia,Podravska,25,0,25,16,1
-2021-05-06,SVN,Slovenia,Pomurska,7,0,7,1,0
-2021-05-06,SVN,Slovenia,Savinjska,14,0,14,17,0
-2021-05-06,SVN,Slovenia,Spodnjeposavska,3,0,3,0,0
-2021-05-06,SVN,Slovenia,Zasavska,3,0,3,4,0
-2021-05-06,ZAF,South Africa,Eastern Cape,33,0,33,19,0
-2021-05-06,ZAF,South Africa,Free State,25,1,25,26,2
-2021-05-06,ZAF,South Africa,Gauteng,178,4,177,95,2
-2021-05-06,ZAF,South Africa,KwaZulu-Natal,83,6,83,57,4
-2021-05-06,ZAF,South Africa,Limpopo,28,1,28,11,0
-2021-05-06,ZAF,South Africa,Mpumalanga,28,2,28,23,2
-2021-05-06,ZAF,South Africa,North West,28,1,28,8,1
-2021-05-06,ZAF,South Africa,Northern Cape,13,0,13,2,0
-2021-05-06,ZAF,South Africa,Western Cape,70,0,69,13,1
-2021-05-06,KOR,South Korea,Busan,29,1,28,7,0
-2021-05-06,KOR,South Korea,Chungcheongbuk-do,14,0,14,2,0
-2021-05-06,KOR,South Korea,Chungcheongnam-do,12,0,12,0,0
-2021-05-06,KOR,South Korea,Daegu,21,0,20,1,0
-2021-05-06,KOR,South Korea,Daejeon,9,0,9,0,0
-2021-05-06,KOR,South Korea,Gangwon-do,12,0,12,0,0
-2021-05-06,KOR,South Korea,Gwangju,11,0,11,0,0
-2021-05-06,KOR,South Korea,Gyeonggi-do,108,0,105,14,0
-2021-05-06,KOR,South Korea,Gyeongsangbuk-do,14,0,14,0,0
-2021-05-06,KOR,South Korea,Gyeongsangnam-do,26,0,26,21,0
-2021-05-06,KOR,South Korea,Incheon,21,0,21,1,0
-2021-05-06,KOR,South Korea,Jeju,6,0,6,1,0
-2021-05-06,KOR,South Korea,Jeollabuk-do,9,0,9,1,0
-2021-05-06,KOR,South Korea,Jeollanam-do,9,0,9,1,0
+2021-05-06,SVN,Slovenia,Osrednjeslovenska,50,0,49,64,1
+2021-05-06,SVN,Slovenia,Podravska,37,1,33,41,3
+2021-05-06,SVN,Slovenia,Pomurska,13,0,13,8,0
+2021-05-06,SVN,Slovenia,Savinjska,19,1,19,17,0
+2021-05-06,SVN,Slovenia,Spodnjeposavska,4,0,4,0,0
+2021-05-06,SVN,Slovenia,Zasavska,4,0,4,4,0
+2021-05-06,SOM,Somalia,Bay,1,0,1,0,0
+2021-05-06,ZAF,South Africa,Eastern Cape,49,1,45,20,3
+2021-05-06,ZAF,South Africa,Free State,37,3,35,26,4
+2021-05-06,ZAF,South Africa,Gauteng,262,8,250,111,6
+2021-05-06,ZAF,South Africa,KwaZulu-Natal,125,8,120,61,8
+2021-05-06,ZAF,South Africa,Limpopo,35,1,34,12,0
+2021-05-06,ZAF,South Africa,Mpumalanga,37,2,35,123,2
+2021-05-06,ZAF,South Africa,North West,49,2,47,11,3
+2021-05-06,ZAF,South Africa,Northern Cape,15,0,14,2,0
+2021-05-06,ZAF,South Africa,Western Cape,101,3,92,20,4
+2021-05-06,KOR,South Korea,Busan,35,1,32,9,0
+2021-05-06,KOR,South Korea,Chungcheongbuk-do,18,0,16,2,0
+2021-05-06,KOR,South Korea,Chungcheongnam-do,18,0,17,0,0
+2021-05-06,KOR,South Korea,Daegu,24,0,22,1,0
+2021-05-06,KOR,South Korea,Daejeon,10,0,10,0,0
+2021-05-06,KOR,South Korea,Gangwon-do,18,0,18,1,0
+2021-05-06,KOR,South Korea,Gwangju,13,0,12,0,0
+2021-05-06,KOR,South Korea,Gyeonggi-do,145,0,136,14,0
+2021-05-06,KOR,South Korea,Gyeongsangbuk-do,19,0,19,0,0
+2021-05-06,KOR,South Korea,Gyeongsangnam-do,41,0,39,29,1
+2021-05-06,KOR,South Korea,Incheon,29,0,29,1,0
+2021-05-06,KOR,South Korea,Jeju,7,0,6,1,0
+2021-05-06,KOR,South Korea,Jeollabuk-do,11,0,10,1,0
+2021-05-06,KOR,South Korea,Jeollanam-do,10,0,9,1,0
 2021-05-06,KOR,South Korea,Sejong,2,0,2,0,0
-2021-05-06,KOR,South Korea,Seoul,81,0,81,8,0
-2021-05-06,KOR,South Korea,Ulsan,10,0,10,0,0
-2021-05-06,ESP,Spain,Andalucía,273,0,273,61,7
-2021-05-06,ESP,Spain,Aragón,57,1,56,62,3
-2021-05-06,ESP,Spain,Cantabria,26,0,26,1,0
-2021-05-06,ESP,Spain,Castilla y León,95,2,94,8,1
-2021-05-06,ESP,Spain,Castilla-La Mancha,57,0,57,9,0
-2021-05-06,ESP,Spain,Cataluña,182,5,179,33,3
-2021-05-06,ESP,Spain,Ceuta y Melilla,5,0,5,0,0
-2021-05-06,ESP,Spain,Comunidad Foral de Navarra,17,0,17,5,0
-2021-05-06,ESP,Spain,Comunidad Valenciana,197,2,197,123,5
-2021-05-06,ESP,Spain,Comunidad de Madrid,229,1,227,19,4
-2021-05-06,ESP,Spain,Extremadura,31,0,31,5,0
-2021-05-06,ESP,Spain,Galicia,112,0,111,15,2
-2021-05-06,ESP,Spain,Islas Baleares,49,0,49,3,0
-2021-05-06,ESP,Spain,Islas Canarias,99,0,99,7,2
-2021-05-06,ESP,Spain,La Rioja,13,0,13,2,0
-2021-05-06,ESP,Spain,País Vasco,72,0,72,21,1
-2021-05-06,ESP,Spain,Principado de Asturias,54,0,53,3,1
-2021-05-06,ESP,Spain,Región de Murcia,46,0,46,8,0
+2021-05-06,KOR,South Korea,Seoul,105,0,102,20,0
+2021-05-06,KOR,South Korea,Ulsan,12,0,10,0,0
+2021-05-06,SSD,South Sudan,Eastern Equatoria,1,0,1,0,0
+2021-05-06,ESP,Spain,Andalucía,342,3,331,81,11
+2021-05-06,ESP,Spain,Aragón,61,1,59,62,3
+2021-05-06,ESP,Spain,Cantabria,28,0,27,1,0
+2021-05-06,ESP,Spain,Castilla y León,119,2,115,11,1
+2021-05-06,ESP,Spain,Castilla-La Mancha,73,0,69,60,1
+2021-05-06,ESP,Spain,Cataluña,230,7,223,40,4
+2021-05-06,ESP,Spain,Ceuta y Melilla,6,0,6,0,0
+2021-05-06,ESP,Spain,Comunidad Foral de Navarra,22,0,21,5,1
+2021-05-06,ESP,Spain,Comunidad Valenciana,242,3,234,129,7
+2021-05-06,ESP,Spain,Comunidad de Madrid,297,1,287,79,9
+2021-05-06,ESP,Spain,Extremadura,44,0,43,7,0
+2021-05-06,ESP,Spain,Galicia,142,0,134,19,3
+2021-05-06,ESP,Spain,Islas Baleares,68,0,66,3,0
+2021-05-06,ESP,Spain,Islas Canarias,122,1,118,107,3
+2021-05-06,ESP,Spain,La Rioja,16,0,16,2,0
+2021-05-06,ESP,Spain,País Vasco,97,0,91,22,1
+2021-05-06,ESP,Spain,Principado de Asturias,71,0,66,3,1
+2021-05-06,ESP,Spain,Región de Murcia,56,0,54,8,0
+2021-05-06,LKA,Sri Lanka,Ampara,2,0,2,2,0
 2021-05-06,LKA,Sri Lanka,Anuradhapura,2,0,2,30,0
-2021-05-06,LKA,Sri Lanka,Badulla,1,0,1,10,0
-2021-05-06,LKA,Sri Lanka,Colombo,60,0,59,21,1
-2021-05-06,LKA,Sri Lanka,Galle,8,0,8,3,2
-2021-05-06,LKA,Sri Lanka,Gampaha,23,0,23,11,0
-2021-05-06,LKA,Sri Lanka,Hambantota,1,0,1,0,0
+2021-05-06,LKA,Sri Lanka,Badulla,4,0,4,11,0
+2021-05-06,LKA,Sri Lanka,Colombo,80,0,76,28,1
+2021-05-06,LKA,Sri Lanka,Galle,12,0,12,105,2
+2021-05-06,LKA,Sri Lanka,Gampaha,33,0,33,12,0
+2021-05-06,LKA,Sri Lanka,Hambantota,3,1,3,1,1
 2021-05-06,LKA,Sri Lanka,Jaffna,4,0,4,5,0
-2021-05-06,LKA,Sri Lanka,Kalutara,8,0,8,16,0
-2021-05-06,LKA,Sri Lanka,Kandy,13,0,13,18,1
-2021-05-06,LKA,Sri Lanka,Kegalle,4,0,4,0,0
+2021-05-06,LKA,Sri Lanka,Kalutara,11,2,10,17,2
+2021-05-06,LKA,Sri Lanka,Kandy,20,1,19,21,2
+2021-05-06,LKA,Sri Lanka,Kegalle,6,0,6,0,0
 2021-05-06,LKA,Sri Lanka,Kilinochchi,1,0,1,3,0
-2021-05-06,LKA,Sri Lanka,Kurunegala,6,0,6,3,0
-2021-05-06,LKA,Sri Lanka,Matale,1,0,1,5,0
-2021-05-06,LKA,Sri Lanka,Matara,5,0,5,0,0
+2021-05-06,LKA,Sri Lanka,Kurunegala,11,0,10,5,0
+2021-05-06,LKA,Sri Lanka,Matale,2,0,2,5,0
+2021-05-06,LKA,Sri Lanka,Matara,9,0,9,1,0
 2021-05-06,LKA,Sri Lanka,Moneragala,1,0,1,0,0
-2021-05-06,LKA,Sri Lanka,Nuwara Eliya,2,0,2,0,0
+2021-05-06,LKA,Sri Lanka,Nuwara Eliya,4,0,4,0,0
 2021-05-06,LKA,Sri Lanka,Polonnaruwa,1,0,1,0,0
 2021-05-06,LKA,Sri Lanka,Puttalam,1,0,1,0,0
-2021-05-06,LKA,Sri Lanka,Ratnapura,3,0,3,4,0
+2021-05-06,LKA,Sri Lanka,Ratnapura,6,0,5,5,1
 2021-05-06,LKA,Sri Lanka,Trincomalee,2,0,2,0,0
-2021-05-06,SDN,Sudan,Al Jazirah,10,0,10,13,0
-2021-05-06,SDN,Sudan,Al Qadarif,1,0,1,0,0
+2021-05-06,LKA,Sri Lanka,Vavuniya,1,0,1,0,0
+2021-05-06,SDN,Sudan,Al Jazirah,13,0,12,13,0
+2021-05-06,SDN,Sudan,Al Qadarif,4,0,4,0,0
+2021-05-06,SDN,Sudan,Blue Nile,2,0,1,0,0
 2021-05-06,SDN,Sudan,East Darfur,1,0,1,0,0
-2021-05-06,SDN,Sudan,Kassala,2,0,2,0,0
-2021-05-06,SDN,Sudan,Khartoum,63,0,60,56,4
-2021-05-06,SDN,Sudan,North Darfur,4,0,4,10,0
-2021-05-06,SDN,Sudan,North Kurdufan,4,0,4,0,0
-2021-05-06,SDN,Sudan,Northern,1,0,1,0,0
-2021-05-06,SDN,Sudan,Red Sea,5,0,5,20,0
+2021-05-06,SDN,Sudan,Kassala,4,0,3,2,1
+2021-05-06,SDN,Sudan,Khartoum,104,0,87,74,7
+2021-05-06,SDN,Sudan,North Darfur,7,0,6,10,0
+2021-05-06,SDN,Sudan,North Kurdufan,6,0,6,4,0
+2021-05-06,SDN,Sudan,Northern,2,0,2,0,0
+2021-05-06,SDN,Sudan,Red Sea,8,1,8,24,1
 2021-05-06,SDN,Sudan,River Nile,3,0,3,14,1
-2021-05-06,SDN,Sudan,South Darfur,5,0,5,4,1
+2021-05-06,SDN,Sudan,Sennar,2,0,2,0,0
+2021-05-06,SDN,Sudan,South Darfur,8,0,6,4,1
 2021-05-06,SDN,Sudan,South Kurdufan,1,0,0,0,0
-2021-05-06,SDN,Sudan,West Darfur,1,0,1,0,0
-2021-05-06,SDN,Sudan,White Nile,1,0,1,2,0
-2021-05-06,SWE,Sweden,Östergötland,161,2,161,46,6
-2021-05-06,SWE,Sweden,Blekinge,65,0,65,29,0
-2021-05-06,SWE,Sweden,Dalarna,97,4,97,33,5
-2021-05-06,SWE,Sweden,Gävleborg,121,2,121,25,5
-2021-05-06,SWE,Sweden,Gotland,25,1,25,5,0
-2021-05-06,SWE,Sweden,Halland,93,0,93,28,3
-2021-05-06,SWE,Sweden,Jämtland,47,0,47,13,1
-2021-05-06,SWE,Sweden,Jönköping,99,1,99,99,4
-2021-05-06,SWE,Sweden,Kalmar,87,0,87,66,8
-2021-05-06,SWE,Sweden,Kronoberg,56,1,56,29,2
-2021-05-06,SWE,Sweden,Norrbotten,101,1,100,34,3
-2021-05-06,SWE,Sweden,Orebro,97,3,97,32,4
-2021-05-06,SWE,Sweden,Södermanland,114,3,114,32,4
-2021-05-06,SWE,Sweden,Skåne,397,2,396,118,18
-2021-05-06,SWE,Sweden,Stockholm,386,10,384,158,25
-2021-05-06,SWE,Sweden,Uppsala,147,2,146,26,7
-2021-05-06,SWE,Sweden,Värmland,92,1,92,29,3
-2021-05-06,SWE,Sweden,Västerbotten,89,3,89,26,3
-2021-05-06,SWE,Sweden,Västernorrland,104,2,104,43,8
-2021-05-06,SWE,Sweden,Västmanland,110,3,110,26,9
-2021-05-06,SWE,Sweden,Västra Götaland,315,7,314,110,17
-2021-05-06,CHE,Switzerland,Aargau,35,0,35,9,0
-2021-05-06,CHE,Switzerland,Appenzell Ausserrhoden,2,0,2,1,0
-2021-05-06,CHE,Switzerland,Basel-Landschaft,23,0,23,0,1
-2021-05-06,CHE,Switzerland,Basel-Stadt,18,0,18,4,0
-2021-05-06,CHE,Switzerland,Bern,56,0,56,7,1
-2021-05-06,CHE,Switzerland,Fribourg,20,0,20,0,0
-2021-05-06,CHE,Switzerland,Genève,31,0,31,14,1
+2021-05-06,SDN,Sudan,West Darfur,3,0,3,7,0
+2021-05-06,SDN,Sudan,White Nile,2,0,2,3,0
+2021-05-06,SJM,Svalbard and Jan Mayen,Jan Mayen,1,1,1,1,0
+2021-05-06,SWE,Sweden,Östergötland,192,3,182,52,11
+2021-05-06,SWE,Sweden,Blekinge,71,0,69,29,1
+2021-05-06,SWE,Sweden,Dalarna,115,5,114,40,9
+2021-05-06,SWE,Sweden,Gävleborg,145,2,141,34,7
+2021-05-06,SWE,Sweden,Gotland,31,1,29,5,0
+2021-05-06,SWE,Sweden,Halland,115,1,108,32,3
+2021-05-06,SWE,Sweden,Jämtland,54,0,54,17,2
+2021-05-06,SWE,Sweden,Jönköping,116,1,113,104,5
+2021-05-06,SWE,Sweden,Kalmar,101,0,100,66,8
+2021-05-06,SWE,Sweden,Kronoberg,67,1,65,29,3
+2021-05-06,SWE,Sweden,Norrbotten,112,2,108,134,5
+2021-05-06,SWE,Sweden,Orebro,105,4,104,34,5
+2021-05-06,SWE,Sweden,Södermanland,130,3,129,39,5
+2021-05-06,SWE,Sweden,Skåne,447,5,432,142,24
+2021-05-06,SWE,Sweden,Stockholm,459,11,448,194,30
+2021-05-06,SWE,Sweden,Uppsala,164,2,160,29,7
+2021-05-06,SWE,Sweden,Värmland,101,1,101,30,4
+2021-05-06,SWE,Sweden,Västerbotten,107,3,106,30,3
+2021-05-06,SWE,Sweden,Västernorrland,118,3,116,44,10
+2021-05-06,SWE,Sweden,Västmanland,127,3,124,30,11
+2021-05-06,SWE,Sweden,Västra Götaland,365,8,352,116,20
+2021-05-06,CHE,Switzerland,Aargau,43,0,43,9,0
+2021-05-06,CHE,Switzerland,Appenzell Ausserrhoden,4,0,4,1,0
+2021-05-06,CHE,Switzerland,Basel-Landschaft,25,0,25,0,1
+2021-05-06,CHE,Switzerland,Basel-Stadt,19,0,19,4,0
+2021-05-06,CHE,Switzerland,Bern,71,0,71,10,1
+2021-05-06,CHE,Switzerland,Fribourg,25,0,24,0,0
+2021-05-06,CHE,Switzerland,Genève,38,0,38,16,1
 2021-05-06,CHE,Switzerland,Glarus,2,0,2,0,0
 2021-05-06,CHE,Switzerland,Graubünden,13,0,13,0,0
-2021-05-06,CHE,Switzerland,Jura,6,0,6,0,0
-2021-05-06,CHE,Switzerland,Luzern,14,0,14,0,1
-2021-05-06,CHE,Switzerland,Neuchâtel,14,0,14,3,0
+2021-05-06,CHE,Switzerland,Jura,8,0,8,0,0
+2021-05-06,CHE,Switzerland,Luzern,18,0,18,0,1
+2021-05-06,CHE,Switzerland,Neuchâtel,18,0,18,3,0
 2021-05-06,CHE,Switzerland,Nidwalden,1,0,1,0,0
 2021-05-06,CHE,Switzerland,Obwalden,1,0,1,0,0
 2021-05-06,CHE,Switzerland,Schaffhausen,13,0,13,0,0
-2021-05-06,CHE,Switzerland,Schwyz,4,0,4,0,0
-2021-05-06,CHE,Switzerland,Solothurn,23,0,23,2,0
-2021-05-06,CHE,Switzerland,St. Gallen,24,0,23,13,0
-2021-05-06,CHE,Switzerland,Thurgau,19,0,19,6,0
-2021-05-06,CHE,Switzerland,Ticino,28,0,28,3,0
+2021-05-06,CHE,Switzerland,Schwyz,6,0,5,0,0
+2021-05-06,CHE,Switzerland,Solothurn,24,0,24,2,0
+2021-05-06,CHE,Switzerland,St. Gallen,29,0,27,13,0
+2021-05-06,CHE,Switzerland,Thurgau,21,0,20,6,0
+2021-05-06,CHE,Switzerland,Ticino,31,0,31,3,0
 2021-05-06,CHE,Switzerland,Uri,2,1,2,12,1
-2021-05-06,CHE,Switzerland,Valais,24,0,23,6,0
-2021-05-06,CHE,Switzerland,Vaud,56,0,56,5,0
-2021-05-06,CHE,Switzerland,Zürich,88,0,88,8,2
-2021-05-06,CHE,Switzerland,Zug,9,0,9,1,0
-2021-05-06,TWN,Taiwan,Changhua County,30,0,30,0,0
-2021-05-06,TWN,Taiwan,Chiayi City,12,0,12,0,1
-2021-05-06,TWN,Taiwan,Chiayi County,4,0,4,0,0
-2021-05-06,TWN,Taiwan,Hsinchu City,32,0,32,0,0
-2021-05-06,TWN,Taiwan,Hsinchu County,19,0,19,0,0
-2021-05-06,TWN,Taiwan,Hualien County,5,0,5,0,0
-2021-05-06,TWN,Taiwan,Kaohsiung City,128,0,128,0,0
-2021-05-06,TWN,Taiwan,Keelung City,24,0,24,1,0
-2021-05-06,TWN,Taiwan,Kinmen County,5,0,5,0,0
-2021-05-06,TWN,Taiwan,Miaoli County,12,1,12,0,0
-2021-05-06,TWN,Taiwan,Nantou County,7,0,7,0,0
-2021-05-06,TWN,Taiwan,New Taipei City,164,0,163,8,0
+2021-05-06,CHE,Switzerland,Valais,28,0,25,6,0
+2021-05-06,CHE,Switzerland,Vaud,70,0,68,10,0
+2021-05-06,CHE,Switzerland,Zürich,108,0,105,9,2
+2021-05-06,CHE,Switzerland,Zug,10,0,10,2,0
+2021-05-06,TWN,Taiwan,Changhua County,37,1,36,7,1
+2021-05-06,TWN,Taiwan,Chiayi City,18,0,17,0,1
+2021-05-06,TWN,Taiwan,Chiayi County,7,0,7,0,0
+2021-05-06,TWN,Taiwan,Hsinchu City,47,0,47,0,0
+2021-05-06,TWN,Taiwan,Hsinchu County,27,0,27,0,0
+2021-05-06,TWN,Taiwan,Hualien County,8,0,8,0,0
+2021-05-06,TWN,Taiwan,Kaohsiung City,168,0,165,0,2
+2021-05-06,TWN,Taiwan,Keelung City,27,0,27,1,0
+2021-05-06,TWN,Taiwan,Kinmen County,8,0,7,0,0
+2021-05-06,TWN,Taiwan,Miaoli County,14,1,14,0,0
+2021-05-06,TWN,Taiwan,Nantou County,10,0,10,0,0
+2021-05-06,TWN,Taiwan,New Taipei City,200,0,196,12,0
 2021-05-06,TWN,Taiwan,Penghu County,5,0,5,0,0
-2021-05-06,TWN,Taiwan,Pingtung County,26,0,26,0,0
-2021-05-06,TWN,Taiwan,Taichung City,111,0,111,2,0
-2021-05-06,TWN,Taiwan,Tainan City,71,0,71,1,0
-2021-05-06,TWN,Taiwan,Taipei City,243,1,243,55,2
-2021-05-06,TWN,Taiwan,Taitung County,11,0,11,0,0
-2021-05-06,TWN,Taiwan,Taoyuan City,109,1,109,5,1
-2021-05-06,TWN,Taiwan,Yilan County,17,0,17,0,0
-2021-05-06,TWN,Taiwan,Yunlin County,20,0,20,0,0
-2021-05-06,TZA,Tanzania,Arusha,2,0,2,1,0
-2021-05-06,TZA,Tanzania,Dar es Salaam,20,0,20,5,1
+2021-05-06,TWN,Taiwan,Pingtung County,36,0,35,0,0
+2021-05-06,TWN,Taiwan,Taichung City,134,0,133,2,0
+2021-05-06,TWN,Taiwan,Tainan City,93,0,90,1,0
+2021-05-06,TWN,Taiwan,Taipei City,318,1,312,56,2
+2021-05-06,TWN,Taiwan,Taitung County,20,0,20,0,0
+2021-05-06,TWN,Taiwan,Taoyuan City,141,1,134,10,1
+2021-05-06,TWN,Taiwan,Yilan County,21,0,21,0,0
+2021-05-06,TWN,Taiwan,Yunlin County,28,0,28,0,0
+2021-05-06,TJK,Tajikistan,Khatlon,1,0,1,0,0
+2021-05-06,TZA,Tanzania,Arusha,5,0,4,1,2
+2021-05-06,TZA,Tanzania,Dar es Salaam,29,1,27,6,2
 2021-05-06,TZA,Tanzania,Dodoma,1,0,1,0,0
 2021-05-06,TZA,Tanzania,Geita,3,0,3,0,1
-2021-05-06,TZA,Tanzania,Kagera,1,0,1,0,0
+2021-05-06,TZA,Tanzania,Kagera,2,0,2,3,0
+2021-05-06,TZA,Tanzania,Kigoma,4,1,3,0,1
 2021-05-06,TZA,Tanzania,Lindi,1,0,1,0,0
-2021-05-06,TZA,Tanzania,Mbeya,2,1,2,0,0
+2021-05-06,TZA,Tanzania,Mbeya,3,1,3,0,0
 2021-05-06,TZA,Tanzania,Mjini Magharibi,4,0,4,1,0
+2021-05-06,TZA,Tanzania,Morogoro,2,0,1,0,0
+2021-05-06,TZA,Tanzania,Mtwara,1,0,1,0,0
 2021-05-06,TZA,Tanzania,Mwanza,1,0,1,0,0
+2021-05-06,TZA,Tanzania,Singida,1,0,1,0,0
 2021-05-06,TZA,Tanzania,Tabora,1,0,1,0,0
-2021-05-06,THA,Thailand,Amnat Charoen,4,1,4,0,0
-2021-05-06,THA,Thailand,Ang Thong,2,0,2,1,0
-2021-05-06,THA,Thailand,Bangkok Metropolis,285,4,284,32,2
-2021-05-06,THA,Thailand,Bueng Kan,13,0,13,0,0
-2021-05-06,THA,Thailand,Buri Ram,21,0,21,1,1
-2021-05-06,THA,Thailand,Chachoengsao,21,1,21,1,0
-2021-05-06,THA,Thailand,Chai Nat,11,0,11,0,0
-2021-05-06,THA,Thailand,Chaiyaphum,16,0,16,2,1
-2021-05-06,THA,Thailand,Chanthaburi,28,0,28,1,1
-2021-05-06,THA,Thailand,Chiang Mai,81,1,80,10,0
-2021-05-06,THA,Thailand,Chiang Rai,33,2,33,24,1
-2021-05-06,THA,Thailand,Chon Buri,96,1,95,8,2
-2021-05-06,THA,Thailand,Chumphon,9,1,9,10,0
-2021-05-06,THA,Thailand,Kalasin,7,0,7,1,0
-2021-05-06,THA,Thailand,Kamphaeng Phet,8,0,8,1,0
-2021-05-06,THA,Thailand,Kanchanaburi,17,1,17,2,0
-2021-05-06,THA,Thailand,Khon Kaen,36,0,36,2,1
-2021-05-06,THA,Thailand,Krabi,8,0,8,0,0
-2021-05-06,THA,Thailand,Lampang,13,0,13,0,0
-2021-05-06,THA,Thailand,Lamphun,10,0,10,0,0
-2021-05-06,THA,Thailand,Loei,10,0,10,1,0
-2021-05-06,THA,Thailand,Lop Buri,22,0,22,0,0
-2021-05-06,THA,Thailand,Mae Hong Son,2,1,2,0,0
-2021-05-06,THA,Thailand,Maha Sarakham,5,0,5,0,0
-2021-05-06,THA,Thailand,Mukdahan,6,0,6,0,0
-2021-05-06,THA,Thailand,Nakhon Nayok,4,0,4,0,0
-2021-05-06,THA,Thailand,Nakhon Pathom,28,1,28,9,0
-2021-05-06,THA,Thailand,Nakhon Phanom,17,0,17,3,0
-2021-05-06,THA,Thailand,Nakhon Ratchasima,56,0,56,12,1
-2021-05-06,THA,Thailand,Nakhon Sawan,17,0,17,1,0
-2021-05-06,THA,Thailand,Nakhon Si Thammarat,34,0,34,8,1
-2021-05-06,THA,Thailand,Nan,8,0,8,0,0
-2021-05-06,THA,Thailand,Narathiwat,13,1,13,2,0
-2021-05-06,THA,Thailand,Nong Bua Lam Phu,6,0,6,0,0
-2021-05-06,THA,Thailand,Nong Khai,11,0,11,0,0
-2021-05-06,THA,Thailand,Nonthaburi,65,1,65,10,2
-2021-05-06,THA,Thailand,Pathum Thani,57,1,57,5,0
-2021-05-06,THA,Thailand,Pattani,6,0,6,0,0
-2021-05-06,THA,Thailand,Phangnga,5,0,5,1,0
-2021-05-06,THA,Thailand,Phatthalung,5,0,5,0,0
-2021-05-06,THA,Thailand,Phayao,7,0,6,2,0
-2021-05-06,THA,Thailand,Phetchabun,11,0,11,0,0
-2021-05-06,THA,Thailand,Phetchaburi,8,0,8,0,0
-2021-05-06,THA,Thailand,Phichit,5,0,5,0,0
-2021-05-06,THA,Thailand,Phitsanulok,18,0,18,3,0
-2021-05-06,THA,Thailand,Phra Nakhon Si Ayutthaya,27,0,27,1,0
-2021-05-06,THA,Thailand,Phrae,7,0,7,1,0
-2021-05-06,THA,Thailand,Phuket,36,0,36,2,0
-2021-05-06,THA,Thailand,Prachin Buri,13,0,13,0,0
-2021-05-06,THA,Thailand,Prachuap Khiri Khan,13,0,13,0,0
-2021-05-06,THA,Thailand,Ranong,6,0,6,4,0
-2021-05-06,THA,Thailand,Ratchaburi,21,0,21,4,0
-2021-05-06,THA,Thailand,Rayong,25,1,25,0,0
-2021-05-06,THA,Thailand,Roi Et,4,0,4,0,0
-2021-05-06,THA,Thailand,Sa Kaeo,11,0,11,1,0
-2021-05-06,THA,Thailand,Sakon Nakhon,14,0,14,0,0
-2021-05-06,THA,Thailand,Samut Prakan,60,3,60,7,0
-2021-05-06,THA,Thailand,Samut Sakhon,29,1,29,0,0
-2021-05-06,THA,Thailand,Samut Songkhram,7,0,7,0,0
-2021-05-06,THA,Thailand,Saraburi,24,0,24,1,0
-2021-05-06,THA,Thailand,Satun,3,0,3,0,0
-2021-05-06,THA,Thailand,Si Sa Ket,18,0,17,1,0
-2021-05-06,THA,Thailand,Sing Buri,6,0,6,0,0
-2021-05-06,THA,Thailand,Songkhla,41,1,41,3,0
-2021-05-06,THA,Thailand,Sukhothai,10,0,10,0,0
-2021-05-06,THA,Thailand,Suphan Buri,8,0,8,1,0
-2021-05-06,THA,Thailand,Surat Thani,45,1,45,3,0
-2021-05-06,THA,Thailand,Surin,15,0,15,5,1
-2021-05-06,THA,Thailand,Tak,12,0,12,5,0
-2021-05-06,THA,Thailand,Trang,7,0,7,0,0
-2021-05-06,THA,Thailand,Trat,6,0,6,1,0
-2021-05-06,THA,Thailand,Ubon Ratchathani,22,0,22,1,0
-2021-05-06,THA,Thailand,Udon Thani,29,0,29,6,0
-2021-05-06,THA,Thailand,Uthai Thani,5,0,5,0,0
-2021-05-06,THA,Thailand,Uttaradit,6,0,6,0,0
-2021-05-06,THA,Thailand,Yala,8,0,8,0,0
-2021-05-06,THA,Thailand,Yasothon,6,0,6,1,0
-2021-05-06,TUN,Tunisia,Ariana,31,0,31,9,1
-2021-05-06,TUN,Tunisia,Béja,8,0,8,16,0
-2021-05-06,TUN,Tunisia,Ben Arous (Tunis Sud),20,1,20,19,1
-2021-05-06,TUN,Tunisia,Bizerte,17,0,17,7,0
-2021-05-06,TUN,Tunisia,Gabès,5,0,5,1,0
-2021-05-06,TUN,Tunisia,Gafsa,5,0,5,1,0
-2021-05-06,TUN,Tunisia,Jendouba,3,0,3,10,0
-2021-05-06,TUN,Tunisia,Kairouan,5,0,5,0,0
-2021-05-06,TUN,Tunisia,Kebili,1,0,1,12,0
-2021-05-06,TUN,Tunisia,Le Kef,5,0,5,7,1
-2021-05-06,TUN,Tunisia,Médenine,12,0,12,17,0
-2021-05-06,TUN,Tunisia,Mahdia,6,1,6,0,1
-2021-05-06,TUN,Tunisia,Manubah,3,0,3,0,0
-2021-05-06,TUN,Tunisia,Monastir,13,0,13,2,2
-2021-05-06,TUN,Tunisia,Nabeul,20,0,19,16,0
-2021-05-06,TUN,Tunisia,Sfax,28,2,28,139,2
-2021-05-06,TUN,Tunisia,Sidi Bou Zid,4,0,4,3,1
-2021-05-06,TUN,Tunisia,Sousse,26,1,26,11,1
+2021-05-06,TZA,Tanzania,Tanga,1,0,0,0,0
+2021-05-06,THA,Thailand,Amnat Charoen,6,1,5,0,0
+2021-05-06,THA,Thailand,Ang Thong,5,0,5,1,0
+2021-05-06,THA,Thailand,Bangkok Metropolis,403,6,391,45,2
+2021-05-06,THA,Thailand,Bueng Kan,18,0,18,0,0
+2021-05-06,THA,Thailand,Buri Ram,28,0,27,2,1
+2021-05-06,THA,Thailand,Chachoengsao,31,1,31,3,0
+2021-05-06,THA,Thailand,Chai Nat,14,0,13,1,0
+2021-05-06,THA,Thailand,Chaiyaphum,25,0,23,2,1
+2021-05-06,THA,Thailand,Chanthaburi,39,0,38,2,1
+2021-05-06,THA,Thailand,Chiang Mai,117,1,108,22,0
+2021-05-06,THA,Thailand,Chiang Rai,47,2,47,26,1
+2021-05-06,THA,Thailand,Chon Buri,141,3,132,9,4
+2021-05-06,THA,Thailand,Chumphon,15,1,14,10,1
+2021-05-06,THA,Thailand,Kalasin,13,0,13,2,0
+2021-05-06,THA,Thailand,Kamphaeng Phet,14,0,12,1,0
+2021-05-06,THA,Thailand,Kanchanaburi,28,1,25,2,0
+2021-05-06,THA,Thailand,Khon Kaen,56,0,54,3,1
+2021-05-06,THA,Thailand,Krabi,14,0,14,0,0
+2021-05-06,THA,Thailand,Lampang,17,0,17,0,0
+2021-05-06,THA,Thailand,Lamphun,17,0,15,0,0
+2021-05-06,THA,Thailand,Loei,15,0,14,1,0
+2021-05-06,THA,Thailand,Lop Buri,32,0,32,0,0
+2021-05-06,THA,Thailand,Mae Hong Son,4,1,4,0,0
+2021-05-06,THA,Thailand,Maha Sarakham,7,0,7,0,0
+2021-05-06,THA,Thailand,Mukdahan,7,0,7,1,0
+2021-05-06,THA,Thailand,Nakhon Nayok,7,0,7,0,0
+2021-05-06,THA,Thailand,Nakhon Pathom,38,2,35,9,0
+2021-05-06,THA,Thailand,Nakhon Phanom,23,0,22,4,0
+2021-05-06,THA,Thailand,Nakhon Ratchasima,79,0,78,14,1
+2021-05-06,THA,Thailand,Nakhon Sawan,28,0,27,1,0
+2021-05-06,THA,Thailand,Nakhon Si Thammarat,52,0,49,8,1
+2021-05-06,THA,Thailand,Nan,9,0,9,0,0
+2021-05-06,THA,Thailand,Narathiwat,21,2,20,3,1
+2021-05-06,THA,Thailand,Nong Bua Lam Phu,8,0,7,0,0
+2021-05-06,THA,Thailand,Nong Khai,13,0,12,0,0
+2021-05-06,THA,Thailand,Nonthaburi,88,2,85,14,4
+2021-05-06,THA,Thailand,Pathum Thani,86,1,85,8,0
+2021-05-06,THA,Thailand,Pattani,14,0,13,1,1
+2021-05-06,THA,Thailand,Phangnga,8,0,8,1,0
+2021-05-06,THA,Thailand,Phatthalung,10,0,10,1,0
+2021-05-06,THA,Thailand,Phayao,10,0,9,4,1
+2021-05-06,THA,Thailand,Phetchabun,17,0,17,1,0
+2021-05-06,THA,Thailand,Phetchaburi,15,0,14,0,0
+2021-05-06,THA,Thailand,Phichit,10,0,9,0,0
+2021-05-06,THA,Thailand,Phitsanulok,25,0,24,3,0
+2021-05-06,THA,Thailand,Phra Nakhon Si Ayutthaya,36,0,34,3,0
+2021-05-06,THA,Thailand,Phrae,10,0,10,1,0
+2021-05-06,THA,Thailand,Phuket,47,0,47,2,0
+2021-05-06,THA,Thailand,Prachin Buri,16,0,16,0,0
+2021-05-06,THA,Thailand,Prachuap Khiri Khan,20,0,20,0,0
+2021-05-06,THA,Thailand,Ranong,11,0,11,4,0
+2021-05-06,THA,Thailand,Ratchaburi,35,0,34,4,0
+2021-05-06,THA,Thailand,Rayong,39,2,38,0,1
+2021-05-06,THA,Thailand,Roi Et,8,1,8,0,0
+2021-05-06,THA,Thailand,Sa Kaeo,16,1,14,1,0
+2021-05-06,THA,Thailand,Sakon Nakhon,23,0,22,0,0
+2021-05-06,THA,Thailand,Samut Prakan,86,3,82,9,1
+2021-05-06,THA,Thailand,Samut Sakhon,39,2,38,15,1
+2021-05-06,THA,Thailand,Samut Songkhram,10,0,10,2,0
+2021-05-06,THA,Thailand,Saraburi,37,0,36,3,0
+2021-05-06,THA,Thailand,Satun,4,0,4,0,0
+2021-05-06,THA,Thailand,Si Sa Ket,22,0,19,1,0
+2021-05-06,THA,Thailand,Sing Buri,9,0,9,0,0
+2021-05-06,THA,Thailand,Songkhla,66,1,63,3,0
+2021-05-06,THA,Thailand,Sukhothai,18,0,17,1,0
+2021-05-06,THA,Thailand,Suphan Buri,13,0,13,1,0
+2021-05-06,THA,Thailand,Surat Thani,60,1,60,5,0
+2021-05-06,THA,Thailand,Surin,19,0,19,5,1
+2021-05-06,THA,Thailand,Tak,18,0,18,5,0
+2021-05-06,THA,Thailand,Trang,13,0,13,0,0
+2021-05-06,THA,Thailand,Trat,7,0,7,1,0
+2021-05-06,THA,Thailand,Ubon Ratchathani,33,0,32,2,1
+2021-05-06,THA,Thailand,Udon Thani,43,0,38,6,1
+2021-05-06,THA,Thailand,Uthai Thani,12,0,10,0,0
+2021-05-06,THA,Thailand,Uttaradit,8,0,8,0,0
+2021-05-06,THA,Thailand,Yala,19,1,18,0,1
+2021-05-06,THA,Thailand,Yasothon,7,0,7,1,0
+2021-05-06,TGO,Togo,Centre,1,1,1,0,0
+2021-05-06,TGO,Togo,Kara,1,0,1,0,0
+2021-05-06,TTO,Trinidad and Tobago,Tobago,1,0,1,0,0
+2021-05-06,TUN,Tunisia,Ariana,54,2,49,36,4
+2021-05-06,TUN,Tunisia,Béja,12,0,10,16,0
+2021-05-06,TUN,Tunisia,Ben Arous (Tunis Sud),39,1,34,25,1
+2021-05-06,TUN,Tunisia,Bizerte,29,1,28,15,1
+2021-05-06,TUN,Tunisia,Gabès,8,0,8,2,1
+2021-05-06,TUN,Tunisia,Gafsa,10,0,9,1,0
+2021-05-06,TUN,Tunisia,Jendouba,5,1,5,11,1
+2021-05-06,TUN,Tunisia,Kairouan,6,0,6,0,0
+2021-05-06,TUN,Tunisia,Kassérine,4,0,2,7,0
+2021-05-06,TUN,Tunisia,Kebili,5,0,5,12,0
+2021-05-06,TUN,Tunisia,Le Kef,6,0,6,7,1
+2021-05-06,TUN,Tunisia,Médenine,18,0,17,20,0
+2021-05-06,TUN,Tunisia,Mahdia,10,1,9,1,1
+2021-05-06,TUN,Tunisia,Manubah,13,2,9,12,2
+2021-05-06,TUN,Tunisia,Monastir,18,0,16,2,2
+2021-05-06,TUN,Tunisia,Nabeul,34,2,29,29,1
+2021-05-06,TUN,Tunisia,Sfax,43,2,40,149,2
+2021-05-06,TUN,Tunisia,Sidi Bou Zid,6,0,6,3,1
+2021-05-06,TUN,Tunisia,Sousse,35,1,33,11,1
 2021-05-06,TUN,Tunisia,Tataouine,4,0,4,0,0
-2021-05-06,TUN,Tunisia,Tozeur,1,0,1,0,0
-2021-05-06,TUN,Tunisia,Tunis,42,1,41,7,3
+2021-05-06,TUN,Tunisia,Tozeur,4,0,4,0,0
+2021-05-06,TUN,Tunisia,Tunis,77,3,69,22,6
 2021-05-06,TUN,Tunisia,Zaghouan,2,1,2,10,0
-2021-05-06,TUR,Turkey,Çanakkale,20,0,20,4,1
+2021-05-06,TUR,Turkey,Çanakkale,24,0,23,5,2
 2021-05-06,TUR,Turkey,Çankiri,1,0,1,0,0
-2021-05-06,TUR,Turkey,Çorum,6,0,6,0,0
-2021-05-06,TUR,Turkey,Adana,34,0,34,5,0
+2021-05-06,TUR,Turkey,Çorum,8,0,8,0,0
+2021-05-06,TUR,Turkey,Adana,45,0,43,6,0
 2021-05-06,TUR,Turkey,Adiyaman,5,0,5,1,0
-2021-05-06,TUR,Turkey,Afyon,6,0,6,4,0
+2021-05-06,TUR,Turkey,Afyon,17,0,16,4,0
 2021-05-06,TUR,Turkey,Agri,4,2,4,7,2
-2021-05-06,TUR,Turkey,Aksaray,3,0,3,0,0
-2021-05-06,TUR,Turkey,Amasya,7,0,7,4,0
-2021-05-06,TUR,Turkey,Ankara,111,1,109,58,3
-2021-05-06,TUR,Turkey,Antalya,57,1,56,23,2
+2021-05-06,TUR,Turkey,Aksaray,4,0,4,0,0
+2021-05-06,TUR,Turkey,Amasya,9,0,9,4,0
+2021-05-06,TUR,Turkey,Ankara,149,2,140,84,5
+2021-05-06,TUR,Turkey,Antalya,71,1,67,25,2
 2021-05-06,TUR,Turkey,Artvin,1,0,1,0,0
-2021-05-06,TUR,Turkey,Aydin,28,0,27,0,1
-2021-05-06,TUR,Turkey,Balikesir,37,0,37,17,1
-2021-05-06,TUR,Turkey,Bartın,2,0,2,0,0
-2021-05-06,TUR,Turkey,Batman,5,0,5,1,0
+2021-05-06,TUR,Turkey,Aydin,37,0,34,1,3
+2021-05-06,TUR,Turkey,Balikesir,50,0,46,20,1
+2021-05-06,TUR,Turkey,Bartın,4,0,4,0,0
+2021-05-06,TUR,Turkey,Batman,7,0,7,2,0
 2021-05-06,TUR,Turkey,Bayburt,2,0,2,0,0
 2021-05-06,TUR,Turkey,Bilecik,5,0,5,0,0
-2021-05-06,TUR,Turkey,Bingöl,1,0,1,2,0
-2021-05-06,TUR,Turkey,Bolu,5,0,5,2,0
+2021-05-06,TUR,Turkey,Bingöl,2,0,1,2,0
+2021-05-06,TUR,Turkey,Bolu,8,0,6,2,1
 2021-05-06,TUR,Turkey,Burdur,2,0,2,0,0
-2021-05-06,TUR,Turkey,Bursa,66,1,66,68,2
-2021-05-06,TUR,Turkey,Düzce,4,0,4,0,0
-2021-05-06,TUR,Turkey,Denizli,10,0,10,2,0
-2021-05-06,TUR,Turkey,Diyarbakir,15,1,15,1,2
-2021-05-06,TUR,Turkey,Edirne,13,0,13,1,0
-2021-05-06,TUR,Turkey,Elazığ,5,0,5,0,1
+2021-05-06,TUR,Turkey,Bursa,87,1,85,78.6,4
+2021-05-06,TUR,Turkey,Düzce,7,0,7,1,0
+2021-05-06,TUR,Turkey,Denizli,16,1,14,2,1
+2021-05-06,TUR,Turkey,Diyarbakir,22,1,22,1,2
+2021-05-06,TUR,Turkey,Edirne,16,0,16,6,0
+2021-05-06,TUR,Turkey,Elazığ,6,0,6,0,1
 2021-05-06,TUR,Turkey,Erzincan,3,0,3,0,0
-2021-05-06,TUR,Turkey,Erzurum,11,0,11,3,0
-2021-05-06,TUR,Turkey,Eskisehir,19,0,19,28,1
+2021-05-06,TUR,Turkey,Erzurum,12,0,11,3,0
+2021-05-06,TUR,Turkey,Eskisehir,25,1,23,29,1
 2021-05-06,TUR,Turkey,Gümüshane,3,0,3,0,0
-2021-05-06,TUR,Turkey,Gaziantep,31,2,31,7,3
-2021-05-06,TUR,Turkey,Giresun,6,0,6,4,0
-2021-05-06,TUR,Turkey,Hakkari,2,0,2,0,0
-2021-05-06,TUR,Turkey,Hatay,20,0,19,12,1
+2021-05-06,TUR,Turkey,Gaziantep,38,2,36,8,3
+2021-05-06,TUR,Turkey,Giresun,7,0,7,4,0
+2021-05-06,TUR,Turkey,Hakkari,3,0,3,0,0
+2021-05-06,TUR,Turkey,Hatay,27,1,26,27,3
 2021-05-06,TUR,Turkey,Iğdır,1,0,1,0,0
-2021-05-06,TUR,Turkey,Isparta,8,0,8,0,0
-2021-05-06,TUR,Turkey,Istanbul,180,2,179,143,4
-2021-05-06,TUR,Turkey,Izmir,123,0,123,35,1
-2021-05-06,TUR,Turkey,K. Maras,7,1,7,101,1
-2021-05-06,TUR,Turkey,Kütahya,12,0,12,0,0
+2021-05-06,TUR,Turkey,Isparta,12,0,11,1,0
+2021-05-06,TUR,Turkey,Istanbul,240,2,231,162,5
+2021-05-06,TUR,Turkey,Izmir,162,1,156,36,2
+2021-05-06,TUR,Turkey,K. Maras,11,2,10,102,2
+2021-05-06,TUR,Turkey,Kütahya,13,0,13,1,0
 2021-05-06,TUR,Turkey,Karabük,1,0,1,0,0
 2021-05-06,TUR,Turkey,Karaman,4,0,4,0,0
-2021-05-06,TUR,Turkey,Kars,2,0,2,0,0
-2021-05-06,TUR,Turkey,Kastamonu,3,0,3,1,0
-2021-05-06,TUR,Turkey,Kayseri,15,0,15,2,1
+2021-05-06,TUR,Turkey,Kars,3,0,3,0,0
+2021-05-06,TUR,Turkey,Kastamonu,5,0,5,1,1
+2021-05-06,TUR,Turkey,Kayseri,18,0,18,3,1
 2021-05-06,TUR,Turkey,Kinkkale,2,0,2,1,0
-2021-05-06,TUR,Turkey,Kirklareli,8,0,8,100,0
+2021-05-06,TUR,Turkey,Kirklareli,11,0,11,100,0
 2021-05-06,TUR,Turkey,Kirsehir,2,1,2,0,1
-2021-05-06,TUR,Turkey,Kocaeli,27,0,26,11,1
-2021-05-06,TUR,Turkey,Konya,30,0,30,36,0
-2021-05-06,TUR,Turkey,Malatya,11,1,11,11,2
-2021-05-06,TUR,Turkey,Manisa,13,0,13,5,0
-2021-05-06,TUR,Turkey,Mardin,6,0,6,0,2
-2021-05-06,TUR,Turkey,Mersin,25,1,25,1,1
-2021-05-06,TUR,Turkey,Mugla,38,0,38,6,0
-2021-05-06,TUR,Turkey,Mus,1,0,1,0,0
-2021-05-06,TUR,Turkey,Nevsehir,5,0,5,1,0
-2021-05-06,TUR,Turkey,Nigde,5,0,5,0,0
-2021-05-06,TUR,Turkey,Ordu,11,0,11,5,0
+2021-05-06,TUR,Turkey,Kocaeli,37,1,35,23,2
+2021-05-06,TUR,Turkey,Konya,35,0,33,36,1
+2021-05-06,TUR,Turkey,Malatya,14,1,14,11,2
+2021-05-06,TUR,Turkey,Manisa,19,0,17,5,0
+2021-05-06,TUR,Turkey,Mardin,8,0,8,0,2
+2021-05-06,TUR,Turkey,Mersin,33,2,33,3,2
+2021-05-06,TUR,Turkey,Mugla,49,0,45,8,0
+2021-05-06,TUR,Turkey,Mus,2,0,1,0,0
+2021-05-06,TUR,Turkey,Nevsehir,6,0,6,1,0
+2021-05-06,TUR,Turkey,Nigde,6,0,6,1,0
+2021-05-06,TUR,Turkey,Ordu,12,0,11,5,0
 2021-05-06,TUR,Turkey,Osmaniye,7,0,7,2,1
 2021-05-06,TUR,Turkey,Rize,6,0,6,0,0
-2021-05-06,TUR,Turkey,Sakarya,11,0,11,8,2
-2021-05-06,TUR,Turkey,Samsun,16,0,16,11,0
-2021-05-06,TUR,Turkey,Sanliurfa,6,0,6,0,0
+2021-05-06,TUR,Turkey,Sakarya,16,0,16,12,2
+2021-05-06,TUR,Turkey,Samsun,22,0,22,11,0
+2021-05-06,TUR,Turkey,Sanliurfa,11,0,10,1,0
 2021-05-06,TUR,Turkey,Siirt,1,0,1,0,0
-2021-05-06,TUR,Turkey,Sinop,1,0,1,0,0
-2021-05-06,TUR,Turkey,Sirnak,4,0,4,0,0
+2021-05-06,TUR,Turkey,Sinop,3,0,3,0,0
+2021-05-06,TUR,Turkey,Sirnak,5,0,5,0,0
 2021-05-06,TUR,Turkey,Sivas,11,0,11,26,0
-2021-05-06,TUR,Turkey,Tekirdag,16,0,16,4,0
-2021-05-06,TUR,Turkey,Tokat,4,0,4,0,0
-2021-05-06,TUR,Turkey,Trabzon,11,1,11,2,0
+2021-05-06,TUR,Turkey,Tekirdag,23,0,21,5,0
+2021-05-06,TUR,Turkey,Tokat,6,0,6,0,0
+2021-05-06,TUR,Turkey,Trabzon,14,1,13,2,0
 2021-05-06,TUR,Turkey,Tunceli,1,0,1,0,0
 2021-05-06,TUR,Turkey,Usak,5,0,4,0,0
 2021-05-06,TUR,Turkey,Van,7,0,7,9,0
-2021-05-06,TUR,Turkey,Yalova,8,0,8,6,0
-2021-05-06,TUR,Turkey,Zinguldak,6,0,6,1,0
-2021-05-06,UKR,Ukraine,Cherkasy,25,0,25,9,2
-2021-05-06,UKR,Ukraine,Chernihiv,29,0,29,24,0
-2021-05-06,UKR,Ukraine,Chernivtsi,8,0,8,4,0
-2021-05-06,UKR,Ukraine,Dnipropetrovs'k,137,8,135,130,7
-2021-05-06,UKR,Ukraine,Donets'k,53,1,53,33,1
-2021-05-06,UKR,Ukraine,Ivano-Frankivs'k,12,2,12,4,0
-2021-05-06,UKR,Ukraine,Kharkiv,108,7,108,227,6
-2021-05-06,UKR,Ukraine,Kherson,27,1,26,31,2
-2021-05-06,UKR,Ukraine,Khmel'nyts'kyy,26,0,25,23,0
-2021-05-06,UKR,Ukraine,Kirovohrad,27,0,27,136,1
-2021-05-06,UKR,Ukraine,Kyiv,227,3,227,284,7
-2021-05-06,UKR,Ukraine,Kyiv City,49,1,49,35,3
-2021-05-06,UKR,Ukraine,L'viv,22,0,22,41,0
-2021-05-06,UKR,Ukraine,Luhans'k,15,1,15,11,1
-2021-05-06,UKR,Ukraine,Mykolayiv,45,1,45,25,3
-2021-05-06,UKR,Ukraine,Odessa,89,2,89,76,3
-2021-05-06,UKR,Ukraine,Poltava,43,2,43,15,0
-2021-05-06,UKR,Ukraine,Rivne,10,0,10,3,0
-2021-05-06,UKR,Ukraine,Sumy,29,3,29,12,3
-2021-05-06,UKR,Ukraine,Ternopil',9,0,9,8,0
-2021-05-06,UKR,Ukraine,Transcarpathia,8,0,8,0,0
-2021-05-06,UKR,Ukraine,Vinnytsya,27,0,26,2,3
-2021-05-06,UKR,Ukraine,Volyn,6,0,6,1,0
-2021-05-06,UKR,Ukraine,Zaporizhzhya,64,2,64,66,1
-2021-05-06,UKR,Ukraine,Zhytomyr,12,1,12,16,2
-2021-05-06,ARE,United Arab Emirates,Abu Dhabi,49,0,49,4,0
-2021-05-06,ARE,United Arab Emirates,Ajman,7,0,7,0,0
-2021-05-06,ARE,United Arab Emirates,Dubai,85,1,85,17,4
+2021-05-06,TUR,Turkey,Yalova,9,0,9,6,0
+2021-05-06,TUR,Turkey,Yozgat,1,0,1,0,0
+2021-05-06,TUR,Turkey,Zinguldak,11,0,10,1,0
+2021-05-06,TCA,Turks and Caicos Islands,Grand Turk,1,0,1,0,0
+2021-05-06,TUV,Tuvalu,Nukulaelae,1,0,0,0,0
+2021-05-06,UGA,Uganda,Eastern,1,0,1,0,0
+2021-05-06,UKR,Ukraine,Cherkasy,32,0,30,9,2
+2021-05-06,UKR,Ukraine,Chernihiv,45,0,40,33,0
+2021-05-06,UKR,Ukraine,Chernivtsi,14,0,13,5,1
+2021-05-06,UKR,Ukraine,Dnipropetrovs'k,186,10,173,167,9
+2021-05-06,UKR,Ukraine,Donets'k,70,3,65,53,1
+2021-05-06,UKR,Ukraine,Ivano-Frankivs'k,16,2,15,7,0
+2021-05-06,UKR,Ukraine,Kharkiv,147,9,144,263,11
+2021-05-06,UKR,Ukraine,Kherson,33,2,32,33,2
+2021-05-06,UKR,Ukraine,Khmel'nyts'kyy,30,1,25,23,1
+2021-05-06,UKR,Ukraine,Kirovohrad,33,1,33,138,2
+2021-05-06,UKR,Ukraine,Kyiv,299,4,284,308,10
+2021-05-06,UKR,Ukraine,Kyiv City,57,1,57,35,3
+2021-05-06,UKR,Ukraine,L'viv,32,2,30,45,0
+2021-05-06,UKR,Ukraine,Luhans'k,21,1,20,13,2
+2021-05-06,UKR,Ukraine,Mykolayiv,59,1,57,25,3
+2021-05-06,UKR,Ukraine,Odessa,117,3,108,196,4
+2021-05-06,UKR,Ukraine,Poltava,58,2,55,15,1
+2021-05-06,UKR,Ukraine,Rivne,11,0,11,3,0
+2021-05-06,UKR,Ukraine,Sumy,37,3,34,16,3
+2021-05-06,UKR,Ukraine,Ternopil',13,0,12,8,0
+2021-05-06,UKR,Ukraine,Transcarpathia,13,1,13,7,0
+2021-05-06,UKR,Ukraine,Vinnytsya,34,0,31,2,3
+2021-05-06,UKR,Ukraine,Volyn,8,0,8,2,0
+2021-05-06,UKR,Ukraine,Zaporizhzhya,78,2,74,66,2
+2021-05-06,UKR,Ukraine,Zhytomyr,18,3,16,17,3
+2021-05-06,ARE,United Arab Emirates,Abu Dhabi,69,1,63,4,1
+2021-05-06,ARE,United Arab Emirates,Ajman,13,1,12,0,2
+2021-05-06,ARE,United Arab Emirates,Dubai,116,3,112,21,8
 2021-05-06,ARE,United Arab Emirates,Fujairah,5,0,5,0,0
-2021-05-06,ARE,United Arab Emirates,Ras Al-Khaimah,6,0,6,1,0
-2021-05-06,ARE,United Arab Emirates,Sharjah,24,0,24,2,1
+2021-05-06,ARE,United Arab Emirates,Ras Al-Khaimah,8,0,8,3,0
+2021-05-06,ARE,United Arab Emirates,Sharjah,36,1,33,4,3
+2021-05-06,ARE,United Arab Emirates,Umm al-Qaywayn,2,0,2,0,0
 2021-05-06,GBR,United Kingdom,Anguilla,1,0,1,0,0
 2021-05-06,GBR,United Kingdom,British Virgin Islands,1,0,1,0,0
-2021-05-06,GBR,United Kingdom,East Midlands,123,0,123,9,1
-2021-05-06,GBR,United Kingdom,East of England,119,1,119,20,1
-2021-05-06,GBR,United Kingdom,London,86,1,86,5,2
-2021-05-06,GBR,United Kingdom,North East,56,1,56,6,0
-2021-05-06,GBR,United Kingdom,North West,124,0,124,8,2
-2021-05-06,GBR,United Kingdom,Northern Ireland,96,1,96,19,3
-2021-05-06,GBR,United Kingdom,Scotland,123,2,123,30,2
-2021-05-06,GBR,United Kingdom,South East,141,1,141,4,1
-2021-05-06,GBR,United Kingdom,South West,112,1,112,9,3
-2021-05-06,GBR,United Kingdom,Wales,122,0,122,18,0
-2021-05-06,GBR,United Kingdom,West Midlands,87,2,87,9,1
-2021-05-06,GBR,United Kingdom,Yorkshire and the Humber,92,2,92,11,3
-2021-05-06,URY,Uruguay,Artigas,10,0,10,0,2
-2021-05-06,URY,Uruguay,Canelones,80,1,80,33,3
-2021-05-06,URY,Uruguay,Cerro Largo,10,0,10,7,0
-2021-05-06,URY,Uruguay,Colonia,16,0,16,21,1
-2021-05-06,URY,Uruguay,Durazno,9,0,8,2,1
+2021-05-06,GBR,United Kingdom,East Midlands,140,0,136,9,1
+2021-05-06,GBR,United Kingdom,East of England,135,1,132,21,1
+2021-05-06,GBR,United Kingdom,Gibraltar,1,1,1,1,1
+2021-05-06,GBR,United Kingdom,London,102,1,100,5,3
+2021-05-06,GBR,United Kingdom,North East,69,1,65,11,0
+2021-05-06,GBR,United Kingdom,North West,155,0,153,14,4
+2021-05-06,GBR,United Kingdom,Northern Ireland,112,1,109,20,4
+2021-05-06,GBR,United Kingdom,Scotland,160,2,157,135,3
+2021-05-06,GBR,United Kingdom,South East,161,1,157,6,1
+2021-05-06,GBR,United Kingdom,South West,124,1,122,9,3
+2021-05-06,GBR,United Kingdom,Wales,158,0,152,25,1
+2021-05-06,GBR,United Kingdom,West Midlands,110,3,105,9,1
+2021-05-06,GBR,United Kingdom,Yorkshire and the Humber,107,2,105,14,3
+2021-05-06,URY,Uruguay,Artigas,14,0,14,0,2
+2021-05-06,URY,Uruguay,Canelones,106,1,102,40,4
+2021-05-06,URY,Uruguay,Cerro Largo,14,0,13,7,0
+2021-05-06,URY,Uruguay,Colonia,21,0,21,22,1
+2021-05-06,URY,Uruguay,Durazno,10,0,9,2,1
 2021-05-06,URY,Uruguay,Flores,6,0,6,20,0
 2021-05-06,URY,Uruguay,Florida,9,0,9,8,0
-2021-05-06,URY,Uruguay,Lavalleja,4,0,4,0,0
-2021-05-06,URY,Uruguay,Maldonado,32,0,32,14,2
-2021-05-06,URY,Uruguay,Montevideo,190,3,190,124,6
-2021-05-06,URY,Uruguay,Paysandú,12,0,12,8,1
-2021-05-06,URY,Uruguay,Río Negro,5,0,5,4,0
-2021-05-06,URY,Uruguay,Rivera,8,0,8,5,0
-2021-05-06,URY,Uruguay,Rocha,8,0,8,0,1
-2021-05-06,URY,Uruguay,Salto,13,0,13,20,0
-2021-05-06,URY,Uruguay,San José,10,0,10,6,0
-2021-05-06,URY,Uruguay,Soriano,10,0,10,28,0
-2021-05-06,URY,Uruguay,Tacuarembó,10,0,10,11,0
-2021-05-06,URY,Uruguay,Treinta y Tres,4,0,4,0,0
+2021-05-06,URY,Uruguay,Lavalleja,6,0,6,3,0
+2021-05-06,URY,Uruguay,Maldonado,41,0,38,15,2
+2021-05-06,URY,Uruguay,Montevideo,260,4,245,155,7
+2021-05-06,URY,Uruguay,Paysandú,20,0,20,12,1
+2021-05-06,URY,Uruguay,Río Negro,10,0,9,7,0
+2021-05-06,URY,Uruguay,Rivera,15,0,14,15,0
+2021-05-06,URY,Uruguay,Rocha,13,0,12,12,1
+2021-05-06,URY,Uruguay,Salto,16,1,16,23,1
+2021-05-06,URY,Uruguay,San José,14,0,14,11,0
+2021-05-06,URY,Uruguay,Soriano,11,0,10,28,0
+2021-05-06,URY,Uruguay,Tacuarembó,12,0,12,16,0
+2021-05-06,URY,Uruguay,Treinta y Tres,8,0,8,3,1
 2021-05-06,UZB,Uzbekistan,Andijon,2,0,2,0,0
-2021-05-06,UZB,Uzbekistan,Ferghana,2,0,2,0,0
+2021-05-06,UZB,Uzbekistan,Bukhoro,1,0,1,0,0
+2021-05-06,UZB,Uzbekistan,Ferghana,3,1,2,0,1
+2021-05-06,UZB,Uzbekistan,Jizzakh,1,0,1,0,0
 2021-05-06,UZB,Uzbekistan,Karakalpakstan,2,0,1,0,0
 2021-05-06,UZB,Uzbekistan,Kashkadarya,2,0,2,0,0
-2021-05-06,UZB,Uzbekistan,Khorezm,1,0,1,2,0
-2021-05-06,UZB,Uzbekistan,Namangan,1,0,1,0,0
-2021-05-06,UZB,Uzbekistan,Navoi,1,0,1,0,0
+2021-05-06,UZB,Uzbekistan,Khorezm,2,0,2,2,0
+2021-05-06,UZB,Uzbekistan,Namangan,2,0,2,0,0
+2021-05-06,UZB,Uzbekistan,Navoi,2,0,2,0,0
+2021-05-06,UZB,Uzbekistan,Samarkand,4,0,3,1,0
 2021-05-06,UZB,Uzbekistan,Surkhandarya,1,0,1,0,0
-2021-05-06,UZB,Uzbekistan,Tashkent,23,1,23,86,0
-2021-05-06,UZB,Uzbekistan,Tashkent City,20,2,20,31,1
-2021-05-06,VEN,Venezuela,Anzoátegui,26,1,26,33,0
-2021-05-06,VEN,Venezuela,Apure,7,0,7,2,0
-2021-05-06,VEN,Venezuela,Aragua,21,1,21,28,1
-2021-05-06,VEN,Venezuela,Barinas,7,0,7,0,2
-2021-05-06,VEN,Venezuela,Bolívar,22,0,22,33,2
-2021-05-06,VEN,Venezuela,Carabobo,48,3,48,75,2
-2021-05-06,VEN,Venezuela,Cojedes,5,0,5,0,0
+2021-05-06,UZB,Uzbekistan,Tashkent,39,1,34,194,3
+2021-05-06,UZB,Uzbekistan,Tashkent City,24,2,22,31,1
+2021-05-06,VEN,Venezuela,Amazonas,1,0,0,0,0
+2021-05-06,VEN,Venezuela,Anzoátegui,43,2,39,44,2
+2021-05-06,VEN,Venezuela,Apure,9,0,9,10,0
+2021-05-06,VEN,Venezuela,Aragua,43,1,39,36,2
+2021-05-06,VEN,Venezuela,Barinas,14,1,11,12,4
+2021-05-06,VEN,Venezuela,Bolívar,33,2,29,34,4
+2021-05-06,VEN,Venezuela,Carabobo,68,4,65,87,5
+2021-05-06,VEN,Venezuela,Cojedes,7,0,6,0,0
 2021-05-06,VEN,Venezuela,Delta Amacuro,1,0,1,2,0
-2021-05-06,VEN,Venezuela,Distrito Capital,102,3,101,113,4
-2021-05-06,VEN,Venezuela,Falcón,12,1,12,3,0
-2021-05-06,VEN,Venezuela,Guárico,7,0,7,3,0
-2021-05-06,VEN,Venezuela,Lara,27,0,27,2,0
-2021-05-06,VEN,Venezuela,Mérida,16,1,15,17,0
-2021-05-06,VEN,Venezuela,Miranda,46,0,46,14,1
-2021-05-06,VEN,Venezuela,Monagas,14,0,13,12,1
-2021-05-06,VEN,Venezuela,Nueva Esparta,12,0,12,3,0
-2021-05-06,VEN,Venezuela,Portuguesa,8,0,8,2,1
-2021-05-06,VEN,Venezuela,Sucre,12,0,12,1,2
-2021-05-06,VEN,Venezuela,Táchira,18,0,17,20,1
-2021-05-06,VEN,Venezuela,Trujillo,7,0,7,1,0
-2021-05-06,VEN,Venezuela,Vargas,11,1,11,7,2
+2021-05-06,VEN,Venezuela,Distrito Capital,144,4,136,124,7
+2021-05-06,VEN,Venezuela,Falcón,19,1,16,7,0
+2021-05-06,VEN,Venezuela,Guárico,11,0,11,4,0
+2021-05-06,VEN,Venezuela,Lara,41,0,39,6,1
+2021-05-06,VEN,Venezuela,Mérida,23,1,20,19,0
+2021-05-06,VEN,Venezuela,Miranda,68,2,63,18,3
+2021-05-06,VEN,Venezuela,Monagas,22,0,20,26,1
+2021-05-06,VEN,Venezuela,Nueva Esparta,17,1,14,5,0
+2021-05-06,VEN,Venezuela,Portuguesa,12,0,12,2,1
+2021-05-06,VEN,Venezuela,Sucre,14,0,13,1,2
+2021-05-06,VEN,Venezuela,Táchira,31,1,28,25,2
+2021-05-06,VEN,Venezuela,Trujillo,10,0,9,3,0
+2021-05-06,VEN,Venezuela,Vargas,15,1,14,7,2
 2021-05-06,VEN,Venezuela,Yaracuy,11,0,11,19,0
-2021-05-06,VEN,Venezuela,Zulia,75,6,74,115,7
-2021-05-06,VNM,Vietnam,Đà Nẵng,49,0,49,1,0
-2021-05-06,VNM,Vietnam,Đắk Lắk,21,0,21,3,0
-2021-05-06,VNM,Vietnam,Đắk Nông,10,0,10,0,0
-2021-05-06,VNM,Vietnam,Đồng Nai,51,0,51,0,0
-2021-05-06,VNM,Vietnam,Đồng Tháp,17,0,17,1,0
-2021-05-06,VNM,Vietnam,Điện Biên,5,0,5,0,0
-2021-05-06,VNM,Vietnam,An Giang,13,0,13,2,0
-2021-05-06,VNM,Vietnam,Bà Rịa - Vũng Tàu,29,0,28,4,0
-2021-05-06,VNM,Vietnam,Bình Định,11,0,11,0,0
-2021-05-06,VNM,Vietnam,Bình Dương,45,0,45,0,0
-2021-05-06,VNM,Vietnam,Bình Phước,10,0,10,1,0
-2021-05-06,VNM,Vietnam,Bình Thuận,16,0,16,1,0
-2021-05-06,VNM,Vietnam,Bạc Liêu,9,0,9,0,0
-2021-05-06,VNM,Vietnam,Bắc Giang,30,0,30,1,0
-2021-05-06,VNM,Vietnam,Bắc Kạn,5,0,5,0,0
-2021-05-06,VNM,Vietnam,Bắc Ninh,44,0,44,0,0
-2021-05-06,VNM,Vietnam,Bến Tre,8,0,8,0,0
-2021-05-06,VNM,Vietnam,Cà Mau,4,0,4,0,0
-2021-05-06,VNM,Vietnam,Cần Thơ,22,0,22,0,0
-2021-05-06,VNM,Vietnam,Cao Bằng,4,0,3,0,0
-2021-05-06,VNM,Vietnam,Gia Lai,17,1,17,0,1
-2021-05-06,VNM,Vietnam,Hà Giang,6,0,6,0,0
-2021-05-06,VNM,Vietnam,Hà Nội,301,3,301,24,4
-2021-05-06,VNM,Vietnam,Hà Nam,11,0,11,1,0
-2021-05-06,VNM,Vietnam,Hà Tĩnh,18,0,18,7,0
-2021-05-06,VNM,Vietnam,Hưng Yên,25,1,25,9,1
-2021-05-06,VNM,Vietnam,Hải Dương,19,0,19,0,1
-2021-05-06,VNM,Vietnam,Hải Phòng,43,1,43,2,0
-2021-05-06,VNM,Vietnam,Hậu Giang,8,0,8,0,0
-2021-05-06,VNM,Vietnam,Hoà Bình,8,0,8,0,0
-2021-05-06,VNM,Vietnam,Khánh Hòa,27,0,27,1,1
-2021-05-06,VNM,Vietnam,Kiên Giang,14,0,14,2,1
-2021-05-06,VNM,Vietnam,Kon Tum,11,0,11,0,0
-2021-05-06,VNM,Vietnam,Lào Cai,14,0,14,0,0
-2021-05-06,VNM,Vietnam,Lâm Đồng,18,0,18,1,0
-2021-05-06,VNM,Vietnam,Lạng Sơn,9,0,9,2,0
-2021-05-06,VNM,Vietnam,Lai Châu,6,0,6,0,1
-2021-05-06,VNM,Vietnam,Long An,21,0,21,0,1
-2021-05-06,VNM,Vietnam,Nam Định,28,0,28,1,1
-2021-05-06,VNM,Vietnam,Nghệ An,40,0,40,0,0
-2021-05-06,VNM,Vietnam,Ninh Bình,12,0,12,0,0
-2021-05-06,VNM,Vietnam,Ninh Thuận,4,0,4,0,0
-2021-05-06,VNM,Vietnam,Phú Thọ,25,0,25,1,0
-2021-05-06,VNM,Vietnam,Phú Yên,12,0,12,0,0
-2021-05-06,VNM,Vietnam,Quảng Bình,17,0,17,0,0
-2021-05-06,VNM,Vietnam,Quảng Nam,21,0,21,4,0
-2021-05-06,VNM,Vietnam,Quảng Ngãi,12,0,12,0,0
-2021-05-06,VNM,Vietnam,Quảng Ninh,23,0,23,2,0
-2021-05-06,VNM,Vietnam,Quảng Trị,12,0,11,0,0
-2021-05-06,VNM,Vietnam,Sóc Trăng,12,0,12,0,0
-2021-05-06,VNM,Vietnam,Sơn La,6,0,6,0,0
-2021-05-06,VNM,Vietnam,Tây Ninh,8,0,8,0,0
-2021-05-06,VNM,Vietnam,Thành phố Hồ Chí Minh,225,1,224,4,2
-2021-05-06,VNM,Vietnam,Thái Bình,46,1,46,7,1
-2021-05-06,VNM,Vietnam,Thái Nguyên,23,0,23,0,0
-2021-05-06,VNM,Vietnam,Thừa Thiên Huế,20,0,20,0,0
-2021-05-06,VNM,Vietnam,Thanh Hóa,43,0,43,2,0
-2021-05-06,VNM,Vietnam,Tiền Giang,10,0,10,0,0
-2021-05-06,VNM,Vietnam,Trà Vinh,5,0,5,0,0
-2021-05-06,VNM,Vietnam,Tuyên Quang,11,0,10,0,0
-2021-05-06,VNM,Vietnam,Vĩnh Long,7,0,7,0,0
-2021-05-06,VNM,Vietnam,Vĩnh Phúc,25,0,25,1,0
-2021-05-06,VNM,Vietnam,Yên Bái,11,0,11,0,0
+2021-05-06,VEN,Venezuela,Zulia,105,7,97,138,8
+2021-05-06,VNM,Vietnam,Đà Nẵng,93,0,89,1,0
+2021-05-06,VNM,Vietnam,Đắk Lắk,40,1,37,13,1
+2021-05-06,VNM,Vietnam,Đắk Nông,17,0,17,0,0
+2021-05-06,VNM,Vietnam,Đồng Nai,121,0,112,1,0
+2021-05-06,VNM,Vietnam,Đồng Tháp,31,0,29,1,0
+2021-05-06,VNM,Vietnam,Điện Biên,13,0,13,0,0
+2021-05-06,VNM,Vietnam,An Giang,31,0,30,2,0
+2021-05-06,VNM,Vietnam,Bà Rịa - Vũng Tàu,55,0,53,5,0
+2021-05-06,VNM,Vietnam,Bình Định,36,0,31,0,0
+2021-05-06,VNM,Vietnam,Bình Dương,106,1,103,0,0
+2021-05-06,VNM,Vietnam,Bình Phước,31,0,29,2,0
+2021-05-06,VNM,Vietnam,Bình Thuận,32,0,29,1,0
+2021-05-06,VNM,Vietnam,Bạc Liêu,16,0,16,0,0
+2021-05-06,VNM,Vietnam,Bắc Giang,79,1,76,1,0
+2021-05-06,VNM,Vietnam,Bắc Kạn,10,0,10,0,0
+2021-05-06,VNM,Vietnam,Bắc Ninh,105,0,100,1,0
+2021-05-06,VNM,Vietnam,Bến Tre,24,0,21,0,0
+2021-05-06,VNM,Vietnam,Cà Mau,13,0,11,0,0
+2021-05-06,VNM,Vietnam,Cần Thơ,42,0,41,0,0
+2021-05-06,VNM,Vietnam,Cao Bằng,12,0,9,0,0
+2021-05-06,VNM,Vietnam,Gia Lai,40,1,39,0,1
+2021-05-06,VNM,Vietnam,Hà Giang,15,0,13,0,0
+2021-05-06,VNM,Vietnam,Hà Nội,508,4,491,30,7
+2021-05-06,VNM,Vietnam,Hà Nam,24,0,23,3,0
+2021-05-06,VNM,Vietnam,Hà Tĩnh,46,1,43,7,2
+2021-05-06,VNM,Vietnam,Hưng Yên,53,1,50,9,1
+2021-05-06,VNM,Vietnam,Hải Dương,49,0,44,1,1
+2021-05-06,VNM,Vietnam,Hải Phòng,86,2,83,3,1
+2021-05-06,VNM,Vietnam,Hậu Giang,14,0,14,0,0
+2021-05-06,VNM,Vietnam,Hoà Bình,19,0,18,0,0
+2021-05-06,VNM,Vietnam,Khánh Hòa,51,0,50,1,1
+2021-05-06,VNM,Vietnam,Kiên Giang,31,0,31,2,1
+2021-05-06,VNM,Vietnam,Kon Tum,18,0,16,0,0
+2021-05-06,VNM,Vietnam,Lào Cai,26,0,26,2,0
+2021-05-06,VNM,Vietnam,Lâm Đồng,41,0,37,2,0
+2021-05-06,VNM,Vietnam,Lạng Sơn,31,0,28,2,0
+2021-05-06,VNM,Vietnam,Lai Châu,15,0,15,0,1
+2021-05-06,VNM,Vietnam,Long An,45,0,44,0,1
+2021-05-06,VNM,Vietnam,Nam Định,67,0,65,1,1
+2021-05-06,VNM,Vietnam,Nghệ An,107,0,100,3,0
+2021-05-06,VNM,Vietnam,Ninh Bình,31,0,31,0,0
+2021-05-06,VNM,Vietnam,Ninh Thuận,8,1,7,0,1
+2021-05-06,VNM,Vietnam,Phú Thọ,57,0,54,3,0
+2021-05-06,VNM,Vietnam,Phú Yên,25,0,25,1,0
+2021-05-06,VNM,Vietnam,Quảng Bình,29,0,28,0,0
+2021-05-06,VNM,Vietnam,Quảng Nam,46,0,45,4,1
+2021-05-06,VNM,Vietnam,Quảng Ngãi,33,0,33,2,0
+2021-05-06,VNM,Vietnam,Quảng Ninh,43,0,39,2,0
+2021-05-06,VNM,Vietnam,Quảng Trị,18,0,17,1,0
+2021-05-06,VNM,Vietnam,Sóc Trăng,22,0,22,0,0
+2021-05-06,VNM,Vietnam,Sơn La,20,0,18,0,0
+2021-05-06,VNM,Vietnam,Tây Ninh,19,0,16,0,1
+2021-05-06,VNM,Vietnam,Thành phố Hồ Chí Minh,394,1,377,6,3
+2021-05-06,VNM,Vietnam,Thái Bình,87,1,84,7,1
+2021-05-06,VNM,Vietnam,Thái Nguyên,51,0,51,1,1
+2021-05-06,VNM,Vietnam,Thừa Thiên Huế,45,0,42,0,0
+2021-05-06,VNM,Vietnam,Thanh Hóa,110,1,103,5,0
+2021-05-06,VNM,Vietnam,Tiền Giang,23,0,20,0,0
+2021-05-06,VNM,Vietnam,Trà Vinh,12,0,11,0,0
+2021-05-06,VNM,Vietnam,Tuyên Quang,25,0,24,0,0
+2021-05-06,VNM,Vietnam,Vĩnh Long,14,0,13,0,0
+2021-05-06,VNM,Vietnam,Vĩnh Phúc,55,0,51,2,0
+2021-05-06,VNM,Vietnam,Yên Bái,27,0,24,0,0
+2021-05-06,VIR,"Virgin Islands, U.S.",Saint Croix,1,0,0,0,0
 2021-05-06,YEM,Yemen,Abyan,1,0,1,6,0
-2021-05-06,YEM,Yemen,Aden,6,0,6,10,0
-2021-05-06,YEM,Yemen,Al-Baidha,1,0,1,0,0
+2021-05-06,YEM,Yemen,Aden,7,0,7,10,0
+2021-05-06,YEM,Yemen,Al-Baidha,2,0,2,0,0
 2021-05-06,YEM,Yemen,Al-Dhalae,2,0,2,1,0
-2021-05-06,YEM,Yemen,Al-Hodeidah,1,0,1,1,0
-2021-05-06,YEM,Yemen,Hadramout,2,0,2,0,0
+2021-05-06,YEM,Yemen,Al-Hodeidah,4,0,4,5,0
+2021-05-06,YEM,Yemen,Al-Jawf,1,0,1,1,0
+2021-05-06,YEM,Yemen,Al-Mhweit,1,0,1,0,0
+2021-05-06,YEM,Yemen,Hadramout,3,0,3,4,0
 2021-05-06,YEM,Yemen,Hajjah,1,1,1,100,1
-2021-05-06,YEM,Yemen,Ibb,7,2,7,27,2
-2021-05-06,YEM,Yemen,Lahj,1,0,1,2,0
+2021-05-06,YEM,Yemen,Ibb,8,3,8,42,2
+2021-05-06,YEM,Yemen,Lahj,2,0,2,5,0
 2021-05-06,YEM,Yemen,Mareb,1,0,1,0,0
-2021-05-06,YEM,Yemen,Sana'a,22,2,22,71,5
-2021-05-06,YEM,Yemen,Sana'a City,8,2,8,2,1
-2021-05-06,YEM,Yemen,Taiz,4,1,4,1,1
+2021-05-06,YEM,Yemen,Sana'a,27,2,27,76,5
+2021-05-06,YEM,Yemen,Sana'a City,9,2,8,2,1
+2021-05-06,YEM,Yemen,Taiz,7,1,5,1,1
+2021-05-06,ZMB,Zambia,Luapula,1,1,1,0,0
+2021-05-06,ZMB,Zambia,Lusaka,1,0,1,0,0
 2021-05-06,ZWE,Zimbabwe,Bulawayo,1,0,1,0,0
+2021-05-06,ZWE,Zimbabwe,Harare,1,0,1,0,0
 2021-05-06,ZWE,Zimbabwe,Matabeleland South,1,0,1,0,0
-2021-05-06,ZWE,Zimbabwe,Midlands,2,0,2,0,0
+2021-05-06,ZWE,Zimbabwe,Midlands,3,0,3,1,0
