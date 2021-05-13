@@ -20,15 +20,15 @@ start_date <- "2021-01-01"
 end_date <- Sys.Date()
 
 
-plot_region <- function(country = "IN", region = "Rajasthan")
+plot_region <- function(df_umd, country = "IN", region = "Rajasthan")
 {
   region_us <- gsub(" ", "_", region)
   
-  # Read UMD data
-  df_umd <- read.csv(paste0(estimates_umd_path, country, "-estimate.csv"))
-  df_umd <- df_umd[df_umd$region == region,]
-  
-  df_umd$date <- as.Date(df_umd$date)
+  # # Read UMD data
+  # df_umd <- read.csv(paste0(estimates_umd_path, country, "-estimate.csv"))
+  # df_umd <- df_umd[df_umd$region == region,]
+  # 
+  # df_umd$date <- as.Date(df_umd$date)
   
   # # cat("Smoothing p_cli\n")
   # df_umd <- smooth_column(df_in = df_umd,
@@ -143,51 +143,69 @@ plot_region <- function(country = "IN", region = "Rajasthan")
 
 #----------
 
+countries <- c("BR", "EC", "ES", "IN", "NG")
 
-country <- "IN"
-regions <- c( "Andaman and Nicobar", "Andhra Pradesh", "Arunachal Pradesh", "Assam", "Bihar", "Chandigarh", "Chhattisgarh", "Dadra and Nagar Haveli",
-"Daman and Diu", "Goa", "Gujarat", "Haryana", "Himachal Pradesh", "Jammu and Kashmir", "Jharkhand", "Karnataka", "Kerala", "Ladakh", "Lakshadweep",
-"Madhya Pradesh", "Maharashtra", "Manipur", "Meghalaya", "Mizoram", "Nagaland", "NCT of Delhi", "Odisha", "Puducherry", "Punjab", "Rajasthan", "Sikkim",
-"Tamil Nadu", "Telangana", "Tripura", "Uttar Pradesh", "Uttarakhand", "West Bengal") 
-dir.create(paste0(plots_path, country, "/"), showWarnings = F)
-for (r in regions) {
-  plot_region(country, region = r)
+for (country in countries) {
+  cat(country, "\n")
+  # Read UMD data
+  df_umd <- read.csv(paste0(estimates_umd_path, country, "-estimate.csv"))
+  df_umd$date <- as.Date(df_umd$date)
+  df_umd <- df_umd[df_umd$date >= start_date,]
+  
+  regions <- unique(df_umd$region)
+  regions <- regions[regions != "-99"]
+  regions <- regions[regions != "-77"]
+  
+  dir.create(paste0(plots_path, country, "/"), showWarnings = F)
+  for (r in regions) {
+    cat(r, " ")
+    df <- df_umd[df_umd$region == r,]
+    if (nrow(df) >= 40) {
+      df <- plot_region(df, country, region = r)
+    }
+  }
+  cat("\n")
 }
 
-country <- "BR"
-regions <- c( "Acre", "Alagoas", "Amapá", "Amazonas", "Bahia", "Ceará", "Distrito Federal", "Espírito Santo", "Goiás", "Maranhão",
-  "Mato Grosso", "Mato Grosso do Sul", "Minas Gerais", "Pará", "Paraíba", "Paraná", "Pernambuco", "Piauí", "Rio de Janeiro", "Rio Grande do Norte",
-  "Rio Grande do Sul", "Rondônia", "Roraima", "Santa Catarina", "São Paulo", "Sergipe", "Tocantins")
-dir.create(paste0(plots_path, country, "/"), showWarnings = F)
-for (r in regions) {
-  plot_region(country, region = r)
-}
+# regions <- c( "Andaman and Nicobar", "Andhra Pradesh", "Arunachal Pradesh", "Assam", "Bihar", "Chandigarh", "Chhattisgarh", "Dadra and Nagar Haveli",
+# "Daman and Diu", "Goa", "Gujarat", "Haryana", "Himachal Pradesh", "Jammu and Kashmir", "Jharkhand", "Karnataka", "Kerala", "Ladakh", "Lakshadweep",
+# "Madhya Pradesh", "Maharashtra", "Manipur", "Meghalaya", "Mizoram", "Nagaland", "NCT of Delhi", "Odisha", "Puducherry", "Punjab", "Rajasthan", "Sikkim",
+# "Tamil Nadu", "Telangana", "Tripura", "Uttar Pradesh", "Uttarakhand", "West Bengal") 
 
-country <- "NG"
-regions <- c("Abia",  "Adamawa",  "Akwa Ibom",  "Anambra",  "Bauchi",  "Bayelsa",  "Benue",  "Borno",
-  "Cross River",  "Delta",  "Ebonyi",  "Edo",  "Ekiti",  "Enugu",  "Federal Capital Territory",  "Gombe",
-  "Imo",  "Jigawa",  "Kaduna",  "Kano",  "Katsina",  "Kebbi",  "Kogi",  "Kwara",  "Lagos",  "Nassarawa",
-  "Niger",  "Ogun",  "Ondo",  "Osun",  "Oyo",  "Plateau",  "Rivers",  "Sokoto",  "Taraba",  "Yobe", "Zamfara")
-dir.create(paste0(plots_path, country, "/"), showWarnings = F)
-for (r in regions) {
-  plot_region(country, region = r)
-}
-
-country <- "EC"
-regions <- c(  "Azuay",  "Bolivar",  "Cañar",  "Carchi",  "Chimborazo",  "Cotopaxi",  "El Oro",
-  "Esmeraldas",  "Galápagos",  "Guayas",  "Imbabura",  "Loja",  "Los Rios",  "Manabi",  "Morona Santiago",
-  "Napo",  "Orellana",  "Pastaza",  "Pichincha",  "Santa Elena",  "Santo Domingo de los Tsachilas",
-  "Sucumbios",  "Tungurahua",  "Zamora Chinchipe"  )
-dir.create(paste0(plots_path, country, "/"), showWarnings = F)
-for (r in regions) {
-  plot_region(country, region = r)
-}
-
-country <- "ES"
-regions <- c("Andalucía", "Aragón", "Cantabria", "Castilla y León", "Castilla-La Mancha", "Cataluña",
-"Ceuta y Melilla", "Comunidad Foral de Navarra", "Comunidad Valenciana", "Comunidad de Madrid", "Extremadura",
-"Galicia", "Islas Baleares", "Islas Canarias", "La Rioja", "País Vasco", "Principado de Asturias", "Región de Murcia")
-dir.create(paste0(plots_path, country, "/"), showWarnings = F)
-for (r in regions) {
-  plot_region(country, region = r)
-}
+# country <- "BR"
+# regions <- c( "Acre", "Alagoas", "Amapá", "Amazonas", "Bahia", "Ceará", "Distrito Federal", "Espírito Santo", "Goiás", "Maranhão",
+#   "Mato Grosso", "Mato Grosso do Sul", "Minas Gerais", "Pará", "Paraíba", "Paraná", "Pernambuco", "Piauí", "Rio de Janeiro", "Rio Grande do Norte",
+#   "Rio Grande do Sul", "Rondônia", "Roraima", "Santa Catarina", "São Paulo", "Sergipe", "Tocantins")
+# dir.create(paste0(plots_path, country, "/"), showWarnings = F)
+# for (r in regions) {
+#   plot_region(country, region = r)
+# }
+# 
+# country <- "NG"
+# regions <- c("Abia",  "Adamawa",  "Akwa Ibom",  "Anambra",  "Bauchi",  "Bayelsa",  "Benue",  "Borno",
+#   "Cross River",  "Delta",  "Ebonyi",  "Edo",  "Ekiti",  "Enugu",  "Federal Capital Territory",  "Gombe",
+#   "Imo",  "Jigawa",  "Kaduna",  "Kano",  "Katsina",  "Kebbi",  "Kogi",  "Kwara",  "Lagos",  "Nassarawa",
+#   "Niger",  "Ogun",  "Ondo",  "Osun",  "Oyo",  "Plateau",  "Rivers",  "Sokoto",  "Taraba",  "Yobe", "Zamfara")
+# dir.create(paste0(plots_path, country, "/"), showWarnings = F)
+# for (r in regions) {
+#   plot_region(country, region = r)
+# }
+# 
+# country <- "EC"
+# regions <- c(  "Azuay",  "Bolivar",  "Cañar",  "Carchi",  "Chimborazo",  "Cotopaxi",  "El Oro",
+#   "Esmeraldas",  "Galápagos",  "Guayas",  "Imbabura",  "Loja",  "Los Rios",  "Manabi",  "Morona Santiago",
+#   "Napo",  "Orellana",  "Pastaza",  "Pichincha",  "Santa Elena",  "Santo Domingo de los Tsachilas",
+#   "Sucumbios",  "Tungurahua",  "Zamora Chinchipe"  )
+# dir.create(paste0(plots_path, country, "/"), showWarnings = F)
+# for (r in regions) {
+#   plot_region(country, region = r)
+# }
+# 
+# country <- "ES"
+# regions <- c("Andalucía", "Aragón", "Cantabria", "Castilla y León", "Castilla-La Mancha", "Cataluña",
+# "Ceuta y Melilla", "Comunidad Foral de Navarra", "Comunidad Valenciana", "Comunidad de Madrid", "Extremadura",
+# "Galicia", "Islas Baleares", "Islas Canarias", "La Rioja", "País Vasco", "Principado de Asturias", "Región de Murcia")
+# dir.create(paste0(plots_path, country, "/"), showWarnings = F)
+# for (r in regions) {
+#   plot_region(country, region = r)
+# }
