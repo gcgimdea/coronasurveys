@@ -59,11 +59,11 @@ plot_region <- function(df_umd, country = "IN", region = "Rajasthan")
                     ymax = cli_factor * p_cli_14days_high*100000),
                 alpha = 0.1, color = "blue", size = 0.1, fill = "blue") +
     # geom_point(aes(y = p_cliWHO*100000, color = "UMD CLI WHO"), alpha = 0.5, size = 2) +
-    # geom_line(aes(y = cliWHO_factor * p_cliWHO_14days*100000, color = "UMD CLI WHO"),
-    #           linetype = "solid", size = 1, alpha = 0.6) +
-    # geom_ribbon(aes(ymin = cliWHO_factor * p_cliWHO_14days_low*100000,
-    #                 ymax = cliWHO_factor * p_cliWHO_14days_high*100000),
-    #             alpha = 0.1, color = "magenta", size = 0.1, fill = "magenta") +
+    geom_line(aes(y = cliWHO_factor * p_cliWHO_14days*100000, color = "UMD CLI WHO"),
+              linetype = "solid", size = 1, alpha = 0.6) +
+    geom_ribbon(aes(ymin = cliWHO_factor * p_cliWHO_14days_low*100000,
+                    ymax = cliWHO_factor * p_cliWHO_14days_high*100000),
+                alpha = 0.1, color = "magenta", size = 0.1, fill = "magenta") +
     # geom_point(aes(y = p_cli_local*100000, color = "UMD CLI Indirect"), alpha = 0.5, size = 2) +
     geom_line(aes(y = cli_local_factor * p_cli_local_14days*100000, color = "UMD CLI Indirect"),
               linetype = "solid", size = 1, alpha = 0.6) +
@@ -85,12 +85,12 @@ plot_region <- function(df_umd, country = "IN", region = "Rajasthan")
                         guide = guide_legend(override.aes = list(
                           linetype = c(#"dotted", 
                             # "dotted", "blank", 
-                            # "solid", 
+                            "solid", 
                             "solid", 
                             "solid"),
                           shape = c(#NA, 
                             # NA, 1, NA, 
-                            # 1, 
+                            1, 
                             1, 1)))) +
     theme(legend.position = "bottom")
   #p1
