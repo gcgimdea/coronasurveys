@@ -333,17 +333,11 @@ for (i in 1:length(regions)){
 }
 
 for (j in 1:length(dates)){
-  write.csv(dw[dw$date == dates[j], ], paste0(estimates_path, country_iso, "/", country_iso, "-", dates_dash[j], "-estimate.csv"), row.names = FALSE)
+  # write.csv(dw[dw$date == dates[j], ], paste0(estimates_path, country_iso, "/", country_iso, "-", dates_dash[j], "-estimate.csv"), row.names = FALSE)
 }
 
 dw_latest <- dw[dw$date == dates[length(dates)], ]
 rownames(dw_latest) <- NULL
 write.csv(dw_latest, paste0(estimates_path, country_iso, "/", country_iso, "-latest-estimate.csv"), row.names = FALSE)
-# print(xtable(dw_latest), type="html", file=paste0(estimates_path, country_iso, "/", country_iso, "-latest-estimate.html"))
-
-# subcondition <- (as.Date(dw$date) >= as.Date("2020-04-13") & as.Date(dw$date) <= as.Date("2020-04-27"))
-# dw_ene <- dw[subcondition, ]
-# dw_ene <- dw_ene %>% select(date, region, population, sample_size, reach, p_cases, p_cases_error)
-# write.csv(dw_ene, paste0(estimates_path, country_iso, "/", country_iso, "-enecovid-estimate.csv"), row.names = FALSE)
 }
 
