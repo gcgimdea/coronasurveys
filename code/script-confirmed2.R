@@ -4,7 +4,7 @@ library(readxl)
 library(httr)
 
 contagious_window <- 12
-active_window <- 18
+active_window <- 10 # Changed from 18 on May 30th, 2021
 
 plot_estimates <- function(country_geoid = "AF", dts, 
                            contagious_window,

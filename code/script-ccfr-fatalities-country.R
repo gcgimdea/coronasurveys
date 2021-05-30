@@ -15,7 +15,7 @@ ox_country_path <- "../data/oxford/" # Oxford data
 #url_ecdc <- "https://www.ecdc.europa.eu/sites/default/files/documents/COVID-19-geographic-disbtribution-worldwide-"
 
 contagious_window <- 12
-active_window <- 18
+active_window <- 10 # Changed from 18 on May 30th, 2021
 onset_to_death_window <- 13 # https://www.cdc.gov/coronavirus/2019-ncov/hcp/planning-scenarios.html#table-2
 CFR <- 0.0138
 # factor_window <- 14

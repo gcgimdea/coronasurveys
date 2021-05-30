@@ -2,7 +2,7 @@ library(dplyr)
 source("smooth_greedy_monotone.R")
 
 contagious_window <- 12
-active_window <- 18
+active_window <- 10 # Changed from 18 on May 30th, 2021
 z_mean_hdt <- 13
 z_sd_hdt <- 12.7
 z_median_hdt <- 9.1
