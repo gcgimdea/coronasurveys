@@ -34,7 +34,15 @@ Columns B1_1.1 to E2.NA correspond to the responses to the corresponding survey 
 
 Columns B2.mean, B2.sd, B4.mean, B4.sd, E5.mean, E5.sd are the mean and standard deviation of the responses to the corresponding question.
 
-Before aggregation the individual responses have been filtered to remove outliers (e.g., responses that report knowing millions of people with CLI symptoms).
+Before aggregation the individual responses have been filtered to remove outliers (e.g., responses that report knowing millions of people with CLI symptoms). 
+Responses have been removed if they satisfy any of the following:
+- Report having all symptoms in questions B1_1 to B1_12.
+- Report at least one symptom and report a value larger than 100 in question B2: "For how many days have you had at least one of these symptoms?"
+- Answer "yes" to question B3 "Do you personally know anyone in your local community who is sick with a fever and either a cough or difficulty breathing?" and report a
+value larger than 100 in question B4: "How many people do you know with these symptoms?"
+- Report a value larger than 100 in question E5: "How many people slept in the place where you stayed last night?"
+
+
 
 
 
