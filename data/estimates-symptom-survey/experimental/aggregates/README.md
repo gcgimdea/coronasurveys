@@ -3,13 +3,13 @@ Aggregated data from the responses to the COVID-19 World Symptoms Survey https:/
 There are 3 folders:
 - *country*: Aggregation is done daily at the country level.
 - *age*: Aggregation is done daily at the country level per age groups.
-* 1: 18-24 years
-* 2: 25-34 years
-* 3: 35-44 years
-* 4: 45-54 years
-* 5: 55-64 years
-* 6: 65-74 years
-* 7: 75 years or older
+-- 1: 18-24 years
+-- 2: 25-34 years
+-- 3: 35-44 years
+-- 4: 45-54 years
+-- 5: 55-64 years
+-- 6: 65-74 years
+-- 7: 75 years or older
 - *region*: Aggregation is done daily at the country level per region of the country.
 
 Each line is the aggregation of at least 100 responses (the number of resposses aggregated can be found in column *count*). 
