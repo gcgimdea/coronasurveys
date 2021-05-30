@@ -3,13 +3,13 @@ Aggregated data from the responses to the COVID-19 World Symptoms Survey https:/
 There are 3 folders:
 - *country*: Aggregation is done daily at the country level.
 - *age*: Aggregation is done daily at the country level per age groups.
--- 1: 18-24 years
--- 2: 25-34 years
--- 3: 35-44 years
--- 4: 45-54 years
--- 5: 55-64 years
--- 6: 65-74 years
--- 7: 75 years or older
+  - 1: 18-24 years
+  - 2: 25-34 years
+  - 3: 35-44 years
+  - 4: 45-54 years
+  - 5: 55-64 years
+  - 6: 65-74 years
+  - 7: 75 years or older
 - *region*: Aggregation is done daily at the country level per region of the country.
 
 Each line is the aggregation of at least 100 responses (the number of resposses aggregated can be found in column *count*). 
@@ -26,6 +26,15 @@ These are the cases reported by answering YES to the question (1) “Do you pers
 with a fever and either a cough or difficulty breathing?” and answering the question (2) “How many people do you know with these symptoms?” 
 The ratio is obtained by dividing the number of cases by the number of responses multiplied by the estimated average “reach”: 71 is being used.
 Obtained as *cli_local/(count_local * 71)*.
+
+Columns B1_1.1 to E2.NA correspond to the responses to the corresponding survey questions. For instance, the responses to question B1_1 ("In the last 24 hours, have you had any of the following? Fever") are aggregated in columns:
+- B1_1.1: Number of responses that answered 1 (=yes).
+- B1_1.2: Number of responses that answered 2 (=no).
+- B1_1.NA: Number of responses that did not answered.
+
+Columns B2.mean, B2.sd, B4.mean, B4.sd, E5.mean, E5.sd are the mean and standard deviation of the responses to the corresponding question.
+
+Before aggregation the individual responses have been filtered to remove outliers (e.g., responses that report knowing millions of people with CLI symptoms).
 
 
 
