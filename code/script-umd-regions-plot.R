@@ -2,12 +2,12 @@ library(lubridate)
 library(useful)
 library(dplyr)
 # smoothed p_cases and CI:
-source("smooth_column-v2.R")
+# source("smooth_column-v2.R")
 
-estimates_umd_path <- "../data/estimates-symptom-survey/region/"
+estimates_umd_path <- "../data/estimates-symptom-survey/experimental/aggregates/region/"
 plots_path <- "../data/estimates-symptom-survey/plots/"
 
-smooth_param <- 40
+smooth_param <- 15
 
 cli_factor <- 1
 cliWHO_factor <- 1
@@ -24,51 +24,71 @@ plot_region <- function(df_umd, country = "IN", region = "Rajasthan")
 {
   region_us <- gsub(" ", "_", region)
   
-  # # Read UMD data
-  # df_umd <- read.csv(paste0(estimates_umd_path, country, "-estimate.csv"))
-  # df_umd <- df_umd[df_umd$region == region,]
+  # # # Read UMD data
+  # # df_umd <- read.csv(paste0(estimates_umd_path, country, "-estimate.csv"))
+  # # df_umd <- df_umd[df_umd$region == region,]
+  # # 
+  # # df_umd$date <- as.Date(df_umd$date)
   # 
-  # df_umd$date <- as.Date(df_umd$date)
-  
-  # # cat("Smoothing p_cli\n")
-  # df_umd <- smooth_column(df_in = df_umd,
-  #                         col_s = "p_cli",
-  #                         basis_dim = smooth_param,
-  #                         link_in = "log")
+  cat("Smoothing p_cli\n")
+  fit <- with(df_umd, 
+              ksmooth(date, p_cli, kernel = "normal", bandwidth = smooth_param, x.points=date))
+  df_umd$p_cli_smooth <- fit$y
+  fit <- with(df_umd, 
+              ksmooth(date, p_cli_CI, kernel = "normal", bandwidth = smooth_param, x.points=date))
+  df_umd$p_cli_CI_smooth <- fit$y
+  cat("Smoothing p_cliWHO\n")
+  fit <- with(df_umd, 
+              ksmooth(date, p_cliWHO, kernel = "normal", bandwidth = smooth_param, x.points=date))
+  df_umd$p_cliWHO_smooth <- fit$y
+  fit <- with(df_umd, 
+              ksmooth(date, p_cliWHO_CI, kernel = "normal", bandwidth = smooth_param, x.points=date))
+  df_umd$p_cliWHO_CI_smooth <- fit$y
+  cat("Smoothing p_cli_local\n")
+  fit <- with(df_umd, 
+              ksmooth(date, p_cli_local, kernel = "normal", bandwidth = smooth_param, x.points=date))
+  df_umd$p_cli_local_smooth <- fit$y
+  fit <- with(df_umd, 
+              ksmooth(date, p_cli_local_CI, kernel = "normal", bandwidth = smooth_param, x.points=date))
+  df_umd$p_cli_local_CI_smooth <- fit$y
+  # # df_umd <- smooth_column(df_in = df_umd,
+  # #                         col_s = "p_cli",
+  # #                         basis_dim = smooth_param,
+  # #                         link_in = "log")
+  # # 
+  # # # cat("Smoothing p_cli_local\n")
+  # # df_umd <- smooth_column(df_in = df_umd,
+  # #                         col_s = "p_cli_local",
+  # #                         basis_dim = smooth_param,
+  # #                         link_in = "log")
+  # # 
+  # # # cat("Smoothing p_anosmia\n")
+  # # df_umd <- smooth_column(df_in = df_umd,
+  # #                         col_s = "p_anosmia",
+  # #                         basis_dim = smooth_param,
+  # #                         link_in = "log")
   # 
-  # # cat("Smoothing p_cli_local\n")
-  # df_umd <- smooth_column(df_in = df_umd,
-  #                         col_s = "p_cli_local",
-  #                         basis_dim = smooth_param,
-  #                         link_in = "log")
-  # 
-  # # cat("Smoothing p_anosmia\n")
-  # df_umd <- smooth_column(df_in = df_umd,
-  #                         col_s = "p_anosmia",
-  #                         basis_dim = smooth_param,
-  #                         link_in = "log")
-  
-  df_umd <- df_umd[df_umd$date >= ymd(start_date),]
+  # df_umd <- df_umd[df_umd$date >= ymd(start_date),]
   
   # colors <- c("Nuevos casos" = "red", "recent_c" = "red", "sick_c" = "blue", "Sintomáticos" = "blue")
   p1 <- ggplot(data = df_umd, aes(x = date, color = ""))  +
     # geom_point(aes(y = p_cli*100000, color = "UMD CLI"), alpha = 0.5, size = 2) +
-    geom_line(aes(y = cli_factor * p_cli_14days*100000, color = "UMD CLI"),
+    geom_line(aes(y = cli_factor * p_cli_smooth*100000, color = "UMD CLI"),
               linetype = "solid", size = 1, alpha = 0.6) +
-    geom_ribbon(aes(ymin = cli_factor * p_cli_14days_low*100000,
-                    ymax = cli_factor * p_cli_14days_high*100000),
+    geom_ribbon(aes(ymin = cli_factor * (p_cli_smooth-p_cli_CI_smooth)*100000,
+                    ymax = cli_factor * (p_cli_smooth+p_cli_CI_smooth)*100000),
                 alpha = 0.1, color = "blue", size = 0.1, fill = "blue") +
     # geom_point(aes(y = p_cliWHO*100000, color = "UMD CLI WHO"), alpha = 0.5, size = 2) +
-    geom_line(aes(y = cliWHO_factor * p_cliWHO_14days*100000, color = "UMD CLI WHO"),
+    geom_line(aes(y = cliWHO_factor * p_cliWHO_smooth*100000, color = "UMD CLI WHO"),
               linetype = "solid", size = 1, alpha = 0.6) +
-    geom_ribbon(aes(ymin = cliWHO_factor * p_cliWHO_14days_low*100000,
-                    ymax = cliWHO_factor * p_cliWHO_14days_high*100000),
+    geom_ribbon(aes(ymin = cliWHO_factor * (p_cliWHO_smooth-p_cliWHO_CI_smooth)*100000,
+                    ymax = cliWHO_factor * (p_cliWHO_smooth+p_cliWHO_CI_smooth)*100000),
                 alpha = 0.1, color = "magenta", size = 0.1, fill = "magenta") +
     # geom_point(aes(y = p_cli_local*100000, color = "UMD CLI Indirect"), alpha = 0.5, size = 2) +
-    geom_line(aes(y = cli_local_factor * p_cli_local_14days*100000, color = "UMD CLI Indirect"),
+    geom_line(aes(y = cli_local_factor * p_cli_local_smooth*100000, color = "UMD CLI Indirect"),
               linetype = "solid", size = 1, alpha = 0.6) +
-    geom_ribbon(aes(ymin = cli_local_factor * p_cli_local_14days_low*100000,
-                    ymax = cli_local_factor * p_cli_local_14days_high*100000),
+    geom_ribbon(aes(ymin = cli_local_factor * (p_cli_local_smooth-p_cli_local_CI_smooth)*100000,
+                    ymax = cli_local_factor * (p_cli_local_smooth+p_cli_local_CI_smooth)*100000),
                 alpha = 0.1, color = "red", size = 0.1, fill = "red") +
     # geom_point(aes(y = p_anosmia*100000, color = "UMD anosmia"), alpha = 0.5, size = 2) +
     # geom_line(aes(y = anosmia_factor * p_anosmia_14days*100000, color = "UMD anosmia"),
@@ -79,7 +99,7 @@ plot_region <- function(df_umd, country = "IN", region = "Rajasthan")
     labs(x = "Date", y =  "Cases per 100,000 people") +
     # ylim(0, 3000)+
     theme_bw() + 
-    ggtitle(paste0("Active cases in ", region, " (14 days moving average)")) +
+    ggtitle(paste0("Active cases in ", region)) +
     scale_colour_manual(values = c("blue", "red", "magenta", "green"),
                         name="",
                         guide = guide_legend(override.aes = list(
@@ -148,64 +168,20 @@ countries <- c("BR", "EC", "ES", "IN", "NG")
 for (country in countries) {
   cat(country, "\n")
   # Read UMD data
-  df_umd <- read.csv(paste0(estimates_umd_path, country, "-estimate.csv"))
+  df_umd <- read.csv(paste0(estimates_umd_path, country, ".csv"))
   df_umd$date <- as.Date(df_umd$date)
-  df_umd <- df_umd[df_umd$date >= start_date,]
+  df_umd <- df_umd[which((df_umd$date >= start_date) & (df_umd$date <= end_date)),]
   
-  regions <- unique(df_umd$region)
-  regions <- regions[regions != "-99"]
-  regions <- regions[regions != "-77"]
-  
+  df_umd <- df_umd[which(!is.na(df_umd$region_agg)),]
+  regions <- unique(df_umd$region_agg)
+
   dir.create(paste0(plots_path, country, "/"), showWarnings = F)
   for (r in regions) {
     cat(r, " ")
-    df <- df_umd[df_umd$region == r,]
-    if (nrow(df) >= 40) {
+    df <- df_umd[df_umd$region_agg == r,]
+    if (nrow(df) >= smooth_param) {
       df <- plot_region(df, country, region = r)
     }
   }
   cat("\n")
 }
-
-# regions <- c( "Andaman and Nicobar", "Andhra Pradesh", "Arunachal Pradesh", "Assam", "Bihar", "Chandigarh", "Chhattisgarh", "Dadra and Nagar Haveli",
-# "Daman and Diu", "Goa", "Gujarat", "Haryana", "Himachal Pradesh", "Jammu and Kashmir", "Jharkhand", "Karnataka", "Kerala", "Ladakh", "Lakshadweep",
-# "Madhya Pradesh", "Maharashtra", "Manipur", "Meghalaya", "Mizoram", "Nagaland", "NCT of Delhi", "Odisha", "Puducherry", "Punjab", "Rajasthan", "Sikkim",
-# "Tamil Nadu", "Telangana", "Tripura", "Uttar Pradesh", "Uttarakhand", "West Bengal") 
-
-# country <- "BR"
-# regions <- c( "Acre", "Alagoas", "Amapá", "Amazonas", "Bahia", "Ceará", "Distrito Federal", "Espírito Santo", "Goiás", "Maranhão",
-#   "Mato Grosso", "Mato Grosso do Sul", "Minas Gerais", "Pará", "Paraíba", "Paraná", "Pernambuco", "Piauí", "Rio de Janeiro", "Rio Grande do Norte",
-#   "Rio Grande do Sul", "Rondônia", "Roraima", "Santa Catarina", "São Paulo", "Sergipe", "Tocantins")
-# dir.create(paste0(plots_path, country, "/"), showWarnings = F)
-# for (r in regions) {
-#   plot_region(country, region = r)
-# }
-# 
-# country <- "NG"
-# regions <- c("Abia",  "Adamawa",  "Akwa Ibom",  "Anambra",  "Bauchi",  "Bayelsa",  "Benue",  "Borno",
-#   "Cross River",  "Delta",  "Ebonyi",  "Edo",  "Ekiti",  "Enugu",  "Federal Capital Territory",  "Gombe",
-#   "Imo",  "Jigawa",  "Kaduna",  "Kano",  "Katsina",  "Kebbi",  "Kogi",  "Kwara",  "Lagos",  "Nassarawa",
-#   "Niger",  "Ogun",  "Ondo",  "Osun",  "Oyo",  "Plateau",  "Rivers",  "Sokoto",  "Taraba",  "Yobe", "Zamfara")
-# dir.create(paste0(plots_path, country, "/"), showWarnings = F)
-# for (r in regions) {
-#   plot_region(country, region = r)
-# }
-# 
-# country <- "EC"
-# regions <- c(  "Azuay",  "Bolivar",  "Cañar",  "Carchi",  "Chimborazo",  "Cotopaxi",  "El Oro",
-#   "Esmeraldas",  "Galápagos",  "Guayas",  "Imbabura",  "Loja",  "Los Rios",  "Manabi",  "Morona Santiago",
-#   "Napo",  "Orellana",  "Pastaza",  "Pichincha",  "Santa Elena",  "Santo Domingo de los Tsachilas",
-#   "Sucumbios",  "Tungurahua",  "Zamora Chinchipe"  )
-# dir.create(paste0(plots_path, country, "/"), showWarnings = F)
-# for (r in regions) {
-#   plot_region(country, region = r)
-# }
-# 
-# country <- "ES"
-# regions <- c("Andalucía", "Aragón", "Cantabria", "Castilla y León", "Castilla-La Mancha", "Cataluña",
-# "Ceuta y Melilla", "Comunidad Foral de Navarra", "Comunidad Valenciana", "Comunidad de Madrid", "Extremadura",
-# "Galicia", "Islas Baleares", "Islas Canarias", "La Rioja", "País Vasco", "Principado de Asturias", "Región de Murcia")
-# dir.create(paste0(plots_path, country, "/"), showWarnings = F)
-# for (r in regions) {
-#   plot_region(country, region = r)
-# }
