@@ -115,7 +115,7 @@ plot_region <- function(df_umd, country = "IN", region = "Rajasthan")
     theme(legend.position = "bottom")
   #p1
   ggsave(plot = p1, 
-         filename =  paste0(plots_path, country, "/", country, "-", region_us, "-14days.jpg"), 
+         filename =  paste0(plots_path, country, "/", country, "-", region_us, ".jpg"), 
          width = 9, height = 6)
   
   # p2 <- ggplot(data = df_umd, aes(x = date, color = ""))  +
