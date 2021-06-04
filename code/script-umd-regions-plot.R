@@ -4,7 +4,7 @@ library(dplyr)
 # smoothed p_cases and CI:
 # source("smooth_column-v2.R")
 
-estimates_umd_path <- "../data/estimates-symptom-survey/experimental/aggregates2021/region/"
+estimates_umd_path <- "../data/estimates-symptom-survey/region/"
 plots_path <- "../data/estimates-symptom-survey/plots/"
 
 smooth_param <- 15
@@ -24,52 +24,28 @@ plot_region <- function(df_umd, country = "IN", region = "Rajasthan")
 {
   region_us <- gsub(" ", "_", region)
   
-  # # # Read UMD data
-  # # df_umd <- read.csv(paste0(estimates_umd_path, country, "-estimate.csv"))
-  # # df_umd <- df_umd[df_umd$region == region,]
-  # # 
-  # # df_umd$date <- as.Date(df_umd$date)
-  # 
-  cat("Smoothing p_cli\n")
-  fit <- with(df_umd, 
-              ksmooth(date, p_cli, kernel = "normal", bandwidth = smooth_param, x.points=date))
-  df_umd$p_cli_smooth <- fit$y
-  fit <- with(df_umd, 
-              ksmooth(date, p_cli_CI, kernel = "normal", bandwidth = smooth_param, x.points=date))
-  df_umd$p_cli_CI_smooth <- fit$y
-  cat("Smoothing p_cliWHO\n")
-  fit <- with(df_umd, 
-              ksmooth(date, p_cliWHO, kernel = "normal", bandwidth = smooth_param, x.points=date))
-  df_umd$p_cliWHO_smooth <- fit$y
-  fit <- with(df_umd, 
-              ksmooth(date, p_cliWHO_CI, kernel = "normal", bandwidth = smooth_param, x.points=date))
-  df_umd$p_cliWHO_CI_smooth <- fit$y
-  cat("Smoothing p_cli_local\n")
-  fit <- with(df_umd, 
-              ksmooth(date, p_cli_local, kernel = "normal", bandwidth = smooth_param, x.points=date))
-  df_umd$p_cli_local_smooth <- fit$y
-  fit <- with(df_umd, 
-              ksmooth(date, p_cli_local_CI, kernel = "normal", bandwidth = smooth_param, x.points=date))
-  df_umd$p_cli_local_CI_smooth <- fit$y
-  # # df_umd <- smooth_column(df_in = df_umd,
-  # #                         col_s = "p_cli",
-  # #                         basis_dim = smooth_param,
-  # #                         link_in = "log")
-  # # 
-  # # # cat("Smoothing p_cli_local\n")
-  # # df_umd <- smooth_column(df_in = df_umd,
-  # #                         col_s = "p_cli_local",
-  # #                         basis_dim = smooth_param,
-  # #                         link_in = "log")
-  # # 
-  # # # cat("Smoothing p_anosmia\n")
-  # # df_umd <- smooth_column(df_in = df_umd,
-  # #                         col_s = "p_anosmia",
-  # #                         basis_dim = smooth_param,
-  # #                         link_in = "log")
-  # 
-  # df_umd <- df_umd[df_umd$date >= ymd(start_date),]
-  
+  # cat("Smoothing p_cli\n")
+  # fit <- with(df_umd, 
+  #             ksmooth(date, p_cli, kernel = "normal", bandwidth = smooth_param, x.points=date))
+  # df_umd$p_cli_smooth <- fit$y
+  # fit <- with(df_umd, 
+  #             ksmooth(date, p_cli_CI, kernel = "normal", bandwidth = smooth_param, x.points=date))
+  # df_umd$p_cli_CI_smooth <- fit$y
+  # cat("Smoothing p_cliWHO\n")
+  # fit <- with(df_umd, 
+  #             ksmooth(date, p_cliWHO, kernel = "normal", bandwidth = smooth_param, x.points=date))
+  # df_umd$p_cliWHO_smooth <- fit$y
+  # fit <- with(df_umd, 
+  #             ksmooth(date, p_cliWHO_CI, kernel = "normal", bandwidth = smooth_param, x.points=date))
+  # df_umd$p_cliWHO_CI_smooth <- fit$y
+  # cat("Smoothing p_cli_local\n")
+  # fit <- with(df_umd, 
+  #             ksmooth(date, p_cli_local, kernel = "normal", bandwidth = smooth_param, x.points=date))
+  # df_umd$p_cli_local_smooth <- fit$y
+  # fit <- with(df_umd, 
+  #             ksmooth(date, p_cli_local_CI, kernel = "normal", bandwidth = smooth_param, x.points=date))
+  # df_umd$p_cli_local_CI_smooth <- fit$y
+
   # colors <- c("Nuevos casos" = "red", "recent_c" = "red", "sick_c" = "blue", "Sintomáticos" = "blue")
   p1 <- ggplot(data = df_umd, aes(x = date, color = ""))  +
     # geom_point(aes(y = p_cli*100000, color = "UMD CLI"), alpha = 0.5, size = 2) +
