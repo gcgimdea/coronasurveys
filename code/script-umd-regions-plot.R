@@ -139,7 +139,7 @@ plot_region <- function(df_umd, country = "IN", region = "Rajasthan")
 
 #----------
 
-countries <- c("BR", "EC", "ES", "IN", "NG")
+countries <- c("BR", "EC", "ES", "IN", "NG", "PE")
 
 for (country in countries) {
   cat(country, "\n")
