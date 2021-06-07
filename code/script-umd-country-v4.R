@@ -34,7 +34,8 @@ get_slope7 <- function(x) {
 }
 
 process_country <- function(file) {
-  cat(file, " ")
+  iso2 <- substr(file, 1, 2)
+  cat(iso2, " ")
   f2020 <- paste0(responses_path2020, file)
   f2021 <- paste0(responses_path2021, file)
   
@@ -81,7 +82,9 @@ process_country <- function(file) {
   DT <- DT[, p_cliWHO_weight_smooth_slope := rollapply(DT[,p_cliWHO_weight_smooth],7,get_slope7,fill=NA,align="right")]
   DT <- DT[, p_cli_local_smooth_slope := rollapply(DT[,p_cli_local_smooth],7,get_slope7,fill=NA,align="right")]
   
-  fwrite(DT, paste0(estimates_path, file))
+
+  filename <- paste0(estimates_path, iso2, "-estimate.csv")
+  fwrite(DT, filename)
 }
  
 kk <- lapply(files, process_country)
