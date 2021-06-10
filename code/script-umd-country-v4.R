@@ -6,8 +6,8 @@ library(zoo)
 library(data.table)
 library(tidyverse)
 
-responses_path2020 <- "../data/estimates-symptom-survey/experimental/aggregates2020/country/"
-responses_path2021 <- "../data/estimates-symptom-survey/experimental/aggregates2021/country/"
+responses_path2020 <- "/gauss_data/coronasurveys/UMD-2020/aggregates/country/"
+responses_path2021 <- "/gauss_data/coronasurveys/UMD-2021/aggregates/country/"
 # data_path <- "https://raw.githubusercontent.com/GCGImdea/coronasurveys/master/data/common-data/unified-country-list.csv"
 estimates_path <- "../data/estimates-symptom-survey/PlotData/"
 
