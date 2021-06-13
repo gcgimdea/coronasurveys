@@ -242,16 +242,6 @@ dt <- read.csv(file_path, as.is = T)
 cat("Received ", nrow(dt), " responses\n\n")
 names(dt) <- tolower(names(dt))
 
-#change region name to province name for single-province regions
-#dt <- change_region_province(dt)
-# dt$iso.3166.2[dt$iso.3166.2=="ESAS"] <- "ESO"
-# dt$iso.3166.2[dt$iso.3166.2=="ESCB"] <- "ESS"
-# dt$iso.3166.2[dt$iso.3166.2=="ESIB"] <- "ESPM"
-# dt$iso.3166.2[dt$iso.3166.2=="ESMC"] <- "ESMU"
-# dt$iso.3166.2[dt$iso.3166.2=="ESMD"] <- "ESM"
-# dt$iso.3166.2[dt$iso.3166.2=="ESNC"] <- "ESNA"
-# dt$iso.3166.2[dt$iso.3166.2=="ESRI"] <- "ESLO"
-
 #change province name to region name for single-province regions
 #dt <- change_region_province(dt)
 dt$iso.3166.2[dt$iso.3166.2=="ESO"] <-  "ESAS"
