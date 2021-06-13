@@ -4,7 +4,7 @@ library(dplyr)
 library("xtable")
 
 responses_path <- "../data/aggregate/"
-data_path <- "../data/common-data/regions-tree-population.csv"
+data_path <- "../data/common-data/provinces-tree-population.csv"
 estimates_path <- "../data/estimates-provinces/"
 
 # responses_path <- "../coronasurveys/data/aggregate/"
