@@ -1,27 +1,15 @@
 
 #!/usr/bin/env Rscript
-## Libraries
+
+
 library(optparse)
-library(dplyr)
-library(stringr)
-library(zoo) # to use rollmean
-library(foreign)
-library(MASS)
-library(ggplot2)
-library(grid) # annotate a ggplot
-library(Metrics)
-library(mpath) # lasso/elastic-net
-library(caret)
-library(gsubfn)  
-
-
 
 option_list = list(
   make_option(c("-f", "--firstCutoff"), type="character", default="2020-11-21", 
               help="first cutoff date in yyyy-mm-dd format [default= %default]", metavar="yyyy-mm-dd"),
   make_option(c("-l", "--lastCutoff"), type="character", default="2020-12-21", 
               help="first cutoff date in yyyy-mm-dd format [default= %default]", metavar="yyyy-mm-dd"),
-  make_option(c("-c", "--cutoffinterval"), type="integer", default="1", 
+  make_option(c("-c", "--cutoffInterval"), type="integer", default="1", 
               help="cutoff interval [default= %default]", metavar="<int>"),
   make_option(c("-p", "--penalty"), type="logical", default="false", 
               help="first cutoff date in yyyy-mm-dd format [default= %default]", metavar="T/F"),
@@ -38,61 +26,73 @@ option_list = list(
   make_option(c("--basisDim"), type="integer", default="15", 
               help="basis_dim for smoothing [default= %default]", metavar="<int>"),
   make_option(c("-m","--minLag"), type="integer", default="25", 
-              help="basis_dim for smoothing [default= %default]", metavar="<int>"),
+              help="minimum lag [default= %default]", metavar="<int>"),
   make_option(c("-M","--maxLag"), type="integer", default="60", 
-              help="basis_dim for smoothing [default= %default]", metavar="<int>"),
+              help="maximum lag [default= %default]", metavar="<int>"),
   make_option(c("--cutoffAsFunctionOfLag"), type="logical", default=T, 
               help="cutoffAsFunctionOfLag [default= %default]", metavar="T/F"),
-  make_option(c("-f", "--signalToMatch"), type="character", default="cases", 
-              help="signal_to_match  [default= %default]", metavar="yyyy-mm-dd"),
+  make_option(c("--signalToMatch"), type="character", default="cases", 
+              help="signal_to_match  [default= %default]", metavar="<string>"),
   make_option(c("--sigToTry"), type="character", default="umdapi_data-cmu_data", 
-              help="signals_to_try_string [default= %default]", metavar="yyyy-mm-dd")
-  
-
-    
-  
- 
-  
-
-   
-  
-
-  
- # remove_correlated = T # prior removal of highly correlated predictors
-  #cutoff_remove_correlated = 0.9 # cutoff for remove_correlated  
+              help="signals_to_try_string [default= %default]", metavar="<string>"),
+  make_option(c("--countriesToDo"), type="character", default="FR ES", 
+              help="countriesToDo [default= %default]", metavar="<string>"),
+  make_option(c("--doFarFuture"), type="logical", default=T, 
+              help="doFarFuture [default= %default]", metavar="T/F"),
+  make_option(c("--doNearFuture"), type="logical", default=T, 
+              help="doNearFuture [default= %default]", metavar="T/F"),
+  make_option(c("--limitTestToKnownDates"), type="logical", default=F, 
+              help="limitTestToKnownDates [default= %default]", metavar="T/F"),
+  make_option(c("--plotCorrel"), type="logical", default=F, 
+              help="plotCorrel [default= %default]", metavar="T/F"),
+  make_option(c("--plotForecast"), type="logical", default=F, 
+              help="plotForecast [default= %default]", metavar="T/F")
   
 ); 
 
 opt_parser = OptionParser(option_list=option_list);
 opt = parse_args(opt_parser);
 
+## Libraries
+library(dplyr)
+library(stringr)
+library(zoo) # to use rollmean
+library(foreign)
+library(MASS)
+library(ggplot2)
+library(grid) # annotate a ggplot
+library(Metrics)
+library(mpath) # lasso/elastic-net
+library(caret)
+library(gsubfn)  
 
-firstCutoff <- as.Date("2020-11-21")
-lastCutoff <- as.Date("2020-12-21")
-cutoffinterval <- 1
 
-use_penalty = F # T: use penalized regression (elastic-net)
-alpha_in = 0.5 # tradeoff between Ridge and Lasso regression
-remove_correlated = T # prior removal of highly correlated predictors
-cutoff_remove_correlated = 0.9 # cutoff for remove_correlated
+firstCutoff <- as.Date(opt$firstCutoff)
+lastCutoff <- as.Date(opt$lastCutoff)
+cutoffinterval <- opt$cutoffInterval
+
+use_penalty = opt$penalty # T: use penalized regression (elastic-net)
+alpha_in = opt$alphain # tradeoff between Ridge and Lasso regression
+remove_correlated = opt$removeCorrelated # prior removal of highly correlated predictors
+cutoff_remove_correlated = opt$cutoffRmCorrelated # cutoff for remove_correlated
 basis_dim_in=NA
-perform_smoothing = F# T # prior smoothing of predictors (using smooth_column-v2.R)
-limit_range=T
+perform_smoothing = opt$performSmoothing# T # prior smoothing of predictors (using smooth_column-v2.R)
+limit_range=opt$limitRange
 if (perform_smoothing) {
   source("smooth_column-v2.R")
-  basis_dim_in = 15
+  basis_dim_in = opt$basisDim
 }
 
-doFarFuture=TRUE
-doNearFar=TRUE
-limitTestToKnownDates=FALSE
+doFarFuture=opt$doFarFuture #TRUE
+doNearFar=opt$doNearFuture #TRUE
+limitTestToKnownDates=opt$limitTestToKnownDates # FALSE
 
-milag=25
-mxlag=60
-plotCorrel=TRUE
-plotForecast=TRUE
+milag=opt$minLag
+mxlag=opt$maxLag
+plotCorrel=opt$plotCorrel
+plotForecast=opt$plotForecast
 
-cutoffAsFunctionOfLag=TRUE
+cutoffAsFunctionOfLag=opt$cutoffAsFunctionOfLag
 if (cutoffAsFunctionOfLag){
   firstCutoff <- lastCutoff - milag - 10 
 }
