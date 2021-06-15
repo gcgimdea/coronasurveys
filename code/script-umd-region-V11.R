@@ -7,7 +7,7 @@ library(data.table)
 library(tidyverse)
 
 responses_path2020 <- "/gauss_data/coronasurveys/UMD-2020/aggregates/region/"
-responses_path2021 <- "/gauss_data/coronasurveys/UMD-2021/aggregates-v11/region/"
+responses_path2021 <- "/gauss_data/coronasurveys/UMD-2021-v11/aggregates/region/"
 # data_path <- "https://raw.githubusercontent.com/GCGImdea/coronasurveys/master/data/common-data/unified-country-list.csv"
 estimates_path <- "../data/estimates-symptom-survey/region-v11/"
 
