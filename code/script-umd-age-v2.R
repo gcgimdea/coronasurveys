@@ -15,7 +15,7 @@ files2020 <- list.files(path=responses_path2020, pattern="*.csv", full.names=FAL
 files2021 <- list.files(path=responses_path2021, pattern="*.csv", full.names=FALSE, recursive=FALSE)
 files <- unique(c(files2020, files2021))
 
-cols_to_use <- c("ISO2",	"ISO_3",	"country_agg",	"age", "date",	"first_date",	"count",	
+cols_to_use <- c("ISO2",	"ISO_3",	"country_agg",	"age", "date",	"first_date",	"count", "day_count",
                  "p_cli",	"p_cli_CI",	"p_cli_weight",	"p_cli_weight_CI",	
                  "p_cliWHO",	"p_cliWHO_CI",	"p_cliWHO_weight",	"p_cliWHO_weight_CI",	
                  "p_cli_local",	"p_cli_local_CI")

@@ -7,9 +7,9 @@ library(data.table)
 library(tidyverse)
 
 responses_path2020 <- "/gauss_data/coronasurveys/UMD-2020/aggregates/country/"
-responses_path2021 <- "/gauss_data/coronasurveys/UMD-2021/aggregates/country/"
+responses_path2021 <- "/gauss_data/coronasurveys/UMD-2021-v11/aggregates/country/"
 # data_path <- "https://raw.githubusercontent.com/GCGImdea/coronasurveys/master/data/common-data/unified-country-list.csv"
-estimates_path <- "../data/estimates-symptom-survey/PlotData/"
+estimates_path <- "../data/estimates-symptom-survey/PlotData-v11/"
 
 files2020 <- list.files(path=responses_path2020, pattern="*.csv", full.names=FALSE, recursive=FALSE)
 files2021 <- list.files(path=responses_path2021, pattern="*.csv", full.names=FALSE, recursive=FALSE)

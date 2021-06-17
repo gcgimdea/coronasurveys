@@ -7,15 +7,15 @@ library(data.table)
 library(tidyverse)
 
 responses_path2020 <- "/gauss_data/coronasurveys/UMD-2020/aggregates/region/"
-responses_path2021 <- "/gauss_data/coronasurveys/UMD-2021/aggregates/region/"
+responses_path2021 <- "/gauss_data/coronasurveys/UMD-2021-v11/aggregates/region/"
 # data_path <- "https://raw.githubusercontent.com/GCGImdea/coronasurveys/master/data/common-data/unified-country-list.csv"
-estimates_path <- "../data/estimates-symptom-survey/region/"
+estimates_path <- "../data/estimates-symptom-survey/region-v11/"
 
 files2020 <- list.files(path=responses_path2020, pattern="*.csv", full.names=FALSE, recursive=FALSE)
 files2021 <- list.files(path=responses_path2021, pattern="*.csv", full.names=FALSE, recursive=FALSE)
 files <- unique(c(files2020, files2021))
 
-cols_to_use <- c("ISO2",	"ISO_3",	"country_agg",	"region_agg", "date",	"first_date",	"count", "day_count",
+cols_to_use <- c("ISO2",	"ISO_3",	"country_agg",	"region_agg", "date",	"first_date",	"count", "day_count",	
                  "p_cli",	"p_cli_CI",	"p_cli_weight",	"p_cli_weight_CI",	
                  "p_cliWHO",	"p_cliWHO_CI",	"p_cliWHO_weight",	"p_cliWHO_weight_CI",	
                  "p_cli_local",	"p_cli_local_CI")
