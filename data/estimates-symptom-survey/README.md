@@ -1,7 +1,8 @@
-The data in these folders is derived from the non-aggregated COVID-19 World Symptoms Survey Microdata https://covidmap.umd.edu/fbsurvey/
+The data in these folders is derived from the non-aggregated COVID-19 World Symptoms Survey Microdata https://covidmap.umd.edu/fbsurvey/. 
 
-- experimental/aggregates* contains aggregated data obtained directly from the microdata. See readme file there.
-- The rest of folders contain processed data derived from the former
+*All values aggregate at least 100 responses* 
+
+*WARNING: If on a day there are less than 100, additional responses will be used from previous days. Column first_date indicates the date of teh oldest response used.*
 
 These are the folder description:
 - The *PlotData* folder has estimates at the country level.
@@ -23,7 +24,6 @@ Each row of the tables contains (some may not be available):
 - ISO_3
 - date
 - first_date: date of the oldest response aggregated.
-	count	p_cli	p_cli_CI	p_cli_weight	p_cli_weight_CI	p_cliWHO	p_cliWHO_CI	p_cliWHO_weight	p_cliWHO_weight_CI	p_cli_local	p_cli_local_CI	p_cli_smooth	p_cli_CI_smooth	p_cli_weight_smooth	p_cli_weight_CI_smooth	p_cliWHO_smooth	p_cliWHO_CI_smooth	p_cliWHO_weight_smooth	p_cliWHO_weight_CI_smooth	p_cli_local_smooth	p_cli_local_CI_smooth	p_cli_smooth_slope	p_cli_weight_smooth_slope	p_cliWHO_smooth_slope	p_cliWHO_weight_smooth_slope	p_cli_local_smooth_slope
 - country_agg
 - region_agg
 - population
