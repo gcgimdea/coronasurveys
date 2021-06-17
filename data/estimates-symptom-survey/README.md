@@ -1,8 +1,8 @@
 The data in these folders is derived from the non-aggregated COVID-19 World Symptoms Survey Microdata https://covidmap.umd.edu/fbsurvey/. 
 
-*All values aggregate at least 100 responses* 
+**All values aggregate at least 100 responses**
 
-*WARNING: If on a day there are less than 100, additional responses will be used from previous days. Column first_date indicates the date of teh oldest response used.*
+**WARNING: If on a day there are less than 100, additional responses will be used from previous days. Column first_date indicates the date of the oldest response used.**
 
 These are the folder description:
 - The *PlotData* folder has estimates at the country level.
