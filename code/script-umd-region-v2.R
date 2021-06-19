@@ -15,12 +15,15 @@ files2020 <- list.files(path=responses_path2020, pattern="*.csv", full.names=FAL
 files2021 <- list.files(path=responses_path2021, pattern="*.csv", full.names=FALSE, recursive=FALSE)
 files <- unique(c(files2020, files2021))
 
-cols_to_use <- c("ISO2",	"ISO_3",	"country_agg",	"region_agg", "date",	"first_date",	"count", "day_count", "days_aggregated",
+cols_to_use <- c("ISO2",	"ISO_3",	"country_agg",	"region_agg", "date", "first_date", "count", "day_count", "days_aggregated",
                  "p_cli",	"p_cli_CI",	"p_cli_weight",	"p_cli_weight_CI",	
                  "p_cliWHO",	"p_cliWHO_CI",	"p_cliWHO_weight",	"p_cliWHO_weight_CI",	
                  "p_cli_local",	"p_cli_local_CI")
 
 character_cols <- c("ISO2",	"ISO_3",	"country_agg",	"region_agg")
+date_cols <- c("date", "first_date")
+numeric_cols <- c("count", "day_count", "days_aggregated", "p_cli",	"p_cli_CI",	"p_cli_weight",	"p_cli_weight_CI",	
+                  "p_cliWHO",	"p_cliWHO_CI",	"p_cliWHO_weight",	"p_cliWHO_weight_CI",	"p_cli_local",	"p_cli_local_CI")
 
 smooth_param <- 15
 
@@ -47,7 +50,13 @@ process_country <- function(file) {
     for (c in character_cols) {
       df[[c]] <- as.character(df[[c]])
     }
-    df$date <- as.Date(df$date)
+    for (c in date_cols) {
+      df[[c]] <- as.Date(df[[c]])
+    }
+    for (c in numeric_cols) {
+      df[[c]] <- as.numeric(df[[c]])
+    }
+    # df$date <- as.Date(df$date)
     df <- df[which((df$date >= as.Date("2020-01-01")) & (df$date <= as.Date("2020-12-31"))),]
     # cat("2020:", dim(df), "\n")
   }
@@ -58,7 +67,13 @@ process_country <- function(file) {
     for (c in character_cols) {
       df2[[c]] <- as.character(df2[[c]])
     }
-    df2$date <- as.Date(df2$date)
+    for (c in date_cols) {
+      df2[[c]] <- as.Date(df2[[c]])
+    }
+    for (c in numeric_cols) {
+      df2[[c]] <- as.numeric(df2[[c]])
+    }
+    # df2$date <- as.Date(df2$date)
     df2 <- df2[which((df2$date >= as.Date("2021-01-01")) & (df2$date <= as.Date("2021-12-31"))),]
     df <- dplyr::bind_rows(df, df2)
     # cat("2021:", dim(df), "\n")

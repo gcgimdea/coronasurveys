@@ -20,6 +20,12 @@ cols_to_use <- c("ISO2",	"ISO_3",	"country_agg",	"date",	"first_date",	"count", 
                  "p_cliWHO",	"p_cliWHO_CI",	"p_cliWHO_weight",	"p_cliWHO_weight_CI",	
                  "p_cli_local",	"p_cli_local_CI")
 
+character_cols <- c("ISO2",	"ISO_3",	"country_agg")
+date_cols <- c("date", "first_date")
+numeric_cols <- c("count", "day_count", "days_aggregated", "p_cli",	"p_cli_CI",	"p_cli_weight",	"p_cli_weight_CI",	
+                  "p_cliWHO",	"p_cliWHO_CI",	"p_cliWHO_weight",	"p_cliWHO_weight_CI",	"p_cli_local",	"p_cli_local_CI")
+
+
 smooth_param <- 15
 
 
@@ -42,6 +48,7 @@ process_country <- function(file) {
   if (file.exists(f2020)) {
     DT2020 <- fread(f2020)
     DT2020 <- DT2020[,date:=as.Date(date)]
+    DT2020 <- DT2020[,first_date:=as.Date(first_date)]
     DT2020 <- DT2020[date >= "2020-01-01" & date <= "2020-12-31", ..cols_to_use]
   } else {
     DT2020 <- data.table() 
@@ -49,6 +56,7 @@ process_country <- function(file) {
   if (file.exists(f2021)) {
     DT2021 <- fread(f2021)
     DT2021 <- DT2021[,date:=as.Date(date)]
+    DT2021 <- DT2021[,first_date:=as.Date(first_date)]
     DT2021 <- DT2021[date >= "2021-01-01" & date <= "2021-12-31", ..cols_to_use]
   } else {
     DT2021 <- data.table() 
