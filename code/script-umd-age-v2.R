@@ -20,6 +20,8 @@ cols_to_use <- c("ISO2",	"ISO_3",	"country_agg",	"age", "date",	"first_date",	"c
                  "p_cliWHO",	"p_cliWHO_CI",	"p_cliWHO_weight",	"p_cliWHO_weight_CI",	
                  "p_cli_local",	"p_cli_local_CI")
 
+character_cols <- c("ISO2",	"ISO_3",	"country_agg",	"age")
+
 smooth_param <- 15
 
 
@@ -42,6 +44,9 @@ process_country <- function(file) {
     df <- fread(f2020, data.table = F)
     df <- df %>% 
       dplyr::select(all_of(cols_to_use))
+    for (c in character_cols) {
+      df[[c]] <- as.character(df[[c]])
+    }
     df$date <- as.Date(df$date)
     df <- df[which((df$date >= as.Date("2020-01-01")) & (df$date <= as.Date("2020-12-31"))),]
     # cat("2020:", dim(df), "\n")
@@ -50,6 +55,9 @@ process_country <- function(file) {
     df2 <- fread(f2021, data.table = F)
     df2 <- df2 %>% 
       dplyr::select(all_of(cols_to_use))
+    for (c in character_cols) {
+      df2[[c]] <- as.character(df2[[c]])
+    }
     df2$date <- as.Date(df2$date)
     df2 <- df2[which((df2$date >= as.Date("2021-01-01")) & (df2$date <= as.Date("2021-12-31"))),]
     df <- dplyr::bind_rows(df, df2)

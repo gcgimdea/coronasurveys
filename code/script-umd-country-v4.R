@@ -41,19 +41,21 @@ process_country <- function(file) {
   
   if (file.exists(f2020)) {
     DT2020 <- fread(f2020)
+    DT2020 <- DT2020[,date:=as.Date(date)]
     DT2020 <- DT2020[date >= "2020-01-01" & date <= "2020-12-31", ..cols_to_use]
   } else {
     DT2020 <- data.table() 
   }
   if (file.exists(f2021)) {
     DT2021 <- fread(f2021)
+    DT2021 <- DT2021[,date:=as.Date(date)]
     DT2021 <- DT2021[date >= "2021-01-01" & date <= "2021-12-31", ..cols_to_use]
   } else {
     DT2021 <- data.table() 
   }
   DT <- rbindlist(list(DT2020, DT2021), use.names=TRUE)
   
-  DT <- DT[,date:=as.Date(date)]
+  # DT <- DT[,date:=as.Date(date)]
   
   DT <- DT[, p_cli_smooth := 
              with(DT, ksmooth(date, p_cli, kernel = "normal", bandwidth = smooth_param, x.points=date))$y]
