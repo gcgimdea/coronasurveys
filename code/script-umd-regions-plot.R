@@ -4,7 +4,7 @@ library(dplyr)
 # smoothed p_cases and CI:
 # source("smooth_column-v2.R")
 
-estimates_umd_path <- "../data/estimates-symptom-survey/region-v11/"
+estimates_umd_path <- "../data/estimates-symptom-survey/region/"
 plots_path <- "../data/estimates-symptom-survey/plots/"
 
 smooth_param <- 15
