@@ -122,7 +122,9 @@ process_country <- function(file) {
     }
     # cat(dim(dfTotal), "\n")
   }
-  fwrite(dfTotal, paste0(estimates_path, file))
+  if (is.data.frame(dfTotal)) {
+    fwrite(dfTotal, paste0(estimates_path, file))
+  }
 }
 
 kk <- lapply(files, process_country)
