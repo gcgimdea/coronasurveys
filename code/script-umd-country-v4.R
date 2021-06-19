@@ -63,7 +63,7 @@ process_country <- function(file) {
   }
   DT <- rbindlist(list(DT2020, DT2021), use.names=TRUE)
   
-  # DT <- DT[,date:=as.Date(date)]
+  DT <- DT[order(date)]
   
   DT <- DT[, p_cli_smooth := 
              with(DT, ksmooth(date, p_cli, kernel = "normal", bandwidth = smooth_param, x.points=date))$y]

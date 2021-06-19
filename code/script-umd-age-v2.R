@@ -86,7 +86,7 @@ process_country <- function(file) {
   for (r in ages) {
     dfr <- df[which(df$age == r),]
     cat(r, " ")
-    
+    dfr <- dfr[order(dfr$date),]
     # cat("Smoothing...")
     dfr$p_cli_smooth <- 
       with(dfr, ksmooth(date, p_cli, kernel = "normal", bandwidth = smooth_param, x.points=date))$y
