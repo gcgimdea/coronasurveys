@@ -1,0 +1,361 @@
+horizon,rmse,chg.point.prior,period,fourier.order,prior.scale,signal,region
+168,0.0027568107045614497,0.99,365,10,5,p_cli_smooth,Karnataka
+168,0.00474532955882729,0.99,182.5,8,5,p_cli_CI_smooth,Karnataka
+168,0.0018124764379337027,0.99,365,10,5,p_cli_weight_smooth,Karnataka
+168,8.464702899784197e-6,0.99,365,10,5,p_cli_weight_CI_smooth,Karnataka
+168,0.0013908924825476704,0.99,182.5,8,5,p_cliWHO_smooth,Karnataka
+168,0.003640394138211384,0.99,182.5,8,5,p_cliWHO_CI_smooth,Karnataka
+168,0.0014842311633145233,0.99,30.5,5,5,p_cliWHO_weight_smooth,Karnataka
+168,5.006498714986138e-6,0.99,30.5,5,5,p_cliWHO_weight_CI_smooth,Karnataka
+168,3.3657379222216217e-4,0.99,7,3,5,p_cli_local_CI_smooth,Karnataka
+168,7.204041353286105e-4,0.99,7,3,5,p_cli_local_smooth,Karnataka
+168,0.0027183117840451384,0.99,7,3,5,p_cli_smooth,Maharashtra
+168,0.002551430317454613,0.99,30.5,5,5,p_cli_CI_smooth,Maharashtra
+168,0.0026196949285625924,0.99,7,3,5,p_cli_weight_smooth,Maharashtra
+168,4.102638206042252e-6,0.99,7,3,5,p_cli_weight_CI_smooth,Maharashtra
+168,0.001023516610375217,0.99,0,0,0,p_cliWHO_smooth,Maharashtra
+168,7.623510727718856e-4,0.99,30.5,5,5,p_cliWHO_CI_smooth,Maharashtra
+168,0.001066941147666784,0.99,15,4,5,p_cliWHO_weight_smooth,Maharashtra
+168,1.985612755507668e-6,0.99,30.5,5,5,p_cliWHO_weight_CI_smooth,Maharashtra
+168,1.826728766015633e-4,0.99,365,10,5,p_cli_local_CI_smooth,Maharashtra
+168,7.444146889651162e-4,0.99,182.5,8,5,p_cli_local_smooth,Maharashtra
+168,0.0036771727269801335,0.99,182.5,8,5,p_cli_smooth,NCT of Delhi
+168,0.0030560592362723106,0.99,30.5,5,5,p_cli_CI_smooth,NCT of Delhi
+168,0.0041985340412582905,0.99,182.5,8,5,p_cli_weight_smooth,NCT of Delhi
+168,7.774409659790152e-6,0.99,30.5,5,5,p_cli_weight_CI_smooth,NCT of Delhi
+168,0.0016458562367991248,0.99,182.5,8,5,p_cliWHO_smooth,NCT of Delhi
+168,0.0020728114646411215,0.99,365,10,5,p_cliWHO_CI_smooth,NCT of Delhi
+168,0.003586938532869927,0.99,182.5,8,5,p_cliWHO_weight_smooth,NCT of Delhi
+168,5.3508865139880745e-6,0.99,15,4,5,p_cliWHO_weight_CI_smooth,NCT of Delhi
+168,2.408695388575138e-4,0.99,365,10,5,p_cli_local_CI_smooth,NCT of Delhi
+168,0.0037173091283733157,0.99,365,10,5,p_cli_local_smooth,NCT of Delhi
+168,0.00279916708523837,0.99,365,10,5,p_cli_smooth,Uttar Pradesh
+168,0.0031178558316657806,0.99,7,3,5,p_cli_CI_smooth,Uttar Pradesh
+168,0.004908502565134035,0.99,365,10,5,p_cli_weight_smooth,Uttar Pradesh
+168,6.979800295177019e-6,0.99,182.5,8,5,p_cli_weight_CI_smooth,Uttar Pradesh
+168,0.002040137109085157,0.99,365,10,5,p_cliWHO_smooth,Uttar Pradesh
+168,0.00220342684145104,0.99,365,10,5,p_cliWHO_CI_smooth,Uttar Pradesh
+168,0.002539981430935301,0.99,365,10,5,p_cliWHO_weight_smooth,Uttar Pradesh
+168,5.334412201549762e-6,0.99,30.5,5,5,p_cliWHO_weight_CI_smooth,Uttar Pradesh
+168,5.516804704612852e-4,0.99,182.5,8,5,p_cli_local_CI_smooth,Uttar Pradesh
+168,0.003718119176964271,0.99,182.5,8,5,p_cli_local_smooth,Uttar Pradesh
+168,0.005127798287991491,0.99,182.5,8,5,p_cli_smooth,West Bengal
+168,0.004524171386675936,0.99,182.5,8,5,p_cli_CI_smooth,West Bengal
+168,0.007146237310759279,0.99,182.5,8,5,p_cli_weight_smooth,West Bengal
+168,1.2514119102781642e-5,0.99,30.5,5,5,p_cli_weight_CI_smooth,West Bengal
+168,0.004316985958361423,0.99,365,10,5,p_cliWHO_smooth,West Bengal
+168,0.004055023892343557,0.99,365,10,5,p_cliWHO_CI_smooth,West Bengal
+168,0.007413024619361939,0.99,182.5,8,5,p_cliWHO_weight_smooth,West Bengal
+168,1.1140602250482469e-5,0.99,7,3,5,p_cliWHO_weight_CI_smooth,West Bengal
+168,3.729551295366331e-4,0.99,30.5,5,5,p_cli_local_CI_smooth,West Bengal
+168,0.0033633491098833527,0.99,365,10,5,p_cli_local_smooth,West Bengal
+168,0.00473057314218023,0.99,182.5,8,5,p_cli_smooth,Andhra Pradesh
+168,0.003011958872134198,0.99,182.5,8,5,p_cli_CI_smooth,Andhra Pradesh
+168,0.0051478111943494415,0.99,182.5,8,5,p_cli_weight_smooth,Andhra Pradesh
+168,7.4688109042031356e-6,0.99,182.5,8,5,p_cli_weight_CI_smooth,Andhra Pradesh
+168,0.003977365279788709,0.99,182.5,8,5,p_cliWHO_smooth,Andhra Pradesh
+168,0.00326899213804438,0.99,182.5,8,5,p_cliWHO_CI_smooth,Andhra Pradesh
+168,0.0037246443649186843,0.99,365,10,5,p_cliWHO_weight_smooth,Andhra Pradesh
+168,9.520311933754262e-6,0.99,365,10,5,p_cliWHO_weight_CI_smooth,Andhra Pradesh
+168,3.7008133280235465e-4,0.99,7,3,5,p_cli_local_CI_smooth,Andhra Pradesh
+168,0.0013531014604420085,0.99,365,10,5,p_cli_local_smooth,Andhra Pradesh
+168,0.0027685776125935366,0.99,30.5,5,5,p_cli_smooth,Assam
+168,0.002504282142943401,0.99,30.5,5,5,p_cli_CI_smooth,Assam
+168,0.0029648243977392734,0.99,182.5,8,5,p_cli_weight_smooth,Assam
+168,4.022710898282522e-6,0.99,30.5,5,5,p_cli_weight_CI_smooth,Assam
+168,0.0022287244593066522,0.99,7,3,5,p_cliWHO_smooth,Assam
+168,0.002575205697846876,0.99,7,3,5,p_cliWHO_CI_smooth,Assam
+168,0.002851981771656731,0.99,30.5,5,5,p_cliWHO_weight_smooth,Assam
+168,4.298770462106801e-6,0.99,30.5,5,5,p_cliWHO_weight_CI_smooth,Assam
+168,3.967507818813998e-4,0.99,365,10,5,p_cli_local_CI_smooth,Assam
+168,0.0037294211590211193,0.99,365,10,5,p_cli_local_smooth,Assam
+168,0.003663279150111146,0.99,182.5,8,5,p_cli_smooth,Bihar
+168,0.0024492711715391833,0.99,182.5,8,5,p_cli_CI_smooth,Bihar
+168,0.002971382843240122,0.99,182.5,8,5,p_cli_weight_smooth,Bihar
+168,4.76430726051696e-6,0.99,182.5,8,5,p_cli_weight_CI_smooth,Bihar
+168,0.0031165295841965182,0.99,182.5,8,5,p_cliWHO_smooth,Bihar
+168,0.002997922212074735,0.99,182.5,8,5,p_cliWHO_CI_smooth,Bihar
+168,0.002827326227333439,0.99,182.5,8,5,p_cliWHO_weight_smooth,Bihar
+168,5.269815911248706e-6,0.99,182.5,8,5,p_cliWHO_weight_CI_smooth,Bihar
+168,4.953807963196802e-4,0.99,182.5,8,5,p_cli_local_CI_smooth,Bihar
+168,0.004764212296091923,0.99,365,10,5,p_cli_local_smooth,Bihar
+168,0.0030284388328249852,0.99,0,0,0,p_cli_smooth,Gujarat
+168,0.0031717751483652935,0.99,30.5,5,5,p_cli_CI_smooth,Gujarat
+168,0.004207125038143351,0.99,365,10,5,p_cli_weight_smooth,Gujarat
+168,3.2358021987308185e-6,0.99,0,0,0,p_cli_weight_CI_smooth,Gujarat
+168,0.0018561147277242115,0.99,365,10,5,p_cliWHO_smooth,Gujarat
+168,0.0015198953255030065,0.99,0,0,0,p_cliWHO_CI_smooth,Gujarat
+168,0.00225964985897399,0.99,7,3,5,p_cliWHO_weight_smooth,Gujarat
+168,4.5302617616374255e-6,0.99,0,0,0,p_cliWHO_weight_CI_smooth,Gujarat
+168,1.7581627247192873e-4,0.99,365,10,5,p_cli_local_CI_smooth,Gujarat
+168,0.002277290587106778,0.99,0,0,0,p_cli_local_smooth,Gujarat
+168,0.004599223540448948,0.99,182.5,8,5,p_cli_smooth,Haryana
+168,0.0036453346202919724,0.99,30.5,5,5,p_cli_CI_smooth,Haryana
+168,0.005361230560770438,0.99,365,10,5,p_cli_weight_smooth,Haryana
+168,1.4994760122274828e-5,0.99,365,10,5,p_cli_weight_CI_smooth,Haryana
+168,0.004724312661959235,0.99,365,10,5,p_cliWHO_smooth,Haryana
+168,0.004781419629676283,0.99,182.5,8,5,p_cliWHO_CI_smooth,Haryana
+168,0.0044968911244397,0.99,365,10,5,p_cliWHO_weight_smooth,Haryana
+168,1.784002182095581e-5,0.99,365,10,5,p_cliWHO_weight_CI_smooth,Haryana
+168,2.806103272733865e-4,0.99,7,3,5,p_cli_local_CI_smooth,Haryana
+168,0.0014805751246899685,0.99,365,10,5,p_cli_local_smooth,Haryana
+168,0.0048549283295120415,0.99,182.5,8,5,p_cli_smooth,Himachal Pradesh
+168,0.003768613901433163,0.99,30.5,5,5,p_cli_CI_smooth,Himachal Pradesh
+168,0.003562458184726567,0.99,182.5,8,5,p_cli_weight_smooth,Himachal Pradesh
+168,1.633414860748641e-5,0.99,182.5,8,5,p_cli_weight_CI_smooth,Himachal Pradesh
+168,0.0021619998051734695,0.99,182.5,8,5,p_cliWHO_smooth,Himachal Pradesh
+168,0.0030311867601194543,0.99,182.5,8,5,p_cliWHO_CI_smooth,Himachal Pradesh
+168,0.0019135629718325829,0.99,182.5,8,5,p_cliWHO_weight_smooth,Himachal Pradesh
+168,9.464706817625809e-6,0.99,182.5,8,5,p_cliWHO_weight_CI_smooth,Himachal Pradesh
+168,1.3373882130903012e-4,0.99,365,10,5,p_cli_local_CI_smooth,Himachal Pradesh
+168,0.001257227224948166,0.99,182.5,8,5,p_cli_local_smooth,Himachal Pradesh
+168,0.005215845527113087,0.99,30.5,5,5,p_cli_smooth,Jharkhand
+168,0.0015409496476922488,0.99,30.5,5,5,p_cli_CI_smooth,Jharkhand
+168,0.006276699162140061,0.99,0,0,0,p_cli_weight_smooth,Jharkhand
+168,6.942520596058586e-6,0.99,15,4,5,p_cli_weight_CI_smooth,Jharkhand
+168,0.003385477651346692,0.99,7,3,5,p_cliWHO_smooth,Jharkhand
+168,0.0029469141712266875,0.99,30.5,5,5,p_cliWHO_CI_smooth,Jharkhand
+168,0.003207762744717218,0.99,7,3,5,p_cliWHO_weight_smooth,Jharkhand
+168,7.654894383173118e-6,0.99,30.5,5,5,p_cliWHO_weight_CI_smooth,Jharkhand
+168,2.0807975321826674e-4,0.99,365,10,5,p_cli_local_CI_smooth,Jharkhand
+168,0.002194075266990294,0.99,365,10,5,p_cli_local_smooth,Jharkhand
+168,0.003249940817848517,0.99,182.5,8,5,p_cli_smooth,Kerala
+168,0.00222696242090169,0.99,365,10,5,p_cli_CI_smooth,Kerala
+168,0.003764265530291322,0.99,182.5,8,5,p_cli_weight_smooth,Kerala
+168,6.062875066409791e-6,0.99,365,10,5,p_cli_weight_CI_smooth,Kerala
+168,0.003580349080600458,0.99,182.5,8,5,p_cliWHO_smooth,Kerala
+168,0.002842802743417952,0.99,182.5,8,5,p_cliWHO_CI_smooth,Kerala
+168,0.0024778835162708474,0.99,182.5,8,5,p_cliWHO_weight_smooth,Kerala
+168,5.745658744679771e-6,0.99,365,10,5,p_cliWHO_weight_CI_smooth,Kerala
+168,3.90871458082732e-4,0.99,365,10,5,p_cli_local_CI_smooth,Kerala
+168,8.35239954483447e-4,0.99,365,10,5,p_cli_local_smooth,Kerala
+168,0.0054694387511484465,0.99,30.5,5,5,p_cli_smooth,Madhya Pradesh
+168,0.0032304206928066488,0.99,30.5,5,5,p_cli_CI_smooth,Madhya Pradesh
+168,0.006800011115623351,0.99,182.5,8,5,p_cli_weight_smooth,Madhya Pradesh
+168,7.1495461323461595e-6,0.99,182.5,8,5,p_cli_weight_CI_smooth,Madhya Pradesh
+168,0.0020538194931813644,0.99,182.5,8,5,p_cliWHO_smooth,Madhya Pradesh
+168,0.0018930491494966828,0.99,182.5,8,5,p_cliWHO_CI_smooth,Madhya Pradesh
+168,0.004416201238091238,0.99,182.5,8,5,p_cliWHO_weight_smooth,Madhya Pradesh
+168,5.226863258160139e-6,0.99,182.5,8,5,p_cliWHO_weight_CI_smooth,Madhya Pradesh
+168,1.302455592318944e-4,0.99,365,10,5,p_cli_local_CI_smooth,Madhya Pradesh
+168,0.001933734793014018,0.99,365,10,5,p_cli_local_smooth,Madhya Pradesh
+168,0.00903532200771195,0.99,182.5,8,5,p_cli_smooth,Odisha
+168,0.007406920574489437,0.99,30.5,5,5,p_cli_CI_smooth,Odisha
+168,0.006238044752670046,0.99,182.5,8,5,p_cli_weight_smooth,Odisha
+168,1.5689430753867527e-5,0.99,182.5,8,5,p_cli_weight_CI_smooth,Odisha
+168,0.009823594818622997,0.99,182.5,8,5,p_cliWHO_smooth,Odisha
+168,0.008342992114876142,0.99,182.5,8,5,p_cliWHO_CI_smooth,Odisha
+168,0.007885049385205413,0.99,182.5,8,5,p_cliWHO_weight_smooth,Odisha
+168,2.1171017599059316e-5,0.99,182.5,8,5,p_cliWHO_weight_CI_smooth,Odisha
+168,6.062632221940858e-4,0.99,30.5,5,5,p_cli_local_CI_smooth,Odisha
+168,0.005248455347683741,0.99,30.5,5,5,p_cli_local_smooth,Odisha
+168,0.005303783059091465,0.99,7,3,5,p_cli_smooth,Punjab
+168,0.004994193047793249,0.99,7,3,5,p_cli_CI_smooth,Punjab
+168,0.004598417772206208,0.99,30.5,5,5,p_cli_weight_smooth,Punjab
+168,9.904209368711382e-6,0.99,30.5,5,5,p_cli_weight_CI_smooth,Punjab
+168,0.001780293129400792,0.99,30.5,5,5,p_cliWHO_smooth,Punjab
+168,0.003256844356379343,0.99,30.5,5,5,p_cliWHO_CI_smooth,Punjab
+168,0.0023064691139123203,0.99,182.5,8,5,p_cliWHO_weight_smooth,Punjab
+168,2.1744103997469734e-6,0.99,30.5,5,5,p_cliWHO_weight_CI_smooth,Punjab
+168,3.8267964233607314e-4,0.99,182.5,8,5,p_cli_local_CI_smooth,Punjab
+168,0.0020629102578988,0.99,182.5,8,5,p_cli_local_smooth,Punjab
+168,0.0022232436020534463,0.99,365,10,5,p_cli_smooth,Rajasthan
+168,0.002429564433653409,0.99,7,3,5,p_cli_CI_smooth,Rajasthan
+168,0.005123483968188521,0.99,7,3,5,p_cli_weight_smooth,Rajasthan
+168,6.0781229046114514e-6,0.99,15,4,5,p_cli_weight_CI_smooth,Rajasthan
+168,0.0022429866951508277,0.99,365,10,5,p_cliWHO_smooth,Rajasthan
+168,0.0022230041105642095,0.99,0,0,0,p_cliWHO_CI_smooth,Rajasthan
+168,0.0038487318357017268,0.99,365,10,5,p_cliWHO_weight_smooth,Rajasthan
+168,6.7822812472671446e-6,0.99,7,3,5,p_cliWHO_weight_CI_smooth,Rajasthan
+168,4.1045956660202274e-4,0.99,7,3,5,p_cli_local_CI_smooth,Rajasthan
+168,0.0012405758844628442,0.99,182.5,8,5,p_cli_local_smooth,Rajasthan
+168,0.0072876091730740625,0.99,182.5,8,5,p_cli_smooth,Tamil Nadu
+168,0.006744521606228561,0.99,182.5,8,5,p_cli_CI_smooth,Tamil Nadu
+168,0.006401363019868441,0.99,182.5,8,5,p_cli_weight_smooth,Tamil Nadu
+168,1.830664724738487e-5,0.99,365,10,5,p_cli_weight_CI_smooth,Tamil Nadu
+168,0.00413657775091426,0.99,182.5,8,5,p_cliWHO_smooth,Tamil Nadu
+168,0.005451023508567528,0.99,182.5,8,5,p_cliWHO_CI_smooth,Tamil Nadu
+168,0.004038852647752564,0.99,365,10,5,p_cliWHO_weight_smooth,Tamil Nadu
+168,1.5646920840637803e-5,0.99,365,10,5,p_cliWHO_weight_CI_smooth,Tamil Nadu
+168,2.182249641862059e-4,0.99,0,0,0,p_cli_local_CI_smooth,Tamil Nadu
+168,0.0025354640741253377,0.99,182.5,8,5,p_cli_local_smooth,Tamil Nadu
+168,0.0023605132053421663,0.99,7,3,5,p_cli_smooth,Telangana
+168,0.004545291753143973,0.99,7,3,5,p_cli_CI_smooth,Telangana
+168,0.0017715124531840314,0.99,30.5,5,5,p_cli_weight_smooth,Telangana
+168,6.7170364631014305e-6,0.99,0,0,0,p_cli_weight_CI_smooth,Telangana
+168,0.0011636591704713946,0.99,182.5,8,5,p_cliWHO_smooth,Telangana
+168,0.002281097003812355,0.99,182.5,8,5,p_cliWHO_CI_smooth,Telangana
+168,0.0014767251352747067,0.99,182.5,8,5,p_cliWHO_weight_smooth,Telangana
+168,7.850386243764915e-6,0.99,182.5,8,5,p_cliWHO_weight_CI_smooth,Telangana
+168,2.4165685340367873e-4,0.99,0,0,0,p_cli_local_CI_smooth,Telangana
+168,0.0016956539235936955,0.99,182.5,8,5,p_cli_local_smooth,Telangana
+168,0.004459546108331879,0.99,0,0,0,p_cli_smooth,Uttarakhand
+168,0.0025829328212657213,0.99,7,3,5,p_cli_CI_smooth,Uttarakhand
+168,0.006711770208565072,0.99,182.5,8,5,p_cli_weight_smooth,Uttarakhand
+168,1.350102085481461e-5,0.99,15,4,5,p_cli_weight_CI_smooth,Uttarakhand
+168,0.0021749632754111464,0.99,7,3,5,p_cliWHO_smooth,Uttarakhand
+168,0.002293367946397196,0.99,7,3,5,p_cliWHO_CI_smooth,Uttarakhand
+168,0.004488257387405578,0.99,365,10,5,p_cliWHO_weight_smooth,Uttarakhand
+168,9.377710188747923e-6,0.99,0,0,0,p_cliWHO_weight_CI_smooth,Uttarakhand
+168,1.1170616797997912e-4,0.99,365,10,5,p_cli_local_CI_smooth,Uttarakhand
+168,0.002391857945617894,0.99,365,10,5,p_cli_local_smooth,Uttarakhand
+168,0.003049865216420126,0.99,7,3,5,p_cli_smooth,Chandigarh
+168,0.0021351078857836403,0.99,30.5,5,5,p_cli_CI_smooth,Chandigarh
+168,0.004347224285779919,0.99,182.5,8,5,p_cli_weight_smooth,Chandigarh
+168,9.741809824251148e-6,0.99,365,10,5,p_cli_weight_CI_smooth,Chandigarh
+168,0.0027108784219965864,0.99,30.5,5,5,p_cliWHO_smooth,Chandigarh
+168,0.0024206867986130507,0.99,30.5,5,5,p_cliWHO_CI_smooth,Chandigarh
+168,0.006407140108764701,0.99,182.5,8,5,p_cliWHO_weight_smooth,Chandigarh
+168,2.3492448622530876e-5,0.99,182.5,8,5,p_cliWHO_weight_CI_smooth,Chandigarh
+168,1.5956531203905027e-4,0.99,182.5,8,5,p_cli_local_CI_smooth,Chandigarh
+168,0.0014803259932598288,0.99,182.5,8,5,p_cli_local_smooth,Chandigarh
+168,0.0017032288506413152,0.99,182.5,8,5,p_cli_smooth,Chhattisgarh
+168,0.002057753944106632,0.99,182.5,8,5,p_cli_CI_smooth,Chhattisgarh
+168,0.0034821508513887306,0.99,182.5,8,5,p_cli_weight_smooth,Chhattisgarh
+168,7.4358038388492824e-6,0.99,182.5,8,5,p_cli_weight_CI_smooth,Chhattisgarh
+168,0.003248087043210207,0.99,30.5,5,5,p_cliWHO_smooth,Chhattisgarh
+168,0.005296314823291506,0.99,30.5,5,5,p_cliWHO_CI_smooth,Chhattisgarh
+168,0.0030996366947700564,0.99,182.5,8,5,p_cliWHO_weight_smooth,Chhattisgarh
+168,1.0039068301965978e-5,0.99,182.5,8,5,p_cliWHO_weight_CI_smooth,Chhattisgarh
+168,2.301883296037085e-4,0.99,182.5,8,5,p_cli_local_CI_smooth,Chhattisgarh
+168,0.001999557910938529,0.99,182.5,8,5,p_cli_local_smooth,Chhattisgarh
+168,0.0037056299330214286,0.99,182.5,8,5,p_cli_smooth,Goa
+168,0.004234088802536563,0.99,182.5,8,5,p_cli_CI_smooth,Goa
+168,0.005704233979588703,0.99,7,3,5,p_cli_weight_smooth,Goa
+168,2.557400107418082e-5,0.99,0,0,0,p_cli_weight_CI_smooth,Goa
+168,0.0015519504538974377,0.99,30.5,5,5,p_cliWHO_smooth,Goa
+168,0.0022275437303531415,0.99,365,10,5,p_cliWHO_CI_smooth,Goa
+168,0.0017657625904852249,0.99,30.5,5,5,p_cliWHO_weight_smooth,Goa
+168,1.0983649001526806e-5,0.99,182.5,8,5,p_cliWHO_weight_CI_smooth,Goa
+168,2.855482430366228e-4,0.99,30.5,5,5,p_cli_local_CI_smooth,Goa
+168,0.0027035496361749894,0.99,182.5,8,5,p_cli_local_smooth,Goa
+168,0.003097099630908333,0.99,182.5,8,5,p_cli_smooth,Manipur
+168,0.0017393308654134547,0.99,182.5,8,5,p_cli_CI_smooth,Manipur
+168,0.004646602254076825,0.99,15,4,5,p_cli_weight_smooth,Manipur
+168,1.2162754292741967e-5,0.99,15,4,5,p_cli_weight_CI_smooth,Manipur
+168,0.003791621355419813,0.99,30.5,5,5,p_cliWHO_smooth,Manipur
+168,0.005278978468465413,0.99,30.5,5,5,p_cliWHO_CI_smooth,Manipur
+168,0.003415068099464977,0.99,30.5,5,5,p_cliWHO_weight_smooth,Manipur
+168,2.2431784556380023e-5,0.99,30.5,5,5,p_cliWHO_weight_CI_smooth,Manipur
+168,2.336166013306558e-4,0.99,182.5,8,5,p_cli_local_CI_smooth,Manipur
+168,0.0018012534963431392,0.99,30.5,5,5,p_cli_local_smooth,Manipur
+168,0.0053848881745083114,0.99,7,3,5,p_cli_smooth,Tripura
+168,0.0030272152020888003,0.99,7,3,5,p_cli_CI_smooth,Tripura
+168,0.0077963548842377795,0.99,365,10,5,p_cli_weight_smooth,Tripura
+168,1.2947107588398314e-5,0.99,365,10,5,p_cli_weight_CI_smooth,Tripura
+168,0.004519926692163826,0.99,0,0,0,p_cliWHO_smooth,Tripura
+168,0.003694187743702924,0.99,0,0,0,p_cliWHO_CI_smooth,Tripura
+168,0.0023773740065771965,0.99,30.5,5,5,p_cliWHO_weight_smooth,Tripura
+168,7.991089939052032e-6,0.99,30.5,5,5,p_cliWHO_weight_CI_smooth,Tripura
+168,8.88939383379256e-5,0.99,30.5,5,5,p_cli_local_CI_smooth,Tripura
+168,7.947509516342184e-4,0.99,30.5,5,5,p_cli_local_smooth,Tripura
+168,0.002676794964875753,0.99,30.5,5,5,p_cli_smooth,Jammu and Kashmir
+168,0.0019822156086588515,0.99,7,3,5,p_cli_CI_smooth,Jammu and Kashmir
+168,0.004001525094207816,0.99,182.5,8,5,p_cli_weight_smooth,Jammu and Kashmir
+168,8.07306363525371e-6,0.99,30.5,5,5,p_cli_weight_CI_smooth,Jammu and Kashmir
+168,0.0025441151354353947,0.99,30.5,5,5,p_cliWHO_smooth,Jammu and Kashmir
+168,0.00344438093336201,0.99,0,0,0,p_cliWHO_CI_smooth,Jammu and Kashmir
+168,0.0035747467882617135,0.99,182.5,8,5,p_cliWHO_weight_smooth,Jammu and Kashmir
+168,9.657922449740893e-6,0.99,30.5,5,5,p_cliWHO_weight_CI_smooth,Jammu and Kashmir
+168,1.8440970545430716e-4,0.99,182.5,8,5,p_cli_local_CI_smooth,Jammu and Kashmir
+168,0.0014443637907974633,0.99,182.5,8,5,p_cli_local_smooth,Jammu and Kashmir
+168,0.005341162121668072,0.99,7,3,5,p_cli_smooth,Nagaland
+168,0.002719473541261509,0.99,365,10,5,p_cli_CI_smooth,Nagaland
+168,0.016330513571551197,0.99,182.5,8,5,p_cli_weight_smooth,Nagaland
+168,2.8795086763818255e-5,0.99,30.5,5,5,p_cli_weight_CI_smooth,Nagaland
+168,0.0016762010726648657,0.99,182.5,8,5,p_cliWHO_smooth,Nagaland
+168,0.002864952331447765,0.99,182.5,8,5,p_cliWHO_CI_smooth,Nagaland
+168,0.011398469163432434,0.99,182.5,8,5,p_cliWHO_weight_smooth,Nagaland
+168,2.635716440888105e-5,0.99,182.5,8,5,p_cliWHO_weight_CI_smooth,Nagaland
+168,1.3939734553173805e-4,0.99,365,10,5,p_cli_local_CI_smooth,Nagaland
+168,7.281273045166159e-4,0.99,365,10,5,p_cli_local_smooth,Nagaland
+168,0.002643719831523154,0.99,30.5,5,5,p_cli_smooth,Arunachal Pradesh
+168,0.0014234817117993559,0.99,7,3,5,p_cli_CI_smooth,Arunachal Pradesh
+168,0.014982986960878688,0.99,0,0,0,p_cli_weight_smooth,Arunachal Pradesh
+168,1.7468770306726757e-5,0.99,30.5,5,5,p_cli_weight_CI_smooth,Arunachal Pradesh
+168,0.005150017588344551,0.99,7,3,5,p_cliWHO_smooth,Arunachal Pradesh
+168,0.005685743215413601,0.99,7,3,5,p_cliWHO_CI_smooth,Arunachal Pradesh
+168,0.006428233158100128,0.99,365,10,5,p_cliWHO_weight_smooth,Arunachal Pradesh
+168,1.955118401243363e-5,0.99,7,3,5,p_cliWHO_weight_CI_smooth,Arunachal Pradesh
+168,1.6487441089402897e-4,0.99,0,0,0,p_cli_local_CI_smooth,Arunachal Pradesh
+168,0.001527899680377009,0.99,0,0,0,p_cli_local_smooth,Arunachal Pradesh
+168,0.00515717335631586,0.99,182.5,8,5,p_cli_smooth,Meghalaya
+168,0.002939110034788254,0.99,0,0,0,p_cli_CI_smooth,Meghalaya
+168,0.006044458751970059,0.99,30.5,5,5,p_cli_weight_smooth,Meghalaya
+168,5.306287432952237e-6,0.99,30.5,5,5,p_cli_weight_CI_smooth,Meghalaya
+168,0.001674922458749057,0.99,30.5,5,5,p_cliWHO_smooth,Meghalaya
+168,0.0013962030508994127,0.99,30.5,5,5,p_cliWHO_CI_smooth,Meghalaya
+168,0.0026022872826834253,0.99,182.5,8,5,p_cliWHO_weight_smooth,Meghalaya
+168,4.036609083900414e-6,0.99,365,10,5,p_cliWHO_weight_CI_smooth,Meghalaya
+168,2.165388387324752e-4,0.99,30.5,5,5,p_cli_local_CI_smooth,Meghalaya
+168,0.002100759855480091,0.99,365,10,5,p_cli_local_smooth,Meghalaya
+168,0.0026528889238120797,0.99,365,10,5,p_cli_smooth,Sikkim
+168,0.0020977273308574475,0.99,7,3,5,p_cli_CI_smooth,Sikkim
+168,0.0043976790897198095,0.99,0,0,0,p_cli_weight_smooth,Sikkim
+168,2.0967845727094013e-5,0.99,365,10,5,p_cli_weight_CI_smooth,Sikkim
+168,0.00251732453224443,0.99,30.5,5,5,p_cliWHO_smooth,Sikkim
+168,0.004304257007978539,0.99,30.5,5,5,p_cliWHO_CI_smooth,Sikkim
+168,0.0012561212918300883,0.99,30.5,5,5,p_cliWHO_weight_smooth,Sikkim
+168,1.8768624849156937e-5,0.99,30.5,5,5,p_cliWHO_weight_CI_smooth,Sikkim
+168,6.200795631992436e-5,0.99,30.5,5,5,p_cli_local_CI_smooth,Sikkim
+168,5.41775528351273e-4,0.99,30.5,5,5,p_cli_local_smooth,Sikkim
+168,0.002494046083284652,0.99,182.5,8,5,p_cli_smooth,Puducherry
+168,0.002277303538973466,0.99,182.5,8,5,p_cli_CI_smooth,Puducherry
+168,0.002874458330014622,0.99,182.5,8,5,p_cli_weight_smooth,Puducherry
+168,6.518279306581825e-6,0.99,182.5,8,5,p_cli_weight_CI_smooth,Puducherry
+168,0.002377305696060563,0.99,182.5,8,5,p_cliWHO_smooth,Puducherry
+168,0.0030512447037602227,0.99,182.5,8,5,p_cliWHO_CI_smooth,Puducherry
+168,0.0010470911506272407,0.99,182.5,8,5,p_cliWHO_weight_smooth,Puducherry
+168,1.0798031131443634e-5,0.99,182.5,8,5,p_cliWHO_weight_CI_smooth,Puducherry
+168,1.542508951106829e-4,0.99,0,0,0,p_cli_local_CI_smooth,Puducherry
+168,0.0015554459802126744,0.99,7,3,5,p_cli_local_smooth,Puducherry
+168,0.003521864388267009,0.99,182.5,8,5,p_cli_smooth,Mizoram
+168,0.002834545664644963,0.99,182.5,8,5,p_cli_CI_smooth,Mizoram
+168,0.0053073898389070385,0.99,365,10,5,p_cli_weight_smooth,Mizoram
+168,1.8478680228265342e-5,0.99,30.5,5,5,p_cli_weight_CI_smooth,Mizoram
+168,0.0023037315596388433,0.99,182.5,8,5,p_cliWHO_smooth,Mizoram
+168,0.004996620484752916,0.99,182.5,8,5,p_cliWHO_CI_smooth,Mizoram
+168,0.0026830029644173696,0.99,30.5,5,5,p_cliWHO_weight_smooth,Mizoram
+168,2.1177520564735358e-5,0.99,182.5,8,5,p_cliWHO_weight_CI_smooth,Mizoram
+168,2.2045377055726552e-4,0.99,0,0,0,p_cli_local_CI_smooth,Mizoram
+168,0.0019441439687827384,0.99,0,0,0,p_cli_local_smooth,Mizoram
+168,0.001488672429384504,0.99,182.5,8,5,p_cli_smooth,Dadra and Nagar Haveli
+168,0.0015395978004453916,0.99,30.5,5,5,p_cli_CI_smooth,Dadra and Nagar Haveli
+168,7.472127881664191e-4,0.99,0,0,0,p_cli_weight_smooth,Dadra and Nagar Haveli
+168,5.060143681202725e-6,0.99,30.5,5,5,p_cli_weight_CI_smooth,Dadra and Nagar Haveli
+168,0.001656664355662044,0.99,182.5,8,5,p_cliWHO_smooth,Dadra and Nagar Haveli
+168,0.003152559757107998,0.99,365,10,5,p_cliWHO_CI_smooth,Dadra and Nagar Haveli
+168,4.338171329650127e-4,0.99,182.5,8,5,p_cliWHO_weight_smooth,Dadra and Nagar Haveli
+168,7.038777342335062e-6,0.99,30.5,5,5,p_cliWHO_weight_CI_smooth,Dadra and Nagar Haveli
+168,1.2268126719465217e-4,0.99,365,10,5,p_cli_local_CI_smooth,Dadra and Nagar Haveli
+168,0.0015327833185080463,0.99,182.5,8,5,p_cli_local_smooth,Dadra and Nagar Haveli
+168,0.002780526635703043,0.99,0,0,0,p_cli_smooth,Ladakh
+168,0.001570439654680063,0.99,0,0,0,p_cli_CI_smooth,Ladakh
+168,0.007831828931577793,0.99,7,3,5,p_cli_weight_smooth,Ladakh
+168,1.9013368871634693e-5,0.99,7,3,5,p_cli_weight_CI_smooth,Ladakh
+168,0.0014964233352975484,0.99,30.5,5,5,p_cliWHO_smooth,Ladakh
+168,0.0012138956766296325,0.99,30.5,5,5,p_cliWHO_CI_smooth,Ladakh
+168,0.004214180079209864,0.99,182.5,8,5,p_cliWHO_weight_smooth,Ladakh
+168,8.261188763682325e-6,0.99,182.5,8,5,p_cliWHO_weight_CI_smooth,Ladakh
+168,1.7206508443631411e-4,0.99,15,4,5,p_cli_local_CI_smooth,Ladakh
+168,0.0014243390546621539,0.99,15,4,5,p_cli_local_smooth,Ladakh
+168,0.0020774465126946434,0.99,182.5,8,5,p_cli_smooth,Daman and Diu
+168,0.0016840919025153352,0.99,182.5,8,5,p_cli_CI_smooth,Daman and Diu
+168,0.0045722715474538714,0.99,182.5,8,5,p_cli_weight_smooth,Daman and Diu
+168,7.87440022877303e-6,0.99,182.5,8,5,p_cli_weight_CI_smooth,Daman and Diu
+168,0.0010353088280105245,0.99,182.5,8,5,p_cliWHO_smooth,Daman and Diu
+168,5.901077346096437e-4,0.99,182.5,8,5,p_cliWHO_CI_smooth,Daman and Diu
+168,9.050626095700814e-4,0.99,15,4,5,p_cliWHO_weight_smooth,Daman and Diu
+168,2.0343461925185066e-6,0.99,182.5,8,5,p_cliWHO_weight_CI_smooth,Daman and Diu
+168,4.9580188388899325e-5,0.99,0,0,0,p_cli_local_CI_smooth,Daman and Diu
+168,2.1350798103801614e-4,0.99,0,0,0,p_cli_local_smooth,Daman and Diu
+168,0.0015386580739428638,0.99,15,4,5,p_cli_smooth,Andaman and Nicobar
+168,8.614696687058846e-4,0.99,15,4,5,p_cli_CI_smooth,Andaman and Nicobar
+168,0.004089158699529361,0.99,182.5,8,5,p_cli_weight_smooth,Andaman and Nicobar
+168,6.350832791201528e-6,0.99,182.5,8,5,p_cli_weight_CI_smooth,Andaman and Nicobar
+168,0.0012573798059412463,0.99,182.5,8,5,p_cliWHO_smooth,Andaman and Nicobar
+168,8.952465160973102e-4,0.99,182.5,8,5,p_cliWHO_CI_smooth,Andaman and Nicobar
+168,0.004194301444183643,0.99,182.5,8,5,p_cliWHO_weight_smooth,Andaman and Nicobar
+168,7.308146614440955e-6,0.99,182.5,8,5,p_cliWHO_weight_CI_smooth,Andaman and Nicobar
+168,4.276075787032069e-5,0.99,0,0,0,p_cli_local_CI_smooth,Andaman and Nicobar
+168,3.3651706230923345e-4,0.99,7,3,5,p_cli_local_smooth,Andaman and Nicobar

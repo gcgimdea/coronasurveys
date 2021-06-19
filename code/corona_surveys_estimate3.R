@@ -43,7 +43,7 @@ try(source("script-provinces-plot.R"), silent = T)
 # The estimates based on fatalities use the Oxford official data. Has to be changes if using JHU
 try(source("script-ccfr-fatalities-country.R"), silent = T)
 
-try(source("script-ccfr-based3.R"), silent = T)
+try(source("script-ccfr-based-v4.R"), silent = T)
 try(source("script-ES-ccfr-based.R"), silent = T)
 
 # try(source("script-rivas-arganda-daily.R"), silent = T)
