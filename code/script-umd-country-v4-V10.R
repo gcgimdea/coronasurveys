@@ -7,18 +7,24 @@ library(data.table)
 library(tidyverse)
 
 responses_path2020 <- "/gauss_data/coronasurveys/UMD-2020/aggregates/country/"
-responses_path2021 <- "/gauss_data/coronasurveys/UMD-2021-v11/aggregates/country/"
+responses_path2021 <- "/gauss_data/coronasurveys/UMD-2021/aggregates-v10/country/"
 # data_path <- "https://raw.githubusercontent.com/GCGImdea/coronasurveys/master/data/common-data/unified-country-list.csv"
-estimates_path <- "../data/estimates-symptom-survey/PlotData-v11/"
+estimates_path <- "../data/estimates-symptom-survey/PlotData-v10/"
 
 files2020 <- list.files(path=responses_path2020, pattern="*.csv", full.names=FALSE, recursive=FALSE)
 files2021 <- list.files(path=responses_path2021, pattern="*.csv", full.names=FALSE, recursive=FALSE)
 files <- unique(c(files2020, files2021))
 
-cols_to_use <- c("ISO2",	"ISO_3",	"country_agg",	"date",	"first_date",	"count", "day_count",	
+cols_to_use <- c("ISO2",	"ISO_3",	"country_agg",	"date",	"first_date",	"count", "day_count",	"days_aggregated",
                  "p_cli",	"p_cli_CI",	"p_cli_weight",	"p_cli_weight_CI",	
                  "p_cliWHO",	"p_cliWHO_CI",	"p_cliWHO_weight",	"p_cliWHO_weight_CI",	
                  "p_cli_local",	"p_cli_local_CI")
+
+character_cols <- c("ISO2",	"ISO_3",	"country_agg")
+date_cols <- c("date", "first_date")
+numeric_cols <- c("count", "day_count", "days_aggregated", "p_cli",	"p_cli_CI",	"p_cli_weight",	"p_cli_weight_CI",	
+                  "p_cliWHO",	"p_cliWHO_CI",	"p_cliWHO_weight",	"p_cliWHO_weight_CI",	"p_cli_local",	"p_cli_local_CI")
+
 
 smooth_param <- 15
 
@@ -41,19 +47,23 @@ process_country <- function(file) {
   
   if (file.exists(f2020)) {
     DT2020 <- fread(f2020)
+    DT2020 <- DT2020[,date:=as.Date(date)]
+    DT2020 <- DT2020[,first_date:=as.Date(first_date)]
     DT2020 <- DT2020[date >= "2020-01-01" & date <= "2020-12-31", ..cols_to_use]
   } else {
     DT2020 <- data.table() 
   }
   if (file.exists(f2021)) {
     DT2021 <- fread(f2021)
+    DT2021 <- DT2021[,date:=as.Date(date)]
+    DT2021 <- DT2021[,first_date:=as.Date(first_date)]
     DT2021 <- DT2021[date >= "2021-01-01" & date <= "2021-12-31", ..cols_to_use]
   } else {
     DT2021 <- data.table() 
   }
   DT <- rbindlist(list(DT2020, DT2021), use.names=TRUE)
   
-  DT <- DT[,date:=as.Date(date)]
+  DT <- DT[order(date)]
   
   DT <- DT[, p_cli_smooth := 
              with(DT, ksmooth(date, p_cli, kernel = "normal", bandwidth = smooth_param, x.points=date))$y]
