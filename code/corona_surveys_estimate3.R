@@ -26,7 +26,7 @@ try(source("script-get-jhu-data-v2.R"), silent = T)
 # try(source("script-umd-country-v4.R"), silent = T)
 # try(source("script-umd-region-v2.R"), silent = T)
 # try(source("script-umd-age-v2.R"), silent = T)
-# try(source("script-umd-regions-plot.R"), silent = T)
+try(source("script-umd-regions-plot.R"), silent = T)
 
 # try(source("script-30responses.R"), silent = T)
 try(source("script-300responses-v2.R"), silent = T)
