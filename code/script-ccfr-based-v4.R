@@ -4,14 +4,14 @@ library(httr)
 
 source("smooth_greedy_monotone.R")
 
-country_codes_file <- "../data/common-data/wikipedia-iso-country-codes.xlsx"
-pop_file <- "../data/common-data/oxford-umd-country-population.csv"
-data_path <- "../data/oxford/"
+# country_codes_file <- "../data/common-data/wikipedia-iso-country-codes.xlsx"
+# pop_file <- "../data/common-data/unified-country-list.csv"
+data_path <- "../data/estimates-confirmed/PlotData/"
 estimates_path <- "../data/estimates-ccfr-based/PlotData/"
 
-# country_codes_file <- "../coronasurveys/data/common-data/wikipedia-iso-country-codes.xlsx"
-# pop_file <- "../coronasurveys/data/common-data/oxford-umd-country-population.csv"
-# data_path <- "../coronasurveys/data/oxford/"
+# # country_codes_file <- "../coronasurveys/data/common-data/wikipedia-iso-country-codes.xlsx"
+# # pop_file <- "../coronasurveys/data/common-data/unified-country-list.csv"
+# data_path <- "../coronasurveys/data/estimates-confirmed/PlotData/"
 # estimates_path <- "./estimates-ccfr-based/PlotData/"
 
 contagious_window <- 12
@@ -83,27 +83,27 @@ plot_estimates <- function(country_geoid = "ES",
     # data <- data %>% select(dateRep:popData2019)
     # data <- data[data$geoId == country_geoid,]
     
-  dt <- dts %>% select(Date, cases, deaths, CountryCode)
+  dt <- dts %>% select(date, cases, cum_cases, deaths, cum_deaths, countrycode, population)
     
     # dt <- as.data.frame(data[rev(1:nrow(data)),])
     ####### fix NAs in cases and deaths #######
-    dt$cases[is.na(dt$cases)] <- 0
-    dt$deaths[is.na(dt$deaths)] <- 0
+    # dt$cases[is.na(dt$cases)] <- 0
+    # dt$deaths[is.na(dt$deaths)] <- 0
     ##########################################
-    dt$cum_cases <- cumsum(dt$cases)
-    dt$cum_deaths <- cumsum(dt$deaths)
+    # dt$cum_cases <- cumsum(dt$cases)
+    # dt$cum_deaths <- cumsum(dt$deaths)
     
-    dt$Date <- as.Date(dt$Date, format = "%Y-%m-%d")
-    dt$date <- gsub("-", "/", dt$Date)
+    # dt$Date <- as.Date(dt$Date, format = "%Y-%m-%d")
+    # dt$date <- gsub("-", "/", dt$Date)
     
-    pop_data <- read.csv(pop_file, as.is = T)
-    dt$population <- pop_data$population[pop_data$CountryCode == dt$CountryCode[1]]
+    # pop_data <- read.csv(pop_file, as.is = T)
+    # dt$population <- pop_data$population[pop_data$ISO2 == dt$countrycode[1]]
     
-    dt$geoId <- pop_data$geo_id[pop_data$CountryCode == dt$CountryCode[1]]
-    dt <- dt %>% 
-      select(date, geoId, population, cases, deaths, cum_cases, cum_deaths) %>% 
-      rename(countrycode = geoId) %>% 
-      select(date, countrycode, population, cases, deaths, cum_cases, cum_deaths)
+    # dt$geoId <- pop_data$geo_id[pop_data$countrycode == dt$countrycode[1]]
+    # dt <- dt %>% 
+    #   select(date, geoId, population, cases, deaths, cum_cases, cum_deaths) %>% 
+    #   rename(countrycode = geoId) %>% 
+    #   select(date, countrycode, population, cases, deaths, cum_cases, cum_deaths)
     
     ndt <- nrow(dt)
     est_ccfr <- rep(NA, ndt)
@@ -114,6 +114,8 @@ plot_estimates <- function(country_geoid = "ES",
     p_ccfr_high <- rep(NA, ndt)
     
     #cat("::- script-ccfr-based: Computing ccfr-based estimates for", country_geoid, "::\n")
+    
+    
     
     for (i in ndt : 1) {
       # cat(i, " ")
@@ -140,8 +142,12 @@ plot_estimates <- function(country_geoid = "ES",
     dt$p_cases_infected_high <- pmin(p_ccfr_high, 1)
     
     # daily ccfr estimate
-    dt$cases_daily <- c(0, diff(smooth_greedy(dt$cases_infected)))
-    
+    if (nrow(dt)>1) {
+      dt$cases_daily <- c(0, diff(smooth_greedy(dt$cases_infected)))
+    } else {
+      dt$cases_daily <- dt$cases_infected
+    }
+
     #contagious
     if (nrow(dt) >= contagious_window){
       dt$cases_contagious <- cumsum(c(dt$cases_daily[1:contagious_window],
@@ -178,15 +184,15 @@ plot_estimates <- function(country_geoid = "ES",
     
     dir.create(estimates_path, showWarnings = F)
     # cat("::- script-ccfr-based: Writing data for", country_geoid, "::\n")
-    write.csv(dt_w, paste0(estimates_path, country_geoid, "-estimate2.csv"), row.names = FALSE)
+    write.csv(dt_w, paste0(estimates_path, country_geoid, "-estimate.csv"), row.names = FALSE)
     
   } 
   
-# find countries with oxford data available
+# find countries with data available
 generate_estimates <- function(c_window = contagious_window,
                                a_window = active_window){
   country_codes <- sapply(str_split(list.files(data_path), pattern = "-"), function(x) x[[1]])
-  country_codes <- country_codes[!grepl("_", country_codes, fixed = T)]
+  # country_codes <- country_codes[!grepl("_", country_codes, fixed = T)]
   dx <- sapply(country_codes, function(x){
     df <- read.csv(paste0(data_path, x, "-estimate.csv"), as.is = T)
     plot_estimates(x, dts = df,
@@ -195,56 +201,3 @@ generate_estimates <- function(c_window = contagious_window,
   })
 }
 generate_estimates()
-
-# generate_estimates <- function(contagious_window = 12,
-#                                active_window = 18){
-#   url <- paste("https://www.ecdc.europa.eu/sites/default/files/documents/COVID-19-geographic-disbtribution-worldwide-",
-#                Sys.Date(), ".xlsx", sep = "")
-#   GET(url, authenticate(":", ":", type="ntlm"), write_disk(tf <- tempfile(fileext = ".xlsx")))
-#   cat("::- script-ccfr: Checking the ECDC data for the day ::\n")
-#   #try( data_ecdc <- read_excel(tf), silent = T) # ECDC daily excel seems unvailable for now
-#   try( data_ecdc <- read.csv("https://opendata.ecdc.europa.eu/covid19/casedistribution/csv",
-#                              na.strings = "", fileEncoding = "UTF-8-BOM"), silent = T)
-#   
-#   if(!exists("data_ecdc")){
-#     cat("::- script-ccfr: Seems the ECDC data for the day is not available yet ::\n")
-#     cat("::- script-ccfr: Trying to get data for the previous day ::\n")
-#     url <- paste("https://www.ecdc.europa.eu/sites/default/files/documents/COVID-19-geographic-disbtribution-worldwide-",
-#                  Sys.Date()-1, ".xlsx", sep = "")
-#     GET(url, authenticate(":", ":", type="ntlm"), write_disk(tf <- tempfile(fileext = ".xlsx")))
-#     try( data_ecdc <- read_excel(tf), silent = T)
-#     if(!exists("data_ecdc")){
-#       stop("::- script-confirmed: Unfortunately, the ECDC data for yesterday is not availabe neither ::\n")
-#     }else{
-#       cat("::- script-ccfr: Using ECDC data for previous day ::\n")
-#       data_ecdc$countryterritoryCode[data_ecdc$geoId == "CZ"] <- "CZE" # add "CZ" manually
-#       data_country_code <- read_excel(country_codes_file)
-#       names(data_country_code) <- c("English.short.name.lower.case", "Alpha.2.code",
-#                                     "Alpha.3.code", "Numeric.code", "ISO.3166.2")
-#       
-#       data_ecdc <- inner_join(data_ecdc, data_country_code, by = c("countryterritoryCode" = "Alpha.3.code"))
-#       
-#       all_geo_ids <- unique(data_ecdc$Alpha.2.code)
-#       sapply(all_geo_ids, plot_estimates, dts = data_ecdc, 
-#              contagious_window = contagious_window, 
-#              active_window = active_window)
-#     }
-#   } else{
-#     cat("::- script-ccfr: ECDC data for the day available! ::\n")
-#     data_ecdc$countryterritoryCode[data_ecdc$geoId == "CZ"] <- "CZE" # add "CZ" manually
-#     data_country_code <- read_excel(country_codes_file)
-#     names(data_country_code) <- c("English.short.name.lower.case", "Alpha.2.code",
-#                                   "Alpha.3.code", "Numeric.code", "ISO.3166.2")
-#     data_ecdc <- inner_join(data_ecdc, data_country_code, by = c("countryterritoryCode" = "Alpha.3.code"))
-#     all_geo_ids <- unique(data_ecdc$Alpha.2.code)
-#     go <- sapply(all_geo_ids, plot_estimates, dts =  data_ecdc, 
-#                  contagious_window = contagious_window, 
-#                  active_window = active_window)
-#   }
-#   
-# }
-# 
-# generate_estimates(contagious_window = contagious_window,
-#                    active_window = active_window)
-
-#plot_estimates(country_geoid = "ES", dts =  data_ecdc, contagious_window = contagious_window)
