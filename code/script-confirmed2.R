@@ -3,7 +3,8 @@ library(tidyverse)
 library(readxl)
 library(httr)
 
-pop_file <- "../data/common-data/oxford-umd-country-population.csv"
+# pop_file <- "../data/common-data/oxford-umd-country-population.csv"
+pop_file <- "../data/common-data/unified-country-list.csv"
 data_path <- "../data/jhu/PlotData/"
 estimates_path <- "../data/estimates-confirmed/PlotData/"
 
@@ -65,7 +66,7 @@ plot_estimates <- function(country_geoid = "AF", dts,
   # - Cases_active: Those infected whose case is still active on a given day (assumes a case is active 18 days after infected)
   
   pop_data <- read.csv(pop_file, as.is = T)
-  dt$population <- pop_data$population[pop_data$geo_id == country_geoid][1]
+  dt$population <- pop_data$population[pop_data$ISO2 == country_geoid][1]
 
   # dt <- dt %>% 
   #   mutate(countrycode = ifelse(country_geoid == "NA", "NA", pop_data$geo_id[pop_data$CountryCode == dt$CountryCode[1]])) %>% 

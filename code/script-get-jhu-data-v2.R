@@ -32,15 +32,16 @@ updateTotal <- function(total, toAdd) {
 # leo los archivos de datos
 responses_path <-
   "https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/"
-data_path <-
-  "https://raw.githubusercontent.com/GCGImdea/coronasurveys/master/data/common-data/unified-country-list.csv"
+data_path <- "https://raw.githubusercontent.com/GCGImdea/coronasurveys/master/data/common-data/unified-country-list.csv"
+  # "https://raw.githubusercontent.com/GCGImdea/coronasurveys/master/data/common-data/oxford-umd-country-population.csv"
 # estimates_path <- "./jhu/"
 
 estimates_path_region <- "../data/jhu/region/"
 estimates_path_country <- "../data/jhu/PlotData/"
 
 paises <- read.csv(data_path, as.is = T, na.string = "NaN")
-paises <- dplyr::select(paises, country, ISO2, ISO3)
+paises <- dplyr::select(paises, country, ISO2, ISO3) # When reading unified-country-list.csv
+# paises <- dplyr::select(paises, country=CountryName, ISO2=geo_id, ISO3=CountryCode)
 
 # defino el espacio temporal sobre el que se calcularan los datos
 start <- as.Date("2020-01-22")
