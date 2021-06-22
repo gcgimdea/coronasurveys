@@ -13,11 +13,8 @@ library(httr)
 
 # compute new decentralized estimates
 try(source("script-get-oxford-data.R"), silent = T)
-try(source("script-confirmed2.R"), silent = T)
-
-# This is an alternative to the official data from Oxford: data from JHU
 try(source("script-get-jhu-data-v2.R"), silent = T)
-# try(source("script-confirmed-jhu.R"), silent = T)
+try(source("script-confirmed2.R"), silent = T)
 
 # UMD estimates from the API
 # try(source("script-umd_batch_symptom_country.R"), silent = T)
