@@ -6,10 +6,11 @@ active_window <- 10 # Changed from 18 on May 30th, 2021
 z_mean_hdt <- 13
 z_sd_hdt <- 12.7
 z_median_hdt <- 9.1
+mu_hdt = log(z_median_hdt)
+sigma_hdt = sqrt(2*(log(z_mean_hdt) - mu_hdt))
 c_cfr_baseline <- 1.38
 c_cfr_error <- 0.05
 c_cfr_estimate_range <- c(c_cfr_baseline-c_cfr_error, c_cfr_baseline+c_cfr_error)
-
 
 estimates_path <- "../data/estimates-ccfr-based/ES/"
 data_path <- "https://raw.githubusercontent.com/GCGImdea/coronasurveys/master/data/common-data/regions-tree-population.csv"
@@ -23,23 +24,25 @@ calculate_ci <- function(p_est, level, pop_size) {
   return(list(low=p_est-z*se, upp=p_est+z*se, error=z*se))
 }
 
-hosp_to_death_trunc <- function(x, mu_hdt, sigma_hdt){
+hosp_to_death_trunc <- function(x) { #}, mu_hdt, sigma_hdt){
   dlnorm(x, mu_hdt, sigma_hdt)
 }
 
-scale_cfr <- function(data_1_in, delay_fun, mu_hdt, sigma_hdt){
+scale_cfr <- function(data_1_in){ #, delay_fun, mu_hdt, sigma_hdt){
   case_incidence <- data_1_in$cases
   case_incidence[is.na(case_incidence)] <- 0
   death_incidence <- data_1_in$deaths
   cumulative_known_t <- 0 # cumulative cases with known outcome at time tt
   # Sum over cases up to time tt
+  delay_vector <- sapply(seq(0,length(case_incidence)), hosp_to_death_trunc)
   for(ii in 1:length(case_incidence)){
-    known_i <- 0 # number of cases with known outcome at time ii
-    for(jj in 0:(ii - 1)){
-      known_jj <- case_incidence[ii - jj] * delay_fun(jj, mu_hdt = mu_hdt, 
-                                                      sigma_hdt = sigma_hdt)
-      known_i <- known_i + known_jj
-    }
+    kk <- case_incidence[ii:1] * delay_vector[1:ii]
+    known_i <- sum(kk)
+    # known_i <- 0 # number of cases with known outcome at time ii
+    # for(jj in 0:(ii - 1)){
+    #   known_jj <- case_incidence[ii - jj]* delay[jj] #dlnorm(jj, mu_hdt, sigma_hdt))
+    #   known_i <- known_i + known_jj
+    # }
     cumulative_known_t <- cumulative_known_t + known_i # Tally cumulative known
   }
   # naive CFR value
@@ -104,8 +107,7 @@ plot_estimates <- function(region_ine = 1,
   
   for (i in ndt : 1) {
     data2t <- dt[1:i, c("cases", "deaths")]
-    ccfr <- scale_cfr(data2t, delay_fun = hosp_to_death_trunc,
-                      mu_hdt = mu_hdt, sigma_hdt = sigma_hdt)
+    ccfr <- scale_cfr(data2t) #, delay_fun = hosp_to_death_trunc, mu_hdt = mu_hdt, sigma_hdt = sigma_hdt)
     fraction_reported <- c_cfr_baseline / (ccfr$cCFR*100)
     sigma_fraction_reported <- (1/ccfr$total_deaths)-(1/ccfr$cum_known_t)+ (1/1023) - (1/74130)
     fraction_reported_high <- fraction_reported * exp(1.96*sigma_fraction_reported)
