@@ -50,6 +50,9 @@ write.csv(df_region %>%
 
 c_data <- read.csv(data_file, as.is = T)
 
+dir.create(paste0(output_path, "PlotData"), showWarnings = F)
+dir.create(paste0(output_path, "region"), showWarnings = F)
+
 country_list <- read.csv(country_file, as.is = T)
 all_countries <- country_list$CountryName
 
@@ -61,7 +64,7 @@ for (country in all_countries) {
   geoid <- c_data[c_data$CountryName == country,"geo_id"]
   df$population <- c_data[c_data$CountryName == country,"population"]
   df$iso2 <- geoid
-  write.csv(df, paste0(output_path, geoid, "-estimate.csv"),
+  write.csv(df, paste0(output_path, "PlotData/", geoid, "-estimate.csv"),
             row.names = FALSE)
 }
 
@@ -75,7 +78,7 @@ for (region in all_regions) {
   region_code <- df$RegionCode[1]
   df$population <- region_list[region_list$RegionName == region,"Population"]
   df$iso2 <- region_code
-  write.csv(df, paste0(output_path, region_code, "-estimate.csv"),
+  write.csv(df, paste0(output_path, "region/", region_code, "-estimate.csv"),
             row.names = FALSE)
 }
 
