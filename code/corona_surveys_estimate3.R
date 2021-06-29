@@ -14,7 +14,7 @@ library(httr)
 # compute new decentralized estimates
 try(source("script-get-oxford-data.R"), silent = T)
 try(source("script-get-jhu-data-v2.R"), silent = T)
-try(source("script-confirmed2.R"), silent = T)
+try(source("script-confirmed3.R"), silent = T)
 
 # UMD estimates from the API
 # try(source("script-umd_batch_symptom_country.R"), silent = T)

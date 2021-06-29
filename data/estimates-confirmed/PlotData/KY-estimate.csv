@@ -1,4 +1,4 @@
-"date","cum_cases","cum_deaths","countrycode","cases","deaths","cases_daily","cases_infected","cases_contagious","cases_active","population","p_cases_infected","p_cases_daily","p_cases_contagious","p_cases_active"
-"2020-03-13",1,0,"KY",0,0,0,1,NA,NA,64958,1.53945626404754e-05,0,NA,NA
-"2020-03-14",1,0,"KY",0,0,0,1,NA,NA,64958,1.53945626404754e-05,0,NA,NA
-"2020-03-15",1,0,"KY",0,0,0,1,NA,NA,64958,1.53945626404754e-05,0,NA,NA
+"date","countrycode","cum_cases","cum_deaths","population","cases","deaths","cases_daily","cases_infected","cases_contagious","cases_active","p_cases_infected","p_cases_daily","p_cases_contagious","p_cases_active"
+"2020-03-13","KY",1,0,64958,0,0,0,1,NA,NA,1.53945626404754e-05,0,NA,NA
+"2020-03-14","KY",1,0,64958,0,0,0,1,NA,NA,1.53945626404754e-05,0,NA,NA
+"2020-03-15","KY",1,0,64958,0,0,0,1,NA,NA,1.53945626404754e-05,0,NA,NA

@@ -59,8 +59,8 @@ all_countries <- country_list$CountryName
 for (country in all_countries) {
   cat("Processing", country, "\n")
   df <- df_country[df_country$CountryName == country ,]
-  df$cases <- c(NA,diff(df$ConfirmedCases))
-  df$deaths <- c(NA,diff(df$ConfirmedDeaths))
+  df$cases <- c(0,diff(df$ConfirmedCases))
+  df$deaths <- c(0,diff(df$ConfirmedDeaths))
   geoid <- c_data[c_data$CountryName == country,"geo_id"]
   df$population <- c_data[c_data$CountryName == country,"population"]
   df$iso2 <- geoid

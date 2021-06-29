@@ -7,7 +7,7 @@ source("smooth_greedy_monotone.R")
 
 country_codes_file <- "../data/common-data/wikipedia-iso-country-codes.xlsx"
 estimates_path <- "../data/estimates-ccfr-fatalities/PlotData/"
-ox_country_path <- "../data/oxford/" # Oxford data
+country_path <- "../data/estimates-confirmed/PlotData/"
 
 # country_codes_file <- "../coronasurveys/data/common-data/wikipedia-iso-country-codes.xlsx"
 # estimates_path <- "./estimates-ccfr-fatalities/PlotData/"
@@ -20,7 +20,7 @@ onset_to_death_window <- 13 # https://www.cdc.gov/coronavirus/2019-ncov/hcp/plan
 CFR <- 0.0138
 # factor_window <- 14
 
-plot_estimates <- function(country_geoid, code3,
+plot_estimates <- function(country_geoid, #code3,
                            dts){
   cat("::- script-ccfr-fatalities: Computing estimates for", country_geoid, "::\n")
   # data <- dts %>% 
@@ -28,17 +28,17 @@ plot_estimates <- function(country_geoid, code3,
   # data$geoId <- data$Alpha.2.code 
   # data <- data %>% select(dateRep:popData2019)
   # data <- data[data$geoId == country_geoid,]
-  data <- dts[dts$CountryCode == code3,]
+  data <- dts[dts$countrycode == country_geoid,]
   
   #cat(min(data$Date), nrow(data), country_geoid, code3, ".\n")
   
   dt <- as.data.frame(data[rev(1:nrow(data)),])
   
-  dt$date <- as.Date(dt$Date)
+  dt$date <- as.Date(dt$date)
 
   dt <- dt %>% 
   #   select(date, geoId, popData2019, cases, deaths) %>% 
-    rename(countrycode = iso2) %>% 
+    # rename(countrycode = iso2) %>% 
     select(date, countrycode, population, cases, deaths)
   
   # - Cases_infected: Population that is or has been infected of COVID-19.
@@ -124,9 +124,9 @@ plot_estimates <- function(country_geoid, code3,
 
 # find countries with oxford data available
 generate_estimates <- function(){
-  country_codes <- list.files(ox_country_path, pattern="*.csv", full.names=FALSE)
+  country_codes <- list.files(country_path, pattern="*.csv", full.names=FALSE)
   country_codes <- word(country_codes,1,sep = "-")
-  country_codes <- country_codes[stri_length(country_codes)==2]
+  # country_codes <- country_codes[stri_length(country_codes)==2]
   # country_codes <- sapply(str_split(list.files("../data/oxford/country/"), pattern = "-"), function(x) x[[1]])
   # country_codes <- country_codes[!grepl("_", country_codes, fixed = T)]
   # country_codes <- country_codes[!is.na(country_codes)]
@@ -134,8 +134,8 @@ generate_estimates <- function(){
   # cat(country_codes, "\n")
   for (c in country_codes) {
     # cat(paste0(ox_country_path, c, "-estimate.csv"))
-    df <- read.csv(paste0(ox_country_path, c, "-estimate.csv"))
-    plot_estimates(c, df$CountryCode[1], dts = df)
+    df <- read.csv(paste0(country_path, c, "-estimate.csv"), as.is = T, na.string = "NaN")
+    plot_estimates(c, dts = df) # df$CountryCode[1], 
   }
                    
   # dx <- sapply(country_codes, function(x){

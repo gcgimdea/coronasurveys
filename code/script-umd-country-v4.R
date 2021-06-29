@@ -86,13 +86,17 @@ process_country <- function(file) {
   DT <- DT[, p_cli_local_CI_smooth := 
              with(DT, ksmooth(date, p_cli_local_CI, kernel = "normal", bandwidth = smooth_param, x.points=date))$y]
   
+  # First derivative
   DT <- DT[, p_cli_smooth_slope := rollapply(DT[,p_cli_smooth],7,get_slope7,fill=NA,align="right")]
   DT <- DT[, p_cli_weight_smooth_slope := rollapply(DT[,p_cli_weight_smooth],7,get_slope7,fill=NA,align="right")]
   DT <- DT[, p_cliWHO_smooth_slope := rollapply(DT[,p_cliWHO_smooth],7,get_slope7,fill=NA,align="right")]
   DT <- DT[, p_cliWHO_weight_smooth_slope := rollapply(DT[,p_cliWHO_weight_smooth],7,get_slope7,fill=NA,align="right")]
   DT <- DT[, p_cli_local_smooth_slope := rollapply(DT[,p_cli_local_smooth],7,get_slope7,fill=NA,align="right")]
   
-
+  # Second derivative
+  DT <- DT[, p_cli_smooth_slope2 := rollapply(DT[,p_cli_smooth_slope],7,get_slope7,fill=NA,align="right")]
+  DT <- DT[, p_cliWHO_smooth_slope2 := rollapply(DT[,p_cliWHO_smooth_slope],7,get_slope7,fill=NA,align="right")]
+  
   filename <- paste0(estimates_path, iso2, "-estimate.csv")
   fwrite(DT, filename)
 }
