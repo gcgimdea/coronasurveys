@@ -16,6 +16,7 @@
 library(tidyverse)
 library(readxl)
 library(httr)
+library(zoo)
 
 pop_file <- "../data/common-data/unified-country-list.csv"
 data_path_JHU <- "../data/jhu/PlotData/"
@@ -30,6 +31,16 @@ estimates_path <- "../data/estimates-confirmed/PlotData/"
 
 contagious_window <- 12
 active_window <- 10 # Changed from 18 on May 30th, 2021
+
+get_slope7 <- function(x) {
+  slp <- NA
+  if(sum(is.na(x) | is.infinite(x)) == 0) {
+    # dt <- data.table(index=seq(1,7), value=x)
+    # slp <- lm(value ~ index, data=dt)$coefficients[2]
+    slp <- (x[7]-x[1])/6
+  }
+  return(slp)
+}
 
 plot_estimates <- function(dt,country_geoid = "AF", 
                            contagious_window,
@@ -72,6 +83,9 @@ plot_estimates <- function(dt,country_geoid = "AF",
   dt$p_cases_daily <- abs(dt$cases_daily/dt$population)
   dt$p_cases_contagious <- abs(dt$cases_contagious/dt$population)
   dt$p_cases_active <- abs(dt$cases_active/dt$population)
+  
+  dt$p_cases_active_slope <- rollapply(dt$p_cases_active,7,get_slope7,fill=0,align="right")
+  dt$p_cases_active_slope2 <- rollapply(dt$p_cases_active_slope,7,get_slope7,fill=0,align="right")
     
   dir.create(estimates_path, showWarnings = F)
   # cat("::- script-confirmed: Writing data for", country_geoid, "::\n")

@@ -2,26 +2,54 @@ library(tidyverse)
 
 # ----
 
+start_date <- as.Date("2021-01-01")
+end_date <- Sys.Date()
+
 # dt <- read_csv("../data/estimates-W/PlotData/US-estimate.csv")
-dt <- read_csv("../data/estimates-W/PlotData/ES-estimate.csv")
-# dt <- read_csv("../data/estimates-W/PlotData/UA-estimate.csv")
+dt <- read_csv("../data/estimates-symptom-survey/PlotData/IN-estimate.csv")
+dt$date <- as.Date(dt$date)
+dt <- dt[dt$date>=start_date & dt$date<=end_date,]
+
+dt2 <- read_csv("../data/estimates-confirmed/PlotData/IN-estimate.csv")
+dt2$date <- as.Date(dt2$date)
+dt2 <- dt2[dt2$date>=start_date & dt2$date<=end_date,]
+
+
 # dt <- read_csv("../data/estimates-300responses/PlotData/ES-estimate.csv")
 # dt <- read_csv("../data/estimates-300responses/PlotData/PT-estimate.csv")
 # dt <- read_csv("../data/estimates-300responses/PlotData/IT-estimate.csv")
 
-glimpse(dt)
 
+# glimpse(dt)
+
+
+normalized <- function(x) {
+  x[is.na(x)] <- 0
+  return ((x-min(x))/(max(x)-min(x)))
+}
 # ----
 
+dt$y1 <- normalized(dt$p_cli_smooth)
+dt$y2 <- normalized(dt$p_cli_smooth_slope)
+dt$y3 <- normalized(dt$p_cli_smooth_slope2)
+dt$y4 <- normalized(dt2$p_cases_active)
+
 p_test <- ggplot(dt, aes(x = date)) +
-  geom_point(aes(y = p_cases_infected), 
-             size = 1, color = "red", alpha = 0.5) +
-  geom_line(aes(y = p_cases_infected_smooth),
+  # geom_point(aes(y = p_cases_infected), 
+  #            size = 1, color = "red", alpha = 0.5) +
+  geom_line(aes(y = dt$y1),
+            color = "black", alpha = 0.5, size = 1) +
+  geom_line(aes(y = dt$y2),
+            color = "red", alpha = 0.5, size = 1) +
+  geom_line(aes(y = dt$y3),
             color = "blue", alpha = 0.5, size = 1) +
-  geom_ribbon(aes(ymin = p_cases_infected_smooth_low,
-                  ymax = p_cases_infected_smooth_high), 
-              alpha=0.3, fill = "blue") +
-  labs(title = "Smooth data from csv") +
+  geom_line(aes(y = dt$y4),
+            color = "magenta", alpha = 0.5, size = 1) +
+  # geom_ribbon(aes(ymin = p_cases_infected_smooth_low,
+  #                 ymax = p_cases_infected_smooth_high), 
+  #             alpha=0.3, fill = "blue") +
+  labs(title = paste0("Active"), 
+       x = "Date", y = "Ratio") +
   theme_bw()
 p_test
 
