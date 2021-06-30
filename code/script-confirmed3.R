@@ -28,6 +28,7 @@ estimates_path <- "../data/estimates-confirmed/PlotData/"
 # data_path_Ox <- "../coronasurveys/data/oxford/PlotData/"
 # estimates_path <- "./estimates-confirmed/"
 
+smooth_param <- 15
 
 contagious_window <- 12
 active_window <- 10 # Changed from 18 on May 30th, 2021
@@ -84,8 +85,10 @@ plot_estimates <- function(dt,country_geoid = "AF",
   dt$p_cases_contagious <- abs(dt$cases_contagious/dt$population)
   dt$p_cases_active <- abs(dt$cases_active/dt$population)
   
-  dt$p_cases_active_slope <- rollapply(dt$p_cases_active,7,get_slope7,fill=0,align="right")
-  dt$p_cases_active_slope2 <- rollapply(dt$p_cases_active_slope,7,get_slope7,fill=0,align="right")
+  dt$p_cases_active_smooth <- 
+    with(dt, ksmooth(date, dt$p_cases_active, kernel = "normal", bandwidth = smooth_param, x.points=date))$y
+  dt$p_cases_active_smooth_slope <- rollapply(dt$p_cases_active_smooth,7,get_slope7,fill=0,align="right")
+  dt$p_cases_active_smooth_slope2 <- rollapply(dt$p_cases_active_smooth_slope,7,get_slope7,fill=0,align="right")
     
   dir.create(estimates_path, showWarnings = F)
   # cat("::- script-confirmed: Writing data for", country_geoid, "::\n")

@@ -1,7 +1,7 @@
-"date","countrycode","cum_cases","cum_deaths","population","cases","deaths","cases_daily","cases_infected","cases_contagious","cases_active","p_cases_infected","p_cases_daily","p_cases_contagious","p_cases_active","p_cases_active_slope","p_cases_active_slope2"
-"2020-03-16","YT",1,0,256518,0,0,0,1,NA,NA,3.89836190832612e-06,0,NA,NA,0,0
-"2020-03-17","YT",1,0,256518,0,0,0,1,NA,NA,3.89836190832612e-06,0,NA,NA,0,0
-"2020-03-18","YT",3,0,256518,2,0,2,3,NA,NA,1.16950857249784e-05,7.79672381665224e-06,NA,NA,0,0
-"2020-03-19","YT",3,0,256518,0,0,0,3,NA,NA,1.16950857249784e-05,0,NA,NA,0,0
-"2020-03-20","YT",6,0,256518,3,0,3,6,NA,NA,2.33901714499567e-05,1.16950857249784e-05,NA,NA,0,0
-"2020-03-21","YT",7,0,256518,1,0,1,7,NA,NA,2.72885333582828e-05,3.89836190832612e-06,NA,NA,0,0
+"date","countrycode","cum_cases","cum_deaths","population","cases","deaths","cases_daily","cases_infected","cases_contagious","cases_active","p_cases_infected","p_cases_daily","p_cases_contagious","p_cases_active","p_cases_active_smooth","p_cases_active_smooth_slope","p_cases_active_smooth_slope2"
+"2020-03-16","YT",1,0,256518,0,0,0,1,NA,NA,3.89836190832612e-06,0,NA,NA,NA,0,0
+"2020-03-17","YT",1,0,256518,0,0,0,1,NA,NA,3.89836190832612e-06,0,NA,NA,NA,0,0
+"2020-03-18","YT",3,0,256518,2,0,2,3,NA,NA,1.16950857249784e-05,7.79672381665224e-06,NA,NA,NA,0,0
+"2020-03-19","YT",3,0,256518,0,0,0,3,NA,NA,1.16950857249784e-05,0,NA,NA,NA,0,0
+"2020-03-20","YT",6,0,256518,3,0,3,6,NA,NA,2.33901714499567e-05,1.16950857249784e-05,NA,NA,NA,0,0
+"2020-03-21","YT",7,0,256518,1,0,1,7,NA,NA,2.72885333582828e-05,3.89836190832612e-06,NA,NA,NA,0,0
