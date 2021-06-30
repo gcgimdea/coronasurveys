@@ -48,6 +48,8 @@ plot_estimates <- function(dt,country_geoid = "AF",
                            active_window){
   # cat("::- script-confirmed: Working on", country_geoid, "::\n")
   
+  dt$date <- as.Date(dt$date)
+  
   pop_data <- read.csv(pop_file, as.is = T, na.string = "NaN")
   pop <- which(pop_data$ISO2 == country_geoid)
   dt$population <- pop_data$population[pop[1]]
