@@ -3,7 +3,7 @@ library(tidyverse)
 # ----
 
 start_date <- as.Date("2021-01-01")
-end_date <- Sys.Date()
+end_date <- Sys.Date()-2
 
 # dt <- read_csv("../data/estimates-W/PlotData/US-estimate.csv")
 dt <- read_csv("../data/estimates-symptom-survey/PlotData/IN-estimate.csv")
@@ -30,9 +30,9 @@ normalized <- function(x) {
 # ----
 
 dt$y1 <- normalized(dt$p_cli_smooth)
-dt$y2 <- normalized(dt$p_cli_smooth_slope)
-dt$y3 <- normalized(dt$p_cli_smooth_slope2)
-dt$y4 <- normalized(dt2$p_cases_active)
+dt$y2 <- normalized(dt2$p_cases_active_smooth_slope)
+dt$y3 <- normalized(dt2$p_cases_active_smooth_slope2)
+dt$y4 <- normalized(dt2$p_cases_active_smooth)
 
 p_test <- ggplot(dt, aes(x = date)) +
   # geom_point(aes(y = p_cases_infected), 
