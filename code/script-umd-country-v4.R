@@ -19,13 +19,13 @@ cols_to_use <- c("ISO2",	"ISO_3",	"country_agg",	"date",	"first_date",	"count",
                  "day_count",	"days_aggregated",
                  "p_cli",	"p_cli_CI",	"p_cli_weight",	"p_cli_weight_CI",	
                  "p_cliWHO",	"p_cliWHO_CI",	"p_cliWHO_weight",	"p_cliWHO_weight_CI",	
-                 "p_cli_local",	"p_cli_local_CI", "TPR", "TPR_CI")
+                 "p_cli_local",	"p_cli_local_CI", "test_recent", "positive_recent")
 
 character_cols <- c("ISO2",	"ISO_3",	"country_agg")
 date_cols <- c("date", "first_date")
 numeric_cols <- c("count", "day_count", "days_aggregated", "p_cli",	"p_cli_CI",	"p_cli_weight",	"p_cli_weight_CI",	
                   "p_cliWHO",	"p_cliWHO_CI",	"p_cliWHO_weight",	"p_cliWHO_weight_CI",	"p_cli_local",	"p_cli_local_CI", 
-                  "TPR", "TPR_CI")
+                  "test_recent", "positive_recent")
 
 smooth_param <- 15
 
