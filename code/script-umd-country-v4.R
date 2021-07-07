@@ -98,6 +98,8 @@ process_country <- function(file) {
   DT <- DT[, p_cli_smooth_slope2 := rollapply(DT[,p_cli_smooth_slope],7,get_slope7,fill=NA,align="right")]
   DT <- DT[, p_cliWHO_smooth_slope2 := rollapply(DT[,p_cliWHO_smooth_slope],7,get_slope7,fill=NA,align="right")]
   
+  DT <- DT[, p_cases_active := p_cli_smooth]
+  
   filename <- paste0(estimates_path, iso2, "-estimate.csv")
   fwrite(DT, filename)
 }
