@@ -116,6 +116,8 @@ process_country <- function(file) {
     dfr$p_cliWHO_weight_smooth_slope <- rollapply(dfr$p_cliWHO_weight_smooth,7,get_slope7,fill=NA,align="right")
     dfr$p_cli_local_smooth_slope <- rollapply(dfr$p_cli_local_smooth,7,get_slope7,fill=NA,align="right")
 
+    dfr$p_cases_active <- dfr$p_cli_smooth
+    
     if (is.data.frame(dfTotal)) {
       dfTotal <- rbind(dfTotal, dfr)
     } else {
