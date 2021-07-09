@@ -118,9 +118,11 @@ process_country <- function(file) {
     dfr$p_cliWHO_weight_smooth_slope <- rollapply(dfr$p_cliWHO_weight_smooth,7,get_slope7,fill=NA,align="right")
     dfr$p_cli_local_smooth_slope <- rollapply(dfr$p_cli_local_smooth,7,get_slope7,fill=NA,align="right")
 
-    dfr$p_cases_infected <- dfr$B0.1 / (dfr$B0.1 + dfr$B0.2)
-    dfr$p_cases_infected_smooth <- 
-      with(dfr, ksmooth(date, p_cases_infected, kernel = "normal", bandwidth = smooth_param, x.points=date))$y
+    if ("B0.1" %in% colnames(dfr)) {
+      dfr$p_cases_infected <- dfr$B0.1 / (dfr$B0.1 + dfr$B0.2)
+      dfr$p_cases_infected_smooth <- 
+        with(dfr, ksmooth(date, p_cases_infected, kernel = "normal", bandwidth = smooth_param, x.points=date))$y
+    }
     dfr$p_cases_active <- dfr$p_cli_smooth
       
     if (is.data.frame(dfTotal)) {
