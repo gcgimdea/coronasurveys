@@ -66,7 +66,7 @@ process_country <- function(file) {
   } else {
     DT2021 <- data.table() 
   }
-  DT <- rbindlist(list(DT2020, DT2021), use.names=TRUE)
+  DT <- rbindlist(list(DT2020, DT2021), use.names=TRUE, fill=TRUE)
   
   DT <- DT[order(date)]
   
