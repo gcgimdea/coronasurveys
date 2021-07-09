@@ -15,17 +15,19 @@ files2020 <- list.files(path=responses_path2020, pattern="*.csv", full.names=FAL
 files2021 <- list.files(path=responses_path2021, pattern="*.csv", full.names=FALSE, recursive=FALSE)
 files <- unique(c(files2020, files2021))
 
-cols_to_use <- c("ISO2",	"ISO_3",	"country_agg",	"region_agg", "date", "first_date", "count", "day_count", "days_aggregated",
-                 "p_cli",	"p_cli_CI",	"p_cli_weight",	"p_cli_weight_CI",	
-                 "p_cliWHO",	"p_cliWHO_CI",	"p_cliWHO_weight",	"p_cliWHO_weight_CI",	
-                 "p_cli_local",	"p_cli_local_CI", "test_recent", "positive_recent")
+# cols_to_use <- c("ISO2",	"ISO_3",	"country_agg",	"region_agg", "date", "first_date", "count", "day_count", "days_aggregated",
+#                  "p_cli",	"p_cli_CI",	"p_cli_weight",	"p_cli_weight_CI",	
+#                  "p_cliWHO",	"p_cliWHO_CI",	"p_cliWHO_weight",	"p_cliWHO_weight_CI",	
+#                  "p_cli_local",	"p_cli_local_CI", "test_recent", "positive_recent", "B0.1", "B0.2")
 
 character_cols <- c("ISO2",	"ISO_3",	"country_agg",	"region_agg")
 date_cols <- c("date", "first_date")
 numeric_cols <- c("count", "day_count", "days_aggregated", "p_cli",	"p_cli_CI",	"p_cli_weight",	"p_cli_weight_CI",	
                   "p_cliWHO",	"p_cliWHO_CI",	"p_cliWHO_weight",	"p_cliWHO_weight_CI",	"p_cli_local",	"p_cli_local_CI", 
-                  "test_recent", "positive_recent")
+                  "test_recent", "positive_recent", "B0.1", "B0.2")
 
+cols_to_use <- c(character_cols, date_cols, numeric_cols)  
+  
 smooth_param <- 15
 
 
