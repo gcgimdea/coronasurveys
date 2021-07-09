@@ -52,7 +52,8 @@ process_country <- function(file) {
     DT2020 <- fread(f2020)
     DT2020 <- DT2020[,date:=as.Date(date)]
     DT2020 <- DT2020[,first_date:=as.Date(first_date)]
-    DT2020 <- DT2020[date >= "2020-01-01" & date <= "2020-12-31", ..cols_to_use]
+    # DT2020 <- DT2020[date >= "2020-01-01" & date <= "2020-12-31", ..cols_to_use]
+    DT2020 <- DT2020[date >= "2020-01-01" & date <= "2020-12-31", ]
   } else {
     DT2020 <- data.table() 
   }
@@ -60,6 +61,7 @@ process_country <- function(file) {
     DT2021 <- fread(f2021)
     DT2021 <- DT2021[,date:=as.Date(date)]
     DT2021 <- DT2021[,first_date:=as.Date(first_date)]
+    # DT2021 <- DT2021[date >= "2021-01-01" & date <= "2021-12-31", ..cols_to_use]
     DT2021 <- DT2021[date >= "2021-01-01" & date <= "2021-12-31", ..cols_to_use]
   } else {
     DT2021 <- data.table() 
