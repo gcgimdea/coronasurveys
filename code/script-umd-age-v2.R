@@ -48,8 +48,9 @@ process_country <- function(file) {
   df <- data.frame()
   if (file.exists(f2020)) {
     df <- fread(f2020, data.table = F)
-    # df <- df %>% 
-    #   dplyr::select(all_of(cols_to_use))
+    cols_filter <- intersect(cols_to_use, colnames(df))
+    df <- df %>%
+      dplyr::select(all_of(cols_filter))
     for (c in intersect(character_cols, colnames(df))) {
       df[[c]] <- as.character(df[[c]])
     }
@@ -65,8 +66,9 @@ process_country <- function(file) {
   }
   if (file.exists(f2021)) {
     df2 <- fread(f2021, data.table = F)
-    # df2 <- df2 %>% 
-    #   dplyr::select(all_of(cols_to_use))
+    cols_filter <- intersect(cols_to_use, colnames(df2))
+    df2 <- df2 %>%
+      dplyr::select(all_of(cols_filter))
     for (c in intersect(character_cols, colnames(df2))) {
       df2[[c]] <- as.character(df2[[c]])
     }
