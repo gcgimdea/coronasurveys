@@ -98,6 +98,9 @@ process_country <- function(file) {
   DT <- DT[, p_cli_smooth_slope2 := rollapply(DT[,p_cli_smooth_slope],7,get_slope7,fill=NA,align="right")]
   DT <- DT[, p_cliWHO_smooth_slope2 := rollapply(DT[,p_cliWHO_smooth_slope],7,get_slope7,fill=NA,align="right")]
   
+  DT <- DT[, p_cases_infected := B0.1/(B0.1 + B0.2)]
+  DT <- DT[, p_cases_infected_smooth := 
+             with(DT, ksmooth(date, p_cases_infected, kernel = "normal", bandwidth = smooth_param, x.points=date))$y]
   DT <- DT[, p_cases_active := p_cli_smooth]
   
   filename <- paste0(estimates_path, iso2, "-estimate.csv")
