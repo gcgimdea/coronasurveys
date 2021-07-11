@@ -7,7 +7,7 @@ source("smooth_column-v2.R")
 # population <- 6663394
 
 estimates_path <- "../data/estimates-provinces/"
-estimates_umd_path <- "../data/estimates-symptom-survey/region/ES-estimate.csv"
+estimates_umd_path <- "../data/estimates-symptom-survey/region/ES.csv"
 plots_path <- "../data/estimates-provinces/plots/"
 ccfr_path <- "../data/estimates-ccfr-based/ES/"
 
@@ -122,17 +122,22 @@ df_umd <- df_umd[df_umd$region == "Comunidad de Madrid",]
 #df_umd <- df_umd %>% select(date, pct_cli_weighted) #, batched_pct_cli)
 df_umd$date <- as.Date(df_umd$date)
 
-cat("Smoothing p_cli\n")
-df_umd <- smooth_column(df_in = df_umd,
-                    col_s = "p_cli",
-                    basis_dim = smooth_param,
-                    link_in = "log")
+# cat("Smoothing p_cli\n")
+# df_umd <- smooth_column(df_in = df_umd,
+#                     col_s = "p_cli",
+#                     basis_dim = smooth_param,
+#                     link_in = "log")
 
-cat("Smoothing p_cli_local\n")
-df_umd <- smooth_column(df_in = df_umd,
-                        col_s = "p_cli_local",
-                        basis_dim = smooth_param,
-                        link_in = "log")
+# cat("Smoothing p_cli_local\n")
+# df_umd <- smooth_column(df_in = df_umd,
+#                         col_s = "p_cli_local",
+#                         basis_dim = smooth_param,
+#                         link_in = "log")
+
+df_umd$p_cli_smooth_low <- df_umd$p_cli_smooth - df_umd$p_cli_CI_smooth
+df_umd$p_cli_smooth_high <- df_umd$p_cli_smooth + df_umd$p_cli_CI_smooth
+df_umd$p_cli_local_smooth_low <- df_umd$p_cli_local_smooth - df_umd$p_cli_local_CI_smooth
+df_umd$p_cli_local_smooth_high <- df_umd$p_cli_local_smooth + df_umd$p_cli_local_CI_smooth
 
 df_umd <- df_umd[df_umd$date >= ymd(start_date),]
 

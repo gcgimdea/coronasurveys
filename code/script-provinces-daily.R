@@ -20,8 +20,8 @@ recent_cutoff <- 1/3
 max_responses = 100
 max_age <- 1000
 max_age_recent <- 7
-sampling <- 5000 # If the reach is < population/sampling the estimate is NA
-sampling_recent <- 10000 # If the reach is < population/sampling_recent the estimate is NA
+sampling <- 10000 # If the reach is < population/sampling the estimate is NA
+sampling_recent <- 50000 # If the reach is < population/sampling_recent the estimate is NA
 
 
 remove_outliers <- function(dt, ratio_cutoff=1/3, fatalities_cutoff=1/10) {
