@@ -20,7 +20,7 @@ carto_base <- left_join(carto_base, iso_texto)
 
 #carto_base <- carto_base[, c("region","geometry")]
 
-estimates <- iso_texto <- read.csv(paste0(estimates_path, "ES/ES-latest-estimate.csv"), as.is = T)
+estimates <- read.csv(paste0(estimates_path, "ES/ES-latest-estimate.csv"), as.is = T)
 
 estimates$reach_ratio <- 100000*estimates$reach / estimates$population
 estimates$reach_recent_ratio <- 100000*estimates$reach_recent / estimates$population
