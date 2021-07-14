@@ -33,7 +33,7 @@ propheting_signal <- function(to_try_extra,
     print(paste0("Forecasting ",  region_in, "'s ", var_to_select))
     
     df_in <- data_df %>%
-      filter(region_agg == region_in) %>% 
+      filter(region == region_in) %>% 
       select(date, all_of(var_to_select))
     
     # renaming variables:
@@ -168,7 +168,7 @@ propheting_cv_tune <- function(to_try_extra,
   ## prior.scale:     strength of the sparse prior impossed to seasonality
   ##
   ## Output:
-  ## df_out:          ¿¿¿ a matrix with the forecasted signals and CIs (yhat, yhat_lower/upper),
+  ## df_out:          ??? a matrix with the forecasted signals and CIs (yhat, yhat_lower/upper),
   ##                  and a new column indicating the name of the signal. ???
   
   if (is.null(all_grid)) {
@@ -214,7 +214,7 @@ propheting_cv_tune <- function(to_try_extra,
         
         
         df_in <- data_df %>%
-          filter(region_agg == region_in) %>% 
+          filter(region == region_in) %>% 
           select(date, all_of(var_to_select))
         
         # renaming variables:
@@ -327,7 +327,7 @@ do_tuning_n_forcasting <- function(to_try_extra,
     all_best_hiper <- data.frame()    # best hiperparameters
     
     
-    for (region_in in unique(data_df$region_agg)) {
+    for (region_in in unique(data_df$region)) {
       
       tryCatch(
         expr = {
@@ -396,7 +396,7 @@ do_tuning_n_forcasting <- function(to_try_extra,
       
     }
     
-    for (region_in in unique(data_df$region_agg)) {
+    for (region_in in unique(data_df$region)) {
       
       
       ### Check if we have the hiperparameters for that region:
@@ -422,7 +422,7 @@ do_tuning_n_forcasting <- function(to_try_extra,
                                        to_plot = F,
                                        best_hiperparam = best_hiperparam)
           
-          df_test$region_agg <- region_in
+          df_test$region <- region_in
           
           all_df_forecasted <- rbind(all_df_forecasted, df_test)
           
@@ -447,7 +447,7 @@ do_tuning_n_forcasting <- function(to_try_extra,
                       "trend",
                       "trend_lower",
                       "trend_upper")) %>% 
-      full_join(data_df, by = c("date", "region_agg"))
+      full_join(data_df, by = c("date", "region"))
     
     # savings:
     write_csv(all_df_forecasted, 
@@ -461,7 +461,7 @@ do_tuning_n_forcasting <- function(to_try_extra,
   
 ### Paths ----
 
-in_path_region <- "../data/estimates-symptom-survey/region/"
+in_path_region <- "../data/estimates-symptom-survey/PlotData/regional_data/"
 out_path_region <- "../data/estimates-symptom-survey/prophet/region/" # name: XX.csv
 path_hiperp_region <- "../data/estimates-symptom-survey/prophet/hiperp_region/"
 

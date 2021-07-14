@@ -3,21 +3,21 @@ library(tidyverse)
 do_check_plot <- function(signal_to_plot, data_df, all_df_forecasted){
   
   p <- 
-  ggplot(data = all_df_forecasted, aes(x = date, group = region_agg) ) +
+  ggplot(data = all_df_forecasted, aes(x = date, group = region) ) +
     geom_line(aes_string(y = paste0("yhat_", signal_to_plot)), 
               color = "blue", alpha = 0.8) +
     geom_point(aes_string(y = signal_to_plot), 
                color = "red", alpha = 0.3) +
     geom_point(data = data_df, aes_string(x = "date", 
                                           y = signal_to_plot, 
-                                          group = "region_agg"), 
+                                          group = "region"), 
                color = "yellow", alpha = 0.2) +
     geom_ribbon(aes_string(ymin = paste0("yhat_lower_", signal_to_plot), 
                            ymax = paste0("yhat_upper_", signal_to_plot)),
                 fill = "blue", alpha = 0.1) +
-    facet_wrap(~region_agg) +
+    facet_wrap(~region) +
     ylab(signal_to_plot) + xlab("") +
-    labs(title = unique(all_df_forecasted$country_agg)) + 
+    labs(title = unique(all_df_forecasted$country)) + 
     theme_bw()
   
   print(p)
@@ -25,7 +25,7 @@ do_check_plot <- function(signal_to_plot, data_df, all_df_forecasted){
 }
 
 
-in_path_region <- "../data/estimates-symptom-survey/region/"
+in_path_region <- "../data/estimates-symptom-survey/PlotData/regional_data/"
 out_path_region <- "../data/estimates-symptom-survey/prophet/region/" # name: XX.csv
 path_hiperp_region <- "../data/estimates-symptom-survey/prophet/hiperp_region/"
 

@@ -7,7 +7,7 @@ source("smooth_column-v2.R")
 # population <- 6663394
 
 estimates_path <- "../data/estimates-provinces/"
-estimates_umd_path <- "../data/estimates-symptom-survey/region/ES.csv"
+estimates_umd_path <- "../data/estimates-symptom-survey/PlotData/regional_data/ES.csv"
 plots_path <- "../data/estimates-provinces/plots/"
 ccfr_path <- "../data/estimates-ccfr-based/ES/"
 
