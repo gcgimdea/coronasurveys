@@ -148,13 +148,13 @@ for (country in countries) {
   df_umd$date <- as.Date(df_umd$date)
   df_umd <- df_umd[which((df_umd$date >= start_date) & (df_umd$date <= end_date)),]
   
-  df_umd <- df_umd[which(!is.na(df_umd$region_agg)),]
-  regions <- unique(df_umd$region_agg)
+  df_umd <- df_umd[which(!is.na(df_umd$region)),]
+  regions <- unique(df_umd$region)
 
   dir.create(paste0(plots_path, country, "/"), showWarnings = F)
   for (r in regions) {
     cat(r, " ")
-    df <- df_umd[df_umd$region_agg == r,]
+    df <- df_umd[df_umd$region == r,]
     if (nrow(df) >= smooth_param) {
       df <- plot_region(df, country, region = r)
     }
