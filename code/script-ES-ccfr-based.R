@@ -85,6 +85,12 @@ plot_estimates <- function(region_ine = 1,
   dt$cum_cases <- cumsum(dt$cases)
   dt$cum_deaths <- cumsum(dt$deaths)
   
+  #active
+  if (nrow(dt) >= active_window){
+    dt$p_confirmed_active <- cumsum(c(dt$cases[1:active_window],
+                                diff(dt$cases, lag = active_window))) / dt$population[1]
+  }else {dt$p_confirmed_active <- NA}
+  
   dt$date <- as.Date(dt$fecha, format = "%Y-%m-%d")
   #dt$fecha <- gsub("-", "/", dt$date)
   
@@ -169,7 +175,7 @@ plot_estimates <- function(region_ine = 1,
   # dt$p_cases_active_undetected <- dt$cases_active_undected/dt$population
   
   dt_w <- dt %>% 
-    select("date", "ccaa", "reg_code", "population", "cases", "deaths", "cum_cases", "cum_deaths", 
+    select("date", "ccaa", "reg_code", "population", "cases", "deaths", "cum_cases", "cum_deaths", "p_confirmed_active",
            "cases_infected", "cases_infected_low", "cases_infected_high",
            "cases_daily", "cases_contagious", "cases_active", 
            "p_cases_infected", "p_cases_infected_low", "p_cases_infected_high", 
