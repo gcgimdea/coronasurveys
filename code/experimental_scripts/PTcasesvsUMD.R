@@ -3,7 +3,7 @@ library(BBmisc) # maybe for more compact normalization later
 library(zoo) # to use rollmean
 #library(naniar) # replace_with_na_at
 
-dataumd <- read.csv("../../data/estimates-symptom-survey/PlotData/IR-estimate.csv")
+dataumd <- read.csv("../../data/estimates-symptom-survey/PlotData/DE-estimate.csv")
 dataumd$date <- as.Date(dataumd$date)
 
 # Prune days
@@ -12,7 +12,7 @@ dataumd$date <- as.Date(dataumd$date)
 
 #plot(data$pct_cli_smooth)
 
-dataccfr <- read.csv("../../data/estimates-ccfr-based/PlotData/IR-estimate.csv")
+dataccfr <- read.csv("../../data/estimates-ccfr-based/PlotData/DE-estimate.csv")
 dataccfr$date <- as.Date(dataccfr$date)
 pop <- dataccfr$population[1]
 
@@ -29,6 +29,8 @@ c <- rollmean(joined$cases,1)
 #rs <- joined$p_cli_smooth_slope
 cli_ks <- ksmooth(joined$date,joined$p_cli, "normal", bandwidth = 30)
 cases_ks <- ksmooth(joined$date,joined$cases, "normal", bandwidth = 20)
+cli_ma <- rollmean(joined$p_cli,7)
+cases_ma <- rollmean(joined$cases,7)
 #rs[is.na(rs)] <- 0
 
 
@@ -42,6 +44,8 @@ cases_ks <- ksmooth(joined$date,joined$cases, "normal", bandwidth = 20)
 c <- normalize(c,method="range")
 cli_ks <- normalize(cli_ks$y, method="range")
 cases_ks <- normalize(cases_ks$y, method="range")
+cli_ma <- normalize(cli_ma,method="range")
+cases_ma <- normalize(cases_ma,method="range")
 
 # Make 1st derivative
 cli_ksd <- diff(cli_ks,lag=4)
