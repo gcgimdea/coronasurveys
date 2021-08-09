@@ -1,8 +1,8 @@
 # load library
 library(dplyr)
-library(ggplot2)
-library(httr)
-library(jsonlite)
+# library(ggplot2)
+# library(httr)
+# library(jsonlite)
 library(stringr)
 
 DATA_URL = "https://raw.githubusercontent.com/OxCGRT/covid-policy-tracker/master/data/OxCGRT_latest.csv"
