@@ -4,6 +4,7 @@ library(dplyr)
 # library(httr)
 # library(jsonlite)
 library(stringr)
+library(readr)
 
 DATA_URL = "https://raw.githubusercontent.com/OxCGRT/covid-policy-tracker/master/data/OxCGRT_latest.csv"
 country_file <- "../data/common-data/country_oxford.csv"
@@ -11,7 +12,7 @@ region_file <- "../data/common-data/region_oxford.csv"
 data_file <- "../data/common-data/oxford-umd-country-population.csv"
 output_path = "../data/oxford/"
 
-data_ox <- read.csv(DATA_URL, as.is = T)
+data_ox <- read_csv(DATA_URL) #, as.is = T)
 cat("::- script-confirmed: Oxford data available! ::\n")
 jurisdictions <- unique(data_ox$Jurisdiction)
 if (length(jurisdictions) != 2) {
