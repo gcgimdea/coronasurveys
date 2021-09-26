@@ -70,16 +70,13 @@ plot_estimates <- function(dt,country_geoid = "AF",
   }
   
   #symptomatic
-  # Version 1: A new case is propagated to the future
-  # if (nrow(dt) >= active_window){
-  #   dt$cases_active <- cumsum(c(dt$cases[1:active_window], diff(dt$cases, lag = active_window)))
-  # }
-  # else {
-  #   dt$cases_active <- NA
-  # }
-  # Version 2: A new case is scaled up by active_window (added 2021-09-26)
-  dt$cases_active <- active_window * dt$cases
-
+  if (nrow(dt) >= active_window){
+    dt$cases_active <- cumsum(c(dt$cases[1:active_window], diff(dt$cases, lag = active_window)))
+  }
+  else {
+    dt$cases_active <- NA
+  }
+  
   # - Cases_infected: Population that is or has been infected of COVID-19.
   # - Cases_daily: Population infected (detected or reported) that day (to the available knowledge). In general we will not be able to say whether they have cases_actives or not.
   # - Cases_contagious: Those infected that can transmit the virus on a given day (assumes a case is contagious 12 days after infected)
