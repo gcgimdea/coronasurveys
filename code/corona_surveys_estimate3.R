@@ -37,6 +37,8 @@ try(source("script-provinces-daily.R"), silent = T)
 try(source("script-provinces-map.R"), silent = T)
 try(source("script-provinces-plot.R"), silent = T)
 
+try(source("script-combined-region-province.R"), silent = T)
+
 # The estimates based on fatalities use the Oxford official data. Has to be changes if using JHU
 try(source("script-ccfr-fatalities-country.R"), silent = T)
 
