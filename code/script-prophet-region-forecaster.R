@@ -359,7 +359,7 @@ do_tuning_n_forcasting <- function(to_try_extra,
     
     # savings
     write_csv(all_best_hiper, 
-              file = paste0(path_hiperp_region, country_in))
+              paste0(path_hiperp_region, country_in))
     
   } # end-loop-country_in
   
@@ -451,7 +451,7 @@ do_tuning_n_forcasting <- function(to_try_extra,
     
     # savings:
     write_csv(all_df_forecasted, 
-              file = paste0(out_path_region, country_in))
+              paste0(out_path_region, country_in))
     
   } # end-loop-country_in
   
@@ -469,14 +469,14 @@ path_hiperp_region <- "../data/estimates-symptom-survey/prophet/hiperp_region/"
 ### Signals to forecast ----
 to_try_extra <- c(
   "p_cli_smooth",
-  "p_cli_CI_smooth",
-  "p_cli_weight_smooth",
-  "p_cli_weight_CI_smooth",
+  # "p_cli_CI_smooth",
+  # "p_cli_weight_smooth",
+  # "p_cli_weight_CI_smooth",
   "p_cliWHO_smooth",
-  "p_cliWHO_CI_smooth",
-  "p_cliWHO_weight_smooth",
-  "p_cliWHO_weight_CI_smooth",
-  "p_cli_local_CI_smooth",
+  # "p_cliWHO_CI_smooth",
+  # "p_cliWHO_weight_smooth",
+  # "p_cliWHO_weight_CI_smooth",
+  # "p_cli_local_CI_smooth",
   "p_cli_local_smooth"
 )  
 
@@ -486,8 +486,8 @@ available_country_reg <- list.files(in_path_region)
 
 ### Just some to optimize
 optimize_country_reg <- c(
-  "IN.csv"
-  # "ES.csv"
+  # "IN.csv"
+  "ES.csv"
 )
 
 # Grid of options to optimize (there's a default in propheting_cv_tuning):
