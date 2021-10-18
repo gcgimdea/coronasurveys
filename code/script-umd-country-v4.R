@@ -29,7 +29,7 @@ numeric_cols <- c("count", "day_count", "days_aggregated", "p_cli",	"p_cli_CI",	
 
 cols_to_use <- c(character_cols, date_cols, numeric_cols)
 
-smooth_param <- 15
+smooth_param <- 30
 
 
 get_slope7 <- function(x) {
@@ -72,35 +72,35 @@ process_country <- function(file) {
   
   DT <- DT[, p_cli_smooth := 
              with(DT, ksmooth(date, p_cli, kernel = "normal", bandwidth = smooth_param, x.points=date))$y]
-  DT <- DT[, p_cli_CI_smooth := 
-             with(DT, ksmooth(date, p_cli_CI, kernel = "normal", bandwidth = smooth_param, x.points=date))$y]
-  DT <- DT[, p_cli_weight_smooth := 
-             with(DT, ksmooth(date, p_cli_weight, kernel = "normal", bandwidth = smooth_param, x.points=date))$y]
-  DT <- DT[, p_cli_weight_CI_smooth := 
-             with(DT, ksmooth(date, p_cli_weight_CI, kernel = "normal", bandwidth = smooth_param, x.points=date))$y]
-  DT <- DT[, p_cliWHO_smooth := 
-             with(DT, ksmooth(date, p_cliWHO, kernel = "normal", bandwidth = smooth_param, x.points=date))$y]
-  DT <- DT[, p_cliWHO_CI_smooth := 
-             with(DT, ksmooth(date, p_cliWHO_CI, kernel = "normal", bandwidth = smooth_param, x.points=date))$y]
-  DT <- DT[, p_cliWHO_weight_smooth := 
-             with(DT, ksmooth(date, p_cliWHO_weight, kernel = "normal", bandwidth = smooth_param, x.points=date))$y]
-  DT <- DT[, p_cliWHO_weight_CI_smooth := 
-             with(DT, ksmooth(date, p_cliWHO_weight_CI, kernel = "normal", bandwidth = smooth_param, x.points=date))$y]
-  DT <- DT[, p_cli_local_smooth := 
-             with(DT, ksmooth(date, p_cli_local, kernel = "normal", bandwidth = smooth_param, x.points=date))$y]
-  DT <- DT[, p_cli_local_CI_smooth := 
-             with(DT, ksmooth(date, p_cli_local_CI, kernel = "normal", bandwidth = smooth_param, x.points=date))$y]
+  # DT <- DT[, p_cli_CI_smooth := 
+  #            with(DT, ksmooth(date, p_cli_CI, kernel = "normal", bandwidth = smooth_param, x.points=date))$y]
+  # DT <- DT[, p_cli_weight_smooth := 
+  #            with(DT, ksmooth(date, p_cli_weight, kernel = "normal", bandwidth = smooth_param, x.points=date))$y]
+  # DT <- DT[, p_cli_weight_CI_smooth := 
+  #            with(DT, ksmooth(date, p_cli_weight_CI, kernel = "normal", bandwidth = smooth_param, x.points=date))$y]
+  # DT <- DT[, p_cliWHO_smooth := 
+  #            with(DT, ksmooth(date, p_cliWHO, kernel = "normal", bandwidth = smooth_param, x.points=date))$y]
+  # DT <- DT[, p_cliWHO_CI_smooth := 
+  #            with(DT, ksmooth(date, p_cliWHO_CI, kernel = "normal", bandwidth = smooth_param, x.points=date))$y]
+  # DT <- DT[, p_cliWHO_weight_smooth := 
+  #            with(DT, ksmooth(date, p_cliWHO_weight, kernel = "normal", bandwidth = smooth_param, x.points=date))$y]
+  # DT <- DT[, p_cliWHO_weight_CI_smooth := 
+  #            with(DT, ksmooth(date, p_cliWHO_weight_CI, kernel = "normal", bandwidth = smooth_param, x.points=date))$y]
+  # DT <- DT[, p_cli_local_smooth := 
+  #            with(DT, ksmooth(date, p_cli_local, kernel = "normal", bandwidth = smooth_param, x.points=date))$y]
+  # DT <- DT[, p_cli_local_CI_smooth := 
+  #            with(DT, ksmooth(date, p_cli_local_CI, kernel = "normal", bandwidth = smooth_param, x.points=date))$y]
   
   # First derivative
-  DT <- DT[, p_cli_smooth_slope := rollapply(DT[,p_cli_smooth],7,get_slope7,fill=NA,align="right")]
-  DT <- DT[, p_cli_weight_smooth_slope := rollapply(DT[,p_cli_weight_smooth],7,get_slope7,fill=NA,align="right")]
-  DT <- DT[, p_cliWHO_smooth_slope := rollapply(DT[,p_cliWHO_smooth],7,get_slope7,fill=NA,align="right")]
-  DT <- DT[, p_cliWHO_weight_smooth_slope := rollapply(DT[,p_cliWHO_weight_smooth],7,get_slope7,fill=NA,align="right")]
-  DT <- DT[, p_cli_local_smooth_slope := rollapply(DT[,p_cli_local_smooth],7,get_slope7,fill=NA,align="right")]
+  # DT <- DT[, p_cli_smooth_slope := rollapply(DT[,p_cli_smooth],7,get_slope7,fill=NA,align="right")]
+  # DT <- DT[, p_cli_weight_smooth_slope := rollapply(DT[,p_cli_weight_smooth],7,get_slope7,fill=NA,align="right")]
+  # DT <- DT[, p_cliWHO_smooth_slope := rollapply(DT[,p_cliWHO_smooth],7,get_slope7,fill=NA,align="right")]
+  # DT <- DT[, p_cliWHO_weight_smooth_slope := rollapply(DT[,p_cliWHO_weight_smooth],7,get_slope7,fill=NA,align="right")]
+  # DT <- DT[, p_cli_local_smooth_slope := rollapply(DT[,p_cli_local_smooth],7,get_slope7,fill=NA,align="right")]
   
   # Second derivative
-  DT <- DT[, p_cli_smooth_slope2 := rollapply(DT[,p_cli_smooth_slope],7,get_slope7,fill=NA,align="right")]
-  DT <- DT[, p_cliWHO_smooth_slope2 := rollapply(DT[,p_cliWHO_smooth_slope],7,get_slope7,fill=NA,align="right")]
+  # DT <- DT[, p_cli_smooth_slope2 := rollapply(DT[,p_cli_smooth_slope],7,get_slope7,fill=NA,align="right")]
+  # DT <- DT[, p_cliWHO_smooth_slope2 := rollapply(DT[,p_cliWHO_smooth_slope],7,get_slope7,fill=NA,align="right")]
   
   if ("B0.1" %in% colnames(DT)) {
     DT <- DT[, p_cases_infected := B0.1/(B0.1 + B0.2)]

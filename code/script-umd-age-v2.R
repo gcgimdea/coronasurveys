@@ -15,11 +15,6 @@ files2020 <- list.files(path=responses_path2020, pattern="*.csv", full.names=FAL
 files2021 <- list.files(path=responses_path2021, pattern="*.csv", full.names=FALSE, recursive=FALSE)
 files <- unique(c(files2020, files2021))
 
-# cols_to_use <- c("ISO2",	"ISO_3",	"country_agg",	"age", "date",	"first_date",	"count", "day_count", "days_aggregated",
-#                  "p_cli",	"p_cli_CI",	"p_cli_weight",	"p_cli_weight_CI",	
-#                  "p_cliWHO",	"p_cliWHO_CI",	"p_cliWHO_weight",	"p_cliWHO_weight_CI",	
-#                  "p_cli_local",	"p_cli_local_CI", "test_recent", "positive_recent", "B0.1", "B0.2")
-
 character_cols <- c("ISO2",	"ISO_3",	"country_agg",	"age")
 date_cols <- c("date",	"first_date")
 numeric_cols <- c("count", "day_count", "days_aggregated", "p_cli",	"p_cli_CI",	"p_cli_weight",	"p_cli_weight_CI",	
@@ -28,7 +23,7 @@ numeric_cols <- c("count", "day_count", "days_aggregated", "p_cli",	"p_cli_CI",	
 
 cols_to_use <- c(character_cols, date_cols, numeric_cols)
 
-smooth_param <- 15
+smooth_param <- 30
 
 
 get_slope7 <- function(x) {
@@ -95,30 +90,30 @@ process_country <- function(file) {
     # cat("Smoothing...")
     dfr$p_cli_smooth <- 
       with(dfr, ksmooth(date, p_cli, kernel = "normal", bandwidth = smooth_param, x.points=date))$y
-    dfr$p_cli_CI_smooth <- 
-      with(dfr, ksmooth(date, p_cli_CI, kernel = "normal", bandwidth = smooth_param, x.points=date))$y
-    dfr$p_cli_weight_smooth <- 
-      with(dfr, ksmooth(date, p_cli_weight, kernel = "normal", bandwidth = smooth_param, x.points=date))$y
-    dfr$p_cli_weight_CI_smooth <- 
-      with(dfr, ksmooth(date, p_cli_weight_CI, kernel = "normal", bandwidth = smooth_param, x.points=date))$y
-    dfr$p_cliWHO_smooth <- 
-      with(dfr, ksmooth(date, p_cliWHO, kernel = "normal", bandwidth = smooth_param, x.points=date))$y
-    dfr$p_cliWHO_CI_smooth <- 
-      with(dfr, ksmooth(date, p_cliWHO_CI, kernel = "normal", bandwidth = smooth_param, x.points=date))$y
-    dfr$p_cliWHO_weight_smooth <- 
-      with(dfr, ksmooth(date, p_cliWHO_weight, kernel = "normal", bandwidth = smooth_param, x.points=date))$y
-    dfr$p_cliWHO_weight_CI_smooth <- 
-      with(dfr, ksmooth(date, p_cliWHO_weight_CI, kernel = "normal", bandwidth = smooth_param, x.points=date))$y
-    dfr$p_cli_local_smooth <- 
-      with(dfr, ksmooth(date, p_cli_local, kernel = "normal", bandwidth = smooth_param, x.points=date))$y
-    dfr$p_cli_local_CI_smooth <- 
-      with(dfr, ksmooth(date, p_cli_local_CI, kernel = "normal", bandwidth = smooth_param, x.points=date))$y
+    # dfr$p_cli_CI_smooth <- 
+    #   with(dfr, ksmooth(date, p_cli_CI, kernel = "normal", bandwidth = smooth_param, x.points=date))$y
+    # dfr$p_cli_weight_smooth <- 
+    #   with(dfr, ksmooth(date, p_cli_weight, kernel = "normal", bandwidth = smooth_param, x.points=date))$y
+    # dfr$p_cli_weight_CI_smooth <- 
+    #   with(dfr, ksmooth(date, p_cli_weight_CI, kernel = "normal", bandwidth = smooth_param, x.points=date))$y
+    # dfr$p_cliWHO_smooth <- 
+    #   with(dfr, ksmooth(date, p_cliWHO, kernel = "normal", bandwidth = smooth_param, x.points=date))$y
+    # dfr$p_cliWHO_CI_smooth <- 
+    #   with(dfr, ksmooth(date, p_cliWHO_CI, kernel = "normal", bandwidth = smooth_param, x.points=date))$y
+    # dfr$p_cliWHO_weight_smooth <- 
+    #   with(dfr, ksmooth(date, p_cliWHO_weight, kernel = "normal", bandwidth = smooth_param, x.points=date))$y
+    # dfr$p_cliWHO_weight_CI_smooth <- 
+    #   with(dfr, ksmooth(date, p_cliWHO_weight_CI, kernel = "normal", bandwidth = smooth_param, x.points=date))$y
+    # dfr$p_cli_local_smooth <- 
+    #   with(dfr, ksmooth(date, p_cli_local, kernel = "normal", bandwidth = smooth_param, x.points=date))$y
+    # dfr$p_cli_local_CI_smooth <- 
+    #   with(dfr, ksmooth(date, p_cli_local_CI, kernel = "normal", bandwidth = smooth_param, x.points=date))$y
     
-    dfr$p_cli_smooth_slope <- rollapply(dfr$p_cli_smooth,7,get_slope7,fill=NA,align="right")
-    dfr$p_cli_weight_smooth_slope <- rollapply(dfr$p_cli_weight_smooth,7,get_slope7,fill=NA,align="right")
-    dfr$p_cliWHO_smooth_slope <- rollapply(dfr$p_cliWHO_smooth,7,get_slope7,fill=NA,align="right")
-    dfr$p_cliWHO_weight_smooth_slope <- rollapply(dfr$p_cliWHO_weight_smooth,7,get_slope7,fill=NA,align="right")
-    dfr$p_cli_local_smooth_slope <- rollapply(dfr$p_cli_local_smooth,7,get_slope7,fill=NA,align="right")
+    # dfr$p_cli_smooth_slope <- rollapply(dfr$p_cli_smooth,7,get_slope7,fill=NA,align="right")
+    # dfr$p_cli_weight_smooth_slope <- rollapply(dfr$p_cli_weight_smooth,7,get_slope7,fill=NA,align="right")
+    # dfr$p_cliWHO_smooth_slope <- rollapply(dfr$p_cliWHO_smooth,7,get_slope7,fill=NA,align="right")
+    # dfr$p_cliWHO_weight_smooth_slope <- rollapply(dfr$p_cliWHO_weight_smooth,7,get_slope7,fill=NA,align="right")
+    # dfr$p_cli_local_smooth_slope <- rollapply(dfr$p_cli_local_smooth,7,get_slope7,fill=NA,align="right")
 
     if ("B0.1" %in% colnames(dfr)) {
       dfr$p_cases_infected <- dfr$B0.1 / (dfr$B0.1 + dfr$B0.2)

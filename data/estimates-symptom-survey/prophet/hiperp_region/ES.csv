@@ -1,0 +1,55 @@
+horizon,rmse,chg.point.prior,period,fourier.order,prior.scale,signal,region
+168,9.477669876421967e-4,0.99,182.5,8,5,p_cli_smooth,Andalucía
+168,7.95947717411908e-4,0.99,7,3,5,p_cliWHO_smooth,Andalucía
+168,4.00780978190891e-4,0.99,7,3,5,p_cli_local_smooth,Andalucía
+168,0.0017587860282582545,0.99,365,10,5,p_cli_smooth,Aragón
+168,0.0016735707662997883,0.99,365,10,5,p_cliWHO_smooth,Aragón
+168,5.403154686687395e-4,0.99,30.5,5,5,p_cli_local_smooth,Aragón
+168,0.0027751550846232447,0.99,7,3,5,p_cli_smooth,Cantabria
+168,0.0027479263002785476,0.99,7,3,5,p_cliWHO_smooth,Cantabria
+168,2.599968942637239e-4,0.99,15,4,5,p_cli_local_smooth,Cantabria
+168,0.002298455976539914,0.99,182.5,8,5,p_cli_smooth,Castilla y León
+168,0.0014045718364545216,0.99,182.5,8,5,p_cliWHO_smooth,Castilla y León
+168,5.82557634879298e-4,0.99,365,10,5,p_cli_local_smooth,Castilla y León
+168,0.0012056525818383544,0.99,182.5,8,5,p_cli_smooth,Castilla-La Mancha
+168,0.0017912321911927587,0.99,365,10,5,p_cliWHO_smooth,Castilla-La Mancha
+168,5.957743508117233e-4,0.99,15,4,5,p_cli_local_smooth,Castilla-La Mancha
+168,0.0015637079215590263,0.99,30.5,5,5,p_cli_smooth,Cataluña
+168,0.001037243624614168,0.99,0,0,0,p_cliWHO_smooth,Cataluña
+168,2.5414409112150236e-4,0.99,7,3,5,p_cli_local_smooth,Cataluña
+168,0.004459431355145771,0.99,30.5,5,5,p_cli_smooth,Ceuta y Melilla
+168,0.0032428061345415454,0.99,15,4,5,p_cliWHO_smooth,Ceuta y Melilla
+168,0.0010011689733049264,0.99,0,0,0,p_cli_local_smooth,Ceuta y Melilla
+168,0.0049814653327041256,0.99,7,3,5,p_cli_smooth,Comunidad Foral de Navarra
+168,0.0026682999640878333,0.99,30.5,5,5,p_cliWHO_smooth,Comunidad Foral de Navarra
+168,0.001613341524064053,0.99,365,10,5,p_cli_local_smooth,Comunidad Foral de Navarra
+168,0.0010461772567577409,0.99,182.5,8,5,p_cli_smooth,Comunidad Valenciana
+168,9.9651231323887e-4,0.99,182.5,8,5,p_cliWHO_smooth,Comunidad Valenciana
+168,2.9648949887066465e-4,0.99,30.5,5,5,p_cli_local_smooth,Comunidad Valenciana
+168,0.0014427231201904944,0.99,30.5,5,5,p_cli_smooth,Comunidad de Madrid
+168,0.0010475992727176382,0.99,182.5,8,5,p_cliWHO_smooth,Comunidad de Madrid
+168,2.0735460088629052e-4,0.99,30.5,5,5,p_cli_local_smooth,Comunidad de Madrid
+168,0.0038518105547968853,0.99,30.5,5,5,p_cli_smooth,Extremadura
+168,0.003108554729358928,0.99,0,0,0,p_cliWHO_smooth,Extremadura
+168,7.558823701934432e-4,0.99,30.5,5,5,p_cli_local_smooth,Extremadura
+168,0.0012020497517262073,0.99,365,10,5,p_cli_smooth,Galicia
+168,0.001853186134882855,0.99,365,10,5,p_cliWHO_smooth,Galicia
+168,4.5037318378060624e-4,0.99,182.5,8,5,p_cli_local_smooth,Galicia
+168,0.0021003138823577454,0.99,0,0,0,p_cli_smooth,Islas Baleares
+168,0.001741511261338001,0.99,0,0,0,p_cliWHO_smooth,Islas Baleares
+168,4.4049285678992445e-4,0.99,0,0,0,p_cli_local_smooth,Islas Baleares
+168,9.158542208052242e-4,0.99,365,10,5,p_cli_smooth,Islas Canarias
+168,8.710852443844241e-4,0.99,182.5,8,5,p_cliWHO_smooth,Islas Canarias
+168,6.290924836721204e-4,0.99,30.5,5,5,p_cli_local_smooth,Islas Canarias
+168,0.006719678659770682,0.99,0,0,0,p_cli_smooth,La Rioja
+168,0.005113159016413334,0.99,30.5,5,5,p_cliWHO_smooth,La Rioja
+168,0.0010957804010048506,0.99,182.5,8,5,p_cli_local_smooth,La Rioja
+168,0.001984581324471487,0.99,365,10,5,p_cli_smooth,País Vasco
+168,0.001655722830171535,0.99,365,10,5,p_cliWHO_smooth,País Vasco
+168,3.2387349371192466e-4,0.99,15,4,5,p_cli_local_smooth,País Vasco
+168,0.001025173257229225,0.99,182.5,8,5,p_cli_smooth,Principado de Asturias
+168,0.0012854550821163433,0.99,365,10,5,p_cliWHO_smooth,Principado de Asturias
+168,8.634604207155049e-4,0.99,30.5,5,5,p_cli_local_smooth,Principado de Asturias
+168,0.0029656910831683194,0.99,365,10,5,p_cli_smooth,Región de Murcia
+168,0.0020619247851753095,0.99,365,10,5,p_cliWHO_smooth,Región de Murcia
+168,2.8026467844162445e-4,0.99,0,0,0,p_cli_local_smooth,Región de Murcia
