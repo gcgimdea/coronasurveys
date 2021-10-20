@@ -49,3 +49,5 @@ try(source("script-ES-ccfr-based.R"), silent = T)
 
 # try(source("script-liverpool-daily.R"), silent = T)
 
+try(source("participation-ranking-v2.R"), silent = T)
+
