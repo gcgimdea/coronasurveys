@@ -1,5 +1,8 @@
-ISO2,ISO_3,country_agg,age,date,first_date,count,day_count,days_aggregated,p_cli,p_cli_CI,p_cli_weight,p_cli_weight_CI,p_cliWHO,p_cliWHO_CI,p_cliWHO_weight,p_cliWHO_weight_CI,p_cli_local,p_cli_local_CI,test_recent,positive_recent,B0.1,B0.2,p_cli_smooth,p_cases_infected,p_cases_infected_smooth,p_cases_active
-LV,LVA,Latvia,3,2021-10-18,2020-12-16,100,2,82,0,0,0,0,0,0,0,0,0,0,27,1,13,37,0,0.26,0.26,0
-LV,LVA,Latvia,3,2021-10-20,2020-12-18,100,1,82,0,0,0,0,0,0,0,0,0,0,28,1,13,37,0,0.26,0.26,0
-LV,LVA,Latvia,3,2021-10-22,2020-12-24,100,1,82,0,0,0,0,0,0,0,0,0,0,28,1,13,37,0,0.26,0.26,0
-LV,LVA,Latvia,3,2021-10-23,2020-12-24,101,1,83,0,0,0,0,0,0,0,0,0,0,29,1,13,37,0,0.26,0.26,0
+ISO2,ISO_3,country_agg,age,date,first_date,count,day_count,days_aggregated,p_cli,p_cli_CI,p_cli_weight,p_cli_weight_CI,p_cliWHO,p_cliWHO_CI,p_cliWHO_weight,p_cliWHO_weight_CI,p_cli_local,p_cli_local_CI,test_recent,positive_recent,B0.1,B0.2,p_cli_smooth,p_cli_CI_smooth,p_cli_weight_smooth,p_cli_weight_CI_smooth,p_cliWHO_smooth,p_cliWHO_CI_smooth,p_cliWHO_weight_smooth,p_cliWHO_weight_CI_smooth,p_cli_local_smooth,p_cli_local_CI_smooth,p_cases_infected,p_cases_infected_smooth,p_cases_active
+LV,LVA,Latvia,3,2021-10-18,2020-12-16,100,2,82,0,0,0,0,0,0,0,0,0,0,27,1,13,37,0,0,0,0,0,0,0,0,0,0,0.26,0.259098474627475,0
+LV,LVA,Latvia,3,2021-10-20,2020-12-18,100,1,82,0,0,0,0,0,0,0,0,0,0,28,1,13,37,0,0,0,0,0,0,0,0,0,0,0.26,0.259048850618698,0
+LV,LVA,Latvia,3,2021-10-22,2020-12-24,100,1,82,0,0,0,0,0,0,0,0,0,0,28,1,13,37,0,0,0,0,0,0,0,0,0,0,0.26,0.25900353424544,0
+LV,LVA,Latvia,3,2021-10-23,2020-12-24,101,1,83,0,0,0,0,0,0,0,0,0,0,29,1,13,37,0,0,0,0,0,0,0,0,0,0,0.26,0.258982858411085,0
+LV,LVA,Latvia,3,2021-10-28,2020-12-26,100,2,82,0,0,0,0,0,0,0,0,0,0,28,1,13,39,0,0,0,0,0,0,0,0,0,0,0.25,0.258904667808514,0
+LV,LVA,Latvia,3,2021-10-31,2020-12-27,100,1,82,0,0,0,0,0,0,0,0,0,0,29,1,14,39,0,0,0,0,0,0,0,0,0,0,0.264150943396226,0.258881779697054,0
+LV,LVA,Latvia,3,2021-11-01,2020-12-28,100,1,82,0,0,0,0,0,0,0,0,0,0,29,1,14,40,0,0,0,0,0,0,0,0,0,0,0.259259259259259,0.258878602938991,0
