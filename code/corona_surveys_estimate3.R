@@ -45,7 +45,7 @@ try(source("script-ccfr-fatalities-country.R"), silent = T)
 try(source("script-ccfr-based-v4.R"), silent = T)
 try(source("script-ES-ccfr-based.R"), silent = T)
 
-# try(source("script-rivas-arganda-daily.R"), silent = T)
+try(source("script-rivas-arganda-daily.R"), silent = T)
 
 # try(source("script-liverpool-daily.R"), silent = T)
 
