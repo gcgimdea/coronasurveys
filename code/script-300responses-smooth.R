@@ -5,7 +5,7 @@ library(scam)
 
 # smoothed p_cases_infected and CI:
 source("smooth_column-v2.R")
-smooth_param <- 40
+smooth_param <- 30
 
 estimates_path <- "../data/estimates-300responses/PlotData/"
 

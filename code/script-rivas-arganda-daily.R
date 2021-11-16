@@ -21,7 +21,7 @@ ci_level <- 0.95 # Confident interval
 max_ratio <- 1/3 # Maximum allowed ratio of cases/reach
 num_responses = 1000 # Maximum number of responses used for one estimate
 age <- 7 # Number of days that are aggregated 
-smooth_param <- 25 # Parameter of the smoothing function
+smooth_param <- 30 # Parameter of the smoothing function
 sampling <- 1000 # If the reach is < population/sampling the estimate is NA
 
 

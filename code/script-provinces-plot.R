@@ -17,7 +17,7 @@ ccfr_path <- "../data/estimates-ccfr-based/ES/"
 # datadista_file <- "../estimates-datadista/smooth_cases_fatalities.csv"
 
 
-smooth_param <- 20
+smooth_param <- 30
 age_recent <- 7
 # start_date <- "2020-04-10"
 start_date <- "2021-01-01"

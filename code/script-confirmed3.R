@@ -28,10 +28,10 @@ estimates_path <- "../data/estimates-confirmed/PlotData/"
 # data_path_Ox <- "../coronasurveys/data/oxford/PlotData/"
 # estimates_path <- "./estimates-confirmed/"
 
-smooth_param <- 15
+smooth_param <- 30
 
 contagious_window <- 12
-active_window <- 10 # Changed from 18 on May 30th, 2021
+active_window <- 15 # Changed on Nov 16th from 10 # Changed from 18 on May 30th, 2021
 
 get_slope7 <- function(x) {
   slp <- NA
