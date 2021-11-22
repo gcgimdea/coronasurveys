@@ -31,7 +31,7 @@ estimates_path <- "../data/estimates-confirmed/PlotData/"
 smooth_param <- 30
 
 contagious_window <- 12
-active_window <- 15 # Changed on Nov 16th from 10 # Changed from 18 on May 30th, 2021
+active_window <- 10 # Changed from 18 on May 30th, 2021
 
 get_slope7 <- function(x) {
   slp <- NA
