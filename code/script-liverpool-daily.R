@@ -19,7 +19,7 @@ max_ratio <- 1/2 # Maximum allowed ratio of cases/reach
 max_ratio_deaths_cases <- 1/5
 num_responses = 1000 # Maximum number of responses used for one estimate
 age <- 14 # Number of days that are aggregated 
-smooth_param <- 15 # Parameter of the smoothing function
+smooth_param <- 30 # Parameter of the smoothing function
 sampling <- 1000 # If the reach is < population/sampling the estimate is NA
 
 

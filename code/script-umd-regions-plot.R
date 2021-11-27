@@ -7,7 +7,7 @@ library(dplyr)
 estimates_umd_path <- "../data/estimates-symptom-survey/PlotData/regional_data/"
 plots_path <- "../data/estimates-symptom-survey/plots/"
 
-smooth_param <- 15
+smooth_param <- 30
 
 cli_factor <- 1
 cliWHO_factor <- 1
