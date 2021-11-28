@@ -29,7 +29,7 @@ numeric_cols <- c("count", "day_count", "days_aggregated", "p_cli",	"p_cli_CI",	
 
 cols_to_use <- c(character_cols, date_cols, numeric_cols)
 
-smooth_param <- 15
+smooth_param <- 30
 
 
 get_slope7 <- function(x) {
