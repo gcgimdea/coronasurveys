@@ -11,9 +11,9 @@ estimates_path <- "../data/estimates-regions/"
 # data_path <- "../coronasurveys/data/common-data/regions-tree-population.csv"
 # estimates_path <- "./estimates-regions/"
 
-countries <- c("AR", "AU", "BR", "CA", "CH", "CL", "CY", "DE", "EC", "ES", "FI", "FR", 
-               "GB", "GR", "HU", "IN", "IT", "JP", "NL", "PL", "PT", "RO", "RU", "UA", "US")
-# countries <- c("AU", "BR", "CA", "CH", "CL", "CY", "DE", "EC", "ES", "FI", "FR", 
+countries <- c("AR", "AU", "BR", "CA", "CH", "CL", "CY", "DE", "EC", "FI", 
+               "GB", "GR", "HU", "IN", "JP", "NL", "PL", "PT", "RO", "RU", "UA", "US")
+# countries <- c("AU", "BR", "CA", "CH", "CL", "CY", "DE", "EC", "ES", "FI", "FR",
 #                "GB", "GR", "HU", "IN", "IT", "JP", "NL", "PL", "PT", "RO", "RU", "UA", "US")
 ci_level <- 0.95
 cases_cutoff <- 1/2
@@ -232,7 +232,9 @@ if (!file.exists(paste0(estimates_path, country_iso))){
 #list of regions
 region_tree <- read.csv(data_path, as.is = T)
 names(region_tree) <- tolower(names(region_tree))
-region_tree <- region_tree[region_tree$countrycode==country_iso,]
+region_tree <- region_tree[which(region_tree$countrycode==country_iso),]
+region_tree$population <- as.numeric(region_tree$population)
+region_tree <- region_tree[which(!is.na(region_tree$population)),]
 regions <- unique(region_tree$regioncode)
 # region_names <- region_tree$regionname
 # populations <- region_tree$population
@@ -244,13 +246,13 @@ names(dt) <- tolower(names(dt))
 
 #change province name to region name for single-province regions
 #dt <- change_region_province(dt)
-dt$iso.3166.2[dt$iso.3166.2=="ESO"] <-  "ESAS"
-dt$iso.3166.2[dt$iso.3166.2=="ESS"] <-  "ESCB"
-dt$iso.3166.2[dt$iso.3166.2=="ESPM"] <-  "ESIB"
-dt$iso.3166.2[dt$iso.3166.2=="ESMU"] <-  "ESMC"
-dt$iso.3166.2[dt$iso.3166.2=="ESM"] <-  "ESMD"
-dt$iso.3166.2[dt$iso.3166.2=="ESNA"] <-  "ESNC"
-dt$iso.3166.2[dt$iso.3166.2=="ESLO"] <-  "ESRI"
+# dt$iso.3166.2[dt$iso.3166.2=="ESO"] <-  "ESAS"
+# dt$iso.3166.2[dt$iso.3166.2=="ESS"] <-  "ESCB"
+# dt$iso.3166.2[dt$iso.3166.2=="ESPM"] <-  "ESIB"
+# dt$iso.3166.2[dt$iso.3166.2=="ESMU"] <-  "ESMC"
+# dt$iso.3166.2[dt$iso.3166.2=="ESM"] <-  "ESMD"
+# dt$iso.3166.2[dt$iso.3166.2=="ESNA"] <-  "ESNC"
+# dt$iso.3166.2[dt$iso.3166.2=="ESLO"] <-  "ESRI"
 
 
 #list of dates
