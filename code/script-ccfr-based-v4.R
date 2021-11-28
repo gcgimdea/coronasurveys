@@ -14,7 +14,7 @@ estimates_path <- "../data/estimates-ccfr-based/PlotData/"
 # data_path <- "../coronasurveys/data/estimates-confirmed/PlotData/"
 # estimates_path <- "./estimates-ccfr-based/PlotData/"
 
-contagious_window <- 12
+# contagious_window <- 12
 active_window <- 10 # Changed from 18 on May 30th, 2021
 z_mean_hdt <- 13
 z_sd_hdt <- 12.7
@@ -73,7 +73,7 @@ scale_cfr <- function(data_1_in){ #, delay_fun, mu_hdt, sigma_hdt){
 
 plot_estimates <- function(country_geoid = "ES",
                            dts, 
-                           contagious_window,
+                           # contagious_window,
                            active_window){
   cat("::- script-ccfr-based: Computing ccfr-based estimates for", country_geoid, "::\n")
   
@@ -149,13 +149,13 @@ plot_estimates <- function(country_geoid = "ES",
     }
 
     #contagious
-    if (nrow(dt) >= contagious_window){
-      dt$cases_contagious <- cumsum(c(dt$cases_daily[1:contagious_window],
-                                      diff(dt$cases_daily, lag = contagious_window)))
-    }
-    else {
-      dt$cases_contagious <- NA
-    }
+    # if (nrow(dt) >= contagious_window){
+    #   dt$cases_contagious <- cumsum(c(dt$cases_daily[1:contagious_window],
+    #                                   diff(dt$cases_daily, lag = contagious_window)))
+    # }
+    # else {
+    #   dt$cases_contagious <- NA
+    # }
     
     #cases_active
     if (nrow(dt) >= active_window){
@@ -172,15 +172,18 @@ plot_estimates <- function(country_geoid = "ES",
     # - Cases_active: Those infected whose case is still active on a given day (assumes a case is active 18 days after infected)
 
     dt$p_cases_daily <- dt$cases_daily/dt$population
-    dt$p_cases_contagious <- dt$cases_contagious/dt$population
+    # dt$p_cases_contagious <- dt$cases_contagious/dt$population
     dt$p_cases_active <- dt$cases_active/dt$population
     
     dt_w <- dt %>% 
       select("date", "countrycode", "population", "cases", "deaths", "cum_cases", "cum_deaths", 
-             "cases_infected", "cases_infected_low", "cases_infected_high",
-             "cases_daily", "cases_contagious", "cases_active", 
+             "cases_infected", "cases_infected_low", "cases_infected_high", "cases_daily", 
+             # "cases_contagious", 
+             "cases_active", 
              "p_cases_infected", "p_cases_infected_low", "p_cases_infected_high", 
-             "p_cases_daily", "p_cases_contagious", "p_cases_active")
+             "p_cases_daily", 
+             # "p_cases_contagious", 
+             "p_cases_active")
     
     dir.create(estimates_path, showWarnings = F)
     # cat("::- script-ccfr-based: Writing data for", country_geoid, "::\n")
@@ -189,15 +192,14 @@ plot_estimates <- function(country_geoid = "ES",
   } 
   
 # find countries with data available
-generate_estimates <- function(c_window = contagious_window,
-                               a_window = active_window){
+generate_estimates <- function(){
   country_codes <- sapply(str_split(list.files(data_path), pattern = "-"), function(x) x[[1]])
   # country_codes <- country_codes[!grepl("_", country_codes, fixed = T)]
   dx <- sapply(country_codes, function(x){
     df <- read.csv(paste0(data_path, x, "-estimate.csv"), as.is = T)
     plot_estimates(x, dts = df,
-                   contagious_window = c_window,
-                   active_window = a_window)
+                   # contagious_window = contagious_window,
+                   active_window)
   })
 }
 generate_estimates()

@@ -14,7 +14,7 @@ country_path <- "../data/estimates-confirmed/PlotData/"
 
 #url_ecdc <- "https://www.ecdc.europa.eu/sites/default/files/documents/COVID-19-geographic-disbtribution-worldwide-"
 
-contagious_window <- 12
+# contagious_window <- 12
 active_window <- 10 # Changed from 18 on May 30th, 2021
 onset_to_death_window <- 13 # https://www.cdc.gov/coronavirus/2019-ncov/hcp/planning-scenarios.html#table-2
 CFR <- 0.0138
@@ -93,11 +93,11 @@ plot_estimates <- function(country_geoid, #code3,
   }
   
   #total contagious cases
-  if (nrow(dt) >= contagious_window){
-    dt$cases_contagious <- cumsum(c(dt$cases_daily[1:contagious_window],
-                                diff(dt$cases_daily, lag = contagious_window)))
-  }
-  else {dt$cases_contagious <- NA}
+  # if (nrow(dt) >= contagious_window){
+  #   dt$cases_contagious <- cumsum(c(dt$cases_daily[1:contagious_window],
+  #                               diff(dt$cases_daily, lag = contagious_window)))
+  # }
+  # else {dt$cases_contagious <- NA}
   
   #active
   if (nrow(dt) >= active_window){
@@ -110,7 +110,7 @@ plot_estimates <- function(country_geoid, #code3,
   dt$p_cum_deaths <- dt$cum_deaths/dt$population
   dt$p_cases_infected <- dt$cases_infected/dt$population
   dt$p_cases_daily <- dt$cases_daily/dt$population
-  dt$p_cases_contagious <- dt$cases_contagious/dt$population
+  # dt$p_cases_contagious <- dt$cases_contagious/dt$population
   dt$p_cases_active <- dt$cases_active/dt$population
   
   dt$date <- as.Date(dt$date, origin="1970-01-01")
