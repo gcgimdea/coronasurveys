@@ -14,8 +14,8 @@ estimates_path <- "../data/estimates-provinces/"
 countries <- c("ES", "FR", "IT")
 ci_level <- 0.95
 cases_cutoff <- 1/2
-fatalities_cutoff <- 1/3
-recent_cutoff <- 1/3
+fatalities_cutoff <- 1/2
+recent_cutoff <- 1/2
 
 max_responses = 100
 max_age <- 1000
@@ -279,7 +279,9 @@ cat("Country ", country_iso, " province daily script run at ", as.character(Sys.
 #list of regions
 region_tree <- read.csv(data_path, as.is = T)
 names(region_tree) <- tolower(names(region_tree))
-region_tree <- region_tree[region_tree$countrycode==country_iso,]
+region_tree <- region_tree[which(region_tree$countrycode==country_iso),]
+region_tree$population <- as.numeric(region_tree$population)
+region_tree <- region_tree[which(!is.na(region_tree$population)),]
 regions <- region_tree$provincecode
 region_names <- region_tree$regionname
 populations <- region_tree$population

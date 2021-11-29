@@ -33,6 +33,7 @@ try(source("script-300responses-smooth.R"), silent = T)
 try(source("script-W.R"), silent = T)
 
 try(source("script-regions-daily.R"), silent = T)
+try(source("script-regions-province-daily.R"), silent = T)
 try(source("script-provinces-daily.R"), silent = T)
 try(source("script-provinces-map.R"), silent = T)
 try(source("script-provinces-plot.R"), silent = T)
