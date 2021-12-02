@@ -9,6 +9,8 @@ ranking_path <- "../data/participation/"
 # aggregates_path <- "../coronasurveys/data/aggregate/"
 # ranking_path <- "./participation/"
 
+min_responses <- 5
+
 compute_ranking <- function(country_geoid){
   cat(country_geoid, "\n")
   file_name <- paste0(aggregates_path, country_geoid, "-aggregate.csv")
@@ -45,6 +47,9 @@ for (iso2 in all_geo_ids) {
   overall <- rbind(overall, df)
 }
 overall <- overall[order(overall$Count, decreasing = TRUE),]
+overall <- overall[which(overall$Count >= min_responses),]
+cat("Overall length:", nrow(overall), "\n")
 write.csv(overall,paste0(ranking_path, "overall-ranking.csv"),row.names = FALSE)
+
   
 
