@@ -8,13 +8,15 @@ source("smooth_column-v2.R")
 start_date <- ymd("2020-07-30")
 end_date <- Sys.Date()
 
-responses_path <- "../data/aggregate/rivas-arganda/"
+responses_path <- "../data/aggregate/rivas/"
 data_path <- "../data/common-data/rivas-arganda/regions-tree-population.csv"
 estimates_path <- "../data/estimates-rivas-arganda/"
 
 # responses_path <- "../coronasurveys/data/aggregate/rivas-arganda/"
 # data_path <- "../coronasurveys/data/common-data/rivas-arganda/regions-tree-population.csv"
 # estimates_path <- "./estimates-rivas-arganda/"
+
+default_reach <- 15
 
 country_iso <- "ES"
 ci_level <- 0.95 # Confident interval
@@ -470,7 +472,7 @@ dates <- gsub("-","/", dates_dash)
 
 # #list responses per date
 # for (i in 1:length(regions)){
-#   dta <- dt[dt$iso.3166.2==regions[i],]
+#   dta <- dt[dt$iso_3166_2==regions[i],]
 #   cat("From ", regions[i], " received ", nrow(dta), " responses\n")
 #   for (j in 1:length(dates)){
 #     dtaa <- dta[dta$timestamp==dates[j],]
@@ -479,6 +481,7 @@ dates <- gsub("-","/", dates_dash)
 # }
 # cat("\n")
 
+dt[which(is.na(dt$reach)), "reach"] <- default_reach
 dt <- remove_outliers(dt,max_ratio)
 
 dw <- data.frame(date=c(),
@@ -570,15 +573,23 @@ for (i in 1:length(regions)){
   reg <- regions[i]
   name <- region_names[i]
   cat("Processing", reg, "\n")
-  dd <- process_region(dt[dt$iso.3166.2 == reg, ], reg, name, pop=populations[i], dates, num_responses, age)
+  dfaux <- dt[which(dt$iso_3166_2 == reg), ]
+  dd <- process_region(dfaux, reg, name, pop=populations[i], dates, num_responses, age)
   
   # smoothed p_cases and CI:
-  dd <- smooth_column(df_in = dd, col_s = "p_cases", 
+  dd <- smooth_column(df_in = dd, col_s = "p_cases",
                       basis_dim = smooth_param, link_in = "log", monotone = T)
-  dd <- smooth_column(df_in = dd, col_s = "p_cases_low", 
+  dd <- smooth_column(df_in = dd, col_s = "p_cases_low",
                       basis_dim = smooth_param, link_in = "log", monotone = T)
-  dd <- smooth_column(df_in = dd, col_s = "p_cases_high", 
+  dd <- smooth_column(df_in = dd, col_s = "p_cases_high",
                       basis_dim = smooth_param, link_in = "log", monotone = T)
+  # dd$p_cases_smooth <- 
+  #   with(dd, ksmooth(date, dd$p_cases, kernel = "normal", bandwidth = smooth_param, x.points=date))$y
+  # dd$p_cases_low_smooth <- 
+  #   with(dd, ksmooth(date, dd$p_cases_low, kernel = "normal", bandwidth = smooth_param, x.points=date))$y
+  # dd$p_cases_high_smooth <- 
+  #   with(dd, ksmooth(date, dd$p_cases_high, kernel = "normal", bandwidth = smooth_param, x.points=date))$y
+  
   dd$p_cases_low_smooth <- ifelse(dd$p_cases_low_smooth > dd$p_cases_smooth, 
                                         dd$p_cases_smooth, 
                                         dd$p_cases_low_smooth)
@@ -588,12 +599,19 @@ for (i in 1:length(regions)){
   
 
   # smoothed p_cases and CI:
-  dd <- smooth_column(df_in = dd, col_s = "p_recentcases", 
-                      basis_dim = smooth_param, link_in = "log")
-  dd <- smooth_column(df_in = dd, col_s = "p_recentcases_low", 
-                      basis_dim = smooth_param, link_in = "log")
-  dd <- smooth_column(df_in = dd, col_s = "p_recentcases_high", 
-                      basis_dim = smooth_param, link_in = "log")
+  # dd <- smooth_column(df_in = dd, col_s = "p_recentcases", 
+  #                     basis_dim = smooth_param, link_in = "log")
+  # dd <- smooth_column(df_in = dd, col_s = "p_recentcases_low", 
+  #                     basis_dim = smooth_param, link_in = "log")
+  # dd <- smooth_column(df_in = dd, col_s = "p_recentcases_high", 
+  #                     basis_dim = smooth_param, link_in = "log")
+  dd$p_recentcases_smooth <- 
+    with(dd, ksmooth(date, dd$p_recentcases, kernel = "normal", bandwidth = smooth_param, x.points=date))$y
+  dd$p_recentcases_low_smooth <- 
+    with(dd, ksmooth(date, dd$p_recentcases_low, kernel = "normal", bandwidth = smooth_param, x.points=date))$y
+  dd$p_recentcases_high_smooth <- 
+    with(dd, ksmooth(date, dd$p_recentcases_high, kernel = "normal", bandwidth = smooth_param, x.points=date))$y
+  
   dd$p_recentcases_low_smooth <- ifelse(dd$p_recentcases_low_smooth > dd$p_recentcases_smooth, 
                                         dd$p_recentcases_smooth, 
                                         dd$p_recentcases_low_smooth)
