@@ -1,9 +1,9 @@
 Timestamp,Country,ISO-3166-1-a2,Region,ISO-3166-2,Language,Reach,Cases,Visibility,Recovered,Fatalities,RecentCases,RecentCases14,PositiveTest14Days,PositiveTest07Days,LongCovid,StillSick,Tested,Positive,Hospital,Severe,ICU,Vaccinated,RecentVaccinated,VaccineSideEffects,RefuseVaccine,ContactsDoctors,Surveyfirst,Surveyknown,Surveyforward,Dataset,Cookie,Campaign
 2020/04/13,India,IN,,,,100,0,,,,,,,,,,,,,,,,,,,,,,,world-g-sheet,,
-2020/04/16,India,IN,,,,50,0,,,,,,,,,,,,,,,,,,,,,,,world-g-sheet,,
-2020/04/16,India,IN,,,,25,0,,,,,,,,,,,,,,,,,,,,,,,world-g-sheet,,
-2020/04/16,India,IN,,,,6,0,,,,,,,,,,,,,,,,,,,,,,,world-g-sheet,,
 2020/04/16,India,IN,,,,1000,0,,,,,,,,,,,,,,,,,,,,,,,world-g-sheet,,
+2020/04/16,India,IN,,,,50,0,,,,,,,,,,,,,,,,,,,,,,,world-g-sheet,,
+2020/04/16,India,IN,,,,6,0,,,,,,,,,,,,,,,,,,,,,,,world-g-sheet,,
+2020/04/16,India,IN,,,,25,0,,,,,,,,,,,,,,,,,,,,,,,world-g-sheet,,
 2020/04/18,India,IN,,,,100,0,,,,,,,,,,,,,,,,,,,,,,,world-g-sheet,,
 2020/04/23,India,IN,,,,100,0,,,,,,,,,,,,,,,,,,,,,,,world-g-sheet,,
 2020/04/24,India,IN,,,,100,0,,,,,,,,,,,,,,,,,,,,,,,world-g-sheet,,
@@ -21,26 +21,26 @@ Timestamp,Country,ISO-3166-1-a2,Region,ISO-3166-2,Language,Reach,Cases,Visibilit
 2020/06/03,India,IN,"Tamil Nadu",INTN,en,10,0,,0,,,,,,,,,,,,,,,,,,Y,Y,Y,limesurvey-12978,99145g83umkayrdm8u,
 2020/06/03,India,IN,"Tamil Nadu",INTN,en,10,0,,0,,,,,,,,,,,,,,,,,,Y,Y,Y,limesurvey-12977,99145g83umkayrdm8u,
 2020/06/05,India,IN,Kerala,INKL,en,23,1,,0,,,,,,,,,,,,,,,,,,Y,N,N,limesurvey-13763,k28rjcz82kkb2ptp1o,
-2020/06/06,India,IN,"West Bengal",INWB,en,200,0,,0,,,,,,,,,,,,,,,,,,Y,N,N,limesurvey-14012,y9m14jjklxkb3upnf0,
 2020/06/06,India,IN,,,en,100,2,,2,,,,,,,,,,,,,,,,,,Y,N,N,limesurvey-13860,9ig08k6222kb32b5v8,
+2020/06/06,India,IN,"West Bengal",INWB,en,200,0,,0,,,,,,,,,,,,,,,,,,Y,N,N,limesurvey-14012,y9m14jjklxkb3upnf0,
 2020/06/07,India,IN,Kerala,INKL,en,12,0,,,,,,,,,,,,,,,,,,,,N,N,N,limesurvey-14093,cpkecb4icmkb4c6ut1,
-2020/06/09,India,IN,Karnataka,INKA,en,100,0,,,,,,,,,,,,,,,,,,,,Y,Y,N,limesurvey-14807,wykp59ntobkb86vyl6,
-2020/06/09,India,IN,"West Bengal",INWB,en,7,0,,0,,,,,,,,,,,,,,,,,,Y,N,N,limesurvey-14564,96pvollcrnkb786fq3,
-2020/06/09,India,IN,Karnataka,INKA,en,15,0,,0,,,,,,,,,,,,,,,,,,Y,N,Y,limesurvey-14825,u49bbvww1skb87ghme,
-2020/06/09,India,IN,"West Bengal",INWB,en,20,0,,0,,,,,,,,,,,,,,,,,,Y,Y,Y,limesurvey-14810,zk1o4q22cjkb86xkih,
-2020/06/09,India,IN,Karnataka,INKA,en,9,5,,5,,,,,,,,,,,,,,,,,,Y,N,N,limesurvey-14686,q8tdthm3vhkb83wyfs,
+2020/06/09,India,IN,"West Bengal",INWB,en,7,0,,0,,,,,,,,,,,,,,,,,,Y,N,N,limesurvey-14566,96pvollcrnkb786fq3,
+2020/06/09,India,IN,"West Bengal",INWB,en,7,0,,0,,,,,,,,,,,,,,,,,,Y,N,N,limesurvey-14565,96pvollcrnkb786fq3,
+2020/06/09,India,IN,Karnataka,INKA,en,7,0,,,,,,,,,,,,,,,,,,,,Y,N,N,limesurvey-14857,muvypql7tckb89bd7n,
+2020/06/09,India,IN,"West Bengal",INWB,en,7,0,,0,,,,,,,,,,,,,,,,,,Y,N,N,limesurvey-14567,96pvollcrnkb786fq3,
+2020/06/09,India,IN,Kerala,INKL,en,5,0,,,,,,,,,,,,,,,,,,,,N,N,N,limesurvey-14799,cpkecb4icmkb4c6ut1,
+2020/06/09,India,IN,Kerala,INKL,en,50,0,,0,,,,,,,,,,,,,,,,,,Y,N,N,limesurvey-14715,ep0nhnx6axkb84lqfd,
 2020/06/09,India,IN,"West Bengal",INWB,en,7,0,,0,,,,,,,,,,,,,,,,,,Y,N,N,limesurvey-14568,96pvollcrnkb786fq3,
 2020/06/09,India,IN,Maharashtra,INMH,en,3,0,,0,,,,,,,,,,,,,,,,,,Y,N,N,limesurvey-14935,mubmqfzajtkb8h8yl4,
-2020/06/09,India,IN,"West Bengal",INWB,en,7,0,,0,,,,,,,,,,,,,,,,,,Y,N,N,limesurvey-14566,96pvollcrnkb786fq3,
-2020/06/09,India,IN,Kerala,INKL,en,50,0,,0,,,,,,,,,,,,,,,,,,Y,N,N,limesurvey-14715,ep0nhnx6axkb84lqfd,
-2020/06/09,India,IN,Kerala,INKL,en,5,0,,,,,,,,,,,,,,,,,,,,N,N,N,limesurvey-14799,cpkecb4icmkb4c6ut1,
-2020/06/09,India,IN,"West Bengal",INWB,en,7,0,,0,,,,,,,,,,,,,,,,,,Y,N,N,limesurvey-14567,96pvollcrnkb786fq3,
-2020/06/09,India,IN,Karnataka,INKA,en,7,0,,,,,,,,,,,,,,,,,,,,Y,N,N,limesurvey-14857,muvypql7tckb89bd7n,
-2020/06/09,India,IN,"West Bengal",INWB,en,7,0,,0,,,,,,,,,,,,,,,,,,Y,N,N,limesurvey-14565,96pvollcrnkb786fq3,
-2020/06/10,India,IN,"West Bengal",INWB,en,100,0,,,,,,,,,,,,,,,,,,,,Y,N,N,limesurvey-15021,ihgjblg1nhkb8yodh2,
-2020/06/10,India,IN,"West Bengal",INWB,en,250,1,,0,,,,,,,,,,,,,,,,,,N,N,N,limesurvey-15044,y9m14jjklxkb3upnf0,
-2020/06/10,India,IN,Telangana,INTG,en,70,10,,3,,,,,,,,,,,,,,,,,,Y,N,N,limesurvey-14986,inoofmvnejkb8ps9eh,
+2020/06/09,India,IN,"West Bengal",INWB,en,20,0,,0,,,,,,,,,,,,,,,,,,Y,Y,Y,limesurvey-14810,zk1o4q22cjkb86xkih,
+2020/06/09,India,IN,Karnataka,INKA,en,15,0,,0,,,,,,,,,,,,,,,,,,Y,N,Y,limesurvey-14825,u49bbvww1skb87ghme,
+2020/06/09,India,IN,"West Bengal",INWB,en,7,0,,0,,,,,,,,,,,,,,,,,,Y,N,N,limesurvey-14564,96pvollcrnkb786fq3,
+2020/06/09,India,IN,Karnataka,INKA,en,100,0,,,,,,,,,,,,,,,,,,,,Y,Y,N,limesurvey-14807,wykp59ntobkb86vyl6,
+2020/06/09,India,IN,Karnataka,INKA,en,9,5,,5,,,,,,,,,,,,,,,,,,Y,N,N,limesurvey-14686,q8tdthm3vhkb83wyfs,
 2020/06/10,India,IN,Kerala,INKL,en,1000,5,,0,,,,,,,,,,,,,,,,,,Y,N,N,limesurvey-14987,jumwbqwuwykb8pvbdn,
+2020/06/10,India,IN,"West Bengal",INWB,en,100,0,,,,,,,,,,,,,,,,,,,,Y,N,N,limesurvey-15021,ihgjblg1nhkb8yodh2,
+2020/06/10,India,IN,Telangana,INTG,en,70,10,,3,,,,,,,,,,,,,,,,,,Y,N,N,limesurvey-14986,inoofmvnejkb8ps9eh,
+2020/06/10,India,IN,"West Bengal",INWB,en,250,1,,0,,,,,,,,,,,,,,,,,,N,N,N,limesurvey-15044,y9m14jjklxkb3upnf0,
 2020/06/12,India,IN,Punjab,INPB,en,30,0,,0,,,,,,,,,,,,,,,,,,Y,N,Y,limesurvey-15608,a8p4xqthd65jikzk1u,
 2020/06/14,India,IN,Gujarat,INGJ,en,20,2,,1,,,,,,,,,,,,,,,,,,Y,N,N,limesurvey-16157,9truedjn1mz3cbx5ur,
 2020/06/15,India,IN,Maharashtra,INMH,en,200,1,,0,,,,,,,,,,,,,,,,,,Y,N,Y,limesurvey-16255,ey5qn3h9yovekg17uv,
@@ -48,9 +48,9 @@ Timestamp,Country,ISO-3166-1-a2,Region,ISO-3166-2,Language,Reach,Cases,Visibilit
 2020/06/23,India,IN,"West Bengal",INWB,en,50,1,,1,,,,,,,,,,,,,,,,,,Y,N,Y,limesurvey-18559,znujawsgifizft1fbm,
 2020/07/05,India,IN,Punjab,INPB,en,1732,0,,0,,,,,,,,,,,,,,,,,,Y,,Y,limesurvey-22761,y2pv0j21939rwt51yp,
 2020/07/10,India,IN,"West Bengal",INWB,en,20,0,,0,,,,,,,,,,,,,,,,,,Y,N,N,limesurvey-23410,w2o3ge80guuea96jp3,
+2020/07/11,India,IN,Chhattisgarh,INCT,en,5,0,,,,,,,,,,,,,,,,,,,,Y,N,Y,limesurvey-23466,fqunl4i9q830zis0fm,
 2020/07/11,India,IN,Goa,INGA,en,2,0,,0,,,,,,,,,,,,,,,,,,N,N,Y,limesurvey-23469,5dibohg1rumodauljo,
 2020/07/11,India,IN,Karnataka,INKA,en,15,2,,2,,,,,,,,,,,,,,,,,,N,N,Y,limesurvey-23467,fqunl4i9q830zis0fm,
-2020/07/11,India,IN,Chhattisgarh,INCT,en,5,0,,,,,,,,,,,,,,,,,,,,Y,N,Y,limesurvey-23466,fqunl4i9q830zis0fm,
 2020/07/12,India,IN,Chhattisgarh,INCT,en,4,0,,0,,,,,,,,,,,,,,,,,,,N,Y,limesurvey-23495,fqunl4i9q830zis0fm,
 2020/07/19,India,IN,"Madhya Pradesh",INMP,en,100,100,,100,,,,,,,,,,,,,,,,,,Y,Y,Y,limesurvey-23966,p9ajbwjm2z9y57ropk,
 2020/07/25,India,IN,,,en,25,0,,0,,,,,,,,,,,,,,,,,,Y,N,Y,limesurvey-24413,yk0we6oivf5k3d97oj,
@@ -63,11 +63,26 @@ Timestamp,Country,ISO-3166-1-a2,Region,ISO-3166-2,Language,Reach,Cases,Visibilit
 2021/04/19,India,IN,Delhi,INDL,en,12,12,,,,12,,,,,12,,,,,,12,,0,0,,,,,limesurvey-11594,p7dz959g6zlz6aorac,
 2021/04/27,India,IN,"West Bengal",INWB,en,50,10,4,,1,0,,,,,2,,,,,,25,,0,2,,,,,limesurvey-12235,kmo7conxvqvbl0yuj9,FBIN01
 2021/04/27,India,IN,"Jammu and Kashmir",INJK,en,5000,100,10,,1,5,,,,,10,,,,,,1,,0,50,,,,,limesurvey-12268,xvo7g00znglqvnau9m,FBIN01
+2021/04/28,India,IN,Gujarat,INGJ,en,1000,100,5,,35,20,,,,,500,,,,,,20,,2,5,,,,,limesurvey-12386,oa3luoj7xcvpkbd3ho,FBIN01
+2021/04/28,India,IN,Gujarat,INGJ,en,1000,100,5,,35,20,,,,,500,,,,,,20,,2,5,,,,,limesurvey-12395,oa3luoj7xcvpkbd3ho,FBIN01
+2021/04/28,India,IN,Sikkim,INSK,en,1,1,2,,0,1,,,,,,,,,,,2,,0,,,,,,limesurvey-12357,uaw470s3hc61r0zqsq,FBIN01
+2021/04/28,India,IN,Gujarat,INGJ,en,1000,100,5,,35,20,,,,,500,,,,,,20,,2,5,,,,,limesurvey-12389,oa3luoj7xcvpkbd3ho,FBIN01
+2021/04/28,India,IN,Gujarat,INGJ,en,1000,100,5,,35,20,,,,,500,,,,,,20,,2,5,,,,,limesurvey-12384,oa3luoj7xcvpkbd3ho,FBIN01
+2021/04/28,India,IN,Gujarat,INGJ,en,1000,100,5,,35,20,,,,,500,,,,,,20,,2,5,,,,,limesurvey-12391,oa3luoj7xcvpkbd3ho,FBIN01
+2021/04/28,India,IN,"West Bengal",INWB,en,70,2,15,,0,0,,,,,0,,,,,,15,,0,0,,,,,limesurvey-12374,5feoo8oxx41aix1v4g,FBIN01
+2021/04/28,India,IN,Gujarat,INGJ,en,1000,100,5,,35,20,,,,,500,,,,,,20,,2,5,,,,,limesurvey-12385,oa3luoj7xcvpkbd3ho,FBIN01
+2021/04/28,India,IN,Gujarat,INGJ,en,1000,100,5,,35,20,,,,,500,,,,,,20,,2,5,,,,,limesurvey-12394,oa3luoj7xcvpkbd3ho,FBIN01
+2021/04/28,India,IN,Telangana,INTG,en,20,3,10,,0,1,,,,,1,,,,,,2,,0,2,,,,,limesurvey-12370,7y7nv9xdzbrw1ive2n,FBIN01
+2021/04/28,India,IN,"Andhra Pradesh",INAP,en,300,20,20,,1,0,,,,,0,,,,,,10,,0,0,,,,,limesurvey-12340,z0417oovlnjfxlrp89,FBIN01
+2021/04/28,India,IN,Gujarat,INGJ,en,1000,100,5,,35,20,,,,,500,,,,,,20,,2,5,,,,,limesurvey-12387,oa3luoj7xcvpkbd3ho,FBIN01
+2021/04/28,India,IN,Gujarat,INGJ,en,1,1,5,,,1,,,,,1,,,,,,1,,1,1,,,,,limesurvey-12383,oa3luoj7xcvpkbd3ho,FBIN01
+2021/04/28,India,IN,Gujarat,INGJ,en,1000,100,5,,35,20,,,,,500,,,,,,20,,2,5,,,,,limesurvey-12390,oa3luoj7xcvpkbd3ho,FBIN01
+2021/04/28,India,IN,Telangana,INTG,en,20,3,10,,0,1,,,,,1,,,,,,2,,0,2,,,,,limesurvey-12369,7y7nv9xdzbrw1ive2n,FBIN01
+2021/04/28,India,IN,Gujarat,INGJ,en,1,1,5,,,1,,,,,1,,,,,,1,,1,1,,,,,limesurvey-12381,oa3luoj7xcvpkbd3ho,FBIN01
 2021/04/28,India,IN,Gujarat,INGJ,en,1000,100,5,,35,20,,,,,500,,,,,,20,,2,5,,,,,limesurvey-12396,oa3luoj7xcvpkbd3ho,FBIN01
 2021/04/28,India,IN,"Andhra Pradesh",INAP,en,300,20,20,,1,0,,,,,0,,,,,,10,,0,0,,,,,limesurvey-12341,z0417oovlnjfxlrp89,FBIN01
 2021/04/28,India,IN,Telangana,INTG,en,20,3,10,,0,1,,,,,1,,,,,,2,,0,2,,,,,limesurvey-12368,7y7nv9xdzbrw1ive2n,FBIN01
 2021/04/28,India,IN,Gujarat,INGJ,en,1,1,5,,,1,,,,,1,,,,,,1,,1,1,,,,,limesurvey-12382,oa3luoj7xcvpkbd3ho,FBIN01
-2021/04/28,India,IN,Telangana,INTG,en,20,3,10,,0,1,,,,,1,,,,,,2,,0,2,,,,,limesurvey-12369,7y7nv9xdzbrw1ive2n,FBIN01
 2021/04/28,India,IN,Sikkim,INSK,en,1,1,2,,0,1,,,,,,,,,,,2,,0,,,,,,limesurvey-12356,uaw470s3hc61r0zqsq,FBIN01
 2021/04/28,India,IN,Gujarat,INGJ,en,1000,100,5,,35,20,,,,,500,,,,,,20,,2,5,,,,,limesurvey-12393,oa3luoj7xcvpkbd3ho,FBIN01
 2021/04/28,India,IN,"Jammu and Kashmir",INJK,en,12,200,3,,0,100,,,,,180,,,,,,22,,5,2,,,,,limesurvey-12351,ytkogvkuokty3aday8,FBIN01
@@ -75,36 +90,21 @@ Timestamp,Country,ISO-3166-1-a2,Region,ISO-3166-2,Language,Reach,Cases,Visibilit
 2021/04/28,India,IN,"West Bengal",INWB,en,70,2,15,,0,0,,,,,0,,,,,,15,,0,0,,,,,limesurvey-12373,5feoo8oxx41aix1v4g,FBIN01
 2021/04/28,India,IN,Gujarat,INGJ,en,1000,100,5,,35,20,,,,,500,,,,,,20,,2,5,,,,,limesurvey-12392,oa3luoj7xcvpkbd3ho,FBIN01
 2021/04/28,India,IN,Gujarat,INGJ,en,1000,100,5,,35,20,,,,,500,,,,,,20,,2,5,,,,,limesurvey-12388,oa3luoj7xcvpkbd3ho,FBIN01
-2021/04/28,India,IN,Gujarat,INGJ,en,1,1,5,,,1,,,,,1,,,,,,1,,1,1,,,,,limesurvey-12381,oa3luoj7xcvpkbd3ho,FBIN01
-2021/04/28,India,IN,Gujarat,INGJ,en,1000,100,5,,35,20,,,,,500,,,,,,20,,2,5,,,,,limesurvey-12390,oa3luoj7xcvpkbd3ho,FBIN01
-2021/04/28,India,IN,Gujarat,INGJ,en,1000,100,5,,35,20,,,,,500,,,,,,20,,2,5,,,,,limesurvey-12389,oa3luoj7xcvpkbd3ho,FBIN01
-2021/04/28,India,IN,Gujarat,INGJ,en,1000,100,5,,35,20,,,,,500,,,,,,20,,2,5,,,,,limesurvey-12387,oa3luoj7xcvpkbd3ho,FBIN01
-2021/04/28,India,IN,Gujarat,INGJ,en,1000,100,5,,35,20,,,,,500,,,,,,20,,2,5,,,,,limesurvey-12395,oa3luoj7xcvpkbd3ho,FBIN01
-2021/04/28,India,IN,Sikkim,INSK,en,1,1,2,,0,1,,,,,,,,,,,2,,0,,,,,,limesurvey-12357,uaw470s3hc61r0zqsq,FBIN01
-2021/04/28,India,IN,Gujarat,INGJ,en,1,1,5,,,1,,,,,1,,,,,,1,,1,1,,,,,limesurvey-12383,oa3luoj7xcvpkbd3ho,FBIN01
-2021/04/28,India,IN,Gujarat,INGJ,en,1000,100,5,,35,20,,,,,500,,,,,,20,,2,5,,,,,limesurvey-12384,oa3luoj7xcvpkbd3ho,FBIN01
-2021/04/28,India,IN,Gujarat,INGJ,en,1000,100,5,,35,20,,,,,500,,,,,,20,,2,5,,,,,limesurvey-12386,oa3luoj7xcvpkbd3ho,FBIN01
-2021/04/28,India,IN,"West Bengal",INWB,en,70,2,15,,0,0,,,,,0,,,,,,15,,0,0,,,,,limesurvey-12374,5feoo8oxx41aix1v4g,FBIN01
-2021/04/28,India,IN,Gujarat,INGJ,en,1000,100,5,,35,20,,,,,500,,,,,,20,,2,5,,,,,limesurvey-12385,oa3luoj7xcvpkbd3ho,FBIN01
-2021/04/28,India,IN,Gujarat,INGJ,en,1000,100,5,,35,20,,,,,500,,,,,,20,,2,5,,,,,limesurvey-12391,oa3luoj7xcvpkbd3ho,FBIN01
-2021/04/28,India,IN,Gujarat,INGJ,en,1000,100,5,,35,20,,,,,500,,,,,,20,,2,5,,,,,limesurvey-12394,oa3luoj7xcvpkbd3ho,FBIN01
-2021/04/28,India,IN,Telangana,INTG,en,20,3,10,,0,1,,,,,1,,,,,,2,,0,2,,,,,limesurvey-12370,7y7nv9xdzbrw1ive2n,FBIN01
-2021/04/28,India,IN,"Andhra Pradesh",INAP,en,300,20,20,,1,0,,,,,0,,,,,,10,,0,0,,,,,limesurvey-12340,z0417oovlnjfxlrp89,FBIN01
 2021/04/29,India,IN,Rajasthan,INRJ,en,300,30,50,,2,5,,,,,5,,,,,,0,,0,0,,,,,limesurvey-12430,jxr1cm41prtiotskjq,
+2021/04/30,India,IN,"Jammu and Kashmir",INJK,en,12,5,12,,1,5,,,,,3,,,,,,1,,0,0,,,,,limesurvey-12537,340jj26vcu7difsakk,FBIN01
+2021/04/30,India,IN,"Jammu and Kashmir",INJK,en,12,5,12,,1,5,,,,,3,,,,,,1,,0,0,,,,,limesurvey-12536,340jj26vcu7difsakk,FBIN01
+2021/04/30,India,IN,"Jammu and Kashmir",INJK,en,12,5,12,,1,5,,,,,3,,,,,,1,,0,0,,,,,limesurvey-12535,340jj26vcu7difsakk,FBIN01
+2021/04/30,India,IN,Odisha,INOR,en,70,20,70,,20,6,,,,,10,,,,,,5,,3,1,,,,,limesurvey-12534,sdf9ac809fh2rns3rl,FBIN01
 2021/04/30,India,IN,"Jammu and Kashmir",INJK,en,12,5,12,,1,5,,,,,3,,,,,,1,,0,0,,,,,limesurvey-12538,340jj26vcu7difsakk,FBIN01
 2021/04/30,India,IN,"Jammu and Kashmir",INJK,en,100,10,20,,0,5,,,,,2,,,,,,30,,0,2,,,,,limesurvey-12565,tn5i4n2o6irtn17krl,FBIN01
-2021/04/30,India,IN,Odisha,INOR,en,70,20,70,,20,6,,,,,10,,,,,,5,,3,1,,,,,limesurvey-12534,sdf9ac809fh2rns3rl,FBIN01
-2021/04/30,India,IN,"Jammu and Kashmir",INJK,en,12,5,12,,1,5,,,,,3,,,,,,1,,0,0,,,,,limesurvey-12537,340jj26vcu7difsakk,FBIN01
-2021/04/30,India,IN,"Jammu and Kashmir",INJK,en,12,5,12,,1,5,,,,,3,,,,,,1,,0,0,,,,,limesurvey-12535,340jj26vcu7difsakk,FBIN01
-2021/04/30,India,IN,"Jammu and Kashmir",INJK,en,12,5,12,,1,5,,,,,3,,,,,,1,,0,0,,,,,limesurvey-12536,340jj26vcu7difsakk,FBIN01
 2021/05/01,India,IN,"West Bengal",INWB,en,30,5,15,,1,0,,,,,2,,,1,,,7,,0,0,,,,,limesurvey-12652,73yub9asaxp11edmmv,FBIN01
 2021/05/01,India,IN,Punjab,INPB,en,7,0,7,,0,0,,,,,0,,,0,0,,2,,0,3,,,,,limesurvey-12696,syrti3slavjivlrecm,
 2021/05/01,India,IN,Gujarat,INGJ,en,5000,2500,,,,,,,,,1000,,,,,,,,,,,,,,limesurvey-12694,2ihb5uiichwhvnbtin,FBIN01
 2021/05/01,India,IN,Gujarat,INGJ,en,50,15,15,,,4,,,,,8,,,,,,20,,0,5,,,,,limesurvey-12664,3ncuului2bljzte6qv,FBIN01
 2021/05/01,India,IN,"West Bengal",INWB,en,30,5,15,,1,0,,,,,2,,,1,,,7,,0,0,,,,,limesurvey-12651,73yub9asaxp11edmmv,FBIN01
-2021/05/02,India,IN,"Andhra Pradesh",INAP,en,1000,3,66,,1,2,,,,,,,,1,,,4,,0,1,,,,,limesurvey-12792,x6uvvm48h04oki9zff,FBIN01
-2021/05/02,India,IN,Haryana,INHR,en,50,23,15,,3,4,,,,,6,,,8,6,,4,,0,6,,,,,limesurvey-12769,0z50vzvv42n7s30d5x,
 2021/05/02,India,IN,Manipur,INMN,en,100,30,10000,,0,16,,,,,20,,,10,0,,8,,0,0,,,,,limesurvey-12789,6n1ni3cpftmo3nzv8a,FBIN01
+2021/05/02,India,IN,Haryana,INHR,en,50,23,15,,3,4,,,,,6,,,8,6,,4,,0,6,,,,,limesurvey-12769,0z50vzvv42n7s30d5x,
+2021/05/02,India,IN,"Andhra Pradesh",INAP,en,1000,3,66,,1,2,,,,,,,,1,,,4,,0,1,,,,,limesurvey-12792,x6uvvm48h04oki9zff,FBIN01
 2021/05/03,India,IN,Gujarat,INGJ,en,80,10,5,,2,3,,,,,3,,,10,8,,15,,0,0,,,,,limesurvey-12868,t676b84crl70204kad,
 2021/05/03,India,IN,Maharashtra,INMH,en,60,15,30,,1,2,,,,,3,,,4,,,4,,0,0,,,,,limesurvey-12846,ec6x808azh5b4qydt6,
 2021/05/03,India,IN,Delhi,INDL,en,200,40,200,,,10,,,,,20,,,,,,10,,0,1,,,,,limesurvey-12870,lm12n905scqbmtf195,
@@ -112,27 +112,27 @@ Timestamp,Country,ISO-3166-1-a2,Region,ISO-3166-2,Language,Reach,Cases,Visibilit
 2021/05/10,India,IN,"Jammu and Kashmir",INJK,en,150,30,50,,1,30,,,,,50,,,6,7,,15,,2,13,,,,,limesurvey-13458,qpsfgus00ro0j0mtwj,FBIN01
 2021/05/11,India,IN,"Jammu and Kashmir",INJK,en,100,10,20,,2,4,,,,,5,,,5,2,,5,,0,10,,,,,limesurvey-13568,ta4j0xuomsrwn0y10j,FBIN01
 2021/05/11,India,IN,"Jammu and Kashmir",INJK,en,100,10,20,,2,4,,,,,5,,,5,2,,5,,0,10,,,,,limesurvey-13567,ta4j0xuomsrwn0y10j,FBIN01
-2021/05/12,India,IN,Rajasthan,INRJ,en,100,90,100,,0,7,,,,,10,,,2,0,,45,,0,10,,,,,limesurvey-13630,es6gjkmoz6sboe5z0g,FBIN01
-2021/05/12,India,IN,Rajasthan,INRJ,en,100,90,100,,0,7,,,,,10,,,2,0,,45,,0,10,,,,,limesurvey-13632,es6gjkmoz6sboe5z0g,FBIN01
-2021/05/12,India,IN,Rajasthan,INRJ,en,100,90,100,,0,7,,,,,10,,,2,0,,45,,0,10,,,,,limesurvey-13625,es6gjkmoz6sboe5z0g,FBIN01
-2021/05/12,India,IN,Rajasthan,INRJ,en,100,90,100,,0,7,,,,,10,,,2,0,,45,,0,10,,,,,limesurvey-13627,es6gjkmoz6sboe5z0g,FBIN01
-2021/05/12,India,IN,Rajasthan,INRJ,en,100,90,100,,0,7,,,,,10,,,2,0,,45,,0,10,,,,,limesurvey-13631,es6gjkmoz6sboe5z0g,FBIN01
 2021/05/12,India,IN,Rajasthan,INRJ,en,100,90,100,,0,7,,,,,10,,,2,0,,45,,0,10,,,,,limesurvey-13629,es6gjkmoz6sboe5z0g,FBIN01
-2021/05/12,India,IN,Rajasthan,INRJ,en,100,90,100,,0,7,,,,,10,,,2,0,,45,,0,10,,,,,limesurvey-13628,es6gjkmoz6sboe5z0g,FBIN01
 2021/05/12,India,IN,Rajasthan,INRJ,en,100,90,100,,0,7,,,,,10,,,2,0,,45,,0,10,,,,,limesurvey-13626,es6gjkmoz6sboe5z0g,FBIN01
+2021/05/12,India,IN,Rajasthan,INRJ,en,100,90,100,,0,7,,,,,10,,,2,0,,45,,0,10,,,,,limesurvey-13628,es6gjkmoz6sboe5z0g,FBIN01
 2021/05/12,India,IN,Odisha,INOR,en,100,10,2005,,3,3,,,,,3,,,7,0,,20,,0,0,,,,,limesurvey-13652,lvz2zm830g54hwkh5x,FBIN01
+2021/05/12,India,IN,Rajasthan,INRJ,en,100,90,100,,0,7,,,,,10,,,2,0,,45,,0,10,,,,,limesurvey-13631,es6gjkmoz6sboe5z0g,FBIN01
+2021/05/12,India,IN,Rajasthan,INRJ,en,100,90,100,,0,7,,,,,10,,,2,0,,45,,0,10,,,,,limesurvey-13627,es6gjkmoz6sboe5z0g,FBIN01
+2021/05/12,India,IN,Rajasthan,INRJ,en,100,90,100,,0,7,,,,,10,,,2,0,,45,,0,10,,,,,limesurvey-13625,es6gjkmoz6sboe5z0g,FBIN01
+2021/05/12,India,IN,Rajasthan,INRJ,en,100,90,100,,0,7,,,,,10,,,2,0,,45,,0,10,,,,,limesurvey-13632,es6gjkmoz6sboe5z0g,FBIN01
+2021/05/12,India,IN,Rajasthan,INRJ,en,100,90,100,,0,7,,,,,10,,,2,0,,45,,0,10,,,,,limesurvey-13630,es6gjkmoz6sboe5z0g,FBIN01
 2021/05/13,India,IN,Manipur,INMN,en,300,7,100,,2,0,,,,,0,,,10,,,60,,0,10,,,,,limesurvey-13683,09akzgf4l2fmc7312s,FBIN01
 2021/05/13,India,IN,Manipur,INMN,en,300,7,100,,2,0,,,,,0,,,10,,,60,,0,10,,,,,limesurvey-13684,09akzgf4l2fmc7312s,FBIN01
 2021/05/14,India,IN,"Tamil Nadu",INTN,en,300,5,15,,0,0,,,,,0,,,0,0,,5,,0,11,,,,,limesurvey-13725,z38anzzdncekjrc4qt,
-2021/05/17,India,IN,Delhi,INDL,en,10,4,0,,0,0,,,,,0,,,1,1,,8,,0,0,,,,,limesurvey-13849,qw89z2zwijv4mhjn6q,
-2021/05/17,India,IN,"Uttar Pradesh",INUP,en,89,60,11,,5,0,,,,,10,,,6,4,,21,,3,0,,,,,limesurvey-13845,2j6oaewavkjib8f272,
-2021/05/17,India,IN,Delhi,INDL,en,50,10,10,,0,10,,,,,2,,,0,0,,3,,0,0,,,,,limesurvey-13850,ffy264y6ld4i4703yq,
-2021/05/17,India,IN,Delhi,INDL,en,10,4,0,,0,0,,,,,0,,,1,1,,8,,0,0,,,,,limesurvey-13846,qw89z2zwijv4mhjn6q,
-2021/05/17,India,IN,Delhi,INDL,en,50,30,10,,1,20,,,,,0,,,5,1,,15,,0,0,,,,,limesurvey-13853,3habi6xx9v0atebdoh,
-2021/05/17,India,IN,Delhi,INDL,en,90,61,90,,3,13,,,,,13,,,10,5,,14,,0,0,,,,,limesurvey-13844,p7dz959g6zlz6aorac,
-2021/05/17,India,IN,Delhi,INDL,en,10,4,0,,0,0,,,,,0,,,1,1,,8,,0,0,,,,,limesurvey-13848,qw89z2zwijv4mhjn6q,
-2021/05/17,India,IN,Delhi,INDL,en,60,25,45,,,3,,,,,2,,,,,,35,,0,0,,,,,limesurvey-13851,3muidet54vn3oncqxu,
 2021/05/17,India,IN,Delhi,INDL,en,10,4,0,,0,0,,,,,0,,,1,1,,8,,0,0,,,,,limesurvey-13847,qw89z2zwijv4mhjn6q,
+2021/05/17,India,IN,Delhi,INDL,en,60,25,45,,,3,,,,,2,,,,,,35,,0,0,,,,,limesurvey-13851,3muidet54vn3oncqxu,
+2021/05/17,India,IN,Delhi,INDL,en,10,4,0,,0,0,,,,,0,,,1,1,,8,,0,0,,,,,limesurvey-13848,qw89z2zwijv4mhjn6q,
+2021/05/17,India,IN,Delhi,INDL,en,90,61,90,,3,13,,,,,13,,,10,5,,14,,0,0,,,,,limesurvey-13844,p7dz959g6zlz6aorac,
+2021/05/17,India,IN,Delhi,INDL,en,50,30,10,,1,20,,,,,0,,,5,1,,15,,0,0,,,,,limesurvey-13853,3habi6xx9v0atebdoh,
+2021/05/17,India,IN,Delhi,INDL,en,10,4,0,,0,0,,,,,0,,,1,1,,8,,0,0,,,,,limesurvey-13846,qw89z2zwijv4mhjn6q,
+2021/05/17,India,IN,Delhi,INDL,en,50,10,10,,0,10,,,,,2,,,0,0,,3,,0,0,,,,,limesurvey-13850,ffy264y6ld4i4703yq,
+2021/05/17,India,IN,"Uttar Pradesh",INUP,en,89,60,11,,5,0,,,,,10,,,6,4,,21,,3,0,,,,,limesurvey-13845,2j6oaewavkjib8f272,
+2021/05/17,India,IN,Delhi,INDL,en,10,4,0,,0,0,,,,,0,,,1,1,,8,,0,0,,,,,limesurvey-13849,qw89z2zwijv4mhjn6q,
 2021/05/26,India,IN,Karnataka,INKA,en,10,3,0,,0,0,,,,,0,,,0,0,,0,,0,0,,,,,limesurvey-14295,0cyrgwuwdjw77l1gsl,
 2021/06/06,India,IN,"Andhra Pradesh",INAP,en,50,16,50,,9,3,,,,,3,,,14,6,,25,,2,6,,,,,limesurvey-14901,fmj1pjn14bsp0n1efy,
 2021/06/16,India,IN,"West Bengal",INWB,en,50,1,,,7,,,,,,1,,,3,3,,30,,10,30,,,,,limesurvey-15516,byf681hoiqvu5v7ykj,FBIN01
@@ -142,19 +142,19 @@ Timestamp,Country,ISO-3166-1-a2,Region,ISO-3166-2,Language,Reach,Cases,Visibilit
 2021/06/17,India,IN,"West Bengal",INWB,en,3,2,3,,0,,,,,,0,,,0,0,,1,,0,0,,,,,limesurvey-15540,vyp7b0ylpmxl0bh1pb,FBIN01
 2021/06/19,India,IN,Delhi,INDL,en,50,15,50,,2,0,,,,,0,,,2,2,,25,,0,0,,,,,limesurvey-15669,ur2n34btldouwfzbfd,FBIN01
 2021/06/19,India,IN,Delhi,INDL,en,50,15,50,,2,0,,,,,0,,,2,2,,25,,0,0,,,,,limesurvey-15670,ur2n34btldouwfzbfd,FBIN01
-2021/06/21,India,IN,Gujarat,INGJ,en,25,15,20,,2,1,,,,,0,,,20,4,,20,,5,8,,,,,limesurvey-15810,v7vdpcew2xrmxdjqla,FBIN01
-2021/06/21,India,IN,Gujarat,INGJ,en,25,15,20,,2,1,,,,,0,,,20,4,,20,,5,8,,,,,limesurvey-15807,v7vdpcew2xrmxdjqla,FBIN01
-2021/06/21,India,IN,Gujarat,INGJ,en,25,15,20,,2,1,,,,,0,,,20,4,,20,,5,8,,,,,limesurvey-15806,v7vdpcew2xrmxdjqla,FBIN01
-2021/06/21,India,IN,Gujarat,INGJ,en,25,15,20,,2,1,,,,,0,,,20,4,,20,,5,8,,,,,limesurvey-15803,v7vdpcew2xrmxdjqla,FBIN01
-2021/06/21,India,IN,Gujarat,INGJ,en,25,15,20,,2,1,,,,,0,,,20,4,,20,,5,8,,,,,limesurvey-15813,v7vdpcew2xrmxdjqla,FBIN01
-2021/06/21,India,IN,Gujarat,INGJ,en,25,15,20,,2,1,,,,,0,,,20,4,,20,,5,8,,,,,limesurvey-15812,v7vdpcew2xrmxdjqla,FBIN01
-2021/06/21,India,IN,Gujarat,INGJ,en,25,15,20,,2,1,,,,,0,,,20,4,,20,,5,8,,,,,limesurvey-15805,v7vdpcew2xrmxdjqla,FBIN01
 2021/06/21,India,IN,Gujarat,INGJ,en,25,15,20,,2,1,,,,,0,,,20,4,,20,,5,8,,,,,limesurvey-15811,v7vdpcew2xrmxdjqla,FBIN01
-2021/06/21,India,IN,Gujarat,INGJ,en,25,15,20,,2,1,,,,,0,,,20,4,,20,,5,8,,,,,limesurvey-15809,v7vdpcew2xrmxdjqla,FBIN01
-2021/06/21,India,IN,Gujarat,INGJ,en,25,15,20,,2,1,,,,,0,,,20,4,,20,,5,8,,,,,limesurvey-15814,v7vdpcew2xrmxdjqla,FBIN01
-2021/06/21,India,IN,Gujarat,INGJ,en,25,15,20,,2,1,,,,,0,,,20,4,,20,,5,8,,,,,limesurvey-15804,v7vdpcew2xrmxdjqla,FBIN01
-2021/06/21,India,IN,"Uttar Pradesh",INUP,en,20,15,,,3,2,,,,,2,,,5,5,,10,,,,,,,,limesurvey-15829,iw7n3q33v9dljepade,FBIN01
 2021/06/21,India,IN,Gujarat,INGJ,en,25,15,20,,2,1,,,,,0,,,20,4,,20,,5,8,,,,,limesurvey-15808,v7vdpcew2xrmxdjqla,FBIN01
+2021/06/21,India,IN,"Uttar Pradesh",INUP,en,20,15,,,3,2,,,,,2,,,5,5,,10,,,,,,,,limesurvey-15829,iw7n3q33v9dljepade,FBIN01
+2021/06/21,India,IN,Gujarat,INGJ,en,25,15,20,,2,1,,,,,0,,,20,4,,20,,5,8,,,,,limesurvey-15810,v7vdpcew2xrmxdjqla,FBIN01
+2021/06/21,India,IN,Gujarat,INGJ,en,25,15,20,,2,1,,,,,0,,,20,4,,20,,5,8,,,,,limesurvey-15814,v7vdpcew2xrmxdjqla,FBIN01
+2021/06/21,India,IN,Gujarat,INGJ,en,25,15,20,,2,1,,,,,0,,,20,4,,20,,5,8,,,,,limesurvey-15809,v7vdpcew2xrmxdjqla,FBIN01
+2021/06/21,India,IN,Gujarat,INGJ,en,25,15,20,,2,1,,,,,0,,,20,4,,20,,5,8,,,,,limesurvey-15804,v7vdpcew2xrmxdjqla,FBIN01
+2021/06/21,India,IN,Gujarat,INGJ,en,25,15,20,,2,1,,,,,0,,,20,4,,20,,5,8,,,,,limesurvey-15805,v7vdpcew2xrmxdjqla,FBIN01
+2021/06/21,India,IN,Gujarat,INGJ,en,25,15,20,,2,1,,,,,0,,,20,4,,20,,5,8,,,,,limesurvey-15812,v7vdpcew2xrmxdjqla,FBIN01
+2021/06/21,India,IN,Gujarat,INGJ,en,25,15,20,,2,1,,,,,0,,,20,4,,20,,5,8,,,,,limesurvey-15813,v7vdpcew2xrmxdjqla,FBIN01
+2021/06/21,India,IN,Gujarat,INGJ,en,25,15,20,,2,1,,,,,0,,,20,4,,20,,5,8,,,,,limesurvey-15803,v7vdpcew2xrmxdjqla,FBIN01
+2021/06/21,India,IN,Gujarat,INGJ,en,25,15,20,,2,1,,,,,0,,,20,4,,20,,5,8,,,,,limesurvey-15806,v7vdpcew2xrmxdjqla,FBIN01
+2021/06/21,India,IN,Gujarat,INGJ,en,25,15,20,,2,1,,,,,0,,,20,4,,20,,5,8,,,,,limesurvey-15807,v7vdpcew2xrmxdjqla,FBIN01
 2021/06/23,India,IN,Sikkim,INSK,en,40,10,30,,,7,,,,,5,,,200,,,3831,,2,0,,,,,limesurvey-15933,ffa9o5x0z0fgu25j0n,FBIN01
 2021/06/25,India,IN,Assam,INAS,en,45,0,40,,0,0,,,,,0,,,2,0,,24,,0,0,,,,,limesurvey-16041,tgqvtvig5wzspmt66b,FBIN01
 2021/06/25,India,IN,Assam,INAS,en,45,0,40,,0,0,,,,,0,,,2,0,,24,,0,0,,,,,limesurvey-16042,tgqvtvig5wzspmt66b,FBIN01
