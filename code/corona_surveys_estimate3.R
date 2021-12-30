@@ -26,14 +26,14 @@ try(source("script-confirmed3.R"), silent = T)
 # try(source("script-umd-regions-plot.R"), silent = T)
 
 # try(source("script-30responses.R"), silent = T)
-try(source("script-300responses-v2.R"), silent = T)
-try(source("script-300responses-smooth.R"), silent = T)
+# try(source("script-300responses-v2.R"), silent = T) # To be revised. It crashes because of the format of file regions-tree-population.csv
+# try(source("script-300responses-smooth.R"), silent = T)
 
 # try(source("script-W-alpha.R"), silent = T)
 try(source("script-W.R"), silent = T)
 
 try(source("script-regions-daily.R"), silent = T)
-try(source("script-regions-province-daily.R"), silent = T)
+try(source("script-regions-no-province-daily.R"), silent = T)
 try(source("script-provinces-daily.R"), silent = T)
 try(source("script-provinces-map.R"), silent = T)
 try(source("script-provinces-plot.R"), silent = T)
@@ -44,7 +44,7 @@ try(source("script-combined-region-province.R"), silent = T)
 try(source("script-ccfr-fatalities-country.R"), silent = T)
 
 try(source("script-ccfr-based-v4.R"), silent = T)
-try(source("script-ES-ccfr-based.R"), silent = T)
+# try(source("script-ES-ccfr-based.R"), silent = T)
 
 try(source("script-rivas-arganda-daily.R"), silent = T)
 

@@ -1,3 +1,16 @@
+# <!-- Copyright {{ 2021 }} {{ IMDEA Networks Institute }} -->
+# <!-- Author {{ Oluwasegin Ojo, Antonio Fernández Anta }} {{https://coronasurveys.org/}} -->
+# <!-- Licensed under the Apache License, Version 2.0 (the "License"); -->
+# <!-- you may not use this file except in compliance with the License. -->
+# <!-- You may obtain a copy of the License at -->
+#
+# <!-- http://www.apache.org/licenses/LICENSE-2.0 -->
+#
+# <!-- Unless required by applicable law or agreed to in writing, software -->
+# <!-- distributed under the License is distributed on an "AS IS" BASIS, -->
+# <!-- WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express -->
+# <!-- or implied. See the License for the specific language governing -->
+# <!-- permissions and limitations under the License. -->
 library(tidyr)
 library(dplyr)
 # install.packages("xtable")
@@ -5,7 +18,7 @@ library("xtable")
 
 responses_path <- "../data/aggregate/"
 data_path <- "../data/common-data/provinces-tree-population.csv"
-estimates_path <- "../data/estimates-regions/"
+estimates_path <- "../data/estimates-regions-no-province/"
 
 # responses_path <- "../coronasurveys/data/aggregate/"
 # data_path <- "../coronasurveys/data/common-data/regions-tree-population.csv"

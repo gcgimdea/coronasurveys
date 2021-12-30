@@ -1,3 +1,17 @@
+# <!-- Copyright {{ 2021 }} {{ IMDEA Networks Institute }} -->
+# <!-- Author {{ Ananth Venkatesh, Antonio Fernández Anta }} {{https://coronasurveys.org/}} -->
+# <!-- Licensed under the Apache License, Version 2.0 (the "License"); -->
+# <!-- you may not use this file except in compliance with the License. -->
+# <!-- You may obtain a copy of the License at -->
+#
+# <!-- http://www.apache.org/licenses/LICENSE-2.0 -->
+#
+# <!-- Unless required by applicable law or agreed to in writing, software -->
+# <!-- distributed under the License is distributed on an "AS IS" BASIS, -->
+# <!-- WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express -->
+# <!-- or implied. See the License for the specific language governing -->
+# <!-- permissions and limitations under the License. -->
+
 #!/usr/bin/env Rscript
 # USAGE: `Rscript fetch-all.R`
 #        (1) set `countries` to a character vector of country codes to fetch
@@ -5,14 +19,16 @@
 #        (2) set `region_types` to the type of region to fetch;
 #            regions will then be detected automatically for each country
 #            e.g. `region_types <- c('Autonomous community', 'Metropolitan region', 'Region')`
-# OUTPUT: ../../data/combined-region-province/{countrycode}/{regioncode}-estimate.csv
+# INPUT: ../data/estimates-provinces/{countrycode}/{provincecode}-estimate.csv
+# INPUT: ../data/estimates-regions-no-province/{countrycode}/{regioncode}-estimate.csv
+# OUTPUT: ../data/estimates-regions/{countrycode}/{regioncode}-estimate.csv
 
 
 # This script fetches the necessary data from 
-# (1) https://github.com/GCGImdea/coronasurveys/blob/master/data/common-data/regions-tree-population.csv
-# (2) https://github.com/GCGImdea/coronasurveys/blob/master/data/common-data/provinces-tree-population.csv
-# (3) https://github.com/GCGImdea/coronasurveys/blob/master/data/estimates-provinces/{countrycode}/{provincecode}-estimate.csv *1
-# (4) https://github.com/GCGImdea/coronasurveys/blob/master/data/estimates-regions/{countrycode}/{regioncode}-estimate.csv *2
+# (1) ../data/common-data/regions-tree-population.csv
+# (2) ../data/common-data/provinces-tree-population.csv
+# (3) ../data/estimates-provinces/{countrycode}/{provincecode}-estimate.csv *1
+# (4) ../data/estimates-regions-no-province/{countrycode}/{regioncode}-estimate.csv *2
 #
 # [*1] This step is repeated for all of the provinces in the country.
 # [*2] This step is repeated for all of the regions in the country.
@@ -50,26 +66,28 @@
 # That way, the script will run much faster since there is much less data to 
 # fetch and process.
 
-
 # load libraries
 library(data.table)
 
-estimates_path <- "../data/estimates-combined-region-province/PlotData/"
-
+estimates_path <- "../data/estimates-regions/"
+regions_path <- "../data/estimates-regions-no-province/"
+provinces_path <- "../data/estimates-provinces/"
+regions_tree_file <- "../data/common-data/regions-tree-population.csv"
+provinces_tree_file <- "../data/common-data/provinces-tree-population.csv"
 
 # data loaders & helper functions
 load_regioncodes <- function(args.countrycode, args.regiontype) {  # get (1)
     
-    data <- fread('https://raw.githubusercontent.com/GCGImdea/coronasurveys/master/data/common-data/regions-tree-population-v2.csv')
+    data <- fread(regions_tree_file)
     filtered_data <- data[countrycode == args.countrycode & 
                           regiontype %in% args.regiontype][, c(2, 5)]
     filtered_data
-
+    
 }
 
 load_provincecodes <- function(args.countrycode) {  # get (2)
 
-    data <- fread('https://raw.githubusercontent.com/GCGImdea/coronasurveys/master/data/common-data/provinces-tree-population.csv')
+    data <- fread(provinces_tree_file)
     filtered_data <- data[countrycode == args.countrycode][, c(2, 3, 5)]
     filtered_data
 
@@ -82,7 +100,7 @@ load_province_data <- function(args.countrycode,
     for (i in 1:nrow(args.provincecodes)) {
 
         provincecode <- args.provincecodes[i]$provincecode
-        province_data <- fread(paste('https://raw.githubusercontent.com/GCGImdea/coronasurveys/master/data/estimates-provinces/', 
+        province_data <- fread(paste(provinces_path, 
                             args.countrycode, '/', 
                             provincecode, '-estimate.csv', 
                             sep=''))
@@ -97,7 +115,7 @@ load_province_data <- function(args.countrycode,
 
 load_region_data <- function(args.countrycode, args.regioncode) {  # get (4)
     
-    data <- fread(paste('https://raw.githubusercontent.com/GCGImdea/coronasurveys/master/data/estimates-regions/', 
+    data <- fread(paste(regions_path, 
                         args.countrycode, '/', 
                         args.regioncode, '-estimate.csv', 
                         sep=''))
