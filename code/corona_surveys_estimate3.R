@@ -26,19 +26,20 @@ try(source("script-confirmed3.R"), silent = T)
 # try(source("script-umd-regions-plot.R"), silent = T)
 
 # try(source("script-30responses.R"), silent = T)
-# try(source("script-300responses-v2.R"), silent = T) # To be revised. It crashes because of the format of file regions-tree-population.csv
-# try(source("script-300responses-smooth.R"), silent = T)
+try(source("script-300responses-v2.R"), silent = T)
 
 # try(source("script-W-alpha.R"), silent = T)
 try(source("script-W.R"), silent = T)
 
-try(source("script-regions-daily.R"), silent = T)
-try(source("script-regions-no-province-daily.R"), silent = T)
-try(source("script-provinces-daily.R"), silent = T)
-try(source("script-provinces-map.R"), silent = T)
-try(source("script-provinces-plot.R"), silent = T)
+try(source("script-nsum-provinces.R"), silent = T)
+try(source("script-nsum-regions-no-province.R"), silent = T)
+try(source("script-nsum-combine-region-province.R"), silent = T)
+try(source("script-nsum-regions.R"), silent = T)
+try(source("script-nsum-country-region-1.R"), silent = T)
+try(source("script-nsum-country-region-2.R"), silent = T)
 
-try(source("script-combined-region-province.R"), silent = T)
+try(source("script-nsum-provinces-map.R"), silent = T)
+try(source("script-nsum-provinces-plot.R"), silent = T)
 
 # The estimates based on fatalities use the Oxford official data. Has to be changes if using JHU
 try(source("script-ccfr-fatalities-country.R"), silent = T)

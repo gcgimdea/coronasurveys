@@ -2,12 +2,16 @@ library(tidyr)
 library(dplyr)
 
 responses_path <- "../data/aggregate/"
-data_path <- "../data/common-data/regions-tree-population.csv"
+data_path <- "../data/common-data/regions-tree-population-v1.csv"
 estimates_path <- "../data/estimates-300responses/PlotData/"
 
 # responses_path <- "../coronasurveys/data/aggregate/"
 # data_path <- "../coronasurveys/data/common-data/regions-tree-population.csv"
 # estimates_path <- "./estimates-300responses/PlotData/"
+
+# smoothed p_cases_infected and CI:
+source("smooth_column-v2.R")
+smooth_param <- 30
 
 cases_cutoff <- 1/2
 
@@ -233,6 +237,19 @@ get_spain_region_based_rosa <- function(country_geoid = "ES",
                                          p_cases_daily = p_cases_recent / 7,
                                          p_cases_active = p_stillsick,
                                          stringsAsFactors = F)
+
+    
+    if (sum(region_based_estimate2$p_cases_infected != 0) > smooth_param) {
+      region_based_estimate2 <- smooth_column(region_based_estimate2, "p_cases_infected", 
+                               smooth_param, link_in = "log", monotone = T)
+      # data300 <- smooth_column(data300, "p_cases_infected_error", 
+      #                                        smooth_param, link_in = "log", monotone = F)
+      region_based_estimate2$p_cases_infected_smooth_low <- 
+        region_based_estimate2$p_cases_infected_smooth - region_based_estimate2$p_cases_infected_error
+      region_based_estimate2$p_cases_infected_smooth_high <- 
+        region_based_estimate2$p_cases_infected_smooth + region_based_estimate2$p_cases_infected_error
+    }
+    
     if(write_file == T){
       cat("::- script-300responses: Writing estimates for:", country_geoid, "::\n")
       write.csv(region_based_estimate2,
