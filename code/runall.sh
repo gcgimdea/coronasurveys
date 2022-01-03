@@ -25,7 +25,7 @@ Rscript script-300responses-v2.R
 date
 
 # Rscript script-W-alpha.R
-Rscript script-W.R
+#Rscript script-W.R
 
 date
 
