@@ -1,0 +1,409 @@
+\begin{table}[ht]
+\centering
+\begin{tabular}{lllllll}
+  \hline
+Country & Quarter & Method & Accuracy & Sensitivity & Specificity & F1 \\
+  \hline
+Brazil & 2021-Q3 &  \textsf{Random Forest}  & 0.82 & 0.76 & 0.83 & 0.52 \\
+  Brazil & 2021-Q3 &  \textsf{UMD CLI}  & 0.78 & 0.70 & 0.78 & 0.21 \\
+  Brazil & 2021-Q3 &  \textsf{stringent CLI}  & 0.81 & 0.81 & 0.81 & 0.40 \\
+  Brazil & 2021-Q3 &  \textsf{classic CLI}  & 0.78 & 0.57 & 0.81 & 0.42 \\
+  Brazil & 2021-Q3 &  \textsf{broad CLI}  & 0.77 & 0.54 & 0.81 & 0.41 \\
+  Mexico & 2021-Q3 &  \textsf{Random Forest}  & 0.85 & 0.80 & 0.86 & 0.69 \\
+  Mexico & 2021-Q3 &  \textsf{UMD CLI}  & 0.77 & 0.82 & 0.77 & 0.37 \\
+  Mexico & 2021-Q3 &  \textsf{stringent CLI}  & 0.82 & 0.86 & 0.81 & 0.57 \\
+  Mexico & 2021-Q3 &  \textsf{classic CLI}  & 0.81 & 0.75 & 0.82 & 0.58 \\
+  Mexico & 2021-Q3 &  \textsf{broad CLI}  & 0.79 & 0.71 & 0.81 & 0.54 \\
+  Japan & 2021-Q3 &  \textsf{Random Forest}  & 0.95 & 0.81 & 0.96 & 0.51 \\
+  Japan & 2021-Q3 &  \textsf{UMD CLI}  & 0.94 & 0.58 & 0.95 & 0.36 \\
+  Japan & 2021-Q3 &  \textsf{stringent CLI}  & 0.95 & 0.77 & 0.95 & 0.39 \\
+  Japan & 2021-Q3 &  \textsf{classic CLI}  & 0.93 & 0.44 & 0.96 & 0.42 \\
+  Japan & 2021-Q3 &  \textsf{broad CLI}  & 0.91 & 0.29 & 0.95 & 0.29 \\
+  Germany & 2021-Q3 &  \textsf{Random Forest}  & 0.99 & 0.86 & 0.99 & 0.21 \\
+  Germany & 2021-Q3 &  \textsf{UMD CLI}  & 0.98 & 0.14 & 0.99 & 0.14 \\
+  Germany & 2021-Q3 &  \textsf{stringent CLI}  & 0.98 & 0.22 & 0.99 & 0.25 \\
+  Germany & 2021-Q3 &  \textsf{classic CLI}  & 0.96 & 0.05 & 0.99 & 0.10 \\
+  Germany & 2021-Q3 &  \textsf{broad CLI}  & 0.95 & 0.04 & 0.99 & 0.07 \\
+  Italy & 2021-Q3 &  \textsf{Random Forest}  & 0.97 & 0.79 & 0.97 & 0.42 \\
+  Italy & 2021-Q3 &  \textsf{UMD CLI}  & 0.96 & 0.37 & 0.97 & 0.21 \\
+  Italy & 2021-Q3 &  \textsf{stringent CLI}  & 0.97 & 0.49 & 0.97 & 0.31 \\
+  Italy & 2021-Q3 &  \textsf{classic CLI}  & 0.95 & 0.28 & 0.97 & 0.29 \\
+  Italy & 2021-Q3 &  \textsf{broad CLI}  & 0.95 & 0.22 & 0.97 & 0.23 \\
+  France & 2021-Q3 &  \textsf{Random Forest}  & 0.96 & 0.74 & 0.97 & 0.38 \\
+  France & 2021-Q3 &  \textsf{UMD CLI}  & 0.95 & 0.41 & 0.96 & 0.29 \\
+  France & 2021-Q3 &  \textsf{stringent CLI}  & 0.96 & 0.58 & 0.97 & 0.40 \\
+  France & 2021-Q3 &  \textsf{classic CLI}  & 0.93 & 0.28 & 0.97 & 0.33 \\
+  France & 2021-Q3 &  \textsf{broad CLI}  & 0.93 & 0.22 & 0.97 & 0.26 \\
+  India & 2021-Q3 &  \textsf{Random Forest}  & 0.85 & 0.67 & 0.86 & 0.27 \\
+  India & 2021-Q3 &  \textsf{UMD CLI}  & 0.83 & 0.50 & 0.85 & 0.17 \\
+  India & 2021-Q3 &  \textsf{stringent CLI}  & 0.85 & 0.64 & 0.85 & 0.24 \\
+  India & 2021-Q3 &  \textsf{classic CLI}  & 0.83 & 0.45 & 0.85 & 0.23 \\
+  India & 2021-Q3 &  \textsf{broad CLI}  & 0.82 & 0.41 & 0.85 & 0.24 \\
+  Ukraine & 2021-Q3 &  \textsf{Random Forest}  & 0.93 & 0.73 & 0.94 & 0.45 \\
+  Ukraine & 2021-Q3 &  \textsf{UMD CLI}  & 0.91 & 0.48 & 0.93 & 0.35 \\
+  Ukraine & 2021-Q3 &  \textsf{stringent CLI}  & 0.92 & 0.64 & 0.94 & 0.47 \\
+  Ukraine & 2021-Q3 &  \textsf{classic CLI}  & 0.89 & 0.39 & 0.94 & 0.39 \\
+  Ukraine & 2021-Q3 &  \textsf{broad CLI}  & 0.88 & 0.35 & 0.94 & 0.36 \\
+  Sweden & 2021-Q3 &  \textsf{Random Forest}  & 0.95 & 0.85 & 0.95 & 0.19 \\
+  Sweden & 2021-Q3 &  \textsf{UMD CLI}  & 0.92 & 0.24 & 0.96 & 0.25 \\
+  Sweden & 2021-Q3 &  \textsf{stringent CLI}  & 0.93 & 0.36 & 0.97 & 0.39 \\
+  Sweden & 2021-Q3 &  \textsf{classic CLI}  & 0.87 & 0.17 & 0.96 & 0.24 \\
+  Sweden & 2021-Q3 &  \textsf{broad CLI}  & 0.87 & 0.16 & 0.96 & 0.23 \\
+  Canada & 2021-Q3 &  \textsf{Random Forest}  & 0.96 & 0.78 & 0.96 & 0.31 \\
+  Canada & 2021-Q3 &  \textsf{UMD CLI}  & 0.95 & 0.30 & 0.96 & 0.18 \\
+  Canada & 2021-Q3 &  \textsf{stringent CLI}  & 0.95 & 0.52 & 0.96 & 0.38 \\
+  Canada & 2021-Q3 &  \textsf{classic CLI}  & 0.91 & 0.18 & 0.96 & 0.23 \\
+  Canada & 2021-Q3 &  \textsf{broad CLI}  & 0.90 & 0.18 & 0.96 & 0.23 \\
+  United Kingdom & 2021-Q3 &  \textsf{Random Forest}  & 0.96 & 0.76 & 0.97 & 0.58 \\
+  United Kingdom & 2021-Q3 &  \textsf{UMD CLI}  & 0.95 & 0.49 & 0.96 & 0.34 \\
+  United Kingdom & 2021-Q3 &  \textsf{stringent CLI}  & 0.96 & 0.61 & 0.97 & 0.53 \\
+  United Kingdom & 2021-Q3 &  \textsf{classic CLI}  & 0.91 & 0.29 & 0.97 & 0.38 \\
+  United Kingdom & 2021-Q3 &  \textsf{broad CLI}  & 0.90 & 0.25 & 0.97 & 0.33 \\
+  Vietnam & 2021-Q3 &  \textsf{Random Forest}  & 0.98 & 0.68 & 0.98 & 0.23 \\
+  Vietnam & 2021-Q3 &  \textsf{UMD CLI}  & 0.98 & 0.33 & 0.98 & 0.19 \\
+  Vietnam & 2021-Q3 &  \textsf{stringent CLI}  & 0.98 & 0.47 & 0.98 & 0.30 \\
+  Vietnam & 2021-Q3 &  \textsf{classic CLI}  & 0.97 & 0.19 & 0.98 & 0.22 \\
+  Vietnam & 2021-Q3 &  \textsf{broad CLI}  & 0.97 & 0.13 & 0.98 & 0.16 \\
+  Argentina & 2021-Q3 &  \textsf{Random Forest}  & 0.85 & 0.80 & 0.86 & 0.61 \\
+  Argentina & 2021-Q3 &  \textsf{UMD CLI}  & 0.78 & 0.74 & 0.79 & 0.25 \\
+  Argentina & 2021-Q3 &  \textsf{stringent CLI}  & 0.82 & 0.85 & 0.82 & 0.44 \\
+  Argentina & 2021-Q3 &  \textsf{classic CLI}  & 0.81 & 0.67 & 0.83 & 0.48 \\
+  Argentina & 2021-Q3 &  \textsf{broad CLI}  & 0.80 & 0.64 & 0.82 & 0.45 \\
+  Russia & 2021-Q3 &  \textsf{Random Forest}  & 0.91 & 0.74 & 0.93 & 0.61 \\
+  Russia & 2021-Q3 &  \textsf{UMD CLI}  & 0.88 & 0.59 & 0.90 & 0.37 \\
+  Russia & 2021-Q3 &  \textsf{stringent CLI}  & 0.90 & 0.69 & 0.92 & 0.57 \\
+  Russia & 2021-Q3 &  \textsf{classic CLI}  & 0.88 & 0.54 & 0.92 & 0.52 \\
+  Russia & 2021-Q3 &  \textsf{broad CLI}  & 0.87 & 0.51 & 0.91 & 0.46 \\
+  Hungary & 2021-Q3 &  \textsf{Random Forest}  & 0.89 & 0.5 & 0.89 & 0.12 \\
+  Hungary & 2021-Q3 &  \textsf{UMD CLI}  & 0.88 & 0.31 & 0.89 & 0.10 \\
+  Hungary & 2021-Q3 &  \textsf{stringent CLI}  & 0.88 & 0.40 & 0.90 & 0.22 \\
+  Hungary & 2021-Q3 &  \textsf{classic CLI}  & 0.84 & 0.25 & 0.90 & 0.23 \\
+  Hungary & 2021-Q3 &  \textsf{broad CLI}  & 0.85 & 0.24 & 0.90 & 0.21 \\
+  Romania & 2021-Q3 &  \textsf{Random Forest}  & 0.95 & 0.79 & 0.96 & 0.62 \\
+  Romania & 2021-Q3 &  \textsf{UMD CLI}  & 0.93 & 0.62 & 0.94 & 0.29 \\
+  Romania & 2021-Q3 &  \textsf{stringent CLI}  & 0.94 & 0.72 & 0.95 & 0.52 \\
+  Romania & 2021-Q3 &  \textsf{classic CLI}  & 0.92 & 0.47 & 0.95 & 0.45 \\
+  Romania & 2021-Q3 &  \textsf{broad CLI}  & 0.91 & 0.40 & 0.94 & 0.34 \\
+  Poland & 2021-Q3 &  \textsf{Random Forest}  & 0.91 & 0.90 & 0.91 & 0.09 \\
+  Poland & 2021-Q3 &  \textsf{UMD CLI}  & 0.90 & 0.33 & 0.91 & 0.14 \\
+  Poland & 2021-Q3 &  \textsf{stringent CLI}  & 0.91 & 0.62 & 0.92 & 0.21 \\
+  Poland & 2021-Q3 &  \textsf{classic CLI}  & 0.88 & 0.26 & 0.91 & 0.19 \\
+  Poland & 2021-Q3 &  \textsf{broad CLI}  & 0.88 & 0.25 & 0.91 & 0.19 \\
+  Thailand & 2021-Q3 &  \textsf{Random Forest}  & 0.93 & 0.83 & 0.93 & 0.46 \\
+  Thailand & 2021-Q3 &  \textsf{UMD CLI}  & 0.91 & 0.58 & 0.92 & 0.30 \\
+  Thailand & 2021-Q3 &  \textsf{stringent CLI}  & 0.92 & 0.84 & 0.93 & 0.42 \\
+  Thailand & 2021-Q3 &  \textsf{classic CLI}  & 0.89 & 0.43 & 0.93 & 0.37 \\
+  Thailand & 2021-Q3 &  \textsf{broad CLI}  & 0.88 & 0.35 & 0.92 & 0.32 \\
+  Australia & 2021-Q3 &  \textsf{Random Forest}  & 0.99 & 1 & 0.99 & 0.03 \\
+  Australia & 2021-Q3 &  \textsf{UMD CLI}  & 0.97 & 0.05 & 0.99 & 0.08 \\
+  Australia & 2021-Q3 &  \textsf{stringent CLI}  & 0.96 & 0.04 & 0.99 & 0.06 \\
+  Australia & 2021-Q3 &  \textsf{classic CLI}  & 0.89 & 0.02 & 0.99 & 0.03 \\
+  Australia & 2021-Q3 &  \textsf{broad CLI}  & 0.89 & 0.01 & 0.99 & 0.03 \\
+  Spain & 2021-Q3 &  \textsf{Random Forest}  & 0.93 & 0.77 & 0.94 & 0.6 \\
+  Spain & 2021-Q3 &  \textsf{UMD CLI}  & 0.90 & 0.59 & 0.91 & 0.27 \\
+  Spain & 2021-Q3 &  \textsf{stringent CLI}  & 0.92 & 0.75 & 0.93 & 0.47 \\
+  Spain & 2021-Q3 &  \textsf{classic CLI}  & 0.90 & 0.54 & 0.93 & 0.46 \\
+  Spain & 2021-Q3 &  \textsf{broad CLI}  & 0.89 & 0.46 & 0.92 & 0.38 \\
+  Colombia & 2021-Q3 &  \textsf{Random Forest}  & 0.79 & 0.76 & 0.80 & 0.62 \\
+  Colombia & 2021-Q3 &  \textsf{UMD CLI}  & 0.71 & 0.78 & 0.71 & 0.30 \\
+  Colombia & 2021-Q3 &  \textsf{stringent CLI}  & 0.76 & 0.85 & 0.75 & 0.48 \\
+  Colombia & 2021-Q3 &  \textsf{classic CLI}  & 0.75 & 0.74 & 0.76 & 0.51 \\
+  Colombia & 2021-Q3 &  \textsf{broad CLI}  & 0.75 & 0.72 & 0.75 & 0.50 \\
+  Philippines & 2021-Q3 &  \textsf{Random Forest}  & 0.82 & 0.76 & 0.83 & 0.55 \\
+  Philippines & 2021-Q3 &  \textsf{UMD CLI}  & 0.76 & 0.72 & 0.76 & 0.17 \\
+  Philippines & 2021-Q3 &  \textsf{stringent CLI}  & 0.79 & 0.85 & 0.78 & 0.34 \\
+  Philippines & 2021-Q3 &  \textsf{classic CLI}  & 0.78 & 0.69 & 0.79 & 0.37 \\
+  Philippines & 2021-Q3 &  \textsf{broad CLI}  & 0.76 & 0.64 & 0.78 & 0.31 \\
+  Netherlands & 2021-Q3 &  \textsf{Random Forest}  & 0.94 & 0.75 & 0.95 & 0.39 \\
+  Netherlands & 2021-Q3 &  \textsf{UMD CLI}  & 0.92 & 0.29 & 0.94 & 0.17 \\
+  Netherlands & 2021-Q3 &  \textsf{stringent CLI}  & 0.93 & 0.52 & 0.95 & 0.39 \\
+  Netherlands & 2021-Q3 &  \textsf{classic CLI}  & 0.89 & 0.27 & 0.95 & 0.33 \\
+  Netherlands & 2021-Q3 &  \textsf{broad CLI}  & 0.88 & 0.25 & 0.95 & 0.29 \\
+  Indonesia & 2021-Q3 &  \textsf{Random Forest}  & 0.91 & 0.71 & 0.92 & 0.39 \\
+  Indonesia & 2021-Q3 &  \textsf{UMD CLI}  & 0.89 & 0.49 & 0.92 & 0.34 \\
+  Indonesia & 2021-Q3 &  \textsf{stringent CLI}  & 0.91 & 0.62 & 0.92 & 0.43 \\
+  Indonesia & 2021-Q3 &  \textsf{classic CLI}  & 0.88 & 0.41 & 0.93 & 0.40 \\
+  Indonesia & 2021-Q3 &  \textsf{broad CLI}  & 0.87 & 0.37 & 0.92 & 0.36 \\
+  Taiwan & 2021-Q3 &  \textsf{Random Forest}  & 0.99 &  & 0.99 &  \\
+  Taiwan & 2021-Q3 &  \textsf{UMD CLI}  & 0.98 & 0.13 & 0.99 & 0.13 \\
+  Taiwan & 2021-Q3 &  \textsf{stringent CLI}  & 0.99 & 0.13 & 0.99 & 0.08 \\
+  Taiwan & 2021-Q3 &  \textsf{classic CLI}  & 0.96 & 0.04 & 0.99 & 0.07 \\
+  Taiwan & 2021-Q3 &  \textsf{broad CLI}  & 0.94 & 0.03 & 0.99 & 0.05 \\
+  Turkey & 2021-Q3 &  \textsf{Random Forest}  & 0.88 & 0.74 & 0.89 & 0.58 \\
+  Turkey & 2021-Q3 &  \textsf{UMD CLI}  & 0.84 & 0.67 & 0.85 & 0.30 \\
+  Turkey & 2021-Q3 &  \textsf{stringent CLI}  & 0.86 & 0.74 & 0.87 & 0.48 \\
+  Turkey & 2021-Q3 &  \textsf{classic CLI}  & 0.83 & 0.52 & 0.88 & 0.46 \\
+  Turkey & 2021-Q3 &  \textsf{broad CLI}  & 0.82 & 0.51 & 0.88 & 0.46 \\
+  Egypt & 2021-Q3 &  \textsf{Random Forest}  & 0.82 & 0.77 & 0.83 & 0.50 \\
+  Egypt & 2021-Q3 &  \textsf{UMD CLI}  & 0.79 & 0.72 & 0.80 & 0.31 \\
+  Egypt & 2021-Q3 &  \textsf{stringent CLI}  & 0.80 & 0.73 & 0.81 & 0.39 \\
+  Egypt & 2021-Q3 &  \textsf{classic CLI}  & 0.80 & 0.62 & 0.82 & 0.45 \\
+  Egypt & 2021-Q3 &  \textsf{broad CLI}  & 0.79 & 0.59 & 0.83 & 0.46 \\
+  Portugal & 2021-Q3 &  \textsf{Random Forest}  & 0.97 & 0.79 & 0.97 & 0.48 \\
+  Portugal & 2021-Q3 &  \textsf{UMD CLI}  & 0.96 & 0.50 & 0.96 & 0.19 \\
+  Portugal & 2021-Q3 &  \textsf{stringent CLI}  & 0.96 & 0.62 & 0.97 & 0.41 \\
+  Portugal & 2021-Q3 &  \textsf{classic CLI}  & 0.95 & 0.32 & 0.97 & 0.32 \\
+  Portugal & 2021-Q3 &  \textsf{broad CLI}  & 0.94 & 0.27 & 0.97 & 0.28 \\
+  Czech Republic & 2021-Q3 &  \textsf{Random Forest}  & 0.96 & 0.8 & 0.96 & 0.05 \\
+  Czech Republic & 2021-Q3 &  \textsf{UMD CLI}  & 0.96 & 0.27 & 0.97 & 0.15 \\
+  Czech Republic & 2021-Q3 &  \textsf{stringent CLI}  & 0.96 & 0.40 & 0.97 & 0.24 \\
+  Czech Republic & 2021-Q3 &  \textsf{classic CLI}  & 0.93 & 0.15 & 0.97 & 0.18 \\
+  Czech Republic & 2021-Q3 &  \textsf{broad CLI}  & 0.93 & 0.14 & 0.97 & 0.16 \\
+  Greece & 2021-Q3 &  \textsf{Random Forest}  & 0.98 & 0.72 & 0.98 & 0.46 \\
+  Greece & 2021-Q3 &  \textsf{UMD CLI}  & 0.97 & 0.47 & 0.98 & 0.30 \\
+  Greece & 2021-Q3 &  \textsf{stringent CLI}  & 0.97 & 0.55 & 0.98 & 0.41 \\
+  Greece & 2021-Q3 &  \textsf{classic CLI}  & 0.96 & 0.31 & 0.98 & 0.35 \\
+  Greece & 2021-Q3 &  \textsf{broad CLI}  & 0.96 & 0.25 & 0.98 & 0.29 \\
+  Denmark & 2021-Q3 &  \textsf{Random Forest}  & 0.98 & 0.85 & 0.98 & 0.23 \\
+  Denmark & 2021-Q3 &  \textsf{UMD CLI}  & 0.96 & 0.11 & 0.98 & 0.13 \\
+  Denmark & 2021-Q3 &  \textsf{stringent CLI}  & 0.97 & 0.27 & 0.98 & 0.29 \\
+  Denmark & 2021-Q3 &  \textsf{classic CLI}  & 0.92 & 0.08 & 0.98 & 0.14 \\
+  Denmark & 2021-Q3 &  \textsf{broad CLI}  & 0.92 & 0.07 & 0.98 & 0.12 \\
+  Austria & 2021-Q3 &  \textsf{Random Forest}  & 0.98 & 0.66 & 0.99 & 0.11 \\
+  Austria & 2021-Q3 &  \textsf{UMD CLI}  & 0.98 & 0.31 & 0.99 & 0.25 \\
+  Austria & 2021-Q3 &  \textsf{stringent CLI}  & 0.98 & 0.34 & 0.99 & 0.27 \\
+  Austria & 2021-Q3 &  \textsf{classic CLI}  & 0.96 & 0.12 & 0.99 & 0.18 \\
+  Austria & 2021-Q3 &  \textsf{broad CLI}  & 0.96 & 0.08 & 0.99 & 0.13 \\
+  Peru & 2021-Q3 &  \textsf{Random Forest}  & 0.86 & 0.70 & 0.87 & 0.5 \\
+  Peru & 2021-Q3 &  \textsf{UMD CLI}  & 0.84 & 0.67 & 0.85 & 0.34 \\
+  Peru & 2021-Q3 &  \textsf{stringent CLI}  & 0.85 & 0.76 & 0.86 & 0.41 \\
+  Peru & 2021-Q3 &  \textsf{classic CLI}  & 0.84 & 0.58 & 0.87 & 0.47 \\
+  Peru & 2021-Q3 &  \textsf{broad CLI}  & 0.83 & 0.56 & 0.87 & 0.45 \\
+  Chile & 2021-Q3 &  \textsf{Random Forest}  & 0.93 & 0.76 & 0.94 & 0.48 \\
+  Chile & 2021-Q3 &  \textsf{UMD CLI}  & 0.92 & 0.56 & 0.92 & 0.20 \\
+  Chile & 2021-Q3 &  \textsf{stringent CLI}  & 0.93 & 0.76 & 0.94 & 0.44 \\
+  Chile & 2021-Q3 &  \textsf{classic CLI}  & 0.90 & 0.40 & 0.94 & 0.36 \\
+  Chile & 2021-Q3 &  \textsf{broad CLI}  & 0.90 & 0.37 & 0.94 & 0.35 \\
+  South Africa & 2021-Q3 &  \textsf{Random Forest}  & 0.83 & 0.81 & 0.83 & 0.71 \\
+  South Africa & 2021-Q3 &  \textsf{UMD CLI}  & 0.71 & 0.70 & 0.72 & 0.34 \\
+  South Africa & 2021-Q3 &  \textsf{stringent CLI}  & 0.79 & 0.87 & 0.77 & 0.57 \\
+  South Africa & 2021-Q3 &  \textsf{classic CLI}  & 0.77 & 0.71 & 0.80 & 0.61 \\
+  South Africa & 2021-Q3 &  \textsf{broad CLI}  & 0.76 & 0.70 & 0.78 & 0.57 \\
+  Norway & 2021-Q3 &  \textsf{Random Forest}  & 0.97 & 0.92 & 0.97 & 0.35 \\
+  Norway & 2021-Q3 &  \textsf{UMD CLI}  & 0.93 & 0.15 & 0.97 & 0.19 \\
+  Norway & 2021-Q3 &  \textsf{stringent CLI}  & 0.95 & 0.31 & 0.98 & 0.35 \\
+  Norway & 2021-Q3 &  \textsf{classic CLI}  & 0.85 & 0.11 & 0.98 & 0.19 \\
+  Norway & 2021-Q3 &  \textsf{broad CLI}  & 0.86 & 0.11 & 0.98 & 0.18 \\
+  Belgium & 2021-Q3 &  \textsf{Random Forest}  & 0.95 & 0.75 & 0.95 & 0.33 \\
+  Belgium & 2021-Q3 &  \textsf{UMD CLI}  & 0.94 & 0.45 & 0.95 & 0.24 \\
+  Belgium & 2021-Q3 &  \textsf{stringent CLI}  & 0.94 & 0.52 & 0.95 & 0.34 \\
+  Belgium & 2021-Q3 &  \textsf{classic CLI}  & 0.90 & 0.24 & 0.96 & 0.28 \\
+  Belgium & 2021-Q3 &  \textsf{broad CLI}  & 0.90 & 0.23 & 0.96 & 0.26 \\
+  Switzerland & 2021-Q3 &  \textsf{Random Forest}  & 0.97 & 0.84 & 0.97 & 0.33 \\
+  Switzerland & 2021-Q3 &  \textsf{UMD CLI}  & 0.96 & 0.29 & 0.97 & 0.19 \\
+  Switzerland & 2021-Q3 &  \textsf{stringent CLI}  & 0.96 & 0.50 & 0.97 & 0.34 \\
+  Switzerland & 2021-Q3 &  \textsf{classic CLI}  & 0.94 & 0.25 & 0.98 & 0.31 \\
+  Switzerland & 2021-Q3 &  \textsf{broad CLI}  & 0.93 & 0.20 & 0.97 & 0.24 \\
+  Venezuela & 2021-Q3 &  \textsf{Random Forest}  & 0.83 & 0.67 & 0.86 & 0.57 \\
+  Venezuela & 2021-Q3 &  \textsf{UMD CLI}  & 0.81 & 0.70 & 0.82 & 0.40 \\
+  Venezuela & 2021-Q3 &  \textsf{stringent CLI}  & 0.82 & 0.72 & 0.84 & 0.48 \\
+  Venezuela & 2021-Q3 &  \textsf{classic CLI}  & 0.81 & 0.64 & 0.84 & 0.49 \\
+  Venezuela & 2021-Q3 &  \textsf{broad CLI}  & 0.81 & 0.64 & 0.84 & 0.51 \\
+  Bulgaria & 2021-Q3 &  \textsf{Random Forest}  & 0.91 & 0.83 & 0.92 & 0.56 \\
+  Bulgaria & 2021-Q3 &  \textsf{UMD CLI}  & 0.88 & 0.69 & 0.88 & 0.26 \\
+  Bulgaria & 2021-Q3 &  \textsf{stringent CLI}  & 0.90 & 0.86 & 0.91 & 0.5 \\
+  Bulgaria & 2021-Q3 &  \textsf{classic CLI}  & 0.88 & 0.6 & 0.91 & 0.48 \\
+  Bulgaria & 2021-Q3 &  \textsf{broad CLI}  & 0.87 & 0.54 & 0.90 & 0.41 \\
+  Brazil & 2021-Q4 &  \textsf{Random Forest}  & 0.88 & 0.70 & 0.89 & 0.40 \\
+  Brazil & 2021-Q4 &  \textsf{UMD CLI}  & 0.85 & 0.45 & 0.87 & 0.20 \\
+  Brazil & 2021-Q4 &  \textsf{stringent CLI}  & 0.87 & 0.66 & 0.88 & 0.38 \\
+  Brazil & 2021-Q4 &  \textsf{classic CLI}  & 0.82 & 0.38 & 0.89 & 0.35 \\
+  Brazil & 2021-Q4 &  \textsf{broad CLI}  & 0.82 & 0.37 & 0.88 & 0.34 \\
+  Mexico & 2021-Q4 &  \textsf{Random Forest}  & 0.86 & 0.75 & 0.88 & 0.58 \\
+  Mexico & 2021-Q4 &  \textsf{UMD CLI}  & 0.82 & 0.71 & 0.83 & 0.30 \\
+  Mexico & 2021-Q4 &  \textsf{stringent CLI}  & 0.85 & 0.79 & 0.86 & 0.48 \\
+  Mexico & 2021-Q4 &  \textsf{classic CLI}  & 0.83 & 0.63 & 0.86 & 0.49 \\
+  Mexico & 2021-Q4 &  \textsf{broad CLI}  & 0.82 & 0.60 & 0.86 & 0.46 \\
+  Japan & 2021-Q4 &  \textsf{Random Forest}  & 0.97 & 0.69 & 0.97 & 0.31 \\
+  Japan & 2021-Q4 &  \textsf{UMD CLI}  & 0.96 & 0.26 & 0.97 & 0.20 \\
+  Japan & 2021-Q4 &  \textsf{stringent CLI}  & 0.97 & 0.59 & 0.97 & 0.30 \\
+  Japan & 2021-Q4 &  \textsf{classic CLI}  & 0.94 & 0.18 & 0.97 & 0.22 \\
+  Japan & 2021-Q4 &  \textsf{broad CLI}  & 0.93 & 0.11 & 0.97 & 0.14 \\
+  Germany & 2021-Q4 &  \textsf{Random Forest}  & 0.98 & 0.77 & 0.98 & 0.53 \\
+  Germany & 2021-Q4 &  \textsf{UMD CLI}  & 0.97 & 0.34 & 0.97 & 0.22 \\
+  Germany & 2021-Q4 &  \textsf{stringent CLI}  & 0.97 & 0.50 & 0.98 & 0.46 \\
+  Germany & 2021-Q4 &  \textsf{classic CLI}  & 0.93 & 0.19 & 0.98 & 0.28 \\
+  Germany & 2021-Q4 &  \textsf{broad CLI}  & 0.93 & 0.16 & 0.98 & 0.23 \\
+  Italy & 2021-Q4 &  \textsf{Random Forest}  & 0.96 & 0.75 & 0.96 & 0.56 \\
+  Italy & 2021-Q4 &  \textsf{UMD CLI}  & 0.94 & 0.5 & 0.95 & 0.26 \\
+  Italy & 2021-Q4 &  \textsf{stringent CLI}  & 0.95 & 0.68 & 0.95 & 0.41 \\
+  Italy & 2021-Q4 &  \textsf{classic CLI}  & 0.92 & 0.38 & 0.96 & 0.38 \\
+  Italy & 2021-Q4 &  \textsf{broad CLI}  & 0.92 & 0.35 & 0.95 & 0.33 \\
+  France & 2021-Q4 &  \textsf{Random Forest}  & 0.94 & 0.73 & 0.95 & 0.51 \\
+  France & 2021-Q4 &  \textsf{UMD CLI}  & 0.92 & 0.45 & 0.93 & 0.31 \\
+  France & 2021-Q4 &  \textsf{stringent CLI}  & 0.93 & 0.69 & 0.94 & 0.45 \\
+  France & 2021-Q4 &  \textsf{classic CLI}  & 0.89 & 0.37 & 0.95 & 0.42 \\
+  France & 2021-Q4 &  \textsf{broad CLI}  & 0.89 & 0.34 & 0.95 & 0.37 \\
+  India & 2021-Q4 &  \textsf{Random Forest}  & 0.84 & 0.58 & 0.85 & 0.24 \\
+  India & 2021-Q4 &  \textsf{UMD CLI}  & 0.83 & 0.43 & 0.84 & 0.16 \\
+  India & 2021-Q4 &  \textsf{stringent CLI}  & 0.84 & 0.53 & 0.85 & 0.21 \\
+  India & 2021-Q4 &  \textsf{classic CLI}  & 0.82 & 0.38 & 0.85 & 0.21 \\
+  India & 2021-Q4 &  \textsf{broad CLI}  & 0.82 & 0.36 & 0.85 & 0.20 \\
+  Ukraine & 2021-Q4 &  \textsf{Random Forest}  & 0.85 & 0.76 & 0.87 & 0.66 \\
+  Ukraine & 2021-Q4 &  \textsf{UMD CLI}  & 0.78 & 0.64 & 0.80 & 0.38 \\
+  Ukraine & 2021-Q4 &  \textsf{stringent CLI}  & 0.84 & 0.80 & 0.85 & 0.59 \\
+  Ukraine & 2021-Q4 &  \textsf{classic CLI}  & 0.81 & 0.63 & 0.85 & 0.56 \\
+  Ukraine & 2021-Q4 &  \textsf{broad CLI}  & 0.79 & 0.60 & 0.83 & 0.50 \\
+  Sweden & 2021-Q4 &  \textsf{Random Forest}  & 0.93 & 0.69 & 0.93 & 0.34 \\
+  Sweden & 2021-Q4 &  \textsf{UMD CLI}  & 0.88 & 0.27 & 0.93 & 0.26 \\
+  Sweden & 2021-Q4 &  \textsf{stringent CLI}  & 0.90 & 0.42 & 0.95 & 0.43 \\
+  Sweden & 2021-Q4 &  \textsf{classic CLI}  & 0.82 & 0.24 & 0.95 & 0.34 \\
+  Sweden & 2021-Q4 &  \textsf{broad CLI}  & 0.83 & 0.21 & 0.94 & 0.28 \\
+  Canada & 2021-Q4 &  \textsf{Random Forest}  & 0.94 & 0.72 & 0.95 & 0.42 \\
+  Canada & 2021-Q4 &  \textsf{UMD CLI}  & 0.92 & 0.44 & 0.94 & 0.27 \\
+  Canada & 2021-Q4 &  \textsf{stringent CLI}  & 0.93 & 0.55 & 0.94 & 0.35 \\
+  Canada & 2021-Q4 &  \textsf{classic CLI}  & 0.88 & 0.29 & 0.96 & 0.36 \\
+  Canada & 2021-Q4 &  \textsf{broad CLI}  & 0.88 & 0.27 & 0.95 & 0.33 \\
+  United Kingdom & 2021-Q4 &  \textsf{Random Forest}  & 0.94 & 0.72 & 0.95 & 0.53 \\
+  United Kingdom & 2021-Q4 &  \textsf{UMD CLI}  & 0.92 & 0.40 & 0.94 & 0.30 \\
+  United Kingdom & 2021-Q4 &  \textsf{stringent CLI}  & 0.93 & 0.58 & 0.95 & 0.48 \\
+  United Kingdom & 2021-Q4 &  \textsf{classic CLI}  & 0.85 & 0.26 & 0.96 & 0.35 \\
+  United Kingdom & 2021-Q4 &  \textsf{broad CLI}  & 0.85 & 0.25 & 0.95 & 0.33 \\
+  Vietnam & 2021-Q4 &  \textsf{Random Forest}  & 0.97 & 0.77 & 0.98 & 0.48 \\
+  Vietnam & 2021-Q4 &  \textsf{UMD CLI}  & 0.97 & 0.58 & 0.97 & 0.32 \\
+  Vietnam & 2021-Q4 &  \textsf{stringent CLI}  & 0.97 & 0.7 & 0.98 & 0.47 \\
+  Vietnam & 2021-Q4 &  \textsf{classic CLI}  & 0.96 & 0.41 & 0.98 & 0.41 \\
+  Vietnam & 2021-Q4 &  \textsf{broad CLI}  & 0.95 & 0.32 & 0.97 & 0.33 \\
+  Argentina & 2021-Q4 &  \textsf{Random Forest}  & 0.90 & 0.71 & 0.91 & 0.51 \\
+  Argentina & 2021-Q4 &  \textsf{UMD CLI}  & 0.88 & 0.63 & 0.89 & 0.35 \\
+  Argentina & 2021-Q4 &  \textsf{stringent CLI}  & 0.88 & 0.70 & 0.89 & 0.37 \\
+  Argentina & 2021-Q4 &  \textsf{classic CLI}  & 0.86 & 0.48 & 0.91 & 0.44 \\
+  Argentina & 2021-Q4 &  \textsf{broad CLI}  & 0.86 & 0.47 & 0.90 & 0.42 \\
+  Russia & 2021-Q4 &  \textsf{Random Forest}  & 0.90 & 0.72 & 0.92 & 0.60 \\
+  Russia & 2021-Q4 &  \textsf{UMD CLI}  & 0.87 & 0.58 & 0.89 & 0.41 \\
+  Russia & 2021-Q4 &  \textsf{stringent CLI}  & 0.89 & 0.65 & 0.92 & 0.56 \\
+  Russia & 2021-Q4 &  \textsf{classic CLI}  & 0.86 & 0.52 & 0.92 & 0.53 \\
+  Russia & 2021-Q4 &  \textsf{broad CLI}  & 0.85 & 0.48 & 0.90 & 0.46 \\
+  Hungary & 2021-Q4 &  \textsf{Random Forest}  & 0.86 & 0.78 & 0.88 & 0.70 \\
+  Hungary & 2021-Q4 &  \textsf{UMD CLI}  & 0.77 & 0.75 & 0.77 & 0.25 \\
+  Hungary & 2021-Q4 &  \textsf{stringent CLI}  & 0.84 & 0.82 & 0.84 & 0.59 \\
+  Hungary & 2021-Q4 &  \textsf{classic CLI}  & 0.80 & 0.64 & 0.85 & 0.58 \\
+  Hungary & 2021-Q4 &  \textsf{broad CLI}  & 0.77 & 0.57 & 0.81 & 0.45 \\
+  Romania & 2021-Q4 &  \textsf{Random Forest}  & 0.91 & 0.78 & 0.93 & 0.66 \\
+  Romania & 2021-Q4 &  \textsf{UMD CLI}  & 0.87 & 0.65 & 0.87 & 0.25 \\
+  Romania & 2021-Q4 &  \textsf{stringent CLI}  & 0.90 & 0.79 & 0.90 & 0.53 \\
+  Romania & 2021-Q4 &  \textsf{classic CLI}  & 0.88 & 0.60 & 0.91 & 0.51 \\
+  Romania & 2021-Q4 &  \textsf{broad CLI}  & 0.86 & 0.55 & 0.89 & 0.38 \\
+  Poland & 2021-Q4 &  \textsf{Random Forest}  & 0.85 & 0.80 & 0.87 & 0.68 \\
+  Poland & 2021-Q4 &  \textsf{UMD CLI}  & 0.76 & 0.67 & 0.77 & 0.31 \\
+  Poland & 2021-Q4 &  \textsf{stringent CLI}  & 0.82 & 0.86 & 0.82 & 0.55 \\
+  Poland & 2021-Q4 &  \textsf{classic CLI}  & 0.80 & 0.66 & 0.83 & 0.55 \\
+  Poland & 2021-Q4 &  \textsf{broad CLI}  & 0.77 & 0.60 & 0.80 & 0.44 \\
+  Thailand & 2021-Q4 &  \textsf{Random Forest}  & 0.95 & 0.75 & 0.95 & 0.32 \\
+  Thailand & 2021-Q4 &  \textsf{UMD CLI}  & 0.93 & 0.43 & 0.94 & 0.22 \\
+  Thailand & 2021-Q4 &  \textsf{stringent CLI}  & 0.94 & 0.68 & 0.95 & 0.29 \\
+  Thailand & 2021-Q4 &  \textsf{classic CLI}  & 0.92 & 0.30 & 0.95 & 0.26 \\
+  Thailand & 2021-Q4 &  \textsf{broad CLI}  & 0.91 & 0.23 & 0.95 & 0.22 \\
+  Australia & 2021-Q4 &  \textsf{Random Forest}  & 0.96 & 0.73 & 0.96 & 0.39 \\
+  Australia & 2021-Q4 &  \textsf{UMD CLI}  & 0.94 & 0.34 & 0.96 & 0.31 \\
+  Australia & 2021-Q4 &  \textsf{stringent CLI}  & 0.95 & 0.42 & 0.97 & 0.37 \\
+  Australia & 2021-Q4 &  \textsf{classic CLI}  & 0.89 & 0.20 & 0.97 & 0.28 \\
+  Australia & 2021-Q4 &  \textsf{broad CLI}  & 0.88 & 0.17 & 0.97 & 0.24 \\
+  Spain & 2021-Q4 &  \textsf{Random Forest}  & 0.90 & 0.73 & 0.92 & 0.59 \\
+  Spain & 2021-Q4 &  \textsf{UMD CLI}  & 0.87 & 0.65 & 0.88 & 0.36 \\
+  Spain & 2021-Q4 &  \textsf{stringent CLI}  & 0.88 & 0.74 & 0.89 & 0.39 \\
+  Spain & 2021-Q4 &  \textsf{classic CLI}  & 0.86 & 0.52 & 0.92 & 0.52 \\
+  Spain & 2021-Q4 &  \textsf{broad CLI}  & 0.85 & 0.50 & 0.90 & 0.46 \\
+  Colombia & 2021-Q4 &  \textsf{Random Forest}  & 0.85 & 0.63 & 0.86 & 0.34 \\
+  Colombia & 2021-Q4 &  \textsf{UMD CLI}  & 0.83 & 0.47 & 0.85 & 0.23 \\
+  Colombia & 2021-Q4 &  \textsf{stringent CLI}  & 0.85 & 0.66 & 0.86 & 0.32 \\
+  Colombia & 2021-Q4 &  \textsf{classic CLI}  & 0.82 & 0.46 & 0.87 & 0.35 \\
+  Colombia & 2021-Q4 &  \textsf{broad CLI}  & 0.82 & 0.42 & 0.86 & 0.33 \\
+  Philippines & 2021-Q4 &  \textsf{Random Forest}  & 0.81 & 0.73 & 0.82 & 0.48 \\
+  Philippines & 2021-Q4 &  \textsf{UMD CLI}  & 0.77 & 0.67 & 0.77 & 0.15 \\
+  Philippines & 2021-Q4 &  \textsf{stringent CLI}  & 0.79 & 0.78 & 0.79 & 0.30 \\
+  Philippines & 2021-Q4 &  \textsf{classic CLI}  & 0.78 & 0.64 & 0.79 & 0.32 \\
+  Philippines & 2021-Q4 &  \textsf{broad CLI}  & 0.77 & 0.58 & 0.78 & 0.27 \\
+  Netherlands & 2021-Q4 &  \textsf{Random Forest}  & 0.92 & 0.75 & 0.93 & 0.60 \\
+  Netherlands & 2021-Q4 &  \textsf{UMD CLI}  & 0.88 & 0.53 & 0.90 & 0.26 \\
+  Netherlands & 2021-Q4 &  \textsf{stringent CLI}  & 0.90 & 0.68 & 0.92 & 0.50 \\
+  Netherlands & 2021-Q4 &  \textsf{classic CLI}  & 0.85 & 0.40 & 0.93 & 0.45 \\
+  Netherlands & 2021-Q4 &  \textsf{broad CLI}  & 0.85 & 0.37 & 0.92 & 0.39 \\
+  Indonesia & 2021-Q4 &  \textsf{Random Forest}  & 0.97 & 0.4 & 0.97 & 0.01 \\
+  Indonesia & 2021-Q4 &  \textsf{UMD CLI}  & 0.95 & 0.11 & 0.97 & 0.10 \\
+  Indonesia & 2021-Q4 &  \textsf{stringent CLI}  & 0.96 & 0.21 & 0.97 & 0.15 \\
+  Indonesia & 2021-Q4 &  \textsf{classic CLI}  & 0.93 & 0.08 & 0.97 & 0.11 \\
+  Indonesia & 2021-Q4 &  \textsf{broad CLI}  & 0.92 & 0.08 & 0.97 & 0.11 \\
+  Taiwan & 2021-Q4 &  \textsf{Random Forest}  & 0.99 &  & 0.99 &  \\
+  Taiwan & 2021-Q4 &  \textsf{UMD CLI}  & 0.98 & 0.1 & 0.99 & 0.11 \\
+  Taiwan & 2021-Q4 &  \textsf{stringent CLI}  & 0.99 & 0.1 & 0.99 & 0.08 \\
+  Taiwan & 2021-Q4 &  \textsf{classic CLI}  & 0.95 & 0.01 & 0.99 & 0.03 \\
+  Taiwan & 2021-Q4 &  \textsf{broad CLI}  & 0.93 & 0.01 & 0.99 & 0.02 \\
+  Turkey & 2021-Q4 &  \textsf{Random Forest}  & 0.87 & 0.76 & 0.90 & 0.65 \\
+  Turkey & 2021-Q4 &  \textsf{UMD CLI}  & 0.81 & 0.66 & 0.82 & 0.28 \\
+  Turkey & 2021-Q4 &  \textsf{stringent CLI}  & 0.86 & 0.79 & 0.87 & 0.55 \\
+  Turkey & 2021-Q4 &  \textsf{classic CLI}  & 0.81 & 0.54 & 0.86 & 0.48 \\
+  Turkey & 2021-Q4 &  \textsf{broad CLI}  & 0.81 & 0.53 & 0.86 & 0.48 \\
+  Egypt & 2021-Q4 &  \textsf{Random Forest}  & 0.82 & 0.70 & 0.84 & 0.50 \\
+  Egypt & 2021-Q4 &  \textsf{UMD CLI}  & 0.79 & 0.70 & 0.80 & 0.30 \\
+  Egypt & 2021-Q4 &  \textsf{stringent CLI}  & 0.81 & 0.71 & 0.82 & 0.41 \\
+  Egypt & 2021-Q4 &  \textsf{classic CLI}  & 0.79 & 0.56 & 0.83 & 0.44 \\
+  Egypt & 2021-Q4 &  \textsf{broad CLI}  & 0.79 & 0.55 & 0.83 & 0.46 \\
+  Portugal & 2021-Q4 &  \textsf{Random Forest}  & 0.95 & 0.74 & 0.96 & 0.47 \\
+  Portugal & 2021-Q4 &  \textsf{UMD CLI}  & 0.94 & 0.54 & 0.95 & 0.22 \\
+  Portugal & 2021-Q4 &  \textsf{stringent CLI}  & 0.95 & 0.64 & 0.96 & 0.38 \\
+  Portugal & 2021-Q4 &  \textsf{classic CLI}  & 0.93 & 0.39 & 0.96 & 0.41 \\
+  Portugal & 2021-Q4 &  \textsf{broad CLI}  & 0.93 & 0.35 & 0.96 & 0.37 \\
+  Czech Republic & 2021-Q4 &  \textsf{Random Forest}  & 0.91 & 0.75 & 0.93 & 0.63 \\
+  Czech Republic & 2021-Q4 &  \textsf{UMD CLI}  & 0.86 & 0.51 & 0.88 & 0.23 \\
+  Czech Republic & 2021-Q4 &  \textsf{stringent CLI}  & 0.90 & 0.76 & 0.91 & 0.51 \\
+  Czech Republic & 2021-Q4 &  \textsf{classic CLI}  & 0.85 & 0.45 & 0.91 & 0.45 \\
+  Czech Republic & 2021-Q4 &  \textsf{broad CLI}  & 0.84 & 0.41 & 0.90 & 0.37 \\
+  Greece & 2021-Q4 &  \textsf{Random Forest}  & 0.96 & 0.73 & 0.97 & 0.50 \\
+  Greece & 2021-Q4 &  \textsf{UMD CLI}  & 0.95 & 0.60 & 0.96 & 0.34 \\
+  Greece & 2021-Q4 &  \textsf{stringent CLI}  & 0.95 & 0.58 & 0.96 & 0.41 \\
+  Greece & 2021-Q4 &  \textsf{classic CLI}  & 0.94 & 0.36 & 0.97 & 0.39 \\
+  Greece & 2021-Q4 &  \textsf{broad CLI}  & 0.94 & 0.35 & 0.97 & 0.38 \\
+  Denmark & 2021-Q4 &  \textsf{Random Forest}  & 0.94 & 0.74 & 0.95 & 0.48 \\
+  Denmark & 2021-Q4 &  \textsf{UMD CLI}  & 0.92 & 0.42 & 0.94 & 0.32 \\
+  Denmark & 2021-Q4 &  \textsf{stringent CLI}  & 0.93 & 0.53 & 0.95 & 0.40 \\
+  Denmark & 2021-Q4 &  \textsf{classic CLI}  & 0.88 & 0.28 & 0.96 & 0.36 \\
+  Denmark & 2021-Q4 &  \textsf{broad CLI}  & 0.88 & 0.26 & 0.95 & 0.32 \\
+  Austria & 2021-Q4 &  \textsf{Random Forest}  & 0.97 & 0.76 & 0.97 & 0.45 \\
+  Austria & 2021-Q4 &  \textsf{UMD CLI}  & 0.96 & 0.41 & 0.97 & 0.25 \\
+  Austria & 2021-Q4 &  \textsf{stringent CLI}  & 0.97 & 0.59 & 0.97 & 0.40 \\
+  Austria & 2021-Q4 &  \textsf{classic CLI}  & 0.93 & 0.25 & 0.97 & 0.31 \\
+  Austria & 2021-Q4 &  \textsf{broad CLI}  & 0.93 & 0.22 & 0.97 & 0.26 \\
+  Peru & 2021-Q4 &  \textsf{Random Forest}  & 0.90 & 0.67 & 0.91 & 0.40 \\
+  Peru & 2021-Q4 &  \textsf{UMD CLI}  & 0.89 & 0.62 & 0.90 & 0.35 \\
+  Peru & 2021-Q4 &  \textsf{stringent CLI}  & 0.89 & 0.67 & 0.91 & 0.39 \\
+  Peru & 2021-Q4 &  \textsf{classic CLI}  & 0.88 & 0.49 & 0.92 & 0.43 \\
+  Peru & 2021-Q4 &  \textsf{broad CLI}  & 0.87 & 0.44 & 0.91 & 0.39 \\
+  Chile & 2021-Q4 &  \textsf{Random Forest}  & 0.94 & 0.66 & 0.95 & 0.45 \\
+  Chile & 2021-Q4 &  \textsf{UMD CLI}  & 0.93 & 0.50 & 0.94 & 0.24 \\
+  Chile & 2021-Q4 &  \textsf{stringent CLI}  & 0.94 & 0.60 & 0.95 & 0.46 \\
+  Chile & 2021-Q4 &  \textsf{classic CLI}  & 0.91 & 0.35 & 0.95 & 0.38 \\
+  Chile & 2021-Q4 &  \textsf{broad CLI}  & 0.90 & 0.32 & 0.95 & 0.35 \\
+  South Africa & 2021-Q4 &  \textsf{Random Forest}  & 0.83 & 0.69 & 0.85 & 0.55 \\
+  South Africa & 2021-Q4 &  \textsf{UMD CLI}  & 0.79 & 0.63 & 0.81 & 0.35 \\
+  South Africa & 2021-Q4 &  \textsf{stringent CLI}  & 0.80 & 0.74 & 0.80 & 0.32 \\
+  South Africa & 2021-Q4 &  \textsf{classic CLI}  & 0.80 & 0.58 & 0.84 & 0.48 \\
+  South Africa & 2021-Q4 &  \textsf{broad CLI}  & 0.80 & 0.58 & 0.84 & 0.47 \\
+  Norway & 2021-Q4 &  \textsf{Random Forest}  & 0.94 & 0.75 & 0.95 & 0.43 \\
+  Norway & 2021-Q4 &  \textsf{UMD CLI}  & 0.90 & 0.26 & 0.94 & 0.27 \\
+  Norway & 2021-Q4 &  \textsf{stringent CLI}  & 0.93 & 0.49 & 0.96 & 0.47 \\
+  Norway & 2021-Q4 &  \textsf{classic CLI}  & 0.83 & 0.21 & 0.96 & 0.32 \\
+  Norway & 2021-Q4 &  \textsf{broad CLI}  & 0.84 & 0.20 & 0.95 & 0.28 \\
+  Belgium & 2021-Q4 &  \textsf{Random Forest}  & 0.90 & 0.74 & 0.92 & 0.55 \\
+  Belgium & 2021-Q4 &  \textsf{UMD CLI}  & 0.87 & 0.50 & 0.88 & 0.25 \\
+  Belgium & 2021-Q4 &  \textsf{stringent CLI}  & 0.89 & 0.72 & 0.90 & 0.45 \\
+  Belgium & 2021-Q4 &  \textsf{classic CLI}  & 0.83 & 0.38 & 0.91 & 0.41 \\
+  Belgium & 2021-Q4 &  \textsf{broad CLI}  & 0.83 & 0.35 & 0.90 & 0.36 \\
+  Switzerland & 2021-Q4 &  \textsf{Random Forest}  & 0.94 & 0.77 & 0.95 & 0.57 \\
+  Switzerland & 2021-Q4 &  \textsf{UMD CLI}  & 0.92 & 0.49 & 0.93 & 0.25 \\
+  Switzerland & 2021-Q4 &  \textsf{stringent CLI}  & 0.93 & 0.71 & 0.94 & 0.43 \\
+  Switzerland & 2021-Q4 &  \textsf{classic CLI}  & 0.90 & 0.38 & 0.95 & 0.40 \\
+  Switzerland & 2021-Q4 &  \textsf{broad CLI}  & 0.89 & 0.32 & 0.94 & 0.32 \\
+  Venezuela & 2021-Q4 &  \textsf{Random Forest}  & 0.83 & 0.68 & 0.86 & 0.59 \\
+  Venezuela & 2021-Q4 &  \textsf{UMD CLI}  & 0.80 & 0.66 & 0.81 & 0.38 \\
+  Venezuela & 2021-Q4 &  \textsf{stringent CLI}  & 0.83 & 0.73 & 0.84 & 0.51 \\
+  Venezuela & 2021-Q4 &  \textsf{classic CLI}  & 0.80 & 0.61 & 0.84 & 0.50 \\
+  Venezuela & 2021-Q4 &  \textsf{broad CLI}  & 0.80 & 0.59 & 0.83 & 0.47 \\
+  Bulgaria & 2021-Q4 &  \textsf{Random Forest}  & 0.89 & 0.80 & 0.91 & 0.71 \\
+  Bulgaria & 2021-Q4 &  \textsf{UMD CLI}  & 0.81 & 0.75 & 0.82 & 0.28 \\
+  Bulgaria & 2021-Q4 &  \textsf{stringent CLI}  & 0.86 & 0.84 & 0.86 & 0.55 \\
+  Bulgaria & 2021-Q4 &  \textsf{classic CLI}  & 0.84 & 0.68 & 0.87 & 0.54 \\
+  Bulgaria & 2021-Q4 &  \textsf{broad CLI}  & 0.83 & 0.65 & 0.85 & 0.48 \\
+   \hline
+\end{tabular}
+\end{table}
