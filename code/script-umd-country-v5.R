@@ -13,7 +13,7 @@ quarter_list <- c("2020-Q2", "2020-Q3", "2020-Q4", "2021-Q1", "2021-Q2", "2021-Q
 smooth_param <- 14
 
 smooth_col <- function(x) {
-  return(rollsum(x1, smooth_param, fill=NA, align = "right"))
+  return(rollsum(x, smooth_param, fill=NA, align = "right"))
 }
 
 process_country <- function(iso2) {
@@ -25,8 +25,10 @@ process_country <- function(iso2) {
   for (quarter in quarter_list) {
     input_path <- paste0(umd_path, quarter, "/aggregates/country/")
     file_input_csv <- paste0(input_path, file_short_csv)
-    df_aux <- fread(file_input_csv, data.table = FALSE)
-    df <- dplyr::bind_rows(df, df_aux) 
+    if (file.exists(file_input_csv)){
+      df_aux <- fread(file_input_csv, data.table = FALSE)
+      df <- dplyr::bind_rows(df, df_aux)
+    } 
   }
   
   
