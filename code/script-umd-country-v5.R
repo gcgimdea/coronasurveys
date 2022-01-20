@@ -10,6 +10,16 @@ estimates_path <- "../data/estimates-symptom-survey/PlotData/"
 
 quarter_list <- c("2020-Q2", "2020-Q3", "2020-Q4", "2021-Q1", "2021-Q2", "2021-Q3", "2021-Q4", "2022-Q1")
 
+character_cols <- c("ISO2",	"ISO_3",	"country_agg")
+date_cols <- c("date", "first_date")
+numeric_cols <- c("count", "day_count", "days_aggregated", 
+                  "p_infected", "p_infected_CI", "p_rf", "p_rf_CI",
+                  "p_cli",	"p_cli_CI",	"p_cli_weight",	"p_cli_weight_CI", 
+                  "p_cliWHO",	"p_cliWHO_CI",	"p_cliWHO_weight",	"p_cliWHO_weight_CI",	
+                  "p_cli_local",	"p_cli_local_CI", "test_recent", "positive_recent")
+
+cols_to_use <- c(character_cols, date_cols, numeric_cols)  
+
 smooth_param <- 14
 
 smooth_col <- function(x) {
@@ -27,11 +37,21 @@ process_country <- function(iso2) {
     file_input_csv <- paste0(input_path, file_short_csv)
     if (file.exists(file_input_csv)){
       df_aux <- fread(file_input_csv, data.table = FALSE)
+      cols_filter <- intersect(cols_to_use, colnames(df_aux))
+      df_aux <- df_aux %>%
+        dplyr::select(all_of(cols_filter))
+      for (c in intersect(character_cols, colnames(df_aux))) {
+        df_aux[[c]] <- as.character(df_aux[[c]])
+      }
+      for (c in intersect(date_cols, colnames(df_aux))) {
+        df_aux[[c]] <- as.Date(df_aux[[c]])
+      }
+      for (c in intersect(numeric_cols, colnames(df_aux))) {
+        df_aux[[c]] <- as.numeric(df_aux[[c]])
+      }
       df <- dplyr::bind_rows(df, df_aux)
     } 
   }
-  
-  
   
   # cat("Smoothing...")
   df$p_infected_smooth <- smooth_col(df$p_infected)
