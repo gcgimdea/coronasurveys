@@ -119,6 +119,8 @@ process_country <- function(iso2) {
   }
   
   df <- compute_ratios(df, iso2)
+  
+  df <- df %>% dplyr::rename(country=country_agg)
 
   filename <- paste0(estimates_path, iso2, "-estimate.csv")
   fwrite(df, filename)
