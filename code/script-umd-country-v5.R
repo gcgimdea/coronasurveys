@@ -12,18 +12,83 @@ quarter_list <- c("2020-Q2", "2020-Q3", "2020-Q4", "2021-Q1", "2021-Q2", "2021-Q
 
 character_cols <- c("ISO2",	"ISO_3",	"country_agg")
 date_cols <- c("date", "first_date")
-numeric_cols <- c("count", "day_count", "days_aggregated", 
-                  "p_infected", "p_infected_CI", "p_rf", "p_rf_CI",
-                  "p_cli",	"p_cli_CI",	"p_cli_weight",	"p_cli_weight_CI", 
-                  "p_cliWHO",	"p_cliWHO_CI",	"p_cliWHO_weight",	"p_cliWHO_weight_CI",	
-                  "p_cli_local",	"p_cli_local_CI", "test_recent", "positive_recent")
+numeric_cols <- c("day_count", "days_aggregated", "count", "weight",
+                  "infected", "not_infected", "pos_RF", 
+                  "cli", "cli_weight", 
+                  "cliWHO", "cliWHO_weight", 
+                  "cli_local", "reach",
+                  "positive_recent", "test_recent")
 
 cols_to_use <- c(character_cols, date_cols, numeric_cols)  
 
 smooth_param <- 14
+ci_level <- 0.95
+z <- qnorm(ci_level+(1-ci_level)/2)
 
 smooth_col <- function(x) {
   return(rollsum(x, smooth_param, fill=NA, align = "right"))
+}
+
+process_ratio <- function(numerator, denominator){
+  numerator <- smooth_col(numerator)
+  denominator <- smooth_col(denominator)
+  p_est <- pmin(1, numerator/denominator)
+  se <- sqrt(p_est*(1-p_est))/sqrt(denominator)
+  return(list(val=p_est, low=pmax(0,p_est-z*se), high=pmin(1,p_est+z*se), error=z*se, std=se))
+}
+
+compute_ratios <- function(dfdf, iso2) {
+  dfdf$date <- as.Date(dfdf$date)
+
+  est <- process_ratio(dfdf$infected, (dfdf$infected + dfdf$not_infected))
+  dfdf$p_infected <- est$val
+  # dfdf$p_infected_error <- est$error
+  dfdf$p_infected_low <- est$low
+  dfdf$p_infected_high <- est$high
+  
+  est <- process_ratio(dfdf$pos_RF, dfdf$count)
+  dfdf$p_rf <- est$val
+  # dfdf$p_rf_error <- est$error
+  dfdf$p_rf_low <- est$low
+  dfdf$p_rf_high <- est$high
+  
+  est <- process_ratio(dfdf$cli, dfdf$count)
+  dfdf$p_cli <- est$val
+  # dfdf$p_cli_error <- est$error
+  dfdf$p_cli_low <- est$low
+  dfdf$p_cli_high <- est$high
+  
+  est <- process_ratio(dfdf$cli_weight, dfdf$weight)
+  dfdf$p_cli_weight <- est$val
+  # dfdf$p_cli_weight_error <- est$error
+  dfdf$p_cli_weight_low <- est$low
+  dfdf$p_cli_weight_high <- est$high
+  
+  est <- process_ratio(dfdf$cliWHO, dfdf$count)
+  dfdf$p_cliWHO <- est$val
+  # dfdf$p_cliWHO_error <- est$error
+  dfdf$p_cliWHO_low <- est$low
+  dfdf$p_cliWHO_high <- est$high
+  
+  est <- process_ratio(dfdf$cliWHO_weight, dfdf$weight)
+  dfdf$p_cliWHO_weight <- est$val
+  # dfdf$p_cliWHO_weight_error <- est$error
+  dfdf$p_cliWHO_weight_low <- est$low
+  dfdf$p_cliWHO_weight_high <- est$high
+  
+  est <- process_ratio(dfdf$cli_local, dfdf$reach)
+  dfdf$p_cli_local <- est$val
+  # dfdf$p_cli_local_error <- est$error
+  dfdf$p_cli_local_low <- est$low
+  dfdf$p_cli_local_high <- est$high
+  
+  est <- process_ratio(dfdf$positive_recent, dfdf$test_recent)
+  dfdf$TPR <- est$val
+  # dfdf$TPR_error <- est$error
+  dfdf$TPR_low <- est$low
+  dfdf$TPR_high <- est$high
+  
+  return(dfdf)
 }
 
 process_country <- function(iso2) {
@@ -53,25 +118,7 @@ process_country <- function(iso2) {
     } 
   }
   
-  # cat("Smoothing...")
-  df$p_infected_smooth <- smooth_col(df$p_infected)
-  df$p_infected_CI_smooth <- smooth_col(df$p_infected_CI)
-  
-  df$p_rf_smooth <- smooth_col(df$p_rf)
-  df$p_rf_CI_smooth <- smooth_col(df$p_rf_CI)
-  
-  df$p_cli_smooth <- smooth_col(df$p_cli)
-  df$p_cli_CI_smooth <- smooth_col(df$p_cli_CI)
-  df$p_cli_weight_smooth <- smooth_col(df$p_cli_weight)
-  df$p_cli_weight_CI_smooth <- smooth_col(df$p_cli_weight_CI)
-  
-  df$p_cliWHO_smooth <- smooth_col(df$p_cliWHO)
-  df$p_cliWHO_CI_smooth <- smooth_col(df$p_cliWHO_CI)
-  df$p_cliWHO_weight_smooth <- smooth_col(df$p_cliWHO_weight)
-  df$p_cliWHO_weight_CI_smooth <- smooth_col(df$p_cliWHO_weight_CI)
-  
-  df$p_cli_local_smooth <- smooth_col(df$p_cli_local)
-  df$p_cli_local_CI_smooth <- smooth_col(df$p_cli_local_CI)
+  df <- compute_ratios(df, iso2)
 
   filename <- paste0(estimates_path, iso2, "-estimate.csv")
   fwrite(df, filename)
