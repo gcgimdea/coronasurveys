@@ -12,7 +12,7 @@ date
 # Rscript script-umd_batch_symptom_country.R
 # Rscript script-umd_batch_symptom_region.R
 # UMD estimates from the microdata
-Rscript script-umd-country-v4.R
+Rscript script-umd-country-v5.R
 Rscript script-umd-region-v3.R
 Rscript script-umd-age-v2.R
 # Rscript script-umd-regions-plot.R
