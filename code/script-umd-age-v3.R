@@ -25,7 +25,7 @@ ci_level <- 0.95
 z <- qnorm(ci_level+(1-ci_level)/2)
 
 smooth_col <- function(x) {
-  return(rollsum(x, smooth_param, fill=NA, align = "right"))
+  return(rollsum(x, smooth_param, fill=0, align = "right"))
 }
 
 process_ratio <- function(numerator, denominator){
