@@ -5,7 +5,7 @@ library(data.table)
 
 # umd_path <- "/gauss_data/coronasurveys/github/SymptomSurveyData/Omicron/"
 umd_path <- "../../SymptomSurveyData/data/UMD/"
-country_file <- "https://raw.githubusercontent.com/GCGImdea/coronasurveys/master/data/common-data/unified-country-list.csv"
+# country_file <- "https://raw.githubusercontent.com/GCGImdea/coronasurveys/master/data/common-data/unified-country-list.csv"
 estimates_path <- "../data/estimates-symptom-survey/PlotData/"
 
 quarter_list <- c("2020-Q2", "2020-Q3", "2020-Q4", "2021-Q1", "2021-Q2", "2021-Q3", "2021-Q4", "2022-Q1")
@@ -37,8 +37,9 @@ process_ratio <- function(numerator, denominator){
   return(list(val=p_est, low=pmax(0,p_est-z*se), high=pmin(1,p_est+z*se), error=z*se, std=se))
 }
 
-compute_ratios <- function(dfdf, iso2) {
+compute_ratios <- function(dfdf) {
   dfdf$date <- as.Date(dfdf$date)
+  dfdf <- dfdf[order(dfdf$date),]
 
   est <- process_ratio(dfdf$infected, (dfdf$infected + dfdf$not_infected))
   dfdf$p_infected <- est$val
@@ -118,7 +119,7 @@ process_country <- function(iso2) {
     } 
   }
   
-  df <- compute_ratios(df, iso2)
+  df <- compute_ratios(df)
   
   df <- df %>% dplyr::rename(country=country_agg)
 

@@ -13,8 +13,8 @@ date
 # Rscript script-umd_batch_symptom_region.R
 # UMD estimates from the microdata
 Rscript script-umd-country-v5.R
-Rscript script-umd-region-v3.R
-Rscript script-umd-age-v2.R
+Rscript script-umd-region-v4.R
+Rscript script-umd-age-v3.R
 # Rscript script-umd-regions-plot.R
 
 date
@@ -25,9 +25,9 @@ Rscript script-300responses-v2.R
 date
 
 # Rscript script-W-alpha.R
-#Rscript script-W.R
+# Rscript script-W.R
 
-date
+# date
 
 Rscript script-nsum-provinces.R
 Rscript script-nsum-regions-no-province.R
