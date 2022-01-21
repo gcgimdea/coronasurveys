@@ -17,6 +17,7 @@ library(tidyverse)
 library(readxl)
 library(httr)
 library(zoo)
+library(data.table)
 
 pop_file <- "../data/common-data/unified-country-list.csv"
 data_path_OWID <- "https://raw.githubusercontent.com/owid/covid-19-data/master/public/data/owid-covid-data.csv"
@@ -30,9 +31,9 @@ smooth_col <- function(x) {
 active_window <- 10 # Changed from 18 on May 30th, 2021
 
 plot_estimates <- function(dt,country_geoid, active_window){
-  cat("Working on", country_geoid, "::\n")
+  cat("Working on", country_geoid, dim(dt), "::\n")
   
-  dt$date <- as.Date(dt$date)
+  # dt$date <- as.Date(dt$date)
   
   pop_data <- read.csv(pop_file, as.is = T, na.string = "NaN")
   pop_ISO2 <- pop_data[which(pop_data$ISO3 == country_geoid),]
@@ -63,13 +64,16 @@ plot_estimates <- function(dt,country_geoid, active_window){
 
 #MAIN code
 
-df<- read.csv(data_path_OWID, as.is = T) %>% select(date, 
-                                                    country = location,
-                                                    ISO3 = iso_code,
-                                                    cases = new_cases, 
-                                                    deaths = new_deaths, 
-                                                    cum_cases = total_cases, 
-                                                    cum_deaths = total_deaths)
+df <- fread(data_path_OWID, data.table = FALSE)
+df<- df %>% select(date, 
+                   country = location,
+                   ISO3 = iso_code,
+                   cases = new_cases, 
+                   deaths = new_deaths, 
+                   cum_cases = total_cases, 
+                   cum_deaths = total_deaths)
+df$date <- as.Date(df$date)
+cat("Input file:", dim(df), "\n")
 countries <- unique(df$ISO3)
 for (i in countries) {
   if (nrow(df)>0) {

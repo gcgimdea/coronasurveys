@@ -136,7 +136,6 @@ process_country <- function(iso2) {
     dfr <- compute_ratios(dfr)
     
     dfTotal <- dplyr::bind_rows(dfTotal, dfr)
-    cat(dim(dfTotal), "\n")
   }
   if (is.data.frame(dfTotal)) {
     dfTotal <- dfTotal %>% dplyr::rename(country=country_agg)

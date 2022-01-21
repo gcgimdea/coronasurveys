@@ -130,8 +130,6 @@ process_country <- function(iso2) {
   regions <- unique(df$region_agg)
   regions <- regions[!is.na(regions)]
   
-  cat("regions:", regions, "\n")
-  
   dfTotal <- NULL
   for (r in regions) {
     dfr <- df[which(df$region_agg == r),]
@@ -140,7 +138,6 @@ process_country <- function(iso2) {
     dfr <- compute_ratios(dfr)
     
     dfTotal <- dplyr::bind_rows(dfTotal, dfr)
-    cat(dim(dfTotal), "\n")
   }
   if (is.data.frame(dfTotal)) {
     dfTotal <- dfTotal %>% dplyr::rename(country=country_agg,	region=region_agg)
