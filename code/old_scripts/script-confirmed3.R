@@ -28,9 +28,9 @@ estimates_path <- "../data/estimates-confirmed/PlotData/"
 # data_path_Ox <- "../coronasurveys/data/oxford/PlotData/"
 # estimates_path <- "./estimates-confirmed/"
 
-smooth_param <- 15
+smooth_param <- 30
 
-contagious_window <- 12
+contagious_window <- 10 # Changed from 12 on Nov 28th, 2021
 active_window <- 10 # Changed from 18 on May 30th, 2021
 
 get_slope7 <- function(x) {
@@ -62,35 +62,43 @@ plot_estimates <- function(dt,country_geoid = "AF",
   dt$cases_daily <- dt$cases
   dt$cases_infected <- dt$cum_cases
   
-  if (nrow(dt) >= contagious_window){
-    dt$cases_contagious <- cumsum(c(dt$cases[1:contagious_window], diff(dt$cases, lag = contagious_window))) # Carlo active cases
-  }
-  else {
-    dt$cases_contagious <- NA
-  }
+  # Contagious cases
+  # Version 1: A new case is propagated to the future
+  # if (nrow(dt) >= contagious_window){
+  #   dt$cases_contagious <- cumsum(c(dt$cases[1:contagious_window], diff(dt$cases, lag = contagious_window))) # Carlo active cases
+  # }
+  # else {
+  #   dt$cases_contagious <- NA
+  # }
+  # Version 2: A new case is scaled up by active_window (added 2021-11-28)
+  # dt$cases_contagious <- contagious_window * dt$cases
   
-  #symptomatic
-  if (nrow(dt) >= active_window){
-    dt$cases_active <- cumsum(c(dt$cases[1:active_window], diff(dt$cases, lag = active_window)))
-  }
-  else {
-    dt$cases_active <- NA
-  }
-  
+  # Active cases
+  # Version 1: A new case is propagated to the future
+  # if (nrow(dt) >= active_window){
+  #   dt$cases_active <- cumsum(c(dt$cases[1:active_window], diff(dt$cases, lag = active_window)))
+  # }
+  # else {
+  #   dt$cases_active <- NA
+  # }
+  # Version 2: A new case is scaled up by active_window (added 2021-09-26)
+  dt$cases_active <- active_window * dt$cases
+
   # - Cases_infected: Population that is or has been infected of COVID-19.
   # - Cases_daily: Population infected (detected or reported) that day (to the available knowledge). In general we will not be able to say whether they have cases_actives or not.
-  # - Cases_contagious: Those infected that can transmit the virus on a given day (assumes a case is contagious 12 days after infected)
-  # - Cases_active: Those infected whose case is still active on a given day (assumes a case is active 18 days after infected)
+  # - Cases_contagious: Those infected that can transmit the virus on a given day
+  # - Cases_active: Those infected whose case is still active on a given day. Since we have defined a case to be active if it
+  # is infectious, this subsumes Cases_contagious, which is removed.
   
   dt$p_cases_infected <- abs(dt$cases_infected/dt$population)
   dt$p_cases_daily <- abs(dt$cases_daily/dt$population)
-  dt$p_cases_contagious <- abs(dt$cases_contagious/dt$population)
+  # dt$p_cases_contagious <- abs(dt$cases_contagious/dt$population)
   dt$p_cases_active <- abs(dt$cases_active/dt$population)
   
   dt$p_cases_active_smooth <- 
     with(dt, ksmooth(date, dt$p_cases_active, kernel = "normal", bandwidth = smooth_param, x.points=date))$y
-  dt$p_cases_active_smooth_slope <- rollapply(dt$p_cases_active_smooth,7,get_slope7,fill=0,align="right")
-  dt$p_cases_active_smooth_slope2 <- rollapply(dt$p_cases_active_smooth_slope,7,get_slope7,fill=0,align="right")
+  # dt$p_cases_active_smooth_slope <- rollapply(dt$p_cases_active_smooth,7,get_slope7,fill=0,align="right")
+  # dt$p_cases_active_smooth_slope2 <- rollapply(dt$p_cases_active_smooth_slope,7,get_slope7,fill=0,align="right")
     
   dir.create(estimates_path, showWarnings = F)
   # cat("::- script-confirmed: Writing data for", country_geoid, "::\n")
