@@ -97,7 +97,7 @@ plot_estimates <- function(country_geoid = "ES",
     # dt$date <- gsub("-", "/", dt$Date)
     
     # pop_data <- read.csv(pop_file, as.is = T)
-    # dt$population <- pop_data$population[pop_data$ISO2 == dt$countrycode[1]]
+    # dt$population <- pop_data$population[pop_data$countrycode == dt$countrycode[1]]
     
     # dt$geoId <- pop_data$geo_id[pop_data$countrycode == dt$countrycode[1]]
     # dt <- dt %>% 
@@ -114,8 +114,6 @@ plot_estimates <- function(country_geoid = "ES",
     p_ccfr_high <- rep(NA, ndt)
     
     #cat("::- script-ccfr-based: Computing ccfr-based estimates for", country_geoid, "::\n")
-    
-    
     
     for (i in ndt : 1) {
       # cat(i, " ")

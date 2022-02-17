@@ -38,6 +38,7 @@ plot_estimates <- function(dt,country_geoid, active_window){
   pop_data <- read.csv(pop_file, as.is = T, na.string = "NaN")
   pop_ISO2 <- pop_data[which(pop_data$ISO3 == country_geoid),]
   dt$ISO2 <- pop_ISO2$ISO2[1]
+  dt$countrycode <- pop_ISO2$ISO2[1] # Maintained for historical reasons
   dt <- dt %>% relocate(ISO2, .before = cases)
   dt$population <- pop_ISO2$population[1]
 
@@ -57,9 +58,9 @@ plot_estimates <- function(dt,country_geoid, active_window){
   if(! is.na(pop_ISO2$ISO2[1])){
     write.csv(dt, paste0(estimates_path, pop_ISO2$ISO2[1], "-estimate.csv"), row.names = FALSE)
   }
-  else{
-    write.csv(dt, paste0(estimates_path, country_geoid, "-estimate.csv"), row.names = FALSE)
-  }
+  # else{
+  #   write.csv(dt, paste0(estimates_path, country_geoid, "-estimate.csv"), row.names = FALSE)
+  # }
 }
 
 #MAIN code
@@ -73,6 +74,10 @@ df<- df %>% select(date,
                    cum_cases = total_cases, 
                    cum_deaths = total_deaths)
 df$date <- as.Date(df$date)
+df$cases[is.na(df$cases)] <- 0
+df$deaths[is.na(df$deaths)] <- 0
+df$cum_cases[is.na(df$cum_cases)] <- 0
+df$cum_deaths[is.na(df$cum_deaths)] <- 0
 cat("Input file:", dim(df), "\n")
 countries <- unique(df$ISO3)
 for (i in countries) {
