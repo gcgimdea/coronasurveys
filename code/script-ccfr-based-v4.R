@@ -189,10 +189,16 @@ plot_estimates <- function(country_geoid = "ES",
              "cases_infected", "cases_infected_low", "cases_infected_high", "cases_daily", 
              # "cases_contagious", 
              "cases_active", 
+             # To be removed
              "p_cases_infected", "p_cases_infected_low", "p_cases_infected_high", 
              "p_cases_daily", 
              # "p_cases_contagious", 
-             "p_cases_active")
+             "p_cases_active",
+             
+             "p_infected", "p_infected_low", "p_infected_high", 
+             "p_daily", 
+             # "p_contagious", 
+             "p_active")
     
     dir.create(estimates_path, showWarnings = F)
     # cat("::- script-ccfr-based: Writing data for", country_geoid, "::\n")
