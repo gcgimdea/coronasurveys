@@ -51,10 +51,15 @@ plot_estimates <- function(dt,country_geoid, active_window){
   dt$cases_infected <- smooth_col(dt$cum_cases)
   dt$cases_active <- smooth_col(active_window * dt$cases)
   
+  # To be removed
   dt$p_cases_infected <- pmax(0,dt$cases_infected/dt$population)
   dt$p_cases_daily <- pmax(0,dt$cases_daily/dt$population)
   dt$p_cases_active <- pmax(0,dt$cases_active/dt$population)
 
+  dt$p_infected <- pmax(0,dt$cases_infected/dt$population)
+  dt$p_daily <- pmax(0,dt$cases_daily/dt$population)
+  dt$p_active <- pmax(0,dt$cases_active/dt$population)
+  
   if(! is.na(pop_ISO2$ISO2[1])){
     write.csv(dt, paste0(estimates_path, pop_ISO2$ISO2[1], "-estimate.csv"), row.names = FALSE)
   }

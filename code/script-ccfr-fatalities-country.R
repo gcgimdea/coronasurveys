@@ -108,10 +108,17 @@ plot_estimates <- function(country_geoid, #code3,
   
   dt$p_cum_cases <- dt$cum_cases/dt$population
   dt$p_cum_deaths <- dt$cum_deaths/dt$population
+  
+  # Tobe removed
   dt$p_cases_infected <- dt$cases_infected/dt$population
   dt$p_cases_daily <- dt$cases_daily/dt$population
   # dt$p_cases_contagious <- dt$cases_contagious/dt$population
   dt$p_cases_active <- dt$cases_active/dt$population
+  
+  dt$p_infected <- dt$cases_infected/dt$population
+  dt$p_daily <- dt$cases_daily/dt$population
+  # dt$p_contagious <- dt$cases_contagious/dt$population
+  dt$p_active <- dt$cases_active/dt$population
   
   dt$date <- as.Date(dt$date, origin="1970-01-01")
   dt$date <- gsub("-", "/", as.Date(dt$date))
