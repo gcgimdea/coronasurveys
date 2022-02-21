@@ -97,7 +97,7 @@ plot_estimates <- function(country_geoid = "ES",
     # dt$date <- gsub("-", "/", dt$Date)
     
     # pop_data <- read.csv(pop_file, as.is = T)
-    # dt$population <- pop_data$population[pop_data$ISO2 == dt$countrycode[1]]
+    # dt$population <- pop_data$population[pop_data$countrycode == dt$countrycode[1]]
     
     # dt$geoId <- pop_data$geo_id[pop_data$countrycode == dt$countrycode[1]]
     # dt <- dt %>% 
@@ -114,8 +114,6 @@ plot_estimates <- function(country_geoid = "ES",
     p_ccfr_high <- rep(NA, ndt)
     
     #cat("::- script-ccfr-based: Computing ccfr-based estimates for", country_geoid, "::\n")
-    
-    
     
     for (i in ndt : 1) {
       # cat(i, " ")
@@ -137,9 +135,15 @@ plot_estimates <- function(country_geoid = "ES",
     dt$cases_infected <- pmin(est_ccfr, dt$population)
     dt$cases_infected_low <- pmin(est_ccfr_low, dt$population)
     dt$cases_infected_high <- pmin(est_ccfr_high, dt$population)
+    
+    # To be removed
     dt$p_cases_infected <- pmin(p_ccfr, 1)
     dt$p_cases_infected_low <- pmin(p_ccfr_low, 1)
     dt$p_cases_infected_high <- pmin(p_ccfr_high, 1)
+    
+    dt$p_infected <- pmin(p_ccfr, 1)
+    dt$p_infected_low <- pmin(p_ccfr_low, 1)
+    dt$p_infected_high <- pmin(p_ccfr_high, 1)
     
     # daily ccfr estimate
     if (nrow(dt)>1) {
@@ -171,19 +175,30 @@ plot_estimates <- function(country_geoid = "ES",
     # - Cases_contagious: Those infected that can transmit the virus on a given day (assumes a case is contagious 12 days after infected)
     # - Cases_active: Those infected whose case is still active on a given day (assumes a case is active 18 days after infected)
 
+    # To be removed
     dt$p_cases_daily <- dt$cases_daily/dt$population
     # dt$p_cases_contagious <- dt$cases_contagious/dt$population
     dt$p_cases_active <- dt$cases_active/dt$population
+    
+    dt$p_daily <- dt$cases_daily/dt$population
+    # dt$p_contagious <- dt$cases_contagious/dt$population
+    dt$p_active <- dt$cases_active/dt$population
     
     dt_w <- dt %>% 
       select("date", "countrycode", "population", "cases", "deaths", "cum_cases", "cum_deaths", 
              "cases_infected", "cases_infected_low", "cases_infected_high", "cases_daily", 
              # "cases_contagious", 
              "cases_active", 
+             # To be removed
              "p_cases_infected", "p_cases_infected_low", "p_cases_infected_high", 
              "p_cases_daily", 
              # "p_cases_contagious", 
-             "p_cases_active")
+             "p_cases_active",
+             
+             "p_infected", "p_infected_low", "p_infected_high", 
+             "p_daily", 
+             # "p_contagious", 
+             "p_active")
     
     dir.create(estimates_path, showWarnings = F)
     # cat("::- script-ccfr-based: Writing data for", country_geoid, "::\n")
