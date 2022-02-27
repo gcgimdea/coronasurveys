@@ -5,7 +5,7 @@ date
 # Rscript script-get-oxford-data.R
 # Rscript script-get-jhu-data-v2.R
 # Does not need the JHU nor Oxford, taking the data from OWID
-Rscript script-confirmed4.R 
+Rscript script-confirmed5.R 
 
 date
 
