@@ -1,60 +1,59 @@
 #
 
-date
+Run () {
+  echo
+  date
+  echo "Running $1"
+  Rscript $1
+  date
+}
 
-# Rscript script-get-oxford-data.R
-# Rscript script-get-jhu-data-v2.R
+# Run script-get-oxford-data.R
+# Run script-get-jhu-data-v2.R
 # Does not need the JHU nor Oxford, taking the data from OWID
-Rscript script-confirmed5.R 
 
-date
+Run script-confirmed5.R 
 
 # UMD estimates from the API
-# Rscript script-umd_batch_symptom_country.R
-# Rscript script-umd_batch_symptom_region.R
+# Run script-umd_batch_symptom_country.R
+# Run script-umd_batch_symptom_region.R
 # UMD estimates from the microdata
-Rscript script-umd-country-v5.R
-Rscript script-umd-region-v4.R
-Rscript script-umd-age-v3.R
-# Rscript script-umd-regions-plot.R
 
-date
+Run script-umd-country-v5.R
+Run script-umd-region-v4.R
+Run script-umd-age-v3.R
 
-# Rscript script-30responses.R
-Rscript script-300responses-v2.R
+# Run script-umd-regions-plot.R
 
-date
+# Run script-30responses.R
 
-# Rscript script-W-alpha.R
-# Rscript script-W.R
+Run script-300responses-v2.R
+
+# Run script-W-alpha.R
+# Run script-W.R
 
 # date
 
-Rscript script-nsum-provinces.R
-Rscript script-nsum-regions-no-province.R
-Rscript script-nsum-combine-region-province.R
-Rscript script-nsum-regions.R
-Rscript script-nsum-country-region-1.R
-Rscript script-nsum-country-region-2.R
+Run script-nsum-provinces.R
+Run script-nsum-regions-no-province.R
+Run script-nsum-combine-region-province.R
+Run script-nsum-regions.R
+Run script-nsum-country-region-1.R
+Run script-nsum-country-region-2.R
 
-Rscript script-nsum-provinces-map.R
-Rscript script-nsum-provinces-plot.R
-
-date
+Run script-nsum-provinces-map.R
+Run script-nsum-provinces-plot.R
 
 # The estimates based on fatalities use the Oxford official data. Has to be changes if using JHU
-Rscript script-ccfr-fatalities-country.R
+Run script-ccfr-fatalities-country.R
 
-Rscript script-ccfr-based-v4.R
-# Rscript script-ES-ccfr-based.R
+Run script-ccfr-based-v4.R
+# Run script-ES-ccfr-based.R
 
-Rscript script-rivas-arganda-daily.R
+Run script-rivas-arganda-daily.R
 
-# Rscript script-liverpool-daily.R
+# Run script-liverpool-daily.R
 
-Rscript participation-ranking-v2.R
+Run participation-ranking-v2.R
 
-# Rscript corona_surveys_estimate3.R
-
-date
-
+# Run corona_surveys_estimate3.R
