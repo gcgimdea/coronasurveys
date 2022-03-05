@@ -8,17 +8,18 @@ Run () {
   date
 }
 
+# Scripts to get cases and deaths from Oxford and JHU -- Disabled since we use OWID now
 # Run script-get-oxford-data.R
 # Run script-get-jhu-data-v2.R
-# Does not need the JHU nor Oxford, taking the data from OWID
 
+# Taking the data in cases and deaths from OWID
 Run script-confirmed5.R 
 
-# UMD estimates from the API
+# UMD estimates from the API -- Disabled since we use the microdata now
 # Run script-umd_batch_symptom_country.R
 # Run script-umd_batch_symptom_region.R
-# UMD estimates from the microdata
 
+# UMD estimates from the microdata
 Run script-umd-country-v5.R
 Run script-umd-region-v4.R
 Run script-umd-age-v3.R
