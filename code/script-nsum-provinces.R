@@ -26,9 +26,9 @@ estimates_path <- "../data/estimates-nsum/provinces/"
 
 countries <- c("ES", "FR", "IT")
 ci_level <- 0.95
-cases_cutoff <- 1/2
+cases_cutoff <- 3/4 # 1/2 changed on 2022-04-12
 fatalities_cutoff <- 1/2
-recent_cutoff <- 1/2
+recent_cutoff <- 3/4 # 1/2 changed on 2022-04-12
 
 max_responses = 100
 max_age <- 1000
