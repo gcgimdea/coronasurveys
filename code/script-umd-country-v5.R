@@ -53,6 +53,12 @@ compute_ratios <- function(dfdf) {
   dfdf$p_rf_low <- est$low
   dfdf$p_rf_high <- est$high
   
+  est <- process_ratio(dfdf$pos_RF_symp, dfdf$count)
+  dfdf$p_rf_symp <- est$val
+  # dfdf$p_rf_symp_error <- est$error
+  dfdf$p_rf_symp_low <- est$low
+  dfdf$p_rf_symp_high <- est$high
+  
   est <- process_ratio(dfdf$cli, dfdf$count)
   dfdf$p_cli <- est$val
   # dfdf$p_cli_error <- est$error
