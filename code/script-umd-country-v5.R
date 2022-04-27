@@ -13,7 +13,7 @@ quarter_list <- c("2020-Q2", "2020-Q3", "2020-Q4", "2021-Q1", "2021-Q2", "2021-Q
 character_cols <- c("ISO2",	"ISO_3",	"country_agg")
 date_cols <- c("date", "first_date")
 numeric_cols <- c("day_count", "days_aggregated", "count", "weight",
-                  "infected", "not_infected", "pos_RF", 
+                  "infected", "not_infected", "pos_RF", "pos_RF_symp",
                   "cli", "cli_weight", 
                   "cliWHO", "cliWHO_weight", 
                   "cli_local", "reach",
