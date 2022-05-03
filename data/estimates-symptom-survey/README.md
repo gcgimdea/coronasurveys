@@ -1,3 +1,7 @@
+NOTE: November 10th, 2021. Data will no longer be available for Afghanistan after 11/9/2021. Since the data is not of sufficient quality to recommend for use, historical data will also no longer be available. If any of your partners are using the data in Afghanistan, please do inform them. UMD Global CTIS Team
+
+**Description:**
+
 The data in these folders is derived from the non-aggregated COVID-19 World Symptoms Survey Microdata https://covidmap.umd.edu/fbsurvey/. 
 
 **All values aggregate at least 100 responses**
