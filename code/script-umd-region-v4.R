@@ -14,7 +14,7 @@ quarter_list <- c("2020-Q2", "2020-Q3", "2020-Q4", "2021-Q1", "2021-Q2", "2021-Q
 character_cols <- c("ISO2",	"ISO_3",	"country_agg",	"region_agg")
 date_cols <- c("date", "first_date")
 numeric_cols <- c("day_count", "days_aggregated", "count", "weight",
-                  "infected", "not_infected", "pos_RF", "pos_RF_symp",
+                  "infected", "not_infected", "pos_RF", "pos_RF_symp", "pos_XGB", "pos_XGB_symp",
                   "cli", "cli_weight", 
                   "cliWHO", "cliWHO_weight", 
                   "cli_local", "reach",
@@ -59,6 +59,18 @@ compute_ratios <- function(dfdf) {
   # dfdf$p_rf_symp_error <- est$error
   dfdf$p_rf_symp_low <- est$low
   dfdf$p_rf_symp_high <- est$high
+  
+  est <- process_ratio(dfdf$pos_XGB, dfdf$count)
+  dfdf$p_xgb <- est$val
+  # dfdf$p_xgb_error <- est$error
+  dfdf$p_xgb_low <- est$low
+  dfdf$p_xgb_high <- est$high
+  
+  est <- process_ratio(dfdf$pos_XGB_symp, dfdf$count)
+  dfdf$p_xgb_symp <- est$val
+  # dfdf$p_xgb_symp_error <- est$error
+  dfdf$p_xgb_symp_low <- est$low
+  dfdf$p_xgb_symp_high <- est$high
   
   est <- process_ratio(dfdf$cli, dfdf$count)
   dfdf$p_cli <- est$val
