@@ -7,7 +7,7 @@ umd_path <- "../../SymptomSurveyData/data/UMD/"
 # data_path <- "https://raw.githubusercontent.com/GCGImdea/coronasurveys/master/data/common-data/unified-country-list.csv"
 estimates_path <- "../data/estimates-symptom-survey/age/"
 
-quarter_list <- c("2020-Q2", "2020-Q3", "2020-Q4", "2021-Q1", "2021-Q2", "2021-Q3", "2021-Q4", "2022-Q1", "2022-Q2")
+quarter_list <- c("2020-Q2", "2020-Q3", "2020-Q4", "2021-Q1", "2021-Q2", "2021-Q3", "2021-Q4", "2022-Q1Q2") #"2022-Q1", "2022-Q2")
 
 character_cols <- c("ISO2",	"ISO_3",	"country_agg",	"age")
 date_cols <- c("date",	"first_date")

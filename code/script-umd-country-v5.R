@@ -3,12 +3,11 @@ library(dplyr)
 library(zoo)
 library(data.table)
 
-# umd_path <- "/gauss_data/coronasurveys/github/SymptomSurveyData/Omicron/"
 umd_path <- "../../SymptomSurveyData/data/UMD/"
 # country_file <- "https://raw.githubusercontent.com/GCGImdea/coronasurveys/master/data/common-data/unified-country-list.csv"
 estimates_path <- "../data/estimates-symptom-survey/PlotData/"
 
-quarter_list <- c("2020-Q2", "2020-Q3", "2020-Q4", "2021-Q1", "2021-Q2", "2021-Q3", "2021-Q4", "2022-Q1", "2022-Q2")
+quarter_list <- c("2020-Q2", "2020-Q3", "2020-Q4", "2021-Q1", "2021-Q2", "2021-Q3", "2021-Q4", "2022-Q1Q2") #"2022-Q1", "2022-Q2")
 
 character_cols <- c("ISO2",	"ISO_3",	"country_agg")
 date_cols <- c("date", "first_date")
