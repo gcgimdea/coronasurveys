@@ -137,9 +137,9 @@ plot_estimates <- function(country_geoid = "ES",
     dt$cases_infected_high <- pmin(est_ccfr_high, dt$population)
     
     # To be removed
-    dt$p_cases_infected <- pmin(p_ccfr, 1)
-    dt$p_cases_infected_low <- pmin(p_ccfr_low, 1)
-    dt$p_cases_infected_high <- pmin(p_ccfr_high, 1)
+    # dt$p_cases_infected <- pmin(p_ccfr, 1)
+    # dt$p_cases_infected_low <- pmin(p_ccfr_low, 1)
+    # dt$p_cases_infected_high <- pmin(p_ccfr_high, 1)
     
     dt$p_infected <- pmin(p_ccfr, 1)
     dt$p_infected_low <- pmin(p_ccfr_low, 1)
@@ -176,9 +176,9 @@ plot_estimates <- function(country_geoid = "ES",
     # - Cases_active: Those infected whose case is still active on a given day (assumes a case is active 18 days after infected)
 
     # To be removed
-    dt$p_cases_daily <- dt$cases_daily/dt$population
+    # dt$p_cases_daily <- dt$cases_daily/dt$population
     # dt$p_cases_contagious <- dt$cases_contagious/dt$population
-    dt$p_cases_active <- dt$cases_active/dt$population
+    # dt$p_cases_active <- dt$cases_active/dt$population
     
     dt$p_daily <- dt$cases_daily/dt$population
     # dt$p_contagious <- dt$cases_contagious/dt$population
@@ -190,10 +190,10 @@ plot_estimates <- function(country_geoid = "ES",
              # "cases_contagious", 
              "cases_active", 
              # To be removed
-             "p_cases_infected", "p_cases_infected_low", "p_cases_infected_high", 
-             "p_cases_daily", 
+             # "p_cases_infected", "p_cases_infected_low", "p_cases_infected_high", 
+             # "p_cases_daily", 
              # "p_cases_contagious", 
-             "p_cases_active",
+             # "p_cases_active",
              
              "p_infected", "p_infected_low", "p_infected_high", 
              "p_daily", 

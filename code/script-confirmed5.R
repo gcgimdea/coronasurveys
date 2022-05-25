@@ -51,10 +51,15 @@ plot_estimates <- function(dt,country_geoid, active_window){
   dt$cases_infected <- smooth_col(dt$cum_cases)
   dt$cases_active <- smooth_col(active_window * dt$cases)
   
+  dt$icu_patients <- smooth_col(dt$icu_patients)
+  dt$hosp_patients <- smooth_col(dt$hosp_patients)
+  dt$weekly_icu_admissions <- smooth_col(dt$weekly_icu_admissions)
+  dt$weekly_hosp_admissions <- smooth_col(dt$weekly_hosp_admissions)
+  
   # To be removed
-  dt$p_cases_infected <- pmax(0,dt$cases_infected/dt$population)
-  dt$p_cases_daily <- pmax(0,dt$cases_daily/dt$population)
-  dt$p_cases_active <- pmax(0,dt$cases_active/dt$population)
+  # dt$p_cases_infected <- pmax(0,dt$cases_infected/dt$population)
+  # dt$p_cases_daily <- pmax(0,dt$cases_daily/dt$population)
+  # dt$p_cases_active <- pmax(0,dt$cases_active/dt$population)
   
   dt$p_infected <- pmax(0,dt$cases_infected/dt$population)
   dt$p_daily <- pmax(0,dt$cases_daily/dt$population)
@@ -77,7 +82,11 @@ df<- df %>% select(date,
                    cases = new_cases, 
                    deaths = new_deaths, 
                    cum_cases = total_cases, 
-                   cum_deaths = total_deaths)
+                   cum_deaths = total_deaths,
+                   icu_patients,
+                   hosp_patients,
+                   weekly_icu_admissions,
+                   weekly_hosp_admissions)
 df$date <- as.Date(df$date)
 df$cases[is.na(df$cases)] <- 0
 df$deaths[is.na(df$deaths)] <- 0
