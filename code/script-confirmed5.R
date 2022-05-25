@@ -92,6 +92,7 @@ df$cases[is.na(df$cases)] <- 0
 df$deaths[is.na(df$deaths)] <- 0
 df$cum_cases[is.na(df$cum_cases)] <- 0
 df$cum_deaths[is.na(df$cum_deaths)] <- 0
+
 cat("Input file:", dim(df), "\n")
 countries <- unique(df$ISO3)
 for (i in countries) {
