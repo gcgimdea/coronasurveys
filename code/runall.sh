@@ -42,7 +42,7 @@ Run script-nsum-regions.R
 Run script-nsum-country-region-1.R
 Run script-nsum-country-region-2.R
 
-#Run script-nsum-provinces-map.R
+Run script-nsum-provinces-map.R
 Run script-nsum-provinces-plot.R
 
 # The estimates based on fatalities use the Oxford official data. Has to be changes if using JHU
