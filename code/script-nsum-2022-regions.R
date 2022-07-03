@@ -279,7 +279,7 @@ for (co in 1:length(countries)){
   
   country_iso <- countries[co]
 
-cat("Country ", country_iso, " region daily script run at ", as.character(Sys.time()), "\n\n")
+cat("\n*** Country ", country_iso, " region daily script run at ", as.character(Sys.time()), "\n\n")
 
 #list of regions
 region_tree <- read.csv(data_path, as.is = T)
@@ -291,12 +291,15 @@ regions <- unique(region_tree$regioncode)
 
 file_path <- paste0(responses_path, country_iso, "-aggregate.csv")
 dt <- read.csv(file_path, as.is = T)
-cat("Received ", nrow(dt), " responses\n\n")
 names(dt) <- tolower(names(dt))
 
 #list of dates
 dates_dash <- as.character(seq.Date(start_date, Sys.Date(), by = "days"))
 dates <- gsub("-","/", dates_dash)
+
+#Filter by dates
+dt$timestamp <- as.Date(dt$timestamp)
+dt <- dt[which(dt$timestamp >= start_date-max_age), ]
 
 dt <- remove_outliers(dt, cases_cutoff, fatalities_cutoff)
 
@@ -305,7 +308,7 @@ dw <- data.frame()
 for (i in 1:length(regions)){
   reg <- regions[i]
   cat("Processing", reg, #region_names[i], 
-      "\n")
+      "... ")
   rt <- region_tree[region_tree$regioncode == reg,]
   pop <- sum(rt$population)
   dd <- process_region(dt[dt$iso.3166.2 == reg, ], reg, # name=region_names[i], 

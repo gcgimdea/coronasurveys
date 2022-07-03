@@ -19,10 +19,10 @@ Run script-confirmed5.R
 # Run script-umd_batch_symptom_country.R
 # Run script-umd_batch_symptom_region.R
 
-# UMD estimates from the microdata
-Run script-umd-country-v5.R
-Run script-umd-region-v4.R
-Run script-umd-age-v3.R
+# UMD estimates from the microdata -- Disabled since there is no new data after 2022-06-25
+# Run script-umd-country-v5.R
+# Run script-umd-region-v4.R
+# Run script-umd-age-v3.R
 
 # Run script-umd-regions-plot.R
 
