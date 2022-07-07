@@ -16,15 +16,15 @@ countries <- c("AR", "AU", "BR", "CA", "CH", "CL", "CY", "DE", "EC", "FI",
 # countries <- c("AU", "BR", "CA", "CH", "CL", "CY", "DE", "EC", "ES", "FI", "FR",
 #                "GB", "GR", "HU", "IN", "IT", "JP", "NL", "PL", "PT", "RO", "RU", "UA", "US")
 ci_level <- 0.95
-cases_cutoff <- 3/4 # 1/2 changed on 2022-04-12
-fatalities_cutoff <- 1/2
-recent_cutoff <- 3/4 # 1/2 changed on 2022-04-12
+cases_cutoff <- 1 # 3/4 # 1/2 changed on 2022-04-12
+fatalities_cutoff <- 3/4 # 1/2
+recent_cutoff <- 1 # 3/4 # 1/2 changed on 2022-04-12
 
-max_responses <- 100
-max_age <- 1000
-max_age_recent <- 7
-sampling <- 10000 # If the reach is < population/sampling the estimate is NA
-sampling_recent <- 50000 # If the reach is < population/sampling_recent the estimate is NA
+max_responses <- 300
+max_age <- 100
+max_age_recent <- 14
+sampling <- 100000 # If the reach is < population/sampling the estimate is NA
+sampling_recent <- 100000 # If the reach is < population/sampling_recent the estimate is NA
 
 
 remove_outliers <- function(dt, ratio_cutoff=1/3, fatalities_cutoff=1/10) {
