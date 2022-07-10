@@ -56,12 +56,25 @@
 library(data.table); 'Imports successful'
 
 regions_tree_file <- "../data/common-data/regions-tree-population.csv"
-region_path <- "../data/estimates-nsum/regions/"
-estimates_path <- "../data/estimates-nsum/PlotData/"
+region_path <- "../data/estimates-nsum-2022/PlotData/regional_data/"
+estimates_path <- "../data/estimates-nsum-2022/PlotData/"
 
 # countries <- commandArgs(trailingOnly=TRUE)
-countries <- c("AR", "AU", "BR", "CA", "CH", "CL", "CY", "DE", "EC", "FI", 
-               "GB", "GR", "HU", "IN", "JP", "NL", "PL", "PT", "RO", "RU", "UA", "US")
+# countries <- c("AR", "AU", "BR", "CA", "CH", "CL", "CY", "DE", "EC", "FI", 
+#                "GB", "GR", "HU", "IN", "JP", "NL", "PL", "PT", "RO", "RU", "UA", "US")
+countries <- c(
+    "ES"
+    ,"DE"
+    ,"IT"
+    ,"FR"
+    ,"GB"
+    ,"PT"
+    ,"GR"
+    ,"US"
+    ,"CL"
+    ,"ZA"
+    ,"JP"
+)
 
 # resources
 # rtp = regions-tree-population.csv
@@ -109,12 +122,13 @@ get_regions <- function(countrycode) {
     data <- list()
 
     for (region in regions) {
+        cat(region,"...")
         region.data <- get_region_data(countrycode, region)
         if ( typeof(region.data) == 'list' ) { data[[region]] <- region.data }
     }
 
     data
-
+    
 }
 
 
@@ -147,7 +161,7 @@ combine_data <- function(data) {
 
     for (region in region_names) {
 
-        region.data <- data[[region]][, c(8:17)]  # (b)
+        region.data <- data[[region]][, c(8:22)]  # (b)
 
         weight <- as.numeric(
             region_populations[which(region_names == region)]
@@ -221,6 +235,7 @@ go <- function() {
 
     # countries <- commandArgs(trailingOnly=TRUE)
     for (country in countries) {
+        cat("\n", country,"...")
         main(country)  # main routine
         print(paste('Process complete for', country))
     }

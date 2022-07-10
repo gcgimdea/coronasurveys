@@ -314,6 +314,8 @@ for (i in 1:length(regions)){
   dd <- process_region(dt[dt$iso.3166.2 == reg, ], reg, # name=region_names[i], 
                        pop, dates, max_responses, max_age, recent_max_age)
   #cat("- Writing estimates for:", reg, region_names[i], "\n")
+  dir.create(paste0(estimates_path, country_iso, "/"), showWarnings = F)
+  write.csv(dd, paste0(estimates_path, country_iso, "/", reg, "-estimate.csv"), row.names = FALSE)
   dw <- rbind(dw, dd)
 }
 write.csv(dw, paste0(estimates_path, country_iso, "-estimate.csv"), row.names = FALSE)
