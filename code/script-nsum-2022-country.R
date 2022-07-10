@@ -144,6 +144,7 @@ combine_data <- function(data) {
     
     # (a)
     region_names <- names(data)
+    cat(names(data))
     region_populations <- c()
 
     for (region in region_names) {

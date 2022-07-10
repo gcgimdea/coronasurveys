@@ -1,41 +1,45 @@
+# <!-- Copyright {{ 2021 }} {{ IMDEA Networks Institute }} -->
+# <!-- Author {{ Oluwasegin Ojo, Antonio Fernández Anta }} {{https://coronasurveys.org/}} -->
+# <!-- Licensed under the Apache License, Version 2.0 (the "License"); -->
+# <!-- you may not use this file except in compliance with the License. -->
+# <!-- You may obtain a copy of the License at -->
+#
+# <!-- http://www.apache.org/licenses/LICENSE-2.0 -->
+#
+# <!-- Unless required by applicable law or agreed to in writing, software -->
+# <!-- distributed under the License is distributed on an "AS IS" BASIS, -->
+# <!-- WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express -->
+# <!-- or implied. See the License for the specific language governing -->
+# <!-- permissions and limitations under the License. -->
 library(tidyr)
 library(dplyr)
 # install.packages("xtable")
 library("xtable")
 
 responses_path <- "../data/aggregate/"
-data_path <- "../data/common-data/regions-tree-population.csv"
+data_path <- "../data/common-data/provinces-tree-population.csv"
 estimates_path <- "../data/estimates-nsum-2022/PlotData/regional_data/"
 
 # responses_path <- "../coronasurveys/data/aggregate/"
 # data_path <- "../coronasurveys/data/common-data/regions-tree-population.csv"
-# estimates_path <- "./estimates-regions/"
+# estimates_path <- "./estimates-provinces/"
 
 start_date <- as.Date("2022-07-01")
 
-countries <- c(
-"DE"
-,"GB"
-,"PT"
-,"GR"
-,"US"
-,"CL"
-,"ZA"
-,"JP"
-)
-
+countries <- c("ES", "FR", "IT")
 ci_level <- 0.95
 cases_cutoff <- 1 # 3/4 # 1/2 changed on 2022-04-12
 fatalities_cutoff <- 3/4 # 1/2
 recent_cutoff <- 1 # 3/4 # 1/2 changed on 2022-04-12
 
-max_responses <- 300
+max_responses = 300
 max_age <- 30
 max_age_recent <- 14
 sampling <- 100000 # If the reach is < population/sampling the estimate is NA
 sampling_recent <- 100000 # If the reach is < population/sampling_recent the estimate is NA
 
-remove_outliers <- function(dt, ratio_cutoff, fatalities_cutoff) {
+
+remove_outliers <- function(dt, ratio_cutoff=1/3, fatalities_cutoff) {
   cat("Total responses :", nrow(dt), "\n")
     #remove outliers of reach.
   dt <- dt[!is.na(dt$reach),]
@@ -45,7 +49,7 @@ remove_outliers <- function(dt, ratio_cutoff, fatalities_cutoff) {
   
   #Compute cutoffs
   reach_cutoff <- boxplot.stats(dt$reach, coef=1.5)$stats[5] # changed cutoff to upper fence
-  
+
   # dt$ratio <- dt$cases/dt$reach
   # cases_cutoff <- boxplot.stats(dt$ratio, coef=1.5)$stats[5] # changed cutoff to upper fence
   # 
@@ -93,9 +97,7 @@ process_ratio <- function(dt, numerator, denominator, control){
 }
 
 
-process_region <- function(dt, reg, 
-                           # name, 
-                           pop, dates, max_responses, max_age, recent_max_age){
+process_region <- function(dt, reg, name, pop, dates, max_responses, max_age, recent_max_age){
   cat("Working with", nrow(dt), "responses\n"  )
 
   region <- c()
@@ -109,12 +111,12 @@ process_region <- function(dt, reg,
   #p_infected_error <- c()
   p_infected_low <- c()
   p_infected_high <- c()
-
+  
   p_fatalities <- c()
   #p_fatalities_error <- c()
   p_fatalities_low <- c()
   p_fatalities_high <- c()
-
+  
   p_recent <- c()
   #p_recent_error <- c()
   p_recent_low <- c()
@@ -140,7 +142,7 @@ process_region <- function(dt, reg,
     #Remove duplicated cookies keeping the most recent response
     dt_date <- dt_date[!duplicated(dt_date$cookie, fromLast=TRUE, incomparables = c("")),]
     
-    # #Keep all the responses of the day or at most max_responses
+    #Keep all the responses of the day or at most max_responses
     # nr <- nrow(dt[as.Date(dt_date$timestamp) == as.Date(j), ])
     # dt_date <- tail(dt_date, max(max_responses,nr))
     #Keep at most max_responses
@@ -185,7 +187,7 @@ process_region <- function(dt, reg,
       p_fatalities_low <- c(p_fatalities_low, NA)
       p_fatalities_high <- c(p_fatalities_high, NA)
     }
-
+    
     if (sum(dt_recent$reach) >= pop/sampling_recent){
       est <- process_ratio(dt_recent, "recentcases", "reach", "cases")
       p_recent <- c(p_recent, est$val)
@@ -241,12 +243,12 @@ process_region <- function(dt, reg,
                    #p_infected_error,
                    p_infected_low,
                    p_infected_high,
-
+                   
                    p_fatalities,
                    #p_fatalities_error,
                    p_fatalities_low,
                    p_fatalities_high,
-
+                   
                    p_recent,
                    #p_recent_error,
                    p_recent_low,
@@ -268,15 +270,13 @@ process_region <- function(dt, reg,
 }
 
 
-
-
-################################## Start of main body
+#### Start of main body
 
 for (co in 1:length(countries)){
   
   country_iso <- countries[co]
 
-cat("\n*** Country ", country_iso, " region daily script run at ", as.character(Sys.time()), "\n\n")
+cat("\n*** Country ", country_iso, " province daily script run at ", as.character(Sys.time()), "\n\n")
 
 #list of regions
 region_tree <- read.csv(data_path, as.is = T)
@@ -284,10 +284,13 @@ names(region_tree) <- tolower(names(region_tree))
 region_tree <- region_tree[which(region_tree$countrycode==country_iso),]
 region_tree$population <- as.numeric(region_tree$population)
 region_tree <- region_tree[which(!is.na(region_tree$population)),]
-regions <- unique(region_tree$regioncode)
+regions <- region_tree$provincecode
+# region_names <- region_tree$regionname
+populations <- region_tree$population
 
 file_path <- paste0(responses_path, country_iso, "-aggregate.csv")
 dt <- read.csv(file_path, as.is = T)
+cat("Received ", nrow(dt), " responses\n\n")
 names(dt) <- tolower(names(dt))
 
 #list of dates
@@ -298,18 +301,15 @@ dates <- gsub("-","/", dates_dash)
 dt$timestamp <- as.Date(dt$timestamp)
 dt <- dt[which(dt$timestamp >= start_date-max_age), ]
 
-dt <- remove_outliers(dt, cases_cutoff, fatalities_cutoff)
+dt <- remove_outliers(dt, ratio_cutoff, fatalities_cutoff)
 
 dw <- data.frame()
 
 for (i in 1:length(regions)){
   reg <- regions[i]
-  cat("Processing", reg, #region_names[i], 
-      "... ")
-  rt <- region_tree[region_tree$regioncode == reg,]
-  pop <- sum(rt$population)
-  dd <- process_region(dt[dt$iso.3166.2 == reg, ], reg, # name=region_names[i], 
-                       pop, dates, max_responses, max_age, recent_max_age)
+  cat("Processing", reg, region_names[i], "\n")
+  dd <- process_region(dt[dt$iso.3166.2 == reg, ], reg, name=region_names[i], pop=populations[i], 
+                       dates, max_responses, max_age, recent_max_age)
   #cat("- Writing estimates for:", reg, region_names[i], "\n")
   dir.create(paste0(estimates_path, country_iso, "/"), showWarnings = F)
   write.csv(dd, paste0(estimates_path, country_iso, "/", reg, "-estimate.csv"), row.names = FALSE)
@@ -317,8 +317,13 @@ for (i in 1:length(regions)){
 }
 write.csv(dw, paste0(estimates_path, country_iso, "-estimate.csv"), row.names = FALSE)
 
+# for (j in 1:length(dates)){
+#   write.csv(dw[dw$date == dates[j], ], paste0(estimates_path, country_iso, "/", country_iso, "-", dates_dash[j], "-estimate.csv"), row.names = FALSE)
+# }
+
 dw_latest <- dw[dw$date == dates[length(dates)], ]
 rownames(dw_latest) <- NULL
 write.csv(dw_latest, paste0(estimates_path, country_iso, "-latest-estimate.csv"), row.names = FALSE)
-}
+# print(xtable(dw_latest), type="html", file=paste0(estimates_path, country_iso, "/", country_iso, "-latest-estimate.html"))
 
+}
