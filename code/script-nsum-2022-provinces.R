@@ -307,7 +307,7 @@ dw <- data.frame()
 
 for (i in 1:length(regions)){
   reg <- regions[i]
-  cat("Processing", reg, region_names[i], "\n")
+  cat("Processing", reg, "\n")
   dd <- process_region(dt[dt$iso.3166.2 == reg, ], reg, name=region_names[i], pop=populations[i], 
                        dates, max_responses, max_age, recent_max_age)
   #cat("- Writing estimates for:", reg, region_names[i], "\n")
