@@ -134,26 +134,36 @@ df_umd$date <- as.Date(df_umd$date)
 #                         basis_dim = smooth_param,
 #                         link_in = "log")
 
-df_umd$p_cli_smooth_low <- df_umd$p_cli_smooth - df_umd$p_cli_CI_smooth
-df_umd$p_cli_smooth_high <- df_umd$p_cli_smooth + df_umd$p_cli_CI_smooth
-df_umd$p_cli_local_smooth_low <- df_umd$p_cli_local_smooth - df_umd$p_cli_local_CI_smooth
-df_umd$p_cli_local_smooth_high <- df_umd$p_cli_local_smooth + df_umd$p_cli_local_CI_smooth
+# df_umd$p_cli_smooth_low <- df_umd$p_cli_smooth - df_umd$p_cli_CI_smooth
+# df_umd$p_cli_smooth_high <- df_umd$p_cli_smooth + df_umd$p_cli_CI_smooth
+# df_umd$p_cli_local_smooth_low <- df_umd$p_cli_local_smooth - df_umd$p_cli_local_CI_smooth
+# df_umd$p_cli_local_smooth_high <- df_umd$p_cli_local_smooth + df_umd$p_cli_local_CI_smooth
 
 df_umd <- df_umd[df_umd$date >= ymd(start_date),]
 
 # colors <- c("Nuevos casos" = "red", "recent_c" = "red", "sick_c" = "blue", "Sintomáticos" = "blue")
 p1 <- ggplot(data = df_umd, aes(x = date, color = ""))  +
   # geom_point(aes(y = p_cli*100000, color = "UMD CLI"), alpha = 0.5, size = 2) +
-  geom_line(aes(y = p_cli_smooth*100000, color = "UMD CLI"),
+  # geom_line(aes(y = p_cli_smooth*100000, color = "UMD CLI"),
+  #           linetype = "solid", size = 1, alpha = 0.6) +
+  # geom_ribbon(aes(ymin = p_cli_smooth_low*100000,
+  #                 ymax = p_cli_smooth_high*100000),
+  #             alpha = 0.1, color = "green", size = 0.1, fill = "green") +
+  geom_line(aes(y = p_cli*100000, color = "UMD CLI"),
             linetype = "solid", size = 1, alpha = 0.6) +
-  geom_ribbon(aes(ymin = p_cli_smooth_low*100000,
-                  ymax = p_cli_smooth_high*100000),
+  geom_ribbon(aes(ymin = p_cli_low*100000,
+                  ymax = p_cli_high*100000),
               alpha = 0.1, color = "green", size = 0.1, fill = "green") +
   # geom_point(aes(y = p_cli_local*100000, color = "UMD CLI Indirect"), alpha = 0.5, size = 2) +
-  geom_line(aes(y = p_cli_local_smooth*100000, color = "UMD CLI Indirect"),
+  # geom_line(aes(y = p_cli_local_smooth*100000, color = "UMD CLI Indirect"),
+  #           linetype = "solid", size = 1, alpha = 0.6) +
+  # geom_ribbon(aes(ymin = p_cli_local_smooth_low*100000,
+  #                 ymax = p_cli_local_smooth_high*100000),
+  #             alpha = 0.1, color = "red", size = 0.1, fill = "red") +
+  geom_line(aes(y = p_cli_local*100000, color = "UMD CLI Indirect"),
             linetype = "solid", size = 1, alpha = 0.6) +
-  geom_ribbon(aes(ymin = p_cli_local_smooth_low*100000,
-                  ymax = p_cli_local_smooth_high*100000),
+  geom_ribbon(aes(ymin = p_cli_local_low*100000,
+                  ymax = p_cli_local_high*100000),
               alpha = 0.1, color = "red", size = 0.1, fill = "red") +
   # geom_point(aes(y = p_anosmia*100000, color = "UMD anosmia"),
   #            alpha = 0.5, size = 2) +
