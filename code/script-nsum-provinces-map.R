@@ -14,7 +14,7 @@ estimates_path <- "../data/estimates-nsum/provinces/"
 # estimates_path <- "./estimates-provinces/"
 
 
-carto_base <- sf::read_sf(paste0(data_path, "Provincias_ETRS89_30N/")) # descragado de https://www.arcgis.com/home/item.html?id=83d81d9336c745fd839465beab885ab7
+carto_base <- sf::read_sf(paste0(data_path, "Provincias_ETRS89_30N/")) # descargado de https://www.arcgis.com/home/item.html?id=83d81d9336c745fd839465beab885ab7
 iso_texto <- read.csv(paste0(data_path, "iso-texto-provincias.csv"), as.is = T)
 carto_base <- left_join(carto_base, iso_texto)
 
