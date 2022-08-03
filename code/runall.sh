@@ -46,7 +46,7 @@ Run script-nsum-provinces-map.R
 Run script-nsum-provinces-plot.R
 
 # Computation since July 2022
-Run script-nsum-2022-provinces.R
+# Run script-nsum-2022-provinces.R
 Run script-nsum-2022-regions.R
 Run script-nsum-2022-country.R
 
