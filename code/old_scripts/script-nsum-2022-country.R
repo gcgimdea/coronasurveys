@@ -1,28 +1,25 @@
-#!/usr/bin/env Rscript
-
 # <!-- Copyright {{ 2021 }} {{ IMDEA Networks Institute }} -->
 # <!-- Author {{ Ananth Venkatesh, Antonio Fernández Anta }} {{https://coronasurveys.org/}} -->
-# <!-- Licensed under the Apache License, Version 2.0 (the 'License'); -->
+# <!-- Licensed under the Apache License, Version 2.0 (the "License"); -->
 # <!-- you may not use this file except in compliance with the License. -->
 # <!-- You may obtain a copy of the License at -->
 #
 # <!-- http://www.apache.org/licenses/LICENSE-2.0 -->
 #
 # <!-- Unless required by applicable law or agreed to in writing, software -->
-# <!-- distributed under the License is distributed on an 'AS IS' BASIS, -->
+# <!-- distributed under the License is distributed on an "AS IS" BASIS, -->
 # <!-- WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express -->
 # <!-- or implied. See the License for the specific language governing -->
 # <!-- permissions and limitations under the License. -->
 
-
-# USAGE: `Rscript script-nsum-2022-country.R <countrycode1> <countrycode2> ...`*
-# OUTPUT: ../data/estimates-nsum/PlotData/{countrycode}-estimate.csv
-# *usage has been modified to remove arguments when run from the server
+#!/usr/bin/env Rscript
+# USAGE: `Rscript script-nsum-country-region-2.R <countrycode1> <countrycode2> ...`
+# OUTPUT: ../data/estimates-nsum/PlotData//{countrycode}-estimate.csv
 
 
 # This script fetches the necessary data from 
 # (1) ../data/common-data/regions-tree-population.csv
-# (2) ../data/estimates-nsum/regions/{countrycode}-estimate.csv
+# (2) ../data/estimates-nsum/regions/{countrycode}/{regioncode}-estimate.csv
 #
 # and adds* all the regional estimates together to generate estimates at the 
 # national level. Only statistics that are available at the regional levels are 
@@ -56,29 +53,27 @@
 
 
 # imports
-library(data.table)
-library(parallel)
-'Imports successful'
+library(data.table); 'Imports successful'
 
-regions_tree_file <- '../data/common-data/regions-tree-population.csv'
-region_path <- '../data/estimates-nsum-2022/PlotData/regional_data/'
-estimates_path <- '../data/estimates-nsum-2022/PlotData/'
-write_path <- estimates_path
-
-# for testing
-# regions_tree_file <- 'https://raw.githubusercontent.com/GCGImdea/coronasurveys/master/data/common-data/regions-tree-population.csv'
-# region_path <- 'https://raw.githubusercontent.com/GCGImdea/coronasurveys/master/data/estimates-nsum-2022/PlotData/regional_data/'
-# estimates_path <- 'https://raw.githubusercontent.com/GCGImdea/coronasurveys/master/data/estimates-nsum-2022/PlotData/'
-# write_path <- './data/'
+regions_tree_file <- "../data/common-data/regions-tree-population.csv"
+region_path <- "../data/estimates-nsum-2022/PlotData/regional_data/"
+estimates_path <- "../data/estimates-nsum-2022/PlotData/"
 
 # countries <- commandArgs(trailingOnly=TRUE)
-# countries <- c('AR', 'AU', 'BR', 'CA', 'CH', 'CL', 'CY', 'DE', 'EC', 'FI', 
-#                'GB', 'GR', 'HU', 'IN', 'JP', 'NL', 'PL', 'PT', 'RO', 'RU', 'UA', 'US')
+# countries <- c("AR", "AU", "BR", "CA", "CH", "CL", "CY", "DE", "EC", "FI", 
+#                "GB", "GR", "HU", "IN", "JP", "NL", "PL", "PT", "RO", "RU", "UA", "US")
 countries <- c(
-    'ES', 'DE', 'IT',
-    'FR', 'GB', 'PT',
-    'GR', 'US', 'CL',
-    'ZA', 'JP'
+    "ES"
+    ,"DE"
+    ,"IT"
+    ,"FR"
+    ,"GB"
+    ,"PT"
+    ,"GR"
+    ,"US"
+    ,"CL"
+    ,"ZA"
+    ,"JP"
 )
 
 # resources
@@ -103,7 +98,7 @@ find_regions <- function(country) {
 get_region_data <- function(country, region) {
 
     # Produces a data.table object containing all the data 
-    # for the region provided--uses region folders in (2)
+    # for the region provided--uses (2)
 
     out <- tryCatch(
         {fread(paste(
@@ -117,33 +112,6 @@ get_region_data <- function(country, region) {
 
 }
 
-get_country_data <- function(country) {
-
-    # Produces a data.table object containing all the data 
-    # for the country provided--uses (2)
-
-    out <- tryCatch(
-        {fread(paste(
-            region_path, country, '-estimate.csv',
-        sep=''))},
-        error=function(e) return(NA)
-    )
-
-    regions <- find_regions(country)
-    data <- list()
-
-    for (regioncode in regions) {
-        # cat(region,'...')
-        region.data <- out[region == regioncode]
-        if ( typeof(region.data) == 'list' && dim(region.data)[1] > 0 ) { 
-            data[[regioncode]] <- region.data 
-        }
-    }
-
-    return(data)
-
-}
-
 get_regions <- function(countrycode) {
 
     # STRUCTURE:
@@ -154,7 +122,7 @@ get_regions <- function(countrycode) {
     data <- list()
 
     for (region in regions) {
-        # cat(region,'...')
+        cat(region,"...")
         region.data <- get_region_data(countrycode, region)
         if ( typeof(region.data) == 'list' ) { data[[region]] <- region.data }
     }
@@ -176,7 +144,7 @@ combine_data <- function(data) {
     
     # (a)
     region_names <- names(data)
-    # cat(names(data))
+    cat(names(data))
     region_populations <- c()
 
     for (region in region_names) {
@@ -234,7 +202,7 @@ make_csv <- function(data, countrycode) {
     write.table(
         data, 
         file=paste(
-            write_path, 
+            estimates_path, 
             countrycode, 
             '-estimate.csv', 
         sep=''), 
@@ -256,12 +224,9 @@ main <- function(countrycode) {
     # combine_data (combine data)
     # out (dump data)
 
-    # cat('\n', countrycode,'...')
-    # regional <- get_regions(countrycode)
-    country.data <- get_country_data(countrycode)
-    combined <- combine_data(country.data)
+    regional <- get_regions(countrycode)
+    combined <- combine_data(regional)
     make_csv(combined, countrycode)
-    # print(paste('Process complete for', countrycode))
 
 }
 
@@ -270,7 +235,13 @@ main <- function(countrycode) {
 go <- function() {
 
     # countries <- commandArgs(trailingOnly=TRUE)
-    invisible(mclapply(countries, main))
+    for (country in countries) {
+        cat("\n", country,"...")
+        main(country)  # main routine
+        print(paste('Process complete for', country))
+    }
+
+    print('Exited with 0')
 
 }
 
