@@ -48,7 +48,7 @@ Run script-nsum-provinces-plot.R
 # Computation since July 2022
 # Run script-nsum-2022-provinces.R
 Run script-nsum-2022-regions.R
-Run script-nsum-2022-country.R
+Run script-nsum-2022-country-v2.R
 
 # The estimates based on fatalities use the Oxford official data. Has to be changes if using JHU
 Run script-ccfr-fatalities-country.R
