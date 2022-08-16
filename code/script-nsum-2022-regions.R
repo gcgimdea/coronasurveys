@@ -147,6 +147,11 @@ process_region <- function(
   p_fatalities_low <- c()
   p_fatalities_high <- c()
 
+  p_hospital <- c()
+  #p_hospital_error <- c()
+  p_hospital_low <- c()
+  p_hospital_high <- c()
+  
   p_recent <- c()
   #p_recent_error <- c()
   p_recent_low <- c()
@@ -217,7 +222,13 @@ process_region <- function(
       #p_fatalities_error <- c(p_fatalities_error, est$error)
       p_fatalities_low <- c(p_fatalities_low, est$low)
       p_fatalities_high <- c(p_fatalities_high, est$high)
-
+      
+      est <- process_ratio(dt_date, 'hospital', 'reach', 'cases')
+      p_hospital <- c(p_hospital, est$val)
+      #p_hospital_error <- c(p_hospital_error, est$error)
+      p_hospital_low <- c(p_hospital_low, est$low)
+      p_hospital_high <- c(p_hospital_high, est$high)
+      
     } else {
 
       # cat('Low reach\n')
@@ -225,10 +236,16 @@ process_region <- function(
       # p_infected_error <- c(p_infected_error, NA)
       p_infected_low <- c(p_infected_low, NA)
       p_infected_high <- c(p_infected_high, NA)
+      
       p_fatalities <- c(p_fatalities, NA)
       # p_fatalities_error <- c(p_fatalities_error, NA)
       p_fatalities_low <- c(p_fatalities_low, NA)
       p_fatalities_high <- c(p_fatalities_high, NA)
+      
+      p_hospital <- c(p_hospital, NA)
+      # p_hospital_error <- c(p_hospital_error, NA)
+      p_hospital_low <- c(p_hospital_low, NA)
+      p_hospital_high <- c(p_hospital_high, NA)
 
     }
 
@@ -292,6 +309,10 @@ process_region <- function(
     # p_fatalities_error,
     p_fatalities_low, p_fatalities_high,
 
+    p_hospital,
+    # p_hospital_error,
+    p_hospital_low, p_hospital_high,
+    
     p_recent,
     # p_recent_error,
     p_recent_low, p_recent_high,
