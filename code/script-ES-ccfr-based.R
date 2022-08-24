@@ -13,7 +13,7 @@ c_cfr_error <- 0.05
 c_cfr_estimate_range <- c(c_cfr_baseline-c_cfr_error, c_cfr_baseline+c_cfr_error)
 
 estimates_path <- "../data/estimates-ccfr-based/ES/"
-data_path <- "https://raw.githubusercontent.com/GCGImdea/coronasurveys/master/data/common-data/regions-tree-population.csv"
+data_path <- "https://raw.githubusercontent.com/GCGImdea/coronasurveys/master/data/common-data/provinces-tree-population.csv"
 casesurl <- "https://raw.githubusercontent.com/datadista/datasets/master/COVID%2019/ccaa_covid19_datos_isciii_nueva_serie.csv"
 deathsurl <- "https://raw.githubusercontent.com/datadista/datasets/master/COVID%2019/ccaa_covid19_fallecidos_por_fecha_defuncion_nueva_serie_long.csv"
 
