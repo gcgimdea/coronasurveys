@@ -1,9 +1,25 @@
+
+#!/usr/bin/env Rscript
+
+# <!-- Copyright {{ 2021 }} {{ IMDEA Networks Institute }} -->
+# <!-- Author {{ Ananth Venkatesh, Oluwasegun Ojo, Antonio Fernández Anta }} {{https://coronasurveys.org/}} -->
+# <!-- Licensed under the Apache License, Version 2.0 (the 'License'); -->
+# <!-- you may not use this file except in compliance with the License. -->
+# <!-- You may obtain a copy of the License at -->
+#
+# <!-- http://www.apache.org/licenses/LICENSE-2.0 -->
+#
+# <!-- Unless required by applicable law or agreed to in writing, software -->
+# <!-- distributed under the License is distributed on an 'AS IS' BASIS, -->
+# <!-- WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express -->
+# <!-- or implied. See the License for the specific language governing -->
+# <!-- permissions and limitations under the License. -->
+
 # load libraries
 library(parallel)
 library(tidyr)
 library(dplyr)
-library('xtable')  # install.packages('xtable')  
-
+library('xtable')  # install.packages('xtable')
 
 # resource identifiers
 responses_path <- '../data/aggregate/'
@@ -37,7 +53,6 @@ max_age <- 30
 max_age_recent <- 14
 sampling <- 100000  # If the reach is < population/sampling the estimate is NA
 sampling_recent <- 100000  # If the reach is < population/sampling_recent the estimate is NA
-
 
 # helper functions
 remove_outliers <- function(dt, ratio_cutoff, fatalities_cutoff) {
