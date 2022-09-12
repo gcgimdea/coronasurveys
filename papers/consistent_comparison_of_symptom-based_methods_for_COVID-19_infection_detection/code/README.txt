@@ -1,0 +1,2 @@
+Applying_Other_Methods_CI_Symp: Both of them compute, for 2020 and 2021, each of the models defined in the literature 100 times, with 100 division of train and test where we are able to create the confidence interval. Then we save the metrics F1, sensitivity, specificity and precision for each loop in a dataframe.
+Applying_Other_Methods_CI_Symp_Zoabi: This was made to correct a certain error in the creation of the Zoabi metrics paper and just save this method.
