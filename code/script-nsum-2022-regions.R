@@ -39,8 +39,8 @@ recent_cutoff <- 1  # 3/4 # 1/2 changed on 2022-04-12
 max_responses <- 300
 max_age <- 30
 max_age_recent <- 14
-sampling <- 100000  # If the reach is < population/sampling the estimate is NA
-sampling_recent <- 100000  # If the reach is < population/sampling_recent the estimate is NA
+sampling <- 500000  # If the reach is < population/sampling the estimate is NA
+sampling_recent <- 500000  # If the reach is < population/sampling_recent the estimate is NA
 
 
 # helper functions
