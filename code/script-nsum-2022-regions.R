@@ -36,7 +36,7 @@ cases_cutoff <- 1  # 3/4 # 1/2 changed on 2022-04-12
 fatalities_cutoff <- 3/4 # 1/2
 recent_cutoff <- 1  # 3/4 # 1/2 changed on 2022-04-12
 
-max_responses <- 300
+max_responses <- 100
 max_age <- 30
 max_age_recent <- 14
 sampling <- 500000  # If the reach is < population/sampling the estimate is NA
