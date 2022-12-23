@@ -56,7 +56,7 @@ Run script-ccfr-fatalities-country.R
 Run script-ccfr-based-v4.R
 # Run script-ES-ccfr-based.R
 
-Run script-rivas-arganda-daily.R
+# Run script-rivas-arganda-daily.R
 
 # Run script-liverpool-daily.R
 
