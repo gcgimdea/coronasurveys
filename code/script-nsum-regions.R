@@ -11,10 +11,8 @@ estimates_path <- "../data/estimates-nsum/regions/"
 # data_path <- "../coronasurveys/data/common-data/regions-tree-population.csv"
 # estimates_path <- "./estimates-regions/"
 
-countries <- c("AR", "AU", "BR", "CA", "CH", "CL", "CY", "DE", "EC", "FI", 
+countries <- c("AR", "AU", "BR", "CA", "CH", "CL", "CN", "CY", "DE", "EC", "FI", 
                "GB", "GR", "HU", "IN", "JP", "NL", "PL", "PT", "RO", "RU", "UA", "US")
-# countries <- c("AU", "BR", "CA", "CH", "CL", "CY", "DE", "EC", "ES", "FI", "FR",
-#                "GB", "GR", "HU", "IN", "IT", "JP", "NL", "PL", "PT", "RO", "RU", "UA", "US")
 ci_level <- 0.95
 cases_cutoff <- 1 # 3/4 # 1/2 changed on 2022-04-12
 fatalities_cutoff <- 3/4 # 1/2
