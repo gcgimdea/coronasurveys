@@ -60,7 +60,7 @@ region_path <- "../data/estimates-nsum/regions/"
 estimates_path <- "../data/estimates-nsum/PlotData/"
 
 # countries <- commandArgs(trailingOnly=TRUE)
-countries <- c("AR", "AU", "BR", "CA", "CH", "CL", "CY", "DE", "EC", "FI", 
+countries <- c("AR", "AU", "BR", "CA", "CH", "CL", "CN", "CY", "DE", "EC", "FI", 
                "GB", "GR", "HU", "IN", "JP", "NL", "PL", "PT", "RO", "RU", "UA", "US")
 
 # resources
