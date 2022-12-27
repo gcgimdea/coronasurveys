@@ -13,7 +13,8 @@ estimates_path <- "../data/estimates-300responses/PlotData/"
 source("smooth_column-v2.R")
 smooth_param <- 30
 
-cases_cutoff <- 1/2
+#cases_cutoff <- 1/2 # Changed on 2022-12-27
+cases_cutoff <- 0.9
 
 get_countries_with_survey <- function(path = responses_path){
   #get list of countries with surveys
