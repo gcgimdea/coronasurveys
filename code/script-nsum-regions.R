@@ -11,6 +11,7 @@ estimates_path <- "../data/estimates-nsum/regions/"
 # data_path <- "../coronasurveys/data/common-data/regions-tree-population.csv"
 # estimates_path <- "./estimates-regions/"
 
+large_countries <- c("BR", "CN", "IN", "JP", "RU", "US") # More than 100M. Added on 2022-12-27
 countries <- c("AR", "AU", "BR", "CA", "CH", "CL", "CN", "CY", "DE", "EC", "FI", 
                "GB", "GR", "HU", "IN", "JP", "NL", "PL", "PT", "RO", "RU", "UA", "US")
 ci_level <- 0.95
@@ -21,8 +22,9 @@ recent_cutoff <- 1 # 3/4 # 1/2 changed on 2022-04-12
 max_responses <- 300
 max_age <- 100
 max_age_recent <- 14
-sampling <- 100000 # If the reach is < population/sampling the estimate is NA
-sampling_recent <- 100000 # If the reach is < population/sampling_recent the estimate is NA
+# sampling values set below. Changed in 2022-12-27
+#sampling <- 100000 # If the reach is < population/sampling the estimate is NA
+#sampling_recent <- 100000 # If the reach is < population/sampling_recent the estimate is NA
 
 
 remove_outliers <- function(dt, ratio_cutoff=1/3, fatalities_cutoff=1/10) {
@@ -222,6 +224,14 @@ for (co in 1:length(countries)){
   country_iso <- countries[co]
 
 cat("Country ", country_iso, " region daily script run at ", as.character(Sys.time()), "\n\n")
+
+if (country_iso %in% large_countries){
+  sampling <- 1000000 # If the reach is < population/sampling the estimate is NA
+  sampling_recent <- 1000000 # If the reach is < population/sampling_recent the estimate is NA
+} else {
+  sampling <- 100000 # If the reach is < population/sampling the estimate is NA
+  sampling_recent <- 100000 # If the reach is < population/sampling_recent the estimate is NA
+}
 
 if (!file.exists(paste0(estimates_path, country_iso))){
   dir.create(paste0(estimates_path, country_iso))
