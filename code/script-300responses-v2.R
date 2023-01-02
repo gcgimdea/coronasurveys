@@ -267,11 +267,8 @@ get_spain_region_based_rosa <- function(country_geoid = "ES",
   }
 }
 
-# interest <- c("ES", "IT", "FR",
-# "AR", "AU", "BR", "CA", "CH", "CL", "CY", "DE", "EC", "FI",  
-#               "GB", "GR", "HU", "IN", "JP", "NL", "PL", "PT", "RO", "RU", "UA", "US")
 interest <- c("ES", "IT", "FR",
-              "AU", "BR", "CA", "CH", "CL", "CN", "CY", "DE", "EC", "FI",  
+              "AR", "AU", "BR", "CA", "CH", "CL", "CN", "CY", "DE", "EC", "FI",  
               "GB", "GR", "HU", "IN", "JP", "NL", "PL", "PT", "RO", "RU", "UA", "US")
 dd <- sapply(interest, get_spain_region_based_rosa, write_file = T)
 
