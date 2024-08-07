@@ -51,9 +51,10 @@ Run script-nsum-2022-regions.R
 Run script-nsum-2022-country-v2.R
 
 # The estimates based on fatalities use the Oxford official data. Has to be changes if using JHU
-Run script-ccfr-fatalities-country.R
+# Commented on 2024-08-07
+#Run script-ccfr-fatalities-country.R
+#Run script-ccfr-based-v4.R
 
-Run script-ccfr-based-v4.R
 # Run script-ES-ccfr-based.R
 
 # Run script-rivas-arganda-daily.R
