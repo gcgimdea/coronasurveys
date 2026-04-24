@@ -82,7 +82,7 @@ First, there are several folders corresponding to different stages:
 
 	- April 2022-Dicember 2023 --> with relative control, it begins to be treated as an endemic disease.
 
-	- January 2024-present --> normalization and ongoing surveillance.
+	- January 2024-August 2025 --> normalization and ongoing surveillance.
 
 
 Upon entering any of these folders, you will find subfolders named CC-aggregate, where CC corresponds to the country’s ISO code. These subfolders contain the data for all countries included in that specific stage.
